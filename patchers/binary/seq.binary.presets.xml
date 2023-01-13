@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "seq.binary.presets">
+	<slot number = "1" name = "clave-son">
+		<patcher name = "m">
+			<pattr name = "sequence" value = "1. 0. 0. 1. 0. 0. 1. 0. 0. 0. 1. 0. 1. 0. 0. 0." />
+			<pattr name = "steps" value = "16" />
+			<pattr name = "playback/inputmode" value = "index" />
+			<pattr name = "playback/outputmode" value = "accum_event" />
+			<pattr name = "playback/triggermode" value = "change" />
+			<pattr name = "seed" value = "37416." />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+</pattrstorage>
+

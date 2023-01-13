@@ -1,0 +1,1 @@
+max objectfile mc.seq.8sequence~ mc.wrapper~ seq.8sequence~;

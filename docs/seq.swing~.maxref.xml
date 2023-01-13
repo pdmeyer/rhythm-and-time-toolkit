@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="seq.swing~">
+<metadatalist>
+<metadata name="author">Philip Meyer</metadata>
+<metadata name="tag">sequencing</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="subdiv" get="1" set="1" size="1" type="float64">
+<digest>The number of segments the input phasor will be divided into before swing is applied to every other segment</digest>
+</attribute>
+<attribute name="depth" get="1" set="1" size="1" type="float64">
+<digest>Amount of swing to apply to the input phasor.</digest>
+</attribute>
+</attributelist>
+<description>Swing is a clock modifier that creates a “swing” or “shuffle” rhythmic feel.</description>
+<digest>Create variations in clock speed for shuffle.</digest>
+<seealsolist>
+    <seealsolist>
+        <seealso name="seq.feel~" />
+        <seealso name="swing~" />
+        <seealso name="twist~" />
+        <seealso name="shape~" />
+    </seealsolist>
+</seealsolist>
+</c74object>

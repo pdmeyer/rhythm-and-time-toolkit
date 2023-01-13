@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="seq.onepulse~">
+<metadatalist>
+<metadata name="author">Philip Meyer</metadata>
+<metadata name="tag">sequencing</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="outputmode" get="1" set="1" size="1" type="float64">
+    <digest>Determines what is output from the first outlet when the object triggers an event. For steps with no event, the output will always be 0.</digest>
+    <attributelist>
+        <attribute name="default" get="1" set="1" type="int" size="1" value="4" />
+        <attribute name="enumvals" get="1" set="1" type="atom" size="2">
+            <enumlist>
+                <enum name="gate">
+                    <description>
+                        The value 1 for the duration of the step.            
+                    </description>
+                </enum>
+                <enum name="count">
+                    <description>
+                        A running count of the number of events.
+                    </description>
+                </enum>
+            </enumlist>
+        </attribute>
+        <attribute name="label" get="1" set="1" type="symbol" size="1" value="Output Mode" />
+        <attribute name="style" get="1" set="1" type="symbol" size="1" value="enumindex" />
+    </attributelist>
+</attribute>
+</attributelist>
+<description>Like the Max object <o>onebang</o>, but for trigger signals, <o>seq.onepulse~</o> ignores impulses to the first inlet until an impulse has been received at the second inlet.</description>
+<digest>Gate triggers using a trigger.</digest>
+<seealsolist>
+    <seealsolist>
+        <seealso name="seq.rlogic~" />
+    </seealsolist>
+</seealsolist>
+</c74object>

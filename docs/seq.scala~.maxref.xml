@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="seq.scala~">
+<metadatalist>
+<metadata name="author">Philip Meyer</metadata>
+<metadata name="tag">sequencing</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+<method name="scale-list"><digest>message input</digest><description>message input</description></method>
+<method name="in2"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="referencefreq" get="1" set="1" size="1" type="float64">
+<digest>The frequency to which <at>referencenote</at> will be tuned.</digest>
+</attribute>
+<attribute name="referencekey" get="1" set="1" size="1" type="float64">
+<digest>The “reference note” in a Scala KBM file. Sets the reference note which is to be tuned to the <at>referencekey</at>. By default, this is MIDI note 69.</digest>
+</attribute>
+<attribute name="basekey" get="1" set="1" size="1" type="float64">
+<digest>The “middle note” in a Scala KBM file.  This is the note that corresponds to the first scale degree. More information on KBM can be found at <a href="https://www.huygens-fokker.org/scala/help.htm#mappings">https://www.huygens-fokker.org/scala/help.htm#mappings</a></digest>
+</attribute>
+</attributelist>
+<description>Use <o>seq.scala~</o> to conform MIDI note values to any scala using a Scala file. </description>
+<digest>Map MIDI note values to any scale</digest>
+<seealsolist>
+    <seealsolist>
+        <seealso name="mtof~" />
+    </seealsolist>
+</seealsolist>
+</c74object>

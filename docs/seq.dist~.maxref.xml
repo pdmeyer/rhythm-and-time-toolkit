@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="seq.dist~">
+<metadatalist>
+<metadata name="author">Philip Meyer</metadata>
+<metadata name="tag">sequencing</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+<method name="probabilities"><digest>message input</digest><description>message input</description></method>
+<method name="in2"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="offset" get="1" set="1" size="1" type="float64">
+<digest>Shifts the entire output range</digest>
+</attribute>
+</attributelist>
+<description>seq.dist~ takes in a list of floating-point numbers and outputs integer values between 1 and the length of the input list. It applies a weighted probability function to the input floating point numbers to decide which index value to output.</description>
+<digest>Select values using probabilities</digest>
+<seealsolist>
+    <seealsolist>
+        <seealso name="seq.sequence~" />
+    </seealsolist>
+</seealsolist>
+</c74object>

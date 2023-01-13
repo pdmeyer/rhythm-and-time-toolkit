@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="seq.makecc~">
+<metadatalist>
+<metadata name="author">Philip Meyer</metadata>
+<metadata name="tag">sequencing</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="range" get="1" set="1" size="1" type="float64">
+<digest>Specifies whether the signal into the first inlet are on the range of 0 to 1 or 0 to 127.</digest>
+</attribute>
+<attribute name="controller" get="1" set="1" size="1" type="float64">
+<digest>MIDI controller number to transmit messages on.</digest>
+</attribute>
+<attribute name="autointerval" get="1" set="1" size="1" type="float64">
+<digest>When <at>auto</at> is enabled, sets the minimum amount of time in milliseconds between sampling events.</digest>
+</attribute>
+<attribute name="auto" get="1" set="1" size="1" type="float64">
+<digest>When enabled, value changes to the first inlet can be sampled and output automatically. </digest>
+</attribute>
+<attribute name="channel" get="1" set="1" size="1" type="float64">
+<digest>Channel to transmit MIDI messages on.</digest>
+</attribute>
+</attributelist>
+<description>seq.makecc samples audio signals between 0. and 1. and outputs  MIDI CC messages. The object can be configured to sample automatically when the note value changes, or sampling can be triggered with an impulse to the second inlet.</description>
+<digest>Convert signals to MIDI control change</digest>
+<seealsolist>
+    <seealsolist>
+        <seealso name="seq.snap~" />
+        <seealso name="seq.makenote~" />
+        <seealso name="ctlout" />
+    </seealsolist>
+</seealsolist>
+</c74object>

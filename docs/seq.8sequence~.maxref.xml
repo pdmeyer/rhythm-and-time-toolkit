@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="seq.8sequence~">
+<metadatalist>
+<metadata name="author">Philip Meyer</metadata>
+<metadata name="tag">sequencing</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+<method name="in2"><digest>message input</digest><description>message input</description></method>
+<method name="sequence"><digest>message input</digest><description>message input</description></method>
+<method name="voicenumber"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="s/offset" get="1" set="1" size="1" type="float64">
+<digest>Shifts the sequence after scaling according to <at>high</at> and <at>low</at></digest>
+</attribute>
+<attribute name="s/low" get="1" set="1" size="1" type="float64">
+<digest>Sets the lower bound of sequence.</digest>
+</attribute>
+<attribute name="s/high" get="1" set="1" size="1" type="float64">
+<digest>Sets the upper bound of the sequence</digest>
+</attribute>
+<attribute name="s/stepsize" get="1" set="1" size="1" type="float64">
+<digest>Shifts the sequence after scaling according to <at>high</at> and <at>low</at></digest>
+</attribute>
+</attributelist>
+<description>There are 9 sets of the four attributes listed below. The ones without a number, such as  <at>s/stepsize</at> are global and will affect all of the sequences, while those that include a number, such as <at>s/1/1stepsize</at> control a single sequence.</description>
+<digest>Eight seq.sequence~ objects in one</digest>
+<!--SEEALSO-->
+<seealsolist>
+    <seealsolist>
+        <seealso name="seq.sequence~" />
+        <seealso name="stash~" />
+    </seealsolist>
+</seealsolist>
+</c74object>

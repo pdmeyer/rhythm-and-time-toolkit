@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="seq.loop~">
+<metadatalist>
+<metadata name="author">Philip Meyer</metadata>
+<metadata name="tag">sequencing</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+<method name="drunk2"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="syncupdate" get="1" set="1" size="1" type="float64">
+<digest>When enabled, changes to parameters are deferred until the phasor wraps.</digest>
+</attribute>
+<attribute name="subdivmode" get="1" set="1" size="1" type="float64">
+<digest>Determines whether <at>steps</at> or <at>subdiv</at> determines the pattern length. </digest>
+</attribute>
+<attribute name="drunk2plus" get="1" set="1" size="1" type="float64">
+<digest>When <at>direction</at> is drunk2, this determines the probability that the counter will step downward (toward <at>ceiling</at>).</digest>
+</attribute>
+<attribute name="drunk2equals" get="1" set="1" size="1" type="float64">
+<digest>When <at>direction</at> is drunk2, this determines the probability that the counter will stay on the current step.</digest>
+</attribute>
+<attribute name="drunk2minus" get="1" set="1" size="1" type="float64">
+<digest>When <at>direction</at> is drunk2, this determines the probability that the counter will step downward (toward 0).</digest>
+</attribute>
+<attribute name="regionlength" get="1" set="1" size="1" type="float64">
+<digest>Length of the ramp subregion to loop, quantized to the <at>subdiv</at> steps.</digest>
+</attribute>
+<attribute name="regionstart" get="1" set="1" size="1" type="float64">
+<digest>Starting phase of the ramp subregion, quantized to the <at>subdiv</at> steps.</digest>
+</attribute>
+<attribute name="steps" get="1" set="1" size="1" type="float64">
+<digest>Number of steps to count. When <at>steps</at> is greater than the absolute value of <at>ceiling</at> minus <at>floor</at>, the counter wraps around. Also determines the subdivision when <at>subdivmode</at> is ‘polyrhythmic’.</digest>
+</attribute>
+<attribute name="subdiv" get="1" set="1" size="1" type="float64">
+<digest>When <at>subdivmode</at> is ‘polymetric’, determines the length of a single step as a subdivision of the input phasor. </digest>
+</attribute>
+<attribute name="direction" get="1" set="1" size="1" type="float64">
+<digest>Sets the behavior of the first outlet’s the step counter.</digest>
+</attribute>
+</attributelist>
+<description>seq.loop~ is a step counter driven by a phasor signal with several counting modes. For a version of seq.loop~ designed to work with counter and trigger signals, see <o>seq.counter~</o></description>
+<digest>Convert a phasor signal into a step counter</digest>
+<!--SEEALSO-->
+<seealsolist>
+    <seealsolist>
+        <seealso name="seq.counter~" />
+        <seealso name="subdiv~" />
+        <seealso name="what~" />
+        <seealso name="rate~" />
+    </seealsolist>
+</seealsolist>
+</c74object>

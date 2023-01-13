@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="seq.clock~">
+<metadatalist>
+<metadata name="author">Philip Meyer</metadata>
+<metadata name="tag">sequencing</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="bpm" get="1" set="1" size="1" type="float64">
+<digest>Tempo in beats per minute</digest>
+</attribute>
+<attribute name="syncupdate" get="1" set="1" size="1" type="float64">
+<digest>syncupdate</digest>
+</attribute>
+<attribute name="transportstate" get="1" set="1" size="1" type="float64">
+<digest>Turns the phasor on or off</digest>
+</attribute>
+<attribute name="barlength" get="1" set="1" size="1" type="float64">
+<digest>Number of beats per phasor ramp.</digest>
+</attribute>
+</attributelist>
+<description><o>seq.clock~</o> is similar to the phasor~ object, but has a dedicated transport control and accepts timing values in beats per minute. Unlike <o>seq.bar~</o>, <o>seq.clock~</o> allows you to change the clock speed using a signal.</description>
+<digest>Generate sawtooth signals in beats per minute.</digest>
+<seealsolist>
+    <seealsolist>
+        <seealso name="seq.bar~" />
+        <seealso name="phasor~" />
+    </seealsolist>
+</seealsolist>
+</c74object>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="seq.divs~">
+<metadatalist>
+<metadata name="author">Philip Meyer</metadata>
+<metadata name="tag">audio</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+<method name="in2"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="countsync" get="1" set="1" size="1" type="float64">
+<digest>When enabled, the first outlet’s step counter will reset each time the input phasor wraps.</digest>
+</attribute>
+<attribute name="syncupdate" get="1" set="1" size="1" type="float64">
+<digest>When enabled, changes to parameters are deferred until the phasor wraps.</digest>
+</attribute>
+</attributelist>
+<description>seq.divs~ works like the subdiv~, but takes a list of values to be used on successive phasor signals.</description>
+<digest>Subdivide phasor ramps sequentially</digest>
+<seealsolist>
+    <seealsolist>
+        <seealso name="seq.blocks~" />
+        <seealso name="subdiv~" />
+    </seealsolist>
+</seealsolist>
+</c74object>

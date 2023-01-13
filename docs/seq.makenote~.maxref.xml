@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="seq.makenote~">
+<metadatalist>
+<metadata name="author">Philip Meyer</metadata>
+<metadata name="tag">sequencing</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="velocity" get="1" set="1" size="1" type="float64">
+<digest>Default velocity of MIDI notes. This value is overridden by a nonzero signal sent to the third inlet.</digest>
+</attribute>
+<attribute name="duration" get="1" set="1" size="1" type="float64">
+<digest>Sets the default amount of time in milliseconds between note on and note off events when <at>noteoff</at> is enabled. This value is overridden by a nonzero signal sent to the third inlet.</digest>
+</attribute>
+<attribute name="channel" get="1" set="1" size="1" type="float64">
+<digest>Channel to transmit MIDI messages on.</digest>
+</attribute>
+<attribute name="noteoff" get="1" set="1" size="1" type="float64">
+<digest>Determines whether or not the object should automatically schedule note off events for any note on events generated.</digest>
+</attribute>
+<attribute name="autointerval" get="1" set="1" size="1" type="float64">
+<digest>When <at>auto</at> is enabled, sets the minimum amount of time in milliseconds between sampling events.</digest>
+</attribute>
+<attribute name="auto" get="1" set="1" size="1" type="float64">
+<digest>When enabled, value changes to the first inlet can be sampled and output automatically. </digest>
+</attribute>
+</attributelist>
+<description>seq.makenote accepts signals representing a note trigger, note value, velocity, pitch bend and duration and outputs  MIDI note messages. The object can be configured to sample automatically when the note value changes, or sampling can be triggered with an impulse to the second inlet.</description>
+<digest>Convert signals to MIDI notes</digest>
+<seealsolist>
+    <seealsolist>
+        <seealso name="seq.makecc~" />
+        <seealso name="seq.snap~" />
+        <seealso name="mc.midiplayer~" />
+        <seealso name="makenote" />
+        <seealso name="noteout" />
+    </seealsolist>
+</seealsolist>
+</c74object>

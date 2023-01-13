@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="seq.retrig~">
+<metadatalist>
+<metadata name="author">Philip Meyer</metadata>
+<metadata name="tag">sequencing</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+<method name="in7"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="subdiv" get="1" set="1" size="1" type="float64">
+<digest>When <at>subdivmode</at> is ‘polymetric’, determines the length of a single step as a subdivision of the input phasor. </digest>
+</attribute>
+<attribute name="repeats" get="1" set="1" size="1" type="float64">
+<digest>Number of times the input trigger should occur.</digest>
+</attribute>
+<attribute name="auto" get="1" set="1" size="1" type="float64">
+<digest>When disabled (the default), triggers to the first inlet will be retriggered only when the value at the rightmost inlet is nonzero. When enabled all triggers to the first inlet to be retriggered, regardless of the value at the right inlet. </digest>
+</attribute>
+<attribute name="ramplow" get="1" set="1" size="1" type="float64">
+<digest>The bottom of the second outlet’s stepped ramp.</digest>
+</attribute>
+<attribute name="ramphi" get="1" set="1" size="1" type="float64">
+<digest>The top of the second outlet’s stepped ramp.</digest>
+</attribute>
+<attribute name="rampdir" get="1" set="1" size="1" type="float64">
+<digest>Determines whether the stepped ramp from the second outlet goes from low to high or vice versa.</digest>
+</attribute>
+<attribute name="moddepth" get="1" set="1" size="1" type="float64">
+<digest>Amount that a list of floats passed into the seventh inlet modulates the subdivision interval. </digest>
+</attribute>
+<attribute name="outputmode" get="1" set="1" size="1" type="float64">
+    <digest>Determines what is output from the first outlet of the object.</digest>
+    <attributelist>
+        <attribute name="default" get="1" set="1" type="int" size="1" value="0" />
+        <attribute name="enumvals" get="1" set="1" type="atom" size="3">
+            <enumlist>
+                <enum name="trigger">
+                    <digest>
+                        Train of impulses
+                    </digest>
+                    <description>
+                        The initial input trigger and any subsequent retriggers cause impulses to be output from the first outlet.
+                    </description>
+                </enum>
+                <enum name="gate">
+                    <digest>
+                        Boolean gate
+                    </digest>
+                    <description>
+                        A value of 1 is output over the course of the retrig period. When the retrig period ends, the value flips to 0.
+                    </description>
+                </enum>
+                <enum name="count">
+                    <digest>
+                        Running count of triggers
+                    </digest>
+                    <description>
+                        The first outlet produces a running global count of triggers.
+                    </description>
+                </enum>
+            </enumlist>
+        </attribute>
+        <attribute name="label" get="1" set="1" type="symbol" size="1" value="Output Mode" />
+        <attribute name="style" get="1" set="1" type="symbol" size="1" value="enumindex" />
+    </attributelist>
+</attribute>
+<attribute name="transport" get="1" set="1" size="1" type="symbol">
+<digest>Transport</digest>
+<description>This attribute names a master time <o>transport</o>. If internal frequencies are specified using a 'relative' unit (for example: ticks, bars.beats.units, or notevalues), then the named <o>transport</o> is used to determine the frequency based on tempo, time-signature, and other related information. This defaults to the global 'internal' <o>transport</o>, but any named <o>transport</o> can be used.</description>
+</attribute>
+</attributelist>
+<description>Create ratcheting patterns and pulses trains with <o>seq.retrig~</o> A pulse into the first inlet triggers a repeating sequence of pulses. The pulse interval can be modulated using a list.</description>
+<digest>Trigger pulse trains with pulses</digest>
+<seealsolist>
+    <seealsolist>
+        <seealso name="seq.onepulse~" />
+        <seealso name="seq.loop~" />
+    </seealsolist>
+</seealsolist>
+</c74object>

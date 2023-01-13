@@ -40,6 +40,31 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "scale length",
+					"id" : "obj-12",
+					"index" : 4,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 519.0, 751.0, 30.0, 30.0 ],
+					"varname" : "u462003864[3]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 515.0, 243.0, 38.0, 22.0 ],
+					"text" : "zl.reg"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "scale list",
 					"id" : "obj-11",
 					"index" : 2,
@@ -119,7 +144,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 454.25, 767.0, 30.0, 30.0 ],
+					"patching_rect" : [ 461.0, 767.0, 30.0, 30.0 ],
 					"varname" : "u462003864[1]"
 				}
 
@@ -404,7 +429,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "connec to seq.scala~",
+					"comment" : "connect to seq.scala~",
 					"id" : "obj-64",
 					"index" : 1,
 					"maxclass" : "outlet",
@@ -420,6 +445,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-64", 0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -681,8 +713,27 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-10", 1 ],
+					"midpoints" : [ 129.75, 153.5, 543.5, 153.5 ],
+					"order" : 0,
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"order" : 1,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"midpoints" : [ 140.25, 234.0, 524.5, 234.0 ],
+					"order" : 0,
+					"source" : [ "obj-9", 1 ]
 				}
 
 			}
@@ -697,6 +748,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"midpoints" : [ 140.25, 236.0, 334.5, 236.0, 334.5, 152.6641845703125, 263.75, 152.6641845703125 ],
+					"order" : 1,
 					"source" : [ "obj-9", 1 ]
 				}
 

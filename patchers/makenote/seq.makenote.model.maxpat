@@ -193,8 +193,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 311.571192052980109, 47.0, 126.0, 22.0 ],
-					"text" : "prepend send-note-off"
+					"patching_rect" : [ 311.571192052980109, 47.0, 92.0, 22.0 ],
+					"text" : "prepend noteoff"
 				}
 
 			}
@@ -277,15 +277,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 311.571192052980109, 18.0, 224.0, 22.0 ],
+					"patching_rect" : [ 311.571192052980109, 18.0, 190.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 1 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr send-note-off @type char @initial 1",
-					"varname" : "send-note-off"
+					"text" : "pattr noteoff @type char @initial 1",
+					"varname" : "noteoff"
 				}
 
 			}
@@ -383,7 +383,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 245.25, 315.0, 30.0, 30.0 ]
 				}
 

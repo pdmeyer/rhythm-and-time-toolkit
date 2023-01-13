@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 7.0, 218.0, 1016.0, 557.0 ],
+		"rect" : [ 34.0, 218.0, 1016.0, 557.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -187,15 +187,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 563.715686274509835, 253.0, 248.0, 22.0 ],
+					"patching_rect" : [ 563.715686274509835, 253.0, 278.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ "internal" ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr transport @type symbol @initial internal",
-					"varname" : "transport"
+					"text" : "pattr transportname @type symbol @initial internal",
+					"varname" : "transportname"
 				}
 
 			}
@@ -361,7 +361,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 39.014062500000001, 18.000000000000007, 23.999999999999993, 23.999999999999993 ]
 				}
 
@@ -594,7 +594,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 

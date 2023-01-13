@@ -405,7 +405,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 417.499975264072418, 147.457418799400301, 123.0, 22.0 ],
-									"text" : "jit.matrix 3 2 2 float32"
+									"text" : "jit.matrix 3 float32 2 2"
 								}
 
 							}
@@ -979,7 +979,7 @@
 					}
 ,
 					"tabmode" : 0,
-					"text" : "1 1 1",
+					"text" : "1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -1013,7 +1013,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[3]",
+							"parameter_longname" : "live.toggle[2]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[2]",
 							"parameter_type" : 2
@@ -1132,7 +1132,7 @@
 					"patching_rect" : [ 360.666666666666799, 123.5, 36.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 2.0, 75.0, 18.0 ],
-					"text" : "blocks-help",
+					"text" : "blocks1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 

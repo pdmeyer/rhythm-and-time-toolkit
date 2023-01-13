@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,8 +40,8 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "scale size",
-					"id" : "obj-8",
+					"comment" : "sclae length",
+					"id" : "obj-24",
 					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -94,7 +94,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 55.5, 42.0, 30.0, 30.0 ]
 				}
 
@@ -144,7 +144,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 189.0, 46.0, 132.0, 22.0 ],
+					"patching_rect" : [ 189.0, 46.0, 141.0, 22.0 ],
 					"text" : "seq.module.control #1"
 				}
 
@@ -156,7 +156,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 297.0, 74.0, 251.0, 22.0 ],
+					"patching_rect" : [ 311.0, 75.0, 251.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 1057, 45, 1440, 407 ],
 						"parameter_enable" : 0,
@@ -186,15 +186,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-4", 1 ]
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-4", 3 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"source" : [ "obj-4", 3 ]
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-4", 1 ]
 				}
 
 			}

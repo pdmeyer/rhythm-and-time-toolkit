@@ -1,0 +1,36 @@
+{
+	"patcher" : 	{
+		"boxes" : [ 			{
+				"box" : 				{
+					"maxclass" : "scope~",
+					"numoutlets" : 0,
+					"id" : "obj-10",
+					"range" : [ -0.1, 1.1 ],
+					"patching_rect" : [ 10.0, 10.0, 130.0, 130.0 ],
+					"numinlets" : 2
+				}
+
+			}
+ ],
+		"appversion" : 		{
+			"major" : 8,
+			"minor" : 5,
+			"revision" : 0,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "box",
+		"description" : "130 x 130, containing 1 object",
+		"tags" : "audio",
+		"snippetinfo" : 		{
+			"name" : "phasor scope",
+			"objects" : "scope~",
+			"tags" : "audio",
+			"description" : "130 x 130, containing 1 object",
+			"image" : "iVBORw0KGgoAAAANSUhEUgAAAIIAAACCCAYAAACKAxD9AAAABHNCSVQICAgIfAhkiAAAAgRJREFUeJzt3CFu41AUQNHbUQxcUGIanA10Ndl6cKhJSWEH9M0GHBBNdA5/1tfXjY3y3j4/P386aF3Xtm3rfr8ffUSXy6Xb7XZ4/nw+t+9739/fh+a3batq3/dD869wB1V/Dk/yUoRAJQSGEKiEwBAClRAYQqASAkMIVEJgCIFKCAwhUAmBIQQqITCEQCUEhhCohMAQApUQGEKgEgJDCFRCYAiBSggMIVAJgfF2vV4P70fgdZweWdDwCksiLMr45dNAJQSGEKiEwBAClRAYQqASAkMIVEJgCIFKCAwhUAmBIQQqITCEQCUEhhCohMAQApUQGEKgEgJDCFRCYAiBSggMIVAJgXH697fwQ8OnU8uy9Mgzqofml2Xp4+Oj9/f3Q/Pruj50hle4g/JGYJyOLoio31/TsiyHl0zU7y/h0TN8fX09dVHG/34H5Y3AEAKVEBhCoBICQwhUQmAIgUoIDCFQCYEhBCohMIRAJQSGEKiEwBAClRAYQqASAkMIVEJgCIFKCAwhUAmBIQQqITCEQFVv1+v159mH4PlOt9vt8PC6rm3b1v1+P/yMy+XSI2c4n8/t+/7U/Qj/+x2UTwNDCFRCYAiBSggMIVAJgSEEKiEwhEAlBIYQqITAEAKVEBhCoBICQwhUQmAIgUoIDCFQCYEhBCohMIRAJQSGEKiEwBAClRAYfwEkNHx8jucQzgAAAABJRU5ErkJggg=="
+		}
+
+	}
+
+}

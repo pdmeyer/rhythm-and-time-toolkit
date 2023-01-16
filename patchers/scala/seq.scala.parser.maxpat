@@ -83,7 +83,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 120.25, 133.0, 85.0, 22.0 ],
+					"patching_rect" : [ 120.25, 144.0, 85.0, 22.0 ],
 					"text" : "combine s .scl"
 				}
 
@@ -95,7 +95,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 120.25, 107.0, 47.0, 22.0 ],
+					"patching_rect" : [ 120.25, 113.0, 47.0, 22.0 ],
 					"text" : "zl.nth 1"
 				}
 
@@ -156,7 +156,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.25, 162.0, 93.0, 22.0 ],
+					"patching_rect" : [ 120.25, 176.0, 93.0, 22.0 ],
 					"text" : "wclose, read $1"
 				}
 
@@ -714,7 +714,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
-					"midpoints" : [ 129.75, 153.5, 543.5, 153.5 ],
+					"midpoints" : [ 129.75, 172.5, 543.5, 172.5 ],
 					"order" : 0,
 					"source" : [ "obj-8", 0 ]
 				}

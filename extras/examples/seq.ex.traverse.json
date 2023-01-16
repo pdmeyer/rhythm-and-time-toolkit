@@ -1,0 +1,43 @@
+{
+	"pattrstorage" : 	{
+		"name" : "seq.ex.traverse",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"fm_depth" : [ "depth", 0.96 ],
+					"fm_modratio" : [ 0.75 ],
+					"fm_t60" : [ "t60", 0.7 ],
+					"notes" : [ 67, 68, 68, 67, 66, 65, 63, 62, 61, 60, 60, 61, 62, 65, 69, 67 ],
+					"steps" : [ "steps", 4.0 ],
+					"floor" : [ "floor", 14.0 ],
+					"ceiling" : [ "ceiling", 16.0 ],
+					"direction" : [ "direction", "forward" ],
+					"bpm" : [ "bpm", 120.0 ],
+					"scale" : [ "hirajoshi.scl" ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"fm_depth" : [ "depth", 2.32 ],
+					"fm_modratio" : [ 1.67 ],
+					"fm_t60" : [ "t60", 0.3 ],
+					"notes" : [ 67, 65, 68, 64, 66, 65, 66, 67, 62, 66, 64, 63, 65, 67, 69, 67 ],
+					"steps" : [ "steps", 4.0 ],
+					"floor" : [ "floor", 9.0 ],
+					"ceiling" : [ "ceiling", 16.0 ],
+					"direction" : [ "direction", "forward" ],
+					"bpm" : [ "bpm", 145.0 ],
+					"scale" : [ "hirajoshi.scl" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

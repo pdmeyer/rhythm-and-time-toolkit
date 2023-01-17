@@ -1,0 +1,37 @@
+{
+	"patcher" : 	{
+		"boxes" : [ 			{
+				"box" : 				{
+					"maxclass" : "slider",
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 10.0, 10.0, 20.0, 140.0 ],
+					"id" : "obj-177",
+					"parameter_enable" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 1
+				}
+
+			}
+ ],
+		"appversion" : 		{
+			"major" : 8,
+			"minor" : 5,
+			"revision" : 3,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "box",
+		"description" : "20 x 140, containing 1 object",
+		"tags" : "",
+		"snippetinfo" : 		{
+			"name" : "seq.scala~",
+			"objects" : "slider",
+			"tags" : "",
+			"description" : "20 x 140, containing 1 object",
+			"image" : "iVBORw0KGgoAAAANSUhEUgAAABQAAACMCAYAAAB8vIkjAAAABHNCSVQICAgIfAhkiAAAAGJJREFUaIHt2rENgEAMBEEefS1uwCH5039F0IQDS54rYKTNb2XmdxXursSGgjsiSsH+yUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIHA7u57ylYP/kgeByW+0H/pb2BYUJZwx6AAAAAElFTkSuQmCC"
+		}
+
+	}
+
+}

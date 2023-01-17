@@ -84,7 +84,7 @@
 						"rt-probability" : [ 0.342857142857143 ],
 						"rt-repeats" : [ "repeats", 4.0 ],
 						"rt-subdiv" : [ "subdiv", 32.0 ],
-						"steps" : [ "steps", 48.0 ],
+						"steps" : [ "steps", 49.0 ],
 						"variation" : [ "variation", 1.0 ],
 						"windowlength" : [ "windowlength", 0.58 ],
 						"windows" : [ "windows", 12.0 ]
@@ -1356,214 +1356,17 @@
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
-					"embed" : 1,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
 					"id" : "obj-22",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
+					"name" : "seq.xtra.stepgridviewer.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 84.0, 131.0, 640.0, 480.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 1,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-15",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 189.0, 49.0, 22.0 ],
-									"text" : "$1 1 $2"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-13",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "list" ],
-									"patching_rect" : [ 50.0, 165.0, 66.0, 22.0 ],
-									"text" : "listfunnel 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-12",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 123.5, 161.0, 101.0, 22.0 ],
-									"text" : "prepend columns"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-11",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 123.5, 131.0, 37.0, 22.0 ],
-									"text" : "zl.len"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-10",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 113.0, 100.0, 29.5, 22.0 ],
-									"text" : "t l l"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"columns" : 48,
-									"direction" : 0,
-									"id" : "obj-31",
-									"ignoreclick" : 1,
-									"marker_horizontal" : 0,
-									"marker_vertical" : 0,
-									"matrixmode" : 1,
-									"maxclass" : "live.grid",
-									"numinlets" : 2,
-									"numoutlets" : 6,
-									"outlettype" : [ "", "", "", "", "", "" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 123.5, 234.0, 333.00006099999996, 16.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 373.0, 25.0 ],
-									"rows" : 1,
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_invisible" : 1,
-											"parameter_longname" : "live.grid[1]",
-											"parameter_shortname" : "live.grid",
-											"parameter_type" : 3
-										}
-
-									}
-,
-									"varname" : "live.grid[2]"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-21",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 113.0, 40.0, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
-									"source" : [ "obj-10", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-13", 0 ],
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
-									"source" : [ "obj-11", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-31", 0 ],
-									"source" : [ "obj-12", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-15", 0 ],
-									"source" : [ "obj-13", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-31", 0 ],
-									"source" : [ "obj-15", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-10", 0 ],
-									"source" : [ "obj-21", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 217.0, 268.0, 366.0, 28.0 ],
+					"patching_rect" : [ 217.0, 268.0, 376.0, 26.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1941,7 +1744,7 @@
  ],
 		"parameters" : 		{
 			"obj-10" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
-			"obj-22::obj-31" : [ "live.grid[1]", "live.grid", 0 ],
+			"obj-22::obj-31" : [ "live.grid", "live.grid", 0 ],
 			"obj-37" : [ "multislider", "multislider", 0 ],
 			"obj-78" : [ "live.numbox", "live.numbox", 0 ],
 			"parameterbanks" : 			{
@@ -1982,6 +1785,13 @@
 , 			{
 				"name" : "seq.rprob~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.xtra.stepgridviewer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/xtra",
+				"patcherrelativepath" : "../xtra",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0

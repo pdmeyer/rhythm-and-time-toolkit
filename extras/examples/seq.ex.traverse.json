@@ -5,16 +5,17 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
+					"bpm" : [ "bpm", 120.0 ],
+					"ceiling" : [ "ceiling", 16.0 ],
+					"direction" : [ "direction", "forward" ],
+					"floor" : [ "floor", 14.0 ],
 					"fm_depth" : [ "depth", 0.96 ],
 					"fm_modratio" : [ 0.75 ],
 					"fm_t60" : [ "t60", 0.7 ],
+					"live.gain~" : [  ],
 					"notes" : [ 67, 68, 68, 67, 66, 65, 63, 62, 61, 60, 60, 61, 62, 65, 69, 67 ],
-					"steps" : [ "steps", 4.0 ],
-					"floor" : [ "floor", 14.0 ],
-					"ceiling" : [ "ceiling", 16.0 ],
-					"direction" : [ "direction", "forward" ],
-					"bpm" : [ "bpm", 120.0 ],
-					"scale" : [ "hirajoshi.scl" ]
+					"scale" : [ "hirajoshi.scl" ],
+					"steps" : [ "steps", 4.0 ]
 				}
 
 			}
@@ -22,16 +23,53 @@
 			"2" : 			{
 				"id" : 2,
 				"data" : 				{
+					"bpm" : [ "bpm", 145.0 ],
+					"ceiling" : [ "ceiling", 16.0 ],
+					"direction" : [ "direction", "forward" ],
+					"floor" : [ "floor", 9.0 ],
 					"fm_depth" : [ "depth", 2.32 ],
 					"fm_modratio" : [ 1.67 ],
 					"fm_t60" : [ "t60", 0.3 ],
+					"live.gain~" : [  ],
 					"notes" : [ 67, 65, 68, 64, 66, 65, 66, 67, 62, 66, 64, 63, 65, 67, 69, 67 ],
-					"steps" : [ "steps", 4.0 ],
-					"floor" : [ "floor", 9.0 ],
+					"scale" : [ "hirajoshi.scl" ],
+					"steps" : [ "steps", 4.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"bpm" : [ "bpm", 120.0 ],
 					"ceiling" : [ "ceiling", 16.0 ],
-					"direction" : [ "direction", "forward" ],
-					"bpm" : [ "bpm", 145.0 ],
-					"scale" : [ "hirajoshi.scl" ]
+					"direction" : [ "direction", "random" ],
+					"floor" : [ "floor", 1.0 ],
+					"fm_depth" : [ "depth", 0.96 ],
+					"fm_modratio" : [ 0.75 ],
+					"fm_t60" : [ "t60", 0.7 ],
+					"live.gain~" : [ 0.0 ],
+					"notes" : [ 67, 68, 68, 67, 66, 65, 63, 62, 61, 60, 60, 61, 62, 65, 69, 67 ],
+					"scale" : [ "hirajoshi.scl" ],
+					"steps" : [ "steps", 4.0 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"bpm" : [ "bpm", 120.0 ],
+					"ceiling" : [ "ceiling", 16.0 ],
+					"direction" : [ "direction", "drunk" ],
+					"floor" : [ "floor", 10.0 ],
+					"fm_depth" : [ "depth", 0.96 ],
+					"fm_modratio" : [ 0.75 ],
+					"fm_t60" : [ "t60", 0.7 ],
+					"live.gain~" : [ 0.0 ],
+					"notes" : [ 67, 68, 65, 65, 66, 63, 67, 69, 66, 63, 66, 64, 65, 65, 63, 67 ],
+					"scale" : [ "hirajoshi.scl" ],
+					"steps" : [ "steps", 4.0 ]
 				}
 
 			}

@@ -2,6 +2,7 @@
 	"name" : "seq",
 	"type" : "filelist",
 	"contents" : [
+    "seq.8sequence~.maxsnip",
     "seq.bar~.maxsnip",
     "seq.binary~.maxsnip",
     "seq.blocks~.maxsnip",
@@ -27,7 +28,7 @@
     "seq.scala~.maxsnip",
     "seq.sequence~.maxsnip",
     "seq.snap~.maxsnip",
-    "seq.stepgridviewer.maxsnip",
+    "seq.patternviewer.maxsnip",
     "seq.swing~.maxsnip"
     ]
 }

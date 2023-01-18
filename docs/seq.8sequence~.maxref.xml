@@ -24,6 +24,9 @@
 <attribute name="s/stepsize" get="1" set="1" size="1" type="float64">
 <digest>Shifts the sequence after scaling according to <at>high</at> and <at>low</at></digest>
 </attribute>
+<attribute name="s/sustain" get="1" set="1" size="1" type="float64">
+    <digest>Determines what the object outputs when the signal value at the first inlet is 0. If enabled, the sequence value corresponding to the last non-zero signal value is held at the output. If disabled, 0. is output.</digest>
+</attribute>
 </attributelist>
 <description>There are 9 sets of the four attributes listed below. The ones without a number, such as  <at>s/stepsize</at> are global and will affect all of the sequences, while those that include a number, such as <at>s/1/1stepsize</at> control a single sequence.</description>
 <digest>Eight seq.sequence~ objects in one</digest>

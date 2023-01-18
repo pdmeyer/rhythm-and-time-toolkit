@@ -23,6 +23,9 @@
     <attribute name="stepsize" get="1" set="1" size="1" type="float64">
     <digest>Shifts the sequence after scaling according to <at>high</at> and <at>low</at></digest>
     </attribute>
+    <attribute name="s/sustain" get="1" set="1" size="1" type="float64">
+        <digest>Determines what the object outputs when the signal value at the first inlet is 0. If enabled, the sequence value corresponding to the last non-zero signal value is held at the output. If disabled, 0. is output.</digest>
+    </attribute>
     </attributelist>
 <description><o>seq.sequence~</o> takes a list of values and plays them back in response to counter </description>
 <digest>Store and play back lists of values</digest>

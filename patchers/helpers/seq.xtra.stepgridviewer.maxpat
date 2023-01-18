@@ -40,16 +40,15 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontsize" : 12.0,
 					"id" : "obj-2",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 91.5, 129.0, 52.0, 18.0 ],
+					"patching_rect" : [ 91.5, 129.0, 48.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 1.0, 52.0, 18.0 ],
+					"presentation_rect" : [ 1.0, 1.0, 46.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox",
@@ -260,7 +259,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 112.300012199999969, 178.0, 333.00006099999996, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.0, 1.0, 329.0, 18.0 ],
+					"presentation_rect" : [ 49.0, 1.0, 248.0, 15.0 ],
 					"rows" : 1,
 					"saved_attribute_attributes" : 					{
 						"stepcolor" : 						{

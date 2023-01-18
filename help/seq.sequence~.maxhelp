@@ -37,9 +37,305 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"showontab" : 1,
+		"showrootpatcherontab" : 0,
+		"showontab" : 0,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 5,
+							"revision" : 3,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 34.0, 113.0, 800.0, 567.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"showontab" : 1,
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 127.0, 402.0, 182.0, 35.0 ],
+									"text" : "0.506 0.948 1. 1. 0.87 0.415 0.051 0."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"id" : "obj-11",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 270.0, 286.0, 165.0, 24.0 ],
+									"text" : "seq.sequence.ui.maxpat"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-2",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 10.0, 69.599853515625, 505.0, 20.0 ],
+									"text" : "The seq.sequence~ snippet provides a handy UI for the object."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"border" : 0,
+									"filename" : "helpname.js",
+									"id" : "obj-4",
+									"ignoreclick" : 1,
+									"jsarguments" : [ "seq.sequence~" ],
+									"maxclass" : "jsui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 10.0, 10.0, 316.903961181640625, 57.599853515625 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-156",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.sequence.ui.maxpat",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 42.0, 259.0, 226.0, 78.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 612.0, 832.0, 226.0, 80.0 ],
+									"varname" : "sequence",
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
+									"id" : "obj-66",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "" ],
+									"patching_rect" : [ 22.0, 344.833329718978916, 246.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0
+									}
+,
+									"text" : "seq.sequence~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 22.0, 115.0, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-51",
+									"maxclass" : "number~",
+									"mode" : 2,
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "float" ],
+									"patching_rect" : [ 35.0, 203.5, 56.0, 22.0 ],
+									"sig" : 0.0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-46",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
+									"patching_rect" : [ 22.0, 179.0, 187.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0
+									}
+,
+									"text" : "seq.loop~ @steps 12"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-44",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "signal", "signal", "signal", "" ],
+									"patching_rect" : [ 22.0, 144.5, 56.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0
+									}
+,
+									"text" : "seq.bar~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-16",
+									"maxclass" : "number~",
+									"mode" : 2,
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "float" ],
+									"patching_rect" : [ 22.0, 399.0, 56.0, 22.0 ],
+									"sig" : 0.0
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-44", 0 ],
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-66", 1 ],
+									"source" : [ "obj-156", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-66", 0 ],
+									"source" : [ "obj-156", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-46", 0 ],
+									"source" : [ "obj-44", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-51", 0 ],
+									"order" : 0,
+									"source" : [ "obj-46", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-66", 0 ],
+									"order" : 1,
+									"source" : [ "obj-46", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"source" : [ "obj-66", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 1 ],
+									"source" : [ "obj-66", 1 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 89.0, 205.0, 57.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p snippet",
+					"varname" : "basic[1]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
@@ -497,7 +793,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 222.0, 206.0, 58.0, 22.0 ],
+					"patching_rect" : [ 205.0, 206.0, 58.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1110,13 +1406,19 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p basic"
+					"text" : "p basic",
+					"varname" : "basic"
 				}
 
 			}
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-2::obj-156::obj-10" : [ "live.numbox[26]", "live.numbox", 0 ],
+			"obj-2::obj-156::obj-30" : [ "live.numbox[43]", "live.numbox", 0 ],
+			"obj-2::obj-156::obj-31" : [ "live.numbox[44]", "live.numbox", 0 ],
+			"obj-2::obj-156::obj-32" : [ "live.numbox[46]", "live.numbox", 0 ],
+			"obj-2::obj-156::obj-33" : [ "live.numbox[45]", "live.numbox", 0 ],
 			"obj-6::obj-1::obj-18::obj-14" : [ "live.numbox[37]", "live.numbox[19]", 0 ],
 			"obj-6::obj-1::obj-18::obj-2" : [ "live.button[15]", "live.button", 0 ],
 			"obj-6::obj-1::obj-18::obj-38::obj-1" : [ "live.numbox[35]", "live.numbox[19]", 0 ],
@@ -1265,22 +1567,29 @@
 			}
 , 			{
 				"name" : "seq.sequence.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/sequence",
-				"patcherrelativepath" : "../patchers/sequence",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/sequence",
+				"patcherrelativepath" : "../patchers/modules/sequence",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.sequence.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/sequence",
-				"patcherrelativepath" : "../patchers/sequence",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/sequence",
+				"patcherrelativepath" : "../patchers/modules/sequence",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.sequence.ui.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/sequence",
+				"patcherrelativepath" : "../patchers/modules/sequence",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.sequence.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/sequence",
-				"patcherrelativepath" : "../patchers/sequence",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/sequence",
+				"patcherrelativepath" : "../patchers/modules/sequence",
 				"type" : "JSON",
 				"implicit" : 1
 			}

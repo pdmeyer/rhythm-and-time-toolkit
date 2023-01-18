@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 113.0, 641.0, 489.0 ],
+						"rect" : [ 0.0, 26.0, 641.0, 489.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1270,7 +1270,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 641.0, 489.0 ],
+						"rect" : [ 100.0, 113.0, 641.0, 489.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1301,13 +1301,44 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-13",
+									"id" : "obj-2621",
 									"maxclass" : "toggle",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 42.0, 122.0, 24.0, 24.0 ]
+									"patching_rect" : [ 42.0, 136.0, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2622",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "signal", "signal", "signal", "" ],
+									"patching_rect" : [ 42.0, 240.5, 56.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0
+									}
+,
+									"text" : "seq.bar~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"attr" : "bpm",
+									"id" : "obj-5",
+									"maxclass" : "attrui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 74.0, 181.5, 150.0, 22.0 ],
+									"varname" : "bar/bpm"
 								}
 
 							}
@@ -1321,7 +1352,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 223.0, 197.0, 151.0, 54.0 ],
+									"patching_rect" : [ 228.5, 189.5, 151.0, 54.0 ],
 									"text" : "syncupdate 1 defers bpm changes until the next phasor cycle"
 								}
 
@@ -1335,7 +1366,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 66.0, 213.0, 150.0, 22.0 ]
+									"patching_rect" : [ 74.0, 205.5, 150.0, 22.0 ]
 								}
 
 							}
@@ -1352,7 +1383,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 202.0, 124.5, 20.0, 20.0 ],
+									"patching_rect" : [ 209.5, 133.5, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "2",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -1368,7 +1399,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 66.0, 122.0, 134.0, 25.0 ],
+									"patching_rect" : [ 73.5, 131.0, 134.0, 25.0 ],
 									"text" : "start the transport"
 								}
 
@@ -1382,23 +1413,6 @@
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 42.0, 302.0, 184.0, 68.0 ],
 									"range" : [ -0.1, 1.1 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-3",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 42.0, 258.0, 56.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"parameter_enable" : 0,
-										"parameter_mappable" : 0
-									}
-,
-									"text" : "seq.bar~"
 								}
 
 							}
@@ -1464,45 +1478,32 @@
 								}
 
 							}
-, 							{
-								"box" : 								{
-									"attr" : "bpm",
-									"id" : "obj-6",
-									"maxclass" : "attrui",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 66.0, 165.0, 150.0, 22.0 ]
-								}
-
-							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
+									"destination" : [ "obj-2622", 0 ],
 									"source" : [ "obj-10", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"source" : [ "obj-13", 0 ]
+									"destination" : [ "obj-2622", 0 ],
+									"source" : [ "obj-2621", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
-									"source" : [ "obj-3", 0 ]
+									"source" : [ "obj-2622", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"source" : [ "obj-6", 0 ]
+									"destination" : [ "obj-2622", 0 ],
+									"source" : [ "obj-5", 0 ]
 								}
 
 							}
@@ -1577,7 +1578,7 @@
 			}
 , 			{
 				"name" : "Play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/media/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
 				"patcherrelativepath" : "../media/icons",
 				"type" : "svg",
 				"implicit" : 1
@@ -1597,28 +1598,21 @@
 , 			{
 				"name" : "seq.bar.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/bar",
-				"patcherrelativepath" : "../patchers/bar",
+				"patcherrelativepath" : "../../seq-dev/patchers/bar",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.bar.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/bar",
-				"patcherrelativepath" : "../patchers/bar",
+				"patcherrelativepath" : "../../seq-dev/patchers/bar",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.bar.presets.xml",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/bar",
-				"patcherrelativepath" : "../patchers/bar",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.bar.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/bar",
-				"patcherrelativepath" : "../patchers/bar",
+				"patcherrelativepath" : "../../seq-dev/patchers/bar",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1628,36 +1622,36 @@
 			}
 , 			{
 				"name" : "seq.module.attrchecker.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.remote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.viewcontrol.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}

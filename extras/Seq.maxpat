@@ -4249,13 +4249,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-23",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 140.5, 322.0, 118.5, 35.0 ],
-									"text" : "1. 0. 1. 1. 0. 1. 1. 0. 1. 1. 0. 1. 1. 0. 1. 1."
+									"patching_rect" : [ 140.5, 322.0, 118.5, 22.0 ],
+									"text" : "signal"
 								}
 
 							}
@@ -5111,49 +5110,49 @@
 , 			{
 				"name" : "Play.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
-				"patcherrelativepath" : "../../media/icons",
+				"patcherrelativepath" : "../media/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "burst.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
-				"patcherrelativepath" : "../../media/icons",
+				"patcherrelativepath" : "../media/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq-launcher.xml",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/launcher",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/pattrstorage",
+				"patcherrelativepath" : "../misc/pattrstorage",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.bar.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/bar",
-				"patcherrelativepath" : "../../patchers/bar",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/bar",
+				"patcherrelativepath" : "../patchers/modules/bar",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.bar.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/bar",
-				"patcherrelativepath" : "../../patchers/bar",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/bar",
+				"patcherrelativepath" : "../patchers/modules/bar",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.bar.presets.xml",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/bar",
-				"patcherrelativepath" : "../../patchers/bar",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/bar",
+				"patcherrelativepath" : "../patchers/modules/bar",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.bar.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/bar",
-				"patcherrelativepath" : "../../patchers/bar",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/bar",
+				"patcherrelativepath" : "../patchers/modules/bar",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -5168,35 +5167,35 @@
 , 			{
 				"name" : "seq.blocks.blockviewer.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/blocks",
-				"patcherrelativepath" : "../../../seq-dev/patchers/blocks",
+				"patcherrelativepath" : "../../seq-dev/patchers/blocks",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.blocks.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/blocks",
-				"patcherrelativepath" : "../../patchers/blocks",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
+				"patcherrelativepath" : "../patchers/modules/blocks",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.blocks.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/blocks",
-				"patcherrelativepath" : "../../patchers/blocks",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
+				"patcherrelativepath" : "../patchers/modules/blocks",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.blocks.presets.xml",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/dist",
-				"patcherrelativepath" : "../../patchers/dist",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/dist",
+				"patcherrelativepath" : "../patchers/modules/dist",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.blocks.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/blocks",
-				"patcherrelativepath" : "../../patchers/blocks",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
+				"patcherrelativepath" : "../patchers/modules/blocks",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -5214,8 +5213,8 @@
 			}
 , 			{
 				"name" : "seq.launcher.tabs.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/launcher",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/launcher",
+				"patcherrelativepath" : "../patchers/launcher",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -5229,22 +5228,22 @@
 			}
 , 			{
 				"name" : "seq.makenote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/makenote",
-				"patcherrelativepath" : "../../patchers/makenote",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/makenote",
+				"patcherrelativepath" : "../patchers/modules/makenote",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.makenote.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/makenote",
-				"patcherrelativepath" : "../../patchers/makenote",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/makenote",
+				"patcherrelativepath" : "../patchers/modules/makenote",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.makenote.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/makenote",
-				"patcherrelativepath" : "../../patchers/makenote",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/makenote",
+				"patcherrelativepath" : "../patchers/modules/makenote",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -5255,56 +5254,56 @@
 , 			{
 				"name" : "seq.module.attrchecker.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../../patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.control.js",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../../patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.control.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../../patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.remote.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../../patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.viewcontrol.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../../patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.retrig.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/retrig",
-				"patcherrelativepath" : "../../patchers/retrig",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/retrig",
+				"patcherrelativepath" : "../patchers/modules/retrig",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.retrig.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/retrig",
-				"patcherrelativepath" : "../../patchers/retrig",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/retrig",
+				"patcherrelativepath" : "../patchers/modules/retrig",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.retrig.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/retrig",
-				"patcherrelativepath" : "../../patchers/retrig",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/retrig",
+				"patcherrelativepath" : "../patchers/modules/retrig",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -5322,29 +5321,29 @@
 			}
 , 			{
 				"name" : "seq.scala.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/scala",
-				"patcherrelativepath" : "../../patchers/scala",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/scala",
+				"patcherrelativepath" : "../patchers/modules/scala",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.scala.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/scala",
-				"patcherrelativepath" : "../../patchers/scala",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/scala",
+				"patcherrelativepath" : "../patchers/modules/scala",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.scala.parser.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/scala",
-				"patcherrelativepath" : "../../patchers/scala",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/scala",
+				"patcherrelativepath" : "../patchers/modules/scala",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.scala.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/scala",
-				"patcherrelativepath" : "../../patchers/scala",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/scala",
+				"patcherrelativepath" : "../patchers/modules/scala",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -5354,22 +5353,22 @@
 			}
 , 			{
 				"name" : "seq.sequence.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/sequence",
-				"patcherrelativepath" : "../../patchers/sequence",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/sequence",
+				"patcherrelativepath" : "../patchers/modules/sequence",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.sequence.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/sequence",
-				"patcherrelativepath" : "../../patchers/sequence",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/sequence",
+				"patcherrelativepath" : "../patchers/modules/sequence",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.sequence.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/sequence",
-				"patcherrelativepath" : "../../patchers/sequence",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/sequence",
+				"patcherrelativepath" : "../patchers/modules/sequence",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -5380,14 +5379,14 @@
 , 			{
 				"name" : "tri-down.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
-				"patcherrelativepath" : "../../media/icons",
+				"patcherrelativepath" : "../media/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tri-up.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
-				"patcherrelativepath" : "../../media/icons",
+				"patcherrelativepath" : "../media/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}

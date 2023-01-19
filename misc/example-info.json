@@ -1,0 +1,38 @@
+{
+	"seq.help.patternobjects" : 	{
+		"digest" : "Overview of seq's pattern generators."
+	}
+,
+	"seq.help.snippets" : 	{
+		"digest" : "Overview of seq's snippets - pre-built bits of patch to help make your patching faster."
+	}
+,
+	"seq.help.modules" : 	{
+		"digest" : "All about seq's modules, which are complete UI and preset-enabled versions of the seq objects."
+	}
+,
+	"seq.help.signalflow" : 	{
+		"digest" : "An intro to how signals work in seq."
+	}
+,
+	"seq.ex.feel" : 	{
+		"digest" : "An example that uses seq.feel~ to create a loose groove."
+	}
+,
+	"seq.ex.mc" : 	{
+		"digest" : "A multi-track sequencing example made with the MC version of seq~ objects."
+	}
+,
+	"seq.ex.sometimes-retrig" : 	{
+		"digest" : "Combines seq.retrig~ and seq.rprob~ to play back a pattern with occasional ratcheting."
+	}
+,
+	"seq.ex.traverse" : 	{
+		"digest" : "Uses advanced features of seq.counter~ to navigate a melodic pattern."
+	}
+,
+	"seq.ex.seqwith8-3" : 	{
+		"digest" : "seq objects hanging out with some of their best friends,"
+	}
+
+}

@@ -95,7 +95,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 73.0, 333.0, 184.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 282.0, 142.0, 184.0, 24.0 ],
+									"presentation_rect" : [ 292.0, 102.0, 184.0, 24.0 ],
 									"text" : "examples"
 								}
 
@@ -109,7 +109,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 96.0, 156.0, 184.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 53.0, 142.0, 184.0, 24.0 ],
+									"presentation_rect" : [ 63.0, 102.0, 184.0, 24.0 ],
 									"text" : "help patches"
 								}
 
@@ -195,7 +195,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 89.0, 318.0, 176.5, 91.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 282.0, 229.0, 175.5, 88.0 ],
+									"presentation_rect" : [ 292.0, 189.0, 175.5, 88.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -219,7 +219,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 87.0, 212.0, 155.5, 97.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 53.0, 222.0, 172.5, 102.0 ],
+									"presentation_rect" : [ 63.0, 182.0, 172.5, 102.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -394,7 +394,7 @@
 									"patching_rect" : [ 56.0, 177.0, 508.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 3,
-									"presentation_rect" : [ 53.0, 173.0, 209.0, 47.0 ],
+									"presentation_rect" : [ 63.0, 133.0, 209.0, 47.0 ],
 									"text" : "these are help patches for the entire seq package. They help explain how seq works and how to use it."
 								}
 
@@ -410,7 +410,7 @@
 									"patching_rect" : [ 73.0, 364.0, 511.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 282.0, 173.0, 181.0, 33.0 ],
+									"presentation_rect" : [ 292.0, 133.0, 181.0, 33.0 ],
 									"text" : "these show seq in some real-world examples"
 								}
 
@@ -420,15 +420,13 @@
 									"background" : 1,
 									"fontsize" : 12.0,
 									"id" : "obj-21",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 55.0, 508.0, 33.0 ],
+									"patching_rect" : [ 6.0, 55.0, 508.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 6.0, 55.0, 508.0, 33.0 ],
-									"text" : "most seq obects have accompanying abstractions. these provide a UI and support for presets and cues using the pattr system."
+									"presentation_rect" : [ 6.0, 55.0, 508.0, 20.0 ],
+									"text" : "use the patches below to learn more about seq and how it works!"
 								}
 
 							}

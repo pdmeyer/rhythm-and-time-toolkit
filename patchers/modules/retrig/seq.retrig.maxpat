@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 207.0, 169.0, 1199.0, 617.0 ],
+		"rect" : [ 207.0, 169.0, 561.0, 617.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -192,7 +192,7 @@
 					"name" : "seq.retrig.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"offset" : [ 2.0, 2.0 ],
+					"offset" : [ 1.0, 2.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 230.0, 113.0, 146.0, 86.0 ],
 					"presentation" : 1,
@@ -209,7 +209,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 230.0, 46.0, 167.0, 22.0 ],
+					"patching_rect" : [ 230.0, 46.0, 177.0, 22.0 ],
 					"text" : "seq.module.control #1"
 				}
 
@@ -223,10 +223,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 378.0, 73.0, 250.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1057, 45, 1440, 407 ],
+						"client_rect" : [ 809, 112, 1355, 911 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 583, 87, 1081, 651 ]
 					}
 ,
 					"text" : "pattrstorage seq.retrig-presets @savemode 0",

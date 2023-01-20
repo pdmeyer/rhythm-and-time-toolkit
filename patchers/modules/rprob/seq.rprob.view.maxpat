@@ -117,7 +117,7 @@
 									"presentation_rect" : [ 0.900014460086823, 22.5, 29.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.numbox",
+											"parameter_longname" : "live.numbox[108]",
 											"parameter_mmax" : 256.0,
 											"parameter_mmin" : 1.0,
 											"parameter_shortname" : "live.numbox",
@@ -164,7 +164,7 @@
 , 							{
 								"box" : 								{
 									"annotation" : "none",
-									"bgcolor" : [ 0.631372549019608, 0.580392156862745, 0.580392156862745, 0.0 ],
+									"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 									"ghostbar" : 10,
 									"id" : "obj-11",
 									"maxclass" : "multislider",
@@ -175,9 +175,16 @@
 									"patching_rect" : [ 44.449999999999818, 184.5, 177.0, 69.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 33.900014460086823, 0.5, 131.0, 41.0 ],
+									"saved_attribute_attributes" : 									{
+										"bgcolor" : 										{
+											"expression" : "themecolor.live_lcd_bg"
+										}
+
+									}
+,
 									"setminmax" : [ 0.0, 1.0 ],
-									"size" : 115,
-									"slidercolor" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
+									"size" : 8,
+									"slidercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"thickness" : 1
 								}
 
@@ -518,7 +525,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button[8]",
+							"parameter_longname" : "live.button[69]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
@@ -568,7 +575,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 8.0,
 					"id" : "obj-37",
-					"items" : [ "playback/outputmode", ",", "playback/triggermode", ",", "length", ",", "probabilities" ],
+					"items" : [ "outputmode", ",", "triggermode", ",", "length", ",", "probabilities" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -591,7 +598,7 @@
 					"patching_rect" : [ 204.966666666666583, 150.0, 73.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 1.0, 101.0, 18.0 ],
-					"text" : "rprob-help",
+					"text" : "mhelp.rprob",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 

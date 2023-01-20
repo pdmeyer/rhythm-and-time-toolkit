@@ -71,7 +71,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[8]",
+							"parameter_longname" : "live.text[36]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -88,7 +88,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-65",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -115,7 +115,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button[20]",
+							"parameter_longname" : "live.button[58]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
@@ -144,7 +144,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-38",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -182,14 +182,13 @@
 				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-5",
-					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 228.166666666666742, 105.25, 32.0, 40.0 ],
+					"patching_rect" : [ 228.166666666666742, 105.25, 32.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.400014460086823, 0.5, 134.0, 18.0 ],
-					"text" : "euclidean-help",
+					"text" : "#1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -280,7 +279,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 499.0, 453.0, 204.0, 45.0 ],
+									"patching_rect" : [ 389.0, 267.5, 204.0, 45.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.400014460086823, 35.035762675153819, 204.0, 45.0 ],
 									"viewvisibility" : 1
@@ -342,6 +341,7 @@
 									"appearance" : 1,
 									"button" : 1,
 									"id" : "obj-7",
+									"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"maxclass" : "live.tab",
 									"num_lines_patching" : 1,
 									"num_lines_presentation" : 1,
@@ -354,10 +354,14 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 169.640009295940388, 1.635176891717947, 34.0, 14.0 ],
 									"saved_attribute_attributes" : 									{
+										"lcdcolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "-", "+" ],
 											"parameter_invisible" : 2,
-											"parameter_longname" : "trig increment[4]",
+											"parameter_longname" : "trig increment[8]",
 											"parameter_mmax" : 1,
 											"parameter_shortname" : "trig inc",
 											"parameter_type" : 2,
@@ -375,6 +379,7 @@
 									"appearance" : 1,
 									"button" : 1,
 									"id" : "obj-12",
+									"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"maxclass" : "live.tab",
 									"num_lines_patching" : 1,
 									"num_lines_presentation" : 1,
@@ -387,6 +392,10 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 99.200023829936981, 1.635176891717947, 34.0, 14.0 ],
 									"saved_attribute_attributes" : 									{
+										"lcdcolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "-", "+" ],
 											"parameter_invisible" : 2,
@@ -408,6 +417,7 @@
 									"appearance" : 1,
 									"button" : 1,
 									"id" : "obj-165",
+									"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"maxclass" : "live.tab",
 									"num_lines_patching" : 1,
 									"num_lines_presentation" : 1,
@@ -420,10 +430,14 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 30.400014460086823, 1.635176891717947, 34.0, 14.0 ],
 									"saved_attribute_attributes" : 									{
+										"lcdcolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "-", "+" ],
 											"parameter_invisible" : 2,
-											"parameter_longname" : "trig increment[6]",
+											"parameter_longname" : "trig increment[9]",
 											"parameter_mmax" : 1,
 											"parameter_shortname" : "trig inc",
 											"parameter_type" : 2,
@@ -440,6 +454,7 @@
 								"box" : 								{
 									"appearance" : 4,
 									"id" : "obj-34",
+									"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -449,9 +464,13 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 141.200023829936981, 1.135176891717947, 28.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
+										"lcdcolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_initial" : [ 0.0 ],
-											"parameter_longname" : "sequence rotate[2]",
+											"parameter_longname" : "sequence rotate[3]",
 											"parameter_mmax" : 255.0,
 											"parameter_mmin" : -255.0,
 											"parameter_order" : 3,
@@ -471,6 +490,7 @@
 								"box" : 								{
 									"appearance" : 4,
 									"id" : "obj-33",
+									"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -480,6 +500,10 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 71.200023829936981, 1.135176891717947, 28.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
+										"lcdcolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_initial" : [ 3.0 ],
@@ -502,6 +526,7 @@
 								"box" : 								{
 									"appearance" : 4,
 									"id" : "obj-29",
+									"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -511,9 +536,13 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 2.400014460086823, 1.135176891717947, 28.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
+										"lcdcolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_initial" : [ 8 ],
-											"parameter_longname" : "sequence length[1]",
+											"parameter_longname" : "sequence length[2]",
 											"parameter_mmax" : 255.0,
 											"parameter_mmin" : 1.0,
 											"parameter_order" : 2,
@@ -542,7 +571,7 @@
 									"numoutlets" : 6,
 									"outlettype" : [ "", "", "", "", "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 68.660000073909771, 276.5, 278.199999630451202, 12.999999940395355 ],
+									"patching_rect" : [ 100.660000073909771, 267.5, 278.199999630451202, 12.999999940395355 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.400014460086823, 18.135176891717947, 180.239994835853565, 14.900585783435872 ],
 									"rows" : 1,
@@ -552,19 +581,19 @@
 										}
 ,
 										"stepcolor" : 										{
-											"expression" : "themecolor.live_control_selection"
+											"expression" : ""
 										}
 ,
 										"valueof" : 										{
 											"parameter_invisible" : 2,
-											"parameter_longname" : "sequence viewer[12]",
+											"parameter_longname" : "sequence viewer[13]",
 											"parameter_shortname" : "sequence viewer",
 											"parameter_type" : 3
 										}
 
 									}
 ,
-									"stepcolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ],
+									"stepcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"varname" : "live.grid[1]"
 								}
 
@@ -576,7 +605,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "clear", "" ],
-									"patching_rect" : [ 120.500000000000014, 331.0, 135.0, 22.0 ],
+									"patching_rect" : [ 152.5, 322.0, 135.0, 22.0 ],
 									"text" : "seq.module.patternview"
 								}
 
@@ -589,7 +618,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 142.0, 299.999999940395355, 208.0, 22.0 ],
+									"patching_rect" : [ 174.0, 290.999999940395355, 208.0, 22.0 ],
 									"text" : "seq.module.remote pattern @levels 2"
 								}
 
@@ -788,7 +817,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-236", 0 ],
-									"midpoints" : [ 130.0, 372.0, 52.160000073909771, 372.0, 52.160000073909771, 269.0, 78.160000073909771, 269.0 ],
+									"midpoints" : [ 162.0, 363.0, 84.160000073909771, 363.0, 84.160000073909771, 260.0, 110.160000073909771, 260.0 ],
 									"source" : [ "obj-50", 0 ]
 								}
 
@@ -892,6 +921,75 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-2" : [ "live.button[58]", "live.button", 0 ],
+			"obj-28::obj-12" : [ "trig increment[33]", "trig inc", 0 ],
+			"obj-28::obj-165" : [ "trig increment[9]", "trig inc", 0 ],
+			"obj-28::obj-236" : [ "sequence viewer[13]", "sequence viewer", 0 ],
+			"obj-28::obj-29" : [ "sequence length[2]", "steps", 2 ],
+			"obj-28::obj-33" : [ "sequence trigs[1]", "trigs", 1 ],
+			"obj-28::obj-34" : [ "sequence rotate[3]", "rotate", 3 ],
+			"obj-28::obj-3::obj-16" : [ "live.menu[13]", "live.menu", 0 ],
+			"obj-28::obj-3::obj-18" : [ "live.menu[15]", "live.menu", 0 ],
+			"obj-28::obj-3::obj-22" : [ "live.menu[14]", "live.menu", 0 ],
+			"obj-28::obj-7" : [ "trig increment[8]", "trig inc", 0 ],
+			"obj-9" : [ "live.text[36]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "seq.module.patternmodeview.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../../_module-components",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.module.patternview.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module-components",
+				"patcherrelativepath" : "../../../../seq-dev/patchers/_module-components",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.module.remote.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module-components",
+				"patcherrelativepath" : "../../../../seq-dev/patchers/_module-components",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.module.viewcontrol.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module-components",
+				"patcherrelativepath" : "../../../../seq-dev/patchers/_module-components",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tri-down.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
+				"patcherrelativepath" : "../../../media/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tri-up.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
+				"patcherrelativepath" : "../../../media/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.356862745098039, 0.356862745098039, 0.356862745098039, 1.0 ],
 		"editing_bgcolor" : [ 0.356862745098039, 0.356862745098039, 0.356862745098039, 1.0 ]
 	}

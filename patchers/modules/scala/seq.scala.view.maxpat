@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 221.0, 338.0, 515.0, 530.0 ],
+		"rect" : [ 221.0, 336.0, 515.0, 530.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,7 +41,10 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"activebgoncolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
+					"appearance" : 2,
 					"id" : "obj-10",
+					"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -51,9 +54,17 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 125.0, 55.0, 18.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
+						"activebgoncolor" : 						{
+							"expression" : ""
+						}
+,
+						"lcdcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[14]",
+							"parameter_longname" : "live.text[39]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[14]",
 							"parameter_type" : 2
@@ -83,7 +94,9 @@
 			}
 , 			{
 				"box" : 				{
+					"appearance" : 4,
 					"id" : "obj-15",
+					"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -93,8 +106,12 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 36.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"lcdcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[3]",
+							"parameter_longname" : "live.numbox[102]",
 							"parameter_shortname" : "live.numbox[3]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -102,6 +119,7 @@
 
 					}
 ,
+					"textjustification" : 0,
 					"varname" : "live.numbox[3]"
 				}
 
@@ -185,7 +203,9 @@
 			}
 , 			{
 				"box" : 				{
+					"appearance" : 4,
 					"id" : "obj-27",
+					"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -195,8 +215,12 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 36.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"lcdcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[4]",
+							"parameter_longname" : "live.numbox[100]",
 							"parameter_shortname" : "live.numbox[3]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -204,6 +228,7 @@
 
 					}
 ,
+					"textjustification" : 0,
 					"varname" : "live.numbox[2]"
 				}
 
@@ -238,7 +263,9 @@
 			}
 , 			{
 				"box" : 				{
+					"appearance" : 4,
 					"id" : "obj-25",
+					"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -248,8 +275,12 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 97.0, 36.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"lcdcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox",
+							"parameter_longname" : "live.numbox[101]",
 							"parameter_mmax" : 20000.0,
 							"parameter_mmin" : 20.0,
 							"parameter_shortname" : "live.numbox",
@@ -259,6 +290,7 @@
 
 					}
 ,
+					"textjustification" : 0,
 					"varname" : "live.numbox[1]"
 				}
 
@@ -347,7 +379,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button[42]",
+							"parameter_longname" : "live.button[29]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
@@ -433,7 +465,7 @@
 					"patching_rect" : [ 360.666666666666799, 123.5, 41.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 1.0, 76.0, 18.0 ],
-					"text" : "scala-help",
+					"text" : "mhelp.scala",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 

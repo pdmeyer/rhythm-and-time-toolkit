@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -104,7 +104,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -366,8 +366,8 @@
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 66.0, 101.0, 147.0, 22.0 ],
 					"text" : "seq.module.remote length"
 				}
@@ -466,7 +466,7 @@
 					"patching_rect" : [ 498.0, 71.0, 35.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 0.0, 210.0, 18.0 ],
-					"text" : "variation",
+					"text" : "mhelp.dist",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -483,7 +483,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -517,7 +517,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-14",
@@ -902,8 +901,8 @@
 					"id" : "obj-19",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 437.5, 165.0, 144.0, 22.0 ],
 					"text" : "seq.module.remote offset"
 				}
@@ -943,7 +942,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 237.966666666666583, 475.0, 66.0, 22.0 ],
+					"patching_rect" : [ 157.966666666666583, 472.0, 66.0, 22.0 ],
 					"text" : "zl.slice"
 				}
 
@@ -963,7 +962,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "none",
-					"bgcolor" : [ 0.631372549019608, 0.580392156862745, 0.580392156862745, 0.0 ],
+					"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"ghostbar" : 10,
 					"id" : "obj-4",
 					"maxclass" : "multislider",
@@ -973,10 +972,17 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 77.966666666666583, 364.0, 177.0, 69.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 41.0, 256.0, 57.0 ],
+					"presentation_rect" : [ 1.0, 41.0, 256.0, 58.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgcolor" : 						{
+							"expression" : "themecolor.live_lcd_bg"
+						}
+
+					}
+,
 					"setminmax" : [ 0.0, 1.0 ],
 					"size" : 8,
-					"slidercolor" : [ 0.065929934382439, 0.501798808574677, 0.006832201499492, 1.0 ],
+					"slidercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"thickness" : 1
 				}
 
@@ -988,7 +994,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 237.966666666666583, 502.0, 87.0, 22.0 ],
+					"patching_rect" : [ 157.966666666666583, 499.0, 87.0, 22.0 ],
 					"text" : "prepend setlist"
 				}
 
@@ -999,8 +1005,8 @@
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 77.966666666666583, 445.934578657150269, 179.0, 22.0 ],
 					"text" : "seq.module.remote probabilities"
 				}

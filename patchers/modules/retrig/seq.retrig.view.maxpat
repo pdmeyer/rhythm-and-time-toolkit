@@ -47,7 +47,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 339.0, 259.0, 50.0, 22.0 ],
-					"text" : "set 1."
+					"text" : "set 16."
 				}
 
 			}
@@ -104,7 +104,9 @@
 			}
 , 			{
 				"box" : 				{
+					"appearance" : 2,
 					"id" : "obj-21",
+					"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -114,9 +116,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 99.7421875, 22.0, 40.0, 14.5 ],
 					"saved_attribute_attributes" : 					{
+						"lcdcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text",
+							"parameter_longname" : "live.text[40]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -146,8 +152,10 @@
 			}
 , 			{
 				"box" : 				{
+					"appearance" : 1,
 					"fontsize" : 12.0,
 					"id" : "obj-25",
+					"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -159,9 +167,13 @@
 					"presentation_rect" : [ 99.7421875, 62.5, 40.0, 18.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
+						"lcdcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "up", "down" ],
-							"parameter_longname" : "live.menu[18]",
+							"parameter_longname" : "live.menu[30]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.menu",
 							"parameter_type" : 2
@@ -176,8 +188,10 @@
 			}
 , 			{
 				"box" : 				{
+					"appearance" : 1,
 					"fontsize" : 12.0,
 					"id" : "obj-17",
+					"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -189,9 +203,13 @@
 					"presentation_rect" : [ 35.515625, 62.5, 40.0, 18.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
+						"lcdcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "trigger", "gate", "count" ],
-							"parameter_longname" : "live.menu[21]",
+							"parameter_longname" : "live.menu[29]",
 							"parameter_mmax" : 2,
 							"parameter_shortname" : "live.menu",
 							"parameter_type" : 2
@@ -240,7 +258,9 @@
 			}
 , 			{
 				"box" : 				{
+					"appearance" : 4,
 					"id" : "obj-15",
+					"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -250,8 +270,12 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 35.515625, 42.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"lcdcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[6]",
+							"parameter_longname" : "live.numbox[103]",
 							"parameter_mmax" : 500.0,
 							"parameter_shortname" : "live.numbox[2]",
 							"parameter_type" : 0,
@@ -260,13 +284,16 @@
 
 					}
 ,
+					"textjustification" : 0,
 					"varname" : "live.numbox[3]"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"appearance" : 4,
 					"id" : "obj-13",
+					"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -276,8 +303,12 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 99.7421875, 42.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"lcdcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[5]",
+							"parameter_longname" : "live.numbox[104]",
 							"parameter_mmax" : 500.0,
 							"parameter_shortname" : "live.numbox[2]",
 							"parameter_type" : 0,
@@ -286,6 +317,7 @@
 
 					}
 ,
+					"textjustification" : 0,
 					"varname" : "live.numbox[2]"
 				}
 
@@ -294,6 +326,7 @@
 				"box" : 				{
 					"appearance" : 4,
 					"id" : "obj-7",
+					"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -303,8 +336,12 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 70.2421875, 22.0, 26.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"lcdcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[4]",
+							"parameter_longname" : "live.numbox[105]",
 							"parameter_mmax" : 500.0,
 							"parameter_shortname" : "live.numbox[2]",
 							"parameter_type" : 0,
@@ -322,6 +359,7 @@
 				"box" : 				{
 					"appearance" : 4,
 					"id" : "obj-10",
+					"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -331,8 +369,12 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 44.7578125, 22.0, 26.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"lcdcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[3]",
+							"parameter_longname" : "live.numbox[106]",
 							"parameter_mmax" : 500.0,
 							"parameter_shortname" : "live.numbox[2]",
 							"parameter_type" : 0,
@@ -365,7 +407,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button[2]",
+							"parameter_longname" : "live.button[31]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
@@ -451,7 +493,7 @@
 					"patching_rect" : [ 426.666666666666799, 123.5, 41.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 1.0, 74.0, 18.0 ],
-					"text" : "retrig-help",
+					"text" : "mhelp.retrig",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 

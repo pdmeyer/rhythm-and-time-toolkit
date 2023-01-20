@@ -66,7 +66,9 @@
 			}
 , 			{
 				"box" : 				{
+					"appearance" : 2,
 					"id" : "obj-12",
+					"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -77,9 +79,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 113.0, 25.5, 22.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"lcdcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[3]",
+							"parameter_longname" : "live.text[6]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[2]",
 							"parameter_type" : 2
@@ -111,6 +117,7 @@
 				"box" : 				{
 					"appearance" : 4,
 					"id" : "obj-10",
+					"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -120,8 +127,12 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 71.5, 25.5, 39.5, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"lcdcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[2]",
+							"parameter_longname" : "live.numbox[89]",
 							"parameter_mmax" : 5000.0,
 							"parameter_shortname" : "live.numbox[2]",
 							"parameter_type" : 0,
@@ -139,6 +150,7 @@
 				"box" : 				{
 					"appearance" : 2,
 					"id" : "obj-9",
+					"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -150,9 +162,13 @@
 					"presentation_rect" : [ 6.0, 25.5, 39.0, 15.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
+						"lcdcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[2]",
+							"parameter_longname" : "live.text[5]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[2]",
 							"parameter_type" : 2
@@ -184,7 +200,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button[6]",
+							"parameter_longname" : "live.button[3]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
@@ -264,14 +280,14 @@
 				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-5",
-					"linecount" : 2,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 360.666666666666799, 123.5, 25.0, 30.0 ],
+					"patching_rect" : [ 360.666666666666799, 123.5, 25.0, 55.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 2.0, 76.0, 18.0 ],
-					"text" : "bbb",
+					"text" : "mhelp.clock",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 

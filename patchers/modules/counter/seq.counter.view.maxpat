@@ -66,7 +66,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[7]",
+							"parameter_longname" : "live.text[41]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -106,7 +106,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+						"rect" : [ 34.0, 87.0, 734.0, 779.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -349,16 +349,12 @@
 										"bgcolor" : 										{
 											"expression" : "themecolor.live_meter_bg"
 										}
-,
-										"slidercolor" : 										{
-											"expression" : "themecolor.live_control_selection"
-										}
 
 									}
 ,
 									"setminmax" : [ 0.0, 1.0 ],
 									"size" : 3,
-									"slidercolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ],
+									"slidercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"spacing" : 3,
 									"thickness" : 1
 								}
@@ -366,7 +362,9 @@
 							}
 , 							{
 								"box" : 								{
+									"appearance" : 1,
 									"id" : "obj-11",
+									"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"maxclass" : "live.menu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -376,9 +374,13 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 6.0, 24.0, 64.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
+										"lcdcolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "forward", "backward", "random", "drunk1", "drunk2" ],
-											"parameter_longname" : "live.menu[1]",
+											"parameter_longname" : "live.menu[31]",
 											"parameter_mmax" : 4,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2
@@ -436,6 +438,7 @@
 								"box" : 								{
 									"appearance" : 4,
 									"id" : "obj-18",
+									"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -445,8 +448,12 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 108.0, 6.0, 33.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
+										"lcdcolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
-											"parameter_longname" : "live.numbox[1]",
+											"parameter_longname" : "live.numbox[107]",
 											"parameter_mmax" : 256.0,
 											"parameter_shortname" : "live.numbox",
 											"parameter_type" : 0,
@@ -464,6 +471,7 @@
 								"box" : 								{
 									"appearance" : 4,
 									"id" : "obj-14",
+									"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -473,6 +481,10 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 33.0, 6.0, 33.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
+										"lcdcolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_longname" : "live.numbox[14]",
 											"parameter_mmax" : 256.0,
@@ -733,7 +745,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button[6]",
+							"parameter_longname" : "live.button[66]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
@@ -812,14 +824,14 @@
 				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-5",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 470.166666666666686, 121.5, 36.0, 29.0 ],
+					"patching_rect" : [ 470.166666666666686, 121.5, 36.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 1.0, 77.0, 18.0 ],
-					"text" : "loop-help",
+					"text" : "mhelp.counter",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 

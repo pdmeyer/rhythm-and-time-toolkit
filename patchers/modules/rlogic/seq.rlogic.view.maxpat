@@ -59,7 +59,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[16]",
+							"parameter_longname" : "live.text[42]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -151,7 +151,7 @@
 					"patching_rect" : [ 165.0, 108.75, 70.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.400014460086823, 2.0, 69.5, 18.0 ],
-					"text" : "rlogic-help",
+					"text" : "mhelp.rlogic",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -254,8 +254,10 @@
 							}
 , 							{
 								"box" : 								{
+									"appearance" : 1,
 									"fontsize" : 20.0,
 									"id" : "obj-3",
+									"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"maxclass" : "live.menu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -265,9 +267,13 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 3.400014460086823, 2.0, 58.0, 27.0 ],
 									"saved_attribute_attributes" : 									{
+										"lcdcolor" : 										{
+											"expression" : ""
+										}
+,
 										"valueof" : 										{
 											"parameter_enum" : [ "and", "or", "not", "xor", "left", "right" ],
-											"parameter_longname" : "live.menu[19]",
+											"parameter_longname" : "live.menu[32]",
 											"parameter_mmax" : 5,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2

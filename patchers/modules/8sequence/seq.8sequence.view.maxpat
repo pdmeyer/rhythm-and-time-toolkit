@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 926.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 800.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -50,7 +50,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -324,7 +324,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.066666666666667, 0.501960784313725, 0.007843137254902, 0.509803921568627 ],
+					"activebgoncolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"id" : "obj-11",
 					"maxclass" : "live.tab",
 					"num_lines_patching" : 1,
@@ -335,7 +335,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 652.0, 66.0, 140.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 91.5, 1.0, 110.0, 15.0 ],
+					"presentation_rect" : [ 93.5, 2.0, 110.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : ""
@@ -378,7 +378,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -415,7 +415,7 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"annotation" : "none",
-									"bgcolor" : [ 0.631372549019608, 0.580392156862745, 0.580392156862745, 0.0 ],
+									"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 									"ghostbar" : 10,
 									"id" : "obj-4",
 									"maxclass" : "multislider",
@@ -426,9 +426,16 @@
 									"patching_rect" : [ 86.483333000000016, 239.27197265625, 177.0, 69.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 1.0, 2.0, 256.0, 63.0 ],
+									"saved_attribute_attributes" : 									{
+										"bgcolor" : 										{
+											"expression" : "themecolor.live_lcd_bg"
+										}
+
+									}
+,
 									"setminmax" : [ 0.0, 1.0 ],
 									"size" : 8,
-									"slidercolor" : [ 0.066666666666667, 0.501960784313725, 0.007843137254902, 0.51 ],
+									"slidercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"thickness" : 1
 								}
 
@@ -459,7 +466,7 @@
 									"presentation_rect" : [ 259.900013999999999, 2.0, 29.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.numbox[52]",
+											"parameter_longname" : "live.numbox[123]",
 											"parameter_mmax" : 256.0,
 											"parameter_mmin" : 1.0,
 											"parameter_shortname" : "live.numbox[19]",
@@ -554,7 +561,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -711,7 +718,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 1,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1036,7 +1043,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 1,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1284,7 +1291,7 @@
 													"presentation_rect" : [ 134.5, 20.75, 44.0, 15.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_longname" : "live.numbox[50]",
+															"parameter_longname" : "live.numbox[70]",
 															"parameter_mmax" : 128.0,
 															"parameter_mmin" : -127.0,
 															"parameter_shortname" : "live.numbox[19]",
@@ -1311,7 +1318,7 @@
 													"presentation_rect" : [ 218.5, 20.75, 38.0, 15.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_longname" : "live.numbox[51]",
+															"parameter_longname" : "live.numbox[120]",
 															"parameter_mmax" : 1000.0,
 															"parameter_mmin" : 0.01,
 															"parameter_shortname" : "live.numbox[19]",
@@ -1420,7 +1427,7 @@
 													"presentation_rect" : [ 78.5, 20.75, 44.0, 15.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_longname" : "live.numbox[48]",
+															"parameter_longname" : "live.numbox[121]",
 															"parameter_mmax" : 20000.0,
 															"parameter_mmin" : -128.0,
 															"parameter_shortname" : "live.numbox[19]",
@@ -1447,7 +1454,7 @@
 													"presentation_rect" : [ 32.5, 20.75, 44.0, 15.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_longname" : "live.numbox[49]",
+															"parameter_longname" : "live.numbox[122]",
 															"parameter_mmax" : 20000.0,
 															"parameter_mmin" : -128.0,
 															"parameter_shortname" : "live.numbox[19]",
@@ -1466,7 +1473,7 @@
 													"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 													"border" : 0,
 													"cols" : 8,
-													"colwidth" : 32,
+													"colwidth" : 257,
 													"fontface" : 0,
 													"fontname" : "Arial",
 													"fontsize" : 10.0,
@@ -1868,7 +1875,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1905,7 +1912,7 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"annotation" : "none",
-									"bgcolor" : [ 0.631372549019608, 0.580392156862745, 0.580392156862745, 0.0 ],
+									"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 									"ghostbar" : 10,
 									"id" : "obj-4",
 									"maxclass" : "multislider",
@@ -1916,9 +1923,16 @@
 									"patching_rect" : [ 86.483333000000016, 239.27197265625, 177.0, 69.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 1.0, 2.0, 256.0, 63.0 ],
+									"saved_attribute_attributes" : 									{
+										"bgcolor" : 										{
+											"expression" : "themecolor.live_lcd_bg"
+										}
+
+									}
+,
 									"setminmax" : [ 0.0, 1.0 ],
 									"size" : 8,
-									"slidercolor" : [ 0.066666666666667, 0.501960784313725, 0.007843137254902, 0.51 ],
+									"slidercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"thickness" : 1
 								}
 
@@ -1949,7 +1963,7 @@
 									"presentation_rect" : [ 259.900013999999999, 2.0, 29.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.numbox[33]",
+											"parameter_longname" : "live.numbox[69]",
 											"parameter_mmax" : 256.0,
 											"parameter_mmin" : 1.0,
 											"parameter_shortname" : "live.numbox[19]",
@@ -2009,7 +2023,7 @@
 ,
 										"valueof" : 										{
 											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_longname" : "live.text[11]",
+											"parameter_longname" : "live.text[48]",
 											"parameter_mmax" : 1,
 											"parameter_shortname" : "live.text",
 											"parameter_type" : 2
@@ -2044,7 +2058,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2201,7 +2215,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 1,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2526,7 +2540,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 1,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2774,7 +2788,7 @@
 													"presentation_rect" : [ 134.5, 20.75, 44.0, 15.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_longname" : "live.numbox[34]",
+															"parameter_longname" : "live.numbox[68]",
 															"parameter_mmax" : 128.0,
 															"parameter_mmin" : -127.0,
 															"parameter_shortname" : "live.numbox[19]",
@@ -2937,7 +2951,7 @@
 													"presentation_rect" : [ 32.5, 20.75, 44.0, 15.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_longname" : "live.numbox[37]",
+															"parameter_longname" : "live.numbox[65]",
 															"parameter_mmax" : 20000.0,
 															"parameter_mmin" : -128.0,
 															"parameter_shortname" : "live.numbox[19]",
@@ -3358,7 +3372,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3395,7 +3409,7 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"annotation" : "none",
-									"bgcolor" : [ 0.631372549019608, 0.580392156862745, 0.580392156862745, 0.0 ],
+									"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 									"ghostbar" : 10,
 									"id" : "obj-4",
 									"maxclass" : "multislider",
@@ -3406,9 +3420,16 @@
 									"patching_rect" : [ 86.483333000000016, 239.27197265625, 177.0, 69.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 1.0, 2.0, 256.0, 63.0 ],
+									"saved_attribute_attributes" : 									{
+										"bgcolor" : 										{
+											"expression" : "themecolor.live_lcd_bg"
+										}
+
+									}
+,
 									"setminmax" : [ 0.0, 1.0 ],
 									"size" : 8,
-									"slidercolor" : [ 0.066666666666667, 0.501960784313725, 0.007843137254902, 0.51 ],
+									"slidercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"thickness" : 1
 								}
 
@@ -3439,7 +3460,7 @@
 									"presentation_rect" : [ 259.900013999999999, 2.0, 29.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.numbox[32]",
+											"parameter_longname" : "live.numbox[67]",
 											"parameter_mmax" : 256.0,
 											"parameter_mmin" : 1.0,
 											"parameter_shortname" : "live.numbox[19]",
@@ -3499,7 +3520,7 @@
 ,
 										"valueof" : 										{
 											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_longname" : "live.text[10]",
+											"parameter_longname" : "live.text[47]",
 											"parameter_mmax" : 1,
 											"parameter_shortname" : "live.text",
 											"parameter_type" : 2
@@ -3534,7 +3555,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3691,7 +3712,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 1,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -4016,7 +4037,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 1,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -4264,7 +4285,7 @@
 													"presentation_rect" : [ 134.5, 20.75, 44.0, 15.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_longname" : "live.numbox[30]",
+															"parameter_longname" : "live.numbox[34]",
 															"parameter_mmax" : 128.0,
 															"parameter_mmin" : -127.0,
 															"parameter_shortname" : "live.numbox[19]",
@@ -4291,7 +4312,7 @@
 													"presentation_rect" : [ 218.5, 20.75, 38.0, 15.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_longname" : "live.numbox[31]",
+															"parameter_longname" : "live.numbox[30]",
 															"parameter_mmax" : 1000.0,
 															"parameter_mmin" : 0.01,
 															"parameter_shortname" : "live.numbox[19]",
@@ -4848,7 +4869,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4885,7 +4906,7 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"annotation" : "none",
-									"bgcolor" : [ 0.631372549019608, 0.580392156862745, 0.580392156862745, 0.0 ],
+									"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 									"ghostbar" : 10,
 									"id" : "obj-4",
 									"maxclass" : "multislider",
@@ -4896,9 +4917,16 @@
 									"patching_rect" : [ 86.483333000000016, 239.27197265625, 177.0, 69.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 1.0, 2.0, 256.0, 63.0 ],
+									"saved_attribute_attributes" : 									{
+										"bgcolor" : 										{
+											"expression" : "themecolor.live_lcd_bg"
+										}
+
+									}
+,
 									"setminmax" : [ 0.0, 1.0 ],
 									"size" : 8,
-									"slidercolor" : [ 0.066666666666667, 0.501960784313725, 0.007843137254902, 0.51 ],
+									"slidercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"thickness" : 1
 								}
 
@@ -4989,7 +5017,7 @@
 ,
 										"valueof" : 										{
 											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_longname" : "live.text[9]",
+											"parameter_longname" : "live.text[46]",
 											"parameter_mmax" : 1,
 											"parameter_shortname" : "live.text",
 											"parameter_type" : 2
@@ -5024,7 +5052,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5181,7 +5209,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 1,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5506,7 +5534,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 1,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5890,7 +5918,7 @@
 													"presentation_rect" : [ 78.5, 20.75, 44.0, 15.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_longname" : "live.numbox[46]",
+															"parameter_longname" : "live.numbox[119]",
 															"parameter_mmax" : 20000.0,
 															"parameter_mmin" : -128.0,
 															"parameter_shortname" : "live.numbox[19]",
@@ -5917,7 +5945,7 @@
 													"presentation_rect" : [ 32.5, 20.75, 44.0, 15.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_longname" : "live.numbox[47]",
+															"parameter_longname" : "live.numbox[33]",
 															"parameter_mmax" : 20000.0,
 															"parameter_mmin" : -128.0,
 															"parameter_shortname" : "live.numbox[19]",
@@ -6338,7 +6366,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6375,7 +6403,7 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"annotation" : "none",
-									"bgcolor" : [ 0.631372549019608, 0.580392156862745, 0.580392156862745, 0.0 ],
+									"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 									"ghostbar" : 10,
 									"id" : "obj-4",
 									"maxclass" : "multislider",
@@ -6386,9 +6414,16 @@
 									"patching_rect" : [ 86.483333000000016, 239.27197265625, 177.0, 69.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 1.0, 2.0, 256.0, 63.0 ],
+									"saved_attribute_attributes" : 									{
+										"bgcolor" : 										{
+											"expression" : "themecolor.live_lcd_bg"
+										}
+
+									}
+,
 									"setminmax" : [ 0.0, 1.0 ],
 									"size" : 8,
-									"slidercolor" : [ 0.066666666666667, 0.501960784313725, 0.007843137254902, 0.51 ],
+									"slidercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"thickness" : 1
 								}
 
@@ -6514,7 +6549,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6671,7 +6706,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 1,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -6996,7 +7031,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 1,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -7244,7 +7279,7 @@
 													"presentation_rect" : [ 134.5, 20.75, 44.0, 15.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_longname" : "live.numbox[26]",
+															"parameter_longname" : "live.numbox[118]",
 															"parameter_mmax" : 128.0,
 															"parameter_mmin" : -127.0,
 															"parameter_shortname" : "live.numbox[19]",
@@ -7828,7 +7863,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7865,7 +7900,7 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"annotation" : "none",
-									"bgcolor" : [ 0.631372549019608, 0.580392156862745, 0.580392156862745, 0.0 ],
+									"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 									"ghostbar" : 10,
 									"id" : "obj-4",
 									"maxclass" : "multislider",
@@ -7876,9 +7911,16 @@
 									"patching_rect" : [ 86.483333000000016, 239.27197265625, 177.0, 69.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 1.0, 2.0, 256.0, 63.0 ],
+									"saved_attribute_attributes" : 									{
+										"bgcolor" : 										{
+											"expression" : "themecolor.live_lcd_bg"
+										}
+
+									}
+,
 									"setminmax" : [ 0.0, 1.0 ],
 									"size" : 8,
-									"slidercolor" : [ 0.066666666666667, 0.501960784313725, 0.007843137254902, 0.51 ],
+									"slidercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"thickness" : 1
 								}
 
@@ -7909,7 +7951,7 @@
 									"presentation_rect" : [ 259.900013999999999, 2.0, 29.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.numbox[25]",
+											"parameter_longname" : "live.numbox[117]",
 											"parameter_mmax" : 256.0,
 											"parameter_mmin" : 1.0,
 											"parameter_shortname" : "live.numbox[19]",
@@ -7969,7 +8011,7 @@
 ,
 										"valueof" : 										{
 											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_longname" : "live.text[8]",
+											"parameter_longname" : "live.text[32]",
 											"parameter_mmax" : 1,
 											"parameter_shortname" : "live.text",
 											"parameter_type" : 2
@@ -8004,7 +8046,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8161,7 +8203,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 1,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -8486,7 +8528,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 1,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -8734,7 +8776,7 @@
 													"presentation_rect" : [ 134.5, 20.75, 44.0, 15.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_longname" : "live.numbox[12]",
+															"parameter_longname" : "live.numbox[115]",
 															"parameter_mmax" : 128.0,
 															"parameter_mmin" : -127.0,
 															"parameter_shortname" : "live.numbox[19]",
@@ -8870,7 +8912,7 @@
 													"presentation_rect" : [ 78.5, 20.75, 44.0, 15.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_longname" : "live.numbox[24]",
+															"parameter_longname" : "live.numbox[116]",
 															"parameter_mmax" : 20000.0,
 															"parameter_mmin" : -128.0,
 															"parameter_shortname" : "live.numbox[19]",
@@ -9305,6 +9347,7 @@
 					"embed" : 1,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -9317,7 +9360,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9354,7 +9397,7 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"annotation" : "none",
-									"bgcolor" : [ 0.631372549019608, 0.580392156862745, 0.580392156862745, 0.0 ],
+									"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 									"ghostbar" : 10,
 									"id" : "obj-4",
 									"maxclass" : "multislider",
@@ -9365,9 +9408,16 @@
 									"patching_rect" : [ 86.483333000000016, 239.27197265625, 177.0, 69.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 1.0, 2.0, 256.0, 63.0 ],
+									"saved_attribute_attributes" : 									{
+										"bgcolor" : 										{
+											"expression" : "themecolor.live_lcd_bg"
+										}
+
+									}
+,
 									"setminmax" : [ 0.0, 1.0 ],
 									"size" : 8,
-									"slidercolor" : [ 0.066666666666667, 0.501960784313725, 0.007843137254902, 0.51 ],
+									"slidercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"thickness" : 1
 								}
 
@@ -9398,7 +9448,7 @@
 									"presentation_rect" : [ 259.900013999999999, 2.0, 29.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.numbox[13]",
+											"parameter_longname" : "live.numbox[114]",
 											"parameter_mmax" : 256.0,
 											"parameter_mmin" : 1.0,
 											"parameter_shortname" : "live.numbox[19]",
@@ -9458,7 +9508,7 @@
 ,
 										"valueof" : 										{
 											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_longname" : "live.text[6]",
+											"parameter_longname" : "live.text[45]",
 											"parameter_mmax" : 1,
 											"parameter_shortname" : "live.text",
 											"parameter_type" : 2
@@ -9486,14 +9536,14 @@
 									"maxclass" : "bpatcher",
 									"numinlets" : 3,
 									"numoutlets" : 2,
-									"offset" : [ 0.0, 0.0 ],
+									"offset" : [ 0.0, -19.0 ],
 									"outlettype" : [ "", "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9650,7 +9700,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 1,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -9975,7 +10025,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 1,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -10794,7 +10844,6 @@
 					"embed" : 1,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-4",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -10807,7 +10856,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10844,7 +10893,7 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"annotation" : "none",
-									"bgcolor" : [ 0.631372549019608, 0.580392156862745, 0.580392156862745, 0.0 ],
+									"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 									"ghostbar" : 10,
 									"id" : "obj-4",
 									"maxclass" : "multislider",
@@ -10852,12 +10901,19 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 86.483333000000016, 239.27197265625, 177.0, 69.0 ],
+									"patching_rect" : [ 90.483333000000016, 223.27197265625, 177.0, 69.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 1.0, 2.0, 256.0, 63.0 ],
+									"saved_attribute_attributes" : 									{
+										"bgcolor" : 										{
+											"expression" : "themecolor.live_lcd_bg"
+										}
+
+									}
+,
 									"setminmax" : [ 0.0, 1.0 ],
 									"size" : 8,
-									"slidercolor" : [ 0.066666666666667, 0.501960784313725, 0.007843137254902, 0.51 ],
+									"slidercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"thickness" : 1
 								}
 
@@ -10909,7 +10965,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 253.983333000000016, 381.27197265625, 87.0, 22.0 ],
+									"patching_rect" : [ 162.816665999999998, 356.27197265625, 87.0, 22.0 ],
 									"text" : "prepend setlist"
 								}
 
@@ -10922,7 +10978,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 63.983333000000016, 346.206551313400269, 209.0, 22.0 ],
+									"patching_rect" : [ 67.816665999999998, 314.206551313400269, 209.0, 22.0 ],
 									"text" : "seq.module.remote s/1/raw @levels 2"
 								}
 
@@ -10936,7 +10992,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 337.483333000000016, 152.5, 29.0, 23.0 ],
+									"patching_rect" : [ 348.483333000000016, 129.5, 29.0, 23.0 ],
 									"pictures" : [ "tri-down.svg", "tri-up.svg" ],
 									"presentation" : 1,
 									"presentation_rect" : [ 265.984375, 69.0, 16.015625, 12.0 ],
@@ -10948,7 +11004,7 @@
 ,
 										"valueof" : 										{
 											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_longname" : "live.text[1]",
+											"parameter_longname" : "live.text[44]",
 											"parameter_mmax" : 1,
 											"parameter_shortname" : "live.text",
 											"parameter_type" : 2
@@ -10976,14 +11032,14 @@
 									"maxclass" : "bpatcher",
 									"numinlets" : 3,
 									"numoutlets" : 2,
-									"offset" : [ 0.0, 0.0 ],
+									"offset" : [ 0.0, -19.0 ],
 									"outlettype" : [ "", "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -11140,7 +11196,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 1,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -11465,7 +11521,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 5,
-															"revision" : 1,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -11713,7 +11769,7 @@
 													"presentation_rect" : [ 134.5, 20.75, 44.0, 15.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_longname" : "live.numbox[5]",
+															"parameter_longname" : "live.numbox[112]",
 															"parameter_mmax" : 128.0,
 															"parameter_mmin" : -127.0,
 															"parameter_shortname" : "live.numbox[19]",
@@ -11740,7 +11796,7 @@
 													"presentation_rect" : [ 218.5, 20.75, 38.0, 15.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_longname" : "live.numbox[6]",
+															"parameter_longname" : "live.numbox[113]",
 															"parameter_mmax" : 1000.0,
 															"parameter_mmin" : 0.01,
 															"parameter_shortname" : "live.numbox[19]",
@@ -12155,9 +12211,9 @@
  ]
 									}
 ,
-									"patching_rect" : [ 79.483333000000002, 179.5, 277.0, 40.0 ],
+									"patching_rect" : [ 90.483333000000002, 156.5, 277.0, 40.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 1.0, 65.0, 281.0, 22.0 ],
+									"presentation_rect" : [ 1.0, 65.0, 281.0, 21.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -12306,7 +12362,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button[11]",
+							"parameter_longname" : "live.button[83]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
@@ -12364,7 +12420,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 401.5, 71.0, 66.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 202.0, 1.0, 68.4921875, 17.0 ],
+					"presentation_rect" : [ 205.0, 1.0, 68.4921875, 17.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -12377,10 +12433,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 485.0, 71.0, 36.0, 29.0 ],
+					"patching_rect" : [ 485.0, 71.0, 52.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 1.0, 202.0, 18.0 ],
-					"text" : "8sequence",
+					"text" : "mhelp.8sequence",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -12512,7 +12568,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"order" : 2,
+					"order" : 0,
 					"source" : [ "obj-60", 0 ]
 				}
 
@@ -12520,7 +12576,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-60", 0 ]
 				}
 
@@ -12535,7 +12591,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-60", 0 ]
 				}
 

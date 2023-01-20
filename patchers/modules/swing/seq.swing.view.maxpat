@@ -94,6 +94,7 @@
 				"box" : 				{
 					"appearance" : 4,
 					"id" : "obj-6",
+					"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -103,8 +104,12 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 99.5, 25.5, 39.5, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"lcdcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[31]",
+							"parameter_longname" : "live.numbox[95]",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_shortname" : "live.numbox[2]",
@@ -163,6 +168,7 @@
 				"box" : 				{
 					"appearance" : 4,
 					"id" : "obj-10",
+					"lcdcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -172,8 +178,12 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 30.299999982118607, 25.5, 25.899999797344208, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"lcdcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[30]",
+							"parameter_longname" : "live.numbox[94]",
 							"parameter_mmax" : 256.0,
 							"parameter_shortname" : "live.numbox[2]",
 							"parameter_type" : 0,
@@ -206,7 +216,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button[6]",
+							"parameter_longname" : "live.button[53]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
@@ -294,7 +304,7 @@
 					"patching_rect" : [ 360.666666666666799, 123.5, 42.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 2.0, 74.0, 18.0 ],
-					"text" : "swing-help",
+					"text" : "mhelp.swing",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 

@@ -40,7 +40,7 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "sclae length",
+					"comment" : "dumpout",
 					"id" : "obj-24",
 					"index" : 4,
 					"maxclass" : "outlet",
@@ -94,7 +94,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.5, 42.0, 30.0, 30.0 ]
 				}
 

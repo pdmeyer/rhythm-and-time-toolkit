@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+		"rect" : [ 320.0, 581.0, 533.0, 158.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -62,7 +62,7 @@
 					"patching_rect" : [ 224.0, 147.0, 29.0, 23.0 ],
 					"pictures" : [ "tri-down.svg", "tri-up.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 185.384389460086823, 43.0, 16.015625, 12.0 ],
+					"presentation_rect" : [ 229.384389460086823, 40.0, 26.015625, 13.5 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
@@ -71,7 +71,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[9]",
+							"parameter_longname" : "live.text[51]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -107,7 +107,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 203.5, 93.5, 15.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 188.400014460086823, 2.5, 15.0, 15.0 ],
+					"presentation_rect" : [ 239.400014460086823, 1.5, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : ""
@@ -173,7 +173,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 82.166666666666657, 118.25, 66.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 128.400014460086823, 0.5, 56.0, 17.0 ],
+					"presentation_rect" : [ 179.400014460086823, 0.5, 56.0, 17.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -182,13 +182,14 @@
 				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-5",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 82.166666666666657, 140.0, 68.0, 18.0 ],
+					"patching_rect" : [ 82.166666666666657, 140.0, 68.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.400014460086823, 1.0, 136.0, 18.0 ],
-					"text" : "pattern-help",
+					"text" : "mhelp.pattern",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -205,7 +206,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 86.200000000000045, 59.0, 79.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 206.5, 19.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 258.5, 19.0 ],
 					"proportion" : 0.5
 				}
 
@@ -236,7 +237,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 510.0, 87.0, 655.0, 779.0 ],
+						"rect" : [ 487.0, 540.0, 490.0, 248.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -281,7 +282,7 @@
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 32.0, 236.0, 199.0, 45.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 2.520011878013605, 34.0, 199.0, 45.0 ],
+									"presentation_rect" : [ 2.520011878013605, 34.0, 231.0, 20.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -359,22 +360,19 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 155.5, 38.0, 44.0, 15.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 180.640009295940388, 1.135176891717947, 25.0, 15.0 ],
+									"presentation_rect" : [ 225.640009295940388, 1.135176891717947, 27.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 8 ],
-											"parameter_longname" : "sequence length[2]",
-											"parameter_mmax" : 255.0,
+											"parameter_longname" : "live.numbox[124]",
+											"parameter_mmax" : 256.0,
 											"parameter_mmin" : 1.0,
-											"parameter_order" : 2,
-											"parameter_shortname" : "steps",
+											"parameter_shortname" : "live.numbox[19]",
 											"parameter_type" : 1,
 											"parameter_unitstyle" : 0
 										}
 
 									}
 ,
-									"textjustification" : 0,
 									"varname" : "live.numbox[1]"
 								}
 
@@ -382,7 +380,7 @@
 , 							{
 								"box" : 								{
 									"bgstepcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-									"columns" : 6,
+									"columns" : 8,
 									"direction" : 0,
 									"hbgcolor" : [ 1.0, 0.301960784313725, 0.301960784313725, 0.0 ],
 									"id" : "obj-236",
@@ -394,7 +392,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 61.660000073909771, 111.5, 278.199999630451202, 12.999999940395355 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 2.400014460086823, 1.135176891717947, 177.239994835853565, 31.900585783435872 ],
+									"presentation_rect" : [ 2.400014460086823, 1.135176891717947, 221.239994835853565, 31.900585783435872 ],
 									"rows" : 1,
 									"saved_attribute_attributes" : 									{
 										"bgstepcolor" : 										{
@@ -402,19 +400,19 @@
 										}
 ,
 										"stepcolor" : 										{
-											"expression" : "themecolor.live_control_selection"
+											"expression" : ""
 										}
 ,
 										"valueof" : 										{
 											"parameter_invisible" : 2,
-											"parameter_longname" : "sequence viewer[13]",
+											"parameter_longname" : "sequence viewer[14]",
 											"parameter_shortname" : "sequence viewer",
 											"parameter_type" : 3
 										}
 
 									}
 ,
-									"stepcolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ],
+									"stepcolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"varname" : "live.grid[1]"
 								}
 
@@ -560,7 +558,7 @@
 ,
 					"patching_rect" : [ 32.0, 175.0, 211.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.400014460086823, 24.135176891717947, 207.5, 36.0 ],
+					"presentation_rect" : [ 3.400014460086823, 20.5, 253.0, 36.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -577,7 +575,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 86.200000000000045, 59.0, 79.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 206.5, 59.135176999999999 ],
+					"presentation_rect" : [ 0.0, 0.0, 258.5, 59.135176999999999 ],
 					"proportion" : 0.5
 				}
 

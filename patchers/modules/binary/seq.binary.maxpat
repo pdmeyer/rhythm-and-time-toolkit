@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 351.0, 251.0, 453.0, 456.0 ],
+		"rect" : [ 352.0, 512.0, 453.0, 456.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,7 +42,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -55,7 +55,7 @@
 				"box" : 				{
 					"comment" : "internal trig",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -67,7 +67,7 @@
 				"box" : 				{
 					"comment" : "internal step",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -79,7 +79,7 @@
 				"box" : 				{
 					"comment" : "clock in ",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -116,7 +116,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 91.631578557554221, 95.0, 210.0, 61.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 208.0, 64.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 258.0, 61.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -127,7 +127,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "signal", "signal", "" ],
+					"outlettype" : [ "signal", "signal", "signal" ],
 					"patching_rect" : [ 41.0, 176.5, 261.157892787771061, 22.0 ],
 					"text" : "seq.binary.model",
 					"varname" : "m"
@@ -138,7 +138,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -163,7 +163,7 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 534, 298, 1279, 875 ],
+						"client_rect" : [ 809, 112, 1355, 911 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 87, 1081, 651 ]
@@ -181,7 +181,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 91.631578557554221, 23.400390625, 127.0, 22.0 ],
+					"patching_rect" : [ 91.631578557554221, 23.400390625, 182.0, 22.0 ],
 					"text" : "seq.module.control #1"
 				}
 
@@ -259,107 +259,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-18::obj-2" : [ "live.button[20]", "live.button", 0 ],
-			"obj-18::obj-28::obj-16" : [ "live.menu[12]", "live.menu", 0 ],
-			"obj-18::obj-28::obj-165" : [ "trig increment[6]", "trig inc", 0 ],
-			"obj-18::obj-28::obj-18" : [ "live.menu[10]", "live.menu", 0 ],
-			"obj-18::obj-28::obj-22" : [ "live.menu[11]", "live.menu", 0 ],
-			"obj-18::obj-28::obj-236" : [ "sequence viewer[12]", "sequence viewer", 0 ],
-			"obj-18::obj-28::obj-29" : [ "sequence length[1]", "steps", 2 ],
-			"obj-18::obj-28::obj-33" : [ "sequence trigs[1]", "trigs", 1 ],
-			"obj-18::obj-28::obj-34" : [ "sequence rotate[2]", "rotate", 3 ],
-			"obj-18::obj-28::obj-7" : [ "trig increment[4]", "trig inc", 0 ],
-			"obj-18::obj-9" : [ "live.text[8]", "live.text", 0 ],
-			"obj-2::obj-25" : [ "live.button[7]", "live.button", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "seq.binary.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/binary",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.binary.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/binary",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.binary~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.module.attrchecker.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/module",
-				"patcherrelativepath" : "../../extras/module",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/module",
-				"patcherrelativepath" : "../../extras/module",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.module.control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/module",
-				"patcherrelativepath" : "../../extras/module",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.module.remote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/module",
-				"patcherrelativepath" : "../../extras/module",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.module.viewcontrol.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/module",
-				"patcherrelativepath" : "../../extras/module",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.patternviewer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/companions",
-				"patcherrelativepath" : "../../extras/companions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tri-down.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/media",
-				"patcherrelativepath" : "../../media",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tri-up.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/media",
-				"patcherrelativepath" : "../../media",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"editing_bgcolor" : [ 0.356862745098039, 0.356862745098039, 0.356862745098039, 1.0 ]
 	}
 

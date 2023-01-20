@@ -69,7 +69,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text",
+							"parameter_longname" : "live.text[7]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -230,7 +230,7 @@
 					"presentation_rect" : [ 134.0, 0.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[43]",
+							"parameter_longname" : "live.numbox[31]",
 							"parameter_mmax" : 256.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -305,7 +305,7 @@
 						"live.text" : [ 1.0 ],
 						"low" : [ 0.0 ],
 						"offset" : [ 0.0 ],
-						"sequence" : [ 0.493506493506494, 0.493506493506494, 0.311688311688312, 0.168831168831169, 0.233766233766234, 0.324675324675325, 0.38961038961039, 0.454545454545455 ],
+						"sequence" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 						"size" : [ 8.0 ],
 						"stepsize" : [ 0.0 ]
 					}
@@ -341,7 +341,7 @@
 					"presentation_rect" : [ 134.0, 61.756901840490798, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[35]",
+							"parameter_longname" : "live.numbox[32]",
 							"parameter_mmax" : 40000.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -367,7 +367,7 @@
 					"presentation_rect" : [ 134.0, 47.504601226993856, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[44]",
+							"parameter_longname" : "live.numbox[37]",
 							"parameter_mmax" : 40000.0,
 							"parameter_mmin" : -40000.0,
 							"parameter_shortname" : "live.numbox",
@@ -394,7 +394,7 @@
 					"presentation_rect" : [ 134.0, 31.752300613496942, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[45]",
+							"parameter_longname" : "live.numbox[38]",
 							"parameter_mmax" : 40000.0,
 							"parameter_mmin" : -40000.0,
 							"parameter_shortname" : "live.numbox",
@@ -421,7 +421,7 @@
 					"presentation_rect" : [ 134.0, 16.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[36]",
+							"parameter_longname" : "live.numbox[46]",
 							"parameter_mmax" : 40000.0,
 							"parameter_mmin" : -40000.0,
 							"parameter_shortname" : "live.numbox",

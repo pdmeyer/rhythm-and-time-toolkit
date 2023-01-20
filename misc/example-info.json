@@ -31,8 +31,12 @@
 		"digest" : "Uses advanced features of seq.counter~ to navigate a melodic pattern."
 	}
 ,
-	"seq.ex.seqwith8-3" : 	{
-		"digest" : "seq objects hanging out with some of their best friends,"
+	"seq.ex.seqtwist" : 	{
+		"digest" : "seq objects hanging out with some of their best friends"
+	}
+	,
+	"seq.ex.nestedtuplets" : 	{
+		"digest" : "Irregular rhythms built from unusual subdivisions"
 	}
 
 }

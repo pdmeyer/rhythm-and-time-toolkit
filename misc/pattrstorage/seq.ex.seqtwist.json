@@ -1,6 +1,6 @@
 {
 	"pattrstorage" : 	{
-		"name" : "seq.ex.seqwith8-3",
+		"name" : "seq.ex.seqtwist",
 		"slots" : 		{
 			"1" : 			{
 				"id" : 1,
@@ -8,10 +8,11 @@
 					"bar/bpm" : [ "bpm", 120.0 ],
 					"envelope" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 1, 0.0, 114.361702127659569, 0.970149253731343, 0, -0.055, 1000.0, 0.0, 1, 0.0, "curve" ],
 					"gate-length" : [ 10.0 ],
+					"playbackspeed" : [ 1.0 ],
 					"resonance" : [ 1000.0 ],
 					"scala/scale" : [ "indian-hahn.scl" ],
 					"twist" : [ "curve", 0.7 ],
-					"playbackspeed" : [ 1.0 ]
+					"resfreqs" : [ 30, 73, 73, 73, 73, 73, 71, 69, 68, 65, 62, 60, 72, 81, 81, 82 ]
 				}
 
 			}
@@ -22,10 +23,11 @@
 					"bar/bpm" : [ "bpm", 120.0 ],
 					"envelope" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 1, 0.0, 114.361702127659569, 0.970149253731343, 0, -0.055, 1000.0, 0.0, 1, 0.0, "curve" ],
 					"gate-length" : [ 30.0 ],
+					"playbackspeed" : [ 1.0 ],
 					"resonance" : [ 2000.0 ],
 					"scala/scale" : [ "indian-hahn.scl" ],
 					"twist" : [ "curve", 0.0 ],
-					"playbackspeed" : [ 1.0 ]
+					"resfreqs" : [ 30, 73, 45, 45, 77, 47, 49, 50, 49, 48, 46, 44, 43, 42, 40, 82 ]
 				}
 
 			}
@@ -36,10 +38,11 @@
 					"bar/bpm" : [ "bpm", 120.0 ],
 					"envelope" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 1, 0.0, 550.531914893617, 0.895522388059702, 0, -0.055, 1000.0, 0.0, 1, 0.0, "curve" ],
 					"gate-length" : [ 200.0 ],
+					"playbackspeed" : [ 1.0 ],
 					"resonance" : [ 100.0 ],
 					"scala/scale" : [ "indian-hahn.scl" ],
 					"twist" : [ "curve", -0.5 ],
-					"playbackspeed" : [ 1.0 ]
+					"resfreqs" : [ 30, 73, 45, 76, 79, 79, 75, 59, 49, 48, 77, 79, 78, 79, 80, 82 ]
 				}
 
 			}
@@ -48,12 +51,13 @@
 				"id" : 4,
 				"data" : 				{
 					"bar/bpm" : [ "bpm", 120.0 ],
-					"envelope" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 1, 0.0, 0.0, 0.985074626865672, 0, -0.655, 1000.0, 0.0, 1, -0.795, "curve" ],
-					"gate-length" : [ 46.0 ],
+					"envelope" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 1, 0.0, 550.531914893617, 0.895522388059702, 0, -0.055, 1000.0, 0.0, 1, 0.0, "curve" ],
+					"gate-length" : [ 200.0 ],
+					"playbackspeed" : [ 1.0 ],
 					"resonance" : [ 100.0 ],
 					"scala/scale" : [ "indian-hahn.scl" ],
 					"twist" : [ "curve", -0.5 ],
-					"playbackspeed" : [ 1.0 ]
+					"resfreqs" : [ 30, 73, 46, 51, 63, 67, 71, 61, 76, 76, 76, 67, 50, 48, 46, 46 ]
 				}
 
 			}
@@ -64,10 +68,11 @@
 					"bar/bpm" : [ "bpm", 120.0 ],
 					"envelope" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 1, 0.0, 77.127659574468083, 0.985074626865672, 0, -0.345, 1000.0, 0.0, 1, -0.495, "curve" ],
 					"gate-length" : [ 46.0 ],
-					"resonance" : [ 100.0 ],
+					"playbackspeed" : [ 1.2 ],
+					"resonance" : [ 340.0 ],
 					"scala/scale" : [ "indian-hahn.scl" ],
 					"twist" : [ "curve", -0.5 ],
-					"playbackspeed" : [ 1.2 ]
+					"resfreqs" : [ 30, 73, 46, 51, 63, 67, 71, 61, 76, 76, 76, 67, 50, 48, 46, 46 ]
 				}
 
 			}

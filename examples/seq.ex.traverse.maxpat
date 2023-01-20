@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 59.0, 87.0, 775.0, 779.0 ],
-		"bglocked" : 0,
+		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -47,7 +47,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 388.0, 667.0, 150.5, 37.0 ],
-					"presentation_linecount" : 5,
 					"text" : "borrowed from gen~.fm_bells.maxpat"
 				}
 
@@ -173,7 +172,7 @@
 						"bpm" : [ "bpm", 120.0 ],
 						"ceiling" : [ "ceiling", 16.0 ],
 						"direction" : [ "direction", "drunk" ],
-						"floor" : [ "floor", 4.0 ],
+						"floor" : [ "floor", 13.0 ],
 						"fm_depth" : [ "depth", 0.96 ],
 						"fm_modratio" : [ 0.75 ],
 						"fm_t60" : [ "t60", 0.7 ],
@@ -1194,7 +1193,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 233.0, 231.0, 159.0, 26.0 ],
+					"patching_rect" : [ 233.0, 230.0, 159.0, 26.0 ],
 					"text" : "seq.counter params"
 				}
 
@@ -1582,7 +1581,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 252.0, 423.0, 53.0, 22.0 ],
+					"patching_rect" : [ 255.5, 422.0, 53.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1637,7 +1636,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 310.0, 423.0, 295.0, 108.0 ],
+					"patching_rect" : [ 313.5, 422.0, 295.0, 108.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
@@ -1669,7 +1668,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 149.0, 458.0, 56.0, 22.0 ],
+					"patching_rect" : [ 152.5, 457.0, 56.0, 22.0 ],
 					"sig" : 0.0
 				}
 
@@ -1697,7 +1696,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 388.0, 373.0, 180.0, 24.0 ],
+					"patching_rect" : [ 388.0, 372.0, 180.0, 24.0 ],
 					"text" : "counting mode"
 				}
 
@@ -1710,7 +1709,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 388.0, 322.5, 180.0, 37.0 ],
+					"patching_rect" : [ 388.0, 321.5, 180.0, 37.0 ],
 					"text" : "maximum step number (overflow wraps around to 1)"
 				}
 
@@ -1723,7 +1722,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 388.0, 284.0, 180.0, 37.0 ],
+					"patching_rect" : [ 388.0, 283.0, 180.0, 37.0 ],
 					"text" : "start point of segment (shifts by 1 each bar)"
 				}
 
@@ -1735,7 +1734,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 388.0, 258.0, 180.0, 24.0 ],
+					"patching_rect" : [ 388.0, 257.0, 180.0, 24.0 ],
 					"text" : "length of segment to loop"
 				}
 
@@ -1751,7 +1750,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 310.0, 423.0, 295.0, 108.0 ],
+					"patching_rect" : [ 313.5, 422.0, 295.0, 108.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
@@ -1824,7 +1823,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 86.0, 235.391304347826093, 96.35294117647058, 35.608695652173907 ],
+					"patching_rect" : [ 89.5, 234.391304347826093, 96.35294117647058, 35.608695652173907 ],
 					"range" : [ -0.1, 1.1 ]
 				}
 
@@ -1836,7 +1835,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 118.0, 423.0, 132.0, 22.0 ],
+					"patching_rect" : [ 121.5, 422.0, 132.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1871,7 +1870,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 310.0, 423.0, 295.0, 108.0 ],
+					"patching_rect" : [ 313.5, 422.0, 295.0, 108.0 ],
 					"setminmax" : [ 60.0, 72.0 ],
 					"settype" : 0,
 					"size" : 16,
@@ -1910,57 +1909,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-83",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 296.0, 45.0, 117.0, 20.0 ],
-					"text" : "philip meyer, 2023"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 12.0,
-					"id" : "obj-2",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 67.0, 66.0, 435.0, 47.0 ],
-					"text" : "using seq.counter transforms an ordinary upward and wrapping step counter into something more interesting. for example, you can cover a long pattern in looping smaller segments using the floor, ceiling, and steps parameters"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Lato",
-					"fontsize" : 18.0,
-					"id" : "obj-5",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 133.0, 37.0, 161.0, 28.0 ],
-					"text" : "sequence traverse"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Lato",
-					"fontsize" : 36.0,
-					"id" : "obj-8",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 67.0, 14.0, 66.0, 50.0 ],
-					"text" : "seq"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"attr" : "floor",
 					"id" : "obj-14",
 					"maxclass" : "attrui",
@@ -1968,7 +1916,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 213.0, 291.5, 170.0, 22.0 ],
+					"patching_rect" : [ 213.0, 290.5, 170.0, 22.0 ],
 					"text_width" : 120.0,
 					"varname" : "floor"
 				}
@@ -1983,7 +1931,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 233.0, 330.0, 150.0, 22.0 ],
+					"patching_rect" : [ 233.0, 329.0, 150.0, 22.0 ],
 					"varname" : "ceiling"
 				}
 
@@ -2011,7 +1959,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 233.0, 373.0, 150.0, 22.0 ],
+					"patching_rect" : [ 233.0, 372.0, 150.0, 22.0 ],
 					"text_width" : 70.0,
 					"varname" : "direction"
 				}
@@ -2026,7 +1974,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 233.0, 258.0, 150.0, 22.0 ],
+					"patching_rect" : [ 233.0, 257.0, 150.0, 22.0 ],
 					"varname" : "steps"
 				}
 
@@ -2056,6 +2004,61 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 382.5, 638.0, 150.0, 22.0 ],
 					"varname" : "fm_depth"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"id" : "obj-83",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 296.0, 45.0, 117.0, 20.0 ],
+					"text" : "philip meyer, 2023"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 67.0, 66.0, 435.0, 47.0 ],
+					"text" : "using seq.counter transforms an ordinary upward and wrapping step counter into something more interesting. for example, you can cover a long pattern in looping smaller segments using the floor, ceiling, and steps parameters"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"fontname" : "Lato",
+					"fontsize" : 18.0,
+					"id" : "obj-5",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 133.0, 37.0, 161.0, 28.0 ],
+					"text" : "sequence traverse"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"fontface" : 1,
+					"fontname" : "Lato",
+					"fontsize" : 36.0,
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 67.0, 14.0, 66.0, 50.0 ],
+					"text" : "seq"
 				}
 
 			}
@@ -2117,7 +2120,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 531.5, 230.0, 623.5, 230.0, 623.5, 119.391304347826093, 375.5, 119.391304347826093 ],
+					"midpoints" : [ 531.5, 220.0, 614.5, 220.0, 614.5, 119.391304347826093, 375.5, 119.391304347826093 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -2149,7 +2152,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 222.5, 406.75, 127.5, 406.75 ],
+					"midpoints" : [ 222.5, 405.75, 131.0, 405.75 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -2157,7 +2160,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 242.5, 405.0, 127.5, 405.0 ],
+					"midpoints" : [ 242.5, 404.0, 131.0, 404.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -2180,7 +2183,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 598.5, 405.5, 127.5, 405.5 ],
+					"midpoints" : [ 598.5, 405.5, 131.0, 405.5 ],
 					"source" : [ "obj-18", 1 ]
 				}
 
@@ -2189,7 +2192,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-88", 1 ],
 					"hidden" : 1,
-					"midpoints" : [ 581.5, 415.5, 278.5, 415.5 ],
+					"midpoints" : [ 581.5, 415.5, 282.0, 415.5 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -2232,7 +2235,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-88", 2 ],
 					"hidden" : 1,
-					"midpoints" : [ 222.5, 226.5, 295.5, 226.5 ],
+					"midpoints" : [ 222.5, 226.5, 299.0, 226.5 ],
 					"order" : 1,
 					"source" : [ "obj-22", 0 ]
 				}
@@ -2316,7 +2319,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 242.5, 405.5, 127.5, 405.5 ],
+					"midpoints" : [ 242.5, 404.5, 131.0, 404.5 ],
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -2324,7 +2327,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 242.5, 405.0, 127.5, 405.0 ],
+					"midpoints" : [ 242.5, 404.0, 131.0, 404.0 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -2371,7 +2374,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 319.5, 537.0, 172.0, 537.0 ],
+					"midpoints" : [ 323.0, 537.0, 172.0, 537.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -2437,8 +2440,8 @@
 			}
 , 			{
 				"name" : "seq.ex.traverse.json",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/examples",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/pattrstorage",
+				"patcherrelativepath" : "../misc/pattrstorage",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2448,8 +2451,8 @@
 			}
 , 			{
 				"name" : "seq.scala.parser.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/scala",
-				"patcherrelativepath" : "../../patchers/scala",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/scala",
+				"patcherrelativepath" : "../patchers/modules/scala",
 				"type" : "JSON",
 				"implicit" : 1
 			}

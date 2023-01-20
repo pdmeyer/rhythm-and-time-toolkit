@@ -76,16 +76,16 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 409.0, 604.5, 56.0, 22.0 ],
 					"restore" : 					{
-						"comb-freqs" : [ 30, 30, 53, 59, 63, 67, 71, 74, 76, 76, 75, 68, 61, 59, 55, 54, 52, 50, 49, 49, 52, 52, 52, 52, 53, 55, 59, 61, 63, 62, 70, 72 ],
-						"density" : [ "density", 0.5 ],
+						"comb-freqs" : [ 30, 85, 82, 84, 81, 75, 70, 65, 39, 39, 37, 36, 35, 35, 35, 35, 35, 35, 67, 67, 67, 36, 37, 37, 60, 38, 81, 39, 39, 39, 39, 48 ],
+						"density" : [ "density", 1.0 ],
 						"live.numbox" : [ 0.342857142857143 ],
-						"lpf-cutoff" : [ "cutoff", 6000.0 ],
-						"mc.live.gain~" : [ 0.0 ],
+						"lpf-cutoff" : [ "cutoff", 3000.0 ],
+						"mc.live.gain~" : [ -11.370078740157467 ],
 						"rt-probability" : [ 0.342857142857143 ],
 						"rt-repeats" : [ "repeats", 4.0 ],
-						"rt-subdiv" : [ "subdiv", 32.0 ],
-						"steps" : [ "steps", 49.0 ],
-						"variation" : [ "variation", 1.0 ],
+						"rt-subdiv" : [ "subdiv", 16.0 ],
+						"steps" : [ "steps", 32.0 ],
+						"variation" : [ "variation", 0.4 ],
 						"windowlength" : [ "windowlength", 0.58 ],
 						"windows" : [ "windows", 12.0 ]
 					}
@@ -260,17 +260,6 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-6",
-									"maxclass" : "live.scope~",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 194.0, 307.0, 184.0, 68.0 ]
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"id" : "obj-5",
 									"maxclass" : "newobj",
@@ -1008,15 +997,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-43", 0 ],
-									"order" : 1,
-									"source" : [ "obj-3", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-6", 0 ],
-									"order" : 0,
 									"source" : [ "obj-3", 0 ]
 								}
 
@@ -1121,7 +1101,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 253.0, 45.0, 117.0, 20.0 ],
+					"patching_rect" : [ 195.333333333333371, 664.0, 117.0, 20.0 ],
 					"text" : "philip meyer, 2023"
 				}
 
@@ -1194,7 +1174,7 @@
 					"patching_rect" : [ 279.0, 323.5, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox",
+							"parameter_longname" : "live.numbox[1]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -1230,7 +1210,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 140.333333333333343, 569.0, 94.0, 22.0 ],
-					"text" : "mc.lores~ 6000."
+					"text" : "mc.lores~ 4000."
 				}
 
 			}
@@ -1364,9 +1344,10 @@
 					"maxclass" : "bpatcher",
 					"name" : "seq.xtra.stepgridviewer.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 217.0, 268.0, 376.0, 26.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 217.0, 268.0, 304.0, 21.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1744,9 +1725,10 @@
  ],
 		"parameters" : 		{
 			"obj-10" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
+			"obj-22::obj-2" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-22::obj-31" : [ "live.grid", "live.grid", 0 ],
 			"obj-37" : [ "multislider", "multislider", 0 ],
-			"obj-78" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-78" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -1769,8 +1751,8 @@
 			}
 , 			{
 				"name" : "seq.ex.sometimes-retrig.json",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/examples",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/pattrstorage",
+				"patcherrelativepath" : "../misc/pattrstorage",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1788,8 +1770,8 @@
 			}
 , 			{
 				"name" : "seq.xtra.stepgridviewer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/xtra",
-				"patcherrelativepath" : "../xtra",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/extras",
+				"patcherrelativepath" : "../extras",
 				"type" : "JSON",
 				"implicit" : 1
 			}

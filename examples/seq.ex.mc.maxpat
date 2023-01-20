@@ -40,6 +40,26 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-11",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "philipmeyer.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 75.5, 666.0, 104.5, 21.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-52",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -651,28 +671,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-23",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 267.75, 33.0, 150.0, 20.0 ],
-					"text" : "philip meyer, 2023"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-22",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 75.5, 676.0, 150.0, 20.0 ],
-					"text" : "philip meyer, 2022"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bubble" : 1,
 					"bubblepoint" : 0.1,
 					"bubbleside" : 0,
@@ -681,7 +679,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.5, 364.0, 125.0, 52.0 ],
+					"patching_rect" : [ 7.5, 355.0, 125.0, 52.0 ],
 					"text" : "four seq.euclidean~s in one"
 				}
 
@@ -720,7 +718,7 @@
 					"patching_rect" : [ 672.25, 616.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"attack_ms" : [ "attack_ms", 1.0 ],
-						"bpm" : [ "bpm", 150.0 ],
+						"bpm" : [ "bpm", 135.0 ],
 						"mc.live.gain~" : [ -8.523622047244103 ],
 						"release_ms" : [ "release_ms", 154.0 ],
 						"steps" : [ "steps", 64.0 ],
@@ -1320,10 +1318,10 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 58.0, 451.0, 56.0, 22.0 ],
 									"restore" : 									{
-										"events" : [ 0.363636363636364, 0.5, 0.166666666666667, 0.4 ],
-										"slice" : [ 0, 3, 10, 14 ],
+										"events" : [ 0.363636363636364, 0.625, 0.666666666666667, 0.8 ],
+										"slice" : [ 0, 7, 14, 14 ],
 										"steps" : [ 11, 8, 6, 15 ],
-										"transpose" : [ 0.0, 0.0, 0.0875, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0125, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.2, 0.0, 0.0, 0.1875, 0.125, 0.0, 0.0 ],
+										"transpose" : [ 0.0, 0.7375, 0.475, 0.85, 0.2625, 0.225, 0.0, 0.0, 0.0125, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.2, 0.7625, 0.7375, 0.1875, 0.675, 0.0, 0.0 ],
 										"velocity" : [ 0.0625, 0.0625, 0.0625, 0.0625, 0.075, 0.075, 0.075, 0.075, 0.075, 0.0875, 0.0875, 0.0875, 0.09375, 0.1, 0.1, 0.1, 0.1125, 0.125, 0.125, 0.125, 0.1375, 0.14375, 0.15, 0.15, 0.15625, 0.1625, 0.175, 0.175, 0.175, 0.1875, 0.191666666666667, 0.195833333333333, 0.2, 0.2, 0.2, 0.204166666666667, 0.208333333333333, 0.2125, 0.2125, 0.2125, 0.2125, 0.216666666666667, 0.220833333333333, 0.225, 0.226785714285714, 0.228571428571429, 0.230357142857143, 0.232142857142857, 0.233928571428571, 0.235714285714286, 0.2375, 0.24375, 0.25, 0.25625, 0.2625, 0.275, 0.275, 0.28125, 0.2875, 0.3, 0.30625, 0.3125, 0.31875, 0.325, 0.33125, 0.3375, 0.35, 0.3625, 0.36875, 0.375, 0.3875, 0.4, 0.40625, 0.4125, 0.4375, 0.44375, 0.45, 0.4875, 0.5, 0.5125, 0.55, 0.56875, 0.5875, 0.60625, 0.625, 0.675, 0.69375, 0.7125, 0.75, 0.775, 0.8, 0.825, 0.8625, 0.8875, 0.9125, 0.9625, 0.9875, 1.0, 1.0, 1.0 ]
 									}
 ,
@@ -1982,7 +1980,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 274.5, 337.0, 594.0, 49.0 ],
+					"patching_rect" : [ 275.0, 314.0, 649.0, 102.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.5, 416.0, 441.0, 80.0 ],
 					"sync" : 1
@@ -2458,7 +2456,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "fluid.audiofilesin.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/patchers",
-				"patcherrelativepath" : "../../../FluidCorpusManipulation/patchers",
+				"patcherrelativepath" : "../../FluidCorpusManipulation/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2477,7 +2475,14 @@
 , 			{
 				"name" : "fluid.concataudiofiles.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/patchers",
-				"patcherrelativepath" : "../../../FluidCorpusManipulation/patchers",
+				"patcherrelativepath" : "../../FluidCorpusManipulation/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "philipmeyer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2491,22 +2496,22 @@
 			}
 , 			{
 				"name" : "seq.dsp.env.ar.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/dsp",
-				"patcherrelativepath" : "../dsp",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.dsp.ramp.samps.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/dsp",
-				"patcherrelativepath" : "../dsp",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.dsp.simplesampler.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/dsp",
-				"patcherrelativepath" : "../dsp",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
@@ -2516,8 +2521,8 @@
 			}
 , 			{
 				"name" : "seq.ex.mc.json",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/examples",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/pattrstorage",
+				"patcherrelativepath" : "../misc/pattrstorage",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2527,15 +2532,15 @@
 			}
 , 			{
 				"name" : "seq.xtra.fluidslice.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/xtra",
-				"patcherrelativepath" : "../xtra",
+				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/extras",
+				"patcherrelativepath" : "../../seq-dev/extras",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.xtra.patterndisplay.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/xtra",
-				"patcherrelativepath" : "../xtra",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/extras",
+				"patcherrelativepath" : "../extras",
 				"type" : "JSON",
 				"implicit" : 1
 			}

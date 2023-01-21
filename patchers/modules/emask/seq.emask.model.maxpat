@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 142.0, 87.0, 760.0, 464.0 ],
+		"rect" : [ 34.0, 87.0, 867.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 444.736237704686573, 358.0, 101.0, 22.0 ],
+					"patching_rect" : [ 498.736237704686573, 356.0, 101.0, 22.0 ],
 					"text" : "prepend variation"
 				}
 
@@ -58,7 +58,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 444.736237704686573, 334.0, 215.0, 22.0 ],
+					"patching_rect" : [ 498.736237704686573, 332.0, 215.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0.0 ],
 						"parameter_enable" : 0,
@@ -77,7 +77,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 444.736237704686573, 309.523063056888589, 129.0, 22.0 ],
+					"patching_rect" : [ 498.736237704686573, 307.523063056888589, 129.0, 22.0 ],
 					"text" : "prepend windowlength"
 				}
 
@@ -90,7 +90,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 444.736237704686573, 285.523063056888589, 242.0, 22.0 ],
+					"patching_rect" : [ 498.736237704686573, 283.523063056888589, 242.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 1.0 ],
 						"parameter_enable" : 0,
@@ -124,12 +124,12 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 229.736237704686516, 285.523063056888589, 212.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 0 ],
+						"initial" : [ 1 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr windows @type float32 @initial 0",
+					"text" : "pattr windows @type float32 @initial 1",
 					"varname" : "windows"
 				}
 
@@ -153,7 +153,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 435.736237704686516, 233.523063056888589, 120.0, 22.0 ],
+					"patching_rect" : [ 489.736237704686516, 231.523063056888589, 120.0, 22.0 ],
 					"text" : "prepend triggermode"
 				}
 
@@ -165,7 +165,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 435.736237704686516, 180.523063056888589, 119.0, 22.0 ],
+					"patching_rect" : [ 489.736237704686516, 178.523063056888589, 119.0, 22.0 ],
 					"text" : "prepend outputmode"
 				}
 
@@ -177,7 +177,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 435.736237704686516, 126.523063056888589, 126.0, 22.0 ],
+					"patching_rect" : [ 489.736237704686516, 124.523063056888589, 126.0, 22.0 ],
 					"text" : "prepend countermode"
 				}
 
@@ -190,7 +190,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 435.736237704686516, 209.523063056888589, 265.0, 22.0 ],
+					"patching_rect" : [ 489.736237704686516, 207.523063056888589, 265.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ "change" ],
 						"parameter_enable" : 0,
@@ -210,7 +210,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 435.736237704686516, 156.523063056888589, 290.0, 22.0 ],
+					"patching_rect" : [ 489.736237704686516, 154.523063056888589, 290.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ "event_count" ],
 						"parameter_enable" : 0,
@@ -230,7 +230,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 435.736237704686516, 102.523063056888589, 260.0, 22.0 ],
+					"patching_rect" : [ 489.736237704686516, 100.523063056888589, 260.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ "index" ],
 						"parameter_enable" : 0,
@@ -302,7 +302,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 318.436486941038027, 406.023063056888532, 250.0, 22.0 ],
-					"restore" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"restore" : [ 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0

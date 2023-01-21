@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1372.0, 727.0 ],
+						"rect" : [ 0.0, 26.0, 1372.0, 753.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1192,7 +1192,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 139.0, 1372.0, 727.0 ],
+						"rect" : [ 34.0, 113.0, 1372.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1635,8 +1635,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.0, 65.0, 660.0, 100.0 ],
-									"text" : "Modules are inspired by the wonderful (but mostly defunct)Max package Jamoma. You can control modules multiple ways: by using the panel controls, by sending a message into the first inlet of the module, by using a pattr object that is bound to the parameter you want to change, or by loading a preset through pattrstorage. No matter how the parameter value is changed, all of the UI elements linked to that parameter can in sync.\n\nThis is useful when you want to create a patch with modules, and then create a streamlined UI for performance or use external controllers like Mira or a MIDI controller."
+									"patching_rect" : [ 25.0, 65.0, 939.333320140838623, 100.0 ],
+									"text" : "Modules are the easiest way to get from a blank patching window to a powerful instrument. \n\nEach seq object has its own module. The module includes the seq object, a UI, and support for presets using Max's pattr system.\n\nModules can be controlled in a variety of ways: the UI on the module's front panel, messages into the module, remote messages via a \"bound\" pattr object, or by loading presets. These features make it easy to create custom UIs for performances or integrate hardware controllers in to a seq system. No matter how the paramaters are set, all of the UI elements stay in sync."
 								}
 
 							}
@@ -1791,7 +1791,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1372.0, 727.0 ],
+						"rect" : [ 0.0, 26.0, 1372.0, 753.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,

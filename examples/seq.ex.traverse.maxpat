@@ -40,6 +40,22 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-33",
+					"maxclass" : "number~",
+					"mode" : 2,
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "float" ],
+					"patching_rect" : [ 180.0, 704.0, 56.0, 22.0 ],
+					"sig" : 0.0
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-32",
 					"linecount" : 2,
@@ -172,14 +188,14 @@
 						"bpm" : [ "bpm", 120.0 ],
 						"ceiling" : [ "ceiling", 16.0 ],
 						"direction" : [ "direction", "drunk" ],
-						"floor" : [ "floor", 13.0 ],
+						"floor" : [ "floor", 4.0 ],
 						"fm_depth" : [ "depth", 0.96 ],
 						"fm_modratio" : [ 0.75 ],
 						"fm_t60" : [ "t60", 0.7 ],
 						"live.gain~" : [ 0.0 ],
-						"notes" : [ 67, 68, 65, 65, 66, 63, 67, 69, 66, 63, 66, 64, 65, 65, 63, 67 ],
+						"notes" : [ 67, 68, 68, 67, 66, 65, 63, 62, 61, 60, 60, 61, 62, 65, 69, 67 ],
 						"scale" : [ "hirajoshi.scl" ],
-						"steps" : [ "steps", 4.0 ]
+						"steps" : [ "steps", 6.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -2298,6 +2314,13 @@
 					"destination" : [ "obj-11", 1 ],
 					"order" : 1,
 					"source" : [ "obj-31", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"source" : [ "obj-31", 0 ]
 				}
 
 			}

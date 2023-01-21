@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 210.0, 87.0, 797.0, 713.0 ],
-		"bglocked" : 0,
+		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -594,64 +594,6 @@
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 364.5, 637.635059345706964, 183.0, 22.0 ],
 					"text" : "buffer~ #0_length @samps 16"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 12.0,
-					"id" : "obj-12",
-					"linecount" : 4,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 21.5, 64.0, 690.0, 60.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 6,
-					"presentation_rect" : [ 47.5, 88.0, 402.0, 87.0 ],
-					"text" : "this patch visualizes up to 16 patterns from a single-channel or mc seq pattern object (e.g. seq.euclidean~, mc.seq.pattern~, etc).  it takes advantage of the fact that both buffers and matrices are structured like tables. matrices have rows and columns, while buffers have samples and rows. so, we can read data into buffers using objects like poke~, and then we can use jit.buffer~ to read the data as a jitter matrix!"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Lato",
-					"fontsize" : 18.0,
-					"id" : "obj-9",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 89.75, 31.5, 205.0, 28.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 98.5, 44.0, 299.0, 28.0 ],
-					"text" : "seq.xtra.patterndisplay"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Lato",
-					"fontsize" : 36.0,
-					"id" : "obj-10",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 21.5, 9.5, 66.0, 50.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 32.5, 21.0, 66.0, 50.0 ],
-					"text" : "seq"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 296.75, 39.5, 150.0, 20.0 ],
-					"text" : "philip meyer, 2022"
 				}
 
 			}
@@ -1260,11 +1202,11 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "buffer pos",
-										"outlettype" : [ "", "" ],
-										"id" : "obj-2",
 										"numinlets" : 0,
+										"numoutlets" : 2,
 										"patching_rect" : [ 199.0, 105.0, 62.0, 22.0 ],
-										"numoutlets" : 2
+										"outlettype" : [ "", "" ],
+										"id" : "obj-2"
 									}
 
 								}
@@ -1272,11 +1214,11 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "- 1",
-										"outlettype" : [ "" ],
-										"id" : "obj-16",
 										"numinlets" : 1,
+										"numoutlets" : 1,
 										"patching_rect" : [ 88.0, 77.0, 23.0, 22.0 ],
-										"numoutlets" : 1
+										"outlettype" : [ "" ],
+										"id" : "obj-16"
 									}
 
 								}
@@ -1284,11 +1226,11 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "mc_channel",
-										"outlettype" : [ "" ],
-										"id" : "obj-14",
 										"numinlets" : 0,
+										"numoutlets" : 1,
 										"patching_rect" : [ 88.0, 40.0, 73.0, 22.0 ],
-										"numoutlets" : 1
+										"outlettype" : [ "" ],
+										"id" : "obj-14"
 									}
 
 								}
@@ -1296,10 +1238,10 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "poke pos",
-										"id" : "obj-13",
 										"numinlets" : 4,
+										"numoutlets" : 0,
 										"patching_rect" : [ 50.0, 105.0, 133.0, 22.0 ],
-										"numoutlets" : 0
+										"id" : "obj-13"
 									}
 
 								}
@@ -1307,19 +1249,19 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "in 1",
-										"outlettype" : [ "" ],
-										"id" : "obj-1",
 										"numinlets" : 0,
+										"numoutlets" : 1,
 										"patching_rect" : [ 50.0, 40.0, 28.0, 22.0 ],
-										"numoutlets" : 1
+										"outlettype" : [ "" ],
+										"id" : "obj-1"
 									}
 
 								}
  ],
 							"lines" : [ 								{
 									"patchline" : 									{
-										"source" : [ "obj-1", 0 ],
-										"destination" : [ "obj-13", 0 ]
+										"source" : [ "obj-16", 0 ],
+										"destination" : [ "obj-13", 1 ]
 									}
 
 								}
@@ -1332,8 +1274,8 @@
 								}
 , 								{
 									"patchline" : 									{
-										"source" : [ "obj-16", 0 ],
-										"destination" : [ "obj-13", 1 ]
+										"source" : [ "obj-1", 0 ],
+										"destination" : [ "obj-13", 0 ]
 									}
 
 								}
@@ -1350,7 +1292,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 170.5, 340.435059000000024, 169.199999451637268, 35.0 ],
 					"text" : "mc.gen~ @t fill-pos-mtx @chans 16 @pos #0_pos",
-					"wrapper_uniquekey" : "u140001759"
+					"wrapper_uniquekey" : "u374010707"
 				}
 
 			}
@@ -2950,7 +2892,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 21.5, 155.5, 30.0, 30.0 ]
 				}
 
@@ -2983,7 +2925,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "matrix",
 					"id" : "obj-149",
 					"index" : 1,
 					"maxclass" : "outlet",
@@ -3003,6 +2945,61 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 212.0, 483.435059000000024, 139.0, 22.0 ],
 					"text" : "loadmess outputlast 255"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"fontsize" : 12.0,
+					"id" : "obj-12",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 21.5, 64.0, 690.0, 60.0 ],
+					"text" : "this patch visualizes up to 16 patterns from a single-channel or mc seq pattern object (e.g. seq.euclidean~, mc.seq.pattern~, etc).  it takes advantage of the fact that both buffers and matrices are structured like tables. matrices have rows and columns, while buffers have samples and rows. so, we can read data into buffers using objects like poke~, and then we can use jit.buffer~ to read the data as a jitter matrix!"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"fontname" : "Lato",
+					"fontsize" : 18.0,
+					"id" : "obj-9",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 89.75, 31.5, 205.0, 28.0 ],
+					"text" : "seq.xtra.patterndisplay"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"fontface" : 1,
+					"fontname" : "Lato",
+					"fontsize" : 36.0,
+					"id" : "obj-10",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 21.5, 9.5, 66.0, 50.0 ],
+					"text" : "seq"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"id" : "obj-6",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 51.0, 660.93505899999991, 150.0, 20.0 ],
+					"text" : "philip meyer, 2023"
 				}
 
 			}

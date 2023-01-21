@@ -34,9 +34,25 @@
 	"seq.ex.seqtwist" : 	{
 		"digest" : "seq objects hanging out with some of their best friends"
 	}
-	,
+,
 	"seq.ex.nestedtuplets" : 	{
 		"digest" : "Irregular rhythms built from unusual subdivisions"
+	}
+,
+	"seq.ex.wavescan" : 	{
+		"digest" : "Looping sample playbck with seq.loop~"
+	}
+,
+	"seq.ex.quantized" : 	{
+		"digest" : "Quantize incoming MIDI notes with seq.loop~ and seq.onepulse~"
+	}
+,
+	"seq.ex.livesync" : 	{
+		"digest" : "Sync a sequencer with Ableton Live"
+	}
+,
+	"seq.ex.modwheelretrig" : 	{
+		"digest" : "Trigger and modulate ratchets with the keyboard and mod wheel."
 	}
 
 }

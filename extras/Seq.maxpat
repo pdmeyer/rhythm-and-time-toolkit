@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 281.0, 103.0, 778.0, 678.0 ],
+		"rect" : [ 149.0, 100.0, 738.0, 666.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 281.0, 129.0, 778.0, 652.0 ],
+						"rect" : [ 0.0, 26.0, 738.0, 640.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -442,31 +442,6 @@
 							}
 , 							{
 								"box" : 								{
-									"fontsize" : 16.0,
-									"id" : "obj-51",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 473.0, 572.0, 184.0, 24.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 68.0, 313.0, 184.0, 24.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-49",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 284.666666666666629, 572.0, 150.0, 20.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 68.0, 339.0, 483.0, 20.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-44",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -533,34 +508,6 @@
 							}
 , 							{
 								"box" : 								{
-									"fontsize" : 16.0,
-									"id" : "obj-4",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 218.0, 133.0, 184.0, 24.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 370.0, 96.0, 184.0, 24.0 ],
-									"text" : "examples"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontsize" : 16.0,
-									"id" : "obj-2",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 22.0, 118.5, 184.0, 24.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 68.0, 96.0, 184.0, 24.0 ],
-									"text" : "help patches"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-48",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -597,55 +544,6 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "seq.ex.feel", "seq.ex.mc", "seq.ex.sometimes-retrig", "seq.ex.traverse", "seq.ex.seqtwist", "seq.ex.nestedtuplets" ],
-									"bgmode" : 0,
-									"border" : 0,
-									"clickthrough" : 0,
-									"enablehscroll" : 0,
-									"enablevscroll" : 0,
-									"id" : "obj-42",
-									"lockeddragscroll" : 0,
-									"lockedsize" : 0,
-									"maxclass" : "bpatcher",
-									"name" : "seq.launcher.tabs.maxpat",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "", "int" ],
-									"patching_rect" : [ 249.75, 212.0, 176.25, 113.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 370.0, 183.0, 184.0, 137.0 ],
-									"viewvisibility" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"args" : [ "seq.help.patternobjects", "seq.help.snippets", "seq.help.modules", "seq.help.signalflow" ],
-									"bgmode" : 0,
-									"border" : 0,
-									"clickthrough" : 0,
-									"enablehscroll" : 0,
-									"enablevscroll" : 0,
-									"id" : "obj-41",
-									"lockeddragscroll" : 0,
-									"lockedsize" : 0,
-									"maxclass" : "bpatcher",
-									"name" : "seq.launcher.tabs.maxpat",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "", "int" ],
-									"patching_rect" : [ 22.0, 212.0, 180.0, 90.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 68.0, 183.0, 184.5, 92.0 ],
-									"varname" : "seq.launcher.tabs",
-									"viewvisibility" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-40",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -668,7 +566,7 @@
 									"patching_rect" : [ 22.0, 145.5, 162.0, 60.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 3,
-									"presentation_rect" : [ 68.0, 127.0, 209.0, 47.0 ],
+									"presentation_rect" : [ 41.0, 126.0, 209.0, 47.0 ],
 									"text" : "these are help patches for the entire seq package. They help explain how seq works and how to use it."
 								}
 
@@ -685,7 +583,7 @@
 									"patching_rect" : [ 218.0, 159.0, 156.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 370.0, 127.0, 181.0, 33.0 ],
+									"presentation_rect" : [ 289.0, 126.0, 181.0, 33.0 ],
 									"text" : "these show seq in some real-world examples"
 								}
 
@@ -719,6 +617,114 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 21.0, 6.0, 212.0, 50.0 ],
 									"text" : "extras"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"background" : 1,
+									"fontsize" : 16.0,
+									"id" : "obj-51",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 473.0, 572.0, 184.0, 24.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 41.0, 397.0, 184.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"background" : 1,
+									"id" : "obj-49",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 284.666666666666629, 572.0, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 41.0, 423.0, 432.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"background" : 1,
+									"fontsize" : 16.0,
+									"id" : "obj-4",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 218.0, 133.0, 184.0, 24.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 289.0, 95.0, 184.0, 24.0 ],
+									"text" : "examples"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"background" : 1,
+									"fontsize" : 16.0,
+									"id" : "obj-2",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 22.0, 118.5, 184.0, 24.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 41.0, 95.0, 184.0, 24.0 ],
+									"text" : "help patches"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"args" : [ "seq.ex.feel", "seq.ex.mc", "seq.ex.sometimes-retrig", "seq.ex.traverse", "seq.ex.seqtwist", "seq.ex.nestedtuplets", "seq.ex.wavescan", "seq.ex.quantized", "seq.ex.livesync", "seq.ex.modwheelretrig" ],
+									"background" : 1,
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-42",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.launcher.tabs.maxpat",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "", "int" ],
+									"patching_rect" : [ 249.75, 212.0, 176.25, 113.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 289.0, 182.0, 184.0, 226.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"args" : [ "seq.help.patternobjects", "seq.help.snippets", "seq.help.modules", "seq.help.signalflow" ],
+									"background" : 1,
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-41",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.launcher.tabs.maxpat",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "", "int" ],
+									"patching_rect" : [ 22.0, 212.0, 180.0, 90.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 41.0, 182.0, 184.5, 92.0 ],
+									"varname" : "seq.launcher.tabs",
+									"viewvisibility" : 1
 								}
 
 							}
@@ -909,7 +915,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 778.0, 652.0 ],
+						"rect" : [ 149.0, 126.0, 738.0, 640.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,

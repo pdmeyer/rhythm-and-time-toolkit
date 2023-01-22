@@ -13,18 +13,22 @@
 	"max_version_max" : "none",
 	"os" : 	{
 		"macintosh" : 		{
-			"min_version" : "none",
+			"min_version" : "8.5",
 			"platform" : [ "aarch64", "x64" ]
 		}
 ,
 		"windows" : 		{
-			"min_version" : "none",
+			"min_version" : "8.5",
 			"platform" : [ "x64" ]
 		}
 
 	}
 ,
-	"homepatcher" : "seq.launcher.maxpat",
+	"homepatcher" : "Seq.maxpat",
+	"package_extra" : 	{
+		"copyright" : "Copyright (c) 2023 Philip Meyer"
+	}
+,
 	"filelist" : 	{
 		"externals" : [ "seq.8sequence~.mxe64", "seq.8sequence~.mxo", "seq.bar~.mxe64", "seq.bar~.mxo", "seq.binary~.mxe64", "seq.binary~.mxo", "seq.blocks~.mxe64", "seq.blocks~.mxo", "seq.clock~.mxe64", "seq.clock~.mxo", "seq.counter~.mxe64", "seq.counter~.mxo", "seq.dist~.mxe64", "seq.dist~.mxo", "seq.divs~.mxe64", "seq.divs~.mxo", "seq.emask~.mxe64", "seq.emask~.mxo", "seq.euclidean~.mxe64", "seq.euclidean~.mxo", "seq.feel~.mxe64", "seq.feel~.mxo", "seq.loop~.mxe64", "seq.loop~.mxo", "seq.makecc~.mxe64", "seq.makecc~.mxo", "seq.makenote~.mxe64", "seq.makenote~.mxo", "seq.onepulse~.mxe64", "seq.onepulse~.mxo", "seq.pattern~.mxe64", "seq.pattern~.mxo", "seq.pprob~.mxe64", "seq.pprob~.mxo", "seq.retrig~.mxe64", "seq.retrig~.mxo", "seq.rlogic~.mxe64", "seq.rlogic~.mxo", "seq.rprob~.mxe64", "seq.rprob~.mxo", "seq.scala~.mxe64", "seq.scala~.mxo", "seq.sequence~.mxe64", "seq.sequence~.mxo", "seq.snap~.mxe64", "seq.snap~.mxo", "seq.swing~.mxe64", "seq.swing~.mxo" ],
 		"patchers" : [ "8sequence/seq.8sequence.maxpat", "8sequence/seq.8sequence.model.maxpat", "8sequence/seq.8sequence.view.maxpat", "_module-components/seq.countviewer.gendsp", "_module-components/seq.module.attrchecker.maxpat", "_module-components/seq.module.control.js", "_module-components/seq.module.control.maxpat", "_module-components/seq.module.patternmodeview.maxpat", "_module-components/seq.module.patternview.maxpat", "_module-components/seq.module.presets.js", "_module-components/seq.module.remote.maxpat", "_module-components/seq.module.stepviewer.maxpat", "_module-components/seq.module.viewcontrol.maxpat", "_module-components/seq.modules.control.maxpat", "bar/seq.bar.maxpat", "bar/seq.bar.model.maxpat", "bar/seq.bar.presets.xml", "bar/seq.bar.view.maxpat", "binary/seq.binary.maxpat", "binary/seq.binary.model.maxpat", "binary/seq.binary.presets.xml", "binary/seq.binary.view.maxpat", "blocks/seq.blocks.maxpat", "blocks/seq.blocks.model.maxpat", "blocks/seq.blocks.view.maxpat", "counter/seq.counter.maxpat", "counter/seq.counter.model.maxpat", "counter/seq.counter.view.maxpat", "dist/seq.blocks.presets.xml", "dist/seq.dist.maxpat", "dist/seq.dist.model.maxpat", "dist/seq.dist.presets.xml", "dist/seq.dist.view.maxpat", "dist/seq.euclidean.presets.xml", "divs/seq.divs.maxpat", "divs/seq.divs.model.maxpat", "divs/seq.divs.view.maxpat", "euclidean/seq.euclidean.maxpat", "euclidean/seq.euclidean.model.maxpat", "euclidean/seq.euclidean.presets.xml", "euclidean/seq.euclidean.view.maxpat", "loop/seq.loop.maxpat", "loop/seq.loop.model.maxpat", "loop/seq.loop.presets.xml", "loop/seq.loop.view.maxpat", "makecc/seq.makecc.maxpat", "makecc/seq.makecc.model.maxpat", "makecc/seq.makecc.view.maxpat", "makenote/seq.makenote.maxpat", "makenote/seq.makenote.model.maxpat", "makenote/seq.makenote.view.maxpat", "pattern/seq.pattern.maxpat", "pattern/seq.pattern.model.maxpat", "pattern/seq.pattern.view.maxpat", "pprob/seq.pprob.maxpat", "pprob/seq.pprob.model.maxpat", "pprob/seq.pprob.view.maxpat", "retrig/seq.retrig.maxpat", "retrig/seq.retrig.model.maxpat", "retrig/seq.retrig.view.maxpat", "rlogic/seq.rlogic.maxpat", "rlogic/seq.rlogic.model.maxpat", "rlogic/seq.rlogic.view.maxpat", "rprob/seq.rprob.maxpat", "rprob/seq.rprob.model.maxpat", "rprob/seq.rprob.view.maxpat", "scala/seq.scala.maxpat", "scala/seq.scala.model.maxpat", "scala/seq.scala.parser.maxpat", "scala/seq.scala.view.maxpat", "sequence/seq.sequence.maxpat", "sequence/seq.sequence.model.maxpat", "sequence/seq.sequence.view.maxpat", "snap/seq.snap.maxpat", "snap/seq.snap.model.maxpat", "snap/seq.snap.view.maxpat", "swing/seq.swing.maxpat", "swing/seq.swing.model.maxpat", "swing/seq.swing.view.maxpat" ],

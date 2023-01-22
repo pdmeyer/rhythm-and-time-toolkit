@@ -40,12 +40,27 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "multislider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 64.25, 171.0, 104.0, 52.0 ],
+					"setminmax" : [ 1.0, 9.0 ],
+					"settype" : 0,
+					"size" : 3
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-51",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 79.5, 414.0, 136.5, 22.0 ],
+					"patching_rect" : [ 48.0, 411.0, 136.5, 22.0 ],
 					"text" : "*~"
 				}
 
@@ -123,7 +138,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 79.5, 449.0, 40.5, 40.5 ]
+					"patching_rect" : [ 48.0, 446.0, 40.5, 40.5 ]
 				}
 
 			}
@@ -137,7 +152,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 79.5, 384.0, 121.0, 20.0 ],
+					"patching_rect" : [ 48.0, 381.0, 121.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "mc.live.gain~",
@@ -163,7 +178,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 79.5, 353.0, 112.0, 22.0 ],
+					"patching_rect" : [ 48.0, 350.0, 112.0, 22.0 ],
 					"text" : "wave~ loop-sample"
 				}
 
@@ -176,20 +191,21 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 216.5, 328.5, 148.0, 58.0 ],
+					"patching_rect" : [ 193.0, 332.0, 148.0, 58.0 ],
 					"range" : [ -0.1, 1.1 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"hidden" : 1,
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 101.0, 197.0, 90.0, 22.0 ],
-					"text" : "loadmess 1 3 4"
+					"patching_rect" : [ 71.25, 171.0, 90.0, 22.0 ],
+					"text" : "loadmess 1 6 8"
 				}
 
 			}
@@ -273,7 +289,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 224.5, 414.0, 179.0, 22.0 ],
+					"patching_rect" : [ 193.0, 411.0, 179.0, 22.0 ],
 					"text" : "buffer~ loop-sample vibes-a1.aif"
 				}
 
@@ -286,7 +302,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 48.0, 295.0, 174.0, 22.0 ],
+					"patching_rect" : [ 48.0, 297.0, 174.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -303,7 +319,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 125.0, 449.0, 117.0, 20.0 ],
+					"patching_rect" : [ 93.5, 446.0, 117.0, 20.0 ],
 					"text" : "philip meyer, 2023"
 				}
 
@@ -398,7 +414,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-51", 1 ],
-					"midpoints" : [ 57.5, 130.5, 206.5, 130.5 ],
+					"midpoints" : [ 57.5, 130.5, 175.0, 130.5 ],
 					"order" : 0,
 					"source" : [ "obj-12", 0 ]
 				}
@@ -430,7 +446,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-100", 1 ],
+					"destination" : [ "obj-4", 0 ],
+					"hidden" : 1,
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -478,6 +495,13 @@
 					"destination" : [ "obj-13", 0 ],
 					"midpoints" : [ 291.5, 290.0, 57.5, 290.0 ],
 					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-100", 1 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}

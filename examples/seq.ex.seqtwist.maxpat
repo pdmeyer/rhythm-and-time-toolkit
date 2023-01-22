@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 415.5, 241.0, 56.0, 22.0 ],
+					"patching_rect" : [ 423.5, 143.0, 56.0, 22.0 ],
 					"text" : "sel recall"
 				}
 
@@ -118,7 +118,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 415.5, 272.0, 150.0, 20.0 ],
+					"patching_rect" : [ 423.5, 272.0, 150.0, 20.0 ],
 					"text" : "exciter shape"
 				}
 
@@ -170,7 +170,8 @@
 					}
 ,
 					"showname" : 0,
-					"shownumber" : 0
+					"shownumber" : 0,
+					"varname" : "mc.live.gain~"
 				}
 
 			}
@@ -184,13 +185,14 @@
 					"patching_rect" : [ 528.833331108093262, 41.416659784350884, 56.0, 22.0 ],
 					"restore" : 					{
 						"bar/bpm" : [ "bpm", 120.0 ],
-						"envelope" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 1, 0.0, 77.127659574468083, 0.985074626865672, 0, -0.345, 1000.0, 0.0, 1, -0.495, "curve" ],
-						"gate-length" : [ 46.0 ],
-						"playbackspeed" : [ 1.2 ],
-						"resfreqs" : [ 30, 73, 55, 51, 44, 67, 71, 61, 76, 43, 76, 50, 50, 48, 73, 46 ],
-						"resonance" : [ 340.0 ],
+						"envelope" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 1, 0.0, 114.361702127659569, 0.970149253731343, 0, -0.055, 1000.0, 0.0, 1, 0.0, "curve" ],
+						"gate-length" : [ 30.0 ],
+						"mc.live.gain~" : [ 0.0 ],
+						"playbackspeed" : [ 1.0 ],
+						"resfreqs" : [ 30, 73, 45, 45, 77, 47, 49, 50, 49, 48, 46, 44, 43, 42, 40, 82 ],
+						"resonance" : [ 2000.0 ],
 						"scala/scale" : [ "indian-hahn.scl" ],
-						"twist" : [ "curve", -0.5 ]
+						"twist" : [ "curve", 0.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -232,9 +234,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "seq.xtra.pattrhelper.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 2,
+					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "int" ],
+					"outlettype" : [ "", "int", "bang" ],
 					"patching_rect" : [ 423.5, 34.666664600372314, 302.0, 65.583330583606255 ],
 					"varname" : "seq.xtra.pattrhelper",
 					"viewvisibility" : 1
@@ -499,7 +501,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 1, 0.0, 77.127659574468083, 0.985074626865672, 0, -0.345, 1000.0, 0.0, 1, -0.495 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 1, 0.0, 114.361702127659569, 0.970149253731343, 0, -0.055, 1000.0, 0.0, 1, 0.0 ],
 					"gridstep_y" : 1.0,
 					"id" : "obj-42",
 					"legend" : 0,
@@ -510,7 +512,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "", "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 415.5, 291.0, 200.0, 79.0 ],
+					"patching_rect" : [ 423.5, 291.0, 200.0, 79.0 ],
 					"varname" : "envelope"
 				}
 
@@ -919,7 +921,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
-					"midpoints" : [ 485.333333333333371, 383.5, 130.0, 383.5 ],
+					"midpoints" : [ 493.333333333333371, 383.5, 130.0, 383.5 ],
 					"source" : [ "obj-42", 1 ]
 				}
 
@@ -950,7 +952,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 604.5, 378.0, 637.5, 378.0, 637.5, 269.0, 425.0, 269.0 ],
+					"midpoints" : [ 604.5, 378.0, 637.5, 378.0, 637.5, 269.0, 433.0, 269.0 ],
 					"source" : [ "obj-49", 0 ]
 				}
 

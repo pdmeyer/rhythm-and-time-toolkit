@@ -40,6 +40,32 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 409.0, 502.0, 55.0, 22.0 ],
+					"text" : "pipe 250"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 409.0, 478.0, 70.0, 22.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-10",
 					"lastchannelcount" : 2,
 					"maxclass" : "mc.live.gain~",
@@ -76,16 +102,16 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 409.0, 604.5, 56.0, 22.0 ],
 					"restore" : 					{
-						"comb-freqs" : [ 30, 85, 82, 84, 81, 75, 70, 65, 39, 39, 37, 36, 35, 35, 35, 35, 35, 35, 67, 67, 67, 36, 37, 37, 60, 38, 81, 39, 39, 39, 39, 48 ],
-						"density" : [ "density", 1.0 ],
+						"comb-freqs" : [ 30, 30, 53, 59, 63, 67, 71, 74, 76, 76, 75, 68, 61, 59, 55, 54, 52, 50, 49, 49, 52, 52, 52, 52, 53, 55, 59, 61, 63, 62, 70, 72 ],
+						"density" : [ "density", 0.5 ],
 						"live.numbox" : [ 0.342857142857143 ],
-						"lpf-cutoff" : [ "cutoff", 3000.0 ],
+						"lpf-cutoff" : [ "cutoff", 4000.0 ],
 						"mc.live.gain~" : [ -11.370078740157467 ],
 						"rt-probability" : [ 0.342857142857143 ],
 						"rt-repeats" : [ "repeats", 4.0 ],
-						"rt-subdiv" : [ "subdiv", 16.0 ],
-						"steps" : [ "steps", 32.0 ],
-						"variation" : [ "variation", 0.4 ],
+						"rt-subdiv" : [ "subdiv", 32.0 ],
+						"steps" : [ "steps", 48.0 ],
+						"variation" : [ "variation", 1.0 ],
 						"windowlength" : [ "windowlength", 0.58 ],
 						"windows" : [ "windows", 12.0 ]
 					}
@@ -1529,8 +1555,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-71", 0 ],
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}

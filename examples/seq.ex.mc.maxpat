@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1348.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 1141.0, 690.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,26 +39,6 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-11",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "philipmeyer.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 75.5, 666.0, 104.5, 21.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-52",
 					"maxclass" : "newobj",
@@ -242,7 +222,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 933.0, 388.0, 109.0, 28.0 ],
+					"patching_rect" : [ 880.0, 428.0, 109.0, 28.0 ],
 					"text" : "buffers"
 				}
 
@@ -276,7 +256,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 963.0, 587.0, 50.0, 22.0 ]
+					"patching_rect" : [ 910.0, 636.5, 50.0, 22.0 ]
 				}
 
 			}
@@ -557,7 +537,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1015.0, 587.0, 75.0, 22.0 ],
+					"patching_rect" : [ 962.0, 636.5, 75.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -577,7 +557,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 933.0, 451.5, 130.0, 22.0 ],
+					"patching_rect" : [ 880.0, 501.0, 130.0, 22.0 ],
 					"text" : "buffer~ slicepoints"
 				}
 
@@ -589,7 +569,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 933.0, 501.0, 74.0, 22.0 ],
+					"patching_rect" : [ 880.0, 550.5, 74.0, 22.0 ],
 					"text" : "file jongly.aif"
 				}
 
@@ -623,10 +603,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-38",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1069.0, 451.5, 184.0, 20.0 ],
+					"patching_rect" : [ 1016.0, 495.5, 105.0, 33.0 ],
 					"text" : "position of onsets in audio file"
 				}
 
@@ -637,7 +618,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1069.0, 422.0, 150.0, 20.0 ],
+					"patching_rect" : [ 1016.0, 462.0, 112.0, 20.0 ],
 					"text" : "audio file"
 				}
 
@@ -647,11 +628,11 @@
 					"bubble" : 1,
 					"fontsize" : 10.0,
 					"id" : "obj-33",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1036.0, 528.0, 180.166666666666742, 44.0 ],
+					"patching_rect" : [ 983.0, 570.5, 133.166666666666742, 55.0 ],
 					"text" : "create a \"slicepoints\" buffer with any audio file or files (requires the FluCoMa package)"
 				}
 
@@ -663,7 +644,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "list" ],
-					"patching_rect" : [ 933.0, 539.0, 101.0, 22.0 ],
+					"patching_rect" : [ 880.0, 588.5, 101.0, 22.0 ],
 					"text" : "seq.xtra.fluidslice",
 					"varname" : "seq.xtra.fluidslice"
 				}
@@ -718,9 +699,9 @@
 					"patching_rect" : [ 672.25, 616.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"attack_ms" : [ "attack_ms", 1.0 ],
-						"bpm" : [ "bpm", 150.0 ],
+						"bpm" : [ "bpm", 135.0 ],
 						"mc.live.gain~" : [ -8.523622047244103 ],
-						"release_ms" : [ "release_ms", 137.0 ],
+						"release_ms" : [ "release_ms", 154.0 ],
 						"steps" : [ "steps", 64.0 ],
 						"subdiv" : [ "subdiv", 16.0 ]
 					}
@@ -903,7 +884,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 171.0, 278.0, 95.0, 22.0 ],
+					"patching_rect" : [ 158.0, 263.0, 95.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -937,7 +918,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 267.75, 272.5, 137.0, 33.0 ],
+					"patching_rect" : [ 252.0, 261.0, 137.0, 33.0 ],
 					"text" : "randomize the pattern rotation every two bars"
 				}
 
@@ -957,53 +938,6 @@
 					}
 ,
 					"text" : "seq.loop~ @subdiv 1 @steps 2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 12.0,
-					"id" : "obj-2",
-					"linecount" : 4,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 17.5, 58.0, 402.0, 60.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 17.5, 58.0, 402.0, 60.0 ],
-					"text" : "Most seq objects support mc, which allows you to build a multitrack sequencer with very few objects. RNBO-generated externals like the seq objects support all of the powerful MC features like the \"deviate\" message, easing functions, and way more."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Lato",
-					"fontsize" : 18.0,
-					"id" : "obj-5",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 83.5, 29.0, 165.0, 28.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 83.5, 29.0, 299.0, 28.0 ],
-					"text" : "sequencing in mc"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Lato",
-					"fontsize" : 36.0,
-					"id" : "obj-8",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 17.5, 6.0, 66.0, 50.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 17.5, 6.0, 66.0, 50.0 ],
-					"text" : "seq"
 				}
 
 			}
@@ -1218,7 +1152,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 933.0, 422.0, 130.0, 22.0 ],
+					"patching_rect" : [ 880.0, 462.0, 130.0, 22.0 ],
 					"text" : "buffer~ jongly jongly.aif"
 				}
 
@@ -1318,10 +1252,10 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 58.0, 451.0, 56.0, 22.0 ],
 									"restore" : 									{
-										"events" : [ 0.363636363636364, 0.5, 0.166666666666667, 0.4 ],
-										"slice" : [ 0, 3, 6, 9 ],
+										"events" : [ 0.363636363636364, 0.625, 0.666666666666667, 0.8 ],
+										"slice" : [ 0, 7, 14, 14 ],
 										"steps" : [ 11, 8, 6, 15 ],
-										"transpose" : [ 0.0, 0.0, 0.0875, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0125, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.2, 0.0, 0.0, 0.1875, 0.125, 0.0, 0.0 ],
+										"transpose" : [ 0.0, 0.7375, 0.475, 0.85, 0.2625, 0.225, 0.0, 0.0, 0.0125, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.2, 0.7625, 0.7375, 0.1875, 0.675, 0.0, 0.0 ],
 										"velocity" : [ 0.0625, 0.0625, 0.0625, 0.0625, 0.075, 0.075, 0.075, 0.075, 0.075, 0.0875, 0.0875, 0.0875, 0.09375, 0.1, 0.1, 0.1, 0.1125, 0.125, 0.125, 0.125, 0.1375, 0.14375, 0.15, 0.15, 0.15625, 0.1625, 0.175, 0.175, 0.175, 0.1875, 0.191666666666667, 0.195833333333333, 0.2, 0.2, 0.2, 0.204166666666667, 0.208333333333333, 0.2125, 0.2125, 0.2125, 0.2125, 0.216666666666667, 0.220833333333333, 0.225, 0.226785714285714, 0.228571428571429, 0.230357142857143, 0.232142857142857, 0.233928571428571, 0.235714285714286, 0.2375, 0.24375, 0.25, 0.25625, 0.2625, 0.275, 0.275, 0.28125, 0.2875, 0.3, 0.30625, 0.3125, 0.31875, 0.325, 0.33125, 0.3375, 0.35, 0.3625, 0.36875, 0.375, 0.3875, 0.4, 0.40625, 0.4125, 0.4375, 0.44375, 0.45, 0.4875, 0.5, 0.5125, 0.55, 0.56875, 0.5875, 0.60625, 0.625, 0.675, 0.69375, 0.7125, 0.75, 0.775, 0.8, 0.825, 0.8625, 0.8875, 0.9125, 0.9625, 0.9875, 1.0, 1.0, 1.0 ]
 									}
 ,
@@ -1965,7 +1899,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 426.833333333333258, 20.0, 589.0, 271.0 ],
+					"patching_rect" : [ 426.833333333333258, 20.0, 589.0, 265.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.5, 148.0, 589.0, 266.0 ],
 					"varname" : "ui",
@@ -1980,7 +1914,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 275.0, 314.0, 649.0, 102.0 ],
+					"patching_rect" : [ 426.833333333333258, 305.0, 589.0, 102.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.5, 416.0, 441.0, 80.0 ],
 					"sync" : 1
@@ -2146,6 +2080,77 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-11",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "seq.misc.philipmeyer.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 223.25, 637.0, 104.5, 21.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 17.5, 58.0, 402.0, 60.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 17.5, 58.0, 402.0, 60.0 ],
+					"text" : "Most seq objects support mc, which allows you to build a multitrack sequencer with very few objects. RNBO-generated externals like the seq objects support all of the powerful MC features like the \"deviate\" message, easing functions, and way more."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"fontname" : "Lato",
+					"fontsize" : 18.0,
+					"id" : "obj-5",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 83.5, 29.0, 165.0, 28.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 83.5, 29.0, 299.0, 28.0 ],
+					"text" : "sequencing in mc"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"fontface" : 1,
+					"fontname" : "Lato",
+					"fontsize" : 36.0,
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 17.5, 6.0, 66.0, 50.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 17.5, 6.0, 66.0, 50.0 ],
+					"text" : "seq"
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -2217,6 +2222,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-157", 0 ],
+					"midpoints" : [ 144.0, 396.0, 419.166666666666629, 396.0, 419.166666666666629, 301.0, 436.333333333333258, 301.0 ],
 					"source" : [ "obj-151", 0 ]
 				}
 
@@ -2294,6 +2300,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
+					"midpoints" : [ 388.75, 258.5, 167.5, 258.5 ],
 					"order" : 1,
 					"source" : [ "obj-3", 4 ]
 				}
@@ -2324,6 +2331,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
+					"midpoints" : [ 167.5, 312.0, 27.0, 312.0 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -2434,6 +2442,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
+					"midpoints" : [ 436.333333333333258, 298.5, 27.0, 298.5 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -2476,13 +2485,6 @@
 				"name" : "fluid.concataudiofiles.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/patchers",
 				"patcherrelativepath" : "../../FluidCorpusManipulation/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "philipmeyer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
-				"patcherrelativepath" : "../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2531,9 +2533,16 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "seq.misc.philipmeyer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "seq.xtra.fluidslice.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/extras",
-				"patcherrelativepath" : "../../seq-dev/extras",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/extras",
+				"patcherrelativepath" : "../extras",
 				"type" : "JSON",
 				"implicit" : 1
 			}

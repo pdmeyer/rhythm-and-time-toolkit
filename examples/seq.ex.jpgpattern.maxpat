@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 106.0, 888.0, 638.0 ],
+		"rect" : [ 59.0, 106.0, 732.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,26 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-2",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "seq.misc.philipmeyer.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 154.0, 638.166664719581604, 105.0, 23.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-76",
 					"maxclass" : "button",
@@ -72,9 +92,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 258.75, 309.0, 207.5, 52.0 ],
-					"presentation_linecount" : 8,
-					"text" : "one row of the image, downsampled according to the steps parameter",
-					"textjustification" : 0
+					"text" : "one row of the image, downsampled according to the steps parameter"
 				}
 
 			}
@@ -1072,8 +1090,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 492.833331108093262, 35.5, 129.416670918464661, 57.16666116721251 ],
-					"pattrstorage" : "seq.ex.jpgpattern"
+					"patching_rect" : [ 492.833331108093262, 35.5, 129.416670918464661, 57.16666116721251 ]
 				}
 
 			}
@@ -1086,7 +1103,8 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 429.833331108093262, 38.249995183978569, 56.0, 22.0 ],
 					"restore" : 					{
-						"bar/bpm" : [ "bpm", 120.0 ]
+						"bar/bpm" : [ "bpm", 120.0 ],
+						"mc.live.gain~" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -1110,7 +1128,7 @@
 					}
 ,
 					"text" : "pattrstorage @autorestore 1 @savemode 2 @greedy 1",
-					"varname" : "seq.ex.jpgpattern"
+					"varname" : "u817001956"
 				}
 
 			}
@@ -1351,7 +1369,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 350.75, 221.5, 74.5, 20.0 ],
-					"presentation_linecount" : 3,
 					"text" : "drag n' drop",
 					"textjustification" : 2
 				}
@@ -1470,7 +1487,8 @@
 					}
 ,
 					"showname" : 0,
-					"shownumber" : 0
+					"shownumber" : 0,
+					"varname" : "mc.live.gain~"
 				}
 
 			}
@@ -1754,8 +1772,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 440.5, 223.5, 224.0, 20.0 ],
-					"text" : "fernie.jpg",
-					"textjustification" : 0
+					"text" : "fernie.jpg"
 				}
 
 			}
@@ -2336,17 +2353,17 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.ex.jpgpattern.json",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/pattrstorage",
-				"patcherrelativepath" : "../misc/pattrstorage",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "seq.getpatchname.js",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.misc.philipmeyer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{

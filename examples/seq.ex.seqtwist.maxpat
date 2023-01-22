@@ -40,6 +40,26 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-4",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "seq.misc.philipmeyer.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 165.0, 646.0, 105.0, 23.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -186,13 +206,13 @@
 					"restore" : 					{
 						"bar/bpm" : [ "bpm", 120.0 ],
 						"envelope" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 1, 0.0, 114.361702127659569, 0.970149253731343, 0, -0.055, 1000.0, 0.0, 1, 0.0, "curve" ],
-						"gate-length" : [ 30.0 ],
+						"gate-length" : [ 10.0 ],
 						"mc.live.gain~" : [ 0.0 ],
 						"playbackspeed" : [ 1.0 ],
-						"resfreqs" : [ 30, 73, 45, 45, 77, 47, 49, 50, 49, 48, 46, 44, 43, 42, 40, 82 ],
-						"resonance" : [ 2000.0 ],
+						"resfreqs" : [ 30, 73, 73, 73, 73, 73, 71, 69, 68, 65, 62, 60, 72, 81, 81, 82 ],
+						"resonance" : [ 1000.0 ],
 						"scala/scale" : [ "indian-hahn.scl" ],
-						"twist" : [ "curve", 0.0 ]
+						"twist" : [ "curve", 0.7 ]
 					}
 ,
 					"text" : "autopattr",
@@ -1100,6 +1120,13 @@
 , 			{
 				"name" : "seq.loop~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.misc.philipmeyer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.scala.parser.maxpat",

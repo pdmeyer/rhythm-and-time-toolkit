@@ -348,8 +348,8 @@
 									"id" : "obj-3",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "signal", "", "" ],
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 39.0, 365.0, 296.0, 22.0 ],
 									"text" : "seq.dist dist-help-2",
 									"varname" : "dist-help-2"
@@ -370,9 +370,9 @@
 									"maxclass" : "bpatcher",
 									"name" : "seq.dist.maxpat",
 									"numinlets" : 1,
-									"numoutlets" : 3,
+									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "signal", "", "" ],
+									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 39.0, 196.0, 292.0, 105.0 ],
 									"varname" : "dist-help",
 									"viewvisibility" : 1

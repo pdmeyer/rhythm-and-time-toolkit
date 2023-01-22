@@ -40,6 +40,26 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-4",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "seq.misc.philipmeyer.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 163.0, 552.0, 105.0, 23.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-38",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -199,17 +219,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-23",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 297.0, 40.0, 150.0, 20.0 ],
-					"text" : "philip meyer, 2022"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Lato",
 					"fontsize" : 18.0,
 					"id" : "obj-5",
@@ -251,7 +260,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -263,7 +272,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-11",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -275,7 +284,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-10",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -580,7 +589,42 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "fluid.audiofilesin.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/patchers",
+				"patcherrelativepath" : "../../FluidCorpusManipulation/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.buf2list.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufcompose~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufonsetslice~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.concataudiofiles.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/patchers",
+				"patcherrelativepath" : "../../FluidCorpusManipulation/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.misc.philipmeyer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

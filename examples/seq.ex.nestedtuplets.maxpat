@@ -40,6 +40,26 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-4",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "seq.misc.philipmeyer.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 181.0, 526.0, 105.0, 23.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-26",
 					"maxclass" : "preset",
 					"numinlets" : 1,
@@ -66,6 +86,7 @@
 , 			{
 				"box" : 				{
 					"active" : 					{
+						"nt-bar::nt-bar_m::transportstate" : 0,
 						"nt-bar::m::transportstate" : 0
 					}
 ,
@@ -77,10 +98,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 225.0, 413.583330583606255, 302.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1057, 87, 1440, 449 ],
+						"client_rect" : [ 580, 87, 949, 304 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 87, 1173, 348 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage @autorestore 1 @savemode 2 @greedy 1",
@@ -101,9 +122,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "seq.xtra.pattrhelper.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 2,
+					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "int" ],
+					"outlettype" : [ "", "int", "bang" ],
 					"patching_rect" : [ 225.0, 343.0, 302.0, 65.583330583606255 ],
 					"varname" : "seq.xtra.pattrhelper",
 					"viewvisibility" : 1
@@ -197,9 +218,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "seq.divs.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 4,
+					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "signal", "" ],
+					"outlettype" : [ "signal", "signal", "signal" ],
 					"patching_rect" : [ 68.0, 286.0, 143.0, 43.0 ],
 					"varname" : "nt-d",
 					"viewvisibility" : 1
@@ -220,9 +241,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "seq.blocks.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 3,
+					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "signal" ],
+					"outlettype" : [ "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 67.0, 222.0, 143.0, 60.0 ],
 					"varname" : "nt-b2",
 					"viewvisibility" : 1
@@ -243,9 +264,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "seq.blocks.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 3,
+					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "signal" ],
+					"outlettype" : [ "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 67.0, 156.0, 143.0, 60.0 ],
 					"varname" : "nt-b1",
 					"viewvisibility" : 1
@@ -358,7 +379,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 67.0, 66.0, 435.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "create nest-up style rhythms with blocks and divs. blocks are like nestup's \"containers\", and divs creates subdivisions"
 				}
 
@@ -580,6 +600,22 @@
 					"parameter_longname" : "live.button[6]"
 				}
 ,
+				"obj-9::obj-6::obj-11" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-9::obj-6::obj-2" : 				{
+					"parameter_longname" : "live.button[45]"
+				}
+,
+				"obj-9::obj-6::obj-6" : 				{
+					"parameter_longname" : "live.numbox[31]"
+				}
+,
+				"obj-9::obj-6::obj-7" : 				{
+					"parameter_longname" : "live.text[4]"
+				}
+,
 				"obj-9::obj-93::obj-25" : 				{
 					"parameter_longname" : "live.button[1]"
 				}
@@ -706,6 +742,13 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "seq.ex.nestedtuplets.json",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/pattrstorage",
+				"patcherrelativepath" : "../misc/pattrstorage",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "seq.getpatchname.js",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
 				"patcherrelativepath" : "../javascript",
@@ -736,6 +779,13 @@
 , 			{
 				"name" : "seq.makenote~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.misc.philipmeyer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.attrchecker.maxpat",

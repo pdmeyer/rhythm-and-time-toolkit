@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 87.0, 650.0, 596.0 ],
+		"rect" : [ 100.0, 87.0, 638.0, 537.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 650.0, 570.0 ],
+						"rect" : [ 100.0, 113.0, 638.0, 511.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -303,7 +303,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 113.0, 650.0, 570.0 ],
+						"rect" : [ 0.0, 26.0, 638.0, 511.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -452,7 +452,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 36.0, 405.0, 108.0, 35.0 ],
+									"patching_rect" : [ 36.0, 382.0, 108.0, 35.0 ],
 									"text" : "seq.makecc makecc-help-2",
 									"varname" : "makecc-help-2"
 								}
@@ -487,7 +487,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 36.0, 461.0, 77.0, 22.0 ],
+									"patching_rect" : [ 36.0, 427.0, 77.0, 22.0 ],
 									"text" : "clientwindow"
 								}
 
@@ -502,7 +502,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 308.0, 468.0, 222.0, 64.0 ],
+									"patching_rect" : [ 291.0, 434.0, 222.0, 64.0 ],
 									"text" : "use pattrstorage with @greedy 1 to create \"cues\" that save parameters across multiple seq objects in a max patch"
 								}
 
@@ -514,7 +514,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 36.0, 489.0, 250.0, 22.0 ],
+									"patching_rect" : [ 36.0, 455.0, 250.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"client_rect" : [ 1057, 45, 1440, 407 ],
 										"parameter_enable" : 0,
@@ -615,7 +615,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 157.0, 397.5, 218.0, 51.0 ],
+									"patching_rect" : [ 157.0, 374.5, 218.0, 51.0 ],
 									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
 								}
 
@@ -829,7 +829,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 650.0, 570.0 ],
+						"rect" : [ 0.0, 26.0, 638.0, 511.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -893,7 +893,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 650.0, 570.0 ],
+						"rect" : [ 0.0, 26.0, 638.0, 511.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -938,7 +938,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 317.0, 22.5, 101.0, 39.0 ],
+									"patching_rect" : [ 317.0, 12.5, 101.0, 39.0 ],
 									"viewvisibility" : 1
 								}
 

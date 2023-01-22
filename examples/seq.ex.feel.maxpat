@@ -40,6 +40,26 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "seq.misc.philipmeyer.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 111.5, 735.0, 105.0, 23.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -96,17 +116,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 708.0, 453.5, 150.0, 51.0 ],
 					"text" : "orange: original phasor\nyellow: wonky phasor\nwhite: events"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-83",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 105.5, 733.0, 117.0, 20.0 ],
-					"text" : "philip meyer, 2023"
 				}
 
 			}
@@ -179,15 +188,15 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 704.0, 152.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"bar/bpm" : [ "bpm", 160.0 ],
+						"bar/bpm" : [ "bpm", 120.0 ],
 						"bar/transport" : [ "transport", "internal" ],
-						"feel/depth" : [ "depth", 0.2 ],
+						"feel/depth" : [ "depth", 0.39 ],
 						"feel/feellist" : [ 0.0, 0.0, 0.0, 0.169491525423729, -0.338983050847458, -0.338983050847458, -0.271186440677966, -0.169491525423729, 0.0, -0.033898305084746, 0.067796610169492, 0.169491525423729, 0.23728813559322, 0.254237288135593, 0.271186440677966, 0.271186440677966, 0.271186440677966, 0.271186440677966, 0.259887005649718, 0.248587570621469, 0.23728813559322, 0.203389830508475, 0.169491525423729, 0.135593220338983, 0.033898305084746, -0.101694915254237, -0.192090395480226, -0.282485875706215, -0.372881355932203, -0.423728813559322, -0.474576271186441, -0.576271186440678, -0.64406779661017, -0.677966101694915, -0.711864406779661, -0.734463276836158, -0.757062146892655, -0.779661016949153, -0.796610169491526, -0.813559322033898, -0.824858757062147, -0.836158192090396, -0.847457627118644, -0.847457627118644, -0.847457627118644, -0.847457627118644, -0.847457627118644, -0.813559322033898, -0.711864406779661, -0.271186440677966, 0.033898305084746, -0.56497175141243, -0.568738229755179, -0.572504708097929, -0.576271186440678, -0.576271186440678, -0.576271186440678, -0.576271186440678, -0.576271186440678, -0.564971751412429, -0.553672316384181, -0.542372881355932, -0.508474576271186, -0.474576271186441 ],
 						"loop/direction" : [ "direction", "forward" ],
 						"loop/steps" : [ "steps", 16.0 ],
 						"loop/subdiv" : [ "subdiv", 16.0 ],
 						"mc.live.gain~" : [ -6.314440647749201 ],
-						"pprob/probabilities" : [ 0.566666666666667, 0.716666666666667, 0.25, 0.283333333333333, 0.533333333333333, 0.35, 0.75, 0.383333333333333 ],
+						"pprob/probabilities" : [ 0.566666666666667, 0.7, 0.7, 0.7, 0.75, 0.75, 0.716666666666667, 0.383333333333333 ],
 						"pprob/size" : [ "size", 8 ]
 					}
 ,
@@ -247,7 +256,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 357.0, 560.0, 195.0, 22.0 ],
-					"text" : "1. 64. 63. 65. 67. 66. 64. 65. 66."
+					"text" : "6. 0. 0. 0. 0. 0.1 0. 0. 0."
 				}
 
 			}
@@ -815,7 +824,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "seq.xtra.stepgridviewer.maxpat",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
@@ -1723,6 +1732,13 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "seq.misc.philipmeyer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "seq.pprob~.mxo",
 				"type" : "iLaX"
 			}
@@ -1732,6 +1748,10 @@
 				"patcherrelativepath" : "../patchers/modules/sequence",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.snap~.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "seq.xtra.pattrhelper.maxpat",

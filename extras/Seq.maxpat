@@ -1021,6 +1021,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-46", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-40", 0 ],
 									"source" : [ "obj-7", 0 ]
 								}
@@ -1983,7 +1990,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "seq.makenote~", "seq.snap~" ],
+									"args" : [ "seq.makenote~", "seq.makecc~" ],
 									"background" : 1,
 									"bgmode" : 0,
 									"border" : 0,
@@ -2856,7 +2863,7 @@
 									"color" : [ 0.701961, 0.701961, 0.701961, 0.0 ],
 									"destination" : [ "obj-34", 0 ],
 									"hidden" : 1,
-									"order" : 5,
+									"order" : 0,
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -2866,7 +2873,7 @@
 									"color" : [ 0.701961, 0.701961, 0.701961, 0.0 ],
 									"destination" : [ "obj-81", 0 ],
 									"hidden" : 1,
-									"order" : 4,
+									"order" : 5,
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -2876,7 +2883,7 @@
 									"color" : [ 0.701961, 0.701961, 0.701961, 0.0 ],
 									"destination" : [ "obj-82", 0 ],
 									"hidden" : 1,
-									"order" : 3,
+									"order" : 4,
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -2886,7 +2893,7 @@
 									"color" : [ 0.701961, 0.701961, 0.701961, 0.0 ],
 									"destination" : [ "obj-83", 0 ],
 									"hidden" : 1,
-									"order" : 2,
+									"order" : 3,
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -2896,7 +2903,7 @@
 									"color" : [ 0.701961, 0.701961, 0.701961, 0.0 ],
 									"destination" : [ "obj-85", 0 ],
 									"hidden" : 1,
-									"order" : 1,
+									"order" : 2,
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -2906,7 +2913,7 @@
 									"color" : [ 0.701961, 0.701961, 0.701961, 0.0 ],
 									"destination" : [ "obj-87", 0 ],
 									"hidden" : 1,
-									"order" : 0,
+									"order" : 1,
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -3144,6 +3151,15 @@
 									"destination" : [ "obj-56", 0 ],
 									"hidden" : 1,
 									"source" : [ "obj-82", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"color" : [ 0.701961, 0.701961, 0.701961, 0.0 ],
+									"destination" : [ "obj-56", 0 ],
+									"hidden" : 1,
+									"source" : [ "obj-83", 0 ]
 								}
 
 							}

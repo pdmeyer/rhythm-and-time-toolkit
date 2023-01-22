@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 44.0, 91.0, 841.0, 765.0 ],
+		"rect" : [ 44.0, 91.0, 722.0, 728.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,26 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-3",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "seq.misc.philipmeyer.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 547.0, 412.0, 105.0, 23.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-35",
 					"maxclass" : "newobj",
@@ -223,7 +243,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 547.0, 333.0, 120.0, 49.0 ],
+					"patching_rect" : [ 547.0, 333.0, 123.0, 49.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ "fernie.jpg" ],
 						"parameter_enable" : 0,
@@ -664,7 +684,7 @@
 				"box" : 				{
 					"comment" : "\"downsampled, grayscale image\"",
 					"id" : "obj-2",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -827,7 +847,7 @@
 				"box" : 				{
 					"comment" : "\"downsampled, grayscale image\"",
 					"id" : "obj-148",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -839,7 +859,7 @@
 				"box" : 				{
 					"comment" : "\"pattern as matrix\"",
 					"id" : "obj-147",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -851,7 +871,7 @@
 				"box" : 				{
 					"comment" : "\"pattern as list\"",
 					"id" : "obj-146",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -875,7 +895,7 @@
 				"box" : 				{
 					"comment" : "matrix/messages in",
 					"id" : "obj-120",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -940,7 +960,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 433.0, 216.0, 88.0, 49.0 ],
+					"patching_rect" : [ 433.0, 216.0, 89.0, 49.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0.5 ],
 						"parameter_enable" : 0,
@@ -1221,7 +1241,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 69.0, 59.0, 511.0, 60.0 ],
+					"patching_rect" : [ 69.0, 59.0, 513.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
 					"presentation_rect" : [ 107.5, 148.0, 402.0, 74.0 ],
@@ -1589,7 +1609,16 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "seq.misc.philipmeyer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

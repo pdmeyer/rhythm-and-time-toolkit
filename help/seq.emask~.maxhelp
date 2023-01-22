@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 87.0, 962.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 729.0, 623.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -86,7 +86,6 @@
 						"subpatcher_template" : "",
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"args" : [ "modules" ],
@@ -637,7 +636,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 729.0, 623.0 ],
+						"rect" : [ 100.0, 113.0, 729.0, 623.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -667,6 +666,27 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"args" : [ "pattern" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-9",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 394.0, 158.5, 102.5, 37.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"args" : [ "seq" ],
 									"bgmode" : 0,
@@ -741,32 +761,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 359.0, 407.0, 148.0, 49.0 ],
 									"text" : "steps 32, density 0.5, windows 2, windowlength 0.6, rotate 0, variation 0.3"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bubble" : 1,
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"id" : "obj-20",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 441.0, 216.0, 103.0, 25.0 ],
-									"text" : "for more help"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"color" : [ 0.83921568627451, 0.423529411764706, 0.023529411764706, 1.0 ],
-									"id" : "obj-15",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"patching_rect" : [ 301.0, 216.0, 133.0, 22.0 ],
-									"text" : "seq.help.patternobjects"
 								}
 
 							}
@@ -1547,10 +1541,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "seq.binary~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "seq.emask.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/emask",
 				"patcherrelativepath" : "../patchers/modules/emask",
@@ -1574,17 +1564,6 @@
 , 			{
 				"name" : "seq.emask~.mxo",
 				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.euclidean~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.help.patternobjects.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/helpers",
-				"patcherrelativepath" : "../patchers/helpers",
-				"type" : "JSON",
-				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.loop~.mxo",
@@ -1645,30 +1624,6 @@
 				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.onepulse~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.pattern~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.pprob~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.retrig~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.rlogic~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.rprob~.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "tri-down.svg",

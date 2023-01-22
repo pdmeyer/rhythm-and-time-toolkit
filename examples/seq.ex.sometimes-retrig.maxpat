@@ -40,6 +40,26 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-15",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "seq.misc.philipmeyer.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 188.833333333333371, 661.0, 105.0, 23.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-14",
 					"maxclass" : "newobj",
@@ -1123,17 +1143,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-83",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 195.333333333333371, 664.0, 117.0, 20.0 ],
-					"text" : "philip meyer, 2023"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontsize" : 12.0,
 					"id" : "obj-2",
 					"linecount" : 2,
@@ -1369,7 +1378,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "seq.xtra.stepgridviewer.maxpat",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
@@ -1803,11 +1812,22 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "seq.misc.philipmeyer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "seq.retrig~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "seq.rprob~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.snap~.mxo",
 				"type" : "iLaX"
 			}
 , 			{

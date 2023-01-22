@@ -6,10 +6,18 @@
 <metadata name="tag">sequencing</metadata>
 </metadatalist>
 <methodlist>
-<method name="message"><digest>message input</digest><description>message input</description></method>
-<method name="calculate"><digest>message input</digest><description>message input</description></method>
-<method name="probabilities"><digest>message input</digest><description>message input</description></method>
-<method name="in4"><digest>message input</digest><description>message input</description></method>
+    <method name="in4">
+        <digest>Probabilities</digest>
+        <description>A list of floating-point numbers between 0 and 1 generates a pattern whose length is equal to the length of the list. The state of each step in the pattern is determined by comparing a randomly-generated number to the probabality value for that step.</description>
+    </method>
+    <method name="probabilities">
+        <digest>Probabilities</digest>
+        <description>The same as in4, prepended by the symbols "message probabilities"</description>
+    </method>
+    <method name="calculate">
+        <digest>Calculate Pattern</digest>
+        <description>Generate a new pattern based on a probabilities list that has already been stored.</description>
+    </method>
 </methodlist>
 <attributelist>
     <attribute name="countermode" get="1" set="1" size="1" type="float64">

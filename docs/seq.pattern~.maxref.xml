@@ -6,9 +6,14 @@
 <metadata name="tag">sequencing</metadata>
 </metadatalist>
 <methodlist>
-<method name="message"><digest>message input</digest><description>message input</description></method>
-<method name="in4"><digest>message input</digest><description>message input</description></method>
-<method name="pattern"><digest>message input</digest><description>message input</description></method>
+<method name="in4">
+    <digest>Gate Pattern</digest>
+    <description>A list of 0s and 1s stores a gate pattern that the object will play back.</description>
+</method>
+<method name="pattern">
+    <digest>Gate Pattern</digest>
+    <description>The same as in4, prepended by the symbols "message pattern".</description>
+</method>
 </methodlist>
 <attributelist>
     <attribute name="countermode" get="1" set="1" size="1" type="float64">

@@ -6,8 +6,10 @@
 <metadata name="tag">sequencing</metadata>
 </metadatalist>
 <methodlist>
-<method name="message"><digest>message input</digest><description>message input</description></method>
-<method name="drunk2"><digest>message input</digest><description>message input</description></method>
+<method name="drunk2">
+    <digest>Drunk 2 Parameters</digest>
+    <description>The symbols "messae drunk2, followed by three floats sets the values of the <at>drunk2minus</at>, <at>drunk2equals</at>, and <at>drunk2plus</at> attributes.</description>
+</method>
 </methodlist>
 <attributelist>
 <attribute name="syncupdate" get="1" set="1" size="1" type="float64">

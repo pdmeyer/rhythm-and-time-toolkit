@@ -6,7 +6,6 @@
 <metadata name="tag">sequencing</metadata>
 </metadatalist>
 <methodlist>
-<method name="message"><digest>message input</digest><description>message input</description></method>
 </methodlist>
 <attributelist>
 <attribute name="bpm" get="1" set="1" size="1" type="float64">

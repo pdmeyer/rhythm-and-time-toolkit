@@ -6,9 +6,25 @@
 <metadata name="tag">sequencing</metadata>
 </metadatalist>
 <methodlist>
-<method name="message"><digest>message input</digest><description>message input</description></method>
-<method name="scale-list"><digest>message input</digest><description>message input</description></method>
-<method name="in2"><digest>message input</digest><description>message input</description></method>
+    <method name="in2">
+        <digest>
+            Scale Data
+        </digest>
+        <description>
+            A set of values, given as a list, for a scale described using the Scala format. The first value is the count of notes, followed either by floats defining a value in cents (example: 579.47057) or a ratio of two ints (example: 5/4). For more information, see the
+            <a href="https://www.huygens-fokker.org/scala/scl_format.html">
+                the Scala documentation.
+            </a>
+        </description>
+    </method>
+    <method name="scale-list">
+        <digest>
+            Scale Data
+        </digest>
+        <description>
+            The same as in4, prepended by the symbols "message scale-list"
+        </description>
+    </method>
 </methodlist>
 <attributelist>
 <attribute name="referencefreq" get="1" set="1" size="1" type="float64">

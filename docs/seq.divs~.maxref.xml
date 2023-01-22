@@ -6,8 +6,10 @@
 <metadata name="tag">audio</metadata>
 </metadatalist>
 <methodlist>
-<method name="message"><digest>message input</digest><description>message input</description></method>
-<method name="in2"><digest>message input</digest><description>message input</description></method>
+<method name="in2">
+    <digest>Div List</digest>
+    <description>A list of integers establishes the subdivision to apply to future phasors to the first inlet. For example, a list of "2 3" will divide the first incoming phasor ramp into 2 equally-size ramps and the next incoming ramp into 3 ramps. When the count of ramps exceeds the length of the list the object wraps back to the beginning.</description>
+</method>
 </methodlist>
 <attributelist>
 <attribute name="countsync" get="1" set="1" size="1" type="float64">

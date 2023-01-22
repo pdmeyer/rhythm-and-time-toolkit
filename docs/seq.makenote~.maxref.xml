@@ -5,9 +5,6 @@
 <metadata name="author">Philip Meyer</metadata>
 <metadata name="tag">sequencing</metadata>
 </metadatalist>
-<methodlist>
-<method name="message"><digest>message input</digest><description>message input</description></method>
-</methodlist>
 <attributelist>
 <attribute name="velocity" get="1" set="1" size="1" type="float64">
 <digest>Default velocity of MIDI notes. This value is overridden by a nonzero signal sent to the third inlet.</digest>

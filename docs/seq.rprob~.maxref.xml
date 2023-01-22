@@ -6,9 +6,14 @@
 <metadata name="tag">sequencing</metadata>
 </metadatalist>
 <methodlist>
-<method name="message"><digest>message input</digest><description>message input</description></method>
-<method name="probabilities"><digest>message input</digest><description>message input</description></method>
-<method name="in4"><digest>message input</digest><description>message input</description></method>
+<method name="in4">
+    <digest>Probabilities List</digest>
+    <description>A list of probabilities that will be evaluated in left-to-right order for each new event determined by <at>triggermode</at></description>
+</method>
+<method name="probabilities">
+    <digest>Probabilities List</digest>
+    <description>The same as in4, prepended by the symbols "message probabilities"</description>
+</method>
 </methodlist>
 <attributelist>
     <attribute name="outputmode" get="1" set="1" size="1" type="float64">

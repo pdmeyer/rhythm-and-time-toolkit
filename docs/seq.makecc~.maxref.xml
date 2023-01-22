@@ -5,9 +5,6 @@
 <metadata name="author">Philip Meyer</metadata>
 <metadata name="tag">sequencing</metadata>
 </metadatalist>
-<methodlist>
-<method name="message"><digest>message input</digest><description>message input</description></method>
-</methodlist>
 <attributelist>
 <attribute name="range" get="1" set="1" size="1" type="float64">
 <digest>Specifies whether the signal into the first inlet are on the range of 0 to 1 or 0 to 127.</digest>

@@ -6,9 +6,18 @@
 <metadata name="tag">audio</metadata>
 </metadatalist>
 <methodlist>
-<method name="message"><digest>message input</digest><description>message input</description></method>
-<method name="in2"><digest>message input</digest><description>message input</description></method>
-<method name="sequence"><digest>message input</digest><description>message input</description></method>
+    <method name="in2">
+        <arglist>
+            <arg name="voicenumber" type="int" optional="0" />
+            <arg name="sequence" type="list" optional="0" />
+        </arglist>
+        <digest>Sequence</digest>
+        <description>A list of floats between 0 and 1 to the second inlet stores a sequence. If any value of the list is either less than 0 or greater than one, the entire list will be normalized to the range of 0. 1. before being stored.</description>
+    </method>
+    <method name="sequence">
+        <digest>Sequence</digest>
+        <description>The same as in2, prepended by the symbols "message sequence"</description>
+    </method>
 </methodlist>
 <attributelist>
     <attribute name="offset" get="1" set="1" size="1" type="float64">
@@ -23,7 +32,7 @@
     <attribute name="stepsize" get="1" set="1" size="1" type="float64">
     <digest>Shifts the sequence after scaling according to <at>high</at> and <at>low</at></digest>
     </attribute>
-    <attribute name="s/sustain" get="1" set="1" size="1" type="float64">
+    <attribute name="sustain" get="1" set="1" size="1" type="float64">
         <digest>Determines what the object outputs when the signal value at the first inlet is 0. If enabled, the sequence value corresponding to the last non-zero signal value is held at the output. If disabled, 0. is output.</digest>
     </attribute>
     </attributelist>

@@ -5,9 +5,6 @@
 <metadata name="author">Philip Meyer</metadata>
 <metadata name="tag">sequencing</metadata>
 </metadatalist>
-<methodlist>
-<method name="message"><digest>message input</digest><description>message input</description></method>
-</methodlist>
 <attributelist>
 <attribute name="outputmode" get="1" set="1" size="1" type="float64">
     <digest>Determines what is output from the first outlet when the object triggers an event. For steps with no event, the output will always be 0.</digest>

@@ -7,8 +7,14 @@
 </metadatalist>
 <methodlist>
 <method name="message"><digest>message input</digest><description>message input</description></method>
-<method name="in1"><digest>message input</digest><description>message input</description></method>
-<method name="reset-count"><digest>message input</digest><description>message input</description></method>
+<method name="in1">
+	<digest>Start/Stop</digest>
+	<description>Non-zero integers or floats to the first inlet starts the object's transport. Zero stops the transport.</description>
+</method>
+<method name="reset-count">
+	<digest>Reset bar count</digest>
+	<description>The message reset count, followed by any argument, resets third outlet's running count of bars completed.</description>
+</method>
 </methodlist>
 <attributelist>
 <attribute name="position" get="1" set="1" size="1" type="float64">

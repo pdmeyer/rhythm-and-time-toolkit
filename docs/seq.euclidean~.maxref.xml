@@ -5,9 +5,6 @@
 <metadata name="author">Philip Meyer</metadata>
 <metadata name="tag">sequencing</metadata>
 </metadatalist>
-<methodlist>
-<method name="message"><digest>message input</digest><description>message input</description></method>
-</methodlist>
 <attributelist>
     <attribute name="countermode" get="1" set="1" size="1" type="float64">
         <digest>Specifies the type of input the object should expect. 0 is for phasor-like signals, and 1 is for stepwise counter signals.</digest>

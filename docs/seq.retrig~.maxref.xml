@@ -6,8 +6,10 @@
 <metadata name="tag">sequencing</metadata>
 </metadatalist>
 <methodlist>
-<method name="message"><digest>message input</digest><description>message input</description></method>
-<method name="in7"><digest>message input</digest><description>message input</description></method>
+<method name="in7">
+    <digest>Interval Modulation List</digest>
+    <description>A list of floating-point numbers, typically between -1 and 1, is the function that will modulate the retrig interval determined by <at>subdiv</at>. The amount of modulation is controlled by <at>moddepth</at></description>
+</method>
 </methodlist>
 <attributelist>
 <attribute name="subdiv" get="1" set="1" size="1" type="float64">

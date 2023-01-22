@@ -5,9 +5,6 @@
 <metadata name="author">Philip Meyer</metadata>
 <metadata name="tag">sequencing</metadata>
 </metadatalist>
-<methodlist>
-<method name="message"><digest>message input</digest><description>message input</description></method>
-</methodlist>
 <attributelist>
 <attribute name="steps" get="1" set="1" size="1" type="float64">
 <digest>Number of steps to count. When <at>steps</at> is greater than the absolute value of <at>ceiling</at> minus <at>floor</at>, the counter wraps around. Also determines the subdivision when <at>subdivmode</at> is ‘polyrhythmic’.</digest>

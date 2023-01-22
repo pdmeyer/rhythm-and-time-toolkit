@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 355.0, 180.0, 37.0, 22.0 ],
+					"patching_rect" : [ 322.0, 236.0, 37.0, 22.0 ],
 					"text" : "zl.rev"
 				}
 
@@ -59,7 +59,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 71.0, 15.0, 30.0, 30.0 ]
+					"patching_rect" : [ 71.0, 6.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -70,7 +70,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 355.0, 213.0, 55.0, 22.0 ],
+					"patching_rect" : [ 322.0, 262.0, 55.0, 22.0 ],
 					"text" : "zl.slice 1"
 				}
 
@@ -106,7 +106,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 259.0, 239.0, 29.5, 22.0 ],
+					"patching_rect" : [ 259.0, 236.0, 29.5, 22.0 ],
 					"text" : "f"
 				}
 
@@ -130,7 +130,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 201.0, 342.0, 209.0, 22.0 ],
+					"patching_rect" : [ 201.0, 342.0, 176.0, 22.0 ],
 					"text" : "combine parent:: s @triggers 1"
 				}
 
@@ -143,7 +143,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 158.5, 407.0, 101.0, 22.0 ],
-					"restore" : [ "up" ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -185,7 +185,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 14.0, 119.0, 55.0, 22.0 ],
+					"patching_rect" : [ 14.0, 55.0, 55.0, 22.0 ],
 					"text" : "t l l"
 				}
 
@@ -295,7 +295,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 15.0, 30.0, 30.0 ]
+					"patching_rect" : [ 14.0, 6.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -308,7 +308,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 150.75, 15.0, 30.0, 30.0 ]
+					"patching_rect" : [ 150.75, 6.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -447,7 +447,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 1 ],
-					"midpoints" : [ 137.5, 299.5, 400.5, 299.5 ],
+					"midpoints" : [ 137.5, 299.5, 367.5, 299.5 ],
 					"source" : [ "obj-29", 2 ]
 				}
 
@@ -469,6 +469,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
+					"midpoints" : [ 331.5, 399.5, 168.0, 399.5 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -525,7 +526,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 80.5, 162.0, 364.5, 162.0 ],
+					"midpoints" : [ 80.5, 48.0, 331.5, 48.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 

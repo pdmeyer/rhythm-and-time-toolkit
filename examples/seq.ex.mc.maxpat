@@ -40,6 +40,31 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-23",
+					"linecount" : 3,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 710.199996709823608, 651.399999380111694, 270.800003290176392, 49.0 ],
+					"text" : "0. 8192. 15360. 27648. 31232. 35328. 38912. 46592. 54784. 62464. 70144. 77824. 86016. 93696. 101376. 109056. 116736."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 756.799998104572296, 623.399999797344208, 142.00000137090683, 22.0 ],
+					"text" : "buffer 1153_slicepoints"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-52",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -251,17 +276,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-31",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 910.0, 636.5, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-92",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -444,7 +458,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "list" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 63.0, 39.999999523437509, 30.0, 30.0 ]
 								}
 
@@ -537,7 +551,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 962.0, 636.5, 75.0, 22.0 ],
+					"patching_rect" : [ 935.0, 526.0, 75.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -569,7 +583,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 880.0, 550.5, 74.0, 22.0 ],
+					"patching_rect" : [ 880.0, 557.700000107288361, 74.0, 22.0 ],
 					"text" : "file jongly.aif"
 				}
 
@@ -632,7 +646,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 983.0, 570.5, 133.166666666666742, 55.0 ],
+					"patching_rect" : [ 983.0, 570.5, 136.0, 55.0 ],
 					"text" : "create a \"slicepoints\" buffer with any audio file or files (requires the FluCoMa package)"
 				}
 
@@ -699,7 +713,7 @@
 					"patching_rect" : [ 672.25, 616.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"attack_ms" : [ "attack_ms", 1.0 ],
-						"bpm" : [ "bpm", 135.0 ],
+						"bpm" : [ "bpm", 120.0 ],
 						"mc.live.gain~" : [ -8.523622047244103 ],
 						"release_ms" : [ "release_ms", 154.0 ],
 						"steps" : [ "steps", 64.0 ],
@@ -2283,16 +2297,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-31", 1 ],
-					"order" : 1,
-					"source" : [ "obj-26", 1 ]
+					"destination" : [ "obj-14", 1 ],
+					"source" : [ "obj-26", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-92", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-23", 1 ],
 					"source" : [ "obj-26", 1 ]
 				}
 

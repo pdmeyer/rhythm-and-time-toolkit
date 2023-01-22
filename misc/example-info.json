@@ -54,9 +54,37 @@
 	"seq.ex.modwheelretrig" : 	{
 		"digest" : "Trigger and modulate ratchets with the keyboard and mod wheel."
 	}
-	,
+,
 	"seq.ex.polyrhythm" : 	{
 		"digest" : "Explore polymetric and polyrhythmic patterns."
+	}
+,
+	"seq.ex.subdivratchet" : 	{
+		"digest" : "Create ratcheted rhythms with a cascade of subdivisions."
+	}
+,
+	"seq.xtra.fluidslice" : 	{
+		"digest" : "Generate a list of slice points for the seq.dsp.simplesampler device used in the MC and subdiv ratchet examples. Uses the FluCoMa package."
+	}
+,
+	"seq.xtra.img2pattern" : 	{
+		"digest" : "Ingests an image and produces a pattern."
+	}
+,
+	"seq.xtra.linkbar" : 	{
+		"digest" : "Clock similar to seq.bar~ and seq.clock~ that stays in sync with Ableton Live using Ableton Link. Uses the link package."
+	}
+,
+	"seq.xtra.patterndisplay" : 	{
+		"digest" : "Visualize pattern playback in a Jitter matrix. Works with regular and MC signals."
+	}
+,
+	"seq.xtra.pattrhelper" : 	{
+		"digest" : "Used in the seq.pattrpresets snippet to make prest setup easy in a patch using seq modules or snippets."
+	}
+,
+	"seq.xtra.stepgridviewer" : 	{
+		"digest" : "Single-channel pattern playback visualizer based on live.grid."
 	}
 
 }

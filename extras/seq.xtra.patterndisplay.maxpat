@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 210.0, 87.0, 797.0, 713.0 ],
-		"bglocked" : 1,
+		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -39,6 +39,21 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontsize" : 10.0,
+					"id" : "obj-4",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 51.0, 649.435059000000024, 119.0, 33.0 ],
+					"presentation_linecount" : 2,
+					"text" : "connect to jit.window or jit.pwindow"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-27",
 					"maxclass" : "comment",
@@ -1260,8 +1275,8 @@
  ],
 							"lines" : [ 								{
 									"patchline" : 									{
-										"source" : [ "obj-16", 0 ],
-										"destination" : [ "obj-13", 1 ]
+										"source" : [ "obj-1", 0 ],
+										"destination" : [ "obj-13", 0 ]
 									}
 
 								}
@@ -1274,8 +1289,8 @@
 								}
 , 								{
 									"patchline" : 									{
-										"source" : [ "obj-1", 0 ],
-										"destination" : [ "obj-13", 0 ]
+										"source" : [ "obj-16", 0 ],
+										"destination" : [ "obj-13", 1 ]
 									}
 
 								}
@@ -1292,7 +1307,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 170.5, 340.435059000000024, 169.199999451637268, 35.0 ],
 					"text" : "mc.gen~ @t fill-pos-mtx @chans 16 @pos #0_pos",
-					"wrapper_uniquekey" : "u374010707"
+					"wrapper_uniquekey" : "u640008843"
 				}
 
 			}
@@ -2888,7 +2903,7 @@
 				"box" : 				{
 					"comment" : "(mc signal) step counter",
 					"id" : "obj-146",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2901,7 +2916,7 @@
 				"box" : 				{
 					"comment" : "pattern",
 					"id" : "obj-147",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2914,7 +2929,7 @@
 				"box" : 				{
 					"comment" : "voice number",
 					"id" : "obj-148",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2927,7 +2942,7 @@
 				"box" : 				{
 					"comment" : "matrix",
 					"id" : "obj-149",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2998,7 +3013,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 51.0, 660.93505899999991, 150.0, 20.0 ],
+					"patching_rect" : [ 201.0, 660.93505899999991, 150.0, 20.0 ],
 					"text" : "philip meyer, 2023"
 				}
 
@@ -3249,7 +3264,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }

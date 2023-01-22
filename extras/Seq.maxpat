@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 738.0, 640.0 ],
+						"rect" : [ 149.0, 126.0, 738.0, 640.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -630,7 +630,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 473.0, 572.0, 184.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 41.0, 397.0, 184.0, 24.0 ]
+									"presentation_rect" : [ 41.0, 290.0, 184.0, 24.0 ]
 								}
 
 							}
@@ -643,7 +643,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 284.666666666666629, 572.0, 150.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 41.0, 423.0, 432.0, 20.0 ]
+									"presentation_rect" : [ 41.0, 316.0, 238.0, 20.0 ]
 								}
 
 							}
@@ -679,7 +679,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "seq.ex.feel", "seq.ex.mc", "seq.ex.sometimes-retrig", "seq.ex.traverse", "seq.ex.seqtwist", "seq.ex.nestedtuplets", "seq.ex.wavescan", "seq.ex.quantized", "seq.ex.livesync", "seq.ex.modwheelretrig" ],
+									"args" : [ "seq.ex.feel", "seq.ex.mc", "seq.ex.sometimes-retrig", "seq.ex.traverse", "seq.ex.seqtwist", "seq.ex.nestedtuplets", "seq.ex.wavescan", "seq.ex.quantized", "seq.ex.livesync", "seq.ex.modwheelretrig", "seq.ex.polyrhythm" ],
 									"background" : 1,
 									"bgmode" : 0,
 									"border" : 0,
@@ -697,7 +697,7 @@
 									"outlettype" : [ "", "int" ],
 									"patching_rect" : [ 249.75, 212.0, 176.25, 113.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 289.0, 182.0, 184.0, 226.0 ],
+									"presentation_rect" : [ 289.0, 182.0, 184.0, 247.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -915,7 +915,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 149.0, 126.0, 738.0, 640.0 ],
+						"rect" : [ 0.0, 26.0, 738.0, 640.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3221,8 +3221,8 @@
 			}
 , 			{
 				"name" : "seq.launcher.tabs.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 920.0, 699.0 ],
+						"rect" : [ 0.0, 26.0, 920.0, 699.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -257,8 +257,8 @@
 									"id" : "obj-17",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
-									"numoutlets" : 3,
-									"outlettype" : [ "signal", "signal", "" ],
+									"numoutlets" : 4,
+									"outlettype" : [ "signal", "signal", "signal", "" ],
 									"patching_rect" : [ 252.0, 148.0, 205.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
@@ -576,7 +576,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 920.0, 699.0 ],
+						"rect" : [ 34.0, 113.0, 920.0, 699.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -615,7 +615,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 118.5, 34.0, 230.0, 35.0 ],
-									"presentation_linecount" : 2,
 									"text" : "Pattern Objects"
 								}
 
@@ -974,8 +973,8 @@
 									"id" : "obj-76",
 									"maxclass" : "newobj",
 									"numinlets" : 4,
-									"numoutlets" : 3,
-									"outlettype" : [ "signal", "signal", "" ],
+									"numoutlets" : 4,
+									"outlettype" : [ "signal", "signal", "signal", "" ],
 									"patching_rect" : [ 180.0, 556.5, 206.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
@@ -1056,15 +1055,15 @@
 									"id" : "obj-66",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
-									"numoutlets" : 3,
-									"outlettype" : [ "signal", "signal", "" ],
-									"patching_rect" : [ 608.0, 307.5, 134.0, 22.0 ],
+									"numoutlets" : 4,
+									"outlettype" : [ "signal", "signal", "signal", "" ],
+									"patching_rect" : [ 608.0, 307.5, 147.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.emask~ @events 9"
+									"text" : "seq.emask~ @density 0.5"
 								}
 
 							}
@@ -1346,8 +1345,8 @@
 									"id" : "obj-2",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
-									"numoutlets" : 3,
-									"outlettype" : [ "signal", "signal", "" ],
+									"numoutlets" : 4,
+									"outlettype" : [ "signal", "signal", "signal", "" ],
 									"patching_rect" : [ 329.0, 307.5, 150.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
@@ -1363,8 +1362,8 @@
 									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 4,
-									"numoutlets" : 3,
-									"outlettype" : [ "signal", "signal", "" ],
+									"numoutlets" : 4,
+									"outlettype" : [ "signal", "signal", "signal", "" ],
 									"patching_rect" : [ 25.0, 307.5, 206.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
@@ -2512,8 +2511,8 @@
 									"id" : "obj-14",
 									"maxclass" : "newobj",
 									"numinlets" : 4,
-									"numoutlets" : 3,
-									"outlettype" : [ "signal", "signal", "" ],
+									"numoutlets" : 4,
+									"outlettype" : [ "signal", "signal", "signal", "" ],
 									"patching_rect" : [ 395.0, 634.0, 76.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
@@ -2572,8 +2571,8 @@
 									"id" : "obj-3",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
-									"numoutlets" : 3,
-									"outlettype" : [ "signal", "signal", "" ],
+									"numoutlets" : 4,
+									"outlettype" : [ "signal", "signal", "signal", "" ],
 									"patching_rect" : [ 223.0, 634.0, 74.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
@@ -2589,8 +2588,8 @@
 									"id" : "obj-2",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
-									"numoutlets" : 3,
-									"outlettype" : [ "signal", "signal", "" ],
+									"numoutlets" : 4,
+									"outlettype" : [ "signal", "signal", "signal", "" ],
 									"patching_rect" : [ 118.0, 634.0, 90.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
@@ -2606,8 +2605,8 @@
 									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 4,
-									"numoutlets" : 3,
-									"outlettype" : [ "signal", "signal", "" ],
+									"numoutlets" : 4,
+									"outlettype" : [ "signal", "signal", "signal", "" ],
 									"patching_rect" : [ 32.0, 634.0, 76.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
@@ -2839,53 +2838,7 @@
 
 			}
  ],
-		"lines" : [  ],
-		"dependency_cache" : [ 			{
-				"name" : "seq.bar~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.binary~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.emask~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.euclidean~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.loop~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.onepulse~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.pattern~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.pprob~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.retrig~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.rlogic~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.rprob~.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+		"lines" : [  ]
 	}
 
 }

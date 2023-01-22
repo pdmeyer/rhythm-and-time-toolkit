@@ -88,6 +88,27 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"args" : [ "modules" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-23",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 348.99200439453125, 19.2999267578125, 101.0, 39.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bubble" : 1,
 									"bubblepoint" : 0.1,
 									"fontname" : "Arial",
@@ -600,6 +621,38 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 322.5, 303.5, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"args" : [ "seq" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-8",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 354.0, 24.5, 100.0, 38.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-50",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -654,7 +707,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 178.0, 471.0, 190.0, 66.0 ],
+									"patching_rect" : [ 166.5, 488.0, 190.0, 66.0 ],
 									"text" : "nonzero signals to inlets 2 and 3 override velocity and duration attributes"
 								}
 
@@ -677,8 +730,8 @@
 									"id" : "obj-13",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 172.5, 321.0, 97.0, 22.0 ],
 									"text" : "seq.scala.parser"
 								}
@@ -889,8 +942,8 @@
 									"id" : "obj-9",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
-									"numoutlets" : 3,
-									"outlettype" : [ "signal", "signal", "" ],
+									"numoutlets" : 4,
+									"outlettype" : [ "signal", "signal", "signal", "" ],
 									"patching_rect" : [ 107.5, 228.0, 298.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
@@ -1050,7 +1103,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 370.0, 488.0, 150.0, 22.0 ]
+									"patching_rect" : [ 397.0, 382.5, 150.0, 22.0 ]
 								}
 
 							}
@@ -1063,7 +1116,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 370.0, 515.0, 150.0, 22.0 ]
+									"patching_rect" : [ 397.0, 409.5, 150.0, 22.0 ]
 								}
 
 							}
@@ -1469,6 +1522,30 @@
 					"parameter_longname" : "live.button[14]"
 				}
 ,
+				"obj-2::obj-6::obj-6::obj-34::obj-10" : 				{
+					"parameter_longname" : "live.numbox[8]"
+				}
+,
+				"obj-2::obj-6::obj-6::obj-34::obj-14" : 				{
+					"parameter_longname" : "live.numbox[9]"
+				}
+,
+				"obj-2::obj-6::obj-6::obj-34::obj-16" : 				{
+					"parameter_longname" : "live.numbox[10]"
+				}
+,
+				"obj-2::obj-6::obj-6::obj-34::obj-22" : 				{
+					"parameter_longname" : "live.button[12]"
+				}
+,
+				"obj-2::obj-6::obj-6::obj-34::obj-6" : 				{
+					"parameter_longname" : "live.numbox[11]"
+				}
+,
+				"obj-2::obj-6::obj-6::obj-34::obj-8" : 				{
+					"parameter_longname" : "live.toggle[2]"
+				}
+,
 				"obj-2::obj-6::obj-6::obj-9" : 				{
 					"parameter_longname" : "live.text[2]"
 				}
@@ -1504,22 +1581,22 @@
 			}
 , 			{
 				"name" : "seq.makenote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/makenote",
-				"patcherrelativepath" : "../patchers/makenote",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/makenote",
+				"patcherrelativepath" : "../patchers/modules/makenote",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.makenote.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/makenote",
-				"patcherrelativepath" : "../patchers/makenote",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/makenote",
+				"patcherrelativepath" : "../patchers/modules/makenote",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.makenote.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/makenote",
-				"patcherrelativepath" : "../patchers/makenote",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/makenote",
+				"patcherrelativepath" : "../patchers/modules/makenote",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1528,44 +1605,51 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "seq.misc.aboutbutton.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "seq.module.attrchecker.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.remote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.viewcontrol.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.scala.parser.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/scala",
-				"patcherrelativepath" : "../patchers/scala",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/scala",
+				"patcherrelativepath" : "../patchers/modules/scala",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1579,14 +1663,14 @@
 			}
 , 			{
 				"name" : "tri-down.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/media/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
 				"patcherrelativepath" : "../media/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tri-up.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/media/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
 				"patcherrelativepath" : "../media/icons",
 				"type" : "svg",
 				"implicit" : 1

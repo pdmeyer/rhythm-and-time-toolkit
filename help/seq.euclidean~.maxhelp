@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 87.0, 962.0, 779.0 ],
+		"rect" : [ 100.0, 87.0, 705.0, 558.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 962.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 705.0, 532.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -87,6 +87,27 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"args" : [ "modules" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-23",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 343.0, 20.2999267578125, 101.0, 37.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-20",
 									"maxclass" : "message",
@@ -125,9 +146,9 @@
 										"euclidean-help::m::events" : 1,
 										"euclidean-help::m::rotate" : 2,
 										"euclidean-help::m::pattern" : -1,
-										"euclidean-help-2::m::seed" : 1,
+										"euclidean-help-2::m::events" : 1,
 										"euclidean-help-2::m::rotate" : 2,
-										"euclidean-help-2::m::sequence" : -1
+										"euclidean-help-2::m::pattern" : -1
 									}
 ,
 									"saved_object_attributes" : 									{
@@ -216,7 +237,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 433.5, 96.0, 122.0, 52.0 ],
+									"patching_rect" : [ 478.5, 96.0, 122.0, 52.0 ],
 									"text" : "invisible pattr for remote control"
 								}
 
@@ -231,7 +252,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 433.5, 248.5, 153.0, 51.0 ],
+									"patching_rect" : [ 478.5, 248.5, 153.0, 51.0 ],
 									"text" : "you can also set parameters using the module's first inlet"
 								}
 
@@ -243,7 +264,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 364.0, 175.782608695652243, 41.0, 22.0 ],
+									"patching_rect" : [ 409.0, 175.782608695652243, 41.0, 22.0 ],
 									"text" : "set $1"
 								}
 
@@ -256,7 +277,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 364.0, 124.282608695652243, 63.0, 22.0 ]
+									"patching_rect" : [ 409.0, 124.282608695652243, 63.0, 22.0 ]
 								}
 
 							}
@@ -268,7 +289,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 364.0, 259.0, 63.0, 22.0 ]
+									"patching_rect" : [ 409.0, 259.0, 63.0, 22.0 ]
 								}
 
 							}
@@ -279,7 +300,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 364.0, 286.0, 54.0, 22.0 ],
+									"patching_rect" : [ 409.0, 286.0, 54.0, 22.0 ],
 									"text" : "steps $1"
 								}
 
@@ -296,7 +317,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 181.0, 128.0, 139.0, 66.0 ],
+									"patching_rect" : [ 218.0, 128.0, 139.0, 66.0 ],
 									"text" : "use this menu to create pattr objects to control params remotely"
 								}
 
@@ -312,7 +333,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 249.0, 202.0, 109.0, 37.0 ],
+									"patching_rect" : [ 291.0, 202.0, 109.0, 37.0 ],
 									"text" : "click the button to use presets "
 								}
 
@@ -340,7 +361,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "signal", "signal", "signal" ],
 									"patching_rect" : [ 39.0, 365.0, 210.0, 22.0 ],
-									"text" : "seq.binary euclidean-help-2",
+									"text" : "seq.euclidean euclidean-help-2",
 									"varname" : "euclidean-help-2"
 								}
 
@@ -362,7 +383,7 @@
 									"numoutlets" : 3,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "signal" ],
-									"patching_rect" : [ 39.0, 196.0, 208.0, 59.0 ],
+									"patching_rect" : [ 39.0, 196.0, 257.0, 59.0 ],
 									"varname" : "euclidean-help",
 									"viewvisibility" : 1
 								}
@@ -405,7 +426,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 364.0, 150.0, 282.0, 22.0 ],
+									"patching_rect" : [ 409.0, 150.0, 282.0, 22.0 ],
 									"restore" : [ 8 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
@@ -428,7 +449,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
-									"midpoints" : [ 373.5, 321.0, 23.0, 321.0, 23.0, 188.0, 48.5, 188.0 ],
+									"midpoints" : [ 418.5, 321.0, 23.0, 321.0, 23.0, 188.0, 48.5, 188.0 ],
 									"source" : [ "obj-10", 0 ]
 								}
 
@@ -472,7 +493,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-14", 0 ],
-									"midpoints" : [ 373.5, 207.782608695652243, 357.5, 207.782608695652243, 357.5, 113.282608695652243, 373.5, 113.282608695652243 ],
+									"midpoints" : [ 418.5, 207.782608695652243, 402.5, 207.782608695652243, 402.5, 113.282608695652243, 418.5, 113.282608695652243 ],
 									"order" : 1,
 									"source" : [ "obj-16", 0 ]
 								}
@@ -550,7 +571,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 962.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 705.0, 532.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -614,7 +635,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 113.0, 962.0, 753.0 ],
+						"rect" : [ 100.0, 113.0, 705.0, 532.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -645,6 +666,48 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"args" : [ "pattern" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-17",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 425.0, 127.0, 104.0, 38.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"args" : [ "seq" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-21",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 356.0, 22.5, 100.0, 39.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
@@ -652,20 +715,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 356.0, 133.5, 103.0, 25.0 ],
+									"patching_rect" : [ 534.0, 133.5, 103.0, 25.0 ],
 									"text" : "for more help"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"color" : [ 0.83921568627451, 0.423529411764706, 0.023529411764706, 1.0 ],
-									"id" : "obj-15",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"patching_rect" : [ 216.0, 133.5, 133.0, 22.0 ],
-									"text" : "seq.help.patternobjects"
 								}
 
 							}
@@ -726,18 +777,6 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 51.5, 131.0, 108.0, 25.0 ],
 									"text" : "start the clock"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-43",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 94.0, 498.0, 346.0, 22.0 ],
-									"text" : "1. 0. 0. 1. 0. 1. 0. 1. 0. 1. 0."
 								}
 
 							}
@@ -1032,7 +1071,6 @@
 							}
 , 							{
 								"box" : 								{
-									"columns" : 11,
 									"id" : "obj-18",
 									"maxclass" : "matrixctrl",
 									"numinlets" : 1,
@@ -1098,13 +1136,13 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 24.0, 191.0, 213.0, 22.0 ],
+									"patching_rect" : [ 24.0, 191.0, 189.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.loop~ @steps 16 @subdivision 16"
+									"text" : "seq.loop~ @steps 16 @subdiv 16"
 								}
 
 							}
@@ -1121,7 +1159,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 186.5, 552.5, 20.0, 20.0 ],
+									"patching_rect" : [ 365.5, 133.5, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -1174,7 +1212,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 76.5, 550.0, 108.0, 25.0 ],
+									"patching_rect" : [ 255.5, 131.0, 108.0, 25.0 ],
 									"text" : "turn on audio"
 								}
 
@@ -1186,7 +1224,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 540.5, 44.0, 44.0 ],
+									"patching_rect" : [ 209.0, 121.5, 44.0, 44.0 ],
 									"prototypename" : "helpfile"
 								}
 
@@ -1249,7 +1287,6 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-37", 0 ],
-									"order" : 1,
 									"source" : [ "obj-10", 3 ]
 								}
 
@@ -1258,14 +1295,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-38", 0 ],
 									"source" : [ "obj-10", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-43", 1 ],
-									"order" : 0,
-									"source" : [ "obj-10", 3 ]
 								}
 
 							}
@@ -1369,32 +1398,32 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-6::obj-1::obj-18::obj-12" : [ "trig increment[33]", "trig inc", 0 ],
+			"obj-6::obj-1::obj-18::obj-165" : [ "trig increment[2]", "trig inc", 0 ],
 			"obj-6::obj-1::obj-18::obj-2" : [ "live.button[20]", "live.button", 0 ],
-			"obj-6::obj-1::obj-18::obj-28::obj-12" : [ "trig increment[33]", "trig inc", 0 ],
-			"obj-6::obj-1::obj-18::obj-28::obj-165" : [ "trig increment[6]", "trig inc", 0 ],
 			"obj-6::obj-1::obj-18::obj-28::obj-236" : [ "sequence viewer[12]", "sequence viewer", 0 ],
-			"obj-6::obj-1::obj-18::obj-28::obj-29" : [ "sequence length[1]", "steps", 2 ],
-			"obj-6::obj-1::obj-18::obj-28::obj-33" : [ "sequence trigs[1]", "trigs", 1 ],
-			"obj-6::obj-1::obj-18::obj-28::obj-34" : [ "sequence rotate[2]", "rotate", 3 ],
 			"obj-6::obj-1::obj-18::obj-28::obj-3::obj-16" : [ "live.menu[12]", "live.menu", 0 ],
 			"obj-6::obj-1::obj-18::obj-28::obj-3::obj-18" : [ "live.menu[10]", "live.menu", 0 ],
 			"obj-6::obj-1::obj-18::obj-28::obj-3::obj-22" : [ "live.menu[11]", "live.menu", 0 ],
-			"obj-6::obj-1::obj-18::obj-28::obj-7" : [ "trig increment[4]", "trig inc", 0 ],
+			"obj-6::obj-1::obj-18::obj-29" : [ "sequence length[2]", "steps", 2 ],
+			"obj-6::obj-1::obj-18::obj-33" : [ "sequence trigs[1]", "trigs", 1 ],
+			"obj-6::obj-1::obj-18::obj-34" : [ "sequence rotate[4]", "rotate", 3 ],
+			"obj-6::obj-1::obj-18::obj-7" : [ "trig increment[1]", "trig inc", 0 ],
 			"obj-6::obj-1::obj-18::obj-9" : [ "live.text[8]", "live.text", 0 ],
 			"obj-6::obj-1::obj-2::obj-25" : [ "live.button[9]", "live.button", 0 ],
-			"obj-6::obj-3::obj-18::obj-2" : [ "live.button[2]", "live.button", 0 ],
-			"obj-6::obj-3::obj-18::obj-28::obj-12::obj-16" : [ "live.menu[3]", "live.menu", 0 ],
-			"obj-6::obj-3::obj-18::obj-28::obj-12::obj-18" : [ "live.menu[1]", "live.menu", 0 ],
-			"obj-6::obj-3::obj-18::obj-28::obj-12::obj-22" : [ "live.menu[2]", "live.menu", 0 ],
-			"obj-6::obj-3::obj-18::obj-28::obj-165" : [ "trig increment[1]", "trig inc", 0 ],
-			"obj-6::obj-3::obj-18::obj-28::obj-17" : [ "trig increment[7]", "trig inc", 0 ],
+			"obj-6::obj-3::obj-18::obj-12" : [ "trig increment[4]", "trig inc", 0 ],
+			"obj-6::obj-3::obj-18::obj-165" : [ "trig increment[5]", "trig inc", 0 ],
+			"obj-6::obj-3::obj-18::obj-2" : [ "live.button[85]", "live.button", 0 ],
 			"obj-6::obj-3::obj-18::obj-28::obj-236" : [ "sequence viewer[1]", "sequence viewer", 0 ],
-			"obj-6::obj-3::obj-18::obj-28::obj-29" : [ "sequence length[2]", "steps", 2 ],
-			"obj-6::obj-3::obj-18::obj-28::obj-33" : [ "sequence trigs[2]", "trigs", 1 ],
-			"obj-6::obj-3::obj-18::obj-28::obj-34" : [ "sequence rotate[3]", "rotate", 3 ],
-			"obj-6::obj-3::obj-18::obj-28::obj-7" : [ "trig increment[8]", "trig inc", 0 ],
-			"obj-6::obj-3::obj-18::obj-9" : [ "live.text[1]", "live.text", 0 ],
-			"obj-6::obj-3::obj-2::obj-25" : [ "live.button[1]", "live.button", 0 ],
+			"obj-6::obj-3::obj-18::obj-28::obj-3::obj-16" : [ "live.menu[13]", "live.menu", 0 ],
+			"obj-6::obj-3::obj-18::obj-28::obj-3::obj-18" : [ "live.menu[15]", "live.menu", 0 ],
+			"obj-6::obj-3::obj-18::obj-28::obj-3::obj-22" : [ "live.menu[14]", "live.menu", 0 ],
+			"obj-6::obj-3::obj-18::obj-29" : [ "sequence length[3]", "steps", 2 ],
+			"obj-6::obj-3::obj-18::obj-33" : [ "sequence trigs[2]", "trigs", 1 ],
+			"obj-6::obj-3::obj-18::obj-34" : [ "sequence rotate[5]", "rotate", 3 ],
+			"obj-6::obj-3::obj-18::obj-7" : [ "trig increment[3]", "trig inc", 0 ],
+			"obj-6::obj-3::obj-18::obj-9" : [ "live.text[50]", "live.text", 0 ],
+			"obj-6::obj-3::obj-2::obj-25" : [ "live.button[14]", "live.button", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -1409,28 +1438,16 @@
 					"parameter_longname" : "live.button[20]"
 				}
 ,
-				"obj-6::obj-1::obj-18::obj-28::obj-12" : 				{
-					"parameter_longname" : "trig increment[33]"
+				"obj-6::obj-1::obj-18::obj-28::obj-3::obj-16" : 				{
+					"parameter_longname" : "live.menu[12]"
 				}
 ,
-				"obj-6::obj-1::obj-18::obj-28::obj-165" : 				{
-					"parameter_longname" : "trig increment[6]"
+				"obj-6::obj-1::obj-18::obj-28::obj-3::obj-18" : 				{
+					"parameter_longname" : "live.menu[10]"
 				}
 ,
-				"obj-6::obj-1::obj-18::obj-28::obj-29" : 				{
-					"parameter_longname" : "sequence length[1]"
-				}
-,
-				"obj-6::obj-1::obj-18::obj-28::obj-33" : 				{
-					"parameter_longname" : "sequence trigs[1]"
-				}
-,
-				"obj-6::obj-1::obj-18::obj-28::obj-34" : 				{
-					"parameter_longname" : "sequence rotate[2]"
-				}
-,
-				"obj-6::obj-1::obj-18::obj-28::obj-7" : 				{
-					"parameter_longname" : "trig increment[4]"
+				"obj-6::obj-1::obj-18::obj-28::obj-3::obj-22" : 				{
+					"parameter_longname" : "live.menu[11]"
 				}
 ,
 				"obj-6::obj-1::obj-18::obj-9" : 				{
@@ -1441,48 +1458,28 @@
 					"parameter_longname" : "live.button[9]"
 				}
 ,
-				"obj-6::obj-3::obj-18::obj-2" : 				{
-					"parameter_longname" : "live.button[2]"
+				"obj-6::obj-3::obj-18::obj-12" : 				{
+					"parameter_longname" : "trig increment[4]"
 				}
 ,
-				"obj-6::obj-3::obj-18::obj-28::obj-12::obj-16" : 				{
-					"parameter_longname" : "live.menu[3]"
+				"obj-6::obj-3::obj-18::obj-165" : 				{
+					"parameter_longname" : "trig increment[5]"
 				}
 ,
-				"obj-6::obj-3::obj-18::obj-28::obj-12::obj-18" : 				{
-					"parameter_longname" : "live.menu[1]"
+				"obj-6::obj-3::obj-18::obj-29" : 				{
+					"parameter_longname" : "sequence length[3]"
 				}
 ,
-				"obj-6::obj-3::obj-18::obj-28::obj-12::obj-22" : 				{
-					"parameter_longname" : "live.menu[2]"
-				}
-,
-				"obj-6::obj-3::obj-18::obj-28::obj-165" : 				{
-					"parameter_longname" : "trig increment[1]"
-				}
-,
-				"obj-6::obj-3::obj-18::obj-28::obj-29" : 				{
-					"parameter_longname" : "sequence length[2]"
-				}
-,
-				"obj-6::obj-3::obj-18::obj-28::obj-33" : 				{
+				"obj-6::obj-3::obj-18::obj-33" : 				{
 					"parameter_longname" : "sequence trigs[2]"
 				}
 ,
-				"obj-6::obj-3::obj-18::obj-28::obj-34" : 				{
-					"parameter_longname" : "sequence rotate[3]"
+				"obj-6::obj-3::obj-18::obj-34" : 				{
+					"parameter_longname" : "sequence rotate[5]"
 				}
 ,
-				"obj-6::obj-3::obj-18::obj-28::obj-7" : 				{
-					"parameter_longname" : "trig increment[8]"
-				}
-,
-				"obj-6::obj-3::obj-18::obj-9" : 				{
-					"parameter_longname" : "live.text[1]"
-				}
-,
-				"obj-6::obj-3::obj-2::obj-25" : 				{
-					"parameter_longname" : "live.button[1]"
+				"obj-6::obj-3::obj-18::obj-7" : 				{
+					"parameter_longname" : "trig increment[3]"
 				}
 
 			}
@@ -1507,66 +1504,30 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "seq.binary.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/binary",
-				"patcherrelativepath" : "../patchers/binary",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.binary.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/binary",
-				"patcherrelativepath" : "../patchers/binary",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.binary.presets.xml",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/binary",
-				"patcherrelativepath" : "../patchers/binary",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.binary.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/binary",
-				"patcherrelativepath" : "../patchers/binary",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.binary~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.emask~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "seq.euclidean.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/euclidean",
-				"patcherrelativepath" : "../patchers/euclidean",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/euclidean",
+				"patcherrelativepath" : "../patchers/modules/euclidean",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.euclidean.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/euclidean",
-				"patcherrelativepath" : "../patchers/euclidean",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/euclidean",
+				"patcherrelativepath" : "../patchers/modules/euclidean",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.euclidean.presets.xml",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/dist",
-				"patcherrelativepath" : "../patchers/dist",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/dist",
+				"patcherrelativepath" : "../patchers/modules/dist",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.euclidean.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/euclidean",
-				"patcherrelativepath" : "../patchers/euclidean",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/euclidean",
+				"patcherrelativepath" : "../patchers/modules/euclidean",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1575,15 +1536,15 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "seq.help.patternobjects.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras",
-				"patcherrelativepath" : "../extras",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "seq.loop~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.misc.aboutbutton.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.attrchecker.maxpat",
@@ -1633,30 +1594,6 @@
 				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.onepulse~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.pattern~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.pprob~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.retrig~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.rlogic~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.rprob~.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "tri-down.svg",

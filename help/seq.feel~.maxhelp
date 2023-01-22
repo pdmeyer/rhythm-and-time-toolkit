@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 783.0, 744.0 ],
+						"rect" : [ 0.0, 26.0, 681.0, 555.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -84,9 +84,59 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"showontab" : 0,
+						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"args" : [ "modules" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-22",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 222.0, 21.0, 100.0, 35.599853515625 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 39.0, 98.0, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "signal", "signal", "signal", "" ],
+									"patching_rect" : [ 39.0, 124.282608695652243, 56.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0
+									}
+,
+									"text" : "seq.bar~"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-11",
 									"maxclass" : "message",
@@ -115,28 +165,21 @@
 							}
 , 							{
 								"box" : 								{
-									"active" : 									{
-										"bar-help::bar-help_m::transportstate" : 0,
-										"bar-help::m::transportstate" : 0,
-										"bar-help-2::bar-help-2_m::transportstate" : 0,
-										"bar-help-2::m::transportstate" : 0
-									}
-,
 									"id" : "obj-20",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 39.0, 442.0, 226.0, 22.0 ],
+									"patching_rect" : [ 39.0, 442.0, 228.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 1057, 45, 1440, 407 ],
+										"client_rect" : [ 534, 298, 1279, 875 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 583, 69, 1034, 197 ]
+										"storage_rect" : [ 583, 87, 1081, 651 ]
 									}
 ,
-									"text" : "pattrstorage bar-help-storage @greedy 1",
-									"varname" : "bar-help-storage"
+									"text" : "pattrstorage feel-help-storage @greedy 1",
+									"varname" : "feel-help-storage"
 								}
 
 							}
@@ -184,8 +227,9 @@
 							}
 , 							{
 								"box" : 								{
+									"format" : 6,
 									"id" : "obj-14",
-									"maxclass" : "number",
+									"maxclass" : "flonum",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
@@ -196,8 +240,9 @@
 							}
 , 							{
 								"box" : 								{
+									"format" : 6,
 									"id" : "obj-12",
-									"maxclass" : "number",
+									"maxclass" : "flonum",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
@@ -213,8 +258,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 324.0, 288.0, 49.0, 22.0 ],
-									"text" : "bpm $1"
+									"patching_rect" : [ 324.0, 288.0, 55.0, 22.0 ],
+									"text" : "depth $1"
 								}
 
 							}
@@ -258,7 +303,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 39.0, 217.0, 145.0, 42.217391304347814 ],
+									"patching_rect" : [ 39.0, 261.0, 145.0, 42.217391304347814 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -283,17 +328,17 @@
 									"id" : "obj-3",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "signal", "signal", "signal" ],
-									"patching_rect" : [ 39.0, 365.0, 145.0, 45.0 ],
-									"text" : "seq.bar bar-help-2",
-									"varname" : "bar-help-2"
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 39.0, 365.0, 144.0, 22.0 ],
+									"text" : "seq.feel feel-help-2",
+									"varname" : "feel-help-2"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "bar-help" ],
+									"args" : [ "feel-help" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -303,13 +348,13 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.bar.maxpat",
+									"name" : "seq.feel.maxpat",
 									"numinlets" : 1,
-									"numoutlets" : 3,
+									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "signal", "signal", "signal" ],
-									"patching_rect" : [ 39.0, 166.0, 145.0, 45.0 ],
-									"varname" : "bar-help",
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 39.0, 166.0, 146.0, 92.0 ],
+									"varname" : "feel-help",
 									"viewvisibility" : 1
 								}
 
@@ -350,14 +395,14 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 324.0, 146.0, 243.0, 22.0 ],
-									"restore" : [ 120.0 ],
+									"patching_rect" : [ 324.0, 146.0, 252.0, 22.0 ],
+									"restore" : [ 0.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "pattr @bindto bar-help::m::bpm @invisible 1",
+									"text" : "pattr @bindto feel-help::m::depth @invisible 1",
 									"varname" : "u159010436"
 								}
 
@@ -420,6 +465,20 @@
 									"midpoints" : [ 333.5, 203.782608695652243, 317.5, 203.782608695652243, 317.5, 104.782608695652243, 333.5, 104.782608695652243 ],
 									"order" : 1,
 									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -568,6 +627,27 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"args" : [ "seq" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-21",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 294.0, 22.5, 97.0, 38.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-27",
 									"maxclass" : "newobj",
@@ -1268,16 +1348,14 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-2::obj-1::obj-6::obj-10" : [ "live.numbox[2]", "live.numbox[2]", 0 ],
-			"obj-2::obj-1::obj-6::obj-12" : [ "live.text[3]", "live.text[2]", 0 ],
 			"obj-2::obj-1::obj-6::obj-2" : [ "live.button[6]", "live.button", 0 ],
-			"obj-2::obj-1::obj-6::obj-9" : [ "live.text[2]", "live.text[2]", 0 ],
+			"obj-2::obj-1::obj-6::obj-33" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-2::obj-1::obj-6::obj-6" : [ "live.numbox[31]", "live.numbox[2]", 0 ],
 			"obj-2::obj-1::obj-93::obj-25" : [ "live.button[9]", "live.button", 0 ],
-			"obj-2::obj-3::obj-6::obj-10" : [ "live.numbox[3]", "live.numbox[2]", 0 ],
-			"obj-2::obj-3::obj-6::obj-12" : [ "live.text[4]", "live.text[2]", 0 ],
-			"obj-2::obj-3::obj-6::obj-2" : [ "live.button[1]", "live.button", 0 ],
-			"obj-2::obj-3::obj-6::obj-9" : [ "live.text[5]", "live.text[2]", 0 ],
-			"obj-2::obj-3::obj-93::obj-25" : [ "live.button[10]", "live.button", 0 ],
+			"obj-2::obj-3::obj-6::obj-2" : [ "live.button[45]", "live.button", 0 ],
+			"obj-2::obj-3::obj-6::obj-33" : [ "live.numbox[3]", "live.numbox", 0 ],
+			"obj-2::obj-3::obj-6::obj-6" : [ "live.numbox[2]", "live.numbox[2]", 0 ],
+			"obj-2::obj-3::obj-93::obj-25" : [ "live.button[14]", "live.button", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -1288,28 +1366,20 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-2::obj-1::obj-6::obj-2" : 				{
+					"parameter_longname" : "live.button[6]"
+				}
+,
 				"obj-2::obj-1::obj-93::obj-25" : 				{
 					"parameter_longname" : "live.button[9]"
 				}
 ,
-				"obj-2::obj-3::obj-6::obj-10" : 				{
+				"obj-2::obj-3::obj-6::obj-33" : 				{
 					"parameter_longname" : "live.numbox[3]"
 				}
 ,
-				"obj-2::obj-3::obj-6::obj-12" : 				{
-					"parameter_longname" : "live.text[4]"
-				}
-,
-				"obj-2::obj-3::obj-6::obj-2" : 				{
-					"parameter_longname" : "live.button[1]"
-				}
-,
-				"obj-2::obj-3::obj-6::obj-9" : 				{
-					"parameter_longname" : "live.text[5]"
-				}
-,
-				"obj-2::obj-3::obj-93::obj-25" : 				{
-					"parameter_longname" : "live.button[10]"
+				"obj-2::obj-3::obj-6::obj-6" : 				{
+					"parameter_longname" : "live.numbox[2]"
 				}
 
 			}
@@ -1318,19 +1388,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Pause.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/media/icons",
-				"patcherrelativepath" : "../media/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "helpdetails.js",
 				"bootpath" : "C74:/help/resources",
 				"type" : "TEXT",
@@ -1343,73 +1400,73 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.bar.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/bar",
-				"patcherrelativepath" : "../patchers/bar",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.bar.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/bar",
-				"patcherrelativepath" : "../patchers/bar",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.bar.presets.xml",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/bar",
-				"patcherrelativepath" : "../patchers/bar",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.bar.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/bar",
-				"patcherrelativepath" : "../patchers/bar",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "seq.bar~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.feel.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/feel",
+				"patcherrelativepath" : "../patchers/modules/feel",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.feel.model.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/feel",
+				"patcherrelativepath" : "../patchers/modules/feel",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.feel.view.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/feel",
+				"patcherrelativepath" : "../patchers/modules/feel",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.feel~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "seq.misc.aboutbutton.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "seq.module.attrchecker.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.remote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.viewcontrol.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}

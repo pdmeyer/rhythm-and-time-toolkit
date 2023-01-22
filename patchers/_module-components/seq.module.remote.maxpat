@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "dark-bg",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 159.0, 189.0, 70.0, 22.0 ],
+					"text" : "sel clientlist"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
@@ -81,7 +93,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 181.0, 123.0, 75.0, 22.0 ],
+					"patching_rect" : [ 280.0, 123.0, 75.0, 22.0 ],
 					"text" : "sprintf m.%d"
 				}
 
@@ -117,7 +129,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 203.0, 85.0, 96.0, 22.0 ],
+					"patching_rect" : [ 280.0, 86.0, 96.0, 22.0 ],
 					"text" : "split 0"
 				}
 
@@ -134,7 +146,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -382,7 +394,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -655,7 +667,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 24.75, 154.0, 215.0, 22.0 ],
+					"patching_rect" : [ 24.75, 154.0, 227.0, 22.0 ],
 					"text" : "combine parent::parent:: m :: #1"
 				}
 
@@ -664,11 +676,11 @@
 				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "newobj",
-					"numinlets" : 5,
-					"numoutlets" : 5,
-					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 24.75, 92.0, 178.0, 22.0 ],
-					"text" : "route bang name get getbinding"
+					"numinlets" : 6,
+					"numoutlets" : 6,
+					"outlettype" : [ "", "", "", "", "", "" ],
+					"patching_rect" : [ 24.75, 92.0, 224.0, 22.0 ],
+					"text" : "route bang name get getbinding clientlist"
 				}
 
 			}
@@ -681,7 +693,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 24.75, 225.0, 239.0, 35.0 ],
-					"restore" : [ 0.490000009536743 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -825,7 +837,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"source" : [ "obj-20", 4 ]
+					"source" : [ "obj-20", 5 ]
 				}
 
 			}

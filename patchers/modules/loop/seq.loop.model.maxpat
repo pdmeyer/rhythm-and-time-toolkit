@@ -39,7 +39,7 @@
 		"subpatcher_template" : "dark-bg",
 		"showontab" : 0,
 		"assistshowspatchername" : 0,
-		"globalpatchername" : "phas[1][1][1][1][1]",
+		"globalpatchername" : "phas[1][1][1][1][1][1]",
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "trigger on each phasor",
@@ -94,15 +94,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 102.0, 214.0, 223.0, 22.0 ],
+					"patching_rect" : [ 102.0, 214.0, 232.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 1 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr regionstart @type float32 @initial 1",
-					"varname" : "regionstart[1]"
+					"text" : "pattr regionlength @type float32 @initial 1",
+					"varname" : "regionlength"
 				}
 
 			}

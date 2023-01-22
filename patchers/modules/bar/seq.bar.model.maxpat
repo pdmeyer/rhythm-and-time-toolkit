@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 91.0, 163.0, 766.0, 348.0 ],
+		"rect" : [ 91.0, 163.0, 925.0, 450.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,7 +39,7 @@
 		"subpatcher_template" : "dark-bg",
 		"showontab" : 0,
 		"assistshowspatchername" : 0,
-		"globalpatchername" : "phas[1][1][2][1][1][1][2][1]",
+		"globalpatchername" : "phas[1][1][2][1][1][1][2][1][3][1]",
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "bar reset trigger",

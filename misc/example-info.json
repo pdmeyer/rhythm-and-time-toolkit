@@ -54,5 +54,9 @@
 	"seq.ex.modwheelretrig" : 	{
 		"digest" : "Trigger and modulate ratchets with the keyboard and mod wheel."
 	}
+	,
+	"seq.ex.polyrhythm" : 	{
+		"digest" : "Explore polymetric and polyrhythmic patterns."
+	}
 
 }

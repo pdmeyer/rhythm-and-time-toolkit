@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 113.0, 650.0, 570.0 ],
+						"rect" : [ 0.0, 26.0, 650.0, 570.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -95,32 +95,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 119.279998779296875, 303.0, 112.720001220703125, 39.0 ],
+									"patching_rect" : [ 122.0, 231.0, 112.720001220703125, 39.0 ],
 									"text" : "no trigger required"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-7",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 74.0, 222.0, 58.0, 22.0 ],
-									"text" : "loadbang"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-27",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 74.0, 251.0, 143.0, 22.0 ],
-									"text" : "range midi, autosample 1"
 								}
 
 							}
@@ -130,7 +106,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 104.279998779296875, 375.0, 116.0, 22.0 ],
+									"patching_rect" : [ 107.0, 303.0, 116.0, 22.0 ],
 									"text" : "print midi @popup 1"
 								}
 
@@ -181,7 +157,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 55.279998779296875, 375.0, 47.0, 22.0 ],
+									"patching_rect" : [ 58.0, 303.0, 47.0, 22.0 ],
 									"text" : "midiout"
 								}
 
@@ -193,13 +169,13 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 55.279998779296875, 344.0, 80.0, 22.0 ],
+									"patching_rect" : [ 58.0, 272.0, 198.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.makecc~",
+									"text" : "seq.makecc~ @range 127 @auto 1",
 									"varname" : "@controller"
 								}
 
@@ -213,7 +189,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 222.279998779296875, 251.0, 150.0, 22.0 ]
+									"patching_rect" : [ 225.0, 179.0, 150.0, 22.0 ]
 								}
 
 							}
@@ -226,7 +202,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 583.0, 21.0 ],
-									"text" : "Autosample will automatically send CC messages when the signal value changes.",
+									"text" : "@auto 1 will automatically send CC messages when the signal value changes.",
 									"textcolor" : [ 0.502, 0.502, 0.502, 1.0 ]
 								}
 
@@ -274,13 +250,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-25", 0 ],
-									"source" : [ "obj-27", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-25", 0 ],
 									"order" : 1,
 									"source" : [ "obj-5", 0 ]
 								}
@@ -296,13 +265,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-27", 0 ],
-									"source" : [ "obj-7", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"source" : [ "obj-8", 0 ]
 								}
@@ -311,7 +273,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 95.0, 205.0, 85.0, 22.0 ],
+					"patching_rect" : [ 95.0, 205.0, 84.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -319,7 +281,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p auto-sample",
+					"text" : "p auto sample",
 					"varname" : "module[1]"
 				}
 
@@ -341,7 +303,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 650.0, 570.0 ],
+						"rect" : [ 100.0, 113.0, 650.0, 570.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -371,6 +333,27 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"args" : [ "modules" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-1",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 286.279998779296875, 21.599853515625, 101.0, 38.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-23",
 									"maxclass" : "newobj",
@@ -941,6 +924,27 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"args" : [ "seq" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-21",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 317.0, 22.5, 101.0, 39.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 									"fontname" : "Arial Bold",
 									"hint" : "",
@@ -1071,8 +1075,8 @@
 									"id" : "obj-9",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
-									"numoutlets" : 3,
-									"outlettype" : [ "signal", "signal", "" ],
+									"numoutlets" : 4,
+									"outlettype" : [ "signal", "signal", "signal", "" ],
 									"patching_rect" : [ 42.5, 232.0, 237.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
@@ -1483,22 +1487,22 @@
 			}
 , 			{
 				"name" : "seq.makecc.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/makecc",
-				"patcherrelativepath" : "../patchers/makecc",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/makecc",
+				"patcherrelativepath" : "../patchers/modules/makecc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.makecc.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/makecc",
-				"patcherrelativepath" : "../patchers/makecc",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/makecc",
+				"patcherrelativepath" : "../patchers/modules/makecc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.makecc.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/makecc",
-				"patcherrelativepath" : "../patchers/makecc",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/makecc",
+				"patcherrelativepath" : "../patchers/modules/makecc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1507,37 +1511,44 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "seq.misc.aboutbutton.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "seq.module.attrchecker.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.remote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.viewcontrol.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1547,14 +1558,14 @@
 			}
 , 			{
 				"name" : "tri-down.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/media/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
 				"patcherrelativepath" : "../media/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tri-up.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/media/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
 				"patcherrelativepath" : "../media/icons",
 				"type" : "svg",
 				"implicit" : 1

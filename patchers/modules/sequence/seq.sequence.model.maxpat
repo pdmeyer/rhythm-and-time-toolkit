@@ -239,14 +239,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 348.721405846733091, 366.523063056888532, 183.0, 35.0 ],
+					"patching_rect" : [ 348.721405846733091, 366.523063056888532, 332.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr sequence/raw @type atom @initial 0. 0. 0. 0. 0. 0. 0. 0.",
+					"text" : "pattr sequence/raw @type atom @initial 0. 0. 0. 0. 0. 0. 0. 0. @default_priority 1",
 					"varname" : "sequence/raw"
 				}
 
@@ -319,7 +319,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 44.278594153266852, 99.523063056888589, 30.0, 30.0 ]
 				}
 

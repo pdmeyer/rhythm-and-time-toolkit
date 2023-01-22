@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 800.0, 567.0 ],
+						"rect" : [ 0.0, 26.0, 800.0, 567.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -89,13 +89,12 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 127.0, 402.0, 182.0, 35.0 ],
-									"text" : "0.506 0.948 1. 1. 0.87 0.415 0.051 0."
+									"patching_rect" : [ 127.0, 402.0, 182.0, 22.0 ],
+									"text" : "0. 0. 0. 0. 0. 0. 0. 0."
 								}
 
 							}
@@ -352,7 +351,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 800.0, 567.0 ],
+						"rect" : [ 34.0, 113.0, 800.0, 567.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -382,6 +381,27 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"args" : [ "modules" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-23",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 333.0, 19.39996337890625, 101.0, 38.7999267578125 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-20",
 									"maxclass" : "message",
@@ -937,6 +957,27 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"args" : [ "seq" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-9",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 335.0, 16.5, 100.0, 40.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 									"cols" : 8,
 									"colwidth" : 30,
@@ -1415,6 +1456,7 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-2::obj-156::obj-10" : [ "live.numbox[26]", "live.numbox", 0 ],
+			"obj-2::obj-156::obj-14" : [ "live.text[7]", "live.text", 0 ],
 			"obj-2::obj-156::obj-30" : [ "live.numbox[43]", "live.numbox", 0 ],
 			"obj-2::obj-156::obj-31" : [ "live.numbox[44]", "live.numbox", 0 ],
 			"obj-2::obj-156::obj-32" : [ "live.numbox[46]", "live.numbox", 0 ],
@@ -1445,6 +1487,26 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-2::obj-156::obj-10" : 				{
+					"parameter_longname" : "live.numbox[26]"
+				}
+,
+				"obj-2::obj-156::obj-30" : 				{
+					"parameter_longname" : "live.numbox[43]"
+				}
+,
+				"obj-2::obj-156::obj-31" : 				{
+					"parameter_longname" : "live.numbox[44]"
+				}
+,
+				"obj-2::obj-156::obj-32" : 				{
+					"parameter_longname" : "live.numbox[46]"
+				}
+,
+				"obj-2::obj-156::obj-33" : 				{
+					"parameter_longname" : "live.numbox[45]"
+				}
+,
 				"obj-6::obj-1::obj-18::obj-14" : 				{
 					"parameter_longname" : "live.numbox[37]"
 				}
@@ -1529,6 +1591,13 @@
 , 			{
 				"name" : "seq.loop~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.misc.aboutbutton.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.attrchecker.maxpat",

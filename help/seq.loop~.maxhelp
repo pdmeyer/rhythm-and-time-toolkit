@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 97.0, 670.0, 602.0 ],
+		"rect" : [ 100.0, 97.0, 630.0, 519.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 670.0, 576.0 ],
+						"rect" : [ 0.0, 26.0, 630.0, 493.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -350,7 +350,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 670.0, 576.0 ],
+						"rect" : [ 100.0, 123.0, 630.0, 493.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -381,6 +381,27 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"args" : [ "modules" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-23",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 221.839996337890625, 20.599853515625, 100.0, 37.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-6",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,
@@ -398,7 +419,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 40.0, 434.0, 77.0, 22.0 ],
+									"patching_rect" : [ 40.0, 395.0, 77.0, 22.0 ],
 									"text" : "clientwindow"
 								}
 
@@ -413,7 +434,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 276.0, 441.0, 222.0, 64.0 ],
+									"patching_rect" : [ 276.0, 402.0, 222.0, 64.0 ],
 									"text" : "use pattrstorage with @greedy 1 to create \"cues\" that save parameters across multiple seq objects in a max patch"
 								}
 
@@ -425,7 +446,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 40.0, 462.0, 231.0, 22.0 ],
+									"patching_rect" : [ 40.0, 423.0, 231.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"client_rect" : [ 809, 112, 1355, 911 ],
 										"parameter_enable" : 0,
@@ -520,7 +541,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 325.0, 191.782608695652243, 41.0, 22.0 ],
+									"patching_rect" : [ 325.0, 205.0, 41.0, 22.0 ],
 									"text" : "set $1"
 								}
 
@@ -604,7 +625,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 187.0, 370.5, 218.0, 51.0 ],
+									"patching_rect" : [ 187.0, 346.5, 218.0, 51.0 ],
 									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
 								}
 
@@ -616,7 +637,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 40.0, 385.0, 145.0, 22.0 ],
+									"patching_rect" : [ 40.0, 361.0, 145.0, 22.0 ],
 									"text" : "seq.loop loop-help-2",
 									"varname" : "loop-help-2"
 								}
@@ -765,7 +786,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-14", 0 ],
-									"midpoints" : [ 334.5, 223.782608695652243, 318.5, 223.782608695652243, 318.5, 124.782608695652243, 334.5, 124.782608695652243 ],
+									"midpoints" : [ 334.5, 234.782608695652243, 318.5, 234.782608695652243, 318.5, 124.782608695652243, 334.5, 124.782608695652243 ],
 									"order" : 1,
 									"source" : [ "obj-16", 0 ]
 								}
@@ -811,7 +832,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 670.0, 576.0 ],
+						"rect" : [ 0.0, 26.0, 630.0, 493.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -874,17 +895,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 193.0, 93.5, 120.0, 22.0 ],
 									"text" : "loadmess 0.3 0.7 0.3"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 193.0, 239.0, 110.0, 22.0 ],
-									"text" : "print drunk2-param"
 								}
 
 							}
@@ -1311,16 +1321,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"order" : 0,
-									"source" : [ "obj-40", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
-									"order" : 1,
 									"source" : [ "obj-40", 0 ]
 								}
 
@@ -1372,7 +1373,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 670.0, 576.0 ],
+						"rect" : [ 0.0, 26.0, 630.0, 493.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1736,7 +1737,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 123.0, 670.0, 576.0 ],
+						"rect" : [ 0.0, 26.0, 630.0, 493.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2078,7 +2079,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 234.0, 268.0, 34.0, 22.0 ],
+									"patching_rect" : [ 234.0, 228.0, 34.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -2097,7 +2098,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 15.0, 448.0, 184.0, 68.0 ],
+									"patching_rect" : [ 15.0, 408.0, 184.0, 68.0 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -2109,7 +2110,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 361.0, 368.0, 145.0, 22.0 ],
+									"patching_rect" : [ 361.0, 328.0, 145.0, 22.0 ],
 									"text" : "prepend message pattern"
 								}
 
@@ -2134,7 +2135,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 234.0, 368.0, 55.0, 22.0 ],
+									"patching_rect" : [ 234.0, 328.0, 55.0, 22.0 ],
 									"text" : "getrow 0"
 								}
 
@@ -2148,7 +2149,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "list", "list" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 234.0, 302.0, 272.0, 61.0 ],
+									"patching_rect" : [ 234.0, 262.0, 272.0, 61.0 ],
 									"rows" : 1
 								}
 
@@ -2158,15 +2159,15 @@
 									"id" : "obj-41",
 									"maxclass" : "newobj",
 									"numinlets" : 4,
-									"numoutlets" : 3,
-									"outlettype" : [ "signal", "signal", "" ],
-									"patching_rect" : [ 15.0, 415.0, 232.0, 22.0 ],
+									"numoutlets" : 4,
+									"outlettype" : [ "signal", "signal", "signal", "" ],
+									"patching_rect" : [ 15.0, 375.0, 181.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.pattern~ @playback/outputmode gate"
+									"text" : "seq.pattern~ @outputmode gate"
 								}
 
 							}
@@ -2416,7 +2417,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-42", 0 ],
-									"midpoints" : [ 243.5, 396.0, 227.5, 396.0, 227.5, 292.0, 243.5, 292.0 ],
+									"midpoints" : [ 243.5, 356.0, 227.5, 356.0, 227.5, 252.0, 243.5, 252.0 ],
 									"source" : [ "obj-47", 0 ]
 								}
 
@@ -2501,7 +2502,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 670.0, 576.0 ],
+						"rect" : [ 0.0, 26.0, 630.0, 493.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -2565,7 +2566,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 670.0, 576.0 ],
+						"rect" : [ 0.0, 26.0, 630.0, 493.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2595,6 +2596,27 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"args" : [ "seq" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-12",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 229.5, 13.5, 100.0, 39.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 									"fontname" : "Arial Bold",
@@ -3131,6 +3153,10 @@
 					"parameter_longname" : "live.button[6]"
 				}
 ,
+				"obj-2::obj-1::obj-6::obj-30" : 				{
+					"parameter_longname" : "live.text[7]"
+				}
+,
 				"obj-2::obj-1::obj-6::obj-34::obj-10" : 				{
 					"parameter_longname" : "live.numbox[5]",
 					"parameter_range" : [ 0.0, 1.0 ]
@@ -3138,10 +3164,23 @@
 ,
 				"obj-2::obj-1::obj-6::obj-34::obj-11" : 				{
 					"parameter_invisible" : 0,
+					"parameter_longname" : "live.menu[1]",
 					"parameter_modmode" : 0,
 					"parameter_range" : [ "forward", "backward", "pingpong", "random", "drunk1", "drunk2" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
+				}
+,
+				"obj-2::obj-1::obj-6::obj-34::obj-14" : 				{
+					"parameter_longname" : "live.numbox[14]"
+				}
+,
+				"obj-2::obj-1::obj-6::obj-34::obj-18" : 				{
+					"parameter_longname" : "live.numbox[1]"
+				}
+,
+				"obj-2::obj-1::obj-6::obj-34::obj-29" : 				{
+					"parameter_longname" : "live.text"
 				}
 ,
 				"obj-2::obj-1::obj-6::obj-34::obj-8" : 				{
@@ -3209,29 +3248,29 @@
 			}
 , 			{
 				"name" : "seq.loop.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/loop",
-				"patcherrelativepath" : "../patchers/loop",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/loop",
+				"patcherrelativepath" : "../patchers/modules/loop",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.loop.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/loop",
-				"patcherrelativepath" : "../patchers/loop",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/loop",
+				"patcherrelativepath" : "../patchers/modules/loop",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.loop.presets.xml",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/loop",
-				"patcherrelativepath" : "../patchers/loop",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/loop",
+				"patcherrelativepath" : "../patchers/modules/loop",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.loop.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/loop",
-				"patcherrelativepath" : "../patchers/loop",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/loop",
+				"patcherrelativepath" : "../patchers/modules/loop",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3240,37 +3279,44 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "seq.misc.aboutbutton.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "seq.module.attrchecker.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.remote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.viewcontrol.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}

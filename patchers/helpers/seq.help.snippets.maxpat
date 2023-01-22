@@ -45,7 +45,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 1097.0, 54.0, 136.416670918464661, 48.16666116721251 ]
+					"patching_rect" : [ 1097.0, 54.0, 136.416670918464661, 48.16666116721251 ],
+					"pattrstorage" : "seq.help.snippets"
 				}
 
 			}
@@ -572,7 +573,7 @@
 					}
 ,
 					"text" : "pattrstorage @autorestore 1 @savemode 2",
-					"varname" : "u609011519"
+					"varname" : "seq.help.snippets"
 				}
 
 			}
@@ -589,9 +590,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "seq.xtra.pattrhelper.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 2,
+					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "int" ],
+					"outlettype" : [ "", "int", "bang" ],
 					"patching_rect" : [ 991.416670918464661, 50.166657892378794, 251.0, 85.000003274833716 ],
 					"varname" : "seq.xtra.pattrhelper",
 					"viewvisibility" : 1
@@ -3478,7 +3479,7 @@
 			"obj-157::obj-8::obj-33" : [ "live.numbox[36]", "live.numbox", 0 ],
 			"obj-2624::obj-2" : [ "live.numbox[27]", "live.numbox", 0 ],
 			"obj-2624::obj-31" : [ "live.grid[1]", "live.grid", 0 ],
-			"obj-2691::obj-2665::obj-2" : [ "pastebang", "pastebang", 0 ],
+			"obj-2691::obj-12::obj-10" : [ "pastebang", "pastebang", 0 ],
 			"obj-97::obj-2" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-97::obj-31" : [ "live.grid", "live.grid", 0 ],
 			"parameterbanks" : 			{
@@ -3493,6 +3494,10 @@
 			"parameter_overrides" : 			{
 				"obj-156::obj-10" : 				{
 					"parameter_longname" : "live.numbox[37]"
+				}
+,
+				"obj-156::obj-14" : 				{
+					"parameter_longname" : "live.text"
 				}
 ,
 				"obj-156::obj-30" : 				{
@@ -3719,12 +3724,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "pastebang.maxpat",
-				"bootpath" : "C74:/packages/BEAP/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "seq.8sequence.ui.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/8sequence",
 				"patcherrelativepath" : "../modules/8sequence",

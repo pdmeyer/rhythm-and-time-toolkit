@@ -117,7 +117,7 @@
 									"presentation_rect" : [ 0.900014460086823, 22.5, 29.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.numbox[108]",
+											"parameter_longname" : "live.numbox",
 											"parameter_mmax" : 256.0,
 											"parameter_mmin" : 1.0,
 											"parameter_shortname" : "live.numbox",
@@ -196,7 +196,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 214.983333333333235, 326.0, 87.0, 22.0 ],
+									"patching_rect" : [ 152.449999999999818, 311.0, 87.0, 22.0 ],
 									"text" : "prepend setlist"
 								}
 
@@ -525,7 +525,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button[69]",
+							"parameter_longname" : "live.button[8]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
@@ -598,7 +598,7 @@
 					"patching_rect" : [ 204.966666666666583, 150.0, 73.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 1.0, 101.0, 18.0 ],
-					"text" : "mhelp.rprob",
+					"text" : "rprob-help",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 

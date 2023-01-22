@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,25 +40,13 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "end of cycle trigger",
-					"id" : "obj-7",
-					"index" : 4,
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 143.499999999999943, 153.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "triggers",
 					"id" : "obj-2",
 					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 111.499999999999972, 153.0, 30.0, 30.0 ]
+					"patching_rect" : [ 143.499999999999972, 149.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -70,7 +58,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 79.499999999999986, 153.0, 30.0, 30.0 ]
+					"patching_rect" : [ 95.499999999999986, 149.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -82,7 +70,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 47.5, 153.0, 30.0, 30.0 ]
+					"patching_rect" : [ 47.5, 149.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -94,7 +82,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 47.5, 38.0, 30.0, 30.0 ]
 				}
 
@@ -104,8 +92,8 @@
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "signal", "signal", "signal", "signal" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "signal", "signal", "signal" ],
 					"patching_rect" : [ 47.5, 113.0, 114.999999999999972, 22.0 ],
 					"text" : "seq.divs.model",
 					"varname" : "m"
@@ -143,7 +131,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 189.0, 32.0, 141.0, 22.0 ],
+					"patching_rect" : [ 189.0, 32.0, 173.0, 22.0 ],
 					"text" : "seq.module.control #1"
 				}
 
@@ -155,7 +143,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 297.0, 74.0, 257.0, 22.0 ],
+					"patching_rect" : [ 297.0, 79.0, 257.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 534, 298, 1279, 875 ],
 						"parameter_enable" : 0,
@@ -187,13 +175,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-4", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-4", 3 ]
 				}
 
 			}

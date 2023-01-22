@@ -39,7 +39,7 @@
 		"subpatcher_template" : "dark-bg",
 		"showontab" : 0,
 		"assistshowspatchername" : 0,
-		"globalpatchername" : "phas[1][1][2][1][1][1][1][1]",
+		"globalpatchername" : "phas[1][1][2][1][1][1][1][1][1]",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-9",
@@ -84,14 +84,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 192.715686274509835, 280.5, 199.0, 22.0 ],
+					"patching_rect" : [ 192.715686274509835, 280.5, 307.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 8 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr length @type float32 @initial 8",
+					"text" : "pattr length @type float32 @initial 8 @default_priority -1",
 					"varname" : "length"
 				}
 

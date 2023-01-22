@@ -47,7 +47,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 254.5, 337.0, 176.0, 22.0 ],
+					"patching_rect" : [ 218.5, 317.0, 176.0, 22.0 ],
 					"text" : "seq.module.remote syncupdate",
 					"varname" : "p.remote[2]"
 				}
@@ -61,14 +61,14 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 229.0078125, 340.5, 23.0, 15.0 ],
+					"patching_rect" : [ 176.0, 320.5, 22.0, 15.0 ],
 					"pictures" : [ "Pause.svg", "Play.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 103.5, 22.75, 19.5, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[3]",
+							"parameter_longname" : "live.text[4]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[2]",
 							"parameter_type" : 2
@@ -181,7 +181,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.numbox[31]",
+							"parameter_longname" : "live.text[9]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[8]",
 							"parameter_type" : 2
@@ -249,7 +249,7 @@
 					}
 ,
 					"tabmode" : 0,
-					"text" : "1 5 6 7",
+					"text" : "1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -262,7 +262,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 254.5, 296.0, 169.0, 22.0 ],
+					"patching_rect" : [ 254.5, 281.0, 169.0, 22.0 ],
 					"text" : "seq.module.remote countsync",
 					"varname" : "p.remote[3]"
 				}
@@ -276,14 +276,14 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 233.0078125, 303.0, 23.0, 15.0 ],
+					"patching_rect" : [ 209.0, 281.0, 23.0, 15.0 ],
 					"pictures" : [ "Pause.svg", "Play.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 122.0, 22.75, 19.5, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[4]",
+							"parameter_longname" : "live.toggle[3]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[2]",
 							"parameter_type" : 2
@@ -316,7 +316,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button[45]",
+							"parameter_longname" : "live.button[13]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
@@ -350,7 +350,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 254.5, 37.0, 30.0, 30.0 ]
+					"patching_rect" : [ 218.5, 41.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -402,7 +402,7 @@
 					"patching_rect" : [ 375.666666666666799, 138.5, 36.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 2.0, 75.0, 18.0 ],
-					"text" : "divs-help",
+					"text" : "divs_7078",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -445,7 +445,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -453,7 +453,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
 

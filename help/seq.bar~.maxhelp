@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 87.0, 641.0, 515.0 ],
+		"rect" : [ 277.0, 93.0, 641.0, 515.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 641.0, 489.0 ],
+						"rect" : [ 277.0, 119.0, 641.0, 489.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -87,6 +87,56 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"border" : 0,
+									"filename" : "helpname.js",
+									"id" : "obj-4",
+									"ignoreclick" : 1,
+									"jsarguments" : [ "seq.bar~" ],
+									"maxclass" : "jsui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 10.0, 10.0, 185.383987426757812, 57.599853515625 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-9",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 6.0, 67.599853515625, 513.0, 20.0 ],
+									"text" : "The abstraction seq.bar (no tilde) contains the seq.bar~ object, a UI and pattr support."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"args" : [ "modules" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-23",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 257.943984985351562, 20.2999267578125, 99.0, 37.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-11",
 									"maxclass" : "message",
@@ -316,48 +366,19 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-2",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 10.0, 69.599853515625, 474.0, 20.0 ],
-									"text" : "The abstraction seq.bar (no tilde) contains the seq.bar~ object, a UI and pattr support."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"border" : 0,
-									"filename" : "helpname.js",
-									"id" : "obj-4",
-									"ignoreclick" : 1,
-									"jsarguments" : [ "seq.bar~" ],
-									"maxclass" : "jsui",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 10.0, 10.0, 185.383987426757812, 57.599853515625 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-13",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 324.0, 146.0, 243.0, 22.0 ],
-									"restore" : [ 200.0 ],
+									"patching_rect" : [ 324.0, 146.0, 237.0, 22.0 ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "pattr @bindto bar-help::m::bpm @invisible 1",
+									"text" : "pattr @bindto bar-help::m::bar @invisible 1",
 									"varname" : "u159010436"
 								}
 
@@ -427,7 +448,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 246.0, 206.0, 58.0, 22.0 ],
+					"patching_rect" : [ 253.0, 206.0, 58.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1270,7 +1291,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 113.0, 641.0, 489.0 ],
+						"rect" : [ 0.0, 26.0, 641.0, 489.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1300,6 +1321,26 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-3",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 297.0, 25.5, 100.0, 38.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-2621",
 									"maxclass" : "toggle",
@@ -1530,10 +1571,10 @@
 			"obj-2::obj-1::obj-6::obj-2" : [ "live.button[6]", "live.button", 0 ],
 			"obj-2::obj-1::obj-6::obj-9" : [ "live.text[2]", "live.text[2]", 0 ],
 			"obj-2::obj-1::obj-93::obj-25" : [ "live.button[9]", "live.button", 0 ],
-			"obj-2::obj-3::obj-6::obj-10" : [ "live.numbox[3]", "live.numbox[2]", 0 ],
-			"obj-2::obj-3::obj-6::obj-12" : [ "live.text[5]", "live.text[2]", 0 ],
-			"obj-2::obj-3::obj-6::obj-2" : [ "live.button[1]", "live.button", 0 ],
-			"obj-2::obj-3::obj-6::obj-9" : [ "live.text[4]", "live.text[2]", 0 ],
+			"obj-2::obj-3::obj-6::obj-10" : [ "live.numbox[66]", "live.numbox[2]", 0 ],
+			"obj-2::obj-3::obj-6::obj-12" : [ "live.text[33]", "live.text[2]", 0 ],
+			"obj-2::obj-3::obj-6::obj-2" : [ "live.button[22]", "live.button", 0 ],
+			"obj-2::obj-3::obj-6::obj-9" : [ "live.text[34]", "live.text[2]", 0 ],
 			"obj-2::obj-3::obj-93::obj-25" : [ "live.button[14]", "live.button", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -1545,24 +1586,24 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-2::obj-1::obj-6::obj-10" : 				{
+					"parameter_longname" : "live.numbox[2]"
+				}
+,
+				"obj-2::obj-1::obj-6::obj-12" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-2::obj-1::obj-6::obj-2" : 				{
+					"parameter_longname" : "live.button[6]"
+				}
+,
+				"obj-2::obj-1::obj-6::obj-9" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
 				"obj-2::obj-1::obj-93::obj-25" : 				{
 					"parameter_longname" : "live.button[9]"
-				}
-,
-				"obj-2::obj-3::obj-6::obj-10" : 				{
-					"parameter_longname" : "live.numbox[3]"
-				}
-,
-				"obj-2::obj-3::obj-6::obj-12" : 				{
-					"parameter_longname" : "live.text[5]"
-				}
-,
-				"obj-2::obj-3::obj-6::obj-2" : 				{
-					"parameter_longname" : "live.button[1]"
-				}
-,
-				"obj-2::obj-3::obj-6::obj-9" : 				{
-					"parameter_longname" : "live.text[4]"
 				}
 
 			}
@@ -1597,28 +1638,42 @@
 			}
 , 			{
 				"name" : "seq.bar.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/bar",
-				"patcherrelativepath" : "../../seq-dev/patchers/bar",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/bar",
+				"patcherrelativepath" : "../patchers/modules/bar",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.bar.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/bar",
-				"patcherrelativepath" : "../../seq-dev/patchers/bar",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/bar",
+				"patcherrelativepath" : "../patchers/modules/bar",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "seq.bar.presets.xml",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/bar",
+				"patcherrelativepath" : "../patchers/modules/bar",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "seq.bar.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/bar",
-				"patcherrelativepath" : "../../seq-dev/patchers/bar",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/bar",
+				"patcherrelativepath" : "../patchers/modules/bar",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.bar~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.misc.aboutbutton.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.attrchecker.maxpat",

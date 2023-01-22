@@ -88,6 +88,27 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"args" : [ "modules" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-19",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 217.0, 19.599853515625, 100.0, 38.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -323,8 +344,8 @@
 									"id" : "obj-3",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "signal", "signal", "signal", "" ],
+									"numoutlets" : 3,
+									"outlettype" : [ "signal", "signal", "signal" ],
 									"patching_rect" : [ 39.0, 365.0, 145.0, 22.0 ],
 									"text" : "seq.divs divs-help-2",
 									"varname" : "divs-help-2"
@@ -345,9 +366,9 @@
 									"maxclass" : "bpatcher",
 									"name" : "seq.divs.maxpat",
 									"numinlets" : 1,
-									"numoutlets" : 4,
+									"numoutlets" : 3,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "signal", "signal", "signal", "" ],
+									"outlettype" : [ "signal", "signal", "signal" ],
 									"patching_rect" : [ 39.0, 170.0, 143.0, 43.0 ],
 									"varname" : "divs-help",
 									"viewvisibility" : 1
@@ -480,7 +501,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
-									"midpoints" : [ 348.5, 344.0, 316.5, 344.0, 316.5, 159.0, 48.5, 159.0 ],
+									"midpoints" : [ 348.5, 344.0, 16.5, 344.0, 16.5, 159.0, 48.5, 159.0 ],
 									"source" : [ "obj-23", 0 ]
 								}
 
@@ -1144,6 +1165,27 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"args" : [ "seq" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-21",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 230.5, 26.5, 101.0, 38.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bubble" : 1,
 									"bubbleside" : 2,
 									"fontname" : "Arial",
@@ -1725,7 +1767,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "burst.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/media/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
 				"patcherrelativepath" : "../media/icons",
 				"type" : "svg",
 				"implicit" : 1
@@ -1748,22 +1790,22 @@
 			}
 , 			{
 				"name" : "seq.divs.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/divs",
-				"patcherrelativepath" : "../patchers/divs",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/divs",
+				"patcherrelativepath" : "../patchers/modules/divs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.divs.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/divs",
-				"patcherrelativepath" : "../patchers/divs",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/divs",
+				"patcherrelativepath" : "../patchers/modules/divs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.divs.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/divs",
-				"patcherrelativepath" : "../patchers/divs",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/divs",
+				"patcherrelativepath" : "../patchers/modules/divs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1772,37 +1814,44 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "seq.misc.aboutbutton.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "seq.module.attrchecker.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.remote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.viewcontrol.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}

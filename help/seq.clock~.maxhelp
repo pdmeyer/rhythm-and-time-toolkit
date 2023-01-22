@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 87.0, 641.0, 532.0 ],
+		"rect" : [ 100.0, 87.0, 610.0, 497.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -42,6 +42,425 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 5,
+							"revision" : 3,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 0.0, 26.0, 610.0, 471.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"showontab" : 1,
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"border" : 0,
+									"filename" : "helpname.js",
+									"id" : "obj-4",
+									"ignoreclick" : 1,
+									"jsarguments" : [ "seq.clock~" ],
+									"maxclass" : "jsui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 7.0, 8.0, 225.943984985351562, 57.599853515625 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-9",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 6.0, 67.599853515625, 513.0, 20.0 ],
+									"text" : "The abstraction seq.clock (no tilde) contains the seq.clock~ object, a UI and pattr support."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"args" : [ "modules" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-23",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 257.943984985351562, 20.2999267578125, 99.0, 37.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 39.0, 381.0, 77.0, 22.0 ],
+									"text" : "clientwindow"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-21",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 275.0, 388.0, 222.0, 64.0 ],
+									"text" : "use pattrstorage with @greedy 1 to create \"cues\" that save parameters across multiple seq objects in a max patch"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"active" : 									{
+										"clock-help::m::transportstate" : 0,
+										"clock-help-2::m::transportstate" : 0
+									}
+,
+									"id" : "obj-20",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 39.0, 409.0, 236.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"client_rect" : [ 1057, 45, 1440, 407 ],
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0,
+										"storage_rect" : [ 583, 69, 1034, 197 ]
+									}
+,
+									"text" : "pattrstorage clock-help-storage @greedy 1",
+									"varname" : "clock-help-storage"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"bubbleside" : 2,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-18",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 389.0, 107.282608695652243, 201.0, 39.0 ],
+									"text" : "invisible pattr for remote control"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-17",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 380.0, 246.5, 153.0, 51.0 ],
+									"text" : "you can also set parameters using the module's first inlet"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 324.0, 171.782608695652243, 41.0, 22.0 ],
+									"text" : "set $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 324.0, 115.782608695652243, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 324.0, 261.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 324.0, 288.0, 49.0, 22.0 ],
+									"text" : "bpm $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"bubblepoint" : 0.1,
+									"bubbleside" : 2,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-8",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 118.0, 98.0, 139.0, 66.0 ],
+									"text" : "use this menu to create pattr objects to control params remotely"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"bubblepoint" : 0.1,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-7",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 186.0, 170.0, 109.0, 37.0 ],
+									"text" : "click the button to use presets "
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "live.scope~",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 39.0, 217.0, 145.0, 42.217391304347814 ],
+									"range" : [ -0.1, 1.1 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-5",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 186.0, 326.5, 218.0, 51.0 ],
+									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 4,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "signal" ],
+									"patching_rect" : [ 39.0, 341.0, 145.0, 22.0 ],
+									"text" : "seq.clock clock-help-2",
+									"varname" : "clock-help-2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"args" : [ "clock-help" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-1",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.clock.maxpat",
+									"numinlets" : 4,
+									"numoutlets" : 2,
+									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "signal", "signal" ],
+									"patching_rect" : [ 39.0, 166.0, 145.0, 45.0 ],
+									"varname" : "clock-help",
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-13",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 324.0, 146.0, 253.0, 22.0 ],
+									"restore" : [ 254.0 ],
+									"saved_object_attributes" : 									{
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0
+									}
+,
+									"text" : "pattr @bindto clock-help::m::bpm @invisible 1",
+									"varname" : "u159010436"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"midpoints" : [ 333.5, 321.0, 23.0, 321.0, 23.0, 156.0, 48.5, 156.0 ],
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"hidden" : 1,
+									"order" : 0,
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"midpoints" : [ 333.5, 203.782608695652243, 317.5, 203.782608695652243, 317.5, 104.782608695652243, 333.5, 104.782608695652243 ],
+									"order" : 1,
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 199.0, 211.0, 58.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p module",
+					"varname" : "module"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -57,7 +476,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 113.0, 641.0, 506.0 ],
+						"rect" : [ 0.0, 26.0, 610.0, 471.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -92,7 +511,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 117.0, 335.0, 150.0, 20.0 ],
+									"patching_rect" : [ 96.0, 326.0, 150.0, 20.0 ],
 									"text" : "orange line"
 								}
 
@@ -103,7 +522,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 309.0, 335.0, 150.0, 20.0 ],
+									"patching_rect" : [ 288.0, 326.0, 150.0, 20.0 ],
 									"text" : "white line"
 								}
 
@@ -117,7 +536,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 96.0, 394.0, 184.0, 68.0 ],
+									"patching_rect" : [ 75.0, 356.0, 184.0, 68.0 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -129,7 +548,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 305.5, 303.0, 121.0, 22.0 ],
+									"patching_rect" : [ 284.5, 294.0, 121.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -147,7 +566,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 256.485996246337891, 277.0, 88.028007507324219, 24.0 ],
+									"patching_rect" : [ 235.485996246337891, 268.0, 88.028007507324219, 24.0 ],
 									"text" : "hard sync"
 								}
 
@@ -160,7 +579,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 155.485996246337891, 277.0, 73.028007507324219, 24.0 ],
+									"patching_rect" : [ 134.485996246337891, 268.0, 73.028007507324219, 24.0 ],
 									"text" : "speed"
 								}
 
@@ -174,7 +593,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 24.971992492675781, 277.0, 73.028007507324219, 24.0 ],
+									"patching_rect" : [ 3.971992492675781, 268.0, 73.028007507324219, 24.0 ],
 									"text" : "transport"
 								}
 
@@ -187,7 +606,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 443.0, 142.0, 173.0, 51.0 ],
+									"patching_rect" : [ 422.0, 133.0, 173.0, 51.0 ],
 									"text" : "these are ignored when non-zero signals are patched in to inlets 1 and 2"
 								}
 
@@ -200,7 +619,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 443.0, 221.0, 150.0, 37.0 ],
+									"patching_rect" : [ 422.0, 212.0, 150.0, 37.0 ],
 									"text" : "number of beats per phasor cycle"
 								}
 
@@ -212,7 +631,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 100.0, 130.0, 150.0, 33.0 ],
+									"patching_rect" : [ 79.0, 121.0, 150.0, 33.0 ],
 									"text" : "start the sequencer, then change the speed"
 								}
 
@@ -228,7 +647,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 147.0, 167.0, 56.0, 22.0 ],
+									"patching_rect" : [ 126.0, 158.0, 56.0, 22.0 ],
 									"sig" : 94.0
 								}
 
@@ -240,7 +659,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 100.0, 204.0, 31.0, 22.0 ],
+									"patching_rect" : [ 79.0, 195.0, 31.0, 22.0 ],
 									"text" : "sig~"
 								}
 
@@ -254,7 +673,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 291.0, 144.0, 150.0, 22.0 ]
+									"patching_rect" : [ 270.0, 135.0, 150.0, 22.0 ]
 								}
 
 							}
@@ -266,7 +685,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 100.0, 167.0, 24.0, 24.0 ]
+									"patching_rect" : [ 79.0, 158.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -277,7 +696,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 100.0, 394.0, 184.0, 68.0 ],
+									"patching_rect" : [ 79.0, 356.0, 184.0, 68.0 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -289,7 +708,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 100.0, 303.0, 160.000000000000028, 22.0 ],
+									"patching_rect" : [ 79.0, 294.0, 160.000000000000028, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -308,7 +727,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 291.0, 168.0, 150.0, 22.0 ]
+									"patching_rect" : [ 270.0, 159.0, 150.0, 22.0 ]
 								}
 
 							}
@@ -321,7 +740,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 10.0, 69.599853515625, 474.0, 47.0 ],
+									"patching_rect" : [ 6.0, 67.599853515625, 474.0, 47.0 ],
 									"text" : "Signals can be used to start and stop the object (first inlet) and change the BPM (second inlet). These override the attribute settings. The third inlet accepts an impulse that will immediately reset the ramp back to 0."
 								}
 
@@ -338,7 +757,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 10.0, 10.0, 225.943984985351562, 57.599853515625 ]
+									"patching_rect" : [ 6.0, 8.0, 225.943984985351562, 57.599853515625 ]
 								}
 
 							}
@@ -351,7 +770,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 291.0, 231.5, 150.0, 22.0 ]
+									"patching_rect" : [ 270.0, 222.5, 150.0, 22.0 ]
 								}
 
 							}
@@ -387,7 +806,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-3", 3 ],
-									"midpoints" : [ 417.0, 335.0, 269.75, 335.0, 269.75, 292.0, 250.500000000000028, 292.0 ],
+									"midpoints" : [ 396.0, 326.0, 248.75, 326.0, 248.75, 283.0, 229.500000000000028, 283.0 ],
 									"source" : [ "obj-15", 1 ]
 								}
 
@@ -432,7 +851,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 96.0, 206.0, 56.0, 22.0 ],
+					"patching_rect" : [ 96.0, 206.0, 98.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -440,7 +859,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p signals"
+					"text" : "p \"signal control\""
 				}
 
 			}
@@ -479,7 +898,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 641.0, 506.0 ],
+						"rect" : [ 0.0, 26.0, 610.0, 471.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -512,7 +931,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 160.0, 206.0, 50.0, 22.0 ],
+					"patching_rect" : [ 271.0, 214.0, 50.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -543,7 +962,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 641.0, 506.0 ],
+						"rect" : [ 100.0, 113.0, 610.0, 471.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -573,6 +992,27 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"args" : [ "seq" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-21",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 253.5, 16.5, 100.0, 38.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"attr" : "transportstate",
 									"id" : "obj-16",
@@ -816,7 +1256,66 @@
 			}
  ],
 		"lines" : [  ],
+		"parameters" : 		{
+			"obj-2::obj-1::obj-6::obj-10" : [ "live.numbox[89]", "live.numbox[2]", 0 ],
+			"obj-2::obj-1::obj-6::obj-12" : [ "live.text[6]", "live.text[2]", 0 ],
+			"obj-2::obj-1::obj-6::obj-2" : [ "live.button[3]", "live.button", 0 ],
+			"obj-2::obj-1::obj-6::obj-9" : [ "live.text[5]", "live.text[2]", 0 ],
+			"obj-2::obj-1::obj-93::obj-25" : [ "live.button[14]", "live.button", 0 ],
+			"obj-2::obj-3::obj-6::obj-10" : [ "live.numbox[1]", "live.numbox[2]", 0 ],
+			"obj-2::obj-3::obj-6::obj-12" : [ "live.text[8]", "live.text[2]", 0 ],
+			"obj-2::obj-3::obj-6::obj-2" : [ "live.button[4]", "live.button", 0 ],
+			"obj-2::obj-3::obj-6::obj-9" : [ "live.text[7]", "live.text[2]", 0 ],
+			"obj-2::obj-3::obj-93::obj-25" : [ "live.button[5]", "live.button", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-2::obj-3::obj-6::obj-10" : 				{
+					"parameter_longname" : "live.numbox[1]"
+				}
+,
+				"obj-2::obj-3::obj-6::obj-12" : 				{
+					"parameter_longname" : "live.text[8]"
+				}
+,
+				"obj-2::obj-3::obj-6::obj-2" : 				{
+					"parameter_longname" : "live.button[4]"
+				}
+,
+				"obj-2::obj-3::obj-6::obj-9" : 				{
+					"parameter_longname" : "live.text[7]"
+				}
+,
+				"obj-2::obj-3::obj-93::obj-25" : 				{
+					"parameter_longname" : "live.button[5]"
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [ 			{
+				"name" : "Pause.svg",
+				"bootpath" : "C74:/interfaces",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Play.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
+				"patcherrelativepath" : "../media/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "helpdetails.js",
 				"bootpath" : "C74:/help/resources",
 				"type" : "TEXT",
@@ -829,8 +1328,71 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "seq.clock.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/clock",
+				"patcherrelativepath" : "../patchers/modules/clock",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.clock.model.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/clock",
+				"patcherrelativepath" : "../patchers/modules/clock",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.clock.view.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/clock",
+				"patcherrelativepath" : "../patchers/modules/clock",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "seq.clock~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.misc.aboutbutton.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.module.attrchecker.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.module.control.js",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.module.control.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.module.remote.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.module.viewcontrol.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0

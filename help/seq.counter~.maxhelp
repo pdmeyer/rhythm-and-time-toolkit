@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 97.0, 620.0, 571.0 ],
+		"rect" : [ 100.0, 97.0, 624.0, 605.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 123.0, 949.0, 613.0 ],
+						"rect" : [ 100.0, 123.0, 624.0, 579.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -84,9 +84,30 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"showontab" : 0,
+						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"args" : [ "modules" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-23",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 301.5, 19.2999267578125, 101.0, 39.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-11",
 									"maxclass" : "message",
@@ -120,7 +141,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 40.0, 462.0, 231.0, 22.0 ],
+									"patching_rect" : [ 40.0, 462.0, 249.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"client_rect" : [ 809, 112, 1355, 911 ],
 										"parameter_enable" : 0,
@@ -128,8 +149,8 @@
 										"storage_rect" : [ 583, 87, 1081, 651 ]
 									}
 ,
-									"text" : "pattrstorage loop-help-storage @greedy 1",
-									"varname" : "loop-help-storage"
+									"text" : "pattrstorage counter-help-storage @greedy 1",
+									"varname" : "counter-help-storage"
 								}
 
 							}
@@ -268,7 +289,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 119.0, 118.0, 139.0, 66.0 ],
+									"patching_rect" : [ 143.0, 122.0, 139.0, 66.0 ],
 									"text" : "use this menu to create pattr objects to control params remotely"
 								}
 
@@ -284,7 +305,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 187.0, 190.0, 109.0, 37.0 ],
+									"patching_rect" : [ 201.0, 191.782608695652243, 109.0, 37.0 ],
 									"text" : "click the button to use presets "
 								}
 
@@ -307,19 +328,20 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-3",
+									"linecount" : 2,
 									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 5,
-									"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 40.0, 385.0, 145.0, 79.0 ],
-									"text" : "seq.loop loop-help-2",
-									"varname" : "loop-help-2"
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "signal" ],
+									"patching_rect" : [ 40.0, 385.0, 145.0, 35.0 ],
+									"text" : "seq.counter counter-help-2",
+									"varname" : "counter-help-2"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "loop-help" ],
+									"args" : [ "counter-help" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -334,8 +356,8 @@
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 40.0, 190.0, 145.0, 67.0 ],
-									"varname" : "loop-help",
+									"patching_rect" : [ 40.0, 190.0, 169.0, 61.0 ],
+									"varname" : "counter-help",
 									"viewvisibility" : 1
 								}
 
@@ -349,8 +371,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 10.0, 69.599853515625, 513.0, 36.0 ],
-									"text" : "The abstraction seq.loop (no tilde) contains the seq.loop~ object, a UI and pattr support.",
+									"patching_rect" : [ 6.0, 67.599853515625, 513.0, 36.0 ],
+									"text" : "The abstraction seq.counter (no tilde) contains the seq.counter~ object, a UI and pattr support.",
 									"textcolor" : [ 0.502, 0.502, 0.502, 1.0 ]
 								}
 
@@ -367,7 +389,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 10.0, 10.0, 280.111968994140625, 57.599853515625 ]
+									"patching_rect" : [ 6.0, 8.0, 280.111968994140625, 57.599853515625 ]
 								}
 
 							}
@@ -378,14 +400,14 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 325.0, 166.0, 254.0, 22.0 ],
-									"restore" : [ 16.0 ],
+									"patching_rect" : [ 325.0, 166.0, 271.0, 22.0 ],
+									"restore" : [ 8.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "pattr @bindto loop-help::m::steps @invisible 1",
+									"text" : "pattr @bindto counter-help::m::steps @invisible 1",
 									"varname" : "u159010436"
 								}
 
@@ -444,6 +466,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
+									"hidden" : 1,
 									"order" : 0,
 									"source" : [ "obj-16", 0 ]
 								}
@@ -516,7 +539,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 620.0, 545.0 ],
+						"rect" : [ 0.0, 26.0, 624.0, 579.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -580,7 +603,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 123.0, 620.0, 545.0 ],
+						"rect" : [ 0.0, 26.0, 624.0, 579.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -610,6 +633,38 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-28",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 86.0, 333.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"args" : [ "seq" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-24",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 316.0, 28.5, 101.0, 38.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bubble" : 1,
 									"fontname" : "Arial",
@@ -1183,18 +1238,17 @@
 			"obj-2::obj-1::obj-6::obj-2" : [ "live.button[6]", "live.button", 0 ],
 			"obj-2::obj-1::obj-6::obj-30" : [ "live.text[7]", "live.text", 0 ],
 			"obj-2::obj-1::obj-6::obj-34::obj-11" : [ "live.menu[1]", "live.menu", 0 ],
+			"obj-2::obj-1::obj-6::obj-34::obj-12" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"obj-2::obj-1::obj-6::obj-34::obj-14" : [ "live.numbox[14]", "live.numbox", 0 ],
-			"obj-2::obj-1::obj-6::obj-34::obj-18" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-2::obj-1::obj-6::obj-34::obj-8" : [ "live.numbox[3]", "live.numbox", 0 ],
 			"obj-2::obj-1::obj-93::obj-25" : [ "live.button[9]", "live.button", 0 ],
 			"obj-2::obj-3::obj-6::obj-2" : [ "live.button[1]", "live.button", 0 ],
 			"obj-2::obj-3::obj-6::obj-30" : [ "live.text[8]", "live.text", 0 ],
-			"obj-2::obj-3::obj-6::obj-34::obj-10" : [ "live.numbox[5]", "live.numbox", 0 ],
 			"obj-2::obj-3::obj-6::obj-34::obj-11" : [ "live.menu[2]", "live.menu", 0 ],
-			"obj-2::obj-3::obj-6::obj-34::obj-14" : [ "live.numbox[3]", "live.numbox", 0 ],
-			"obj-2::obj-3::obj-6::obj-34::obj-18" : [ "live.numbox[2]", "live.numbox", 0 ],
-			"obj-2::obj-3::obj-6::obj-34::obj-29" : [ "live.text[1]", "live.text", 0 ],
-			"obj-2::obj-3::obj-6::obj-34::obj-8" : [ "live.numbox[4]", "live.numbox", 0 ],
-			"obj-2::obj-3::obj-93::obj-25" : [ "live.button[2]", "live.button", 0 ],
+			"obj-2::obj-3::obj-6::obj-34::obj-12" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-2::obj-3::obj-6::obj-34::obj-14" : [ "live.numbox[5]", "live.numbox", 0 ],
+			"obj-2::obj-3::obj-6::obj-34::obj-8" : [ "live.numbox[7]", "live.numbox", 0 ],
+			"obj-2::obj-3::obj-93::obj-25" : [ "live.button[14]", "live.button", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -1207,6 +1261,22 @@
 			"parameter_overrides" : 			{
 				"obj-2::obj-1::obj-6::obj-2" : 				{
 					"parameter_longname" : "live.button[6]"
+				}
+,
+				"obj-2::obj-1::obj-6::obj-30" : 				{
+					"parameter_longname" : "live.text[7]"
+				}
+,
+				"obj-2::obj-1::obj-6::obj-34::obj-11" : 				{
+					"parameter_longname" : "live.menu[1]"
+				}
+,
+				"obj-2::obj-1::obj-6::obj-34::obj-12" : 				{
+					"parameter_longname" : "live.numbox[4]"
+				}
+,
+				"obj-2::obj-1::obj-6::obj-34::obj-8" : 				{
+					"parameter_longname" : "live.numbox[3]"
 				}
 ,
 				"obj-2::obj-1::obj-93::obj-25" : 				{
@@ -1225,20 +1295,16 @@
 					"parameter_longname" : "live.menu[2]"
 				}
 ,
+				"obj-2::obj-3::obj-6::obj-34::obj-12" : 				{
+					"parameter_longname" : "live.numbox[6]"
+				}
+,
 				"obj-2::obj-3::obj-6::obj-34::obj-14" : 				{
-					"parameter_longname" : "live.numbox[3]"
+					"parameter_longname" : "live.numbox[5]"
 				}
 ,
-				"obj-2::obj-3::obj-6::obj-34::obj-18" : 				{
-					"parameter_longname" : "live.numbox[2]"
-				}
-,
-				"obj-2::obj-3::obj-6::obj-34::obj-29" : 				{
-					"parameter_longname" : "live.text[1]"
-				}
-,
-				"obj-2::obj-3::obj-93::obj-25" : 				{
-					"parameter_longname" : "live.button[2]"
+				"obj-2::obj-3::obj-6::obj-34::obj-8" : 				{
+					"parameter_longname" : "live.numbox[7]"
 				}
 
 			}
@@ -1264,22 +1330,22 @@
 			}
 , 			{
 				"name" : "seq.counter.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/counter",
-				"patcherrelativepath" : "../patchers/counter",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/counter",
+				"patcherrelativepath" : "../patchers/modules/counter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.counter.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/counter",
-				"patcherrelativepath" : "../patchers/counter",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/counter",
+				"patcherrelativepath" : "../patchers/modules/counter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.counter.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/counter",
-				"patcherrelativepath" : "../patchers/counter",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/counter",
+				"patcherrelativepath" : "../patchers/modules/counter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1288,31 +1354,10 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "seq.loop.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/loop",
-				"patcherrelativepath" : "../patchers/loop",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.loop.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/loop",
-				"patcherrelativepath" : "../patchers/loop",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "seq.loop.presets.xml",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/loop",
-				"patcherrelativepath" : "../patchers/loop",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/loop",
+				"patcherrelativepath" : "../patchers/modules/loop",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.loop.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/loop",
-				"patcherrelativepath" : "../patchers/loop",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -1320,37 +1365,44 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "seq.misc.aboutbutton.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "seq.module.attrchecker.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.remote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.viewcontrol.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -96,7 +96,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 58.0, 50.0, 163.0, 22.0 ],
+					"patching_rect" : [ 58.0, 50.0, 180.0, 22.0 ],
 					"text" : "seq.module.control #1"
 				}
 
@@ -153,7 +153,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 58.0, 116.0, 145.0, 67.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 144.0, 61.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 169.0, 61.0 ],
 					"varname" : "pc.phasor.view",
 					"viewvisibility" : 1
 				}

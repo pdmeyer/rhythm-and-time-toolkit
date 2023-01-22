@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 50.0, 129.999999999999943, 116.0, 16.0 ],
+					"patching_rect" : [ 50.0, 134.999999999999943, 116.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 139.0, 10.0 ],
 					"sync" : 1
@@ -98,6 +98,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-10",

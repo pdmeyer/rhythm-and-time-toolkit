@@ -1861,14 +1861,22 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"hidden" : 1,
-									"id" : "obj-22",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 113.5, 115.282608695652243, 121.0, 22.0 ],
-									"text" : "loadmess enable-rt 1"
+									"args" : [ "modules" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-1",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 244.927993774414062, 18.2999267578125, 102.0, 41.0 ],
+									"viewvisibility" : 1
 								}
 
 							}
@@ -1917,23 +1925,6 @@
 									"patching_rect" : [ 39.0, 373.0, 146.0, 22.0 ],
 									"text" : "seq.retrig retrig-help-2",
 									"varname" : "retrig-help-2"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-27",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 5,
-									"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 39.0, 159.5, 61.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"parameter_enable" : 0,
-										"parameter_mappable" : 0
-									}
-,
-									"text" : "seq.loop~"
 								}
 
 							}
@@ -1992,7 +1983,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 39.0, 107.282608695652243, 24.0, 24.0 ]
+									"patching_rect" : [ 68.666666666666657, 107.282608695652243, 24.0, 24.0 ]
 								}
 
 							}
@@ -2003,7 +1994,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 39.0, 134.0, 56.0, 22.0 ],
+									"patching_rect" : [ 68.666666666666657, 134.0, 56.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -2177,7 +2168,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 359.0, 178.0, 264.0, 22.0 ],
-									"restore" : [ 11.0 ],
+									"restore" : [ 15.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -2185,6 +2176,19 @@
 ,
 									"text" : "pattr @bindto retrig-help::m::subdiv @invisible 1",
 									"varname" : "u159010436"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"hidden" : 1,
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 127.0, 134.0, 97.0, 22.0 ],
+									"text" : "loadmess auto 1"
 								}
 
 							}
@@ -2259,8 +2263,16 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-27", 0 ],
-									"source" : [ "obj-9", 0 ]
+									"destination" : [ "obj-3", 0 ],
+									"hidden" : 1,
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-9", 1 ]
 								}
 
 							}
@@ -3796,6 +3808,27 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"args" : [ "seq" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-21",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 274.0, 28.5, 101.0, 37.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-66",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -4597,6 +4630,10 @@
 					"parameter_longname" : "live.numbox[6]"
 				}
 ,
+				"obj-7::obj-3::obj-6::obj-17" : 				{
+					"parameter_longname" : "live.menu[21]"
+				}
+,
 				"obj-7::obj-3::obj-6::obj-2" : 				{
 					"parameter_longname" : "live.button[2]"
 				}
@@ -4608,6 +4645,10 @@
 					"parameter_shortname" : "live.text",
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
+				}
+,
+				"obj-7::obj-3::obj-6::obj-25" : 				{
+					"parameter_longname" : "live.menu[18]"
 				}
 ,
 				"obj-7::obj-3::obj-6::obj-7" : 				{
@@ -4651,62 +4692,65 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "seq.loop~.mxo",
-				"type" : "iLaX"
+				"name" : "seq.misc.aboutbutton.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.attrchecker.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.remote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.viewcontrol.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.retrig.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/retrig",
-				"patcherrelativepath" : "../patchers/retrig",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/retrig",
+				"patcherrelativepath" : "../patchers/modules/retrig",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.retrig.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/retrig",
-				"patcherrelativepath" : "../patchers/retrig",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/retrig",
+				"patcherrelativepath" : "../patchers/modules/retrig",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.retrig.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/retrig",
-				"patcherrelativepath" : "../patchers/retrig",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/retrig",
+				"patcherrelativepath" : "../patchers/modules/retrig",
 				"type" : "JSON",
 				"implicit" : 1
 			}

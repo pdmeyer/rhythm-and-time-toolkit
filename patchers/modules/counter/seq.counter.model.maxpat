@@ -39,7 +39,7 @@
 		"subpatcher_template" : "dark-bg",
 		"showontab" : 0,
 		"assistshowspatchername" : 0,
-		"globalpatchername" : "phas[1][1][1][1][1]",
+		"globalpatchername" : "phas[1][1][1][1][1][1]",
 		"boxes" : [ 			{
 				"box" : 				{
 					"color" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
@@ -135,8 +135,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 290.0, 239.0, 149.0, 22.0 ],
-					"text" : "prepend drunk2prob/same"
+					"patching_rect" : [ 290.0, 239.0, 128.0, 22.0 ],
+					"text" : "prepend drunk2equals"
 				}
 
 			}
@@ -147,8 +147,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 290.0, 183.0, 142.0, 22.0 ],
-					"text" : "prepend drunk2prob/plus"
+					"patching_rect" : [ 290.0, 183.0, 115.0, 22.0 ],
+					"text" : "prepend drunk2plus"
 				}
 
 			}
@@ -159,8 +159,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 290.0, 120.0, 152.0, 22.0 ],
-					"text" : "prepend drunk2prob/minus"
+					"patching_rect" : [ 290.0, 120.0, 125.0, 22.0 ],
+					"text" : "prepend drunk2minus"
 				}
 
 			}
@@ -192,15 +192,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 290.0, 213.0, 276.0, 22.0 ],
+					"patching_rect" : [ 290.0, 213.0, 255.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0.33 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr drunk2prob/same @type float32 @initial 0.33",
-					"varname" : "drunk2prob/same"
+					"text" : "pattr drunk2equals @type float32 @initial 0.33",
+					"varname" : "drunk2equals"
 				}
 
 			}
@@ -212,15 +212,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 290.0, 153.0, 269.0, 22.0 ],
+					"patching_rect" : [ 290.0, 153.0, 242.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0.33 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr drunk2prob/plus @type float32 @initial 0.33",
-					"varname" : "drunk2prob/plus"
+					"text" : "pattr drunk2plus @type float32 @initial 0.33",
+					"varname" : "drunk2plus"
 				}
 
 			}
@@ -232,15 +232,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 290.0, 91.0, 279.0, 22.0 ],
+					"patching_rect" : [ 290.0, 91.0, 252.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0.33 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr drunk2prob/minus @type float32 @initial 0.33",
-					"varname" : "drunk2prob/minus"
+					"text" : "pattr drunk2minus @type float32 @initial 0.33",
+					"varname" : "drunk2minus"
 				}
 
 			}
@@ -279,7 +279,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 324.0, 411.0, 30.0, 30.0 ]
+					"patching_rect" : [ 257.0, 383.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -390,6 +390,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 1 ],
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}

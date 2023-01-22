@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 106.0, 827.0, 540.0 ],
+		"rect" : [ 34.0, 106.0, 576.0, 435.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -102,8 +102,7 @@
 , 			{
 				"box" : 				{
 					"active" : 					{
-						"bar-help_m::transport-state" : 0,
-						"m::transport-state" : 0,
+						"bar-help_m::transportstate" : 0,
 						"m::transportstate" : 0
 					}
 ,
@@ -115,7 +114,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 166.0, 78.0, 239.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1057, 45, 1440, 407 ],
+						"client_rect" : [ 580, 87, 949, 304 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -221,7 +220,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-93", 0 ],
-					"midpoints" : [ 67.5, 197.0, 43.5, 197.0, 43.5, 41.0, 67.5, 41.0 ],
+					"midpoints" : [ 67.5, 181.0, 43.5, 181.0, 43.5, 41.0, 67.5, 41.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 

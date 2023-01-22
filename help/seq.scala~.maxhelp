@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 636.0, 604.0 ],
+		"rect" : [ 34.0, 87.0, 639.0, 533.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 636.0, 578.0 ],
+						"rect" : [ 34.0, 113.0, 639.0, 507.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -87,6 +87,27 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"args" : [ "modules" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-23",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 231.919998168945312, 19.7999267578125, 102.0, 38.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontface" : 0,
 									"fontname" : "Arial",
@@ -562,7 +583,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 636.0, 578.0 ],
+						"rect" : [ 0.0, 26.0, 639.0, 507.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -626,7 +647,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 636.0, 578.0 ],
+						"rect" : [ 0.0, 26.0, 639.0, 507.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -657,13 +678,34 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"args" : [ "seq" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-8",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "seq.misc.aboutbutton.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 239.0, 24.5, 100.0, 40.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bubble" : 1,
 									"id" : "obj-11",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 267.65000781416893, 290.915063679218179, 129.0, 51.0 ],
+									"patching_rect" : [ 269.65000781416893, 259.915063679218179, 129.0, 51.0 ],
 									"text" : "abstraction to convert a named scale to a scale list"
 								}
 
@@ -807,7 +849,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 287.009684264659882, 261.415063679218179, 42.0, 22.0 ],
+									"patching_rect" : [ 289.009684264659882, 230.415063679218179, 42.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -825,7 +867,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.684423685073853, 498.0, 47.0, 22.0 ],
+									"patching_rect" : [ 27.684423685073853, 467.0, 47.0, 22.0 ],
 									"text" : "midiout"
 								}
 
@@ -837,7 +879,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.684423685073853, 470.0, 280.325260579586029, 22.0 ],
+									"patching_rect" : [ 27.684423685073853, 439.0, 280.325260579586029, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -860,7 +902,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 394.0, 236.0, 20.0, 20.0 ],
+									"patching_rect" : [ 396.0, 205.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "3",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -880,7 +922,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 70.975268393754959, 179.5, 20.0, 20.0 ],
+									"patching_rect" : [ 72.975268393754959, 148.5, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "2",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -895,7 +937,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 313.0, 205.0, 152.0, 51.0 ],
+									"patching_rect" : [ 315.0, 174.0, 152.0, 51.0 ],
 									"text" : "play some notes to hear them mapped to the scale"
 								}
 
@@ -908,7 +950,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 218.709668636322021, 498.0, 87.0, 21.0 ],
+									"patching_rect" : [ 220.709668636322021, 467.0, 87.0, 21.0 ],
 									"text" : "About Scala"
 								}
 
@@ -922,7 +964,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.709668636322021, 532.0, 317.0, 35.0 ],
+									"patching_rect" : [ 27.709668636322021, 501.0, 317.0, 35.0 ],
 									"text" : ";\rmax launchbrowser https://www.huygens-fokker.org/scala/"
 								}
 
@@ -936,7 +978,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 280.731183886528015, 412.0, 109.0, 52.0 ],
+									"patching_rect" : [ 282.731183886528015, 381.0, 109.0, 52.0 ],
 									"text" : "transposition ratio (e.g. for groove~)"
 								}
 
@@ -952,7 +994,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 302.5, 386.5, 56.0, 22.0 ],
+									"patching_rect" : [ 304.5, 355.5, 56.0, 22.0 ],
 									"sig" : 0.0
 								}
 
@@ -966,7 +1008,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 142.359676450490952, 412.0, 100.0, 52.0 ],
+									"patching_rect" : [ 144.359676450490952, 381.0, 100.0, 52.0 ],
 									"text" : "frequency of mapped note"
 								}
 
@@ -982,7 +1024,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 164.359676450490952, 386.5, 56.0, 22.0 ],
+									"patching_rect" : [ 166.359676450490952, 355.5, 56.0, 22.0 ],
 									"sig" : 0.0
 								}
 
@@ -996,7 +1038,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 26.009684264659882, 412.0, 103.0, 52.0 ],
+									"patching_rect" : [ 28.009684264659882, 381.0, 103.0, 52.0 ],
 									"text" : "midi note mapped to scale"
 								}
 
@@ -1009,7 +1051,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 38.709668636322021, 288.415063679218179, 122.0, 39.0 ],
+									"patching_rect" : [ 40.709668636322021, 257.415063679218179, 122.0, 39.0 ],
 									"text" : "original midi note"
 								}
 
@@ -1023,7 +1065,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 210.859676450490952, 253.5, 67.0, 33.0 ],
+									"patching_rect" : [ 212.859676450490952, 222.5, 67.0, 33.0 ],
 									"text" : "see the scala file"
 								}
 
@@ -1039,7 +1081,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 49.509684264659882, 386.5, 56.0, 22.0 ],
+									"patching_rect" : [ 51.509684264659882, 355.5, 56.0, 22.0 ],
 									"sig" : 0.0
 								}
 
@@ -1051,7 +1093,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 3,
 									"outlettype" : [ "signal", "signal", "signal" ],
-									"patching_rect" : [ 26.009684264659882, 359.0, 295.69998437166214, 22.0 ],
+									"patching_rect" : [ 28.009684264659882, 328.0, 295.69998437166214, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1068,7 +1110,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 175.859676450490952, 261.0, 33.0, 22.0 ],
+									"patching_rect" : [ 177.859676450490952, 230.0, 33.0, 22.0 ],
 									"text" : "view"
 								}
 
@@ -1082,7 +1124,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 38.709668636322021, 157.0, 70.0, 37.0 ],
+									"patching_rect" : [ 40.709668636322021, 126.0, 70.0, 37.0 ],
 									"text" : "select a scale"
 								}
 
@@ -1097,7 +1139,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 109.709668636322021, 164.5, 125.0, 26.0 ]
+									"patching_rect" : [ 111.709668636322021, 133.5, 125.0, 26.0 ]
 								}
 
 							}
@@ -1112,7 +1154,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 61.719352900981903, 261.415063679218179, 56.0, 22.0 ],
+									"patching_rect" : [ 63.719352900981903, 230.415063679218179, 56.0, 22.0 ],
 									"sig" : 0.0
 								}
 
@@ -1124,7 +1166,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 26.009684264659882, 261.415063679218179, 31.0, 22.0 ],
+									"patching_rect" : [ 28.009684264659882, 230.415063679218179, 31.0, 22.0 ],
 									"text" : "sig~"
 								}
 
@@ -1137,7 +1179,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 26.009684264659882, 208.0, 280.0, 45.0 ]
+									"patching_rect" : [ 28.009684264659882, 177.0, 280.0, 45.0 ]
 								}
 
 							}
@@ -1146,9 +1188,9 @@
 									"id" : "obj-100",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 164.359676450490952, 305.415063679218179, 97.0, 22.0 ],
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 166.359676450490952, 274.415063679218179, 97.0, 22.0 ],
 									"text" : "seq.scala.parser"
 								}
 
@@ -1182,7 +1224,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 297.0, 164.5, 108.0, 25.0 ],
+									"patching_rect" : [ 299.0, 133.5, 108.0, 25.0 ],
 									"text" : "turn on audio"
 								}
 
@@ -1194,7 +1236,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 266.0, 164.5, 29.0, 29.0 ],
+									"patching_rect" : [ 268.0, 133.5, 29.0, 29.0 ],
 									"prototypename" : "helpfile"
 								}
 
@@ -1212,7 +1254,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 6.0, 8.0, 605.0, 145.0 ]
+									"patching_rect" : [ 6.0, 8.0, 598.0, 102.0 ]
 								}
 
 							}
@@ -1224,7 +1266,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 109.709668636322021, 164.5, 58.0, 22.0 ],
+									"patching_rect" : [ 111.709668636322021, 133.5, 58.0, 22.0 ],
 									"text" : "loadbang"
 								}
 
@@ -1237,7 +1279,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 109.709668636322021, 164.5, 127.0, 22.0 ],
+									"patching_rect" : [ 111.709668636322021, 133.5, 127.0, 22.0 ],
 									"text" : "symbol pelog_me3.scl"
 								}
 
@@ -1402,8 +1444,24 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-6::obj-3::obj-6::obj-10" : 				{
+					"parameter_longname" : "live.text[14]"
+				}
+,
 				"obj-6::obj-3::obj-6::obj-15" : 				{
 					"parameter_longname" : "live.numbox[3]"
+				}
+,
+				"obj-6::obj-3::obj-6::obj-2" : 				{
+					"parameter_longname" : "live.button[42]"
+				}
+,
+				"obj-6::obj-3::obj-6::obj-25" : 				{
+					"parameter_longname" : "live.numbox"
+				}
+,
+				"obj-6::obj-3::obj-6::obj-27" : 				{
+					"parameter_longname" : "live.numbox[4]"
 				}
 ,
 				"obj-6::obj-6::obj-6::obj-10" : 				{
@@ -1452,65 +1510,72 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "seq.misc.aboutbutton.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "seq.module.attrchecker.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.remote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.viewcontrol.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/_module",
-				"patcherrelativepath" : "../patchers/_module",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.scala.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/scala",
-				"patcherrelativepath" : "../patchers/scala",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/scala",
+				"patcherrelativepath" : "../patchers/modules/scala",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.scala.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/scala",
-				"patcherrelativepath" : "../patchers/scala",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/scala",
+				"patcherrelativepath" : "../patchers/modules/scala",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.scala.parser.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/scala",
-				"patcherrelativepath" : "../patchers/scala",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/scala",
+				"patcherrelativepath" : "../patchers/modules/scala",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.scala.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/patchers/scala",
-				"patcherrelativepath" : "../patchers/scala",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/scala",
+				"patcherrelativepath" : "../patchers/modules/scala",
 				"type" : "JSON",
 				"implicit" : 1
 			}

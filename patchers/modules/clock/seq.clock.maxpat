@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 106.0, 827.0, 540.0 ],
+		"rect" : [ 24.0, 122.0, 827.0, 540.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -93,18 +93,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 226.0, 50.0, 52.0, 22.0 ],
-					"text" : "writexml"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "bar reset trigger",
 					"id" : "obj-7",
 					"index" : 2,
@@ -151,9 +139,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 166.0, 78.0, 249.0, 22.0 ],
+					"patching_rect" : [ 216.0, 78.0, 249.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1057, 45, 1440, 407 ],
+						"client_rect" : [ 580, 87, 949, 304 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -212,13 +200,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 3 ],
 					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-2", 0 ]
 				}
 
 			}

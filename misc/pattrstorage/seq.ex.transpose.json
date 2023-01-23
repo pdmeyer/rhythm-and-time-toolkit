@@ -1,0 +1,47 @@
+{
+	"pattrstorage" : 	{
+		"name" : "seq.ex.transpose",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"sequence::high" : [ 11.0 ],
+					"sequence::live.text" : [ 1.0 ],
+					"sequence::low" : [ 0.0 ],
+					"sequence::offset" : [ 60.0 ],
+					"sequence::sequence" : [ 0.473118279569892, 0.709677419354839, 0.698924731182796, 0.580645161290323, 0.397849462365591, 0.387096774193548, 0.440860215053763, 0.731182795698925 ],
+					"sequence::size" : [ 8.0 ],
+					"sequence::stepsize" : [ 1.0 ],
+					"sequence[1]::high" : [ 11.0 ],
+					"sequence[1]::live.text" : [ 1.0 ],
+					"sequence[1]::low" : [ -11.0 ],
+					"sequence[1]::offset" : [ 0.0 ],
+					"sequence[1]::sequence" : [ 0.772727272727273, 0.090909090909091, 0.590909090909091, 0.318181818181818, 0.590909090909091 ],
+					"sequence[1]::size" : [ 5.0 ],
+					"sequence[1]::stepsize" : [ 1.0 ],
+					"sequence[2]::high" : [ 127.0 ],
+					"sequence[2]::live.text" : [ 1.0 ],
+					"sequence[2]::low" : [ 0.0 ],
+					"sequence[2]::offset" : [ 0.0 ],
+					"sequence[2]::sequence" : [ 0.602150537634409, 0.655913978494624, 0.548387096774194, 0.731182795698925, 0.397849462365591, 0.537634408602151, 0.698924731182796, 0.763440860215054, 0.559139784946237, 0.774193548387097, 0.591397849462366 ],
+					"sequence[2]::size" : [ 11.0 ],
+					"sequence[2]::stepsize" : [ 1.0 ],
+					"sequence[3]::high" : [ 7.0 ],
+					"sequence[3]::live.text" : [ 1.0 ],
+					"sequence[3]::low" : [ 5.0 ],
+					"sequence[3]::offset" : [ 0.0 ],
+					"sequence[3]::sequence" : [ 0.5, 0.0, 1.0 ],
+					"sequence[3]::size" : [ 3.0 ],
+					"sequence[3]::stepsize" : [ 1.0 ],
+					"clock/bpm" : [ "bpm", 90.0 ],
+					"rprob/probabilities" : [ 0.189655172413793 ],
+					"scala/scale" : [ "arabic_zanjaran_on_c.scl" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

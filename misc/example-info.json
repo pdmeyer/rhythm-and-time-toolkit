@@ -86,9 +86,13 @@
 	"seq.xtra.stepgridviewer" : 	{
 		"digest" : "Single-channel pattern playback visualizer based on live.grid."
 	}
-	,
+,
 	"seq.xtra.rnboexternal" : 	{
 		"digest" : "Demonstration of how the seq externals were made with RNBO."
+	}
+,
+	"seq.ex.transpose" : 	{
+		"digest" : "Create evolving melodies by transposing one sequence with another."
 	}
 
 }

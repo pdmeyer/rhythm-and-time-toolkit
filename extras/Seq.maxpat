@@ -57,8 +57,8 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 149.0, 126.0, 773.0, 652.0 ],
-						"bglocked" : 0,
+						"rect" : [ 0.0, 26.0, 773.0, 652.0 ],
+						"bglocked" : 1,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
@@ -147,7 +147,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 59.0, 105.0, 640.0, 480.0 ],
+										"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -175,7 +175,6 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-6",
@@ -813,7 +812,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 284.666666666666629, 572.0, 150.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 233.5, 370.0, 370.0, 20.0 ]
+									"presentation_rect" : [ 233.5, 370.0, 360.0, 20.0 ]
 								}
 
 							}
@@ -849,7 +848,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "seq.ex.feel", "seq.ex.mc", "seq.ex.sometimes-retrig", "seq.ex.traverse", "seq.ex.seqtwist", "seq.ex.nestedtuplets" ],
+									"args" : [ "seq.ex.feel", "seq.ex.mc", "seq.ex.sometimes-retrig", "seq.ex.traverse", "seq.ex.seqtwist", "seq.ex.nestedtuplets", "seq.ex.transpose" ],
 									"background" : 1,
 									"bgmode" : 0,
 									"border" : 0,
@@ -912,7 +911,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 384.0, 461.0, 128.0, 128.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 233.5, 335.0, 370.0, 88.0 ],
+									"presentation_rect" : [ 228.5, 335.0, 370.0, 88.0 ],
 									"proportion" : 0.5
 								}
 
@@ -979,14 +978,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
-									"order" : 0,
-									"source" : [ "obj-40", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-41", 0 ],
 									"order" : 3,
 									"source" : [ "obj-40", 0 ]
 								}
@@ -994,8 +985,16 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-42", 0 ],
+									"destination" : [ "obj-41", 0 ],
 									"order" : 2,
+									"source" : [ "obj-40", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-42", 0 ],
+									"order" : 0,
 									"source" : [ "obj-40", 0 ]
 								}
 
@@ -1148,7 +1147,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 773.0, 652.0 ],
+						"rect" : [ 149.0, 126.0, 773.0, 652.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,

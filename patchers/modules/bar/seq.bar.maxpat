@@ -147,7 +147,7 @@
 					"outlettype" : [ "signal", "signal", "signal" ],
 					"patching_rect" : [ 11.5, 212.5, 134.147058823529392, 22.0 ],
 					"text" : "seq.bar.model",
-					"varname" : "#1_m"
+					"varname" : "m"
 				}
 
 			}

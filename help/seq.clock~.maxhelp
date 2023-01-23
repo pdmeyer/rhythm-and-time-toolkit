@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 610.0, 471.0 ],
+						"rect" : [ 100.0, 113.0, 610.0, 471.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -98,7 +98,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 7.0, 8.0, 225.943984985351562, 57.599853515625 ]
+									"patching_rect" : [ 10.0, 10.0, 225.943984985351562, 57.599853515625 ]
 								}
 
 							}
@@ -177,7 +177,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 39.0, 409.0, 236.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 1057, 45, 1440, 407 ],
+										"client_rect" : [ 580, 87, 949, 304 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
 										"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -370,7 +370,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 324.0, 146.0, 253.0, 22.0 ],
-									"restore" : [ 254.0 ],
+									"restore" : [ 199.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -962,7 +962,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 113.0, 610.0, 471.0 ],
+						"rect" : [ 0.0, 26.0, 610.0, 471.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1304,7 +1304,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Pause.svg",
-				"bootpath" : "C74:/interfaces",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
+				"patcherrelativepath" : "../media/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}

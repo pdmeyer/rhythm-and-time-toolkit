@@ -166,9 +166,7 @@
 , 							{
 								"box" : 								{
 									"active" : 									{
-										"bar-help::bar-help_m::transportstate" : 0,
 										"bar-help::m::transportstate" : 0,
-										"bar-help-2::bar-help-2_m::transportstate" : 0,
 										"bar-help-2::m::transportstate" : 0
 									}
 ,
@@ -179,10 +177,10 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 39.0, 409.0, 226.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 1057, 45, 1440, 407 ],
+										"client_rect" : [ 809, 112, 1355, 911 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 583, 69, 1034, 197 ]
+										"storage_rect" : [ 583, 87, 1081, 651 ]
 									}
 ,
 									"text" : "pattrstorage bar-help-storage @greedy 1",
@@ -371,14 +369,14 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 324.0, 146.0, 237.0, 22.0 ],
-									"restore" : [ 0 ],
+									"patching_rect" : [ 324.0, 146.0, 243.0, 22.0 ],
+									"restore" : [ 120.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "pattr @bindto bar-help::m::bar @invisible 1",
+									"text" : "pattr @bindto bar-help::m::bpm @invisible 1",
 									"varname" : "u159010436"
 								}
 

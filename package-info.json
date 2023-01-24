@@ -1,7 +1,7 @@
 {
 	"name" : "seq",
 	"displayname" : "",
-	"version" : "0.0.1",
+	"version" : "0.1.0",
 	"author" : "Philip Meyer",
 	"authors" : [  ],
 	"description" : "Objects for signal-based sequencing in Max MSP. Made with RNBO~",

@@ -616,6 +616,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 217.0, 117.0, 199.0, 74.0 ],
 					"setminmax" : [ 1.0, 4.0 ],
+					"settype" : 0,
 					"size" : 8
 				}
 

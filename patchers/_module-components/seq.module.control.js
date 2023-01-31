@@ -93,9 +93,9 @@ function senddata() {
     to control a parameter of this patch
 */
 function send(param) {
-    if(!composition) loadbang();
+    if(!composition) bang();
     address = moduleName+"::m::"+param;
-    composition.newdefault(module.box.rect[0],module.box.rect[3]+5,"pattr", "@bindto", address, "@invisible", 1);
+    composition.newdefault(module.box.rect[2]+25,module.box.rect[1],"pattr", "@bindto", address, "@invisible", 1);
 };
 
 function openpatcher(patcher) {

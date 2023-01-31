@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 639.0, 533.0 ],
+		"rect" : [ 34.0, 87.0, 625.0, 598.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 639.0, 507.0 ],
+						"rect" : [ 0.0, 26.0, 625.0, 572.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -583,7 +583,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 639.0, 507.0 ],
+						"rect" : [ 0.0, 26.0, 625.0, 572.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -647,7 +647,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 639.0, 507.0 ],
+						"rect" : [ 34.0, 113.0, 625.0, 572.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -937,7 +937,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 315.0, 174.0, 152.0, 51.0 ],
+									"patching_rect" : [ 310.009684264659882, 174.0, 152.0, 51.0 ],
 									"text" : "play some notes to hear them mapped to the scale"
 								}
 
@@ -1065,7 +1065,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 212.859676450490952, 222.5, 67.0, 33.0 ],
+									"patching_rect" : [ 212.859676450490952, 226.5, 67.0, 33.0 ],
 									"text" : "see the scala file"
 								}
 
@@ -1110,7 +1110,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 177.859676450490952, 230.0, 33.0, 22.0 ],
+									"patching_rect" : [ 177.859676450490952, 234.0, 33.0, 22.0 ],
 									"text" : "view"
 								}
 
@@ -1139,7 +1139,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 111.709668636322021, 133.5, 125.0, 26.0 ]
+									"patching_rect" : [ 113.359676450490952, 133.5, 125.0, 26.0 ]
 								}
 
 							}
@@ -1208,7 +1208,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 407.0, 167.0, 20.0, 20.0 ],
+									"patching_rect" : [ 396.0, 148.5, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -1462,6 +1462,10 @@
 ,
 				"obj-6::obj-3::obj-6::obj-27" : 				{
 					"parameter_longname" : "live.numbox[4]"
+				}
+,
+				"obj-6::obj-3::obj-93::obj-25" : 				{
+					"parameter_longname" : "live.button[14]"
 				}
 ,
 				"obj-6::obj-6::obj-6::obj-10" : 				{

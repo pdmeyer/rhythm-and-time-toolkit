@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 643.0, 604.0 ],
+						"rect" : [ 34.0, 113.0, 643.0, 604.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -281,10 +281,10 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 39.0, 416.0, 237.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 1057, 45, 1440, 407 ],
+										"client_rect" : [ 809, 112, 1355, 911 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 583, 69, 1034, 197 ]
+										"storage_rect" : [ 583, 87, 1081, 651 ]
 									}
 ,
 									"text" : "pattrstorage rlogic-help-storage @greedy 1",
@@ -584,7 +584,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 643.0, 604.0 ],
+						"rect" : [ 0.0, 26.0, 643.0, 604.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1226,7 +1226,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 93.0, 328.0, 76.0, 22.0 ],
+									"patching_rect" : [ 102.5, 328.0, 76.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1483,7 +1483,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-17", 0 ],
-									"midpoints" : [ 18.5, 303.5, 102.5, 303.5 ],
+									"midpoints" : [ 18.5, 303.5, 112.0, 303.5 ],
 									"order" : 0,
 									"source" : [ "obj-13", 0 ]
 								}
@@ -1524,7 +1524,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
-									"hidden" : 1,
 									"source" : [ "obj-15", 1 ]
 								}
 
@@ -1532,7 +1531,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-19", 0 ],
-									"hidden" : 1,
 									"order" : 0,
 									"source" : [ "obj-17", 1 ]
 								}
@@ -1549,7 +1547,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-17", 3 ],
-									"midpoints" : [ 474.833333333333258, 322.25, 159.5, 322.25 ],
+									"midpoints" : [ 474.833333333333258, 322.25, 169.0, 322.25 ],
 									"order" : 1,
 									"source" : [ "obj-18", 1 ]
 								}
@@ -1791,6 +1789,10 @@
 ,
 				"obj-6::obj-6::obj-18::obj-9" : 				{
 					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-6::obj-6::obj-2::obj-25" : 				{
+					"parameter_longname" : "live.button[14]"
 				}
 
 			}

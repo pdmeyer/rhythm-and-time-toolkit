@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 119.0, 118.0, 632.0, 537.0 ],
+		"rect" : [ 100.0, 100.0, 632.0, 537.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -569,7 +569,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 119.0, 144.0, 632.0, 511.0 ],
+						"rect" : [ 100.0, 126.0, 632.0, 511.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1266,6 +1266,10 @@
 					"parameter_range" : [ 1.0, 256.0 ],
 					"parameter_type" : 0,
 					"parameter_unitstyle" : 0
+				}
+,
+				"obj-6::obj-1::obj-93::obj-25" : 				{
+					"parameter_longname" : "live.button[14]"
 				}
 
 			}

@@ -1062,7 +1062,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 113.0, 701.0, 464.0 ],
+						"rect" : [ 0.0, 26.0, 701.0, 464.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1240,10 +1240,10 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 39.0, 430.0, 243.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 1057, 45, 1440, 407 ],
+										"client_rect" : [ 948, 91, 1331, 453 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 583, 69, 1034, 197 ]
+										"storage_rect" : [ 583, 87, 1034, 215 ]
 									}
 ,
 									"text" : "pattrstorage blocks-help-storage @greedy 1",
@@ -1529,7 +1529,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 701.0, 464.0 ],
+						"rect" : [ 100.0, 113.0, 701.0, 464.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1559,6 +1559,55 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"bubble" : 1,
+									"bubblepoint" : 0.1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-12",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 459.343986511230469, 262.0, 97.0, 40.0 ],
+									"presentation_linecount" : 2,
+									"text" : "enter some numbers"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"bubblepoint" : 0.1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-9",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 187.343986511230469, 256.0, 97.0, 40.0 ],
+									"presentation_linecount" : 2,
+									"text" : "enter some numbers"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-6",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 187.343986511230469, 137.0, 97.0, 40.0 ],
+									"text" : "enter some numbers"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-18",
 									"maxclass" : "live.scope~",
@@ -2264,6 +2313,42 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+									"fontname" : "Arial Bold",
+									"hint" : "",
+									"id" : "obj-16",
+									"ignoreclick" : 1,
+									"legacytextcolor" : 1,
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 538.0, 152.0, 20.0, 20.0 ],
+									"rounded" : 60.0,
+									"text" : "3",
+									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-18",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 446.0, 143.5, 97.0, 40.0 ],
+									"presentation_linecount" : 2,
+									"text" : "enter some numbers"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -2345,7 +2430,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 477.0, 152.0, 58.0, 22.0 ],
+									"patching_rect" : [ 446.0, 177.0, 58.0, 22.0 ],
 									"text" : "loadbang"
 								}
 
@@ -2371,7 +2456,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 375.0, 152.0, 100.0, 23.0 ],
+									"patching_rect" : [ 375.0, 152.0, 69.0, 23.0 ],
 									"text" : "1 2 3"
 								}
 
@@ -2400,7 +2485,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 477.0, 176.0, 69.0, 22.0 ],
+									"patching_rect" : [ 446.0, 201.0, 69.0, 22.0 ],
 									"text" : "1 2 3, bang"
 								}
 
@@ -2725,7 +2810,7 @@
 			"obj-2::obj-1::obj-93::obj-25" : [ "live.button[14]", "live.button", 0 ],
 			"obj-2::obj-3::obj-6::obj-2" : [ "live.button[2]", "live.button", 0 ],
 			"obj-2::obj-3::obj-6::obj-6" : [ "live.numbox[1]", "live.text[8]", 0 ],
-			"obj-2::obj-3::obj-6::obj-7" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-2::obj-3::obj-6::obj-7" : [ "live.toggle[3]", "live.text[2]", 0 ],
 			"obj-2::obj-3::obj-93::obj-25" : [ "live.button[1]", "live.button", 0 ],
 			"obj-4::obj-109" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
 			"obj-4::obj-22::obj-2" : [ "live.numbox", "live.numbox", 0 ],
@@ -2754,6 +2839,10 @@
 					"parameter_modmode" : 0,
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
+				}
+,
+				"obj-2::obj-1::obj-93::obj-25" : 				{
+					"parameter_longname" : "live.button[14]"
 				}
 ,
 				"obj-2::obj-3::obj-6::obj-2" : 				{
@@ -2849,6 +2938,13 @@
 			}
 , 			{
 				"name" : "seq.misc.aboutbutton.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.misc.philipmeyer.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
 				"patcherrelativepath" : "../misc",
 				"type" : "JSON",

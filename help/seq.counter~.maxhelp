@@ -88,6 +88,23 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
+									"patching_rect" : [ 40.0, 156.0, 61.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0
+									}
+,
+									"text" : "seq.loop~"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"args" : [ "modules" ],
 									"bgmode" : 0,
 									"border" : 0,
@@ -178,7 +195,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 40.0, 127.282608695652243, 24.0, 24.0 ]
+									"patching_rect" : [ 40.0, 105.282608695652243, 24.0, 24.0 ]
 								}
 
 							}
@@ -189,7 +206,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 40.0, 154.0, 56.0, 22.0 ],
+									"patching_rect" : [ 40.0, 132.0, 56.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -389,7 +406,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 6.0, 8.0, 280.111968994140625, 57.599853515625 ]
+									"patching_rect" : [ 10.0, 10.0, 280.111968994140625, 57.599853515625 ]
 								}
 
 							}
@@ -484,6 +501,13 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-6", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
 									"source" : [ "obj-9", 0 ]
 								}
 
@@ -633,17 +657,6 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-28",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 86.0, 333.0, 50.0, 22.0 ]
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"args" : [ "seq" ],
 									"bgmode" : 0,
@@ -1305,6 +1318,10 @@
 ,
 				"obj-2::obj-3::obj-6::obj-34::obj-8" : 				{
 					"parameter_longname" : "live.numbox[7]"
+				}
+,
+				"obj-2::obj-3::obj-93::obj-25" : 				{
+					"parameter_longname" : "live.button[14]"
 				}
 
 			}

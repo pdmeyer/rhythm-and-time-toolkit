@@ -912,7 +912,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 180.0, 627.5, 206.0, 22.0 ],
-									"text" : "0. 0. 1. 0. 0. 0. 0. 0."
+									"text" : "signal"
 								}
 
 							}
@@ -935,7 +935,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 273.5, 580.5, 88.0, 32.0 ],
+									"patching_rect" : [ 242.5, 580.5, 88.0, 32.0 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -992,7 +992,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 673.5, 333.0, 88.0, 32.0 ],
+									"patching_rect" : [ 650.666666666666629, 333.0, 88.0, 32.0 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -1040,13 +1040,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-65",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 608.0, 367.0, 134.0, 35.0 ],
-									"text" : "1. 1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0."
+									"patching_rect" : [ 608.0, 367.0, 134.0, 22.0 ],
+									"text" : "signal"
 								}
 
 							}
@@ -1113,7 +1112,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 394.5, 333.0, 88.0, 32.0 ],
+									"patching_rect" : [ 372.5, 333.0, 88.0, 32.0 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -1161,13 +1160,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-53",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 363.0, 367.0, 116.0, 35.0 ],
-									"text" : "1. 0. 1. 0. 1. 0. 1. 0. 1. 1. 0. 1. 0. 1. 0. 1."
+									"patching_rect" : [ 363.0, 367.0, 116.0, 22.0 ],
+									"text" : "signal"
 								}
 
 							}
@@ -1203,7 +1201,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 25.0, 378.5, 206.0, 22.0 ],
-									"text" : "0. 1. 0. 0. 1. 0. 1. 0."
+									"text" : "signal"
 								}
 
 							}
@@ -1294,7 +1292,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 118.5, 337.5, 88.0, 32.0 ],
+									"patching_rect" : [ 87.333333333333343, 333.0, 88.0, 32.0 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -1493,14 +1491,14 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-48", 1 ],
-									"source" : [ "obj-1", 2 ]
+									"source" : [ "obj-1", 3 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-53", 1 ],
-									"source" : [ "obj-2", 2 ]
+									"source" : [ "obj-2", 3 ]
 								}
 
 							}
@@ -1638,7 +1636,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-65", 1 ],
-									"source" : [ "obj-66", 2 ]
+									"source" : [ "obj-66", 3 ]
 								}
 
 							}
@@ -1673,7 +1671,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-70", 1 ],
-									"source" : [ "obj-76", 2 ]
+									"source" : [ "obj-76", 3 ]
 								}
 
 							}
@@ -2838,7 +2836,53 @@
 
 			}
  ],
-		"lines" : [  ]
+		"lines" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "seq.bar~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.binary~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.emask~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.euclidean~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.loop~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.onepulse~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.pattern~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.pprob~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.retrig~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.rlogic~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.rprob~.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

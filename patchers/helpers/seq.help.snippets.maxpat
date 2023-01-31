@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 918.0, 725.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1134,7 +1134,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "seq.xtra.stepgridviewer.maxpat",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
@@ -1189,7 +1189,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "seq.xtra.stepgridviewer.maxpat",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
@@ -1772,8 +1772,8 @@
 					"id" : "obj-100",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "signal", "signal", "signal" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 96.33332896232605, 779.333325982093811, 72.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -3795,6 +3795,13 @@
 , 			{
 				"name" : "seq.makenote~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.misc.philipmeyer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../../misc",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.pattern~.mxo",

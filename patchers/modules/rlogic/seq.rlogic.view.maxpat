@@ -47,10 +47,10 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 165.0, 145.0, 29.0, 23.0 ],
+					"patching_rect" : [ 175.0, 145.0, 29.0, 23.0 ],
 					"pictures" : [ "tri-down.svg", "tri-up.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 73.884389460086823, 36.0, 16.015625, 12.0 ],
+					"presentation_rect" : [ 78.484375, 36.0, 16.015625, 12.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
@@ -59,7 +59,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[42]",
+							"parameter_longname" : "live.text[16]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -151,7 +151,7 @@
 					"patching_rect" : [ 165.0, 108.75, 70.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.400014460086823, 2.0, 69.5, 18.0 ],
-					"text" : "mhelp.rlogic",
+					"text" : "rlogic-help",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -265,7 +265,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 51.5, 122.0, 100.0, 27.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 3.400014460086823, 2.0, 58.0, 27.0 ],
+									"presentation_rect" : [ 3.400014460086823, 2.0, 70.0, 27.0 ],
 									"saved_attribute_attributes" : 									{
 										"lcdcolor" : 										{
 											"expression" : ""
@@ -273,7 +273,7 @@
 ,
 										"valueof" : 										{
 											"parameter_enum" : [ "and", "or", "not", "xor", "left", "right" ],
-											"parameter_longname" : "live.menu[32]",
+											"parameter_longname" : "live.menu[19]",
 											"parameter_mmax" : 5,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2
@@ -344,7 +344,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 147.0, 339.75, 129.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 3.0, 30.0, 53.0, 18.0 ],
+									"presentation_rect" : [ 11.900014460086823, 31.0, 53.0, 18.0 ],
 									"text" : "out mode"
 								}
 
@@ -373,7 +373,7 @@
 									"patching_rect" : [ 40.5, 380.0, 100.0, 20.0 ],
 									"pictures" : [ "gate.svg", "number.svg" ],
 									"presentation" : 1,
-									"presentation_rect" : [ 3.400014460086823, 44.0, 53.0, 20.0 ],
+									"presentation_rect" : [ 12.300028920173645, 45.0, 53.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "gate", "accum_event" ],
@@ -499,9 +499,9 @@
  ]
 					}
 ,
-					"patching_rect" : [ 118.0, 176.0, 66.0, 33.0 ],
+					"patching_rect" : [ 118.0, 176.0, 76.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.400014460086823, 19.5, 63.5, 31.635176891717947 ],
+					"presentation_rect" : [ 3.400014460086823, 19.5, 75.5, 31.635176891717947 ],
 					"viewvisibility" : 1
 				}
 

@@ -22,7 +22,7 @@
 </attribute>
 </attributelist>
 <description><o>seq.clock~</o> is similar to the phasor~ object, but has a dedicated transport control and accepts timing values in beats per minute. Unlike <o>seq.bar~</o>, <o>seq.clock~</o> allows you to change the clock speed using a signal.</description>
-<digest>Generate sawtooth signals in beats per minute.</digest>
+<digest>Generate ramp signals in beats per minute.</digest>
 <seealsolist>
     <seealsolist>
         <seealso name="seq.bar~" />

@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 920.0, 699.0 ],
+						"rect" : [ 34.0, 113.0, 920.0, 699.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -88,13 +88,12 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"bubble" : 1,
 									"id" : "obj-19",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 100.666666666666629, 478.5, 124.0, 51.0 ],
+									"patching_rect" : [ 100.666666666666629, 478.5, 124.0, 47.0 ],
 									"text" : "compares two patterns with boolean operators"
 								}
 
@@ -130,52 +129,48 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"id" : "obj-13",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 461.666666666666629, 140.5, 199.0, 37.0 ],
+									"patching_rect" : [ 461.666666666666629, 140.5, 199.0, 33.0 ],
 									"text" : "seq.binary~ and seq.euclidean~ are pattern objects. "
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"id" : "obj-11",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 472.0, 485.5, 180.0, 37.0 ],
+									"patching_rect" : [ 472.0, 485.5, 180.0, 33.0 ],
 									"text" : "use probability to ignore some events"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"id" : "obj-5",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 369.0, 340.5, 180.0, 51.0 ],
+									"patching_rect" : [ 369.0, 340.5, 180.0, 47.0 ],
 									"text" : "a signal version of the max object onebang that can be used to thin out a pattern"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"id" : "obj-4",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 286.666666666666629, 300.5, 180.0, 37.0 ],
+									"patching_rect" : [ 286.666666666666629, 300.5, 180.0, 33.0 ],
 									"text" : "an event modifier that creates retriggers or ratchets"
 								}
 
@@ -576,7 +571,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 920.0, 699.0 ],
+						"rect" : [ 0.0, 26.0, 920.0, 699.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -912,7 +907,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 180.0, 627.5, 206.0, 22.0 ],
-									"text" : "signal"
+									"text" : "0. 1. 1. 0. 1. 1. 1. 0."
 								}
 
 							}

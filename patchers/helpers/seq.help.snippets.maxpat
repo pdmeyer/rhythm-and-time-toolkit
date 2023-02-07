@@ -2113,46 +2113,12 @@
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
-					"id" : "obj-175",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1288.958378434181213, 110.666659529795652, 325.333308219909668, 242.999997743387212 ],
-					"proportion" : 0.5
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"background" : 1,
-					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"id" : "obj-174",
 					"maxclass" : "panel",
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 478.000003695487976, 828.000044572555453, 297.666660785675049, 201.333335518836975 ],
-					"proportion" : 0.5
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"background" : 1,
-					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
-					"id" : "obj-173",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 471.333349823951721, 160.166665315628052, 559.166684865951538, 647.83340178748324 ],
 					"proportion" : 0.5
 				}
 
@@ -2231,21 +2197,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 17.833331108093262, 11.666664600372314, 66.0, 50.0 ],
 					"text" : "seq"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 1,
-					"bubble" : 1,
-					"bubbleside" : 0,
-					"id" : "obj-137",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1088.958378434181213, 132.16666116721251, 150.0, 66.0 ],
-					"text" : "double-click pattrstorage to see all of the patch attributes"
 				}
 
 			}
@@ -2633,13 +2584,12 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bubble" : 1,
 					"id" : "obj-22",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 810.00000536441803, 708.499997615814209, 92.333328723907471, 64.0 ],
+					"patching_rect" : [ 810.00000536441803, 708.499997615814209, 92.333328723907471, 47.0 ],
 					"text" : "all pattern modules have these attributes"
 				}
 
@@ -2647,14 +2597,13 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bubble" : 1,
 					"bubbleside" : 2,
 					"id" : "obj-2626",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 793.000004053115845, 575.333323121070862, 247.0, 79.0 ],
+					"patching_rect" : [ 793.000004053115845, 603.499979895027082, 247.0, 60.0 ],
 					"text" : "seq.xtra.stepgridviewer.maxpat is an abstraction for viewing and creating gate patterns. connect it to the rightmost outlet of any pattern module"
 				}
 
@@ -2753,13 +2702,11 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bubble" : 1,
 					"id" : "obj-48",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1518.1250239610672, 257.166650446740164, 88.333328723907471, 37.0 ],
+					"patching_rect" : [ 1518.1250239610672, 257.166650446740164, 88.333328723907471, 20.0 ],
 					"text" : "all the scalas"
 				}
 
@@ -2791,6 +2738,54 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1646.666702151298523, 50.999997973442078, 451.333308219909668, 449.666677571035393 ],
 					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
+					"id" : "obj-173",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 471.333349823951721, 160.166665315628052, 559.166684865951538, 647.83340178748324 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
+					"id" : "obj-175",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1288.958378434181213, 110.666659529795652, 325.333308219909668, 242.999997743387212 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bubbleside" : 0,
+					"id" : "obj-137",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1088.958378434181213, 132.16666116721251, 150.0, 47.0 ],
+					"text" : "double-click pattrstorage to see all of the patch attributes"
 				}
 
 			}

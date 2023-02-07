@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 34.0, 87.0, 795.0, 724.0 ],
-		"bglocked" : 0,
+		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -39,102 +39,6 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-38",
-					"maxclass" : "live.line",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 90.0, 127.0, 5.0, 468.5 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"id" : "obj-37",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 22.0, 532.5, 67.0, 20.0 ],
-					"text" : "output",
-					"textjustification" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"id" : "obj-36",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 22.0, 481.0, 66.0, 33.0 ],
-					"presentation_linecount" : 2,
-					"text" : "sequence generator",
-					"textjustification" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"id" : "obj-35",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 22.0, 405.0, 66.0, 33.0 ],
-					"presentation_linecount" : 2,
-					"text" : "event modifier",
-					"textjustification" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"id" : "obj-23",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 22.0, 333.5, 66.0, 33.0 ],
-					"presentation_linecount" : 3,
-					"text" : "pattern generator",
-					"textjustification" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"id" : "obj-20",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 28.0, 193.5, 54.0, 33.0 ],
-					"presentation_linecount" : 2,
-					"text" : "clock modiier",
-					"textjustification" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"id" : "obj-3",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 28.0, 160.0, 54.0, 20.0 ],
-					"text" : "clock",
-					"textjustification" : 2
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-86",
 					"maxclass" : "comment",
@@ -480,7 +384,6 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bubble" : 1,
 					"bubbleside" : 3,
 					"fontsize" : 12.0,
 					"id" : "obj-31",
@@ -488,7 +391,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 112.5, 389.5, 110.0, 64.0 ],
+					"patching_rect" : [ 90.0, 391.5, 110.0, 60.0 ],
 					"text" : "event modifiers can usually take triggers our counters"
 				}
 
@@ -501,7 +404,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 638.0, 252.5, 62.0, 22.0 ],
+					"patching_rect" : [ 638.0, 243.5, 62.0, 22.0 ],
 					"text" : "counter"
 				}
 
@@ -536,7 +439,6 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bubble" : 1,
 					"bubblepoint" : 0.0,
 					"bubbleside" : 2,
 					"fontsize" : 12.0,
@@ -544,7 +446,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 511.0, 298.0, 199.0, 39.0 ],
+					"patching_rect" : [ 511.0, 298.0, 199.0, 20.0 ],
 					"text" : "...and impulses to their second inlet"
 				}
 
@@ -552,7 +454,6 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bubble" : 1,
 					"bubblepoint" : 0.0,
 					"bubbleside" : 2,
 					"fontsize" : 12.0,
@@ -560,7 +461,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 114.0, 298.0, 258.0, 39.0 ],
+					"patching_rect" : [ 114.0, 298.0, 258.0, 20.0 ],
 					"text" : "pattern objects take counters to their first inlet"
 				}
 
@@ -568,14 +469,13 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bubble" : 1,
 					"fontsize" : 12.0,
 					"id" : "obj-12",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 447.0, 238.0, 189.0, 51.0 ],
+					"patching_rect" : [ 447.0, 238.0, 192.0, 33.0 ],
 					"text" : "counters are quantized signals that step between whole numbers"
 				}
 
@@ -583,13 +483,12 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bubble" : 1,
 					"fontsize" : 12.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 447.0, 199.0, 189.0, 24.0 ],
+					"patching_rect" : [ 447.0, 199.0, 189.0, 20.0 ],
 					"text" : "a trigger signifies an event"
 				}
 
@@ -597,15 +496,113 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bubble" : 1,
 					"fontsize" : 12.0,
 					"id" : "obj-4",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 447.0, 156.000000000000028, 189.0, 37.0 ],
+					"patching_rect" : [ 447.0, 156.000000000000028, 190.0, 33.0 ],
 					"text" : "phasor signal is a continuous,  unquantized clock signal"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"id" : "obj-38",
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 90.0, 127.0, 5.0, 468.5 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"fontface" : 1,
+					"id" : "obj-37",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 22.0, 532.5, 67.0, 20.0 ],
+					"text" : "output",
+					"textjustification" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"fontface" : 1,
+					"id" : "obj-36",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 22.0, 481.0, 67.0, 33.0 ],
+					"text" : "sequence generator",
+					"textjustification" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"fontface" : 1,
+					"id" : "obj-35",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 22.0, 405.0, 66.0, 33.0 ],
+					"text" : "event modifier",
+					"textjustification" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"fontface" : 1,
+					"id" : "obj-23",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 22.0, 333.5, 66.0, 33.0 ],
+					"text" : "pattern generator",
+					"textjustification" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"fontface" : 1,
+					"id" : "obj-20",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 28.0, 193.5, 54.0, 33.0 ],
+					"text" : "clock modiier",
+					"textjustification" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"fontface" : 1,
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 28.0, 160.0, 54.0, 20.0 ],
+					"text" : "clock",
+					"textjustification" : 2
 				}
 
 			}

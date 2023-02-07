@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 113.0, 681.0, 555.0 ],
+						"rect" : [ 0.0, 26.0, 681.0, 555.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -593,7 +593,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 681.0, 555.0 ],
+						"rect" : [ 100.0, 113.0, 681.0, 555.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -914,7 +914,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 242.0, 300.5, 181.0, 33.0 ],
+									"patching_rect" : [ 242.0, 292.0, 181.0, 33.0 ],
 									"text" : "right outlet outputs the centered + scaled modulation list"
 								}
 

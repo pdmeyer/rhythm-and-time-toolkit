@@ -72,10 +72,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 166.0, 78.0, 242.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 534, 298, 1279, 875 ],
+						"client_rect" : [ 580, 87, 949, 304 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 87, 1081, 651 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage seq.feel-presets @savemode 0",
@@ -91,7 +91,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 11.5, 17.0, 30.0, 30.0 ]
 				}
 
@@ -125,7 +125,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 58.0, 111.0, 144.0, 46.0 ],
+					"patching_rect" : [ 58.0, 111.0, 145.0, 94.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 146.0, 92.0 ],
 					"viewvisibility" : 1
@@ -157,7 +157,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-93", 0 ],
-					"midpoints" : [ 67.5, 197.0, 43.5, 197.0, 43.5, 41.0, 67.5, 41.0 ],
+					"midpoints" : [ 67.5, 208.0, 43.5, 208.0, 43.5, 41.0, 67.5, 41.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 

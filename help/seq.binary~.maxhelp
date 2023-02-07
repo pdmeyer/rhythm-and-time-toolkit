@@ -1092,18 +1092,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-24",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 256.0, 182.0, 58.0, 22.0 ],
-									"text" : "loadbang"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-17",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1225,7 +1213,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 363.0, 344.0, 129.0, 22.0 ],
-									"text" : "1. 1. 0. 1. 1. 0. 1. 1."
+									"text" : "1. 1. 0. 1. 1. 1. 0. 0."
 								}
 
 							}
@@ -1519,7 +1507,7 @@
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.binary~ @steps 8"
+									"text" : "seq.binary~ @steps 8 @seed 220"
 								}
 
 							}

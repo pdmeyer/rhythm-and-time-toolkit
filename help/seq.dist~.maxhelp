@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 722.0, 490.0 ],
+						"rect" : [ 100.0, 113.0, 722.0, 490.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -121,7 +121,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-21",
@@ -129,7 +128,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 270.0, 406.0, 222.0, 64.0 ],
+									"patching_rect" : [ 270.0, 406.0, 222.0, 60.0 ],
 									"text" : "use pattrstorage with @greedy 1 to create \"cues\" that save parameters across multiple seq objects in a max patch"
 								}
 
@@ -219,22 +218,21 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"bubbleside" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-18",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 512.5, 107.0, 201.0, 39.0 ],
+									"patching_rect" : [ 510.0, 122.5, 124.0, 33.0 ],
 									"text" : "invisible pattr for remote control"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-17",
@@ -242,7 +240,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 512.5, 248.217391304347757, 153.0, 51.0 ],
+									"patching_rect" : [ 512.5, 248.217391304347757, 153.0, 47.0 ],
 									"text" : "you can also set parameters using the module's first inlet"
 								}
 
@@ -254,7 +252,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 457.0, 179.5, 41.0, 22.0 ],
+									"patching_rect" : [ 457.0, 200.5, 41.0, 22.0 ],
 									"text" : "set $1"
 								}
 
@@ -307,7 +305,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 181.0, 128.0, 139.0, 66.0 ],
+									"patching_rect" : [ 231.0, 128.0, 139.0, 66.0 ],
 									"text" : "use this menu to create pattr objects to control params remotely"
 								}
 
@@ -330,7 +328,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-5",
@@ -338,7 +335,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 339.0, 350.5, 218.0, 51.0 ],
+									"patching_rect" : [ 339.0, 350.5, 218.0, 47.0 ],
 									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
 								}
 
@@ -412,11 +409,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-13",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 457.0, 153.717391304347757, 254.0, 22.0 ],
+									"patching_rect" : [ 457.0, 160.717391304347757, 179.0, 35.0 ],
 									"restore" : [ 7.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
@@ -483,7 +481,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-14", 0 ],
-									"midpoints" : [ 466.5, 211.5, 450.5, 211.5, 450.5, 117.0, 466.5, 117.0 ],
+									"midpoints" : [ 466.5, 229.5, 450.5, 229.5, 450.5, 117.0, 466.5, 117.0 ],
 									"order" : 1,
 									"source" : [ "obj-16", 0 ]
 								}
@@ -626,7 +624,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 113.0, 722.0, 490.0 ],
+						"rect" : [ 0.0, 26.0, 722.0, 490.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -657,6 +655,26 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+									"fontname" : "Arial Bold",
+									"hint" : "",
+									"id" : "obj-8",
+									"ignoreclick" : 1,
+									"legacytextcolor" : 1,
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 569.0, 225.0, 20.0, 20.0 ],
+									"rounded" : 60.0,
+									"text" : "2",
+									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"args" : [ "seq" ],
 									"bgmode" : 0,
 									"border" : 0,
@@ -678,39 +696,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
-									"bubblepoint" : 1.0,
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"id" : "obj-11",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 205.5, 349.0, 86.0, 40.0 ],
-									"text" : "list of probalities"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bubble" : 1,
-									"bubblepoint" : 1.0,
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"id" : "obj-9",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 37.5, 349.0, 132.0, 40.0 ],
-									"text" : "impulse triggers a new choice"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-6",
@@ -718,7 +703,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 279.0, 387.0, 82.0, 40.0 ],
+									"patching_rect" : [ 404.0, 396.0, 82.0, 36.0 ],
 									"text" : "value selected"
 								}
 
@@ -928,7 +913,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 21.0, 334.5, 43.0, 22.0 ],
+									"patching_rect" : [ 21.0, 359.5, 43.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -948,7 +933,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 21.0, 310.5, 75.0, 22.0 ],
+									"patching_rect" : [ 21.0, 335.5, 75.0, 22.0 ],
 									"text" : "getattr offset"
 								}
 
@@ -1065,7 +1050,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 21.0, 456.0, 47.0, 22.0 ],
+									"patching_rect" : [ 85.0, 436.0, 47.0, 22.0 ],
 									"text" : "midiout"
 								}
 
@@ -1077,7 +1062,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 21.0, 429.0, 252.0, 22.0 ],
+									"patching_rect" : [ 85.0, 409.0, 252.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1089,7 +1074,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-22",
@@ -1097,7 +1081,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 390.0, 286.5, 82.0, 40.0 ],
+									"patching_rect" : [ 390.0, 286.5, 82.0, 36.0 ],
 									"text" : "offset the range"
 								}
 
@@ -1113,7 +1097,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 217.0, 396.0, 56.0, 22.0 ],
+									"patching_rect" : [ 343.0, 409.0, 56.0, 22.0 ],
 									"sig" : 0.0
 								}
 
@@ -1174,7 +1158,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 21.0, 391.0, 118.0, 22.0 ],
+									"patching_rect" : [ 85.0, 371.0, 237.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1194,28 +1178,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 435.0, 208.0, 195.0, 54.0 ],
+									"patching_rect" : [ 435.0, 208.0, 154.0, 54.0 ],
 									"text" : "use the sliders to set the weight of each note being returned"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-									"fontname" : "Arial Bold",
-									"hint" : "",
-									"id" : "obj-8",
-									"ignoreclick" : 1,
-									"legacytextcolor" : 1,
-									"maxclass" : "textbutton",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "int" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 443.0, 261.0, 20.0, 20.0 ],
-									"rounded" : 60.0,
-									"text" : "2",
-									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
 								}
 
 							}
@@ -1232,7 +1196,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 349.0, 147.5, 20.0, 20.0 ],
+									"patching_rect" : [ 335.0, 138.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -1248,7 +1212,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 239.0, 145.0, 108.0, 25.0 ],
+									"patching_rect" : [ 225.0, 135.5, 108.0, 25.0 ],
 									"text" : "turn on audio"
 								}
 
@@ -1260,7 +1224,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 192.0, 135.5, 44.0, 44.0 ],
+									"patching_rect" : [ 192.0, 135.5, 25.0, 25.0 ],
 									"prototypename" : "helpfile"
 								}
 

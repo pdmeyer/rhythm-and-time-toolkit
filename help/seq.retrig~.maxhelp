@@ -88,6 +88,32 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-26",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 319.5, 100.0, 108.0, 25.0 ],
+									"text" : "turn on audio"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"local" : 1,
+									"maxclass" : "ezdac~",
+									"numinlets" : 2,
+									"numoutlets" : 0,
+									"patching_rect" : [ 290.0, 96.0, 32.0, 32.0 ],
+									"prototypename" : "helpfile"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-33",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,
@@ -204,14 +230,13 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"bubblepoint" : 0.0,
 									"id" : "obj-10",
 									"linecount" : 7,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 423.100000000000023, 306.0, 146.0, 104.0 ],
+									"patching_rect" : [ 423.100000000000023, 306.0, 148.0, 100.0 ],
 									"text" : "when auto is enabled, seq.retrig~ will always retrigger impulses\n\nwhen auto is disabled, the right inlet controls whether retrigs occur"
 								}
 
@@ -587,6 +612,16 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 338.5, 275.0, 150.0, 20.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 									"fontname" : "Arial Bold",
@@ -1546,7 +1581,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 43.0, 113.0, 677.0, 550.0 ],
+						"rect" : [ 0.0, 26.0, 677.0, 550.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1658,7 +1693,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-21",
@@ -1666,7 +1700,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 279.5, 424.0, 222.0, 64.0 ],
+									"patching_rect" : [ 279.5, 424.0, 222.0, 60.0 ],
 									"text" : "use pattrstorage with @greedy 1 to create \"cues\" that save parameters across multiple seq objects in a max patch"
 								}
 
@@ -1722,7 +1756,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"bubbleside" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -1730,14 +1763,13 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 424.0, 139.282608695652243, 201.0, 39.0 ],
+									"patching_rect" : [ 424.0, 139.282608695652243, 201.0, 20.0 ],
 									"text" : "invisible pattr for remote control"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-17",
@@ -1745,7 +1777,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 415.0, 278.5, 153.0, 51.0 ],
+									"patching_rect" : [ 415.0, 278.5, 153.0, 47.0 ],
 									"text" : "you can also set parameters using the module's first inlet"
 								}
 
@@ -1833,7 +1865,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-5",
@@ -1841,7 +1872,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 192.5, 358.5, 218.0, 51.0 ],
+									"patching_rect" : [ 192.5, 358.5, 218.0, 47.0 ],
 									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
 								}
 
@@ -1903,7 +1934,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 127.0, 134.0, 97.0, 22.0 ],
+									"patching_rect" : [ 126.666666666666657, 134.0, 97.0, 22.0 ],
 									"text" : "loadmess auto 1"
 								}
 
@@ -2064,8 +2095,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 413.0, 214.0, 193.0, 54.0 ],
-									"presentation_linecount" : 4,
+									"patching_rect" : [ 413.0, 214.0, 194.0, 54.0 ],
 									"text" : "control how much of an effect the modulation list has on the retrigger intervals"
 								}
 
@@ -2842,14 +2872,13 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-11",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 410.0, 178.0, 201.0, 25.0 ],
+									"patching_rect" : [ 410.0, 178.0, 201.0, 21.0 ],
 									"text" : "ramp min and max values"
 								}
 
@@ -3080,14 +3109,13 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-39",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 410.0, 144.0, 201.0, 25.0 ],
+									"patching_rect" : [ 410.0, 144.0, 201.0, 21.0 ],
 									"text" : "change the ramp direction"
 								}
 
@@ -3532,7 +3560,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 677.0, 550.0 ],
+						"rect" : [ 43.0, 113.0, 677.0, 550.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3585,6 +3613,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-6",
+									"local" : 1,
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
@@ -3605,7 +3634,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 92.0, 200.5, 20.0, 20.0 ],
+									"patching_rect" : [ 178.5, 198.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "2",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -3652,26 +3681,23 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"id" : "obj-24",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 369.5, 178.5, 149.0, 37.0 ],
+									"patching_rect" : [ 369.5, 186.0, 149.0, 20.0 ],
 									"text" : "number of retrigs to fire"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"id" : "obj-23",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 369.5, 133.5, 150.0, 37.0 ],
+									"patching_rect" : [ 369.5, 138.0, 150.0, 33.0 ],
 									"text" : "subdivision at which to retrigger"
 								}
 

@@ -89,14 +89,38 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-26",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 85.5, 121.0, 108.0, 25.0 ],
+									"text" : "turn on audio"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"local" : 1,
+									"maxclass" : "ezdac~",
+									"numinlets" : 2,
+									"numoutlets" : 0,
+									"patching_rect" : [ 56.0, 117.0, 32.0, 32.0 ],
+									"prototypename" : "helpfile"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bubbleside" : 0,
 									"id" : "obj-37",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 43.941176470588232, 268.0, 178.0, 66.0 ],
-									"presentation_linecount" : 8,
+									"patching_rect" : [ 43.941176470588232, 275.0, 178.0, 47.0 ],
 									"text" : "seq.swing \"kinks\" an incoming phasor according to the subdiv and depth parameters"
 								}
 
@@ -115,14 +139,13 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"bubbleside" : 3,
 									"id" : "obj-35",
-									"linecount" : 6,
+									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 266.0, 243.0, 101.0, 91.0 ],
+									"patching_rect" : [ 264.0, 256.0, 101.0, 60.0 ],
 									"text" : "swing~ expects subdivides the incoming phasor into 2 divisions"
 								}
 
@@ -518,7 +541,6 @@
 					}
 ,
 					"patching_rect" : [ 102.0, 206.0, 80.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -643,14 +665,13 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 39.0, 414.0, 77.0, 22.0 ],
+									"patching_rect" : [ 39.0, 394.0, 77.0, 22.0 ],
 									"text" : "clientwindow"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-21",
@@ -658,7 +679,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 275.0, 421.0, 222.0, 64.0 ],
+									"patching_rect" : [ 275.0, 401.0, 222.0, 60.0 ],
 									"text" : "use pattrstorage with @greedy 1 to create \"cues\" that save parameters across multiple seq objects in a max patch"
 								}
 
@@ -670,7 +691,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 39.0, 442.0, 239.0, 22.0 ],
+									"patching_rect" : [ 39.0, 422.0, 239.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"client_rect" : [ 534, 298, 1279, 875 ],
 										"parameter_enable" : 0,
@@ -714,7 +735,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"bubbleside" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -722,14 +742,13 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 389.0, 107.282608695652243, 201.0, 39.0 ],
+									"patching_rect" : [ 379.0, 115.782608695652243, 201.0, 20.0 ],
 									"text" : "invisible pattr for remote control"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-17",
@@ -737,7 +756,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 380.0, 246.5, 153.0, 51.0 ],
+									"patching_rect" : [ 379.0, 248.5, 153.0, 47.0 ],
 									"text" : "you can also set parameters using the module's first inlet"
 								}
 
@@ -791,7 +810,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 118.0, 98.0, 139.0, 66.0 ],
+									"patching_rect" : [ 118.0, 102.0, 139.0, 66.0 ],
 									"text" : "use this menu to create pattr objects to control params remotely"
 								}
 
@@ -814,7 +833,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-5",
@@ -822,7 +840,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 186.0, 350.5, 218.0, 51.0 ],
+									"patching_rect" : [ 186.0, 330.5, 218.0, 47.0 ],
 									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
 								}
 
@@ -834,7 +852,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 39.0, 365.0, 144.0, 22.0 ],
+									"patching_rect" : [ 39.0, 345.0, 144.0, 22.0 ],
 									"text" : "seq.swing swing-help-2",
 									"varname" : "swing-help-2"
 								}
@@ -1163,7 +1181,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"bubbleside" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
@@ -1171,7 +1188,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 251.0, 455.0, 96.0, 40.0 ],
+									"patching_rect" : [ 251.0, 455.0, 96.0, 21.0 ],
 									"text" : "mind the gap"
 								}
 
@@ -1219,14 +1236,13 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-12",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 224.0, 270.0, 134.0, 25.0 ],
+									"patching_rect" : [ 224.0, 270.0, 134.0, 21.0 ],
 									"text" : "add some shuffle"
 								}
 

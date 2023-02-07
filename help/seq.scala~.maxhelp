@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 625.0, 572.0 ],
+						"rect" : [ 34.0, 113.0, 625.0, 572.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -253,7 +253,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-21",
@@ -261,7 +260,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 279.5, 417.0, 222.0, 64.0 ],
+									"patching_rect" : [ 279.5, 417.0, 222.0, 60.0 ],
 									"text" : "use pattrstorage with @greedy 1 to create \"cues\" that save parameters across multiple seq objects in a max patch"
 								}
 
@@ -288,7 +287,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"bubbleside" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -296,14 +294,13 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 411.0, 123.065217391304486, 201.0, 39.0 ],
+									"patching_rect" : [ 411.0, 137.565217391304486, 201.0, 20.0 ],
 									"text" : "invisible pattr for remote control"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-17",
@@ -311,7 +308,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 407.5, 224.282608695652243, 153.0, 51.0 ],
+									"patching_rect" : [ 407.5, 224.282608695652243, 153.0, 47.0 ],
 									"text" : "you can also set parameters using the module's first inlet"
 								}
 
@@ -373,7 +370,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-5",
@@ -381,7 +377,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 193.5, 342.5, 218.0, 51.0 ],
+									"patching_rect" : [ 193.5, 342.5, 218.0, 47.0 ],
 									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
 								}
 
@@ -491,6 +487,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-24", 0 ],
+									"midpoints" : [ 355.5, 224.282608695652243, 300.25, 224.282608695652243, 300.25, 100.599853515625, 315.0, 100.599853515625 ],
 									"order" : 1,
 									"source" : [ "obj-16", 0 ]
 								}
@@ -647,7 +644,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 625.0, 572.0 ],
+						"rect" : [ 0.0, 26.0, 625.0, 572.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -699,13 +696,12 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"id" : "obj-11",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 269.65000781416893, 259.915063679218179, 129.0, 51.0 ],
+									"patching_rect" : [ 269.65000781416893, 270.915063679218179, 129.0, 47.0 ],
 									"text" : "abstraction to convert a named scale to a scale list"
 								}
 
@@ -971,14 +967,13 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"bubbleside" : 0,
 									"id" : "obj-65",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 282.731183886528015, 381.0, 109.0, 52.0 ],
+									"patching_rect" : [ 282.731183886528015, 381.0, 109.0, 33.0 ],
 									"text" : "transposition ratio (e.g. for groove~)"
 								}
 
@@ -1001,14 +996,13 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"bubbleside" : 0,
 									"id" : "obj-63",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 144.359676450490952, 381.0, 100.0, 52.0 ],
+									"patching_rect" : [ 144.359676450490952, 381.0, 100.0, 33.0 ],
 									"text" : "frequency of mapped note"
 								}
 
@@ -1031,41 +1025,38 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"bubbleside" : 0,
 									"id" : "obj-60",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 28.009684264659882, 381.0, 103.0, 52.0 ],
+									"patching_rect" : [ 28.009684264659882, 381.0, 103.0, 33.0 ],
 									"text" : "midi note mapped to scale"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"bubbleside" : 0,
 									"id" : "obj-59",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 40.709668636322021, 257.415063679218179, 122.0, 39.0 ],
+									"patching_rect" : [ 40.709668636322021, 257.415063679218179, 122.0, 20.0 ],
 									"text" : "original midi note"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontsize" : 10.0,
 									"id" : "obj-58",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 212.859676450490952, 226.5, 67.0, 33.0 ],
+									"patching_rect" : [ 212.859676450490952, 242.5, 67.0, 29.0 ],
 									"text" : "see the scala file"
 								}
 
@@ -1110,7 +1101,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 177.859676450490952, 234.0, 33.0, 22.0 ],
+									"patching_rect" : [ 177.859676450490952, 250.0, 33.0, 22.0 ],
 									"text" : "view"
 								}
 
@@ -1190,7 +1181,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 166.359676450490952, 274.415063679218179, 97.0, 22.0 ],
+									"patching_rect" : [ 166.359676450490952, 285.415063679218179, 97.0, 22.0 ],
 									"text" : "seq.scala.parser"
 								}
 
@@ -1294,8 +1285,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-51", 0 ],
-									"source" : [ "obj-100", 0 ]
+									"destination" : [ "obj-51", 1 ],
+									"source" : [ "obj-100", 1 ]
 								}
 
 							}

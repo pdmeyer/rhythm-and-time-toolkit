@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 729.0, 623.0 ],
+						"rect" : [ 100.0, 113.0, 729.0, 623.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -121,7 +121,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-21",
@@ -129,7 +128,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 301.0, 421.0, 222.0, 64.0 ],
+									"patching_rect" : [ 285.0, 423.0, 222.0, 60.0 ],
 									"text" : "use pattrstorage with @greedy 1 to create \"cues\" that save parameters across multiple seq objects in a max patch"
 								}
 
@@ -152,10 +151,10 @@
 									}
 ,
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 1057, 45, 1440, 407 ],
+										"client_rect" : [ 809, 112, 1355, 911 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 583, 69, 1034, 197 ]
+										"storage_rect" : [ 583, 87, 1081, 651 ]
 									}
 ,
 									"text" : "pattrstorage emask-help-storage @greedy 1",
@@ -228,7 +227,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"bubbleside" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -237,14 +235,13 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 492.5, 96.0, 122.0, 52.0 ],
+									"patching_rect" : [ 492.5, 113.282608695652243, 122.0, 33.0 ],
 									"text" : "invisible pattr for remote control"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-17",
@@ -252,7 +249,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 492.5, 248.5, 153.0, 51.0 ],
+									"patching_rect" : [ 492.5, 246.5, 153.0, 47.0 ],
 									"text" : "you can also set parameters using the module's first inlet"
 								}
 
@@ -340,7 +337,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-5",
@@ -348,7 +344,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 297.0, 350.5, 218.0, 51.0 ],
+									"patching_rect" : [ 303.0, 347.5, 218.0, 47.0 ],
 									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
 								}
 
@@ -427,7 +423,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 423.0, 150.0, 266.0, 22.0 ],
-									"restore" : [ 8 ],
+									"restore" : [ 26 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -636,7 +632,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 113.0, 729.0, 623.0 ],
+						"rect" : [ 0.0, 26.0, 729.0, 623.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1037,13 +1033,14 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 252.5, 526.5, 184.0, 68.0 ]
+									"patching_rect" : [ 252.5, 501.0, 184.0, 68.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-54",
+									"local" : 1,
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
@@ -1108,7 +1105,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-42",
@@ -1116,14 +1112,13 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 513.5, 282.0, 103.0, 40.0 ],
+									"patching_rect" : [ 513.5, 264.0, 103.0, 36.0 ],
 									"text" : "\"masking\" pattern"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-41",
@@ -1131,7 +1126,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 244.0, 284.5, 103.0, 40.0 ],
+									"patching_rect" : [ 245.0, 262.0, 103.0, 36.0 ],
 									"text" : "\"underlying\" pattern"
 								}
 
@@ -1191,7 +1186,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 39.0, 526.5, 187.0, 31.0 ],
+									"patching_rect" : [ 40.333333333333329, 519.5, 187.0, 31.0 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -1242,7 +1237,7 @@
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.loop~ @steps 16 @subdiv 16"
+									"text" : "seq.loop~ @steps 32 @subdiv 16"
 								}
 
 							}
@@ -1259,7 +1254,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 362.5, 166.0, 20.0, 20.0 ],
+									"patching_rect" : [ 346.0, 161.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -1285,26 +1280,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-									"fontname" : "Arial Bold",
-									"hint" : "",
-									"id" : "obj-1",
-									"ignoreclick" : 1,
-									"legacytextcolor" : 1,
-									"maxclass" : "textbutton",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "int" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 338.0, 479.0, 20.0, 20.0 ],
-									"rounded" : 60.0,
-									"text" : "1",
-									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
@@ -1312,7 +1287,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 252.5, 163.5, 108.0, 25.0 ],
+									"patching_rect" : [ 236.0, 158.5, 108.0, 25.0 ],
 									"text" : "turn on audio"
 								}
 
@@ -1324,7 +1299,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 206.0, 154.0, 44.0, 44.0 ],
+									"patching_rect" : [ 210.0, 158.5, 24.0, 24.0 ],
 									"prototypename" : "helpfile"
 								}
 
@@ -1379,7 +1354,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 93.0, 300.0, 150.0, 22.0 ]
+									"patching_rect" : [ 93.0, 282.0, 150.0, 22.0 ]
 								}
 
 							}
@@ -1392,7 +1367,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 362.5, 276.0, 150.0, 22.0 ]
+									"patching_rect" : [ 362.5, 258.0, 150.0, 22.0 ]
 								}
 
 							}
@@ -1405,7 +1380,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 362.5, 300.0, 150.0, 22.0 ]
+									"patching_rect" : [ 362.5, 282.0, 150.0, 22.0 ]
 								}
 
 							}
@@ -1518,7 +1493,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
-									"midpoints" : [ 102.5, 290.0, 251.0, 290.0, 251.0, 205.0, 31.5, 205.0 ],
+									"midpoints" : [ 102.5, 290.0, 18.0, 290.0, 18.0, 205.0, 31.5, 205.0 ],
 									"order" : 1,
 									"source" : [ "obj-33", 0 ]
 								}
@@ -1606,7 +1581,235 @@
 
 			}
  ],
-		"lines" : [  ]
+		"lines" : [  ],
+		"parameters" : 		{
+			"obj-1::obj-109" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
+			"obj-1::obj-22::obj-2" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-1::obj-22::obj-31" : [ "live.grid", "live.grid", 0 ],
+			"obj-6::obj-1::obj-2::obj-25" : [ "live.button[8]", "live.button", 0 ],
+			"obj-6::obj-1::obj-7::obj-12" : [ "sequence length[9]", "steps", 2 ],
+			"obj-6::obj-1::obj-7::obj-18" : [ "sequence trigs[2]", "trigs", 1 ],
+			"obj-6::obj-1::obj-7::obj-1::obj-236" : [ "sequence viewer[1]", "sequence viewer", 0 ],
+			"obj-6::obj-1::obj-7::obj-1::obj-3::obj-16" : [ "live.menu[13]", "live.menu", 0 ],
+			"obj-6::obj-1::obj-7::obj-1::obj-3::obj-18" : [ "live.menu[15]", "live.menu", 0 ],
+			"obj-6::obj-1::obj-7::obj-1::obj-3::obj-22" : [ "live.menu[14]", "live.menu", 0 ],
+			"obj-6::obj-1::obj-7::obj-2" : [ "live.button[1]", "live.button", 0 ],
+			"obj-6::obj-1::obj-7::obj-24" : [ "sequence trigs[1]", "trigs", 1 ],
+			"obj-6::obj-1::obj-7::obj-29" : [ "sequence length[1]", "steps", 2 ],
+			"obj-6::obj-1::obj-7::obj-33" : [ "sequence trigs[11]", "trigs", 1 ],
+			"obj-6::obj-1::obj-7::obj-34" : [ "sequence rotate[5]", "trigs", 3 ],
+			"obj-6::obj-1::obj-7::obj-9" : [ "live.text[1]", "live.text", 0 ],
+			"obj-6::obj-3::obj-2::obj-25" : [ "live.button[2]", "live.button", 0 ],
+			"obj-6::obj-3::obj-7::obj-12" : [ "sequence length[2]", "steps", 2 ],
+			"obj-6::obj-3::obj-7::obj-18" : [ "sequence trigs[3]", "trigs", 1 ],
+			"obj-6::obj-3::obj-7::obj-1::obj-236" : [ "sequence viewer[2]", "sequence viewer", 0 ],
+			"obj-6::obj-3::obj-7::obj-1::obj-3::obj-16" : [ "live.menu[1]", "live.menu", 0 ],
+			"obj-6::obj-3::obj-7::obj-1::obj-3::obj-18" : [ "live.menu[2]", "live.menu", 0 ],
+			"obj-6::obj-3::obj-7::obj-1::obj-3::obj-22" : [ "live.menu[3]", "live.menu", 0 ],
+			"obj-6::obj-3::obj-7::obj-2" : [ "live.button[3]", "live.button", 0 ],
+			"obj-6::obj-3::obj-7::obj-24" : [ "sequence trigs[5]", "trigs", 1 ],
+			"obj-6::obj-3::obj-7::obj-29" : [ "sequence length[3]", "steps", 2 ],
+			"obj-6::obj-3::obj-7::obj-33" : [ "sequence trigs[4]", "trigs", 1 ],
+			"obj-6::obj-3::obj-7::obj-34" : [ "sequence rotate[1]", "trigs", 3 ],
+			"obj-6::obj-3::obj-7::obj-9" : [ "live.text[2]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-6::obj-3::obj-2::obj-25" : 				{
+					"parameter_longname" : "live.button[2]"
+				}
+,
+				"obj-6::obj-3::obj-7::obj-12" : 				{
+					"parameter_longname" : "sequence length[2]"
+				}
+,
+				"obj-6::obj-3::obj-7::obj-18" : 				{
+					"parameter_longname" : "sequence trigs[3]"
+				}
+,
+				"obj-6::obj-3::obj-7::obj-1::obj-3::obj-16" : 				{
+					"parameter_longname" : "live.menu[1]"
+				}
+,
+				"obj-6::obj-3::obj-7::obj-1::obj-3::obj-18" : 				{
+					"parameter_longname" : "live.menu[2]"
+				}
+,
+				"obj-6::obj-3::obj-7::obj-1::obj-3::obj-22" : 				{
+					"parameter_longname" : "live.menu[3]"
+				}
+,
+				"obj-6::obj-3::obj-7::obj-2" : 				{
+					"parameter_longname" : "live.button[3]"
+				}
+,
+				"obj-6::obj-3::obj-7::obj-24" : 				{
+					"parameter_longname" : "sequence trigs[5]"
+				}
+,
+				"obj-6::obj-3::obj-7::obj-29" : 				{
+					"parameter_longname" : "sequence length[3]"
+				}
+,
+				"obj-6::obj-3::obj-7::obj-33" : 				{
+					"parameter_longname" : "sequence trigs[4]"
+				}
+,
+				"obj-6::obj-3::obj-7::obj-34" : 				{
+					"parameter_longname" : "sequence rotate[1]"
+				}
+,
+				"obj-6::obj-3::obj-7::obj-9" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "helpdetails.js",
+				"bootpath" : "C74:/help/resources",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "helpname.js",
+				"bootpath" : "C74:/help/resources",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.bar~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.emask.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/emask",
+				"patcherrelativepath" : "../patchers/modules/emask",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.emask.model.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/emask",
+				"patcherrelativepath" : "../patchers/modules/emask",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.emask.view.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/emask",
+				"patcherrelativepath" : "../patchers/modules/emask",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.emask~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.loop~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.misc.aboutbutton.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.misc.philipmeyer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.module.attrchecker.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.module.control.js",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.module.control.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.module.patternmodeview.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.module.patternview.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.module.remote.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.module.viewcontrol.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
+				"patcherrelativepath" : "../patchers/_module-components",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.snap~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.xtra.stepgridviewer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/extras",
+				"patcherrelativepath" : "../extras",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tri-down.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
+				"patcherrelativepath" : "../media/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tri-up.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
+				"patcherrelativepath" : "../media/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

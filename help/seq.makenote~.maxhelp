@@ -208,7 +208,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-21",
@@ -216,7 +215,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 307.0, 432.0, 222.0, 64.0 ],
+									"patching_rect" : [ 300.0, 434.0, 222.0, 60.0 ],
 									"text" : "use pattrstorage with @greedy 1 to create \"cues\" that save parameters across multiple seq objects in a max patch"
 								}
 
@@ -243,7 +242,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"bubbleside" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -251,22 +249,21 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 385.0, 118.282608695652243, 201.0, 39.0 ],
+									"patching_rect" : [ 372.0, 126.782608695652243, 201.0, 20.0 ],
 									"text" : "invisible pattr for remote control"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-17",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 376.0, 257.5, 153.0, 51.0 ],
+									"patching_rect" : [ 375.0, 266.5, 167.0, 33.0 ],
 									"text" : "you can also set parameters using the module's first inlet"
 								}
 
@@ -337,7 +334,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-5",
@@ -345,7 +341,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 156.0, 361.5, 218.0, 51.0 ],
+									"patching_rect" : [ 143.0, 363.0, 218.0, 47.0 ],
 									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
 								}
 
@@ -621,12 +617,47 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-14",
-									"maxclass" : "message",
+									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+									"fontname" : "Arial Bold",
+									"hint" : "",
+									"id" : "obj-1",
+									"ignoreclick" : 1,
+									"legacytextcolor" : 1,
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 296.5, 156.0, 20.0, 20.0 ],
+									"rounded" : 60.0,
+									"text" : "1",
+									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-26",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 202.0, 142.0, 108.0, 25.0 ],
+									"text" : "turn on audio"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"local" : 1,
+									"maxclass" : "ezdac~",
 									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 322.5, 303.5, 50.0, 22.0 ]
+									"numoutlets" : 0,
+									"patching_rect" : [ 172.5, 138.0, 32.0, 32.0 ],
+									"prototypename" : "helpfile"
 								}
 
 							}
@@ -675,7 +706,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 49.5, 166.0, 20.0, 20.0 ],
+									"patching_rect" : [ 43.5, 160.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "2",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -699,7 +730,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"bubblepoint" : 0.0,
 									"bubbleside" : 0,
 									"id" : "obj-27",
@@ -707,7 +737,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 166.5, 488.0, 190.0, 66.0 ],
+									"patching_rect" : [ 166.5, 488.0, 190.0, 47.0 ],
 									"text" : "nonzero signals to inlets 2 and 3 override velocity and duration attributes"
 								}
 
@@ -748,14 +778,13 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 26.5, 228.0, 56.0, 22.0 ],
+									"patching_rect" : [ 49.5, 261.0, 56.0, 22.0 ],
 									"sig" : 0.0
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"bubblepoint" : 0.9,
 									"bubbleside" : 0,
 									"fontname" : "Arial",
@@ -765,7 +794,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 464.0, 97.0, 98.0 ],
+									"patching_rect" : [ 11.0, 464.0, 97.0, 79.0 ],
 									"text" : "input treats digits to the right of the decimal point as pitch bend"
 								}
 
@@ -776,7 +805,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 105.0, 349.0, 52.0, 20.0 ],
+									"patching_rect" : [ 114.5, 349.0, 52.0, 20.0 ],
 									"text" : "note"
 								}
 
@@ -944,7 +973,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 107.5, 228.0, 298.0, 22.0 ],
+									"patching_rect" : [ 107.5, 219.0, 298.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -974,7 +1003,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 107.5, 199.0, 56.0, 22.0 ],
+									"patching_rect" : [ 107.5, 190.0, 56.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1034,52 +1063,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-									"fontname" : "Arial Bold",
-									"hint" : "",
-									"id" : "obj-1",
-									"ignoreclick" : 1,
-									"legacytextcolor" : 1,
-									"maxclass" : "textbutton",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "int" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 234.5, 142.0, 20.0, 20.0 ],
-									"rounded" : 60.0,
-									"text" : "1",
-									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bubble" : 1,
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"id" : "obj-26",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 234.5, 151.5, 108.0, 25.0 ],
-									"text" : "turn on audio"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-7",
-									"local" : 1,
-									"maxclass" : "ezdac~",
-									"numinlets" : 2,
-									"numoutlets" : 0,
-									"patching_rect" : [ 188.0, 142.0, 44.0, 44.0 ],
-									"prototypename" : "helpfile"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"border" : 0,
 									"filename" : "helpdetails.js",
 									"id" : "obj-2",
@@ -1103,7 +1086,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 397.0, 382.5, 150.0, 22.0 ]
+									"patching_rect" : [ 381.0, 382.5, 150.0, 22.0 ]
 								}
 
 							}
@@ -1116,7 +1099,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 397.0, 409.5, 150.0, 22.0 ]
+									"patching_rect" : [ 381.0, 409.5, 150.0, 22.0 ]
 								}
 
 							}
@@ -1312,6 +1295,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-25", 0 ],
+									"midpoints" : [ 390.5, 457.75, 117.0, 457.75 ],
 									"source" : [ "obj-20", 0 ]
 								}
 
@@ -1319,6 +1303,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-25", 0 ],
+									"midpoints" : [ 390.5, 457.25, 117.0, 457.25 ],
 									"source" : [ "obj-21", 0 ]
 								}
 
@@ -1400,6 +1385,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-17", 0 ],
 									"hidden" : 1,
+									"midpoints" : [ 433.0, 288.5, 141.5, 288.5 ],
 									"source" : [ "obj-44", 1 ]
 								}
 
@@ -1414,6 +1400,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-25", 4 ],
+									"midpoints" : [ 210.0, 249.5, 377.0, 249.5 ],
 									"source" : [ "obj-9", 1 ]
 								}
 

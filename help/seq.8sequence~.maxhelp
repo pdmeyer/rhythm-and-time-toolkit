@@ -88,6 +88,32 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-26",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 147.5, 117.0, 108.0, 25.0 ],
+									"text" : "turn on audio"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"local" : 1,
+									"maxclass" : "ezdac~",
+									"numinlets" : 2,
+									"numoutlets" : 0,
+									"patching_rect" : [ 118.0, 113.0, 32.0, 32.0 ],
+									"prototypename" : "helpfile"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-5",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -100,12 +126,11 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"id" : "obj-1",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 258.307004332542419, 281.33333283662796, 165.0, 24.0 ],
+									"patching_rect" : [ 268.359665274620056, 283.33333283662796, 165.0, 20.0 ],
 									"text" : "seq.8sequence.ui.maxpat"
 								}
 
@@ -461,7 +486,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-21",
@@ -469,7 +493,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 302.0, 421.0, 222.0, 64.0 ],
+									"patching_rect" : [ 302.0, 423.0, 222.0, 60.0 ],
 									"text" : "use pattrstorage with @greedy 1 to create \"cues\" that save parameters across multiple seq objects in a max patch"
 								}
 
@@ -491,6 +515,7 @@
 										"8sequence-help::m::s/6/length" : -1,
 										"8sequence-help::m::s/7/length" : -1,
 										"8sequence-help::m::s/8/length" : -1,
+										"sequence-help-2::m::sequence/raw" : 1,
 										"sequence-help-2::m::seq-length" : -1
 									}
 ,
@@ -571,7 +596,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"bubbleside" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -579,14 +603,13 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 485.5, 103.282608695652243, 201.0, 39.0 ],
+									"patching_rect" : [ 486.0, 124.282608695652243, 201.0, 20.0 ],
 									"text" : "invisible pattr for remote control"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-17",
@@ -594,7 +617,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 502.5, 244.5, 153.0, 51.0 ],
+									"patching_rect" : [ 486.0, 246.5, 153.0, 47.0 ],
 									"text" : "you can also set parameters using the module's first inlet"
 								}
 
@@ -642,7 +665,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 430.0, 286.0, 77.0, 22.0 ],
+									"patching_rect" : [ 430.0, 297.0, 77.0, 22.0 ],
 									"text" : "s/1/length $1"
 								}
 
@@ -671,18 +694,17 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-7",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 333.0, 196.0, 109.0, 37.0 ],
+									"patching_rect" : [ 333.0, 196.0, 89.0, 51.0 ],
 									"text" : "click the button to use presets "
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-5",
@@ -690,7 +712,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 351.0, 363.5, 218.0, 51.0 ],
+									"patching_rect" : [ 333.0, 365.5, 218.0, 47.0 ],
 									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
 								}
 
@@ -847,6 +869,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
+									"hidden" : 1,
 									"order" : 0,
 									"source" : [ "obj-16", 0 ]
 								}
@@ -1050,7 +1073,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-19",
@@ -1058,7 +1080,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 460.0, 360.0, 125.0, 54.0 ],
+									"patching_rect" : [ 358.0, 359.0, 125.0, 50.0 ],
 									"text" : "each buffer has its own set of parameters"
 								}
 
@@ -1072,7 +1094,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 306.0, 368.0, 150.0, 22.0 ]
+									"patching_rect" : [ 206.0, 359.0, 150.0, 22.0 ]
 								}
 
 							}
@@ -1085,7 +1107,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 306.0, 392.0, 150.0, 22.0 ]
+									"patching_rect" : [ 206.0, 383.0, 150.0, 22.0 ]
 								}
 
 							}
@@ -1118,7 +1140,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 440.0, 204.5, 20.0, 20.0 ],
+									"patching_rect" : [ 467.0, 204.5, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "2",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -1135,7 +1157,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 332.0, 209.0, 119.0, 40.0 ],
+									"patching_rect" : [ 359.0, 209.0, 119.0, 40.0 ],
 									"text" : "draw some values"
 								}
 
@@ -1147,7 +1169,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 178.0, 167.5, 164.0, 39.0 ],
+									"patching_rect" : [ 178.0, 179.0, 164.0, 39.0 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -1213,7 +1235,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 21.0, 218.0, 182.0, 22.0 ],
+									"patching_rect" : [ 21.0, 222.0, 182.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1488,7 +1510,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 521.0, 152.0, 20.0, 20.0 ],
+									"patching_rect" : [ 319.0, 146.5, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -1504,7 +1526,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 423.0, 149.5, 108.0, 25.0 ],
+									"patching_rect" : [ 221.0, 144.0, 108.0, 25.0 ],
 									"text" : "turn on audio"
 								}
 
@@ -1516,7 +1538,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 359.0, 134.5, 44.0, 44.0 ],
+									"patching_rect" : [ 188.0, 144.0, 26.0, 26.0 ],
 									"prototypename" : "helpfile"
 								}
 
@@ -1547,7 +1569,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 143.0, 368.0, 150.0, 22.0 ]
+									"patching_rect" : [ 43.0, 359.0, 150.0, 22.0 ]
 								}
 
 							}
@@ -1560,7 +1582,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 143.0, 392.0, 150.0, 22.0 ]
+									"patching_rect" : [ 43.0, 383.0, 150.0, 22.0 ]
 								}
 
 							}
@@ -1672,6 +1694,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-3", 1 ],
+									"midpoints" : [ 113.5, 350.0, 482.5, 350.0 ],
 									"source" : [ "obj-6", 0 ]
 								}
 
@@ -2117,6 +2140,10 @@
 ,
 				"obj-6::obj-1::obj-18::obj-9::obj-9" : 				{
 					"parameter_longname" : "live.text[10]"
+				}
+,
+				"obj-6::obj-1::obj-2::obj-25" : 				{
+					"parameter_longname" : "live.button[14]"
 				}
 ,
 				"obj-6::obj-3::obj-18::obj-14" : 				{

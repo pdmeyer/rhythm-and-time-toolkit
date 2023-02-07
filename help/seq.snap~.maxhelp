@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 629.0, 528.0 ],
+						"rect" : [ 0.0, 26.0, 629.0, 528.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -623,7 +623,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 629.0, 528.0 ],
+						"rect" : [ 34.0, 113.0, 629.0, 528.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -653,6 +653,32 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-26",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 242.5, 140.5, 108.0, 25.0 ],
+									"text" : "turn on audio"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"local" : 1,
+									"maxclass" : "ezdac~",
+									"numinlets" : 2,
+									"numoutlets" : 0,
+									"patching_rect" : [ 213.0, 136.5, 32.0, 32.0 ],
+									"prototypename" : "helpfile"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"args" : [ "seq" ],
 									"bgmode" : 0,
@@ -703,7 +729,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-25",
@@ -711,14 +736,13 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 429.0, 176.5, 190.0, 54.0 ],
+									"patching_rect" : [ 429.0, 176.5, 190.0, 50.0 ],
 									"text" : "when enabled, seq.snap~ will sample the input value when it changes"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-24",
@@ -726,7 +750,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 94.0, 295.0, 124.0, 40.0 ],
+									"patching_rect" : [ 94.0, 295.0, 124.0, 36.0 ],
 									"text" : "send an impulse to sample"
 								}
 
@@ -757,7 +781,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-17",
@@ -765,7 +788,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 429.0, 236.0, 180.0, 54.0 ],
+									"patching_rect" : [ 429.0, 236.0, 180.0, 50.0 ],
 									"text" : "minimum amount of time between snapshots when auto = 1"
 								}
 
@@ -785,7 +808,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-12",
@@ -793,7 +815,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 429.0, 295.0, 147.0, 40.0 ],
+									"patching_rect" : [ 429.0, 295.0, 147.0, 36.0 ],
 									"text" : "enable to round to the nearest integer"
 								}
 
@@ -905,32 +927,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"id" : "obj-26",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 244.0, 140.5, 108.0, 25.0 ],
-									"text" : "turn on audio"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-7",
-									"local" : 1,
-									"maxclass" : "ezdac~",
-									"numinlets" : 2,
-									"numoutlets" : 0,
-									"patching_rect" : [ 198.0, 131.0, 44.0, 44.0 ],
-									"prototypename" : "helpfile"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"border" : 0,
 									"filename" : "helpdetails.js",
 									"id" : "obj-2",
@@ -955,7 +951,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 238.0, 200.0, 186.0, 22.0 ]
+									"patching_rect" : [ 238.0, 190.5, 186.0, 22.0 ]
 								}
 
 							}
@@ -1099,6 +1095,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-6::obj-1::obj-93::obj-25" : 				{
+					"parameter_longname" : "live.button[14]"
+				}
+,
 				"obj-6::obj-3::obj-6::obj-10" : 				{
 					"parameter_longname" : "live.numbox[1]"
 				}

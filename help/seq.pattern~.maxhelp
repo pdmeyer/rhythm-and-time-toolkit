@@ -189,7 +189,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-21",
@@ -197,7 +196,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 295.0, 421.0, 222.0, 64.0 ],
+									"patching_rect" : [ 295.0, 421.0, 222.0, 60.0 ],
 									"text" : "use pattrstorage with @greedy 1 to create \"cues\" that save parameters across multiple seq objects in a max patch"
 								}
 
@@ -258,7 +257,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"bubbleside" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -266,14 +264,13 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 389.0, 107.282608695652243, 201.0, 39.0 ],
+									"patching_rect" : [ 376.0, 115.782608695652243, 201.0, 20.0 ],
 									"text" : "invisible pattr for remote control"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-17",
@@ -281,7 +278,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 380.0, 246.5, 153.0, 51.0 ],
+									"patching_rect" : [ 380.0, 246.5, 153.0, 47.0 ],
 									"text" : "you can also set parameters using the module's first inlet"
 								}
 
@@ -369,7 +366,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-5",
@@ -377,7 +373,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 266.0, 350.5, 218.0, 51.0 ],
+									"patching_rect" : [ 253.0, 352.5, 218.0, 47.0 ],
 									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
 								}
 
@@ -1132,7 +1128,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 560.5, 242.5, 20.0, 20.0 ],
+									"patching_rect" : [ 526.0, 267.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "3",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -1411,7 +1407,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 179.0, 304.5, 151.0, 22.0 ]
+									"patching_rect" : [ 39.0, 321.5, 151.0, 22.0 ]
 								}
 
 							}
@@ -1669,7 +1665,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-10", 3 ],
-									"midpoints" : [ 448.5, 354.5, 88.5, 354.5 ],
+									"midpoints" : [ 448.5, 350.5, 88.5, 350.5 ],
 									"source" : [ "obj-18", 1 ]
 								}
 

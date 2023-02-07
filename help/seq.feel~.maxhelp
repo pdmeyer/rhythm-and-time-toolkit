@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 681.0, 555.0 ],
+						"rect" : [ 100.0, 113.0, 681.0, 555.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -150,7 +150,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-21",
@@ -158,7 +157,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 275.0, 421.0, 222.0, 64.0 ],
+									"patching_rect" : [ 275.0, 421.0, 222.0, 60.0 ],
 									"text" : "use pattrstorage with @greedy 1 to create \"cues\" that save parameters across multiple seq objects in a max patch"
 								}
 
@@ -185,7 +184,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"bubbleside" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -193,14 +191,13 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 389.0, 107.282608695652243, 201.0, 39.0 ],
+									"patching_rect" : [ 380.0, 115.782608695652243, 201.0, 20.0 ],
 									"text" : "invisible pattr for remote control"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-17",
@@ -208,7 +205,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 380.0, 246.5, 153.0, 51.0 ],
+									"patching_rect" : [ 380.0, 246.5, 153.0, 47.0 ],
 									"text" : "you can also set parameters using the module's first inlet"
 								}
 
@@ -310,7 +307,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-5",
@@ -318,7 +314,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 186.0, 350.5, 218.0, 51.0 ],
+									"patching_rect" : [ 186.0, 350.5, 218.0, 47.0 ],
 									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
 								}
 
@@ -597,7 +593,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 113.0, 681.0, 555.0 ],
+						"rect" : [ 0.0, 26.0, 681.0, 555.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -654,7 +650,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "int" ],
-									"patching_rect" : [ 425.0, 344.5, 41.0, 22.0 ],
+									"patching_rect" : [ 463.0, 343.5, 41.0, 22.0 ],
 									"text" : "what~"
 								}
 
@@ -856,7 +852,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 425.0, 368.5, 59.0, 22.0 ],
+									"patching_rect" : [ 463.0, 367.5, 59.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -913,13 +909,12 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"id" : "obj-11",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 234.5, 292.0, 198.0, 37.0 ],
+									"patching_rect" : [ 242.0, 300.5, 181.0, 33.0 ],
 									"text" : "right outlet outputs the centered + scaled modulation list"
 								}
 
@@ -959,23 +954,22 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-31",
-									"linecount" : 6,
+									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 31.0, 443.0, 304.0, 87.0 ],
-									"text" : "seq.feel~ does two things internally to keep the input and output signals in phase:\n\n- the modulation list is automatically centered around 0.\n- changes to the modulation list and depth are deferred until the input phasor wraps. "
+									"patching_rect" : [ 31.0, 437.0, 304.0, 74.0 ],
+									"text" : "seq.feel~ does two things internally to keep the input and output signals in phase:\n- the modulation list is automatically centered around 0.\n- changes to the modulation list and depth are deferred until the input phasor wraps. "
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"id" : "obj-29",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 393.0, 261.0, 144.5, 24.0 ],
+									"patching_rect" : [ 60.0, 239.0, 144.5, 20.0 ],
 									"text" : "amount of modulation"
 								}
 
@@ -1002,7 +996,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 31.0, 344.5, 184.0, 68.0 ],
+									"patching_rect" : [ 31.0, 343.5, 184.0, 68.0 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -1075,9 +1069,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 191.0, 141.5, 20.0, 20.0 ],
+									"patching_rect" : [ 178.0, 141.5, 20.0, 20.0 ],
 									"rounded" : 60.0,
-									"text" : "2",
+									"text" : "3",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
 								}
 
@@ -1103,7 +1097,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 31.0, 344.5, 184.0, 68.0 ],
+									"patching_rect" : [ 31.0, 343.5, 184.0, 68.0 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -1138,7 +1132,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 468.0, 148.5, 20.0, 20.0 ],
+									"patching_rect" : [ 376.5, 144.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -1154,7 +1148,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 370.0, 148.5, 108.0, 25.0 ],
+									"patching_rect" : [ 278.5, 141.5, 108.0, 25.0 ],
 									"text" : "turn on audio"
 								}
 
@@ -1166,7 +1160,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 322.0, 139.0, 44.0, 44.0 ],
+									"patching_rect" : [ 251.5, 141.5, 24.0, 24.0 ],
 									"prototypename" : "helpfile"
 								}
 
@@ -1196,7 +1190,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 241.0, 261.0, 150.0, 22.0 ]
+									"patching_rect" : [ 60.0, 261.0, 150.0, 22.0 ]
 								}
 
 							}
@@ -1254,7 +1248,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-27", 0 ],
-									"midpoints" : [ 40.5, 336.25, 434.5, 336.25 ],
+									"midpoints" : [ 40.5, 336.25, 472.5, 336.25 ],
 									"order" : 0,
 									"source" : [ "obj-3", 0 ]
 								}
@@ -1380,6 +1374,10 @@
 ,
 				"obj-2::obj-3::obj-6::obj-6" : 				{
 					"parameter_longname" : "live.numbox[2]"
+				}
+,
+				"obj-2::obj-3::obj-93::obj-25" : 				{
+					"parameter_longname" : "live.button[14]"
 				}
 
 			}

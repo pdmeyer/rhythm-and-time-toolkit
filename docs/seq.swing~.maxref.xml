@@ -14,7 +14,7 @@
 </attribute>
 </attributelist>
 <description>Swing is a clock modifier that creates a “swing” or “shuffle” rhythmic feel.</description>
-<digest>Create variations in clock speed for shuffle.</digest>
+<digest>Create variations in a ramp's slope for shuffle.</digest>
 <seealsolist>
     <seealsolist>
         <seealso name="seq.feel~" />

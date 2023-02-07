@@ -15,6 +15,9 @@
 <attribute name="depth" get="1" set="1" size="1" type="float64">
 <digest>Amount of modulation to apply to the input phasor. </digest>
 </attribute>
+<attribute name="syncupdate" get="1" set="1" size="1" type="float64">
+<digest>When enabled, changes to parameters are deferred until the input phasor wraps.</digest>
+</attribute>
 </attributelist>
 <description><o>seq.feel~</o> accepts a phasor-style ramp to its first inlet and a list of floating-point numbers to its right inlet. The list modulates the slope of the ramp to achieve timing that is loose, irregular, and non-robotic.</description>
 <digest>Modulate a phasor ramp for loose timing.</digest>

@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this
+automatically generated reference file.-->
 <c74object name="seq.snap~">
-<metadatalist>
-<metadata name="author">Philip Meyer</metadata>
-<metadata name="tag">sequencing</metadata>
-</metadatalist>
-<attributelist>
-<attribute name="auto" get="1" set="1" size="1" type="float64">
-<digest>When enabled, value changes to the first inlet can be sampled and output automatically.</digest>
-</attribute>
-<attribute name="quantize" get="1" set="1" size="1" type="float64">
-<digest>When enabled, the signal at the first inlet will be rounded to the nearest whole number.</digest>
-</attribute>
-<attribute name="autointerval" get="1" set="1" size="1" type="float64">
-<digest>When <at>auto</at> is enabled, sets the minimum amount of time in milliseconds between sampling events.</digest>
-</attribute>
-</attributelist>
-<description>Converts signals to floating points numbers. Sampling can be triggered automatically upon changes to the signal value or using an external impulse.</description>
-<digest>Signal-to-float converter</digest>
-<seealsolist>
-    <seealsolist>
-        <seealso name="snapshot~" />
-        <seealso name="seq.makenote~" />
-        <seealso name="seq.makecc~" />
-    </seealsolist>
-</seealsolist>
+	<metadatalist>
+		<metadata name="author">Philip Meyer</metadata>
+		<metadata name="tag">sequencing</metadata>
+	</metadatalist>
+	<methodlist></methodlist>
+	<attributelist>
+		<attribute name="auto" get="1" set="1" size="1" type="float64">
+			<digest>When enabled, value changes to the first inlet can be sampled and output
+				automatically.</digest>
+		</attribute>
+		<attribute name="quantize" get="1" set="1" size="1" type="float64">
+			<digest>When enabled, the signal at the first inlet will be rounded to the nearest whole
+				number.</digest>
+		</attribute>
+		<attribute name="autointerval" get="1" set="1" size="1" type="float64">
+			<digest>When <at>auto</at> is enabled, sets the minimum amount of time in milliseconds
+				between sampling events.</digest>
+		</attribute>
+	</attributelist>
+	<description>Converts signals to floating points numbers. Sampling can be triggered
+		automatically upon changes to the signal value or using an external impulse.</description>
+	<digest>Signal-to-float converter</digest>
+	<seealsolist>
+		<seealsolist>
+			<seealso name="snapshot~" />
+			<seealso name="seq.makenote~" />
+			<seealso name="seq.makecc~" />
+		</seealsolist>
+	</seealsolist>
 </c74object>

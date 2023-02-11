@@ -21,53 +21,8 @@
 <attribute name="auto" get="1" set="1" size="1" type="float64">
 <digest>When disabled (the default), triggers to the first inlet will be retriggered only when the value at the rightmost inlet is nonzero. When enabled all triggers to the first inlet to be retriggered, regardless of the value at the right inlet. </digest>
 </attribute>
-<attribute name="ramplow" get="1" set="1" size="1" type="float64">
-<digest>The bottom of the second outlet’s stepped ramp.</digest>
-</attribute>
-<attribute name="ramphi" get="1" set="1" size="1" type="float64">
-<digest>The top of the second outlet’s stepped ramp.</digest>
-</attribute>
-<attribute name="rampdir" get="1" set="1" size="1" type="float64">
-<digest>Determines whether the stepped ramp from the second outlet goes from low to high or vice versa.</digest>
-</attribute>
 <attribute name="moddepth" get="1" set="1" size="1" type="float64">
 <digest>Amount that a list of floats passed into the seventh inlet modulates the subdivision interval. </digest>
-</attribute>
-<attribute name="outputmode" get="1" set="1" size="1" type="float64">
-    <digest>Determines what is output from the first outlet of the object.</digest>
-    <attributelist>
-        <attribute name="default" get="1" set="1" type="int" size="1" value="0" />
-        <attribute name="enumvals" get="1" set="1" type="atom" size="3">
-            <enumlist>
-                <enum name="trigger">
-                    <digest>
-                        Train of impulses
-                    </digest>
-                    <description>
-                        The initial input trigger and any subsequent retriggers cause impulses to be output from the first outlet.
-                    </description>
-                </enum>
-                <enum name="gate">
-                    <digest>
-                        Boolean gate
-                    </digest>
-                    <description>
-                        A value of 1 is output over the course of the retrig period. When the retrig period ends, the value flips to 0.
-                    </description>
-                </enum>
-                <enum name="count">
-                    <digest>
-                        Running count of triggers
-                    </digest>
-                    <description>
-                        The first outlet produces a running global count of triggers.
-                    </description>
-                </enum>
-            </enumlist>
-        </attribute>
-        <attribute name="label" get="1" set="1" type="symbol" size="1" value="Output Mode" />
-        <attribute name="style" get="1" set="1" type="symbol" size="1" value="enumindex" />
-    </attributelist>
 </attribute>
 <attribute name="transport" get="1" set="1" size="1" type="symbol">
 <digest>Transport</digest>

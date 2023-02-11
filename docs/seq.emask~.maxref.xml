@@ -6,9 +6,9 @@
 <metadata name="tag">sequencing</metadata>
 </metadatalist>
 <methodlist>
-<method name="vary">
-    <digest>Recalculate Variation</digest>
-    <description>The message "message vary bang" tells seq.emask~ to generate a new pattern based on the <at>variation</at> parameter.</description>
+<method name="calculate">
+    <digest>Recalculate Pattern</digest>
+    <description>The message "message vary bang" tells seq.emask~ to regenerate the pattern.</description>
 </method>
 </methodlist>
 <attributelist>
@@ -147,6 +147,9 @@
 <digest>Determines whether the windows mask or unmask the underlying pattern.</digest>
 </attribute>
 <attribute name="variation" get="1" set="1" size="1" type="float64">
+<digest>Randomizes the events in the pattern.</digest>
+</attribute>
+<attribute name="variation seed" get="1" set="1" size="1" type="float64">
 <digest>Randomizes the events in the pattern.</digest>
 </attribute>
 </attributelist>

@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 113.0, 729.0, 623.0 ],
+						"rect" : [ 0.0, 26.0, 729.0, 623.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -750,7 +750,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 582.0, 65.0 ],
-									"text" : "The variation attribute makes the underlying pattern irregular. Lower variation values will be only slightly different from the euclidean pattern created by the steps and density parameters. Higher values will keep the same overall event density (i.e. roughly the same number of events for a given number of steps), but distribute those events in a random fashion.",
+									"text" : "The variation attribute transforms the underlying pattern using controlled randomness. Lower variation values will be only slightly different from the euclidean pattern created by the steps and density parameters. Higher values will keep the same overall event density, but distribute those events in a random fashion.",
 									"textcolor" : [ 0.502, 0.502, 0.502, 1.0 ]
 								}
 
@@ -1538,7 +1538,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 729.0, 623.0 ],
+						"rect" : [ 100.0, 113.0, 729.0, 623.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place
+it in a safe place since future exports will overwrite this automatically generated reference
+file.-->
+<c74object name="seq.notes~">
+    <metadatalist>
+        <metadata name="author">Philip Meyer</metadata>
+        <metadata name="tag">sequencing</metadata>
+    </metadatalist>
+    <methodlist>
+        <method name="in2">
+            <arglist>
+                <arg name="sequence" type="list" optional="0" />
+            </arglist>
+            <digest>Sequence</digest>
+            <description>A list of floats between 0 and 1 to the second inlet stores a sequence. If any value of the list is either less than 0 or greater than one, the entire list will be normalized to the range of 0. 1. before being stored.</description>
+        </method>
+        <method name="sequence">
+            <digest>Sequence</digest>
+            <description>The same as in2, prepended by the symbols "message sequence"</description>
+        </method>
+    </methodlist>
+    <attributelist>
+        <attribute name="octave" get="1" set="1" size="1" type="float64">
+            <digest>Octave for which to produce MIDI note values</digest>
+        </attribute>
+        <attribute name="sustain" get="1" set="1" size="1" type="float64">
+            <digest>When enabled, the default, the object will hold its current value when its input receives a value of 0 (or lower). When disabled, it will output 0. when its input is 0. or lower.</digest>
+        </attribute>
+        <attribute name="length" get="1" set="1" size="1" type="float64">
+            <digest>Number of notes in the scale.</digest>
+        </attribute>
+        <attribute name="octaverange" get="1" set="1" size="1" type="float64">
+            <digest>Sets the number of steps to map to the input values’ normalized range. The number of steps is <at>length</at> times <at>octaverange</at>.</digest>
+        </attribute>
+        <attribute name="microtones" get="1" set="1" size="1" type="float64">
+            <digest>Subdivides the semitone into increments to allow scales to be used microtonally. With a value of 1 (the default), the object outputs whole-number MIDI notes.</digest>
+        </attribute>
+    </attributelist>
+    <description>seq.notes is a sibling of <o>seq.sequence</o> that is designed to be used specifically for playing back musical pitches as MIDI notes. Use this object in conjunction with seq.scala~ to play melodies in any scale.</description>
+    <digest>Store and playback a sequence of notes.</digest>
+</c74object>

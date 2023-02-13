@@ -8,7 +8,6 @@
 <methodlist>
     <method name="in2">
         <arglist>
-            <arg name="voicenumber" type="int" optional="0" />
             <arg name="sequence" type="list" optional="0" />
         </arglist>
         <digest>Sequence</digest>

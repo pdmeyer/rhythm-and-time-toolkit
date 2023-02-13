@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 753.0, 508.0 ],
+						"rect" : [ 0.0, 26.0, 753.0, 508.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -376,7 +376,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 753.0, 508.0 ],
+						"rect" : [ 34.0, 113.0, 753.0, 508.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -440,7 +440,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-21",
@@ -448,7 +447,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 302.0, 421.0, 222.0, 64.0 ],
+									"patching_rect" : [ 302.0, 421.0, 222.0, 60.0 ],
 									"text" : "use pattrstorage with @greedy 1 to create \"cues\" that save parameters across multiple seq objects in a max patch"
 								}
 
@@ -545,7 +544,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"bubbleside" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -553,14 +551,13 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 485.5, 103.282608695652243, 201.0, 39.0 ],
+									"patching_rect" : [ 485.5, 103.282608695652243, 201.0, 20.0 ],
 									"text" : "invisible pattr for remote control"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-17",
@@ -568,7 +565,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 502.5, 244.5, 153.0, 51.0 ],
+									"patching_rect" : [ 502.5, 244.5, 153.0, 47.0 ],
 									"text" : "you can also set parameters using the module's first inlet"
 								}
 
@@ -656,7 +653,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-5",
@@ -664,7 +660,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 351.0, 350.5, 218.0, 51.0 ],
+									"patching_rect" : [ 351.0, 350.5, 218.0, 47.0 ],
 									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
 								}
 

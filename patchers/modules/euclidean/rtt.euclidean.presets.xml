@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<pattrstorage name = "seq.euclidean.presets">
+	<slot number = "1" name = "tresillo">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 0. 1. 0. 0. 1. 0." />
+			<pattr name = "steps" value = "8" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "3" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "2" name = "cinquillo">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 0. 1. 1. 0. 1." />
+			<pattr name = "steps" value = "8" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "5" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "3" name = "cueca">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1." />
+			<pattr name = "steps" value = "3" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "2" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "4" name = "khafif-e-ramal_1">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 0. 1. 0." />
+			<pattr name = "steps" value = "5" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "2" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "5" name = "take_five">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 0. 0." />
+			<pattr name = "steps" value = "5" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "2" />
+			<pattr name = "rotate" value = "2." />
+		</patcher>
+	</slot>
+	<slot number = "6" name = "cumbia">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 1." />
+			<pattr name = "steps" value = "4" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "3" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "7" name = "khafif-e-ramal_2">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 0. 1." />
+			<pattr name = "steps" value = "5" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "3" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "8" name = "khafif-e-saghil">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 1." />
+			<pattr name = "steps" value = "4" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "3" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "9" name = "ruchenitza_!">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 0. 1. 0. 1. 0." />
+			<pattr name = "steps" value = "7" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "3" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "10" name = "ruchenitza_2">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 0. 1. 0. 1." />
+			<pattr name = "steps" value = "7" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "4" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "11" name = "asak">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 0. 1. 0. 1. 0. 1. 0." />
+			<pattr name = "steps" value = "9" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "4" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "12" name = "zappa_outside-now">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 0. 1. 0. 0. 1. 0. 0. 1. 0." />
+			<pattr name = "steps" value = "11" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "4" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "13" name = "york-samai">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 1. 1. 1." />
+			<pattr name = "steps" value = "6" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "5" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "14" name = "al-saghil-al-sani">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 0. 1. 1. 0. 1." />
+			<pattr name = "steps" value = "8" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "5" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "15" name = "agsag-samai">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 0. 1. 0. 1. 0. 1." />
+			<pattr name = "steps" value = "9" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "5" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "16" name = "venda_1">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 0. 1. 0. 1. 0. 1." />
+			<pattr name = "steps" value = "9" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "5" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "17" name = "mussorgsky_pictures">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 0. 1. 0. 1. 0. 1. 0. 1. 0." />
+			<pattr name = "steps" value = "11" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "5" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "18" name = "venda_2">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 0. 1. 0. 1. 0. 0. 1. 0. 1. 0." />
+			<pattr name = "steps" value = "12" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "5" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "19" name = "bossanova_1">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 0. 0. 1. 0. 0. 1. 0. 0. 1. 0. 0. 1. 0. 0." />
+			<pattr name = "steps" value = "16" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "5" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "20" name = "bossanova_2">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 0. 1. 0. 0. 1. 0. 0. 1. 0. 0. 1. 0. 0. 0." />
+			<pattr name = "steps" value = "16" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "5" />
+			<pattr name = "rotate" value = "-4." />
+		</patcher>
+	</slot>
+	<slot number = "21" name = "bossanova_3">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 0. 1. 0. 0. 1. 0. 0. 0. 1. 0. 0. 1. 0. 0." />
+			<pattr name = "steps" value = "16" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "5" />
+			<pattr name = "rotate" value = "-10." />
+		</patcher>
+	</slot>
+	<slot number = "22" name = "bendir">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 1. 1. 1. 1. 1. 1. 0." />
+			<pattr name = "steps" value = "8" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "7" />
+			<pattr name = "rotate" value = "-10." />
+		</patcher>
+	</slot>
+	<slot number = "23" name = "ashanti_mpre">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "0. 1. 1. 0. 1. 0. 1. 0. 1. 1. 0. 1." />
+			<pattr name = "steps" value = "12" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "7" />
+			<pattr name = "rotate" value = "-10." />
+		</patcher>
+	</slot>
+	<slot number = "24" name = "samba">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 0. 0. 1. 0. 1. 0. 1. 0. 0. 1. 0. 1. 0." />
+			<pattr name = "steps" value = "16" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "7" />
+			<pattr name = "rotate" value = "2." />
+		</patcher>
+	</slot>
+	<slot number = "25" name = "ghana-clapping">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 0. 1. 0. 1. 0. 0. 1. 0. 1. 0. 1. 0. 0." />
+			<pattr name = "steps" value = "16" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "7" />
+			<pattr name = "rotate" value = "6." />
+		</patcher>
+	</slot>
+	<slot number = "26" name = "central-africa-clapping">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 1. 0. 1. 0. 1. 0. 1. 1. 0. 1. 0. 1. 0." />
+			<pattr name = "steps" value = "16" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "9" />
+			<pattr name = "rotate" value = "10." />
+		</patcher>
+	</slot>
+	<slot number = "27" name = "west+central-africa-clapping">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 0. 1. 1. 0. 1. 0. 1. 0. 1. 0. 1. 1. 0." />
+			<pattr name = "steps" value = "16" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "9" />
+			<pattr name = "rotate" value = "-11." />
+		</patcher>
+	</slot>
+	<slot number = "28" name = "ngbaka-maibo-bell">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 0. 1. 0. 1. 1. 0. 1. 0. 1. 0. 1. 1. 0." />
+			<pattr name = "steps" value = "16" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "9" />
+			<pattr name = "rotate" value = "-18." />
+		</patcher>
+	</slot>
+	<slot number = "29" name = "aka-pygmie_1">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 0. 1. 0. 1. 0. 1. 0. 1. 0. 0. 1. 0. 1. 0. 1. 0. 1. 0. 1. 0. 0." />
+			<pattr name = "steps" value = "24" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "11" />
+			<pattr name = "rotate" value = "10." />
+		</patcher>
+	</slot>
+	<slot number = "30" name = "aka-pygmie_2">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 0. 1. 0. 1. 0. 1. 1. 0. 1. 0. 1. 0. 1. 0. 1. 0. 1. 0. 1. 1. 0." />
+			<pattr name = "steps" value = "24" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "13" />
+			<pattr name = "rotate" value = "9." />
+		</patcher>
+	</slot>
+	<slot number = "31" name = "classical-jazz-persian">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 0. 0." />
+			<pattr name = "steps" value = "5" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "2" />
+			<pattr name = "rotate" value = "7." />
+		</patcher>
+	</slot>
+	<slot number = "32" name = "bulgarian-folk">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 0. 1. 0. 0." />
+			<pattr name = "steps" value = "7" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "3" />
+			<pattr name = "rotate" value = "4." />
+		</patcher>
+	</slot>
+	<slot number = "33" name = "turkey">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 0. 1. 0. 1. 0. 0." />
+			<pattr name = "steps" value = "9" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "4" />
+			<pattr name = "rotate" value = "6." />
+		</patcher>
+	</slot>
+	<slot number = "34" name = "classical">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 0. 1. 0. 1. 0. 1. 0. 0." />
+			<pattr name = "steps" value = "11" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "5" />
+			<pattr name = "rotate" value = "8." />
+		</patcher>
+	</slot>
+	<slot number = "35" name = "brazilian-necklace">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 0. 1. 0. 0. 1. 0. 0. 1. 0. 0. 1. 0. 0. 0." />
+			<pattr name = "steps" value = "16" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "5" />
+			<pattr name = "rotate" value = "12." />
+		</patcher>
+	</slot>
+	<slot number = "36" name = "trinidad-persia">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 1." />
+			<pattr name = "steps" value = "4" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "3" />
+			<pattr name = "rotate" value = "12." />
+		</patcher>
+	</slot>
+	<slot number = "37" name = "rumanian-persian-necklace">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 0. 1." />
+			<pattr name = "steps" value = "5" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "3" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "38" name = "west-africa">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 0. 1. 0. 0. 1. 0." />
+			<pattr name = "steps" value = "8" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "3" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "39" name = "bulgaria">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 0. 1. 0. 1." />
+			<pattr name = "steps" value = "7" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "4" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "40" name = "frank-zappa">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 0. 1. 0. 0. 1. 0. 0. 1. 0." />
+			<pattr name = "steps" value = "11" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "4" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "41" name = "arab_1">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 1. 1. 1." />
+			<pattr name = "steps" value = "6" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "5" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "42" name = "arab_2">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 1. 0. 1. 1." />
+			<pattr name = "steps" value = "7" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "5" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "43" name = "arab-SA-rumanian-necklace">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 0. 1. 0. 1. 0. 1." />
+			<pattr name = "steps" value = "9" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "5" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "44" name = "south-africa">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 0. 1. 0. 1. 0. 0. 1. 0. 1. 0." />
+			<pattr name = "steps" value = "12" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "5" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "45" name = "tuareg">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 1. 1. 1. 1. 1." />
+			<pattr name = "steps" value = "8" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "7" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "46" name = "central-africa">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 0. 1. 0. 1. 0. 1. 0. 1. 0. 1. 0. 0. 1. 0. 1. 0. 1. 0. 1. 0. 1. 0." />
+			<pattr name = "steps" value = "24" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "11" />
+			<pattr name = "rotate" value = "0." />
+		</patcher>
+	</slot>
+	<slot number = "47" name = "west-africa">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 1. 0. 1. 1. 0." />
+			<pattr name = "steps" value = "8" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "5" />
+			<pattr name = "rotate" value = "-2." />
+		</patcher>
+	</slot>
+	<slot number = "48" name = "west-africa_2">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 1. 0. 1. 0. 1. 1. 0. 1. 0." />
+			<pattr name = "steps" value = "12" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "7" />
+			<pattr name = "rotate" value = "8." />
+		</patcher>
+	</slot>
+	<slot number = "49" name = "WA-CA-brazlian-necklace">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 1. 0. 1. 0. 1. 0. 1. 1. 0. 1. 0. 1. 0." />
+			<pattr name = "steps" value = "16" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "9" />
+			<pattr name = "rotate" value = "-6." />
+		</patcher>
+	</slot>
+	<slot number = "50" name = "central-african-necklace">
+		<patcher name = "m">
+			<pattr name = "pattern" value = "1. 0. 1. 1. 0. 1. 0. 1. 0. 1. 0. 1. 0. 1. 1. 0. 1. 0. 1. 0. 1. 0. 1. 0." />
+			<pattr name = "steps" value = "24" />
+			<pattr name = "counter" value = "index" />
+			<pattr name = "output" value = "eventcount" />
+			<pattr name = "trigger" value = "change" />
+			<pattr name = "events" value = "13" />
+			<pattr name = "rotate" value = "-10." />
+		</patcher>
+	</slot>
+</pattrstorage>

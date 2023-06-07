@@ -1,145 +1,102 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
-<c74object name="seq.euclidean~">
-<metadatalist>
-<metadata name="author">Philip Meyer</metadata>
-<metadata name="tag">sequencing</metadata>
-</metadatalist>
-<attributelist>
-    <attribute name="countermode" get="1" set="1" size="1" type="float64">
-        <digest>Specifies the type of input the object should expect. 0 is for phasor-like signals, and 1 is for stepwise counter signals.</digest>
-        <attributelist>
-            <attribute name="default" get="1" set="1" type="int" size="1" value="0" />
-            <attribute name="enumvals" get="1" set="1" type="atom" size="2">
-                <enumlist>
-                    <enum name="index">
-                        <digest>
-                            Counter signal
-                        </digest>
-                        <description>
-                            The input signal is expected to be counter. The value at the left inlet is rounded to the nearest whole number and used to evaluate the step in the pattern.
-                        </description>
-                    </enum>
-                    <enum name="normalized">
-                        <digest>
-                            Phasor/ramp signal
-                        </digest>
-                        <description>
-                            The input signal is expected to be a ramp between 0. and 1. The signal is subdivided according to <at>steps</at>, and the resulting step index is used to evaluate the step in the pattern.
-                        </description>
-                    </enum>
-                </enumlist>
-            </attribute>
-            <attribute name="label" get="1" set="1" type="symbol" size="1" value="Counter Mode" />
-            <attribute name="style" get="1" set="1" type="symbol" size="1" value="enumindex" />
-        </attributelist>
-        </attribute>
-        <attribute name="triggermode" get="1" set="1" size="1" type="float64">
-        <digest>Determines how the object responds to signals to the first and second inlets.</digest>
-        <attributelist>
-            <attribute name="default" get="1" set="1" type="int" size="1" value="1" />
-            <attribute name="enumvals" get="1" set="1" type="atom" size="3">
-                <enumlist>
-                    <enum name="trigger">
-                        <digest>
-                            Counter and trigger
-                        </digest>
-                        <description>
-                            A trigger is required at the second inlet to evaluate a new step in the pattern. The value at the first inlet is used to select the step to be evaulated.
-                        </description>
-                    </enum>
-                    <enum name="change">
-                        <digest>
-                            Counter only
-                        </digest>
-                        <description>
-                            A new step in the pattern is evaluated any time the signal value at the first inlet changes.
-                        </description>
-                    </enum>
-                    <enum name="count">
-                        <digest>
-                            Trigger only
-                        </digest>
-                        <description>
-                            The first inlet is ignored. A trigger at the second inlet causes a step to be evaluated, and the step is chosen by keeping a running count of triggers received at the second inlet.
-                        </description>
-                    </enum>
-                </enumlist>
-            </attribute>
-            <attribute name="label" get="1" set="1" type="symbol" size="1" value="Trigger Mode" />
-            <attribute name="style" get="1" set="1" type="symbol" size="1" value="enumindex" />
-        </attributelist>
-        </attribute>
-        <attribute name="outputmode" get="1" set="1" size="1" type="float64">
-        <digest>Determines how the output of the first outlet represents the pattern’s position. For non-activated steps, the output is always 0.</digest>
-        <attributelist>
-            <attribute name="default" get="1" set="1" type="int" size="1" value="4" />
-            <attribute name="enumvals" get="1" set="1" type="atom" size="5">
-                <enumlist>
-                    <enum name="input_counter">
-                        <digest>
-                            Input counter 
-                        </digest>
-                        <description>
-                            The value at the first inlet is passed through to the input. 
-                        </description>
-                    </enum>
-                    <enum name="step_ix">
-                        <digest>
-                            Current step
-                        </digest>
-                        <description>
-                            The index of the step in the pattern.
-                        </description>
-                    </enum>
-                    <enum name="event_ix">
-                        <digest>
-                            Current event
-                        </digest>
-                        <description>
-                            The index of the event in the pattern. (e.g. if the pattern has 4 events, the final event’s index is 4). 
-                        </description>
-                    </enum>
-                    <enum name="event_count">
-                        <digest>
-                            Running count of events
-                        </digest>
-                        <description>
-                            A running count of the number of events.
-                        </description>
-                    </enum>
-                    <enum name="gate">
-                        <digest>
-                            Boolean gate
-                        </digest>
-                        <description>
-                            The value 1 for the duration of the step.
-                        </description>
-                    </enum>
-                </enumlist>
-            </attribute>
-            <attribute name="label" get="1" set="1" type="symbol" size="1" value="Output Mode" />
-            <attribute name="style" get="1" set="1" type="symbol" size="1" value="enumindex" />
-        </attributelist>
-        </attribute>
-<attribute name="events" get="1" set="1" size="1" type="float64">
-<digest>Number of events in the pattern.</digest>
-</attribute>
-<attribute name="steps" get="1" set="1" size="1" type="float64">
-<digest>Number of steps to count. When <at>steps</at> is greater than the absolute value of <at>ceiling</at> minus <at>floor</at>, the counter wraps around. Also determines the subdivision when <at>subdivmode</at> is ‘polyrhythmic’.</digest>
-</attribute>
-<attribute name="rotate" get="1" set="1" size="1" type="float64">
-<digest>Number of steps to wrap the pattern.</digest>
-</attribute>
-</attributelist>
-<description>The euclidean algorithm will evenly distribute a number of events across a number of steps, which can be used to create rhythmic patterns.</description>
-<digest>Generate patterns using the euclidean algorithm</digest>
-<seealsolist>
-    <seealsolist>
-        <seealso name="seq.emask~" />
-        <seealso name="seq.binary~" />
-        <seealso name="seq.pprob~" />
-        <seealso name="seq.pattern~" />
-    </seealsolist>
-</seealsolist>
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+
+
+<!-- DO NOT EDIT THIS FILE ... YOU WILL LOSE YOUR WORK -->
+
+
+<c74object name='seq.euclidean~' category=''>
+
+	<digest>Unknown</digest>
+	<description>Unknown</description>
+
+
+	<!--METADATA-->
+
+	<metadatalist>
+		<metadata name='author'>Anonymous </metadata>
+	</metadatalist>
+
+
+	<!--ARGUMENTS-->
+
+	<objarglist>
+
+	</objarglist>
+
+
+	<!--MESSAGES-->
+
+	<methodlist>
+
+		<method name='dspstate'>
+			<digest></digest>
+			<description></description>
+		</method>
+
+		<method name='list'>
+			<digest></digest>
+			<description></description>
+		</method>
+
+		<method name='float'>
+			<digest></digest>
+			<description></description>
+		</method>
+
+		<method name='message'>
+			<digest></digest>
+			<description></description>
+		</method>
+
+		<method name='int'>
+			<digest>MIDI INPUT </digest>
+			<description>MIDI INPUT </description>
+		</method>
+
+	</methodlist>
+
+
+	<!--ATTRIBUTES-->
+
+	<attributelist>
+
+		<attribute name='rotate' get='1' set='1' type='float64' size='1' >
+			<digest></digest>
+			<description></description>
+		</attribute>
+
+		<attribute name='steps' get='1' set='1' type='float64' size='1' >
+			<digest></digest>
+			<description></description>
+		</attribute>
+
+		<attribute name='events' get='1' set='1' type='float64' size='1' >
+			<digest></digest>
+			<description></description>
+		</attribute>
+
+		<attribute name='outputmode' get='1' set='1' type='symbol' size='1' >
+			<digest></digest>
+			<description></description>
+		</attribute>
+
+		<attribute name='countermode' get='1' set='1' type='symbol' size='1' >
+			<digest></digest>
+			<description></description>
+		</attribute>
+
+		<attribute name='triggermode' get='1' set='1' type='symbol' size='1' >
+			<digest></digest>
+			<description></description>
+		</attribute>
+
+	</attributelist>
+
+
+	<!--RELATED-->
+
+	<seealsolist>
+	</seealsolist>
+
+
 </c74object>

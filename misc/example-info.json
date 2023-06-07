@@ -87,7 +87,7 @@
 		"digest" : "Single-channel pattern playback visualizer based on live.grid."
 	}
 ,
-	"seq.xtra.rnboexternal" : 	{
+	"seq.help.rnboexternal" : 	{
 		"digest" : "Demonstration of how the seq externals were made with RNBO."
 	}
 ,

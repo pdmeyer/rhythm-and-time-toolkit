@@ -18,7 +18,6 @@
     "rtt.loop~.simple.maxsnip",
     "rtt.loop~.full.maxsnip",
     "rtt.mccellblock.maxsnip",
-    "rtt.patternmodes.maxsnip",
     "rtt.pattern~.maxsnip",
     "rtt.pattrpresets.maxsnip",
     "rtt.phasorscope.maxsnip",
@@ -31,6 +30,8 @@
     "rtt.snap~.maxsnip",
     "rtt.patternviewer.maxsnip",
     "rtt.swing~.maxsnip",
-    "rtt.stepgridviewer"
+    "rtt.notes~.maxsnip",
+    "rtt.stepgridviewer",
+    "rtt.pattrhelper"
     ]
 }

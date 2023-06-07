@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 3,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -74,7 +74,7 @@
 				"box" : 				{
 					"comment" : "bang when preset is recalled",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -93,8 +93,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -225,7 +225,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -240,10 +240,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 371.00000760595708, 361.333335876464844, 150.0, 20.0 ],
+					"patching_rect" : [ 367.00000760595708, 359.333335876464844, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 34.0, 343.0, 20.0 ],
-					"text" : "seq.ex.livesync"
+					"text" : "rtt.xtra.pattrhelper"
 				}
 
 			}
@@ -366,13 +366,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.00000760595708, 137.333334445953369, 131.0, 22.0 ],
+					"patching_rect" : [ 50.00000760595708, 137.333334445953369, 123.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "seq.getpatchname.js",
+						"filename" : "rtt.getpatchname.js",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js seq.getpatchname.js"
+					"text" : "js rtt.getpatchname.js"
 				}
 
 			}
@@ -380,7 +380,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2687",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -393,7 +393,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2688",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -406,7 +406,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2690",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -417,7 +417,9 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.937254901960784, 0.937254901960784, 0.729411764705882, 0.5 ],
+					"bgcolor" : [ 0.937254901960784, 0.937254901960784, 0.729411764705882, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-6",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -568,37 +570,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-12::obj-10" : [ "pastebang", "pastebang", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "seq.getpatchname.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.misc.philipmeyer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
-				"patcherrelativepath" : "../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

@@ -1,12 +1,12 @@
 {
-	"name" : "seq",
+	"name" : "Rhythm and Time Toolkit",
 	"displayname" : "",
 	"version" : "0.1.0",
 	"author" : "Philip Meyer",
 	"authors" : [  ],
-	"description" : "Objects for signal-based sequencing in Max MSP. Made with RNBO~",
+	"description" : "Objects for modular signal-based sequencing in Max MSP. Made with RNBO~",
 	"tags" : [ "sequencing" ],
-	"website" : "https://github.com/pdmeyer/seq",
+	"website" : "https://github.com/pdmeyer/rhythm-and-time-toolkit",
 	"extends" : "",
 	"extensible" : 0,
 	"max_version_min" : "8.5.0",
@@ -24,7 +24,7 @@
 
 	}
 ,
-	"homepatcher" : "Seq.maxpat",
+	"homepatcher" : "RhythmAndTimeToolkit.maxpat",
 	"package_extra" : 	{
 		"copyright" : "Copyright (c) 2023 Philip Meyer"
 	}

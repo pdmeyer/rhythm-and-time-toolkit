@@ -1,0 +1,69 @@
+{
+	"patcher" : 	{
+		"boxes" : [ 			{
+				"box" : 				{
+					"maxclass" : "newobj",
+					"text" : "mc.list~ 1 2 3 4",
+					"id" : "obj-117",
+					"hidden" : 1,
+					"numinlets" : 1,
+					"patching_rect" : [ 158.0, 10.0, 90.0, 22.0 ],
+					"numoutlets" : 1,
+					"outlettype" : [ "multichannelsignal" ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "jit.cellblock",
+					"colwidth" : 37,
+					"grid" : 0,
+					"cols" : 4,
+					"vscroll" : 0,
+					"fontsize" : 12.0,
+					"id" : "obj-115",
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"numinlets" : 2,
+					"patching_rect" : [ 10.0, 10.0, 146.0, 20.0 ],
+					"fontname" : "Arial",
+					"selmode" : 0,
+					"rows" : 1,
+					"numoutlets" : 4,
+					"fontface" : 0,
+					"hscroll" : 0,
+					"outlettype" : [ "list", "", "", "" ]
+				}
+
+			}
+ ],
+		"lines" : [ 			{
+				"patchline" : 				{
+					"source" : [ "obj-117", 0 ],
+					"destination" : [ "obj-115", 0 ],
+					"hidden" : 1
+				}
+
+			}
+ ],
+		"appversion" : 		{
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 0,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "box",
+		"description" : "238 x 40, containing 2 objects",
+		"tags" : "audio, video",
+		"snippetinfo" : 		{
+			"name" : "rtt.mccellblock",
+			"objects" : "jit.cellblock, mc.list~",
+			"tags" : "audio, video",
+			"description" : "238 x 40, containing 2 objects",
+			"image" : "iVBORw0KGgoAAAANSUhEUgAAAO4AAAAoCAYAAAD5X8aLAAAABHNCSVQICAgIfAhkiAAAAO5JREFUeJzt3bFthTAARVEbsQF0v8w2DMFw7ADbpKTDM5AVEkXCeuKcCV7hW1iy5Hqe513g5c7zq3w+371n/NrQewDwd8KFQMKFQMKFQMKFQMKFQMKFQMKFQMKFQOO2bWWapt47CNZaK+u69p7xKuM8z2VZlt47CHYcR+8JrzPct6fK/I8z9Dx3XAgkXAgkXAgkXAgkXAgkXAgkXAgkXAgkXAgkXAgkXAgkXAgkXAgkXAgkXAg01Fp7byCcM/S88bqusu977x0Ea631nvA61W994Lc+4AHChUDChUDChUDChUDChUDChUDChUDChUA/lAMkl7t8yvcAAAAASUVORK5CYII="
+		}
+
+	}
+
+}

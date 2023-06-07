@@ -1,0 +1,38 @@
+{
+	"patcher" : 	{
+		"boxes" : [ 			{
+				"box" : 				{
+					"maxclass" : "live.scope~",
+					"range" : [ -0.1, 1.1 ],
+					"id" : "obj-124",
+					"numinlets" : 2,
+					"patching_rect" : [ 10.0, 10.0, 184.0, 68.0 ],
+					"numoutlets" : 1,
+					"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
+					"outlettype" : [ "bang" ]
+				}
+
+			}
+ ],
+		"appversion" : 		{
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 0,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "box",
+		"description" : "184 x 68, containing 1 object",
+		"tags" : "audio, m4l",
+		"snippetinfo" : 		{
+			"name" : "rtt.phasorscope",
+			"objects" : "live.scope~",
+			"tags" : "audio, m4l",
+			"description" : "184 x 68, containing 1 object",
+			"image" : "iVBORw0KGgoAAAANSUhEUgAAALgAAABECAYAAAAyY/+lAAAABHNCSVQICAgIfAhkiAAAAcRJREFUeJzt1rGNq0AAhOFZrxOowsEFKxEhSrjEXSBS08QVgZzThZsgJ7cIHJ+EnKx5PTydhTz6vwom+IMJy7JskjTPs8Zx1DRNyjkL+DQxRjVNo7ZtlVKSJIVlWbbb7abr9ap1XbVt284zgf8XQlBZlrpcLjqfzzrO86xhGPR8PokbH2/bNq3rqmEYdDqdFF+v18/9fiduWMk56/F4KFRVtfG54SjGqANxw1XOWYe9RwDvROCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwRuCwdvz+/t17A/A2x6+v594bgLcJVVVtOee9dwB/LsaoQ13XCiHsvQX4UyEE1XWtQ9d1KoqCyGEjhKCiKNR1nQ4pJfV9r7IsiRwfL4SgsizV971SSgrLsmySNM+zxnHUNE3ik+MTxRjVNI3atlVKSZL0D62eaZQpU0RRAAAAAElFTkSuQmCC"
+		}
+
+	}
+
+}

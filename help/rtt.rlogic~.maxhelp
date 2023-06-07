@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 3,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -50,8 +50,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -227,7 +227,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
 									"patching_rect" : [ 39.0, 342.0, 95.0, 35.0 ],
-									"text" : "seq.rlogic rlogic-help-2",
+									"text" : "rtt.rlogic rlogic-help-2",
 									"varname" : "rlogic-help-2"
 								}
 
@@ -244,7 +244,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.rlogic.maxpat",
+									"name" : "rtt.rlogic.maxpat",
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
@@ -307,7 +307,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 39.0, 416.0, 237.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 809, 112, 1355, 911 ],
+										"client_rect" : [ 534, 298, 1279, 875 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
 										"storage_rect" : [ 583, 87, 1081, 651 ]
@@ -426,7 +426,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 474.0, 33.0 ],
-									"text" : "The abstraction seq.rlogic (no tilde) contains the seq.rlogic~ object, a UI and pattr support."
+									"text" : "The abstraction rtt.rlogic (no tilde) contains the seq.rlogic~ object, a UI and pattr support."
 								}
 
 							}
@@ -436,13 +436,13 @@
 									"filename" : "helpname.js",
 									"id" : "obj-4",
 									"ignoreclick" : 1,
-									"jsarguments" : [ "seq.rlogic~" ],
+									"jsarguments" : [ "rtt.rlogic~" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 10.0, 10.0, 232.591995239257812, 57.599853515625 ]
+									"patching_rect" : [ 10.0, 10.0, 211.472000122070312, 57.599853515625 ]
 								}
 
 							}
@@ -454,7 +454,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 312.0, 154.782608695652243, 276.0, 22.0 ],
-									"restore" : [ "right" ],
+									"restore" : [ "and" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -470,14 +470,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
 									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"midpoints" : [ 321.5, 319.782608695652243, 31.0, 319.782608695652243, 31.0, 211.0, 48.5, 211.0 ],
-									"source" : [ "obj-10", 0 ]
 								}
 
 							}
@@ -529,15 +521,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
-									"order" : 0,
-									"source" : [ "obj-19", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"order" : 1,
 									"source" : [ "obj-19", 0 ]
 								}
 
@@ -545,15 +528,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
-									"order" : 0,
-									"source" : [ "obj-22", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-3", 1 ],
-									"order" : 1,
 									"source" : [ "obj-22", 0 ]
 								}
 
@@ -569,20 +543,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
 									"source" : [ "obj-24", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-25", 0 ],
-									"source" : [ "obj-3", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-3", 2 ],
-									"source" : [ "obj-8", 0 ]
 								}
 
 							}
@@ -612,8 +572,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -747,7 +707,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-76",
@@ -798,8 +757,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 3,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1217,7 +1176,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-34",
@@ -1237,13 +1195,13 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 8.833333333333329, 487.0, 244.333333333333371, 22.0 ],
+									"patching_rect" : [ 8.833333333333329, 487.0, 164.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.rlogic~ @outputmode gate"
+									"text" : "rtt.rlogic~ @outputmode gate"
 								}
 
 							}
@@ -1254,13 +1212,13 @@
 									"numinlets" : 4,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 102.5, 328.0, 76.0, 22.0 ],
+									"patching_rect" : [ 102.5, 328.0, 67.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.pattern~"
+									"text" : "rtt.pattern~"
 								}
 
 							}
@@ -1271,13 +1229,13 @@
 									"numinlets" : 4,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 8.833333333333329, 328.0, 76.0, 22.0 ],
+									"patching_rect" : [ 8.833333333333329, 328.0, 67.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.pattern~"
+									"text" : "rtt.pattern~"
 								}
 
 							}
@@ -1356,18 +1314,17 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-13",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 5,
-									"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 9.0, 189.0, 120.0, 35.0 ],
+									"numoutlets" : 6,
+									"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "" ],
+									"patching_rect" : [ 9.0, 189.0, 167.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.loop~ @steps 8 @subdiv 8"
+									"text" : "rtt.loop~ @steps 8 @subdiv 8"
 								}
 
 							}
@@ -1375,16 +1332,16 @@
 								"box" : 								{
 									"id" : "obj-3",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 9.0, 161.5, 56.0, 22.0 ],
+									"numinlets" : 4,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "signal" ],
+									"patching_rect" : [ 9.0, 161.5, 57.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.bar~"
+									"text" : "rtt.clock~"
 								}
 
 							}
@@ -1394,7 +1351,7 @@
 									"filename" : "helpdetails.js",
 									"id" : "obj-2",
 									"ignoreclick" : 1,
-									"jsarguments" : [ "seq.rlogic~" ],
+									"jsarguments" : [ "rtt.rlogic~" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -1420,7 +1377,7 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-15", 3 ],
-									"midpoints" : [ 311.499999999999886, 313.25, 75.333333333333329, 313.25 ],
+									"midpoints" : [ 311.499999999999886, 313.25, 66.333333333333329, 313.25 ],
 									"order" : 1,
 									"source" : [ "obj-10", 1 ]
 								}
@@ -1461,7 +1418,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-25", 2 ],
-									"midpoints" : [ 69.0, 291.607300000000009, 243.666666666666686, 291.607300000000009 ],
+									"midpoints" : [ 77.700000000000003, 291.607300000000009, 163.333333333333314, 291.607300000000009 ],
 									"order" : 0,
 									"source" : [ "obj-13", 2 ]
 								}
@@ -1509,7 +1466,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-17", 3 ],
-									"midpoints" : [ 474.833333333333258, 322.25, 169.0, 322.25 ],
+									"midpoints" : [ 474.833333333333258, 322.25, 160.0, 322.25 ],
 									"order" : 1,
 									"source" : [ "obj-18", 1 ]
 								}
@@ -1635,8 +1592,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1775,83 +1732,83 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.bar~.mxo",
+				"name" : "rtt.clock~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "seq.loop~.mxo",
+				"name" : "rtt.loop~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "seq.misc.aboutbutton.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
-				"patcherrelativepath" : "../misc",
+				"name" : "rtt.module.attrchecker.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"patcherrelativepath" : "../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.module.attrchecker.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
+				"name" : "rtt.module.control.js",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"patcherrelativepath" : "../patchers/module-components",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.module.control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
+				"name" : "rtt.module.control.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"patcherrelativepath" : "../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.module.remote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
+				"name" : "rtt.module.remote.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"patcherrelativepath" : "../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.module.viewcontrol.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
+				"name" : "rtt.module.viewcontrol.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"patcherrelativepath" : "../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.pattern~.mxo",
+				"name" : "rtt.pattern~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "seq.rlogic.maxpat",
+				"name" : "rtt.rlogic.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/rlogic",
 				"patcherrelativepath" : "../patchers/modules/rlogic",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.rlogic.model.maxpat",
+				"name" : "rtt.rlogic.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/rlogic",
 				"patcherrelativepath" : "../patchers/modules/rlogic",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.rlogic.view.maxpat",
+				"name" : "rtt.rlogic.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/rlogic",
 				"patcherrelativepath" : "../patchers/modules/rlogic",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.rlogic~.mxo",
+				"name" : "rtt.rlogic~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.misc.aboutbutton.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/_archive",
+				"patcherrelativepath" : "../misc/_archive",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "tri-down.svg",

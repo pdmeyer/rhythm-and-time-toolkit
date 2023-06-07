@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 3,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -50,14 +50,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 610.0, 471.0 ],
+						"rect" : [ 100.0, 113.0, 610.0, 471.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -92,13 +92,13 @@
 									"filename" : "helpname.js",
 									"id" : "obj-4",
 									"ignoreclick" : 1,
-									"jsarguments" : [ "seq.clock~" ],
+									"jsarguments" : [ "rtt.clock~" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 10.0, 10.0, 225.943984985351562, 57.599853515625 ]
+									"patching_rect" : [ 10.0, 10.0, 204.823974609375, 57.599853515625 ]
 								}
 
 							}
@@ -164,11 +164,6 @@
 							}
 , 							{
 								"box" : 								{
-									"active" : 									{
-										"clock-help::m::transportstate" : 0,
-										"clock-help-2::m::transportstate" : 0
-									}
-,
 									"id" : "obj-20",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -326,9 +321,8 @@
 								"box" : 								{
 									"id" : "obj-3",
 									"maxclass" : "newobj",
-									"numinlets" : 4,
-									"numoutlets" : 2,
-									"outlettype" : [ "signal", "signal" ],
+									"numinlets" : 0,
+									"numoutlets" : 0,
 									"patching_rect" : [ 39.0, 341.0, 145.0, 22.0 ],
 									"text" : "seq.clock clock-help-2",
 									"varname" : "clock-help-2"
@@ -348,10 +342,9 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "seq.clock.maxpat",
-									"numinlets" : 4,
-									"numoutlets" : 2,
+									"numinlets" : 0,
+									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "signal", "signal" ],
 									"patching_rect" : [ 39.0, 166.0, 145.0, 45.0 ],
 									"varname" : "clock-help",
 									"viewvisibility" : 1
@@ -379,21 +372,6 @@
 							}
  ],
 						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-6", 0 ],
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"midpoints" : [ 333.5, 321.0, 23.0, 321.0, 23.0, 156.0, 48.5, 156.0 ],
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-20", 0 ],
 									"source" : [ "obj-11", 0 ]
@@ -465,14 +443,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 113.0, 610.0, 471.0 ],
+						"rect" : [ 0.0, 26.0, 610.0, 471.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -816,13 +794,13 @@
 									"filename" : "helpname.js",
 									"id" : "obj-4",
 									"ignoreclick" : 1,
-									"jsarguments" : [ "seq.clock~" ],
+									"jsarguments" : [ "rtt.clock~" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 10.0, 10.0, 225.943984985351562, 57.599853515625 ]
+									"patching_rect" : [ 10.0, 10.0, 204.823974609375, 57.599853515625 ]
 								}
 
 							}
@@ -958,8 +936,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1022,8 +1000,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1171,13 +1149,13 @@
 									"numinlets" : 4,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 25.0, 286.0, 66.0, 22.0 ],
+									"patching_rect" : [ 25.0, 286.0, 57.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.clock~"
+									"text" : "rtt.clock~"
 								}
 
 							}
@@ -1233,7 +1211,7 @@
 									"filename" : "helpdetails.js",
 									"id" : "obj-2",
 									"ignoreclick" : 1,
-									"jsarguments" : [ "seq.clock~" ],
+									"jsarguments" : [ "rtt.clock~" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -1302,70 +1280,7 @@
 			}
  ],
 		"lines" : [  ],
-		"parameters" : 		{
-			"obj-2::obj-1::obj-6::obj-10" : [ "live.numbox[89]", "live.numbox[2]", 0 ],
-			"obj-2::obj-1::obj-6::obj-12" : [ "live.text[6]", "live.text[2]", 0 ],
-			"obj-2::obj-1::obj-6::obj-2" : [ "live.button[3]", "live.button", 0 ],
-			"obj-2::obj-1::obj-6::obj-9" : [ "live.text[5]", "live.text[2]", 0 ],
-			"obj-2::obj-1::obj-93::obj-25" : [ "live.button[14]", "live.button", 0 ],
-			"obj-2::obj-3::obj-6::obj-10" : [ "live.numbox[1]", "live.numbox[2]", 0 ],
-			"obj-2::obj-3::obj-6::obj-12" : [ "live.text[8]", "live.text[2]", 0 ],
-			"obj-2::obj-3::obj-6::obj-2" : [ "live.button[4]", "live.button", 0 ],
-			"obj-2::obj-3::obj-6::obj-9" : [ "live.text[7]", "live.text[2]", 0 ],
-			"obj-2::obj-3::obj-93::obj-25" : [ "live.button[5]", "live.button", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-2::obj-1::obj-93::obj-25" : 				{
-					"parameter_longname" : "live.button[14]"
-				}
-,
-				"obj-2::obj-3::obj-6::obj-10" : 				{
-					"parameter_longname" : "live.numbox[1]"
-				}
-,
-				"obj-2::obj-3::obj-6::obj-12" : 				{
-					"parameter_longname" : "live.text[8]"
-				}
-,
-				"obj-2::obj-3::obj-6::obj-2" : 				{
-					"parameter_longname" : "live.button[4]"
-				}
-,
-				"obj-2::obj-3::obj-6::obj-9" : 				{
-					"parameter_longname" : "live.text[7]"
-				}
-,
-				"obj-2::obj-3::obj-93::obj-25" : 				{
-					"parameter_longname" : "live.button[5]"
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
 		"dependency_cache" : [ 			{
-				"name" : "Pause.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
-				"patcherrelativepath" : "../media/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "helpdetails.js",
 				"bootpath" : "C74:/help/resources",
 				"type" : "TEXT",
@@ -1378,25 +1293,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.clock.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/clock",
-				"patcherrelativepath" : "../patchers/modules/clock",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.clock.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/clock",
-				"patcherrelativepath" : "../patchers/modules/clock",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.clock.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/clock",
-				"patcherrelativepath" : "../patchers/modules/clock",
-				"type" : "JSON",
-				"implicit" : 1
+				"name" : "rtt.clock~.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "seq.clock~.mxo",
@@ -1404,43 +1302,8 @@
 			}
 , 			{
 				"name" : "seq.misc.aboutbutton.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
-				"patcherrelativepath" : "../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.module.attrchecker.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.module.control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.module.remote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.module.viewcontrol.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/_archive",
+				"patcherrelativepath" : "../misc/_archive",
 				"type" : "JSON",
 				"implicit" : 1
 			}

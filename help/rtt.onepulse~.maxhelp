@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 3,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -68,8 +68,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -132,8 +132,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -304,15 +304,15 @@
 									"id" : "obj-18",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 5,
-									"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 204.166666666666657, 234.0, 121.0, 22.0 ],
+									"numoutlets" : 6,
+									"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "" ],
+									"patching_rect" : [ 204.166666666666657, 234.0, 112.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.loop~ @subdiv 9"
+									"text" : "rtt.loop~ @subdiv 9"
 								}
 
 							}
@@ -321,15 +321,15 @@
 									"id" : "obj-17",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 5,
-									"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 15.666666666666664, 234.0, 128.0, 22.0 ],
+									"numoutlets" : 6,
+									"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "" ],
+									"patching_rect" : [ 15.666666666666664, 234.0, 119.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.loop~ @subdiv 16"
+									"text" : "rtt.loop~ @subdiv 16"
 								}
 
 							}
@@ -356,13 +356,13 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 70.166666666666657, 324.0, 203.999999999999972, 22.0 ],
+									"patching_rect" : [ 70.166666666666657, 324.0, 78.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.onepulse~"
+									"text" : "rtt.onepulse~"
 								}
 
 							}
@@ -431,13 +431,13 @@
 									"numinlets" : 4,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 15.666666666666664, 193.0, 128.0, 22.0 ],
+									"patching_rect" : [ 15.666666666666664, 193.0, 119.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.clock~ @bpm 120"
+									"text" : "rtt.clock~ @bpm 120"
 								}
 
 							}
@@ -447,7 +447,7 @@
 									"filename" : "helpdetails.js",
 									"id" : "obj-2",
 									"ignoreclick" : 1,
-									"jsarguments" : [ "seq.onepulse~" ],
+									"jsarguments" : [ "rtt.onepulse~" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -459,7 +459,7 @@
 							}
 , 							{
 								"box" : 								{
-									"attr" : "outputmode",
+									"attr" : "output",
 									"id" : "obj-35",
 									"maxclass" : "attrui",
 									"numinlets" : 1,
@@ -594,23 +594,23 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.clock~.mxo",
+				"name" : "rtt.clock~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "seq.loop~.mxo",
+				"name" : "rtt.loop~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rtt.onepulse~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "seq.misc.aboutbutton.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
-				"patcherrelativepath" : "../misc",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/_archive",
+				"patcherrelativepath" : "../misc/_archive",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.onepulse~.mxo",
-				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0

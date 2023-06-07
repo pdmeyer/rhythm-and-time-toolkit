@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 3,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -50,14 +50,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 722.0, 578.0 ],
+						"rect" : [ 34.0, 113.0, 722.0, 578.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -141,15 +141,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 39.0, 442.0, 260.0, 22.0 ],
-									"priority" : 									{
-										"euclidean-help::m::events" : 1,
-										"euclidean-help::m::rotate" : 2,
-										"euclidean-help::m::pattern" : -1,
-										"euclidean-help-2::m::events" : 1,
-										"euclidean-help-2::m::rotate" : 2,
-										"euclidean-help-2::m::pattern" : -1
-									}
-,
 									"saved_object_attributes" : 									{
 										"client_rect" : [ 809, 112, 1355, 911 ],
 										"parameter_enable" : 0,
@@ -213,14 +204,9 @@
 									"id" : "obj-9",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "signal", "signal", "signal", "" ],
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 39.0, 134.0, 56.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"parameter_enable" : 0,
-										"parameter_mappable" : 0
-									}
-,
 									"text" : "seq.bar~"
 								}
 
@@ -353,9 +339,8 @@
 								"box" : 								{
 									"id" : "obj-3",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 3,
-									"outlettype" : [ "signal", "signal", "signal" ],
+									"numinlets" : 0,
+									"numoutlets" : 0,
 									"patching_rect" : [ 39.0, 365.0, 210.0, 22.0 ],
 									"text" : "seq.euclidean euclidean-help-2",
 									"varname" : "euclidean-help-2"
@@ -375,10 +360,9 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "seq.euclidean.maxpat",
-									"numinlets" : 2,
-									"numoutlets" : 3,
+									"numinlets" : 0,
+									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "signal", "signal", "signal" ],
 									"patching_rect" : [ 39.0, 196.0, 257.0, 59.0 ],
 									"varname" : "euclidean-help",
 									"viewvisibility" : 1
@@ -405,13 +389,13 @@
 									"filename" : "helpname.js",
 									"id" : "obj-4",
 									"ignoreclick" : 1,
-									"jsarguments" : [ "seq.euclidean~" ],
+									"jsarguments" : [ "rtt.euclidean~" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 10.0, 10.0, 317.9119873046875, 57.599853515625 ]
+									"patching_rect" : [ 10.0, 10.0, 296.792022705078125, 57.599853515625 ]
 								}
 
 							}
@@ -436,21 +420,6 @@
 							}
  ],
 						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-19", 0 ],
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"midpoints" : [ 418.5, 321.0, 23.0, 321.0, 23.0, 188.0, 48.5, 188.0 ],
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-10", 0 ],
 									"source" : [ "obj-12", 0 ]
@@ -499,13 +468,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-22", 0 ],
 									"source" : [ "obj-20", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"source" : [ "obj-6", 0 ]
 								}
 
 							}
@@ -560,8 +522,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -624,14 +586,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 722.0, 578.0 ],
+						"rect" : [ 0.0, 26.0, 722.0, 578.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -700,8 +662,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 3,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1163,8 +1125,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 3,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1390,6 +1352,7 @@
 							}
 , 							{
 								"box" : 								{
+									"columns" : 9,
 									"id" : "obj-18",
 									"ignoreclick" : 1,
 									"maxclass" : "matrixctrl",
@@ -1409,13 +1372,13 @@
 									"numinlets" : 3,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 24.0, 317.0, 205.0, 22.0 ],
+									"patching_rect" : [ 24.0, 317.0, 204.999999999999972, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.euclidean~ @steps 8 @events 5"
+									"text" : "rtt.euclidean~ @steps 8 @events 5"
 								}
 
 							}
@@ -1453,15 +1416,15 @@
 									"id" : "obj-13",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 5,
-									"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 24.0, 191.0, 189.0, 22.0 ],
+									"numoutlets" : 6,
+									"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "" ],
+									"patching_rect" : [ 24.0, 191.0, 180.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.loop~ @steps 16 @subdiv 16"
+									"text" : "rtt.loop~ @steps 16 @subdiv 16"
 								}
 
 							}
@@ -1489,16 +1452,16 @@
 								"box" : 								{
 									"id" : "obj-3",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 24.0, 160.0, 56.0, 22.0 ],
+									"numinlets" : 4,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "signal" ],
+									"patching_rect" : [ 24.0, 160.0, 57.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.bar~"
+									"text" : "rtt.clock~"
 								}
 
 							}
@@ -1522,7 +1485,7 @@
 									"filename" : "helpdetails.js",
 									"id" : "obj-2",
 									"ignoreclick" : 1,
-									"jsarguments" : [ "seq.euclidean~" ],
+									"jsarguments" : [ "rtt.euclidean~" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -1711,88 +1674,11 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-1::obj-109" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
-			"obj-6::obj-1::obj-18::obj-12" : [ "trig increment[33]", "trig inc", 0 ],
-			"obj-6::obj-1::obj-18::obj-165" : [ "trig increment[2]", "trig inc", 0 ],
-			"obj-6::obj-1::obj-18::obj-2" : [ "live.button[85]", "live.button", 0 ],
-			"obj-6::obj-1::obj-18::obj-28::obj-236" : [ "sequence viewer[1]", "sequence viewer", 0 ],
-			"obj-6::obj-1::obj-18::obj-28::obj-3::obj-16" : [ "live.menu[13]", "live.menu", 0 ],
-			"obj-6::obj-1::obj-18::obj-28::obj-3::obj-18" : [ "live.menu[15]", "live.menu", 0 ],
-			"obj-6::obj-1::obj-18::obj-28::obj-3::obj-22" : [ "live.menu[14]", "live.menu", 0 ],
-			"obj-6::obj-1::obj-18::obj-29" : [ "sequence length[2]", "steps", 2 ],
-			"obj-6::obj-1::obj-18::obj-33" : [ "sequence trigs[1]", "trigs", 1 ],
-			"obj-6::obj-1::obj-18::obj-34" : [ "sequence rotate[4]", "rotate", 3 ],
-			"obj-6::obj-1::obj-18::obj-7" : [ "trig increment[1]", "trig inc", 0 ],
-			"obj-6::obj-1::obj-18::obj-9" : [ "live.text[50]", "live.text", 0 ],
-			"obj-6::obj-1::obj-2::obj-25" : [ "live.button[8]", "live.button", 0 ],
-			"obj-6::obj-3::obj-18::obj-12" : [ "trig increment[3]", "trig inc", 0 ],
-			"obj-6::obj-3::obj-18::obj-165" : [ "trig increment[5]", "trig inc", 0 ],
-			"obj-6::obj-3::obj-18::obj-2" : [ "live.button[1]", "live.button", 0 ],
-			"obj-6::obj-3::obj-18::obj-28::obj-236" : [ "sequence viewer[2]", "sequence viewer", 0 ],
-			"obj-6::obj-3::obj-18::obj-28::obj-3::obj-16" : [ "live.menu[3]", "live.menu", 0 ],
-			"obj-6::obj-3::obj-18::obj-28::obj-3::obj-18" : [ "live.menu[2]", "live.menu", 0 ],
-			"obj-6::obj-3::obj-18::obj-28::obj-3::obj-22" : [ "live.menu[1]", "live.menu", 0 ],
-			"obj-6::obj-3::obj-18::obj-29" : [ "sequence length[3]", "steps", 2 ],
-			"obj-6::obj-3::obj-18::obj-33" : [ "sequence trigs[2]", "trigs", 1 ],
-			"obj-6::obj-3::obj-18::obj-34" : [ "sequence rotate[1]", "rotate", 3 ],
-			"obj-6::obj-3::obj-18::obj-7" : [ "trig increment[4]", "trig inc", 0 ],
-			"obj-6::obj-3::obj-18::obj-9" : [ "live.text[1]", "live.text", 0 ],
-			"obj-6::obj-3::obj-2::obj-25" : [ "live.button[9]", "live.button", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-6::obj-3::obj-18::obj-12" : 				{
-					"parameter_longname" : "trig increment[3]"
-				}
-,
-				"obj-6::obj-3::obj-18::obj-165" : 				{
-					"parameter_longname" : "trig increment[5]"
-				}
-,
-				"obj-6::obj-3::obj-18::obj-2" : 				{
-					"parameter_longname" : "live.button[1]"
-				}
-,
-				"obj-6::obj-3::obj-18::obj-28::obj-3::obj-16" : 				{
-					"parameter_longname" : "live.menu[3]"
-				}
-,
-				"obj-6::obj-3::obj-18::obj-28::obj-3::obj-18" : 				{
-					"parameter_longname" : "live.menu[2]"
-				}
-,
-				"obj-6::obj-3::obj-18::obj-28::obj-3::obj-22" : 				{
-					"parameter_longname" : "live.menu[1]"
-				}
-,
-				"obj-6::obj-3::obj-18::obj-29" : 				{
-					"parameter_longname" : "sequence length[3]"
-				}
-,
-				"obj-6::obj-3::obj-18::obj-33" : 				{
-					"parameter_longname" : "sequence trigs[2]"
-				}
-,
-				"obj-6::obj-3::obj-18::obj-34" : 				{
-					"parameter_longname" : "sequence rotate[1]"
-				}
-,
-				"obj-6::obj-3::obj-18::obj-7" : 				{
-					"parameter_longname" : "trig increment[4]"
-				}
-,
-				"obj-6::obj-3::obj-18::obj-9" : 				{
-					"parameter_longname" : "live.text[1]"
-				}
-,
-				"obj-6::obj-3::obj-2::obj-25" : 				{
-					"parameter_longname" : "live.button[9]"
 				}
 
 			}
@@ -1813,39 +1699,15 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.bar~.mxo",
+				"name" : "rtt.clock~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "seq.euclidean.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/euclidean",
-				"patcherrelativepath" : "../patchers/modules/euclidean",
-				"type" : "JSON",
-				"implicit" : 1
+				"name" : "rtt.euclidean~.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "seq.euclidean.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/euclidean",
-				"patcherrelativepath" : "../patchers/modules/euclidean",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.euclidean.presets.xml",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/dist",
-				"patcherrelativepath" : "../patchers/modules/dist",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.euclidean.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/euclidean",
-				"patcherrelativepath" : "../patchers/modules/euclidean",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.euclidean~.mxo",
+				"name" : "rtt.loop~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -1854,72 +1716,9 @@
 			}
 , 			{
 				"name" : "seq.misc.aboutbutton.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
-				"patcherrelativepath" : "../misc",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/_archive",
+				"patcherrelativepath" : "../misc/_archive",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.module.attrchecker.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.module.control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.module.patternmodeview.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.module.patternview.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.module.remote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.module.viewcontrol.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tri-down.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
-				"patcherrelativepath" : "../media/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tri-up.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
-				"patcherrelativepath" : "../media/icons",
-				"type" : "svg",
 				"implicit" : 1
 			}
  ],

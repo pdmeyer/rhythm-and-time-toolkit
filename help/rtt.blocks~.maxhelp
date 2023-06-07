@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 3,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -50,8 +50,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -187,8 +187,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 3,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -361,8 +361,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 3,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -830,10 +830,9 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "seq.xtra.stepgridviewer.maxpat",
-									"numinlets" : 2,
-									"numoutlets" : 1,
+									"numinlets" : 0,
+									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "" ],
 									"patching_rect" : [ 365.604008992513059, 296.152173913043498, 298.0, 17.0 ],
 									"viewvisibility" : 1
 								}
@@ -846,13 +845,13 @@
 									"numinlets" : 3,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 116.333333333333329, 265.0, 358.0, 22.0 ],
+									"patching_rect" : [ 130.333333333333314, 235.0, 349.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.euclidean~ @steps 11 @events 7 @countermode normalized"
+									"text" : "rtt.euclidean~ @steps 11 @events 7 @countermode normalized"
 								}
 
 							}
@@ -878,31 +877,30 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 15.0, 209.0, 159.0, 22.0 ],
+									"patching_rect" : [ 15.0, 209.0, 150.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.blocks~ @syncupdate 1"
+									"text" : "rtt.blocks~ @syncupdate 1"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-3",
-									"linecount" : 2,
 									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 15.0, 172.0, 108.0, 35.0 ],
+									"numinlets" : 4,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "signal" ],
+									"patching_rect" : [ 15.0, 172.0, 57.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.bar~ @transport kinked"
+									"text" : "rtt.clock~"
 								}
 
 							}
@@ -938,13 +936,13 @@
 									"filename" : "helpname.js",
 									"id" : "obj-4",
 									"ignoreclick" : 1,
-									"jsarguments" : [ "seq.blocks~" ],
+									"jsarguments" : [ "rtt.blocks~" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 10.0, 10.0, 250.687973022460938, 57.599853515625 ]
+									"patching_rect" : [ 10.0, 10.0, 229.567977905273438, 57.599853515625 ]
 								}
 
 							}
@@ -1019,21 +1017,6 @@
 									"destination" : [ "obj-70", 0 ],
 									"order" : 1,
 									"source" : [ "obj-12", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-22", 0 ],
-									"source" : [ "obj-13", 3 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-22", 1 ],
-									"midpoints" : [ 351.833333333333314, 291.076086956521749, 654.104008992513059, 291.076086956521749 ],
-									"source" : [ "obj-13", 2 ]
 								}
 
 							}
@@ -1126,8 +1109,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1232,7 +1215,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 339.0, 253.5, 99.0, 26.0 ],
-									"text" : "1 1 1"
+									"text" : "1"
 								}
 
 							}
@@ -1258,7 +1241,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 339.0, 144.0, 99.0, 26.0 ],
-									"text" : "1 1 1"
+									"text" : "1"
 								}
 
 							}
@@ -1336,16 +1319,16 @@
 								"box" : 								{
 									"id" : "obj-9",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 39.0, 134.0, 56.0, 22.0 ],
+									"numinlets" : 4,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "signal" ],
+									"patching_rect" : [ 39.0, 134.0, 57.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.bar~"
+									"text" : "rtt.clock~"
 								}
 
 							}
@@ -1421,7 +1404,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.blocks.maxpat",
+									"name" : "rtt.blocks.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"offset" : [ 0.0, 0.0 ],
@@ -1452,13 +1435,13 @@
 									"filename" : "helpname.js",
 									"id" : "obj-4",
 									"ignoreclick" : 1,
-									"jsarguments" : [ "seq.blocks~" ],
+									"jsarguments" : [ "rtt.blocks~" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 10.0, 10.0, 250.687973022460938, 57.599853515625 ]
+									"patching_rect" : [ 10.0, 10.0, 229.567977905273438, 57.599853515625 ]
 								}
 
 							}
@@ -1471,7 +1454,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 339.0, 200.0, 222.0, 35.0 ],
-									"restore" : [ 1, 1, 1 ],
+									"restore" : [ 1 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1590,8 +1573,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1744,13 +1727,13 @@
 									"numinlets" : 2,
 									"numoutlets" : 3,
 									"outlettype" : [ "signal", "signal", "signal" ],
-									"patching_rect" : [ 305.0, 312.0, 77.343986511230469, 22.0 ],
+									"patching_rect" : [ 305.0, 312.0, 51.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.divs~"
+									"text" : "rtt.divs~"
 								}
 
 							}
@@ -1799,13 +1782,13 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 15.0, 312.0, 89.343986511230469, 22.0 ],
+									"patching_rect" : [ 15.0, 312.0, 64.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.blocks~"
+									"text" : "rtt.blocks~"
 								}
 
 							}
@@ -1854,13 +1837,13 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 15.0, 205.0, 89.343986511230469, 22.0 ],
+									"patching_rect" : [ 15.0, 205.0, 64.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.blocks~"
+									"text" : "rtt.blocks~"
 								}
 
 							}
@@ -1868,16 +1851,16 @@
 								"box" : 								{
 									"id" : "obj-3",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 15.0, 137.0, 56.0, 22.0 ],
+									"numinlets" : 4,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "signal" ],
+									"patching_rect" : [ 15.0, 137.0, 57.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.bar~"
+									"text" : "rtt.clock~"
 								}
 
 							}
@@ -1912,13 +1895,13 @@
 									"filename" : "helpname.js",
 									"id" : "obj-4",
 									"ignoreclick" : 1,
-									"jsarguments" : [ "seq.blocks~" ],
+									"jsarguments" : [ "rtt.blocks~" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 10.0, 10.0, 250.687973022460938, 57.599853515625 ]
+									"patching_rect" : [ 10.0, 10.0, 229.567977905273438, 57.599853515625 ]
 								}
 
 							}
@@ -1934,8 +1917,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 3,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2326,8 +2309,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2390,8 +2373,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2473,7 +2456,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "seq.blocks.blockviewer.maxpat",
-									"numinlets" : 1,
+									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 221.5, 313.0, 131.0, 10.0 ],
@@ -2713,13 +2696,13 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 211.0, 210.0, 191.0, 22.0 ],
+									"patching_rect" : [ 211.0, 210.0, 64.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.blocks~"
+									"text" : "rtt.blocks~"
 								}
 
 							}
@@ -2739,16 +2722,16 @@
 								"box" : 								{
 									"id" : "obj-3",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 17.0, 170.0, 56.0, 22.0 ],
+									"numinlets" : 4,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "signal" ],
+									"patching_rect" : [ 17.0, 170.0, 57.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.bar~"
+									"text" : "rtt.clock~"
 								}
 
 							}
@@ -2804,7 +2787,7 @@
 									"filename" : "helpdetails.js",
 									"id" : "obj-2",
 									"ignoreclick" : 1,
-									"jsarguments" : [ "seq.blocks~" ],
+									"jsarguments" : [ "rtt.blocks~" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -2860,16 +2843,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-10", 0 ],
-									"order" : 1,
-									"source" : [ "obj-28", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-13", 1 ],
-									"order" : 0,
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -2923,11 +2897,9 @@
 			"obj-2::obj-1::obj-93::obj-25" : [ "live.button[14]", "live.button", 0 ],
 			"obj-2::obj-3::obj-6::obj-2" : [ "live.button[2]", "live.button", 0 ],
 			"obj-2::obj-3::obj-6::obj-6" : [ "live.numbox[1]", "live.text[8]", 0 ],
-			"obj-2::obj-3::obj-6::obj-7" : [ "live.toggle[3]", "live.text[2]", 0 ],
+			"obj-2::obj-3::obj-6::obj-7" : [ "live.toggle[3]", "live.toggle", 0 ],
 			"obj-2::obj-3::obj-93::obj-25" : [ "live.button[1]", "live.button", 0 ],
 			"obj-4::obj-109" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
-			"obj-4::obj-22::obj-2" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-4::obj-22::obj-31" : [ "live.grid", "live.grid", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -2999,41 +2971,102 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.bar~.mxo",
+				"name" : "rtt.blocks.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
+				"patcherrelativepath" : "../patchers/modules/blocks",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rtt.blocks.model.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
+				"patcherrelativepath" : "../patchers/modules/blocks",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rtt.blocks.presets.xml",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
+				"patcherrelativepath" : "../patchers/modules/blocks",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rtt.blocks.view.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
+				"patcherrelativepath" : "../patchers/modules/blocks",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rtt.blocks~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "seq.blocks.blockviewer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
-				"patcherrelativepath" : "../patchers/modules/blocks",
+				"name" : "rtt.clock~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rtt.divs~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rtt.euclidean~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rtt.module.attrchecker.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"patcherrelativepath" : "../patchers/module-components",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rtt.module.control.js",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"patcherrelativepath" : "../patchers/module-components",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rtt.module.control.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"patcherrelativepath" : "../patchers/module-components",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rtt.module.remote.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"patcherrelativepath" : "../patchers/module-components",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rtt.module.viewcontrol.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"patcherrelativepath" : "../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.blocks.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
-				"patcherrelativepath" : "../patchers/modules/blocks",
+				"bootpath" : "~/iCloud Drive (Archive)/Documents/Max 8/Packages/seq/patchers/blocks",
+				"patcherrelativepath" : "../../../../../iCloud Drive (Archive)/Documents/Max 8/Packages/seq/patchers/blocks",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.blocks.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
-				"patcherrelativepath" : "../patchers/modules/blocks",
+				"bootpath" : "~/iCloud Drive (Archive)/Documents/Max 8/Packages/seq/patchers/blocks",
+				"patcherrelativepath" : "../../../../../iCloud Drive (Archive)/Documents/Max 8/Packages/seq/patchers/blocks",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.blocks.presets.xml",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/dist",
-				"patcherrelativepath" : "../patchers/modules/dist",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "seq.blocks.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
-				"patcherrelativepath" : "../patchers/modules/blocks",
+				"bootpath" : "~/iCloud Drive (Archive)/Documents/Max 8/Packages/seq/patchers/blocks",
+				"patcherrelativepath" : "../../../../../iCloud Drive (Archive)/Documents/Max 8/Packages/seq/patchers/blocks",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3042,70 +3075,44 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "seq.divs~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.euclidean~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "seq.misc.aboutbutton.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
-				"patcherrelativepath" : "../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.misc.philipmeyer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
-				"patcherrelativepath" : "../misc",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/_archive",
+				"patcherrelativepath" : "../misc/_archive",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.attrchecker.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components/_archive",
+				"patcherrelativepath" : "../patchers/module-components/_archive",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components/_archive",
+				"patcherrelativepath" : "../patchers/module-components/_archive",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components/_archive",
+				"patcherrelativepath" : "../patchers/module-components/_archive",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.remote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components/_archive",
+				"patcherrelativepath" : "../patchers/module-components/_archive",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq.module.viewcontrol.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.snap~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.xtra.stepgridviewer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras",
-				"patcherrelativepath" : "../extras",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components/_archive",
+				"patcherrelativepath" : "../patchers/module-components/_archive",
 				"type" : "JSON",
 				"implicit" : 1
 			}

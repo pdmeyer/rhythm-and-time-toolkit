@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 3,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -50,8 +50,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -181,13 +181,13 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 58.0, 277.0, 198.0, 22.0 ],
+									"patching_rect" : [ 58.0, 277.0, 189.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.makecc~ @range 127 @auto 1",
+									"text" : "rtt.makecc~ @range 127 @auto 1",
 									"varname" : "@controller"
 								}
 
@@ -214,7 +214,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 10.0, 69.599853515625, 327.0, 36.0 ],
+									"patching_rect" : [ 10.0, 69.599853515625, 328.0, 36.0 ],
 									"text" : "@auto 1 will cause seq.makecc~ to automatically send CC messages when the signal value changes.",
 									"textcolor" : [ 0.502, 0.502, 0.502, 1.0 ]
 								}
@@ -226,13 +226,13 @@
 									"filename" : "helpname.js",
 									"id" : "obj-4",
 									"ignoreclick" : 1,
-									"jsarguments" : [ "seq.makecc~" ],
+									"jsarguments" : [ "rtt.makecc~" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 10.0, 10.0, 274.279998779296875, 57.599853515625 ]
+									"patching_rect" : [ 10.0, 10.0, 253.160003662109375, 57.599853515625 ]
 								}
 
 							}
@@ -309,14 +309,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 638.0, 511.0 ],
+						"rect" : [ 100.0, 113.0, 638.0, 511.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -466,7 +466,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 0,
 									"patching_rect" : [ 36.0, 354.0, 108.0, 35.0 ],
-									"text" : "seq.makecc makecc-help-2",
+									"text" : "rtt.makecc makecc-help-2",
 									"varname" : "makecc-help-2"
 								}
 
@@ -483,7 +483,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.makecc.maxpat",
+									"name" : "rtt.makecc.maxpat",
 									"numinlets" : 2,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
@@ -650,13 +650,13 @@
 									"filename" : "helpname.js",
 									"id" : "obj-4",
 									"ignoreclick" : 1,
-									"jsarguments" : [ "seq.makecc~" ],
+									"jsarguments" : [ "rtt.makecc~" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 10.0, 10.0, 274.279998779296875, 57.599853515625 ]
+									"patching_rect" : [ 10.0, 10.0, 253.160003662109375, 57.599853515625 ]
 								}
 
 							}
@@ -681,14 +681,6 @@
 							}
  ],
 						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-6", 0 ],
-									"midpoints" : [ 330.5, 339.0, 41.5, 339.0, 41.5, 211.0, 68.5, 211.0 ],
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-20", 0 ],
 									"source" : [ "obj-11", 0 ]
@@ -831,8 +823,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -895,14 +887,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 113.0, 638.0, 511.0 ],
+						"rect" : [ 0.0, 26.0, 638.0, 511.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1068,13 +1060,13 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 43.5, 374.0, 151.0, 22.0 ],
+									"patching_rect" : [ 43.5, 374.0, 142.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.makecc~ @range midi",
+									"text" : "rtt.makecc~ @range midi",
 									"varname" : "@controller"
 								}
 
@@ -1086,13 +1078,13 @@
 									"numinlets" : 3,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 43.5, 216.0, 237.0, 22.0 ],
+									"patching_rect" : [ 43.5, 216.0, 228.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.euclidean~ @countermode normalized",
+									"text" : "rtt.euclidean~ @countermode normalized",
 									"varname" : "rnbo~[2]"
 								}
 
@@ -1113,16 +1105,16 @@
 								"box" : 								{
 									"id" : "obj-12",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 43.5, 177.0, 56.0, 22.0 ],
+									"numinlets" : 4,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "signal" ],
+									"patching_rect" : [ 43.5, 177.0, 57.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.bar~"
+									"text" : "rtt.clock~"
 								}
 
 							}
@@ -1147,13 +1139,13 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 43.5, 276.0, 221.0, 22.0 ],
+									"patching_rect" : [ 43.5, 276.0, 213.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.sequence~ @high 127 @stepsize 1"
+									"text" : "rtt.sequence~ @high 127 @stepsize 1"
 								}
 
 							}
@@ -1209,8 +1201,9 @@
 									"filename" : "helpdetails.js",
 									"id" : "obj-2",
 									"ignoreclick" : 1,
-									"jsarguments" : [ "seq.makecc~" ],
+									"jsarguments" : [ "rtt.makecc~" ],
 									"maxclass" : "jsui",
+									"nofsaa" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
@@ -1469,6 +1462,10 @@
 					"parameter_longname" : "live.toggle[2]"
 				}
 ,
+				"obj-2::obj-6::obj-6::obj-9" : 				{
+					"parameter_longname" : "live.text[11]"
+				}
+,
 				"obj-2::obj-6::obj-93::obj-25" : 				{
 					"parameter_longname" : "live.button[3]"
 				}
@@ -1491,83 +1488,83 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.bar~.mxo",
+				"name" : "rtt.clock~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "seq.euclidean~.mxo",
+				"name" : "rtt.euclidean~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "seq.makecc.maxpat",
+				"name" : "rtt.makecc.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/makecc",
 				"patcherrelativepath" : "../patchers/modules/makecc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.makecc.model.maxpat",
+				"name" : "rtt.makecc.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/makecc",
 				"patcherrelativepath" : "../patchers/modules/makecc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.makecc.view.maxpat",
+				"name" : "rtt.makecc.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/makecc",
 				"patcherrelativepath" : "../patchers/modules/makecc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.makecc~.mxo",
+				"name" : "rtt.makecc~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "seq.misc.aboutbutton.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
-				"patcherrelativepath" : "../misc",
+				"name" : "rtt.module.attrchecker.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"patcherrelativepath" : "../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.module.attrchecker.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
+				"name" : "rtt.module.control.js",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"patcherrelativepath" : "../patchers/module-components",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.module.control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
+				"name" : "rtt.module.control.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"patcherrelativepath" : "../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.module.remote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
+				"name" : "rtt.module.remote.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"patcherrelativepath" : "../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.module.viewcontrol.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../patchers/_module-components",
+				"name" : "rtt.module.viewcontrol.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"patcherrelativepath" : "../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.sequence~.mxo",
+				"name" : "rtt.sequence~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "seq.misc.aboutbutton.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/_archive",
+				"patcherrelativepath" : "../misc/_archive",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "tri-down.svg",

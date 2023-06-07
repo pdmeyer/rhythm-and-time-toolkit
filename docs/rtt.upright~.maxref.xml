@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="rtt.upright~">
+<metadatalist>
+<metadata name="author">Philip Meyer</metadata>
+<metadata name="tag">sequencing</metadata>
+<metadata name="tag">clock</metadata>
+</metadatalist>
+<methodlist>
+	<method name="signal">
+		<digest>message input</digest>
+		<description>A signal that will be transformed into a clock signal. The incoming signal is first distintgrated by taking the delta. The delta is then made positive, then accumulated wrapping around 0. and 1. The result is that any signal at "LFO rate" can be used as a clock.</description>
+	</method>
+</methodlist>
+<attributelist></attributelist>
+<description><o>rtt.upright~</o> accepts any signal to its first inlet and transforms the signal so that it can be used as a clock to drive sequencing systems using Rhythm and Time Toolkit objects, as well as MSP objects like like <o>subdiv~</o> and <o>what~</o>.</description>
+<digest>Convert any signal to a phasor-style clock.</digest>
+</c74object>

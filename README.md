@@ -1,5 +1,5 @@
 
-<img width="248" alt="icon" src="https://user-images.githubusercontent.com/44841504/214138833-f7cb2177-9152-49a3-a375-12772dd9acac.png">
+# Rhythm and Time Toolkit (rtt)
 Objects for signal-based sequencing in Max MSP. Made with RNBO.
 
 ## Prerequisites
@@ -9,7 +9,7 @@ Max 8.5 or above for Mac or Windows is recommended. The externals may work in ol
 Clone or fork the repository and save it to "Documents/Max 8/Packages" (Mac) / "My Documents/Max 8/Packages" (PC)
 
 ## Getting Started
-Once you've installed the package, open Seq.maxpat for a tour.
+Once you've installed the package, open RhythmAndTimeToolkit.maxpat for an overview of the package.
 
 ## What's included
 * Max exernals for Mac and Windows ((.mxo / .mxe63 | /externals)
@@ -17,8 +17,8 @@ Once you've installed the package, open Seq.maxpat for a tour.
 * Max Snippets (.maxsnip | /snippets): pre-built bits of patching that make patching with seq objects faster
 * Modules: (/patchers/modules) Fully-featured abstractions that include a seq~ object, UI, and preset support using Max's pattr system. Each seq object has its own module.
 * Examples: (/examples) Example patches that show seq objects in action
-* Extras and Helpers: (/extras and /patchers/helpers)  Additional useful abstractions for using and learning about seq
-* Launch patch (/extras/Seq.maxpat)
+* Extras and Helpers: (/extras and /patchers/helpers)  Additional useful abstractions for using and learning about rtt
+* Launch patch (/extras/RhythmAndTimeToolkit.maxpat)
 * Gen~ patches for sound creation, used in examples and help patches (/code)
 
 ## About the Author

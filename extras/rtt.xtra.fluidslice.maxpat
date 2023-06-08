@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -213,7 +213,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 66.5, 73.0, 402.0, 47.0 ],
-					"text" : "Uses externals from the  (fantastic) FluidCorpusManipulation (aka FluCoMa) to store audio in a buffer and store, in a second buffer a list of sample positions where onsets occur in the first buffer"
+					"text" : "Uses externals from the FluidCorpusManipulation Package to store audio in a buffer and store, in a second buffer a list of sample positions where onsets occur in the first buffer"
 				}
 
 			}
@@ -226,7 +226,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 99.0, 36.0, 156.0, 28.0 ],
-					"text" : "seq.xtra.fluidslice"
+					"text" : "rtt.xtra.fluidslice"
 				}
 
 			}
@@ -240,7 +240,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 33.0, 13.0, 66.0, 50.0 ],
-					"text" : "seq"
+					"text" : "rtt"
 				}
 
 			}
@@ -321,9 +321,9 @@
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "list" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 131.0, 521.0, 216.0, 22.0 ],
 					"text" : "fluid.buf2list @source #0_slicepoints"
 				}
@@ -346,8 +346,8 @@
 					"id" : "obj-44",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 33.0, 356.0, 521.0, 22.0 ],
 					"text" : "fluid.bufonsetslice~ @metric 9 @threshold 0.5 @source #0_sound @indices #0_slicepoints"
 				}
@@ -359,7 +359,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "dictionary" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 33.0, 311.0, 263.0, 22.0 ],
 					"text" : "fluid.concataudiofiles @destination #0_sound",
 					"varname" : "fluid.concataudiofiles"
@@ -591,35 +591,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "fluid.audiofilesin.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/patchers",
-				"patcherrelativepath" : "../../FluidCorpusManipulation/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fluid.buf2list.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufcompose~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufonsetslice~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.concataudiofiles.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/patchers",
-				"patcherrelativepath" : "../../FluidCorpusManipulation/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "seq.misc.philipmeyer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
-				"patcherrelativepath" : "../misc",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/_archive",
+				"patcherrelativepath" : "../misc/_archive",
 				"type" : "JSON",
 				"implicit" : 1
 			}

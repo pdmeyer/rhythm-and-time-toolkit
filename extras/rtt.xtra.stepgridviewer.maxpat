@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-33",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 13.0, 111.0, 61.0, 22.0 ],
+					"text" : "zl.slice 64"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -135,7 +147,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 171.5, 81.0, 22.0 ],
+					"patching_rect" : [ 13.0, 176.5, 81.0, 22.0 ],
 					"text" : "vexpr $i1 != 0"
 				}
 
@@ -225,7 +237,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 313.0, 44.0, 30.0, 30.0 ]
 				}
 
@@ -383,7 +395,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 307.0, 49.0, 22.0 ],
+					"patching_rect" : [ 13.0, 235.0, 49.0, 22.0 ],
 					"text" : "$1 1 $2"
 				}
 
@@ -395,7 +407,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 13.0, 252.5, 66.0, 22.0 ],
+					"patching_rect" : [ 13.0, 203.5, 66.0, 22.0 ],
 					"text" : "listfunnel 1"
 				}
 
@@ -438,7 +450,7 @@
 			}
 , 			{
 				"box" : 				{
-					"columns" : 8,
+					"columns" : 64,
 					"direction" : 0,
 					"id" : "obj-31",
 					"marker_horizontal" : 0,
@@ -627,14 +639,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
+					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-24", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
+					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -723,6 +735,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 

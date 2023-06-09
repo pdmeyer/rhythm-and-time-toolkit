@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -50,14 +50,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 113.0, 686.0, 505.0 ],
+						"rect" : [ 0.0, 26.0, 686.0, 505.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -98,7 +98,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.misc.aboutbutton.maxpat",
+									"name" : "rtt.misc.aboutbutton.maxpat",
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
@@ -172,7 +172,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 339.0, 253.5, 99.0, 26.0 ],
-									"text" : "1 2"
+									"text" : "1"
 								}
 
 							}
@@ -198,7 +198,7 @@
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 339.0, 144.0, 99.0, 26.0 ],
-									"text" : "1 2"
+									"text" : "1"
 								}
 
 							}
@@ -276,10 +276,16 @@
 								"box" : 								{
 									"id" : "obj-9",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 39.0, 134.0, 56.0, 22.0 ],
-									"text" : "seq.bar~"
+									"numinlets" : 4,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "signal" ],
+									"patching_rect" : [ 39.0, 134.0, 57.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0
+									}
+,
+									"text" : "rtt.clock~"
 								}
 
 							}
@@ -334,10 +340,11 @@
 								"box" : 								{
 									"id" : "obj-3",
 									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "signal", "signal", "signal" ],
 									"patching_rect" : [ 39.0, 365.0, 145.0, 22.0 ],
-									"text" : "seq.divs divs-help-2",
+									"text" : "rtt.divs divs-help-2",
 									"varname" : "divs-help-2"
 								}
 
@@ -354,10 +361,11 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.divs.maxpat",
-									"numinlets" : 0,
-									"numoutlets" : 0,
+									"name" : "rtt.divs.maxpat",
+									"numinlets" : 1,
+									"numoutlets" : 3,
 									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "signal", "signal", "signal" ],
 									"patching_rect" : [ 39.0, 170.0, 143.0, 43.0 ],
 									"varname" : "divs-help",
 									"viewvisibility" : 1
@@ -374,7 +382,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 514.0, 21.0 ],
 									"text" : "The abstraction seq.divs (no tilde) contains the seq.divs~ object, a UI and pattr support.",
-									"textcolor" : [ 0.502, 0.502, 0.502, 1.0 ]
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
@@ -402,7 +410,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 339.0, 200.0, 254.0, 22.0 ],
-									"restore" : [ 1, 2 ],
+									"restore" : [ 1 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -415,6 +423,20 @@
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-1", 1 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
 									"midpoints" : [ 348.5, 245.0, 327.5, 245.0, 327.5, 133.0, 348.5, 133.0 ],
@@ -473,6 +495,21 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"midpoints" : [ 348.5, 344.0, 13.5, 344.0, 13.5, 159.0, 48.5, 159.0 ],
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
  ]
 					}
 ,
@@ -499,8 +536,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -877,7 +914,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 514.0, 21.0 ],
 									"text" : "Cascade multiple seq.divs~ objects to create complex rhythms",
-									"textcolor" : [ 0.502, 0.502, 0.502, 1.0 ]
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
@@ -1097,8 +1134,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1161,14 +1198,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 686.0, 505.0 ],
+						"rect" : [ 100.0, 113.0, 686.0, 505.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1219,7 +1256,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "seq" ],
+									"args" : [ "rtt" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -1229,7 +1266,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.misc.aboutbutton.maxpat",
+									"name" : "rtt.misc.aboutbutton.maxpat",
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
@@ -1535,8 +1572,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 0,
+											"minor" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1762,7 +1799,60 @@
 			}
  ],
 		"lines" : [  ],
+		"parameters" : 		{
+			"obj-2::obj-1::obj-6::obj-11" : [ "live.text[4]", "live.text[2]", 0 ],
+			"obj-2::obj-1::obj-6::obj-2" : [ "live.button[13]", "live.button", 0 ],
+			"obj-2::obj-1::obj-6::obj-6" : [ "live.text[9]", "live.text[8]", 0 ],
+			"obj-2::obj-1::obj-6::obj-7" : [ "live.toggle[3]", "live.text[2]", 0 ],
+			"obj-2::obj-1::obj-93::obj-25" : [ "live.button[1]", "live.button", 0 ],
+			"obj-2::obj-3::obj-6::obj-11" : [ "live.text[1]", "live.text[2]", 0 ],
+			"obj-2::obj-3::obj-6::obj-2" : [ "live.button[3]", "live.button", 0 ],
+			"obj-2::obj-3::obj-6::obj-6" : [ "live.text[5]", "live.text[8]", 0 ],
+			"obj-2::obj-3::obj-6::obj-7" : [ "live.toggle[4]", "live.text[2]", 0 ],
+			"obj-2::obj-3::obj-93::obj-25" : [ "live.button[2]", "live.button", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-2::obj-3::obj-6::obj-11" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-2::obj-3::obj-6::obj-2" : 				{
+					"parameter_longname" : "live.button[3]"
+				}
+,
+				"obj-2::obj-3::obj-6::obj-6" : 				{
+					"parameter_longname" : "live.text[5]"
+				}
+,
+				"obj-2::obj-3::obj-6::obj-7" : 				{
+					"parameter_longname" : "live.toggle[4]"
+				}
+,
+				"obj-2::obj-3::obj-93::obj-25" : 				{
+					"parameter_longname" : "live.button[2]"
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [ 			{
+				"name" : "burst.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
+				"patcherrelativepath" : "../media/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "helpdetails.js",
 				"bootpath" : "C74:/help/resources",
 				"type" : "TEXT",
@@ -1779,13 +1869,69 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "rtt.divs.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/divs",
+				"patcherrelativepath" : "../patchers/modules/divs",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rtt.divs.model.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/divs",
+				"patcherrelativepath" : "../patchers/modules/divs",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rtt.divs.view.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/divs",
+				"patcherrelativepath" : "../patchers/modules/divs",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "rtt.divs~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "seq.misc.aboutbutton.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/_archive",
-				"patcherrelativepath" : "../misc/_archive",
+				"name" : "rtt.misc.aboutbutton.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rtt.module.attrchecker.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"patcherrelativepath" : "../patchers/module-components",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rtt.module.control.js",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"patcherrelativepath" : "../patchers/module-components",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rtt.module.control.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"patcherrelativepath" : "../patchers/module-components",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rtt.module.remote.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"patcherrelativepath" : "../patchers/module-components",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rtt.module.viewcontrol.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"patcherrelativepath" : "../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}

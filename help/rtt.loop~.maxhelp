@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1576.0, 132.0, 630.0, 519.0 ],
+		"rect" : [ 312.0, 128.0, 630.0, 519.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -407,7 +407,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 630.0, 493.0 ],
+						"rect" : [ 312.0, 154.0, 630.0, 493.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -448,7 +448,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.misc.aboutbutton.maxpat",
+									"name" : "rtt.misc.aboutbutton.maxpat",
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
@@ -1573,7 +1573,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 36.0, 398.599853515625, 187.0, 33.0 ],
+									"patching_rect" : [ 36.0, 398.599853515625, 189.0, 33.0 ],
 									"text" : "5th outlet produces an impulse at the end of each cycle"
 								}
 
@@ -2743,7 +2743,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1576.0, 158.0, 630.0, 493.0 ],
+						"rect" : [ 0.0, 26.0, 630.0, 493.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2774,6 +2774,16 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-32",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 315.0, 246.5, 150.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-31",
 									"maxclass" : "live.scope~",
@@ -2793,7 +2803,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 486.0, 267.0, 52.0, 18.0 ],
-									"presentation_linecount" : 2,
 									"text" : "dumpout"
 								}
 
@@ -2807,7 +2816,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 370.5, 267.0, 45.0, 29.0 ],
-									"presentation_linecount" : 2,
 									"text" : "bar phasor"
 								}
 
@@ -2834,7 +2842,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "seq" ],
+									"args" : [ "rtt" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -2844,7 +2852,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.misc.aboutbutton.maxpat",
+									"name" : "rtt.misc.aboutbutton.maxpat",
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
@@ -3442,6 +3450,13 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "rtt.misc.aboutbutton.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "rtt.module.attrchecker.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
 				"patcherrelativepath" : "../patchers/module-components",
@@ -3479,13 +3494,6 @@
 , 			{
 				"name" : "rtt.pattern~.mxo",
 				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.misc.aboutbutton.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/_archive",
-				"patcherrelativepath" : "../misc/_archive",
-				"type" : "JSON",
-				"implicit" : 1
 			}
  ],
 		"autosave" : 0

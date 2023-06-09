@@ -120,7 +120,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 43.941176470588232, 275.0, 178.0, 47.0 ],
+									"patching_rect" : [ 154.0, 230.5, 178.0, 47.0 ],
 									"text" : "seq.swing \"kinks\" an incoming phasor according to the subdiv and depth parameters"
 								}
 
@@ -133,7 +133,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 442.032458137063429, 315.0, 83.882352941176464, 31.0 ],
+									"patching_rect" : [ 259.032458137063429, 328.5, 83.882352941176464, 31.0 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -146,8 +146,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 250.927993774414062, 275.0, 138.058823529411768, 47.0 ],
-									"text" : "swing~ expects subdivides the incoming phasor into 2 divisions"
+									"patching_rect" : [ 436.986817303825831, 299.0, 140.0, 47.0 ],
+									"text" : "swing~ expects subdivides the incoming phasor into 2 divisions",
+									"textjustification" : 0
 								}
 
 							}
@@ -183,7 +184,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 393.986817303825831, 201.0, 41.0, 22.0 ],
+									"patching_rect" : [ 393.986817303825831, 216.5, 41.0, 22.0 ],
 									"text" : "div $1"
 								}
 
@@ -195,7 +196,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 393.986817303825831, 171.5, 29.5, 22.0 ],
+									"patching_rect" : [ 393.986817303825831, 187.0, 29.5, 22.0 ],
 									"text" : "/ 2"
 								}
 
@@ -243,7 +244,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "signal", "signal", "int" ],
-									"patching_rect" : [ 393.986817303825831, 232.0, 50.0, 22.0 ],
+									"patching_rect" : [ 393.986817303825831, 247.5, 50.0, 22.0 ],
 									"text" : "subdiv~"
 								}
 
@@ -310,7 +311,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 161.045640833237599, 238.5, 83.882352941176464, 31.0 ],
+									"patching_rect" : [ 165.045640833237599, 328.5, 83.882352941176464, 31.0 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -334,6 +335,7 @@
 							}
 , 							{
 								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-3",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,
@@ -385,12 +387,12 @@
 , 							{
 								"box" : 								{
 									"fontname" : "Arial",
-									"fontsize" : 12.0,
+									"fontsize" : 13.0,
 									"id" : "obj-2",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 10.0, 69.599853515625, 474.0, 20.0 ],
+									"patching_rect" : [ 10.0, 69.599853515625, 514.0, 21.0 ],
 									"text" : "rtt.swing~ achieves the same result as swing~, but in a different way. "
 								}
 
@@ -429,7 +431,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-31", 0 ],
-									"order" : 1,
+									"order" : 0,
 									"source" : [ "obj-19", 0 ]
 								}
 
@@ -437,7 +439,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-36", 0 ],
-									"order" : 0,
+									"order" : 1,
 									"source" : [ "obj-19", 0 ]
 								}
 
@@ -460,7 +462,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-28", 0 ],
-									"midpoints" : [ 217.5, 156.75, 403.486817303825831, 156.75 ],
 									"order" : 0,
 									"source" : [ "obj-24", 0 ]
 								}
@@ -574,7 +575,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1556.0, 201.0, 602.0, 514.0 ],
+						"rect" : [ 0.0, 26.0, 602.0, 514.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -628,7 +629,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.misc.aboutbutton.maxpat",
+									"name" : "rtt.misc.aboutbutton.maxpat",
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
@@ -889,13 +890,12 @@
 , 							{
 								"box" : 								{
 									"fontname" : "Arial",
-									"fontsize" : 12.0,
+									"fontsize" : 13.0,
 									"id" : "obj-2",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 10.0, 69.599853515625, 474.0, 33.0 ],
+									"patching_rect" : [ 10.0, 69.599853515625, 526.0, 21.0 ],
 									"text" : "The abstraction rtt.swing (no tilde) contains the seq.swing~ object, a UI and pattr support."
 								}
 
@@ -924,7 +924,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 324.0, 146.0, 263.0, 22.0 ],
-									"restore" : [ 0.0 ],
+									"restore" : [ 0.5 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1134,7 +1134,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 602.0, 514.0 ],
+						"rect" : [ 1556.0, 201.0, 602.0, 514.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1175,7 +1175,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.misc.aboutbutton.maxpat",
+									"name" : "rtt.misc.aboutbutton.maxpat",
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
@@ -1186,20 +1186,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bubbleside" : 0,
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"id" : "obj-17",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 251.0, 455.0, 96.0, 21.0 ],
-									"text" : "mind the gap"
-								}
-
-							}
-, 							{
-								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-16",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,
@@ -1212,12 +1199,13 @@
 							}
 , 							{
 								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-15",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 53.5, 398.0, 159.0, 53.0 ],
+									"patching_rect" : [ 46.600000000000001, 398.0, 159.0, 53.0 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -1254,6 +1242,7 @@
 							}
 , 							{
 								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-6",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,
@@ -1329,6 +1318,7 @@
 							}
 , 							{
 								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-4",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,
@@ -1588,6 +1578,13 @@
 , 			{
 				"name" : "rtt.loop~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rtt.misc.aboutbutton.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.module.attrchecker.maxpat",

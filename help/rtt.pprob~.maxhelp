@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -50,14 +50,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 36.0, 113.0, 736.0, 572.0 ],
+						"rect" : [ 0.0, 26.0, 736.0, 572.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -98,7 +98,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.misc.aboutbutton.maxpat",
+									"name" : "rtt.misc.aboutbutton.maxpat",
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
@@ -114,7 +114,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 122.0, 329.0, 210.0, 22.0 ],
+									"patching_rect" : [ 121.0, 307.0, 210.0, 22.0 ],
 									"text" : "0. 0. 0. 0. 0. 0. 0. 0. 0."
 								}
 
@@ -126,7 +126,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 115.0, 177.5, 122.0, 22.0 ],
+									"patching_rect" : [ 114.0, 155.5, 122.0, 22.0 ],
 									"text" : "loadmess auto-calc 1"
 								}
 
@@ -142,7 +142,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 39.0, 329.0, 56.0, 22.0 ],
+									"patching_rect" : [ 38.0, 307.0, 56.0, 22.0 ],
 									"sig" : 0.0
 								}
 
@@ -154,7 +154,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 39.0, 387.0, 294.0, 22.0 ],
+									"patching_rect" : [ 38.0, 365.0, 294.0, 22.0 ],
 									"text" : "rtt.pprob pprob-help-2",
 									"varname" : "pprob-help-2"
 								}
@@ -177,7 +177,7 @@
 									"numoutlets" : 4,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 39.0, 217.0, 293.0, 104.0 ],
+									"patching_rect" : [ 38.0, 195.0, 293.0, 91.0 ],
 									"varname" : "pprob-help",
 									"viewvisibility" : 1
 								}
@@ -188,15 +188,15 @@
 									"id" : "obj-27",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 5,
-									"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 39.0, 173.5, 61.0, 22.0 ],
+									"numoutlets" : 6,
+									"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "" ],
+									"patching_rect" : [ 27.5, 155.5, 71.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.loop~"
+									"text" : "rtt.loop~"
 								}
 
 							}
@@ -207,7 +207,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 39.0, 431.0, 77.0, 22.0 ],
+									"patching_rect" : [ 38.0, 409.0, 77.0, 22.0 ],
 									"text" : "clientwindow"
 								}
 
@@ -221,7 +221,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 279.5, 438.0, 222.0, 60.0 ],
+									"patching_rect" : [ 278.5, 416.0, 222.0, 60.0 ],
 									"text" : "use pattrstorage with @greedy 1 to create \"cues\" that save parameters across multiple seq objects in a max patch"
 								}
 
@@ -229,8 +229,8 @@
 , 							{
 								"box" : 								{
 									"active" : 									{
-										"pprob-help-2::m::calculate" : 0,
-										"pprob-help::m::calculate" : 0
+										"pprob-help::m::calculate" : 0,
+										"pprob-help-2::m::calculate" : 0
 									}
 ,
 									"id" : "obj-20",
@@ -238,12 +238,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 39.0, 459.0, 239.0, 22.0 ],
+									"patching_rect" : [ 38.0, 437.0, 239.0, 22.0 ],
 									"priority" : 									{
-										"pprob-help-2::m::probabilities" : 1,
-										"pprob-help-2::m::pattern" : -1,
 										"pprob-help::m::probabilities" : 1,
-										"pprob-help::m::pattern" : -1
+										"pprob-help::m::pattern" : -1,
+										"pprob-help-2::m::probabilities" : 1,
+										"pprob-help-2::m::pattern" : -1
 									}
 ,
 									"saved_object_attributes" : 									{
@@ -266,7 +266,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 39.0, 121.282608695652243, 24.0, 24.0 ]
+									"patching_rect" : [ 27.5, 103.282608695652243, 24.0, 24.0 ]
 								}
 
 							}
@@ -277,7 +277,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 39.0, 148.0, 57.0, 22.0 ],
+									"patching_rect" : [ 27.5, 130.0, 57.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -296,7 +296,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 513.0, 161.782608695652243, 201.0, 20.0 ],
+									"patching_rect" : [ 512.0, 139.782608695652243, 201.0, 20.0 ],
 									"text" : "invisible pattr for remote control"
 								}
 
@@ -310,7 +310,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 513.0, 292.5, 153.0, 47.0 ],
+									"patching_rect" : [ 512.0, 270.5, 153.0, 47.0 ],
 									"text" : "you can also set parameters using the module's first inlet"
 								}
 
@@ -322,7 +322,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 457.0, 217.782608695652243, 41.0, 22.0 ],
+									"patching_rect" : [ 456.0, 195.782608695652243, 41.0, 22.0 ],
 									"text" : "set $1"
 								}
 
@@ -335,7 +335,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 457.0, 161.782608695652243, 50.0, 22.0 ]
+									"patching_rect" : [ 456.0, 139.782608695652243, 50.0, 22.0 ]
 								}
 
 							}
@@ -347,7 +347,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 457.0, 307.0, 50.0, 22.0 ]
+									"patching_rect" : [ 456.0, 285.0, 50.0, 22.0 ]
 								}
 
 							}
@@ -358,7 +358,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 457.0, 334.0, 58.0, 22.0 ],
+									"patching_rect" : [ 456.0, 312.0, 58.0, 22.0 ],
 									"text" : "length $1"
 								}
 
@@ -375,7 +375,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 256.0, 148.0, 139.0, 66.0 ],
+									"patching_rect" : [ 255.0, 126.0, 139.0, 66.0 ],
 									"text" : "use this menu to create pattr objects to control params remotely"
 								}
 
@@ -391,7 +391,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 334.0, 221.5, 109.0, 37.0 ],
+									"patching_rect" : [ 333.0, 199.5, 109.0, 37.0 ],
 									"text" : "click the button to use presets "
 								}
 
@@ -405,7 +405,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 348.0, 372.5, 218.0, 47.0 ],
+									"patching_rect" : [ 347.0, 350.5, 218.0, 47.0 ],
 									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
 								}
 
@@ -415,13 +415,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-2",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 10.0, 69.599853515625, 484.0, 36.0 ],
-									"text" : "The abstraction seq.pprob (no tilde) contains the seq.pprob~ object, a UI and pattr support.",
-									"textcolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ]
+									"patching_rect" : [ 10.0, 69.599853515625, 552.0, 21.0 ],
+									"text" : "The abstraction rtt.pprob (no tilde) contains the rtt.pprob~ object, a UI and pattr support.",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
@@ -448,7 +447,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 457.0, 192.0, 266.0, 22.0 ],
+									"patching_rect" : [ 456.0, 170.0, 266.0, 22.0 ],
 									"restore" : [ 9.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
@@ -462,6 +461,28 @@
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 1 ],
+									"source" : [ "obj-1", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"midpoints" : [ 465.5, 344.0, 22.5, 344.0, 22.5, 184.0, 47.5, 184.0 ],
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-20", 0 ],
 									"source" : [ "obj-11", 0 ]
@@ -508,9 +529,16 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-14", 0 ],
-									"midpoints" : [ 466.5, 249.782608695652243, 450.5, 249.782608695652243, 450.5, 150.782608695652243, 466.5, 150.782608695652243 ],
+									"midpoints" : [ 465.5, 227.782608695652243, 449.5, 227.782608695652243, 449.5, 128.782608695652243, 465.5, 128.782608695652243 ],
 									"order" : 1,
 									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-27", 1 ]
 								}
 
 							}
@@ -547,14 +575,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 736.0, 572.0 ],
+						"rect" : [ 36.0, 113.0, 736.0, 572.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -585,6 +613,17 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 374.0, 338.0, 32.0, 22.0 ],
+									"text" : "print"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"args" : [ "pattern" ],
 									"bgmode" : 0,
 									"border" : 0,
@@ -595,7 +634,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.misc.aboutbutton.maxpat",
+									"name" : "rtt.misc.aboutbutton.maxpat",
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
@@ -644,8 +683,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 0,
+											"minor" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -949,6 +988,7 @@
 							}
 , 							{
 								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-55",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,
@@ -980,7 +1020,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.misc.aboutbutton.maxpat",
+									"name" : "rtt.misc.aboutbutton.maxpat",
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
@@ -1047,7 +1087,8 @@
 							}
 , 							{
 								"box" : 								{
-									"columns" : 1,
+									"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
+									"columns" : 2,
 									"id" : "obj-18",
 									"maxclass" : "matrixctrl",
 									"numinlets" : 1,
@@ -1069,7 +1110,8 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 290.0, 184.0, 209.0, 94.0 ],
 									"setminmax" : [ 0.0, 1.0 ],
-									"size" : 8
+									"size" : 8,
+									"slidercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ]
 								}
 
 							}
@@ -1153,8 +1195,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 0,
+											"minor" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1189,6 +1231,18 @@
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-2",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 50.0, 79.0, 77.0, 22.0 ],
+													"text" : "route pattern"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-3",
 													"maxclass" : "message",
@@ -1267,7 +1321,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 50.0, 100.0, 117.5, 22.0 ],
+													"patching_rect" : [ 50.0, 108.0, 117.5, 22.0 ],
 													"text" : "t l l"
 												}
 
@@ -1299,6 +1353,13 @@
 											}
  ],
 										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-27", 0 ],
+													"source" : [ "obj-2", 0 ]
+												}
+
+											}
+, 											{
 												"patchline" : 												{
 													"destination" : [ "obj-28", 0 ],
 													"source" : [ "obj-27", 1 ]
@@ -1358,7 +1419,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-27", 0 ],
+													"destination" : [ "obj-2", 0 ],
 													"source" : [ "obj-35", 0 ]
 												}
 
@@ -1562,7 +1623,16 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"order" : 0,
+									"source" : [ "obj-10", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-37", 0 ],
+									"order" : 1,
 									"source" : [ "obj-10", 3 ]
 								}
 
@@ -1759,8 +1829,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1924,6 +1994,13 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "rtt.misc.aboutbutton.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "rtt.module.attrchecker.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
 				"patcherrelativepath" : "../patchers/module-components",
@@ -1996,17 +2073,6 @@
 , 			{
 				"name" : "rtt.pprob~.mxo",
 				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.loop~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.misc.aboutbutton.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/_archive",
-				"patcherrelativepath" : "../misc/_archive",
-				"type" : "JSON",
-				"implicit" : 1
 			}
 , 			{
 				"name" : "tri-down.svg",

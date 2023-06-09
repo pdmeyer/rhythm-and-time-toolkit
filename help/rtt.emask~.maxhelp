@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -50,8 +50,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -215,8 +215,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 0,
+											"minor" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -750,7 +750,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 582.0, 65.0 ],
 									"text" : "The variation attribute transforms the underlying pattern using controlled randomness. Lower variation values will be only slightly different from the euclidean pattern created by the steps and density parameters. Higher values will keep the same overall event density, but distribute those events in a random fashion.",
-									"textcolor" : [ 0.502, 0.502, 0.502, 1.0 ]
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
@@ -936,14 +936,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 113.0, 729.0, 623.0 ],
+						"rect" : [ 0.0, 26.0, 729.0, 623.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -984,7 +984,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.misc.aboutbutton.maxpat",
+									"name" : "rtt.misc.aboutbutton.maxpat",
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
@@ -1029,6 +1029,9 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 39.0, 442.0, 244.0, 22.0 ],
 									"priority" : 									{
+										"emask-help::m::density" : 1,
+										"emask-help::m::rotate" : 2,
+										"emask-help::m::pattern" : -1,
 										"emask-help-2::m::density" : 1,
 										"emask-help-2::m::rotate" : 2,
 										"emask-help-2::m::pattern" : -1
@@ -1053,7 +1056,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 39.0, 163.0, 61.0, 22.0 ],
+									"patching_rect" : [ 28.5, 163.0, 61.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1088,7 +1091,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 39.0, 107.282608695652243, 24.0, 24.0 ]
+									"patching_rect" : [ 28.5, 107.282608695652243, 24.0, 24.0 ]
 								}
 
 							}
@@ -1099,7 +1102,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 39.0, 134.0, 57.0, 22.0 ],
+									"patching_rect" : [ 28.5, 134.0, 57.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1261,10 +1264,11 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.emask.maxpat",
-									"numinlets" : 0,
-									"numoutlets" : 0,
+									"name" : "rtt.emask.maxpat",
+									"numinlets" : 2,
+									"numoutlets" : 4,
 									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "signal", "signal", "signal", "" ],
 									"patching_rect" : [ 39.0, 196.0, 265.0, 78.0 ],
 									"varname" : "emask-help",
 									"viewvisibility" : 1
@@ -1280,8 +1284,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 582.0, 21.0 ],
-									"text" : "The abstraction seq.emask (no tilde) contains the seq.emask~ object, a UI and pattr support.",
-									"textcolor" : [ 0.502, 0.502, 0.502, 1.0 ]
+									"text" : "The abstraction rtt.emask (no tilde) contains the rtt.emask~ object, a UI and pattr support.",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
@@ -1322,6 +1326,21 @@
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"midpoints" : [ 432.5, 318.0, 22.5, 318.0, 22.5, 185.0, 48.5, 185.0 ],
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-10", 0 ],
 									"source" : [ "obj-12", 0 ]
@@ -1370,6 +1389,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-22", 0 ],
 									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-6", 1 ]
 								}
 
 							}
@@ -1425,8 +1451,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1489,14 +1515,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 729.0, 623.0 ],
+						"rect" : [ 100.0, 113.0, 729.0, 623.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1610,8 +1636,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 0,
+											"minor" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1947,7 +1973,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "seq" ],
+									"args" : [ "rtt" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -1957,7 +1983,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.misc.aboutbutton.maxpat",
+									"name" : "rtt.misc.aboutbutton.maxpat",
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
@@ -2374,6 +2400,20 @@
 		"parameters" : 		{
 			"obj-1::obj-109" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
 			"obj-2::obj-109" : [ "mc.live.gain~[1]", "mc.live.gain~", 0 ],
+			"obj-6::obj-1::obj-2::obj-25" : [ "live.button[1]", "live.button", 0 ],
+			"obj-6::obj-1::obj-7::obj-12" : [ "sequence length[9]", "steps", 2 ],
+			"obj-6::obj-1::obj-7::obj-18" : [ "sequence trigs[2]", "trigs", 1 ],
+			"obj-6::obj-1::obj-7::obj-1::obj-236" : [ "sequence viewer[1]", "sequence viewer", 0 ],
+			"obj-6::obj-1::obj-7::obj-1::obj-3::obj-16" : [ "live.menu[13]", "live.menu", 0 ],
+			"obj-6::obj-1::obj-7::obj-1::obj-3::obj-18" : [ "live.menu[15]", "live.menu", 0 ],
+			"obj-6::obj-1::obj-7::obj-1::obj-3::obj-22" : [ "live.menu[14]", "live.menu", 0 ],
+			"obj-6::obj-1::obj-7::obj-2" : [ "live.button[4]", "live.button", 0 ],
+			"obj-6::obj-1::obj-7::obj-24" : [ "sequence trigs[1]", "trigs", 1 ],
+			"obj-6::obj-1::obj-7::obj-28" : [ "sequence length[5]", "steps", 2 ],
+			"obj-6::obj-1::obj-7::obj-29" : [ "sequence length[1]", "steps", 2 ],
+			"obj-6::obj-1::obj-7::obj-33" : [ "sequence trigs[11]", "trigs", 1 ],
+			"obj-6::obj-1::obj-7::obj-34" : [ "sequence rotate[5]", "trigs", 3 ],
+			"obj-6::obj-1::obj-7::obj-9" : [ "live.text[1]", "live.text", 0 ],
 			"obj-6::obj-3::obj-2::obj-25" : [ "live.button[2]", "live.button", 0 ],
 			"obj-6::obj-3::obj-7::obj-12" : [ "sequence length[2]", "steps", 2 ],
 			"obj-6::obj-3::obj-7::obj-18" : [ "sequence trigs[5]", "trigs", 1 ],
@@ -2398,6 +2438,14 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-6::obj-1::obj-7::obj-2" : 				{
+					"parameter_longname" : "live.button[4]"
+				}
+,
+				"obj-6::obj-1::obj-7::obj-28" : 				{
+					"parameter_longname" : "sequence length[5]"
+				}
+,
 				"obj-6::obj-3::obj-2::obj-25" : 				{
 					"parameter_longname" : "live.button[2]"
 				}
@@ -2503,6 +2551,13 @@
 , 			{
 				"name" : "rtt.loop~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rtt.misc.aboutbutton.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.module.attrchecker.maxpat",

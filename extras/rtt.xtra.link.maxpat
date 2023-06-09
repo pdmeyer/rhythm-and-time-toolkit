@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -53,7 +53,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 56.0, 446.0, 105.0, 23.0 ],
+					"patching_rect" : [ 47.0, 429.5, 105.0, 23.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -67,7 +67,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 164.5, 107.0, 208.0, 47.0 ],
+					"patching_rect" : [ 155.5, 90.5, 208.0, 47.0 ],
 					"text" : "To use this patch, download the link package from the Package Manager",
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
@@ -81,7 +81,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 266.0, 234.0, 24.0, 24.0 ]
+					"patching_rect" : [ 257.0, 217.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -91,7 +91,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 121.0, 82.5, 80.0, 20.0 ],
+					"patching_rect" : [ 112.0, 66.0, 80.0, 20.0 ],
 					"text" : "bpm"
 				}
 
@@ -103,7 +103,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 24.0, 76.0, 80.0, 33.0 ],
+					"patching_rect" : [ 15.0, 59.5, 80.0, 33.0 ],
 					"text" : "transport / messages in"
 				}
 
@@ -114,7 +114,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 56.0, 424.0, 150.0, 20.0 ],
+					"patching_rect" : [ 47.0, 407.5, 150.0, 20.0 ],
 					"text" : "phasor out"
 				}
 
@@ -127,10 +127,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 92.25, 38.5, 205.0, 28.0 ],
+					"patching_rect" : [ 83.25, 22.0, 205.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 113.5, 59.0, 299.0, 28.0 ],
-					"text" : "seq.extra.linkbar"
+					"text" : "rtt.xtra.link"
 				}
 
 			}
@@ -143,10 +143,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 24.0, 16.5, 66.0, 50.0 ],
+					"patching_rect" : [ 15.0, 0.0, 66.0, 50.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 47.5, 36.0, 66.0, 50.0 ],
-					"text" : "seq"
+					"text" : "rtt"
 				}
 
 			}
@@ -157,7 +157,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 121.0, 303.0, 72.0, 22.0 ],
+					"patching_rect" : [ 112.0, 286.5, 72.0, 22.0 ],
 					"text" : "quantum $1"
 				}
 
@@ -169,7 +169,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 56.0, 303.0, 59.0, 22.0 ],
+					"patching_rect" : [ 47.0, 286.5, 59.0, 22.0 ],
 					"text" : "tempo $1"
 				}
 
@@ -181,7 +181,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 24.0, 158.0, 213.0, 22.0 ],
+					"patching_rect" : [ 15.0, 141.5, 213.0, 22.0 ],
 					"text" : "route bpm quantum"
 				}
 
@@ -194,7 +194,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 121.0, 185.0, 86.0, 35.0 ],
+					"patching_rect" : [ 112.0, 168.5, 86.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 4 ],
 						"parameter_enable" : 0,
@@ -213,7 +213,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 261.0, 360.0, 41.0, 22.0 ],
+					"patching_rect" : [ 252.0, 343.5, 41.0, 22.0 ],
 					"text" : "set $1"
 				}
 
@@ -225,7 +225,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 218.0, 360.0, 41.0, 22.0 ],
+					"patching_rect" : [ 209.0, 343.5, 41.0, 22.0 ],
 					"text" : "set $1"
 				}
 
@@ -238,7 +238,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 261.0, 389.0, 30.0, 30.0 ]
+					"patching_rect" : [ 252.0, 372.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -250,7 +250,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 218.0, 389.0, 30.0, 30.0 ]
+					"patching_rect" : [ 209.0, 372.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -261,7 +261,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 56.0, 241.0, 59.0, 22.0 ],
+					"patching_rect" : [ 47.0, 224.5, 59.0, 22.0 ],
 					"restore" : [ 20.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -280,7 +280,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 56.0, 275.0, 48.0, 22.0 ],
+					"patching_rect" : [ 47.0, 258.5, 48.0, 22.0 ],
 					"text" : "change"
 				}
 
@@ -297,7 +297,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -535,7 +535,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 56.0, 360.0, 89.0, 22.0 ],
+					"patching_rect" : [ 47.0, 343.5, 89.0, 22.0 ],
 					"text" : "gen~"
 				}
 
@@ -547,7 +547,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 218.0, 185.0, 71.0, 22.0 ],
+					"patching_rect" : [ 209.0, 168.5, 71.0, 22.0 ],
 					"text" : "link.session"
 				}
 
@@ -559,7 +559,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 56.0, 331.0, 74.0, 22.0 ],
+					"patching_rect" : [ 47.0, 314.5, 74.0, 22.0 ],
 					"text" : "link.phasor~"
 				}
 
@@ -573,7 +573,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 121.0, 111.0, 30.0, 30.0 ]
+					"patching_rect" : [ 112.0, 94.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -586,7 +586,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 111.0, 30.0, 30.0 ]
+					"patching_rect" : [ 15.0, 94.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -598,7 +598,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 56.0, 389.0, 30.0, 30.0 ]
+					"patching_rect" : [ 47.0, 372.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -676,7 +676,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 130.5, 327.5, 65.5, 327.5 ],
+					"midpoints" : [ 121.5, 311.0, 56.5, 311.0 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -706,7 +706,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 1 ],
-					"midpoints" : [ 227.5, 352.0, 135.5, 352.0 ],
+					"midpoints" : [ 218.5, 335.5, 126.5, 335.5 ],
 					"order" : 2,
 					"source" : [ "obj-4", 0 ]
 				}
@@ -715,7 +715,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 279.5, 231.5, 65.5, 231.5 ],
+					"midpoints" : [ 270.5, 215.0, 56.5, 215.0 ],
 					"source" : [ "obj-4", 1 ]
 				}
 
@@ -731,7 +731,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
-					"midpoints" : [ 65.5, 268.0, 270.5, 268.0 ],
+					"midpoints" : [ 56.5, 251.5, 261.5, 251.5 ],
 					"order" : 0,
 					"source" : [ "obj-5", 0 ]
 				}
@@ -756,8 +756,8 @@
 			}
 , 			{
 				"name" : "seq.misc.philipmeyer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
-				"patcherrelativepath" : "../misc",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/_archive",
+				"patcherrelativepath" : "../misc/_archive",
 				"type" : "JSON",
 				"implicit" : 1
 			}

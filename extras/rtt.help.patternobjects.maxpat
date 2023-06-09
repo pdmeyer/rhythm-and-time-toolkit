@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 920.0, 725.0 ],
+		"rect" : [ 34.0, 87.0, 957.0, 725.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -51,13 +51,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 920.0, 699.0 ],
+						"rect" : [ 34.0, 113.0, 957.0, 699.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -93,7 +93,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 100.666666666666629, 478.5, 126.0, 47.0 ],
+									"patching_rect" : [ 100.666666666666629, 494.5, 126.0, 47.0 ],
 									"text" : "compares two patterns with boolean operators"
 								}
 
@@ -105,37 +105,26 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 30.0, 543.5, 169.333333333333314, 52.369565217391312 ],
+									"patching_rect" : [ 69.0, 545.5, 169.333333333333314, 52.369565217391312 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-14",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 30.0, 493.0, 67.0, 22.0 ],
+									"patching_rect" : [ 30.0, 509.0, 58.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.rlogic~"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-13",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 461.666666666666629, 140.5, 203.0, 33.0 ],
-									"text" : "seq.binary~ and seq.euclidean~ are pattern objects. "
+									"text" : "rtt.rlogic~"
 								}
 
 							}
@@ -146,7 +135,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 472.0, 485.5, 180.0, 33.0 ],
+									"patching_rect" : [ 471.0, 509.0, 180.0, 33.0 ],
 									"text" : "use probability to ignore some events"
 								}
 
@@ -158,7 +147,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 369.0, 340.5, 180.0, 47.0 ],
+									"patching_rect" : [ 369.0, 356.5, 180.0, 47.0 ],
 									"text" : "a signal version of the max object onebang that can be used to thin out a pattern"
 								}
 
@@ -170,7 +159,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 286.666666666666629, 300.5, 180.0, 33.0 ],
+									"patching_rect" : [ 286.666666666666629, 316.5, 180.0, 33.0 ],
 									"text" : "an event modifier that creates retriggers or ratchets"
 								}
 
@@ -182,7 +171,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 292.0, 525.815217391304373, 169.333333333333314, 52.369565217391312 ],
+									"patching_rect" : [ 292.0, 541.815217391304373, 169.333333333333314, 52.369565217391312 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -194,7 +183,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 451.0, 466.000000000000057, 80.0, 22.0 ],
+									"patching_rect" : [ 443.0, 478.000000000000057, 80.0, 22.0 ],
 									"text" : "loadmess 0.5"
 								}
 
@@ -206,7 +195,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 292.0, 407.630434782608745, 169.333333333333314, 52.369565217391312 ],
+									"patching_rect" : [ 292.0, 423.630434782608745, 169.333333333333314, 52.369565217391312 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -218,7 +207,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 30.0, 359.630434782608688, 169.333333333333314, 52.369565217391312 ],
+									"patching_rect" : [ 30.0, 375.630434782608688, 169.333333333333314, 52.369565217391312 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -254,13 +243,13 @@
 									"numinlets" : 3,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 252.0, 148.0, 205.0, 22.0 ],
+									"patching_rect" : [ 252.0, 148.0, 196.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.euclidean~ @steps 9 @events 4"
+									"text" : "rtt.euclidean~ @steps 9 @events 4"
 								}
 
 							}
@@ -272,7 +261,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 30.0, 175.0, 177.0, 22.0 ],
-									"text" : "0. 0. 0. 0. 0. 0. 0. 1."
+									"text" : "pattern 0. 0. 0. 0. 0. 0. 0. 1."
 								}
 
 							}
@@ -283,13 +272,13 @@
 									"numinlets" : 3,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 30.0, 148.0, 177.0, 22.0 ],
+									"patching_rect" : [ 30.0, 148.0, 168.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.binary~ @seed 1 @steps 8"
+									"text" : "rtt.binary~ @seed 1 @steps 8"
 								}
 
 							}
@@ -307,52 +296,55 @@
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-8",
 									"maxclass" : "newobj",
 									"numinlets" : 4,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 292.0, 493.0, 178.0, 22.0 ],
+									"patching_rect" : [ 292.0, 509.0, 170.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.rprob~ @triggermode count"
+									"text" : "rtt.rprob~ @triggermode count"
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-2",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 277.0, 355.0, 87.0, 22.0 ],
+									"patching_rect" : [ 277.0, 371.0, 78.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.onepulse~"
+									"text" : "rtt.onepulse~"
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 6,
 									"numoutlets" : 5,
 									"outlettype" : [ "signal", "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 30.0, 308.0, 247.0, 22.0 ],
+									"patching_rect" : [ 30.0, 324.0, 238.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.retrig~ @subdiv 32 @repeats 9 @auto 1"
+									"text" : "rtt.retrig~ @subdiv 32 @repeats 9 @auto 1"
 								}
 
 							}
@@ -367,7 +359,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 26.0, 62.0, 556.0, 35.0 ],
-									"text" : "seq~'s Event Modifiers are related to the Pattern objects. Event modifiers allow you to set up complex pattern interactions that result in novel but controllable rhythms.",
+									"text" : "Event Modifiers are related to the Pattern objects. Event modifiers allow you to set up complex pattern interactions that result in novel but controllable rhythms.",
 									"textcolor" : [ 0.258823529411765, 0.258823529411765, 0.258823529411765, 1.0 ]
 								}
 
@@ -395,7 +387,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 49.333333333333314, 451.0, 150.0, 22.0 ]
+									"patching_rect" : [ 49.333333333333314, 467.0, 150.0, 22.0 ]
 								}
 
 							}
@@ -565,13 +557,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 920.0, 699.0 ],
+						"rect" : [ 0.0, 26.0, 957.0, 699.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -602,6 +594,86 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+									"fontname" : "Arial Bold",
+									"hint" : "",
+									"id" : "obj-8",
+									"ignoreclick" : 1,
+									"legacytextcolor" : 1,
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 736.0, 61.5, 20.0, 20.0 ],
+									"rounded" : 60.0,
+									"text" : "2",
+									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-10",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 600.0, 59.0, 134.0, 25.0 ],
+									"text" : "start the clock"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+									"fontname" : "Arial Bold",
+									"hint" : "",
+									"id" : "obj-4",
+									"ignoreclick" : 1,
+									"legacytextcolor" : 1,
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 782.0, 111.0, 20.0, 20.0 ],
+									"rounded" : 60.0,
+									"text" : "1",
+									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-26",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 686.0, 96.5, 108.0, 25.0 ],
+									"text" : "turn on audio"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"local" : 1,
+									"maxclass" : "ezdac~",
+									"numinlets" : 2,
+									"numoutlets" : 0,
+									"patching_rect" : [ 659.0, 96.5, 25.0, 25.0 ],
+									"prototypename" : "helpfile"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontface" : 1,
 									"fontname" : "Lato",
 									"fontsize" : 24.0,
@@ -631,14 +703,14 @@
 									"id" : "obj-21",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "signal", "" ],
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -674,30 +746,6 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
-													"comment" : "",
-													"id" : "obj-1",
-													"index" : 2,
-													"maxclass" : "outlet",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 138.0, 277.070068546875007, 30.0, 30.0 ]
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-14",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 138.0, 180.846435546875, 41.0, 22.0 ],
-													"text" : "set $1"
-												}
-
-											}
-, 											{
-												"box" : 												{
 													"fontface" : 0,
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
@@ -729,46 +777,32 @@
 													"id" : "obj-36",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 5,
-													"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
-													"patching_rect" : [ 50.0, 185.846435546875, 61.0, 22.0 ],
+													"numoutlets" : 6,
+													"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "" ],
+													"patching_rect" : [ 50.0, 185.846435546875, 71.5, 22.0 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
 													}
 ,
-													"text" : "seq.loop~"
+													"text" : "rtt.loop~"
 												}
 
 											}
 , 											{
 												"box" : 												{
 													"id" : "obj-35",
-													"linecount" : 2,
 													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 4,
-													"outlettype" : [ "signal", "signal", "signal", "" ],
-													"patching_rect" : [ 50.0, 137.846435546875, 107.0, 35.0 ],
+													"numinlets" : 4,
+													"numoutlets" : 2,
+													"outlettype" : [ "signal", "signal" ],
+													"patching_rect" : [ 50.0, 137.846435546875, 57.0, 22.0 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
 													}
 ,
-													"text" : "seq.bar~ @transportstate 1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"attr" : "transportstate",
-													"id" : "obj-5",
-													"maxclass" : "attrui",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"parameter_enable" : 0,
-													"patching_rect" : [ 50.0, 107.846435546875, 150.0, 22.0 ]
+													"text" : "rtt.clock~"
 												}
 
 											}
@@ -793,29 +827,15 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 50.0, 277.070068546875007, 30.0, 30.0 ]
+													"patching_rect" : [ 60.5, 277.070068546875007, 30.0, 30.0 ]
 												}
 
 											}
  ],
 										"lines" : [ 											{
 												"patchline" : 												{
-													"destination" : [ "obj-1", 0 ],
-													"source" : [ "obj-14", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-5", 0 ],
+													"destination" : [ "obj-35", 0 ],
 													"source" : [ "obj-19", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-14", 0 ],
-													"source" : [ "obj-35", 3 ]
 												}
 
 											}
@@ -839,7 +859,7 @@
 												"patchline" : 												{
 													"destination" : [ "obj-20", 0 ],
 													"order" : 1,
-													"source" : [ "obj-36", 0 ]
+													"source" : [ "obj-36", 1 ]
 												}
 
 											}
@@ -847,21 +867,14 @@
 												"patchline" : 												{
 													"destination" : [ "obj-4", 0 ],
 													"order" : 0,
-													"source" : [ "obj-36", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-35", 0 ],
-													"source" : [ "obj-5", 0 ]
+													"source" : [ "obj-36", 1 ]
 												}
 
 											}
  ]
 									}
 ,
-									"patching_rect" : [ 574.0, 87.500000000000014, 46.0, 22.0 ],
+									"patching_rect" : [ 574.0, 92.500000000000014, 46.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -895,7 +908,8 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 249.0, 493.0, 137.0, 54.0 ],
 									"setminmax" : [ 0.0, 1.0 ],
-									"size" : 8
+									"size" : 8,
+									"slidercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ]
 								}
 
 							}
@@ -907,7 +921,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 180.0, 627.5, 206.0, 22.0 ],
-									"text" : "0. 1. 1. 0. 1. 1. 1. 0."
+									"text" : "pattern"
 								}
 
 							}
@@ -925,6 +939,7 @@
 							}
 , 							{
 								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-72",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,
@@ -945,7 +960,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 180.0, 434.0, 201.0, 23.0 ],
-									"text" : "seq.pprob~",
+									"text" : "rtt.pprob~",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -965,6 +980,7 @@
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-76",
 									"maxclass" : "newobj",
 									"numinlets" : 5,
@@ -976,12 +992,13 @@
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.pprob~"
+									"text" : "rtt.pprob~"
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-61",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,
@@ -1002,7 +1019,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 608.0, 158.0, 197.0, 23.0 ],
-									"text" : "seq.emask~",
+									"text" : "rtt.emask~",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1035,16 +1052,19 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-65",
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 621.0, 367.0, 134.0, 22.0 ]
+									"patching_rect" : [ 621.0, 367.0, 134.0, 49.0 ],
+									"text" : "pattern 1. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0."
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-66",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
@@ -1056,7 +1076,7 @@
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.emask~ @density 0.5"
+									"text" : "rtt.emask~ @density 0.5"
 								}
 
 							}
@@ -1101,6 +1121,7 @@
 							}
 , 							{
 								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-60",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,
@@ -1121,7 +1142,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 329.0, 158.0, 200.0, 23.0 ],
-									"text" : "seq.euclidean~",
+									"text" : "rtt.euclidean~",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1130,12 +1151,11 @@
 								"box" : 								{
 									"fontname" : "Lato",
 									"id" : "obj-59",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 329.0, 182.0, 210.0, 35.0 ],
-									"text" : "A classic and simple euclidean pattern generator"
+									"patching_rect" : [ 329.0, 182.0, 210.0, 21.0 ],
+									"text" : "A classic euclidean pattern generator"
 								}
 
 							}
@@ -1154,18 +1174,19 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-53",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 363.0, 367.0, 116.0, 35.0 ],
-									"text" : "1. 0. 1. 0. 1. 0. 1. 0. 1. 1. 0. 1. 0. 1. 0. 1."
+									"patching_rect" : [ 363.0, 367.0, 116.0, 49.0 ],
+									"text" : "pattern 1. 0. 1. 0. 1. 0. 1. 0. 1. 1. 0. 1. 0. 1. 0. 1."
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-51",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,
@@ -1179,12 +1200,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-50",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 497.0, 627.5, 116.0, 22.0 ],
-									"text" : "1. 0. 0. 1. 1. 0. 1. 0."
+									"patching_rect" : [ 497.0, 627.5, 116.0, 35.0 ],
+									"text" : "pattern 1. 0. 0. 1. 1. 0. 1. 0."
 								}
 
 							}
@@ -1196,7 +1218,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 25.0, 378.5, 206.0, 22.0 ],
-									"text" : "signal"
+									"text" : "pattern"
 								}
 
 							}
@@ -1222,7 +1244,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 459.0, 434.0, 204.0, 23.0 ],
-									"text" : "seq.binary~",
+									"text" : "rtt.binary~",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1242,6 +1264,7 @@
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-46",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
@@ -1253,7 +1276,7 @@
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.binary~ @seed 922"
+									"text" : "rtt.binary~ @seed 922"
 								}
 
 							}
@@ -1282,6 +1305,7 @@
 							}
 , 							{
 								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-37",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,
@@ -1315,7 +1339,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 25.0, 158.0, 204.0, 23.0 ],
-									"text" : "seq.pattern~",
+									"text" : "rtt.pattern~",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1328,13 +1352,14 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.0, 182.0, 201.0, 35.0 ],
-									"text" : "The simplest - play back a list of 0s and 1s"
+									"patching_rect" : [ 25.0, 182.0, 231.0, 35.0 ],
+									"text" : "The simplest - store and play back a list of 0s and 1s"
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-2",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
@@ -1346,24 +1371,25 @@
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.euclidean~ @events 9"
+									"text" : "rtt.euclidean~ @events 9"
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 4,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 25.0, 307.5, 206.0, 22.0 ],
+									"patching_rect" : [ 25.0, 307.5, 206.000000000000057, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.pattern~"
+									"text" : "rtt.pattern~"
 								}
 
 							}
@@ -1377,8 +1403,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.0, 69.5, 532.0, 78.0 ],
-									"text" : "seq~ has several objects that generate gate patterns. They're useful for generating and playing back rhythmic patterns. Many of them use generative or algorithmic techniques to create interesting, tweakable rhythms.\n\nThese objects share a comment format for inlets, outlets, and parameters.",
+									"patching_rect" : [ 25.0, 69.5, 502.0, 78.0 ],
+									"text" : "RTT has several objects that generate gate patterns. They're useful for generating and playing back rhythmic patterns. Many of them use generative or algorithmic techniques to create interesting, tweakable rhythms.\n\nThese objects share a comment format for inlets, outlets, and parameters.",
 									"textcolor" : [ 0.258823529411765, 0.258823529411765, 0.258823529411765, 1.0 ]
 								}
 
@@ -1393,7 +1419,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 25.0, 19.0, 93.0, 50.0 ],
-									"text" : "seq~"
+									"text" : "rtt"
 								}
 
 							}
@@ -1508,14 +1534,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-38", 0 ],
 									"source" : [ "obj-21", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-9", 0 ],
-									"midpoints" : [ 610.5, 119.500000000000028, 628.0, 119.500000000000028, 628.0, 48.0, 583.5, 48.0 ],
-									"source" : [ "obj-21", 1 ]
 								}
 
 							}
@@ -1725,13 +1743,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 920.0, 699.0 ],
+						"rect" : [ 0.0, 26.0, 957.0, 699.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1762,12 +1780,48 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 158.0, 260.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 158.0, 260.0, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "attrui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 158.0, 260.0, 150.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-40",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 284.5, 244.456521739130494, 61.0, 22.543478260869563 ],
+									"patching_rect" : [ 312.100000000000023, 244.728260869565247, 61.0, 22.543478260869563 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -1778,7 +1832,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 370.0, 360.0, 150.0, 20.0 ],
+									"patching_rect" : [ 397.600000000000023, 360.271739130434753, 150.0, 20.0 ],
 									"text" : "current step"
 								}
 
@@ -1789,7 +1843,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 204.0, 360.0, 150.0, 20.0 ],
+									"patching_rect" : [ 231.599999999999994, 360.271739130434753, 150.0, 20.0 ],
 									"text" : "trigger"
 								}
 
@@ -1800,7 +1854,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 28.0, 360.0, 150.0, 20.0 ],
+									"patching_rect" : [ 55.600000000000001, 360.271739130434753, 150.0, 20.0 ],
 									"text" : "counter"
 								}
 
@@ -1878,7 +1932,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 462.0, 239.0, 61.0, 22.543478260869563 ],
+									"patching_rect" : [ 489.600000000000023, 239.271739130434753, 61.0, 22.543478260869563 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -1890,7 +1944,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 525.0, 239.0, 33.0, 22.0 ],
+									"patching_rect" : [ 552.600000000000023, 239.271739130434753, 33.0, 22.0 ],
 									"text" : ">~ 0"
 								}
 
@@ -1902,7 +1956,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 525.0, 215.0, 55.0, 22.0 ],
+									"patching_rect" : [ 552.600000000000023, 215.271739130434753, 55.0, 22.0 ],
 									"text" : "change~"
 								}
 
@@ -1914,7 +1968,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 525.0, 191.0, 40.0, 22.0 ],
+									"patching_rect" : [ 552.600000000000023, 191.271739130434753, 40.0, 22.0 ],
 									"text" : "==~ 8"
 								}
 
@@ -1925,7 +1979,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 457.0, 269.0, 150.0, 20.0 ],
+									"patching_rect" : [ 484.600000000000023, 269.271739130434753, 150.0, 20.0 ],
 									"text" : "trigger to reset count"
 								}
 
@@ -1936,7 +1990,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 269.0, 150.0, 20.0 ],
+									"patching_rect" : [ 267.600000000000023, 269.271739130434753, 150.0, 20.0 ],
 									"text" : "trigger to evaulate step"
 								}
 
@@ -1947,20 +2001,20 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 38.0, 269.0, 150.0, 20.0 ],
+									"patching_rect" : [ 65.599999999999994, 269.271739130434753, 150.0, 20.0 ],
 									"text" : "counter or phasor"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontsize" : 36.0,
+									"fontsize" : 12.0,
 									"id" : "obj-13",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 28.0, 449.0, 516.0, 49.0 ],
+									"patching_rect" : [ 389.600000000000023, 447.271739130434753, 182.0, 22.0 ],
 									"text" : "0. 1. 0. 1. 1. 0. 1. 0."
 								}
 
@@ -1969,26 +2023,27 @@
 								"box" : 								{
 									"fontface" : 0,
 									"fontname" : "Arial",
-									"fontsize" : 36.0,
+									"fontsize" : 12.0,
 									"id" : "obj-10",
 									"maxclass" : "number~",
 									"mode" : 2,
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 358.666666666666686, 385.0, 91.0, 49.0 ],
+									"patching_rect" : [ 386.266666666666708, 385.271739130434753, 57.0, 22.0 ],
 									"sig" : 0.0
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-9",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 192.333333333333371, 385.0, 89.0, 49.0 ],
+									"patching_rect" : [ 219.933333333333366, 385.271739130434753, 94.000000000000028, 22.0 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -2004,7 +2059,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 38.0, 217.0, 56.0, 22.0 ],
+									"patching_rect" : [ 65.599999999999994, 217.271739130434753, 56.0, 22.0 ],
 									"sig" : 0.0
 								}
 
@@ -2025,14 +2080,14 @@
 								"box" : 								{
 									"fontface" : 0,
 									"fontname" : "Arial",
-									"fontsize" : 36.0,
+									"fontsize" : 12.0,
 									"id" : "obj-4",
 									"maxclass" : "number~",
 									"mode" : 2,
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 26.0, 400.0, 91.0, 49.0 ],
+									"patching_rect" : [ 53.600000000000009, 385.271739130434753, 57.0, 22.0 ],
 									"sig" : 0.0
 								}
 
@@ -2042,15 +2097,15 @@
 									"id" : "obj-3",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 5,
-									"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 26.0, 154.0, 166.0, 22.0 ],
+									"numoutlets" : 6,
+									"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "" ],
+									"patching_rect" : [ 26.0, 154.0, 157.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.loop~ @direction random"
+									"text" : "rtt.loop~ @direction random"
 								}
 
 							}
@@ -2058,28 +2113,29 @@
 								"box" : 								{
 									"id" : "obj-2",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 26.0, 122.0, 154.0, 22.0 ],
+									"numinlets" : 4,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "signal" ],
+									"patching_rect" : [ 26.0, 122.0, 156.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.bar~ @transportstate 1"
+									"text" : "rtt.clock~ @transportstate 1"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontsize" : 48.0,
+									"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
+									"fontsize" : 12.0,
 									"id" : "obj-14",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 26.0, 291.0, 518.0, 62.0 ],
+									"patching_rect" : [ 53.600000000000001, 291.271739130434753, 518.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -2099,7 +2155,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 26.0, 60.0, 510.0, 35.0 ],
+									"patching_rect" : [ 26.0, 60.0, 415.0, 35.0 ],
 									"text" : "Pattern objects have a standardized set of inlets and outlets. Their function is determined by the 'mode' parameters (see next tab for more info on modes)",
 									"textcolor" : [ 0.258823529411765, 0.258823529411765, 0.258823529411765, 1.0 ]
 								}
@@ -2206,16 +2262,16 @@
 								"patchline" : 								{
 									"destination" : [ "obj-14", 0 ],
 									"order" : 2,
-									"source" : [ "obj-3", 0 ]
+									"source" : [ "obj-3", 1 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-25", 0 ],
-									"midpoints" : [ 35.5, 184.0, 534.5, 184.0 ],
+									"midpoints" : [ 63.100000000000001, 184.0, 562.100000000000023, 184.0 ],
 									"order" : 0,
-									"source" : [ "obj-3", 0 ]
+									"source" : [ "obj-3", 1 ]
 								}
 
 							}
@@ -2231,7 +2287,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
 									"order" : 1,
-									"source" : [ "obj-3", 0 ]
+									"source" : [ "obj-3", 1 ]
 								}
 
 							}
@@ -2269,13 +2325,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 920.0, 699.0 ],
+						"rect" : [ 0.0, 26.0, 957.0, 699.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2312,7 +2368,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 60.0, 528.5, 178.0, 21.0 ],
-									"text" : "default: event_count"
+									"text" : "default: eventcount"
 								}
 
 							}
@@ -2358,7 +2414,7 @@
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 32.0, 406.5, 880.0, 10.0 ]
+									"patching_rect" : [ 32.0, 413.5, 880.0, 10.0 ]
 								}
 
 							}
@@ -2455,8 +2511,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 541.0, 418.5, 367.0, 208.0 ],
-									"text" : "for activated steps...\n\nnone = output nothing\n\ninput_counter = pass through the step counter value received at the first inlet\n\nstep_ix = current step index\n\nevent_ix = current event index\n\nevent_count = running count of events\n\ngate = output 1"
+									"patching_rect" : [ 544.0, 418.5, 367.0, 208.0 ],
+									"text" : "for activated steps...\n\nnone = output nothing\n\ninput = pass through the step counter value received at the first inlet\n\nstep = current step index\n\nevent = current event index\n\neventcount = running count of events\n\ngate = output 1"
 								}
 
 							}
@@ -2469,7 +2525,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 240.0, 492.0, 301.0, 50.0 ],
-									"text" : "outputmode determines what the object outputs from its first outlet for activated steps. for deactivated steps, the object always produces a value of 0"
+									"text" : "output determines what the object outputs from its first outlet for activated steps. for deactivated steps, the object always produces a value of 0"
 								}
 
 							}
@@ -2481,7 +2537,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 541.0, 259.5, 383.0, 150.0 ],
+									"patching_rect" : [ 544.0, 259.5, 383.0, 150.0 ],
 									"text" : "trigger = evaluate the step whenever a trigger is received at the second inlet, using the value at the first inlet as the step index. useful with random counters that might repeat the same step twice\n\nchange = evaluate the step whenever the step value (first inlet) changes. useful with simple rising or falling counters.\n\ncount = ignore the first inlet. evaulate the step upon a trigger at the second inlet and derive the current step value by second-inlet counting triggers"
 								}
 
@@ -2495,7 +2551,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 240.0, 306.5, 298.0, 50.0 ],
-									"text" : "triggermode determines how the object decides when to evaluate the step (and, if the step is activated, generate a trigger from the second outlet). "
+									"text" : "trigger determines how the object decides when to evaluate the step (and, if the step is activated, generate a trigger from the second outlet). "
 								}
 
 							}
@@ -2506,13 +2562,13 @@
 									"numinlets" : 4,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 395.0, 634.0, 76.0, 22.0 ],
+									"patching_rect" : [ 395.0, 634.0, 67.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.pattern~"
+									"text" : "rtt.pattern~"
 								}
 
 							}
@@ -2520,12 +2576,12 @@
 								"box" : 								{
 									"fontname" : "Lato",
 									"id" : "obj-13",
-									"linecount" : 6,
+									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 541.0, 145.5, 364.0, 93.0 ],
-									"text" : "if you're connecting a phasor~ seq.bar, or seq.clock~ directly to the pattern object, choose the normalized countermode.\n\nif you're using the pattern object with seq.loop~ or another object (like subdiv~) capable of creating a stepped counter, use the index countermode."
+									"patching_rect" : [ 544.0, 145.5, 364.0, 78.0 ],
+									"text" : "if you're connecting a phasor~ or rtt.clock~ directly to the pattern object, choose norm.\n\nif you're using the pattern object with rtt.loop~ or another object (like subdiv~) capable of creating a stepped counter, choose index"
 								}
 
 							}
@@ -2538,7 +2594,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 240.0, 145.5, 306.0, 78.0 ],
-									"text" : "countermode tells the object whether to expect an indexed signal (like a stepped counter) or a normalized signal (like a phasor ramp) to its first inlet\n\nthis signal tells the object which step it's currently on"
+									"text" : "counter tells the object whether to expect an indexed signal (like a stepped counter) or a normalized signal (like a phasor ramp) to its first inlet\n\nthis signal tells the object which step it's currently on"
 								}
 
 							}
@@ -2549,13 +2605,13 @@
 									"numinlets" : 3,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 311.0, 634.0, 71.0, 22.0 ],
+									"patching_rect" : [ 311.0, 634.0, 65.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.binary~"
+									"text" : "rtt.emask~"
 								}
 
 							}
@@ -2566,13 +2622,13 @@
 									"numinlets" : 3,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 223.0, 634.0, 74.0, 22.0 ],
+									"patching_rect" : [ 223.0, 634.0, 65.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.emask~"
+									"text" : "rtt.emask~"
 								}
 
 							}
@@ -2583,13 +2639,13 @@
 									"numinlets" : 3,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 118.0, 634.0, 90.0, 22.0 ],
+									"patching_rect" : [ 118.0, 634.0, 81.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.euclidean~"
+									"text" : "rtt.euclidean~"
 								}
 
 							}
@@ -2600,13 +2656,13 @@
 									"numinlets" : 4,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 32.0, 634.0, 76.0, 22.0 ],
+									"patching_rect" : [ 32.0, 634.0, 67.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.pattern~"
+									"text" : "rtt.pattern~"
 								}
 
 							}
@@ -2621,7 +2677,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 26.0, 52.0, 832.0, 35.0 ],
-									"text" : "These parameters are shared by all seq~ Pattern objects. Their default settings work well for most situations, but they also allow you to customize how the object works.",
+									"text" : "These parameters are shared by all RTT pattern objects. Their default settings work well for most situations, but they also allow you to customize how the object works.",
 									"textcolor" : [ 0.258823529411765, 0.258823529411765, 0.258823529411765, 1.0 ]
 								}
 
@@ -2642,7 +2698,7 @@
 							}
 , 							{
 								"box" : 								{
-									"attr" : "countermode",
+									"attr" : "counter",
 									"id" : "obj-5",
 									"maxclass" : "attrui",
 									"numinlets" : 1,
@@ -2655,7 +2711,7 @@
 							}
 , 							{
 								"box" : 								{
-									"attr" : "outputmode",
+									"attr" : "output",
 									"id" : "obj-8",
 									"maxclass" : "attrui",
 									"numinlets" : 1,
@@ -2668,7 +2724,7 @@
 							}
 , 							{
 								"box" : 								{
-									"attr" : "triggermode",
+									"attr" : "trigger",
 									"id" : "obj-9",
 									"maxclass" : "attrui",
 									"numinlets" : 1,
@@ -2833,47 +2889,51 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
-				"name" : "seq.bar~.mxo",
+				"name" : "rtt.binary~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rtt.clock~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rtt.emask~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rtt.euclidean~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rtt.loop~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rtt.onepulse~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rtt.pattern~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rtt.pprob~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rtt.retrig~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rtt.rlogic~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rtt.rprob~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "seq.binary~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.emask~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.euclidean~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.loop~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.onepulse~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.pattern~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.pprob~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.retrig~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.rlogic~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.rprob~.mxo",
 				"type" : "iLaX"
 			}
  ],

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1154.0, 94.0, 810.0, 657.0 ],
+		"rect" : [ 1525.0, 53.0, 810.0, 657.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1147,7 +1147,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1154.0, 120.0, 810.0, 631.0 ],
+						"rect" : [ 1525.0, 79.0, 810.0, 631.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3246,7 +3246,7 @@
 									"color" : [ 0.701961, 0.701961, 0.701961, 0.0 ],
 									"destination" : [ "obj-29", 0 ],
 									"hidden" : 1,
-									"order" : 6,
+									"order" : 5,
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -3256,7 +3256,7 @@
 									"color" : [ 0.701961, 0.701961, 0.701961, 0.0 ],
 									"destination" : [ "obj-34", 0 ],
 									"hidden" : 1,
-									"order" : 5,
+									"order" : 6,
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -3266,7 +3266,7 @@
 									"color" : [ 0.701961, 0.701961, 0.701961, 0.0 ],
 									"destination" : [ "obj-81", 0 ],
 									"hidden" : 1,
-									"order" : 4,
+									"order" : 0,
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -3276,7 +3276,7 @@
 									"color" : [ 0.701961, 0.701961, 0.701961, 0.0 ],
 									"destination" : [ "obj-82", 0 ],
 									"hidden" : 1,
-									"order" : 3,
+									"order" : 1,
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -3296,7 +3296,7 @@
 									"color" : [ 0.701961, 0.701961, 0.701961, 0.0 ],
 									"destination" : [ "obj-85", 0 ],
 									"hidden" : 1,
-									"order" : 1,
+									"order" : 3,
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -3306,7 +3306,7 @@
 									"color" : [ 0.701961, 0.701961, 0.701961, 0.0 ],
 									"destination" : [ "obj-87", 0 ],
 									"hidden" : 1,
-									"order" : 0,
+									"order" : 4,
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -3715,19 +3715,6 @@
 			}
  ],
 		"lines" : [  ],
-		"parameters" : 		{
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "rtt.binary~.mxo",
 				"type" : "iLaX"

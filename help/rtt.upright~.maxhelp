@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 87.0, 855.0, 649.0 ],
+		"rect" : [ 1331.0, 125.0, 524.0, 531.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -68,14 +68,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 855.0, 623.0 ],
+						"rect" : [ 0.0, 26.0, 524.0, 505.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -132,14 +132,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 113.0, 855.0, 623.0 ],
+						"rect" : [ 1331.0, 151.0, 524.0, 505.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -175,8 +175,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 346.666666666666686, 417.0, 150.0, 33.0 ],
-									"presentation_linecount" : 2,
+									"patching_rect" : [ 347.666666666666686, 431.0, 151.0, 33.0 ],
 									"text" : "\"16th note\" pulses derived from the FM sine clock"
 								}
 
@@ -187,7 +186,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 346.666666666666686, 325.0, 150.0, 20.0 ],
+									"patching_rect" : [ 347.666666666666686, 339.0, 150.0, 20.0 ],
 									"text" : "phasor-ified FMed-sine"
 								}
 
@@ -198,7 +197,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 346.666666666666686, 235.0, 150.0, 20.0 ],
+									"patching_rect" : [ 347.666666666666686, 249.0, 150.0, 20.0 ],
 									"text" : "FMed sine"
 								}
 
@@ -211,7 +210,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 160.666666666666686, 393.0, 184.0, 68.0 ],
+									"patching_rect" : [ 161.666666666666686, 407.0, 184.0, 68.0 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -223,7 +222,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 6,
 									"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 39.666666666666664, 344.0, 71.5, 22.0 ],
+									"patching_rect" : [ 40.666666666666664, 358.0, 71.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -240,7 +239,7 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 39.666666666666664, 158.0, 108.0, 22.0 ],
+									"patching_rect" : [ 40.666666666666664, 172.0, 108.0, 22.0 ],
 									"text" : "scale~ -1 1 0.1 0.2"
 								}
 
@@ -252,7 +251,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 39.666666666666664, 132.0, 70.0, 22.0 ],
+									"patching_rect" : [ 40.666666666666664, 146.0, 70.0, 22.0 ],
 									"text" : "cycle~ 0.05"
 								}
 
@@ -265,7 +264,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 160.666666666666686, 215.0, 184.0, 68.0 ],
+									"patching_rect" : [ 161.666666666666686, 229.0, 184.0, 68.0 ],
 									"range" : [ -1.1, 1.1 ]
 								}
 
@@ -277,7 +276,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 39.666666666666664, 182.0, 63.0, 22.0 ],
+									"patching_rect" : [ 40.666666666666664, 196.0, 63.0, 22.0 ],
 									"text" : "cycle~ 0.1"
 								}
 
@@ -290,7 +289,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 160.666666666666686, 301.0, 184.0, 68.0 ],
+									"patching_rect" : [ 161.666666666666686, 315.0, 184.0, 68.0 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -308,7 +307,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 335.666666666666629, 138.5, 20.0, 20.0 ],
+									"patching_rect" : [ 336.666666666666629, 152.5, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -324,7 +323,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 233.666666666666657, 136.0, 108.0, 25.0 ],
+									"patching_rect" : [ 234.666666666666657, 150.0, 108.0, 25.0 ],
 									"text" : "turn on audio"
 								}
 
@@ -336,7 +335,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 204.166666666666657, 132.0, 32.0, 32.0 ],
+									"patching_rect" : [ 205.166666666666657, 146.0, 32.0, 32.0 ],
 									"prototypename" : "helpfile"
 								}
 
@@ -369,7 +368,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 39.666666666666664, 261.0, 66.0, 22.0 ],
+									"patching_rect" : [ 40.666666666666664, 275.0, 66.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -391,7 +390,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 6.0, 8.0, 484.0, 111.0 ]
+									"patching_rect" : [ 6.0, 8.0, 487.0, 123.0 ]
 								}
 
 							}

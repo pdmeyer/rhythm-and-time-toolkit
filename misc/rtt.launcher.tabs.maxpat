@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -283,9 +283,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4.0, 223.0, 152.0, 88.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 180.0, 88.0 ],
-					"tabcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
-					"tabs" : [ "seq.help.patternobjects", "seq.help.snippets", "seq.help.modules", "seq.help.signalflow" ]
+					"presentation_rect" : [ 0.0, 0.0, 120.0, 88.0 ],
+					"tabcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ]
 				}
 
 			}

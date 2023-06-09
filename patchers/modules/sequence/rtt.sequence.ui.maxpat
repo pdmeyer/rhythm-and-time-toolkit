@@ -69,7 +69,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[41]",
+							"parameter_longname" : "live.text[29]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -230,7 +230,7 @@
 					"presentation_rect" : [ 134.0, 0.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[289]",
+							"parameter_longname" : "live.numbox[125]",
 							"parameter_mmax" : 256.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
@@ -305,8 +305,8 @@
 						"live.text" : [ 1.0 ],
 						"low" : [ 0.0 ],
 						"offset" : [ 0.0 ],
-						"sequence" : [ 1.0, 1.0, 1.0, 1.0, 0.16, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0 ],
-						"size" : [ 156.0 ],
+						"sequence" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+						"size" : [ 8.0 ],
 						"stepsize" : [ 0.0 ]
 					}
 ,
@@ -341,7 +341,7 @@
 					"presentation_rect" : [ 134.0, 61.756901840490798, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[287]",
+							"parameter_longname" : "live.numbox[121]",
 							"parameter_mmax" : 40000.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -367,7 +367,7 @@
 					"presentation_rect" : [ 134.0, 47.504601226993856, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[288]",
+							"parameter_longname" : "live.numbox[122]",
 							"parameter_mmax" : 40000.0,
 							"parameter_mmin" : -40000.0,
 							"parameter_shortname" : "live.numbox",
@@ -394,7 +394,7 @@
 					"presentation_rect" : [ 134.0, 31.752300613496942, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[286]",
+							"parameter_longname" : "live.numbox[123]",
 							"parameter_mmax" : 40000.0,
 							"parameter_mmin" : -40000.0,
 							"parameter_shortname" : "live.numbox",
@@ -421,7 +421,7 @@
 					"presentation_rect" : [ 134.0, 16.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[290]",
+							"parameter_longname" : "live.numbox[124]",
 							"parameter_mmax" : 40000.0,
 							"parameter_mmin" : -40000.0,
 							"parameter_shortname" : "live.numbox",
@@ -503,7 +503,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 132.0, 93.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
-					"size" : 156,
+					"size" : 8,
 					"slidercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"varname" : "sequence"
 				}

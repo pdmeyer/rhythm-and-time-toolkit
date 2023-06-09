@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1580.0, 149.0, 610.0, 497.0 ],
+		"rect" : [ 536.0, 189.0, 610.0, 497.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1580.0, 175.0, 610.0, 471.0 ],
+						"rect" : [ 536.0, 215.0, 610.0, 471.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -151,13 +151,13 @@
 , 							{
 								"box" : 								{
 									"fontname" : "Arial",
-									"fontsize" : 12.0,
+									"fontsize" : 13.0,
 									"id" : "obj-9",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 67.599853515625, 513.0, 20.0 ],
-									"text" : "The abstraction seq.clock (no tilde) contains the seq.clock~ object, a UI and pattr support."
+									"patching_rect" : [ 6.0, 67.599853515625, 556.0, 21.0 ],
+									"text" : "The abstraction rtt.clock (no tilde) contains the rtt.clock~ object, a UI and pattr support."
 								}
 
 							}
@@ -177,7 +177,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 257.943984985351562, 20.2999267578125, 99.0, 37.0 ],
+									"patching_rect" : [ 258.943984985351562, 20.2999267578125, 99.0, 37.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -199,11 +199,11 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-21",
-									"linecount" : 4,
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 275.0, 388.0, 222.0, 60.0 ],
+									"patching_rect" : [ 277.0, 396.5, 241.0, 47.0 ],
 									"text" : "use pattrstorage with @greedy 1 to create \"cues\" that save parameters across multiple seq objects in a max patch"
 								}
 
@@ -720,7 +720,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 472.0, 156.0, 173.0, 47.0 ],
+									"patching_rect" : [ 411.0, 149.5, 173.0, 47.0 ],
 									"text" : "these are ignored when non-zero signals are patched in to inlets 1 and 2"
 								}
 
@@ -732,7 +732,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 472.0, 206.0, 150.0, 33.0 ],
+									"patching_rect" : [ 411.0, 199.5, 150.0, 33.0 ],
 									"text" : "number of beats per phasor cycle"
 								}
 
@@ -761,7 +761,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 131.5, 261.0, 56.0, 22.0 ],
+									"patching_rect" : [ 137.0, 261.0, 56.0, 22.0 ],
 									"sig" : 94.0
 								}
 
@@ -769,13 +769,14 @@
 , 							{
 								"box" : 								{
 									"attr" : "transportstate",
+									"displaymode" : 8,
 									"id" : "obj-16",
 									"maxclass" : "attrui",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 320.0, 158.0, 150.0, 22.0 ]
+									"patching_rect" : [ 259.0, 151.5, 150.0, 22.0 ]
 								}
 
 							}
@@ -831,20 +832,20 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 320.0, 182.0, 150.0, 22.0 ]
+									"patching_rect" : [ 259.0, 175.5, 150.0, 22.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"fontname" : "Arial",
-									"fontsize" : 12.0,
+									"fontsize" : 13.0,
 									"id" : "obj-2",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 67.599853515625, 474.0, 47.0 ],
+									"patching_rect" : [ 6.0, 67.599853515625, 480.0, 50.0 ],
 									"text" : "Signals can be used to start and stop the object (first inlet) and change the BPM (second inlet). These override the attribute settings. The third inlet accepts an impulse that will immediately reset the ramp back to 0."
 								}
 
@@ -874,7 +875,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 320.0, 211.5, 150.0, 22.0 ]
+									"patching_rect" : [ 259.0, 205.0, 150.0, 22.0 ]
 								}
 
 							}
@@ -905,7 +906,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
-									"midpoints" : [ 329.5, 251.75, 88.5, 251.75 ],
+									"midpoints" : [ 268.5, 251.75, 88.5, 251.75 ],
 									"source" : [ "obj-14", 0 ]
 								}
 
@@ -927,7 +928,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
-									"midpoints" : [ 329.5, 251.0, 88.5, 251.0 ],
+									"midpoints" : [ 268.5, 251.0, 88.5, 251.0 ],
 									"source" : [ "obj-16", 0 ]
 								}
 
@@ -949,7 +950,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
-									"midpoints" : [ 329.5, 251.0, 88.5, 251.0 ],
+									"midpoints" : [ 268.5, 251.0, 88.5, 251.0 ],
 									"source" : [ "obj-6", 0 ]
 								}
 
@@ -1109,7 +1110,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.misc.aboutbutton.maxpat",
+									"name" : "rtt.misc.aboutbutton.maxpat",
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
@@ -1147,6 +1148,7 @@
 , 							{
 								"box" : 								{
 									"attr" : "syncupdate",
+									"displaymode" : 8,
 									"id" : "obj-10",
 									"maxclass" : "attrui",
 									"numinlets" : 1,
@@ -1437,6 +1439,13 @@
 , 			{
 				"name" : "rtt.clock~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rtt.misc.aboutbutton.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.module.attrchecker.maxpat",

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1647.0, 131.0, 458.0, 565.0 ],
+		"rect" : [ 310.0, 146.0, 458.0, 565.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -139,7 +139,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1647.0, 157.0, 458.0, 539.0 ],
+						"rect" : [ 310.0, 172.0, 458.0, 539.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -177,7 +177,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 69.5, 183.454545454545439, 167.0, 21.0 ],
-									"presentation_linecount" : 2,
 									"text" : "Eurorack-style clock signal"
 								}
 
@@ -191,7 +190,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 257.5, 324.0, 163.0, 21.0 ],
-									"presentation_linecount" : 2,
 									"text" : "quarter notes per bar/ramp"
 								}
 
@@ -358,7 +356,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.misc.aboutbutton.maxpat",
+									"name" : "rtt.misc.aboutbutton.maxpat",
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
@@ -602,9 +600,9 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "seq.misc.aboutbutton.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/_archive",
-				"patcherrelativepath" : "../misc/_archive",
+				"name" : "rtt.misc.aboutbutton.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

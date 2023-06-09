@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 106.0, 226.0, 256.0 ],
+		"rect" : [ 59.0, 106.0, 529.0, 548.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -79,16 +79,16 @@
 					"coll_data" : 					{
 						"count" : 3,
 						"data" : [ 							{
-								"key" : [ "seq", 0 ],
-								"value" : [ "About Seq", "seq.maxpat" ]
+								"key" : [ "rtt", 0 ],
+								"value" : [ "About RTT", "RhythmAndTimeToolkit.maxpat" ]
 							}
 , 							{
 								"key" : [ "modules", 1 ],
-								"value" : [ "About Modules", "seq.help.modules.maxpat" ]
+								"value" : [ "About Modules", "rtt.help.modules.maxpat" ]
 							}
 , 							{
 								"key" : [ "pattern", 2 ],
-								"value" : [ "About Pattern Objects", "seq.help.patternobjects.maxpat" ]
+								"value" : [ "About Pattern Objects", "rtt.help.patternobjects.maxpat" ]
 							}
  ]
 					}
@@ -127,8 +127,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 16.0, 39.0, 95.0, 22.0 ],
-					"text" : "patcherargs seq"
+					"patching_rect" : [ 16.0, 39.0, 86.0, 22.0 ],
+					"text" : "patcherargs rtt"
 				}
 
 			}
@@ -155,9 +155,10 @@
 					"patching_rect" : [ 16.0, 141.0, 100.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 100.0, 37.0 ],
-					"text" : "About Seq",
+					"text" : "About RTT",
 					"textoncolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
-					"truncate" : 0
+					"truncate" : 0,
+					"usebgoncolor" : 1
 				}
 
 			}
@@ -218,9 +219,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }

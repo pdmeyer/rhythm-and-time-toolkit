@@ -707,7 +707,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 341.5, 352.5, 218.0, 47.0 ],
-									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
+									"text" : "to use the module, create a rtt.sequence patcher and give it a unique name as the first argument"
 								}
 
 							}
@@ -757,7 +757,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 505.0, 33.0 ],
-									"text" : "The abstraction seq.sequence (no tilde) contains the seq.sequence~ object, a UI and pattr support."
+									"text" : "The abstraction rtt.sequence (no tilde) contains the rtt.sequence~ object, a UI and pattr support."
 								}
 
 							}
@@ -902,7 +902,7 @@
 					"filename" : "helpname.js",
 					"id" : "obj-5",
 					"ignoreclick" : 1,
-					"jsarguments" : [ "seq.sequence~" ],
+					"jsarguments" : [ "rtt.sequence~" ],
 					"maxclass" : "jsui",
 					"nofsaa" : 1,
 					"numinlets" : 1,

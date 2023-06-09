@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 87.0, 729.0, 649.0 ],
+		"rect" : [ 369.0, 683.0, 729.0, 649.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 729.0, 623.0 ],
+						"rect" : [ 369.0, 709.0, 729.0, 623.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -166,10 +166,11 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.xtra.stepgridviewer.maxpat",
-									"numinlets" : 0,
-									"numoutlets" : 0,
+									"name" : "rtt.xtra.stepgridviewer.maxpat",
+									"numinlets" : 2,
+									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 127.0, 418.5, 298.0, 17.0 ],
 									"viewvisibility" : 1
 								}
@@ -577,6 +578,7 @@
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-10",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
@@ -770,29 +772,22 @@
 								}
 
 							}
-, 							{
-								"box" : 								{
-									"args" : [ "seq" ],
-									"bgmode" : 0,
-									"border" : 0,
-									"clickthrough" : 0,
-									"enablehscroll" : 0,
-									"enablevscroll" : 0,
-									"id" : "obj-21",
-									"lockeddragscroll" : 0,
-									"lockedsize" : 0,
-									"maxclass" : "bpatcher",
-									"name" : "seq.misc.aboutbutton.maxpat",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 280.0, 26.5, 102.5, 37.0 ],
-									"viewvisibility" : 1
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"source" : [ "obj-10", 3 ]
 								}
 
 							}
- ],
-						"lines" : [ 							{
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-22", 1 ],
+									"source" : [ "obj-10", 2 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-38", 0 ],
 									"midpoints" : [ 167.5, 402.25, 441.5, 402.25 ],
@@ -1054,15 +1049,15 @@
 									"id" : "obj-6",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 5,
-									"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 28.5, 163.0, 61.0, 22.0 ],
+									"numoutlets" : 6,
+									"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "" ],
+									"patching_rect" : [ 28.5, 163.0, 71.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "seq.loop~",
+									"text" : "rtt.loop~",
 									"varname" : "loop_37921"
 								}
 
@@ -1371,6 +1366,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
+									"hidden" : 1,
 									"order" : 0,
 									"source" : [ "obj-16", 0 ]
 								}
@@ -1428,14 +1424,14 @@
 					"filename" : "helpname.js",
 					"id" : "obj-5",
 					"ignoreclick" : 1,
-					"jsarguments" : [ "seq.emask" ],
+					"jsarguments" : [ "rtt.emask~" ],
 					"maxclass" : "jsui",
 					"nofsaa" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 10.0, 223.183990478515625, 57.599853515625 ]
+					"patching_rect" : [ 10.0, 10.0, 229.904006958007812, 57.599853515625 ]
 				}
 
 			}
@@ -1522,7 +1518,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 113.0, 729.0, 623.0 ],
+						"rect" : [ 0.0, 26.0, 729.0, 623.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1587,10 +1583,11 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.xtra.stepgridviewer.maxpat",
-									"numinlets" : 0,
-									"numoutlets" : 0,
+									"name" : "rtt.xtra.stepgridviewer.maxpat",
+									"numinlets" : 2,
+									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 112.0, 414.5, 298.0, 17.0 ],
 									"viewvisibility" : 1
 								}
@@ -1962,7 +1959,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.misc.aboutbutton.maxpat",
+									"name" : "rtt.misc.aboutbutton.maxpat",
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
@@ -2053,6 +2050,7 @@
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-10",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
@@ -2260,6 +2258,20 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"source" : [ "obj-10", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-22", 1 ],
+									"source" : [ "obj-10", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-38", 0 ],
 									"midpoints" : [ 151.5, 398.25, 426.5, 398.25 ],
 									"order" : 0,
@@ -2399,7 +2411,13 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-1::obj-109" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
+			"obj-1::obj-22::obj-2" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-1::obj-22::obj-31" : [ "live.grid[1]", "live.grid", 0 ],
+			"obj-1::obj-22::obj-41" : [ "live.text[10]", "live.text[9]", 0 ],
 			"obj-2::obj-109" : [ "mc.live.gain~[1]", "mc.live.gain~", 0 ],
+			"obj-2::obj-22::obj-2" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-2::obj-22::obj-31" : [ "live.grid", "live.grid", 0 ],
+			"obj-2::obj-22::obj-41" : [ "live.text[9]", "live.text[9]", 0 ],
 			"obj-6::obj-1::obj-2::obj-25" : [ "live.button[1]", "live.button", 0 ],
 			"obj-6::obj-1::obj-7::obj-12" : [ "sequence length[9]", "steps", 2 ],
 			"obj-6::obj-1::obj-7::obj-18" : [ "sequence trigs[2]", "trigs", 1 ],
@@ -2438,6 +2456,22 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-1::obj-22::obj-2" : 				{
+					"parameter_longname" : "live.numbox[1]"
+				}
+,
+				"obj-1::obj-22::obj-41" : 				{
+					"parameter_longname" : "live.text[10]"
+				}
+,
+				"obj-2::obj-22::obj-2" : 				{
+					"parameter_longname" : "live.numbox"
+				}
+,
+				"obj-2::obj-22::obj-41" : 				{
+					"parameter_longname" : "live.text[9]"
+				}
+,
 				"obj-6::obj-1::obj-7::obj-2" : 				{
 					"parameter_longname" : "live.button[4]"
 				}
@@ -2504,6 +2538,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "edit.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
+				"patcherrelativepath" : "../media/icons",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "helpdetails.js",
 				"bootpath" : "C74:/help/resources",
 				"type" : "TEXT",
@@ -2554,6 +2595,13 @@
 			}
 , 			{
 				"name" : "rtt.misc.aboutbutton.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rtt.misc.philipmeyer.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
 				"patcherrelativepath" : "../misc",
 				"type" : "JSON",
@@ -2613,13 +2661,9 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "seq.loop~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.misc.aboutbutton.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/_archive",
-				"patcherrelativepath" : "../misc/_archive",
+				"name" : "rtt.xtra.stepgridviewer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/extras",
+				"patcherrelativepath" : "../extras",
 				"type" : "JSON",
 				"implicit" : 1
 			}

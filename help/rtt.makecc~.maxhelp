@@ -215,7 +215,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 328.0, 36.0 ],
-									"text" : "@auto 1 will cause seq.makecc~ to automatically send CC messages when the signal value changes.",
+									"text" : "@auto 1 will cause rtt.makecc~ to automatically send CC messages when the signal value changes.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -625,7 +625,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 149.0, 348.0, 218.0, 47.0 ],
-									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
+									"text" : "to use the module, create a rtt.makecc patcher and give it a unique name as the first argument"
 								}
 
 							}
@@ -639,7 +639,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 510.0, 36.0 ],
-									"text" : "The abstraction seq.makenote (no tilde) contains the seq.makenote~ object, a UI, pattr support, and a midiout object",
+									"text" : "The abstraction rtt.makecc (no tilde) contains the rtt.makecc~ object, a UI, pattr support, and a midiout object",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -801,7 +801,7 @@
 					"filename" : "helpname.js",
 					"id" : "obj-5",
 					"ignoreclick" : 1,
-					"jsarguments" : [ "seq.retrig~" ],
+					"jsarguments" : [ "rtt.retrig~" ],
 					"maxclass" : "jsui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -1055,6 +1055,7 @@
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-25",
 									"maxclass" : "newobj",
 									"numinlets" : 2,

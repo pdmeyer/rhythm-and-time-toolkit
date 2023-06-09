@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 98.0, 87.0, 665.0, 545.0 ],
+		"rect" : [ 542.0, 861.0, 665.0, 545.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 665.0, 519.0 ],
+						"rect" : [ 542.0, 887.0, 665.0, 519.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -652,7 +652,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 98.0, 113.0, 665.0, 519.0 ],
+						"rect" : [ 0.0, 26.0, 665.0, 519.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1058,7 +1058,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.misc.aboutbutton.maxpat",
+									"name" : "rtt.misc.aboutbutton.maxpat",
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
@@ -2016,13 +2016,6 @@
 				"name" : "rtt.module.viewcontrol.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
 				"patcherrelativepath" : "../patchers/module-components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.misc.aboutbutton.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/_archive",
-				"patcherrelativepath" : "../misc/_archive",
 				"type" : "JSON",
 				"implicit" : 1
 			}

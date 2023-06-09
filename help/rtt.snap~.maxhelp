@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1545.0, 791.0, 629.0, 528.0 ],
+						"rect" : [ 0.0, 26.0, 629.0, 528.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -406,7 +406,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 190.0, 350.5, 218.0, 47.0 ],
-									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
+									"text" : "to use the module, create a rtt.snap patcher and give it a unique name as the first argument"
 								}
 
 							}
@@ -605,7 +605,7 @@
 					"filename" : "helpname.js",
 					"id" : "obj-5",
 					"ignoreclick" : 1,
-					"jsarguments" : [ "seq.snap~" ],
+					"jsarguments" : [ "rtt.snap~" ],
 					"maxclass" : "jsui",
 					"nofsaa" : 1,
 					"numinlets" : 1,
@@ -699,7 +699,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 629.0, 528.0 ],
+						"rect" : [ 1545.0, 791.0, 629.0, 528.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -812,8 +812,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 429.0, 169.0, 154.0, 65.0 ],
-									"text" : "when enabled, seq.snap~ will sample the input value when it changes"
+									"patching_rect" : [ 429.0, 169.0, 146.0, 65.0 ],
+									"text" : "when enabled, rtt.snap~ will sample the input value when it changes"
 								}
 
 							}
@@ -864,7 +864,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 429.0, 236.0, 144.0, 65.0 ],
+									"patching_rect" : [ 429.0, 236.0, 146.0, 65.0 ],
 									"text" : "minimum amount of time between snapshots when auto = 1"
 								}
 
@@ -898,12 +898,13 @@
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-5",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 23.0, 400.0, 56.0, 22.0 ],
+									"patching_rect" : [ 23.0, 400.0, 64.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0

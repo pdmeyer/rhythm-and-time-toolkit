@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 686.0, 505.0 ],
+						"rect" : [ 100.0, 113.0, 686.0, 505.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -118,7 +118,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 23.0, 223.0, 56.0, 22.0 ],
+									"patching_rect" : [ 39.0, 219.0, 56.0, 22.0 ],
 									"sig" : 0.0
 								}
 
@@ -204,12 +204,13 @@
 							}
 , 							{
 								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-6",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 81.5, 223.0, 145.0, 51.0 ],
+									"patching_rect" : [ 101.0, 219.0, 145.0, 51.0 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -332,7 +333,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 186.0, 350.5, 218.0, 47.0 ],
-									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
+									"text" : "to use the module, create a rtt.divs patcher and give it a unique name as the first argument"
 								}
 
 							}
@@ -381,7 +382,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 514.0, 21.0 ],
-									"text" : "The abstraction seq.divs (no tilde) contains the seq.divs~ object, a UI and pattr support.",
+									"text" : "The abstraction rtt.divs (no tilde) contains the rtt.divs~ object, a UI and pattr support.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -913,7 +914,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 514.0, 21.0 ],
-									"text" : "Cascade multiple seq.divs~ objects to create complex rhythms",
+									"text" : "Cascade multiple rtt.divs~ objects to create complex rhythms",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1112,7 +1113,7 @@
 					"filename" : "helpname.js",
 					"id" : "obj-5",
 					"ignoreclick" : 1,
-					"jsarguments" : [ "seq.divs" ],
+					"jsarguments" : [ "rtt.divs" ],
 					"maxclass" : "jsui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -1205,7 +1206,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 113.0, 686.0, 505.0 ],
+						"rect" : [ 0.0, 26.0, 686.0, 505.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1454,6 +1455,7 @@
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-13",
 									"maxclass" : "newobj",
 									"numinlets" : 2,

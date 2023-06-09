@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1556.0, 175.0, 602.0, 540.0 ],
+		"rect" : [ 1105.0, 504.0, 614.0, 540.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 602.0, 514.0 ],
+						"rect" : [ 0.0, 26.0, 614.0, 514.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -147,8 +147,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 436.986817303825831, 299.0, 140.0, 47.0 ],
-									"text" : "swing~ expects subdivides the incoming phasor into 2 divisions",
-									"textjustification" : 0
+									"text" : "swing~ expects subdivides the incoming phasor into 2 divisions"
 								}
 
 							}
@@ -365,27 +364,6 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "modules" ],
-									"bgmode" : 0,
-									"border" : 0,
-									"clickthrough" : 0,
-									"enablehscroll" : 0,
-									"enablevscroll" : 0,
-									"id" : "obj-14",
-									"lockeddragscroll" : 0,
-									"lockedsize" : 0,
-									"maxclass" : "bpatcher",
-									"name" : "seq.misc.aboutbutton.maxpat",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 253.839996337890625, 19.39996337890625, 102.0, 38.7999267578125 ],
-									"viewvisibility" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-2",
@@ -575,7 +553,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 602.0, 514.0 ],
+						"rect" : [ 0.0, 26.0, 614.0, 514.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -896,7 +874,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 526.0, 21.0 ],
-									"text" : "The abstraction rtt.swing (no tilde) contains the seq.swing~ object, a UI and pattr support."
+									"text" : "The abstraction rtt.swing (no tilde) contains the rtt.swing~ object, a UI and pattr support."
 								}
 
 							}
@@ -1070,7 +1048,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 602.0, 514.0 ],
+						"rect" : [ 0.0, 26.0, 614.0, 514.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -1134,7 +1112,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1556.0, 201.0, 602.0, 514.0 ],
+						"rect" : [ 1105.0, 530.0, 614.0, 514.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1165,7 +1143,7 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"args" : [ "seq" ],
+									"args" : [ "rtt" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -1255,6 +1233,7 @@
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-5",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -1645,13 +1624,6 @@
 , 			{
 				"name" : "rtt.swing~.mxo",
 				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.misc.aboutbutton.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/_archive",
-				"patcherrelativepath" : "../misc/_archive",
-				"type" : "JSON",
-				"implicit" : 1
 			}
  ],
 		"autosave" : 0

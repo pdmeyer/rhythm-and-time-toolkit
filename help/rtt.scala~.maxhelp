@@ -1027,7 +1027,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 193.5, 342.5, 218.0, 47.0 ],
-									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
+									"text" : "to use the module, create a rtt.scala patcher and give it a unique name as the first argument"
 								}
 
 							}
@@ -1205,7 +1205,7 @@
 					"filename" : "helpname.js",
 					"id" : "obj-5",
 					"ignoreclick" : 1,
-					"jsarguments" : [ "seq.scala~" ],
+					"jsarguments" : [ "rtt.scala~" ],
 					"maxclass" : "jsui",
 					"nofsaa" : 1,
 					"numinlets" : 1,
@@ -1360,7 +1360,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 315.709668636322021, 415.0, 158.0, 74.0 ],
-									"text" : "seq.makenote handles the mapped MIDI notes automatically - digits to the right of the decimal point are sent as pitch bend"
+									"text" : "rtt.makenote~ handles the mapped MIDI notes automatically - digits to the right of the decimal point are sent as pitch bend"
 								}
 
 							}

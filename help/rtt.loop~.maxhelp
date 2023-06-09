@@ -407,7 +407,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 312.0, 154.0, 630.0, 493.0 ],
+						"rect" : [ 0.0, 26.0, 630.0, 493.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -680,7 +680,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 187.0, 346.5, 218.0, 47.0 ],
-									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
+									"text" : "to use the module, create a rtt.loop patcher and give it a unique name as the first argument"
 								}
 
 							}
@@ -729,8 +729,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 10.0, 69.599853515625, 513.0, 36.0 ],
-									"text" : "The abstraction seq.loop (no tilde) contains the seq.loop~ object, a UI and pattr support.",
+									"patching_rect" : [ 10.0, 69.599853515625, 493.0, 36.0 ],
+									"text" : "The abstraction rtt.loop (no tilde) contains the rtt.loop~ object, a UI and pattr support.",
 									"textcolor" : [ 0.502, 0.502, 0.502, 1.0 ]
 								}
 
@@ -1877,7 +1877,7 @@
 					"filename" : "helpname.js",
 					"id" : "obj-5",
 					"ignoreclick" : 1,
-					"jsarguments" : [ "seq.loop" ],
+					"jsarguments" : [ "rtt.loop" ],
 					"maxclass" : "jsui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -2743,7 +2743,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 630.0, 493.0 ],
+						"rect" : [ 312.0, 154.0, 630.0, 493.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3068,6 +3068,7 @@
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-13",
 									"maxclass" : "newobj",
 									"numinlets" : 1,

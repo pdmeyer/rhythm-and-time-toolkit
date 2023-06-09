@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1523.0, 113.0, 635.0, 533.0 ],
+						"rect" : [ 0.0, 26.0, 635.0, 533.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -390,7 +390,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 217.5, 358.5, 218.0, 47.0 ],
-									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
+									"text" : "to use the module, create a rtt.bar patcher and give it a unique name as the first argument"
 								}
 
 							}
@@ -403,8 +403,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 10.0, 69.599853515625, 474.0, 33.0 ],
-									"text" : "The abstraction seq.rprob (no tilde) contains the seq.rprob~ object, a UI and pattr support."
+									"patching_rect" : [ 10.0, 69.599853515625, 466.0, 33.0 ],
+									"text" : "The abstraction rtt.rprob (no tilde) contains the rtt.rprob~ object, a UI and pattr support."
 								}
 
 							}
@@ -567,7 +567,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 635.0, 533.0 ],
+						"rect" : [ 1523.0, 113.0, 635.0, 533.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -726,19 +726,20 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 142.349999999999994, 379.5, 196.0, 62.0 ],
+									"patching_rect" : [ 239.0, 380.5, 196.0, 62.0 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-10",
 									"maxclass" : "newobj",
 									"numinlets" : 4,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 53.600000000000001, 352.0, 107.800000000000011, 22.0 ],
+									"patching_rect" : [ 53.600000000000001, 352.0, 204.400000000000006, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1073,7 +1074,7 @@
 					"filename" : "helpname.js",
 					"id" : "obj-5",
 					"ignoreclick" : 1,
-					"jsarguments" : [ "seq.rprob~" ],
+					"jsarguments" : [ "rtt.rprob~" ],
 					"maxclass" : "jsui",
 					"numinlets" : 1,
 					"numoutlets" : 1,

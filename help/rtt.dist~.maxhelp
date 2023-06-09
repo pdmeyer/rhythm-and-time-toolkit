@@ -102,7 +102,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 205.568008422851562, 19.14996337890625, 100.0, 39.2999267578125 ],
+									"patching_rect" : [ 213.568008422851562, 19.14996337890625, 100.0, 39.2999267578125 ],
 									"viewvisibility" : 1
 								}
 
@@ -240,8 +240,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 512.5, 248.217391304347757, 153.0, 47.0 ],
-									"text" : "you can also set parameters using the module's first inlet"
+									"patching_rect" : [ 513.5, 262.717391304347757, 92.0, 47.0 ],
+									"text" : "you can also set parameters with messages"
 								}
 
 							}
@@ -336,7 +336,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 339.0, 350.5, 218.0, 47.0 ],
-									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
+									"text" : "to use the module, create a rtt.dist patcher and give it a unique name as the first argument"
 								}
 
 							}
@@ -385,8 +385,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 547.0, 21.0 ],
-									"text" : "The abstraction seq.dist (no tilde) contains the seq.dist~ object, a UI and pattr support.",
-									"textcolor" : [ 0.502, 0.502, 0.502, 1.0 ]
+									"text" : "The abstraction rtt.dist (no tilde) contains the rtt.dist~ object, a UI and pattr support.",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
@@ -429,6 +429,21 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"midpoints" : [ 466.5, 335.717391304347757, 24.5, 335.717391304347757, 24.5, 185.0, 48.5, 185.0 ],
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-10", 0 ],
 									"source" : [ "obj-12", 0 ]
 								}
@@ -458,6 +473,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
+									"hidden" : 1,
 									"order" : 0,
 									"source" : [ "obj-16", 0 ]
 								}
@@ -476,6 +492,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-22", 0 ],
 									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-6", 2 ]
 								}
 
 							}
@@ -508,7 +531,7 @@
 					"filename" : "helpname.js",
 					"id" : "obj-5",
 					"ignoreclick" : 1,
-					"jsarguments" : [ "seq.dist~" ],
+					"jsarguments" : [ "rtt.dist~" ],
 					"maxclass" : "jsui",
 					"nofsaa" : 1,
 					"numinlets" : 1,
@@ -681,7 +704,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 404.0, 396.0, 82.0, 36.0 ],
+									"patching_rect" : [ 401.333333333333371, 398.0, 82.0, 36.0 ],
 									"text" : "value selected"
 								}
 
@@ -891,7 +914,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 21.0, 359.5, 43.0, 22.0 ],
+									"patching_rect" : [ 21.0, 373.0, 43.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -911,7 +934,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 21.0, 335.5, 75.0, 22.0 ],
+									"patching_rect" : [ 21.0, 330.5, 75.0, 22.0 ],
 									"text" : "getattr offset"
 								}
 
@@ -1028,7 +1051,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 85.0, 436.0, 47.0, 22.0 ],
+									"patching_rect" : [ 82.333333333333343, 438.0, 47.0, 22.0 ],
 									"text" : "midiout"
 								}
 
@@ -1040,7 +1063,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 85.0, 409.0, 243.0, 22.0 ],
+									"patching_rect" : [ 82.333333333333343, 411.0, 243.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1059,7 +1082,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 390.0, 286.5, 82.0, 36.0 ],
+									"patching_rect" : [ 405.0, 286.5, 82.0, 36.0 ],
 									"text" : "offset the range"
 								}
 
@@ -1075,7 +1098,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 343.0, 409.0, 56.0, 22.0 ],
+									"patching_rect" : [ 340.333333333333371, 411.0, 56.0, 22.0 ],
 									"sig" : 0.0
 								}
 
@@ -1131,12 +1154,13 @@
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-3",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 85.0, 371.0, 110.0, 22.0 ],
+									"patching_rect" : [ 82.333333333333343, 373.0, 175.666666666666657, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1260,7 +1284,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 239.0, 295.5, 150.0, 22.0 ]
+									"patching_rect" : [ 254.0, 295.5, 150.0, 22.0 ]
 								}
 
 							}
@@ -1272,7 +1296,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 240.5, 298.0, 77.0, 22.0 ],
+									"patching_rect" : [ 255.5, 298.0, 77.0, 22.0 ],
 									"text" : "loadmess 60"
 								}
 

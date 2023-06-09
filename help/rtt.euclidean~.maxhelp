@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 722.0, 604.0 ],
+		"rect" : [ 296.0, 783.0, 722.0, 604.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 722.0, 578.0 ],
+						"rect" : [ 296.0, 809.0, 722.0, 578.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -345,7 +345,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 249.0, 350.5, 218.0, 47.0 ],
-									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
+									"text" : "to use the module, create a rtt.euclidean patcher and give it a unique name as the first argument"
 								}
 
 							}
@@ -394,7 +394,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 582.0, 21.0 ],
-									"text" : "The abstraction seq.euclidean (no tilde) contains the seq.euclidean~ object, a UI and pattr support.",
+									"text" : "The abstraction rtt.euclidean (no tilde) contains the rtt.euclidean~ object, a UI and pattr support.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -539,7 +539,7 @@
 					"filename" : "helpname.js",
 					"id" : "obj-5",
 					"ignoreclick" : 1,
-					"jsarguments" : [ "seq.euclidean" ],
+					"jsarguments" : [ "rtt.euclidean" ],
 					"maxclass" : "jsui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -632,7 +632,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 722.0, 578.0 ],
+						"rect" : [ 0.0, 26.0, 722.0, 578.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1039,11 +1039,11 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.misc.aboutbutton.maxpat",
+									"name" : "rtt.misc.aboutbutton.maxpat",
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 243.0, 124.5, 104.0, 38.0 ],
+									"patching_rect" : [ 356.0, 124.5, 104.0, 38.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1409,6 +1409,7 @@
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-10",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
@@ -1910,13 +1911,6 @@
 				"name" : "rtt.module.viewcontrol.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
 				"patcherrelativepath" : "../patchers/module-components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.misc.aboutbutton.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/_archive",
-				"patcherrelativepath" : "../misc/_archive",
 				"type" : "JSON",
 				"implicit" : 1
 			}

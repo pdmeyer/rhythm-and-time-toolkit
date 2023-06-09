@@ -906,7 +906,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 486.0, 50.0 ],
-									"text" : "The rightmost outlet of seq.blocks~ produces a ramp wave that wraps in phase with the input phasor and whose slope changes in according to the list of numbers sent to the right inlet. Use this to play back other patterns at varying speed"
+									"text" : "The rightmost outlet of rtt.blocks~ produces a ramp wave that wraps in phase with the input phasor and whose slope changes in according to the list of numbers sent to the right inlet. Use this to play back other patterns at varying speed"
 								}
 
 							}
@@ -1096,7 +1096,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 595.0, 482.0 ],
+						"rect" : [ 687.0, 113.0, 595.0, 482.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1355,8 +1355,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 186.0, 352.5, 218.0, 47.0 ],
-									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
+									"patching_rect" : [ 186.0, 352.5, 235.0, 47.0 ],
+									"text" : "to use the module, create a rtt.blocks patcher and give it a unique name as the first argument"
 								}
 
 							}
@@ -1364,16 +1364,11 @@
 								"box" : 								{
 									"id" : "obj-3",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
+									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 39.0, 365.0, 138.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"parameter_enable" : 0,
-										"parameter_mappable" : 0
-									}
-,
-									"text" : "rtt.blocks~ blocks-help-2",
+									"patching_rect" : [ 39.0, 365.0, 145.0, 22.0 ],
+									"text" : "rtt.blocks blocks-help-2",
 									"varname" : "blocks-help-2"
 								}
 
@@ -1410,7 +1405,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 560.0, 21.0 ],
-									"text" : "The abstraction seq.blocks (no tilde) contains the seq.blocks~ object, a UI and pattr support."
+									"text" : "The abstraction rtt.blocks (no tilde) contains the rtt.blocks~ object, a UI and pattr support."
 								}
 
 							}
@@ -1874,7 +1869,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 513.0, 21.0 ],
-									"text" : "Cascade multiple seq.blocks~ objects to create complex rhythms"
+									"text" : "Cascade multiple rtt.blocks~ objects to create complex rhythms"
 								}
 
 							}
@@ -2276,7 +2271,7 @@
 					"filename" : "helpname.js",
 					"id" : "obj-5",
 					"ignoreclick" : 1,
-					"jsarguments" : [ "seq.blocks~" ],
+					"jsarguments" : [ "rtt.blocks~" ],
 					"maxclass" : "jsui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -2369,7 +2364,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 687.0, 113.0, 595.0, 482.0 ],
+						"rect" : [ 0.0, 26.0, 595.0, 482.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2409,11 +2404,11 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.blocks.blockviewer.maxpat",
-									"numinlets" : 0,
+									"name" : "rtt.blocks.blockviewer.maxpat",
+									"numinlets" : 1,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 222.5, 319.0, 131.0, 10.0 ],
+									"patching_rect" : [ 220.0, 330.0, 131.0, 10.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2573,7 +2568,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 204.5, 333.0, 159.0, 21.0 ],
+									"patching_rect" : [ 220.0, 344.0, 159.0, 21.0 ],
 									"text" : "resulting divided bar"
 								}
 
@@ -2937,7 +2932,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"order" : 1,
+									"source" : [ "obj-28", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-13", 1 ],
+									"order" : 0,
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -2981,6 +2985,10 @@
 			"obj-2::obj-1::obj-6::obj-6" : [ "live.numbox[31]", "live.text[8]", 0 ],
 			"obj-2::obj-1::obj-6::obj-7" : [ "live.text[3]", "live.text[2]", 0 ],
 			"obj-2::obj-1::obj-93::obj-25" : [ "live.button[14]", "live.button", 0 ],
+			"obj-2::obj-3::obj-6::obj-2" : [ "live.button[9]", "live.button", 0 ],
+			"obj-2::obj-3::obj-6::obj-6" : [ "live.numbox[90]", "live.text[8]", 0 ],
+			"obj-2::obj-3::obj-6::obj-7" : [ "live.toggle[5]", "live.text[2]", 0 ],
+			"obj-2::obj-3::obj-93::obj-25" : [ "live.button[1]", "live.button", 0 ],
 			"obj-4::obj-109" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -3034,6 +3042,13 @@
 				"name" : "helpname.js",
 				"bootpath" : "C74:/help/resources",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rtt.blocks.blockviewer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
+				"patcherrelativepath" : "../patchers/modules/blocks",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{

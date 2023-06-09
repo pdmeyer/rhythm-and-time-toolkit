@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1536.0, 150.0, 593.0, 573.0 ],
+						"rect" : [ 0.0, 26.0, 593.0, 573.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -349,7 +349,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 403.75, 104.717391304347757, 97.75, 52.0 ],
+									"patching_rect" : [ 403.75, 104.717391304347757, 101.0, 52.0 ],
 									"text" : "invisible pattr for remote control"
 								}
 
@@ -432,8 +432,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 141.5, 334.5, 218.0, 51.0 ],
-									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
+									"patching_rect" : [ 141.5, 334.5, 220.0, 51.0 ],
+									"text" : "to use the module, create a rtt.rlogic patcher and give it a unique name as the first argument"
 								}
 
 							}
@@ -446,7 +446,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 528.0, 21.0 ],
-									"text" : "The abstraction rtt.rlogic (no tilde) contains the seq.rlogic~ object, a UI and pattr support."
+									"text" : "The abstraction rtt.rlogic (no tilde) contains the rtt.rlogic~ object, a UI and pattr support."
 								}
 
 							}
@@ -641,7 +641,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 593.0, 573.0 ],
+						"rect" : [ 1536.0, 150.0, 593.0, 573.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1252,6 +1252,7 @@
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-25",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
@@ -1630,7 +1631,7 @@
 					"filename" : "helpname.js",
 					"id" : "obj-5",
 					"ignoreclick" : 1,
-					"jsarguments" : [ "seq.rlogic~" ],
+					"jsarguments" : [ "rtt.rlogic~" ],
 					"maxclass" : "jsui",
 					"numinlets" : 1,
 					"numoutlets" : 1,

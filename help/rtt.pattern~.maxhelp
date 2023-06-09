@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 87.0, 620.0, 617.0 ],
+		"rect" : [ 1665.0, 172.0, 620.0, 617.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 113.0, 620.0, 591.0 ],
+						"rect" : [ 0.0, 26.0, 620.0, 591.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -133,7 +133,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 169.0, 288.0, 128.0, 22.0 ],
-									"text" : "0. 1. 0. 1. 0."
+									"text" : "pattern 0. 1. 0. 1. 0."
 								}
 
 							}
@@ -204,11 +204,6 @@
 							}
 , 							{
 								"box" : 								{
-									"active" : 									{
-										"rtt.clock::m::transportstate" : 0,
-										"clock_30675::m::transportstate" : 0
-									}
-,
 									"id" : "obj-20",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -216,8 +211,8 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 39.0, 442.0, 246.0, 22.0 ],
 									"priority" : 									{
-										"pattern-help::m::pattern" : -1,
-										"pattern-help-2::m::pattern" : -1
+										"pattern-help-2::m::pattern" : -1,
+										"pattern-help::m::pattern" : -1
 									}
 ,
 									"saved_object_attributes" : 									{
@@ -381,7 +376,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 297.0, 352.5, 218.0, 47.0 ],
-									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
+									"text" : "to use the module, create a rtt.pattern patcher and give it a unique name as the first argument"
 								}
 
 							}
@@ -408,7 +403,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 483.0, 36.0 ],
-									"text" : "The abstraction seq.pattern (no tilde) contains the seq.pattern~ object, a UI and pattr support.",
+									"text" : "The abstraction rtt.pattern (no tilde) contains the rtt.pattern~ object, a UI and pattr support.",
 									"textcolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ]
 								}
 
@@ -560,7 +555,7 @@
 					"filename" : "helpname.js",
 					"id" : "obj-5",
 					"ignoreclick" : 1,
-					"jsarguments" : [ "seq.pattern~" ],
+					"jsarguments" : [ "rtt.pattern~" ],
 					"maxclass" : "jsui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -653,7 +648,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 620.0, 591.0 ],
+						"rect" : [ 1665.0, 198.0, 620.0, 591.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1071,7 +1066,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "seq.misc.aboutbutton.maxpat",
+									"name" : "rtt.misc.aboutbutton.maxpat",
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
@@ -1458,7 +1453,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 143.0, 385.0, 186.0, 22.0 ],
-									"text" : "pattern 0. 0. 0. 0. 0. 0. 0. 0."
+									"text" : "pattern"
 								}
 
 							}
@@ -1491,6 +1486,7 @@
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-10",
 									"maxclass" : "newobj",
 									"numinlets" : 4,
@@ -1978,13 +1974,6 @@
 , 			{
 				"name" : "rtt.pattern~.mxo",
 				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.misc.aboutbutton.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/_archive",
-				"patcherrelativepath" : "../misc/_archive",
-				"type" : "JSON",
-				"implicit" : 1
 			}
 , 			{
 				"name" : "tri-down.svg",

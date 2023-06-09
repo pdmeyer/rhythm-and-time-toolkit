@@ -1,97 +1,97 @@
 {
-	"seq.help.patternobjects" : 	{
+	"rtt.help.patternobjects" : 	{
 		"digest" : "Overview of seq's pattern generators."
 	}
 ,
-	"seq.help.snippets" : 	{
+	"rtt.help.snippets" : 	{
 		"digest" : "Overview of seq's snippets - pre-built bits of patch to help make your patching faster."
 	}
 ,
-	"seq.help.modules" : 	{
+	"rtt.help.modules" : 	{
 		"digest" : "All about seq's modules, which are complete UI and preset-enabled versions of the seq objects."
 	}
 ,
-	"seq.help.signalflow" : 	{
-		"digest" : "An intro to how signals work in seq."
+	"rtt.help.signalflow" : 	{
+		"digest" : "An intro to how signals work in rtt."
 	}
 ,
-	"seq.ex.feel" : 	{
-		"digest" : "An example that uses seq.feel~ to create a loose groove."
+	"rtt.ex.feel" : 	{
+		"digest" : "An example that uses rtt.feel~ to create a loose groove."
 	}
 ,
-	"seq.ex.mc" : 	{
+	"rtt.ex.mc" : 	{
 		"digest" : "A multi-track sequencing example made with the MC version of seq~ objects."
 	}
 ,
-	"seq.ex.sometimes-retrig" : 	{
-		"digest" : "Combines seq.retrig~ and seq.rprob~ to play back a pattern with occasional ratcheting."
+	"rtt.ex.sometimes-retrig" : 	{
+		"digest" : "Combines rtt.retrig~ and rtt.rprob~ to play back a pattern with occasional ratcheting."
 	}
 ,
-	"seq.ex.traverse" : 	{
-		"digest" : "Uses advanced features of seq.counter~ to navigate a melodic pattern."
+	"rtt.ex.traverse" : 	{
+		"digest" : "Uses advanced features of rtt.counter~ to navigate a melodic pattern."
 	}
 ,
-	"seq.ex.seqtwist" : 	{
+	"rtt.ex.seqtwist" : 	{
 		"digest" : "seq objects hanging out with some of their best friends"
 	}
 ,
-	"seq.ex.nestedtuplets" : 	{
+	"rtt.ex.nestedtuplets" : 	{
 		"digest" : "Irregular rhythms built from unusual subdivisions"
 	}
 ,
-	"seq.ex.wavescan" : 	{
-		"digest" : "Looping sample playbck with seq.loop~"
+	"rtt.ex.wavescan" : 	{
+		"digest" : "Looping sample playbck with rtt.loop~"
 	}
 ,
-	"seq.ex.quantized" : 	{
-		"digest" : "Quantize incoming MIDI notes with seq.loop~ and seq.onepulse~"
+	"rtt.ex.quantized" : 	{
+		"digest" : "Quantize incoming MIDI notes with rtt.loop~ and rtt.onepulse~"
 	}
 ,
-	"seq.ex.livesync" : 	{
+	"rtt.ex.livesync" : 	{
 		"digest" : "Sync a sequencer with Ableton Live"
 	}
 ,
-	"seq.ex.modwheelretrig" : 	{
+	"rtt.ex.modwheelretrig" : 	{
 		"digest" : "Trigger and modulate ratchets with the keyboard and mod wheel."
 	}
 ,
-	"seq.ex.polyrhythm" : 	{
+	"rtt.ex.polyrhythm" : 	{
 		"digest" : "Explore polymetric and polyrhythmic patterns."
 	}
 ,
-	"seq.ex.subdivratchet" : 	{
+	"rtt.ex.subdivratchet" : 	{
 		"digest" : "Create ratcheted rhythms with a cascade of subdivisions."
 	}
 ,
-	"seq.xtra.fluidslice" : 	{
-		"digest" : "Generate a list of slice points for the seq.dsp.simplesampler device used in the MC and subdiv ratchet examples. Uses the FluCoMa package."
+	"rtt.xtra.fluidslice" : 	{
+		"digest" : "Generate a list of slice points for the rtt.dsp.simplesampler device used in the MC and subdiv ratchet examples. Uses the FluCoMa package."
 	}
 ,
-	"seq.xtra.img2pattern" : 	{
+	"rtt.xtra.img2pattern" : 	{
 		"digest" : "Ingests an image and produces a pattern."
 	}
 ,
-	"seq.xtra.linkbar" : 	{
-		"digest" : "Clock similar to seq.bar~ and seq.clock~ that stays in sync with Ableton Live using Ableton Link. Uses the link package."
+	"rtt.xtra.linkbar" : 	{
+		"digest" : "Clock similar to rtt.bar~ and rtt.clock~ that stays in sync with Ableton Live using Ableton Link. Uses the link package."
 	}
 ,
-	"seq.xtra.patterndisplay" : 	{
+	"rtt.xtra.patterndisplay" : 	{
 		"digest" : "Visualize pattern playback in a Jitter matrix. Works with regular and MC signals."
 	}
 ,
-	"seq.xtra.pattrhelper" : 	{
-		"digest" : "Used in the seq.pattrpresets snippet to make prest setup easy in a patch using seq modules or snippets."
+	"rtt.xtra.pattrhelper" : 	{
+		"digest" : "Used in the rtt.pattrpresets snippet to make prest setup easy in a patch using seq modules or snippets."
 	}
 ,
-	"seq.xtra.stepgridviewer" : 	{
+	"rtt.xtra.stepgridviewer" : 	{
 		"digest" : "Single-channel pattern playback visualizer based on live.grid."
 	}
 ,
-	"seq.help.rnboexternal" : 	{
+	"rtt.help.rnboexternal" : 	{
 		"digest" : "Demonstration of how the seq externals were made with RNBO."
 	}
 ,
-	"seq.ex.transpose" : 	{
+	"rtt.ex.transpose" : 	{
 		"digest" : "Create evolving melodies by transposing one sequence with another."
 	}
 

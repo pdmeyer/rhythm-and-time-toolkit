@@ -1,0 +1,109 @@
+{
+	"rtt.clock~" : 	{
+		"digest" : "Generate ramp signals in beats per minute."
+	}
+    ,
+	"rtt.clockin~" : 	{
+		"digest" : "Convert a trigger-based clock signal into a phasor-based one"
+	}
+    ,
+    "rtt.upright~" : 	{
+		"digest" : "Convert any signal to a phasor-style clock."
+	}
+    ,
+	"rtt.swing~" : 	{
+		"digest" : "Create variations in a ramp's slope for shuffle."
+	}
+    ,
+    "rtt.loop~" : 	{
+		"digest" : "Convert a phasor signal into a step counter."
+	}
+    ,
+    "rtt.blocks~" : 	{
+		"digest" : "Subdivide a phasor signal irregularly."
+	}
+    ,
+    "rtt.divs~" : 	{
+		"digest" : "Subdivide phasor ramps sequentially."
+	}
+    ,
+    "rtt.feel~" : 	{
+		"digest" : "Modulate a phasor ramp for loose timing."
+	}
+    ,
+	"rtt.resync~" : 	{
+		"digest" : "Reset the phase of a ramp signal."
+	}
+    ,
+    "rtt.pattern~" : 	{
+		"digest" : "Play back gate patterns."
+	}
+    ,
+    "rtt.euclidean~" : 	{
+		"digest" : "Generate patterns using the euclidean algorithm."
+	}
+    ,
+    "rtt.binary~" : 	{
+		"digest" : "Generate patterns with base-2 numbers."
+	}
+    ,
+    "rtt.emask~" : 	{
+		"digest" : "Advanced parametric gate pattern generator."
+	}
+    ,
+    "rtt.pprob~" : 	{
+		"digest" : "Generate gate patterns using probability."
+	}
+    ,
+    "rtt.sequence~" : 	{
+		"digest" : "Store and play back lists of values."
+	}
+    ,
+    "rtt.8sequence~" : 	{
+		"digest" : "Eight seq.sequence~ objects in one"
+	}
+    ,
+    "rtt.dist~" : 	{
+		"digest" : "Select values using probabilities."
+	}
+    ,
+    "rtt.notes~" : 	{
+		"digest" : "Store and playback a sequence of notes."
+	}
+    ,
+    "rtt.onepulse~" : 	{
+		"digest" : "Gate triggers using a trigger."
+	}
+    ,
+    "rtt.counter~" : 	{
+		"digest" : "Count and resequence impulses or steps."
+	}
+    ,
+    "rtt.retrig~" : 	{
+		"digest" : "Trigger pulse trains with pulses."
+	}
+    ,
+    "rtt.rlogic~" : 	{
+		"digest" : "Compare signals using boolean operators."
+	}
+    ,
+    "rtt.rprob~" : 	{
+		"digest" : "Generate patterns using probability."
+	}
+    ,
+    "rtt.scala~" : 	{
+		"digest" : "Map MIDI note values to any scale."
+	}
+    ,
+    "rtt.snap~" : 	{
+		"digest" : "Signal-to-float converter "
+	}
+    ,
+    "rtt.makenote~" : 	{
+		"digest" : "Convert signals to MIDI notes"
+	}
+    ,
+    "rtt.makecc~" : 	{
+		"digest" : "Convert signals to MIDI control change"
+	}
+}

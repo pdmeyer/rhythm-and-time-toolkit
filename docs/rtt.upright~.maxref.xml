@@ -15,4 +15,13 @@
 <attributelist></attributelist>
 <description><o>rtt.upright~</o> accepts any signal to its first inlet and transforms the signal so that it can be used as a clock to drive sequencing systems using Rhythm and Time Toolkit objects, as well as MSP objects like like <o>subdiv~</o> and <o>what~</o>.</description>
 <digest>Convert any signal to a phasor-style clock.</digest>
+<metadatalist>
+    <metadata name='author'>Philip Meyer</metadata>
+</metadatalist>
+<seealsolist>
+    <seealsolist>
+        <seealso name="phasor~" />
+		<seealso name="rtt.clock~" />
+    </seealsolist>
+</seealsolist>
 </c74object>

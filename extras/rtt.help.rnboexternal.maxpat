@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 243.0, 87.0, 504.0, 283.0 ],
-		"bglocked" : 0,
+		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -48,7 +48,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 105.0, 169.0, 66.0 ],
+					"patching_rect" : [ 30.0, 120.0, 169.0, 66.0 ],
 					"text" : "RNBO source patch used to build the rtt.divs~ external. double-click to open"
 				}
 
@@ -60,7 +60,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 259.0, 175.0, 51.0, 22.0 ],
+					"patching_rect" : [ 274.0, 190.0, 51.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -118,7 +118,7 @@
 					}
 ,
 					"outlettype" : [ "signal", "signal", "signal", "list" ],
-					"patching_rect" : [ 15.0, 175.0, 102.0, 22.0 ],
+					"patching_rect" : [ 30.0, 190.0, 102.0, 22.0 ],
 					"rnboattrcache" : 					{
 						"syncupdate" : 						{
 							"label" : "syncupdate",
@@ -238,6 +238,20 @@
 			}
 , 			{
 				"box" : 				{
+					"attr" : "syncupdate",
+					"id" : "obj-8",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 274.0, 142.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -251,39 +265,42 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 15.0, 218.0, 105.0, 23.0 ],
+					"patching_rect" : [ 30.0, 233.0, 105.0, 23.0 ],
 					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"background" : 1,
 					"fontsize" : 12.0,
 					"id" : "obj-17",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 52.0, 402.0, 47.0 ],
+					"patching_rect" : [ 30.0, 67.0, 402.0, 47.0 ],
 					"text" : "All of the objects in RTT where made with RNBO. \nWith RNBO, you build a patch that works just like your external will, then export the patch to the external target from within the RNBO."
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"background" : 1,
 					"fontname" : "Lato",
 					"fontsize" : 18.0,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 81.0, 23.0, 255.0, 28.0 ],
-					"text" : "making externals with RNBO"
+					"patching_rect" : [ 96.0, 38.0, 255.0, 28.0 ],
+					"text" : "Making externals with RNBO"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"background" : 1,
 					"fontface" : 1,
 					"fontname" : "Lato",
 					"fontsize" : 36.0,
@@ -291,34 +308,22 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 0.0, 66.0, 50.0 ],
+					"patching_rect" : [ 30.0, 15.0, 66.0, 50.0 ],
 					"text" : "rtt"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"attr" : "syncupdate",
-					"id" : "obj-8",
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 259.0, 127.0, 150.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"autofit" : 1,
+					"background" : 1,
 					"forceaspect" : 1,
 					"id" : "obj-7",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 41.0, 171.0, 290.0, 30.0 ],
+					"patching_rect" : [ 56.0, 186.0, 290.0, 30.0 ],
 					"pic" : "left-pointing-arrow.svg"
 				}
 

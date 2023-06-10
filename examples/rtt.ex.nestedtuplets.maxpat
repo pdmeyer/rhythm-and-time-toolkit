@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 106.0, 619.0, 602.0 ],
-		"bglocked" : 0,
+		"rect" : [ 59.0, 106.0, 554.0, 584.0 ],
+		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -40,32 +40,12 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-4",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "rtt.misc.philipmeyer.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 181.0, 526.0, 105.0, 23.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-26",
 					"maxclass" : "preset",
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 393.333331108093262, 347.0, 129.416670918464661, 57.16666116721251 ],
+					"patching_rect" : [ 356.333331108093262, 360.0, 129.416670918464661, 57.16666116721251 ],
 					"pattrstorage" : "rtt.xtra.pattrhelper"
 				}
 
@@ -77,7 +57,11 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 330.333331108093262, 349.749995183978569, 56.0, 22.0 ],
+					"patching_rect" : [ 293.333331108093262, 362.749995183978569, 56.0, 22.0 ],
+					"restore" : 					{
+						"live.text" : [ 0.0 ]
+					}
+,
 					"text" : "autopattr",
 					"varname" : "u914009899"
 				}
@@ -94,7 +78,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.0, 413.583330583606255, 302.0, 22.0 ],
+					"patching_rect" : [ 188.0, 426.583330583606255, 302.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 580, 87, 949, 304 ],
 						"parameter_enable" : 0,
@@ -123,7 +107,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "int", "bang" ],
-					"patching_rect" : [ 225.0, 343.0, 302.0, 65.583330583606255 ],
+					"patching_rect" : [ 188.0, 356.0, 302.0, 65.583330583606255 ],
 					"varname" : "rtt.xtra.pattrhelper",
 					"viewvisibility" : 1
 				}
@@ -136,7 +120,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 68.0, 343.0, 86.0, 22.0 ],
+					"patching_rect" : [ 31.0, 356.0, 86.0, 22.0 ],
 					"text" : "pong~ 1 60 72"
 				}
 
@@ -152,7 +136,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 197.0, 467.0, 56.0, 22.0 ],
+					"patching_rect" : [ 160.0, 480.0, 56.0, 22.0 ],
 					"sig" : 0.0
 				}
 
@@ -173,7 +157,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 68.0, 467.0, 111.0, 78.0 ],
+					"patching_rect" : [ 31.0, 480.0, 111.0, 78.0 ],
 					"varname" : "nt-mn",
 					"viewvisibility" : 1
 				}
@@ -196,7 +180,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "signal", "" ],
-					"patching_rect" : [ 68.0, 373.0, 143.0, 78.0 ],
+					"patching_rect" : [ 31.0, 386.0, 143.0, 78.0 ],
 					"varname" : "nt-scala",
 					"viewvisibility" : 1
 				}
@@ -219,7 +203,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 68.0, 286.0, 143.0, 43.0 ],
+					"patching_rect" : [ 31.0, 299.0, 143.0, 43.0 ],
 					"varname" : "nt-d",
 					"viewvisibility" : 1
 				}
@@ -242,7 +226,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 67.0, 222.0, 143.0, 60.0 ],
+					"patching_rect" : [ 30.0, 235.0, 143.0, 60.0 ],
 					"varname" : "nt-b2",
 					"viewvisibility" : 1
 				}
@@ -265,7 +249,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 67.0, 156.0, 143.0, 60.0 ],
+					"patching_rect" : [ 30.0, 169.0, 143.0, 60.0 ],
 					"varname" : "nt-b1",
 					"viewvisibility" : 1
 				}
@@ -288,20 +272,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 67.0, 106.0, 145.0, 45.0 ],
+					"patching_rect" : [ 30.0, 119.0, 145.0, 45.0 ],
 					"varname" : "nt-bar",
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 296.0, 45.0, 117.0, 20.0 ],
-					"text" : "philip meyer, 2023"
 				}
 
 			}
@@ -313,7 +286,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 214.0, 286.0, 129.0, 43.0 ],
+					"patching_rect" : [ 177.0, 299.0, 129.0, 43.0 ],
 					"range" : [ -0.1, 1.1 ]
 				}
 
@@ -326,7 +299,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 214.0, 222.0, 129.0, 60.0 ],
+					"patching_rect" : [ 177.0, 235.0, 129.0, 60.0 ],
 					"range" : [ -0.1, 1.1 ]
 				}
 
@@ -339,7 +312,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 214.0, 156.0, 129.0, 60.0 ],
+					"patching_rect" : [ 177.0, 169.0, 129.0, 60.0 ],
 					"range" : [ -0.1, 1.1 ]
 				}
 
@@ -352,50 +325,191 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 214.0, 106.0, 129.0, 45.0 ],
+					"patching_rect" : [ 177.0, 119.0, 129.0, 45.0 ],
 					"range" : [ -0.1, 1.1 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-83",
-					"maxclass" : "comment",
+					"background" : 1,
+					"fontname" : "Lato",
+					"fontsize" : 13.0,
+					"id" : "obj-3",
+					"maxclass" : "live.text",
+					"mode" : 0,
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 296.0, 45.0, 117.0, 20.0 ],
-					"text" : "philip meyer, 2023"
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 398.0, 31.963855421686745, 101.0, 34.07228915662651 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_longname" : "live.text",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "live.text",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "About Nestup",
+					"texton" : "About Nestup",
+					"varname" : "live.text"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 12.0,
+					"background" : 1,
+					"hidden" : 1,
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 5,
+							"revision" : 4,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"hidden" : 1,
+									"id" : "obj-14",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 100.0, 257.0, 35.0 ],
+									"text" : ";\rmax launchbrowser https://nestup.cutelab.nyc/"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-18",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 40.000000156626513, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 425.0, 38.0, 32.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p url"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-4",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "rtt.misc.philipmeyer.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 144.0, 539.0, 105.0, 23.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"fontname" : "Lato",
+					"fontsize" : 13.0,
 					"id" : "obj-2",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 67.0, 66.0, 435.0, 33.0 ],
-					"text" : "create nest-up style rhythms with blocks and divs. blocks are like nestup's \"containers\", and divs creates subdivisions"
+					"patching_rect" : [ 30.0, 67.0, 469.0, 38.0 ],
+					"text" : "Create rhythms in the style of Alex and Sam's Nestup with rtt.blocks~ and rtt.divs~. Blocks are like Nestup's \"containers\", and divs creates subdivisions"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"background" : 1,
 					"fontname" : "Lato",
 					"fontsize" : 18.0,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 133.0, 37.0, 161.0, 28.0 ],
-					"text" : "nested tuplets"
+					"patching_rect" : [ 96.0, 38.0, 161.0, 28.0 ],
+					"text" : "Nested Tuplets"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"background" : 1,
 					"fontface" : 1,
 					"fontname" : "Lato",
 					"fontsize" : 36.0,
@@ -403,7 +517,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 67.0, 14.0, 66.0, 50.0 ],
+					"patching_rect" : [ 30.0, 15.0, 66.0, 50.0 ],
 					"text" : "rtt"
 				}
 
@@ -451,7 +565,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2691", 1 ],
-					"midpoints" : [ 234.5, 445.583330583606312, 545.0, 445.583330583606312, 545.0, 331.999999999999943, 517.5, 331.999999999999943 ],
+					"midpoints" : [ 197.5, 458.583330583606312, 508.0, 458.583330583606312, 508.0, 344.999999999999943, 480.5, 344.999999999999943 ],
 					"source" : [ "obj-2666", 0 ]
 				}
 
@@ -467,6 +581,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2666", 0 ],
 					"source" : [ "obj-2691", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -547,6 +669,7 @@
 			"obj-1::obj-6::obj-9" : [ "live.text[34]", "live.text[2]", 0 ],
 			"obj-1::obj-93::obj-25" : [ "live.button[14]", "live.button", 0 ],
 			"obj-2691::obj-12::obj-10" : [ "pastebang", "pastebang", 0 ],
+			"obj-3" : [ "live.text", "live.text", 0 ],
 			"obj-6::obj-6::obj-2" : [ "live.button[9]", "live.button", 0 ],
 			"obj-6::obj-6::obj-6" : [ "live.numbox[90]", "live.text[8]", 0 ],
 			"obj-6::obj-6::obj-7" : [ "live.toggle[5]", "live.text[2]", 0 ],
@@ -664,6 +787,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "rtt.blocks.blockviewer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
+				"patcherrelativepath" : "../patchers/modules/blocks",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "rtt.blocks.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
 				"patcherrelativepath" : "../patchers/modules/blocks",
@@ -747,8 +877,8 @@
 			}
 , 			{
 				"name" : "rtt.getpatchname.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
-				"patcherrelativepath" : "../javascript",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/code",
+				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 659.0, 87.0, 625.0, 544.0 ],
-		"bglocked" : 0,
+		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -140,7 +140,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 279.0, 335.833319609338787, 18.0, 22.0 ],
+					"patching_rect" : [ 294.0, 350.833319609338787, 18.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -160,7 +160,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 68.0, 272.499997496604919, 132.0, 60.0 ],
+					"patching_rect" : [ 83.0, 287.499997496604919, 132.0, 60.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"size" : 8,
 					"slidercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
@@ -176,7 +176,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 27.0, 335.833319609338787, 60.0, 22.0 ],
+					"patching_rect" : [ 42.0, 350.833319609338787, 60.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -206,7 +206,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 210.0, 283.666667520999908, 97.0, 20.0 ],
+					"patching_rect" : [ 225.0, 298.666667520999908, 97.0, 20.0 ],
 					"prefix" : "~/Documents/Max 8/Packages/seq/misc/scales/",
 					"saved_attribute_attributes" : 					{
 						"bgfillcolor" : 						{
@@ -232,7 +232,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 27.0, 360.0, 78.0, 22.0 ],
+					"patching_rect" : [ 42.0, 375.0, 78.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -250,7 +250,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 210.0, 310.499997496604919, 88.0, 22.0 ],
+					"patching_rect" : [ 225.0, 325.499997496604919, 88.0, 22.0 ],
 					"text" : "rtt.scala.parser"
 				}
 
@@ -261,7 +261,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 250.0, 23.0, 25.0, 25.0 ]
+					"patching_rect" : [ 265.0, 38.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -273,7 +273,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 441.0, 117.0, 37.0 ],
+					"patching_rect" : [ 155.0, 456.0, 117.0, 37.0 ],
 					"text" : "expand to select MIDI destination"
 				}
 
@@ -295,7 +295,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 273.0, 226.0, 328.0, 16.0 ],
+					"patching_rect" : [ 288.0, 241.0, 328.0, 16.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -307,7 +307,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 444.333331108093262, 98.708334708196872, 79.666668891906738, 45.291665291803128 ],
+					"patching_rect" : [ 459.333331108093262, 113.708334708196872, 79.666668891906738, 45.291665291803128 ],
 					"preset_data" : [ 						{
 							"number" : 1,
 							"data" : [ 5, "obj-41", "live.toggle", "float", 1.0, 5, "obj-42", "live.numbox", "float", 20.0, 5, "obj-91", "attrui", "attr", "steps", 5, "obj-91", "attrui", "float", 8.0, 5, "obj-90", "attrui", "attr", "rotate", 5, "obj-90", "attrui", "float", 0.0, 5, "obj-89", "attrui", "attr", "seed", 5, "obj-89", "attrui", "float", 0.0, 5, "obj-199", "umenu", "int", 0, 12, "obj-195", "multislider", "list", 0.474999958276749, 0.691666624943415, 0.591666624943415, 0.391666624943415, 0.374999958276749, 0.458333291610082, 0.658333291610082, 0.708333291610082 ]
@@ -323,7 +323,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 382.333331108093262, 98.249995183978569, 56.0, 22.0 ],
+					"patching_rect" : [ 397.333331108093262, 113.249995183978569, 56.0, 22.0 ],
 					"restore" : 					{
 						"binary/rotate" : [ "rotate", 0.0 ],
 						"binary/seed" : [ "seed", 0.0 ],
@@ -346,7 +346,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 150.0, 216.0, 22.0 ],
+					"patching_rect" : [ 300.0, 165.0, 216.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 809, 112, 1355, 911 ],
 						"parameter_enable" : 0,
@@ -375,7 +375,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "int", "bang" ],
-					"patching_rect" : [ 277.0, 91.5, 253.0, 88.5 ],
+					"patching_rect" : [ 292.0, 106.5, 253.0, 88.5 ],
 					"varname" : "rtt.xtra.pattrhelper",
 					"viewvisibility" : 1
 				}
@@ -397,7 +397,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 27.0, 394.0, 111.0, 78.0 ],
+					"patching_rect" : [ 42.0, 409.0, 111.0, 78.0 ],
 					"varname" : "als",
 					"viewvisibility" : 1
 				}
@@ -411,7 +411,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "signal", "" ],
-					"patching_rect" : [ 27.0, 226.0, 213.0, 22.0 ],
+					"patching_rect" : [ 42.0, 241.0, 213.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -430,7 +430,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 59.0, 174.0, 150.0, 22.0 ],
+					"patching_rect" : [ 74.0, 189.0, 150.0, 22.0 ],
 					"varname" : "binary/seed"
 				}
 
@@ -444,7 +444,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 59.0, 198.0, 150.0, 22.0 ],
+					"patching_rect" : [ 74.0, 213.0, 150.0, 22.0 ],
 					"varname" : "binary/rotate"
 				}
 
@@ -458,7 +458,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 59.0, 150.0, 150.0, 22.0 ],
+					"patching_rect" : [ 74.0, 165.0, 150.0, 22.0 ],
 					"varname" : "binary/steps"
 				}
 
@@ -471,7 +471,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 72.0, 96.5, 44.0, 15.0 ],
+					"patching_rect" : [ 87.0, 111.5, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox",
@@ -496,7 +496,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 27.0, 93.0, 22.0, 22.0 ],
+					"patching_rect" : [ 42.0, 108.0, 22.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
@@ -520,7 +520,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "", "" ],
-					"patching_rect" : [ 27.0, 122.0, 64.0, 22.0 ],
+					"patching_rect" : [ 42.0, 137.0, 64.0, 22.0 ],
 					"text" : "rtt.xtra.link",
 					"varname" : "rtt.xtra.link"
 				}
@@ -534,7 +534,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 150.0, 96.5, 111.0, 41.760869565217376 ],
+					"patching_rect" : [ 165.0, 111.5, 111.0, 41.760869565217376 ],
 					"range" : [ -0.1, 1.1 ]
 				}
 
@@ -546,7 +546,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 483.0, 117.0, 20.0 ],
+					"patching_rect" : [ 42.0, 498.0, 117.0, 20.0 ],
 					"text" : "philip meyer, 2023"
 				}
 
@@ -554,14 +554,14 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"fontsize" : 12.0,
+					"fontname" : "Lato",
+					"fontsize" : 13.0,
 					"id" : "obj-2",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 52.0, 435.0, 33.0 ],
-					"text" : "synchronize your sequencer with ableton live using objects from the link package"
+					"patching_rect" : [ 30.0, 67.0, 520.0, 22.0 ],
+					"text" : "Synchronize your sequencer with Ableton Live using objects from the link package"
 				}
 
 			}
@@ -574,8 +574,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 81.0, 23.0, 161.0, 28.0 ],
-					"text" : "ableton live sync"
+					"patching_rect" : [ 96.0, 38.0, 161.0, 28.0 ],
+					"text" : "Ableton Link Sync"
 				}
 
 			}
@@ -589,7 +589,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 0.0, 66.0, 50.0 ],
+					"patching_rect" : [ 30.0, 15.0, 66.0, 50.0 ],
 					"text" : "rtt"
 				}
 
@@ -655,7 +655,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
-					"midpoints" : [ 59.0, 154.0, 18.25, 154.0, 18.25, 82.0, 36.5, 82.0 ],
+					"midpoints" : [ 74.0, 169.0, 33.25, 169.0, 33.25, 97.0, 51.5, 97.0 ],
 					"source" : [ "obj-40", 1 ]
 				}
 
@@ -663,7 +663,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
-					"midpoints" : [ 81.5, 154.0, 129.5, 154.0, 129.5, 85.5, 81.5, 85.5 ],
+					"midpoints" : [ 96.5, 169.0, 144.5, 169.0, 144.5, 100.5, 96.5, 100.5 ],
 					"source" : [ "obj-40", 2 ]
 				}
 

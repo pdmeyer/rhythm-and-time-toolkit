@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 98.0, 152.0, 379.0, 523.0 ],
-		"bglocked" : 0,
+		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -40,125 +40,13 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-6",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 52.0, 273.25, 33.0 ],
-					"text" : "connects to Ableton Link system to obtain transport information and a clock phasor"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-2",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "rtt.misc.philipmeyer.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 47.0, 464.5, 105.0, 23.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontsize" : 12.0,
-					"id" : "obj-8",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 155.5, 125.5, 208.0, 47.0 ],
-					"text" : "To use this patch, download the link package from the Package Manager",
-					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 257.0, 252.5, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-43",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 112.0, 101.0, 80.0, 20.0 ],
-					"text" : "bpm"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-42",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 94.5, 80.0, 33.0 ],
-					"text" : "transport / messages in"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-41",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 47.0, 442.5, 150.0, 20.0 ],
-					"text" : "phasor out"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Lato",
-					"fontsize" : 18.0,
-					"id" : "obj-9",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 83.25, 22.0, 205.0, 28.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 113.5, 59.0, 299.0, 28.0 ],
-					"text" : "rtt.xtra.link"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Lato",
-					"fontsize" : 36.0,
-					"id" : "obj-10",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 0.0, 66.0, 50.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 47.5, 36.0, 66.0, 50.0 ],
-					"text" : "rtt"
+					"patching_rect" : [ 272.0, 267.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -169,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 112.0, 321.5, 72.0, 22.0 ],
+					"patching_rect" : [ 127.0, 336.5, 72.0, 22.0 ],
 					"text" : "quantum $1"
 				}
 
@@ -181,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 47.0, 321.5, 59.0, 22.0 ],
+					"patching_rect" : [ 62.0, 336.5, 59.0, 22.0 ],
 					"text" : "tempo $1"
 				}
 
@@ -193,7 +81,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 15.0, 176.5, 213.0, 22.0 ],
+					"patching_rect" : [ 30.0, 191.5, 213.0, 22.0 ],
 					"text" : "route bpm quantum"
 				}
 
@@ -206,7 +94,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 112.0, 203.5, 86.0, 35.0 ],
+					"patching_rect" : [ 127.0, 218.5, 86.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 4 ],
 						"parameter_enable" : 0,
@@ -225,7 +113,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 252.0, 378.5, 41.0, 22.0 ],
+					"patching_rect" : [ 267.0, 393.5, 41.0, 22.0 ],
 					"text" : "set $1"
 				}
 
@@ -237,7 +125,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 209.0, 378.5, 41.0, 22.0 ],
+					"patching_rect" : [ 224.0, 393.5, 41.0, 22.0 ],
 					"text" : "set $1"
 				}
 
@@ -246,11 +134,11 @@
 				"box" : 				{
 					"comment" : "bpm \"set\" message",
 					"id" : "obj-18",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 252.0, 407.5, 30.0, 30.0 ]
+					"patching_rect" : [ 267.0, 422.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -258,11 +146,11 @@
 				"box" : 				{
 					"comment" : "transport \"set\" message",
 					"id" : "obj-15",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 209.0, 407.5, 30.0, 30.0 ]
+					"patching_rect" : [ 224.0, 422.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -273,7 +161,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 47.0, 259.5, 59.0, 22.0 ],
+					"patching_rect" : [ 62.0, 274.5, 59.0, 22.0 ],
 					"restore" : [ 20.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -292,7 +180,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 47.0, 293.5, 48.0, 22.0 ],
+					"patching_rect" : [ 62.0, 308.5, 48.0, 22.0 ],
 					"text" : "change"
 				}
 
@@ -547,7 +435,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 47.0, 378.5, 89.0, 22.0 ],
+					"patching_rect" : [ 62.0, 393.5, 89.0, 22.0 ],
 					"text" : "gen~"
 				}
 
@@ -559,7 +447,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 209.0, 203.5, 71.0, 22.0 ],
+					"patching_rect" : [ 224.0, 218.5, 71.0, 22.0 ],
 					"text" : "link.session"
 				}
 
@@ -571,7 +459,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 47.0, 349.5, 74.0, 22.0 ],
+					"patching_rect" : [ 62.0, 364.5, 74.0, 22.0 ],
 					"text" : "link.phasor~"
 				}
 
@@ -580,12 +468,12 @@
 				"box" : 				{
 					"comment" : "bpm",
 					"id" : "obj-35",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 112.0, 129.5, 30.0, 30.0 ]
+					"patching_rect" : [ 127.0, 144.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -593,12 +481,12 @@
 				"box" : 				{
 					"comment" : "transport (int) / messages in",
 					"id" : "obj-36",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 129.5, 30.0, 30.0 ]
+					"patching_rect" : [ 30.0, 144.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -606,11 +494,127 @@
 				"box" : 				{
 					"comment" : "phasor",
 					"id" : "obj-38",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 47.0, 407.5, 30.0, 30.0 ]
+					"patching_rect" : [ 62.0, 422.5, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"id" : "obj-6",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 30.0, 67.0, 273.25, 33.0 ],
+					"text" : "connects to Ableton Link system to obtain transport information and a clock phasor"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-2",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "rtt.misc.philipmeyer.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 62.0, 479.5, 105.0, 23.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"fontface" : 1,
+					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 170.5, 140.5, 208.0, 47.0 ],
+					"text" : "To use this patch, download the link package from the Package Manager",
+					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"id" : "obj-42",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 30.0, 109.5, 80.0, 33.0 ],
+					"text" : "transport / messages in"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"id" : "obj-41",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 62.0, 457.5, 150.0, 20.0 ],
+					"text" : "phasor out"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"fontname" : "Lato",
+					"fontsize" : 18.0,
+					"id" : "obj-9",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 98.25, 37.0, 205.0, 28.0 ],
+					"text" : "rtt.xtra.link"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"fontface" : 1,
+					"fontname" : "Lato",
+					"fontsize" : 36.0,
+					"id" : "obj-10",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 30.0, 15.0, 66.0, 50.0 ],
+					"text" : "rtt"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"id" : "obj-43",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 127.0, 116.0, 80.0, 20.0 ],
+					"text" : "bpm"
 				}
 
 			}
@@ -688,7 +692,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 121.5, 346.0, 56.5, 346.0 ],
+					"midpoints" : [ 136.5, 361.0, 71.5, 361.0 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -718,7 +722,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 1 ],
-					"midpoints" : [ 218.5, 370.5, 126.5, 370.5 ],
+					"midpoints" : [ 233.5, 385.5, 141.5, 385.5 ],
 					"order" : 2,
 					"source" : [ "obj-4", 0 ]
 				}
@@ -727,7 +731,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 270.5, 250.0, 56.5, 250.0 ],
+					"midpoints" : [ 285.5, 265.0, 71.5, 265.0 ],
 					"source" : [ "obj-4", 1 ]
 				}
 
@@ -743,7 +747,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
-					"midpoints" : [ 56.5, 286.5, 261.5, 286.5 ],
+					"midpoints" : [ 71.5, 301.5, 276.5, 301.5 ],
 					"order" : 0,
 					"source" : [ "obj-5", 0 ]
 				}
@@ -757,7 +761,24 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "link.phasor~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "link.session.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rtt.misc.philipmeyer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

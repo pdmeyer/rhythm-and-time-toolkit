@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1366.0, 472.0, 753.0, 534.0 ],
+		"rect" : [ 100.0, 100.0, 626.0, 534.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 753.0, 508.0 ],
+						"rect" : [ 0.0, 26.0, 626.0, 508.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -636,7 +636,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 753.0, 508.0 ],
+						"rect" : [ 0.0, 26.0, 626.0, 508.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1130,7 +1130,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 753.0, 508.0 ],
+						"rect" : [ 100.0, 126.0, 626.0, 508.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1640,7 +1640,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 753.0, 508.0 ],
+						"rect" : [ 0.0, 26.0, 626.0, 508.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -1704,7 +1704,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1366.0, 498.0, 753.0, 508.0 ],
+						"rect" : [ 0.0, 26.0, 626.0, 508.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2323,19 +2323,19 @@
 		"parameters" : 		{
 			"obj-6::obj-1::obj-18::obj-14" : [ "live.numbox[37]", "live.numbox[19]", 0 ],
 			"obj-6::obj-1::obj-18::obj-2" : [ "live.button[15]", "live.button", 0 ],
-			"obj-6::obj-1::obj-18::obj-38::obj-1" : [ "live.numbox[35]", "live.numbox[19]", 0 ],
 			"obj-6::obj-1::obj-18::obj-38::obj-16" : [ "live.numbox[34]", "live.numbox[19]", 0 ],
 			"obj-6::obj-1::obj-18::obj-38::obj-20" : [ "live.numbox[33]", "live.numbox[19]", 0 ],
 			"obj-6::obj-1::obj-18::obj-38::obj-22" : [ "live.numbox[36]", "live.numbox[19]", 0 ],
+			"obj-6::obj-1::obj-18::obj-38::obj-5" : [ "live.text[17]", "live.text[56]", 0 ],
 			"obj-6::obj-1::obj-18::obj-9" : [ "live.text[20]", "live.text", 0 ],
 			"obj-6::obj-1::obj-2::obj-25" : [ "live.button[1]", "live.button", 0 ],
 			"obj-6::obj-3::obj-18::obj-14" : [ "live.numbox[5]", "live.numbox[19]", 0 ],
 			"obj-6::obj-3::obj-18::obj-2" : [ "live.button[3]", "live.button", 0 ],
-			"obj-6::obj-3::obj-18::obj-38::obj-1" : [ "live.numbox[3]", "live.numbox[19]", 0 ],
 			"obj-6::obj-3::obj-18::obj-38::obj-16" : [ "live.numbox[4]", "live.numbox[19]", 0 ],
 			"obj-6::obj-3::obj-18::obj-38::obj-20" : [ "live.numbox[2]", "live.numbox[19]", 0 ],
 			"obj-6::obj-3::obj-18::obj-38::obj-22" : [ "live.numbox[1]", "live.numbox[19]", 0 ],
-			"obj-6::obj-3::obj-18::obj-9" : [ "live.text[1]", "live.text", 0 ],
+			"obj-6::obj-3::obj-18::obj-38::obj-5" : [ "live.text[1]", "live.text[56]", 0 ],
+			"obj-6::obj-3::obj-18::obj-9" : [ "live.text[2]", "live.text", 0 ],
 			"obj-6::obj-3::obj-2::obj-25" : [ "live.button[2]", "live.button", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -2347,16 +2347,32 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-6::obj-1::obj-18::obj-14" : 				{
+					"parameter_longname" : "live.numbox[37]"
+				}
+,
+				"obj-6::obj-1::obj-18::obj-38::obj-16" : 				{
+					"parameter_longname" : "live.numbox[34]"
+				}
+,
+				"obj-6::obj-1::obj-18::obj-38::obj-20" : 				{
+					"parameter_longname" : "live.numbox[33]"
+				}
+,
+				"obj-6::obj-1::obj-18::obj-38::obj-22" : 				{
+					"parameter_longname" : "live.numbox[36]"
+				}
+,
+				"obj-6::obj-1::obj-18::obj-9" : 				{
+					"parameter_longname" : "live.text[20]"
+				}
+,
 				"obj-6::obj-3::obj-18::obj-14" : 				{
 					"parameter_longname" : "live.numbox[5]"
 				}
 ,
 				"obj-6::obj-3::obj-18::obj-2" : 				{
 					"parameter_longname" : "live.button[3]"
-				}
-,
-				"obj-6::obj-3::obj-18::obj-38::obj-1" : 				{
-					"parameter_longname" : "live.numbox[3]"
 				}
 ,
 				"obj-6::obj-3::obj-18::obj-38::obj-16" : 				{
@@ -2371,8 +2387,12 @@
 					"parameter_longname" : "live.numbox[1]"
 				}
 ,
-				"obj-6::obj-3::obj-18::obj-9" : 				{
+				"obj-6::obj-3::obj-18::obj-38::obj-5" : 				{
 					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-6::obj-3::obj-18::obj-9" : 				{
+					"parameter_longname" : "live.text[2]"
 				}
 ,
 				"obj-6::obj-3::obj-2::obj-25" : 				{
@@ -2424,8 +2444,8 @@
 			}
 , 			{
 				"name" : "rtt.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
-				"patcherrelativepath" : "../patchers/module-components",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

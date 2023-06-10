@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,7 +39,7 @@
 		"subpatcher_template" : "dark-bg",
 		"showontab" : 0,
 		"assistshowspatchername" : 0,
-		"globalpatchername" : "phas[1][1][2][1][1][1][1]",
+		"globalpatchername" : "phas[1][1][2][1][1][1][1][2]",
 		"boxes" : [ 			{
 				"box" : 				{
 					"color" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
@@ -143,38 +143,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-22",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 564.715686274509835, 42.0, 103.0, 22.0 ],
-					"text" : "prepend transport"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
-					"id" : "obj-21",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 564.715686274509835, 18.0, 278.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"initial" : [ "internal" ],
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr transportname @type symbol @initial internal",
-					"varname" : "transportname"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -239,7 +207,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 62.426250000000017, 18.0, 23.999999999999993, 23.999999999999993 ]
 				}
 
@@ -334,7 +302,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 12.0, 18.0, 24.0, 24.0 ]
 				}
 
@@ -418,20 +386,6 @@
 					"destination" : [ "obj-45", 2 ],
 					"midpoints" : [ 323.215686274509835, 207.5, 458.965686274509835, 207.5, 458.965686274509835, 144.5, 429.215686274509835, 144.5 ],
 					"source" : [ "obj-20", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"source" : [ "obj-22", 0 ]
 				}
 
 			}

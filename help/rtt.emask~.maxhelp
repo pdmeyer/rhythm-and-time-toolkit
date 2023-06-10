@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 369.0, 683.0, 729.0, 649.0 ],
+		"rect" : [ 100.0, 100.0, 659.0, 572.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 369.0, 709.0, 729.0, 623.0 ],
+						"rect" : [ 0.0, 26.0, 659.0, 546.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -93,7 +93,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 484.0, 263.0, 104.0, 22.0 ],
+									"patching_rect" : [ 398.0, 263.0, 104.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -110,7 +110,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 3,
 									"outlettype" : [ "signal", "signal", "" ],
-									"patching_rect" : [ 484.0, 233.0, 221.0, 22.0 ],
+									"patching_rect" : [ 398.0, 233.0, 221.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -135,10 +135,11 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-15",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 263.0, 257.0, 170.0, 20.0 ],
+									"patching_rect" : [ 263.0, 257.0, 104.0, 33.0 ],
 									"text" : "amout of variation to apply. "
 								}
 
@@ -171,7 +172,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 127.0, 418.5, 298.0, 17.0 ],
+									"patching_rect" : [ 127.0, 418.0, 328.0, 16.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -724,7 +725,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 109.5, 257.0, 150.0, 22.0 ]
+									"patching_rect" : [ 109.5, 263.0, 150.0, 22.0 ]
 								}
 
 							}
@@ -831,7 +832,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-19", 0 ],
-									"midpoints" : [ 175.300000000000011, 227.5, 493.5, 227.5 ],
+									"midpoints" : [ 175.300000000000011, 227.5, 407.5, 227.5 ],
 									"source" : [ "obj-13", 4 ]
 								}
 
@@ -846,7 +847,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-36", 0 ],
-									"midpoints" : [ 493.5, 299.0, 119.0, 299.0 ],
+									"midpoints" : [ 407.5, 299.0, 119.0, 299.0 ],
 									"source" : [ "obj-29", 0 ]
 								}
 
@@ -938,7 +939,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 729.0, 623.0 ],
+						"rect" : [ 0.0, 26.0, 659.0, 546.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1033,10 +1034,10 @@
 									}
 ,
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 809, 112, 1355, 911 ],
+										"client_rect" : [ 580, 87, 949, 304 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 583, 87, 1081, 651 ]
+										"storage_rect" : [ 583, 69, 1034, 197 ]
 									}
 ,
 									"text" : "pattrstorage emask-help-storage @greedy 1",
@@ -1145,7 +1146,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 423.0, 175.782608695652243, 41.0, 22.0 ],
+									"patching_rect" : [ 423.0, 201.0, 41.0, 22.0 ],
 									"text" : "set $1"
 								}
 
@@ -1303,11 +1304,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-13",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 423.0, 150.0, 266.0, 22.0 ],
+									"patching_rect" : [ 423.0, 150.0, 149.0, 49.0 ],
 									"restore" : [ 8 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
@@ -1375,7 +1377,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-14", 0 ],
-									"midpoints" : [ 432.5, 207.782608695652243, 416.5, 207.782608695652243, 416.5, 113.282608695652243, 432.5, 113.282608695652243 ],
+									"midpoints" : [ 432.5, 227.782608695652243, 416.5, 227.782608695652243, 416.5, 113.282608695652243, 432.5, 113.282608695652243 ],
 									"order" : 1,
 									"source" : [ "obj-16", 0 ]
 								}
@@ -1454,7 +1456,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 729.0, 623.0 ],
+						"rect" : [ 0.0, 26.0, 659.0, 546.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -1518,7 +1520,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 729.0, 623.0 ],
+						"rect" : [ 100.0, 126.0, 659.0, 546.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1555,7 +1557,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 272.5, 293.5, 130.0, 21.0 ],
+									"patching_rect" : [ 273.5, 300.0, 130.0, 21.0 ],
 									"text" : "masking pattern"
 								}
 
@@ -1588,7 +1590,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 112.0, 414.5, 298.0, 17.0 ],
+									"patching_rect" : [ 269.0, 408.0, 328.0, 16.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1984,7 +1986,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 280.0, 26.5, 102.5, 37.0 ],
+									"patching_rect" : [ 394.0, 25.5, 102.5, 37.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1997,7 +1999,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 112.0, 293.5, 130.0, 21.0 ],
+									"patching_rect" : [ 113.0, 300.0, 130.0, 21.0 ],
 									"text" : "underlying pattern"
 								}
 
@@ -2038,12 +2040,13 @@
 							}
 , 							{
 								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-38",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 417.0, 414.5, 187.0, 31.0 ],
+									"patching_rect" : [ 142.0, 400.393939393939377, 95.0, 33.106060606060623 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -2199,7 +2202,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 93.0, 258.0, 150.0, 22.0 ]
+									"patching_rect" : [ 93.0, 252.0, 150.0, 22.0 ]
 								}
 
 							}
@@ -2225,7 +2228,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 252.5, 258.0, 150.0, 22.0 ]
+									"patching_rect" : [ 252.5, 252.0, 150.0, 22.0 ]
 								}
 
 							}
@@ -2273,7 +2276,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-38", 0 ],
-									"midpoints" : [ 151.5, 398.25, 426.5, 398.25 ],
 									"order" : 0,
 									"source" : [ "obj-10", 1 ]
 								}
@@ -2282,7 +2284,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-81", 0 ],
-									"midpoints" : [ 151.5, 398.75, 31.5, 398.75 ],
 									"order" : 1,
 									"source" : [ "obj-10", 1 ]
 								}
@@ -2616,8 +2617,8 @@
 			}
 , 			{
 				"name" : "rtt.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
-				"patcherrelativepath" : "../patchers/module-components",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -2654,6 +2655,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
 				"patcherrelativepath" : "../patchers/module-components",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rtt.resizebpatcher.js",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

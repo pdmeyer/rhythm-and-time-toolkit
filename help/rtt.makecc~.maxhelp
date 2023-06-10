@@ -1079,13 +1079,13 @@
 									"numinlets" : 3,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 43.5, 216.0, 228.0, 22.0 ],
+									"patching_rect" : [ 43.5, 216.0, 167.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "rtt.euclidean~ @countermode normalized",
+									"text" : "rtt.euclidean~ @counter norm",
 									"varname" : "rnbo~[2]"
 								}
 
@@ -1537,8 +1537,8 @@
 			}
 , 			{
 				"name" : "rtt.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
-				"patcherrelativepath" : "../patchers/module-components",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

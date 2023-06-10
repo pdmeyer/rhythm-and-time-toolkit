@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,33 +40,33 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-3",
+					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 275.389297076633397, 203.95387388622288, 122.0, 22.0 ],
-					"text" : "prepend octaverange"
+					"patching_rect" : [ 275.389297076633397, 204.95387388622288, 94.0, 22.0 ],
+					"text" : "prepend sustain"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"color" : [ 0.028541615232825, 0.250918865203857, 0.50196373462677, 1.0 ],
-					"id" : "obj-5",
+					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 275.389297076633397, 179.95387388622288, 232.0, 22.0 ],
+					"patching_rect" : [ 275.389297076633397, 180.95387388622288, 192.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 1 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr octaverange @type float32 @initial 1",
-					"varname" : "octaverange"
+					"text" : "pattr sustain @type char @initial 1",
+					"varname" : "sustain"
 				}
 
 			}
@@ -163,8 +163,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 275.389297076633397, 144.95387388622288, 91.0, 22.0 ],
-					"text" : "prepend octave"
+					"patching_rect" : [ 275.389297076633397, 144.95387388622288, 97.0, 22.0 ],
+					"text" : "prepend octaves"
 				}
 
 			}
@@ -175,8 +175,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 275.389297076633397, 93.0, 115.0, 22.0 ],
-					"text" : "prepend microtones"
+					"patching_rect" : [ 275.389297076633397, 93.0, 105.0, 22.0 ],
+					"text" : "prepend basenote"
 				}
 
 			}
@@ -279,15 +279,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 275.389297076633397, 69.0, 212.0, 22.0 ],
+					"patching_rect" : [ 275.389297076633397, 69.0, 203.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 1 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr microtones @type char @initial 1",
-					"varname" : "microtones"
+					"text" : "pattr basenote @type char @initial 1",
+					"varname" : "basenote"
 				}
 
 			}
@@ -299,15 +299,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 275.389297076633397, 120.95387388622288, 202.0, 22.0 ],
+					"patching_rect" : [ 275.389297076633397, 120.95387388622288, 208.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 5 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr octave @type float32 @initial 5",
-					"varname" : "octave"
+					"text" : "pattr octaves @type float32 @initial 5",
+					"varname" : "octaves"
 				}
 
 			}
@@ -435,13 +435,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-34", 0 ]
 				}
@@ -477,13 +470,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-56", 0 ]
 				}
@@ -498,8 +484,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-8", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}

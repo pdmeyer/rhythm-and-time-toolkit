@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -59,7 +59,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[16]",
+							"parameter_longname" : "live.text[42]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -151,7 +151,7 @@
 					"patching_rect" : [ 165.0, 108.75, 70.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.400014460086823, 2.0, 69.5, 18.0 ],
-					"text" : "rlogic-help",
+					"text" : "mhelp.rlogic",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -192,8 +192,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -273,7 +273,7 @@
 ,
 										"valueof" : 										{
 											"parameter_enum" : [ "and", "or", "not", "xor", "left", "right" ],
-											"parameter_longname" : "live.menu[19]",
+											"parameter_longname" : "live.menu[32]",
 											"parameter_mmax" : 5,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2
@@ -398,8 +398,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 81.0, 409.999999940395355, 225.0, 22.0 ],
-									"text" : "rtt.module.remote outputmode @levels 2"
+									"patching_rect" : [ 81.0, 409.999999940395355, 195.0, 22.0 ],
+									"text" : "rtt.module.remote output @levels 2"
 								}
 
 							}

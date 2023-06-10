@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -241,8 +241,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 65.9921875, 164.0, 151.0, 22.0 ],
-					"text" : "rtt.module.remote basekey",
+					"patching_rect" : [ 65.9921875, 164.0, 165.0, 22.0 ],
+					"text" : "rtt.module.remote middlenote",
 					"varname" : "p.remote[5]"
 				}
 
@@ -478,8 +478,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 65.9921875, 117.0, 175.0, 22.0 ],
-					"text" : "rtt.module.remote referencekey",
+					"patching_rect" : [ 65.9921875, 117.0, 180.0, 22.0 ],
+					"text" : "rtt.module.remote referencenote",
 					"varname" : "p.remote[1]"
 				}
 

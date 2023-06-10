@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -116,8 +116,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 182.794117647058783, 152.499999999999886, 120.0, 22.0 ],
-					"text" : "prepend triggermode"
+					"patching_rect" : [ 182.794117647058783, 152.499999999999886, 90.0, 22.0 ],
+					"text" : "prepend trigger"
 				}
 
 			}
@@ -128,8 +128,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 167.294117647058783, 101.0, 119.0, 22.0 ],
-					"text" : "prepend outputmode"
+					"patching_rect" : [ 167.294117647058783, 101.0, 89.0, 22.0 ],
+					"text" : "prepend output"
 				}
 
 			}
@@ -141,15 +141,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 182.794117647058783, 128.499999999999886, 265.0, 22.0 ],
+					"patching_rect" : [ 182.794117647058783, 128.499999999999886, 235.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ "change" ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr triggermode @type symbol @initial change",
-					"varname" : "triggermode"
+					"text" : "pattr trigger @type symbol @initial change",
+					"varname" : "trigger"
 				}
 
 			}
@@ -161,15 +161,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 167.294117647058783, 77.0, 296.0, 22.0 ],
+					"patching_rect" : [ 167.294117647058783, 77.0, 254.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ "accum_event" ],
+						"initial" : [ "eventcount" ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr outputmode @type symbol @initial accum_event",
-					"varname" : "outputmode"
+					"text" : "pattr output @type symbol @initial eventcount",
+					"varname" : "output"
 				}
 
 			}

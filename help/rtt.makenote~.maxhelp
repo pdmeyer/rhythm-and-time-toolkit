@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 645.0, 607.0 ],
+						"rect" : [ 34.0, 113.0, 645.0, 607.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -586,7 +586,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 645.0, 607.0 ],
+						"rect" : [ 0.0, 26.0, 645.0, 607.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -974,13 +974,13 @@
 									"numinlets" : 3,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 107.5, 219.0, 289.0, 22.0 ],
+									"patching_rect" : [ 107.5, 219.0, 228.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "rtt.euclidean~ @countermode normalized @events 9",
+									"text" : "rtt.euclidean~ @counter norm @events 9",
 									"varname" : "rnbo~[2]"
 								}
 
@@ -1402,7 +1402,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-25", 4 ],
-									"midpoints" : [ 207.0, 249.5, 341.0, 249.5 ],
+									"midpoints" : [ 186.666666666666686, 249.5, 341.0, 249.5 ],
 									"source" : [ "obj-9", 1 ]
 								}
 
@@ -1610,8 +1610,8 @@
 			}
 , 			{
 				"name" : "rtt.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
-				"patcherrelativepath" : "../patchers/module-components",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

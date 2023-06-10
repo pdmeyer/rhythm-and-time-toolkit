@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -58,7 +58,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 161.778594153266852, 5.523063056888589, 30.0, 30.0 ]
 				}
 
@@ -71,7 +71,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 93.278594153266852, 5.523063056888589, 30.0, 30.0 ]
 				}
 
@@ -83,8 +83,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 226.736237704686516, 102.046126113777177, 119.0, 22.0 ],
-					"text" : "prepend outputmode"
+					"patching_rect" : [ 226.736237704686516, 102.046126113777177, 89.0, 22.0 ],
+					"text" : "prepend output"
 				}
 
 			}
@@ -108,15 +108,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 226.736237704686516, 70.046126113777177, 179.0, 22.0 ],
-					"restore" : [ "" ],
+					"patching_rect" : [ 226.736237704686516, 70.046126113777177, 149.0, 22.0 ],
+					"restore" : [ "count" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr outputmode @type symbol",
-					"varname" : "outputmode"
+					"text" : "pattr output @type symbol",
+					"varname" : "output"
 				}
 
 			}
@@ -203,7 +203,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 24.778594153266852, 5.523063056888589, 30.0, 30.0 ]
 				}
 

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 312.0, 128.0, 630.0, 519.0 ],
+		"rect" : [ 100.0, 100.0, 630.0, 519.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1904,7 +1904,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 630.0, 493.0 ],
+						"rect" : [ 100.0, 126.0, 630.0, 493.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2350,7 +2350,7 @@
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "rtt.pattern~ @outputmode gate"
+									"text" : "rtt.pattern~ @output gate"
 								}
 
 							}
@@ -2743,7 +2743,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 312.0, 154.0, 630.0, 493.0 ],
+						"rect" : [ 0.0, 26.0, 630.0, 493.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3466,8 +3466,8 @@
 			}
 , 			{
 				"name" : "rtt.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
-				"patcherrelativepath" : "../patchers/module-components",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

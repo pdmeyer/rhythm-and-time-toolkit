@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1523.0, 87.0, 635.0, 559.0 ],
+		"rect" : [ 100.0, 87.0, 635.0, 559.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -142,7 +142,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 39.0, 373.0, 172.0, 22.0 ],
+									"patching_rect" : [ 39.0, 373.0, 169.0, 22.0 ],
 									"text" : "rtt.rprob rprob-help-2",
 									"varname" : "rprob-help-2"
 								}
@@ -397,13 +397,12 @@
 , 							{
 								"box" : 								{
 									"fontname" : "Arial",
-									"fontsize" : 12.0,
+									"fontsize" : 13.0,
 									"id" : "obj-2",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 10.0, 69.599853515625, 466.0, 33.0 ],
+									"patching_rect" : [ 10.0, 69.599853515625, 543.0, 21.0 ],
 									"text" : "The abstraction rtt.rprob (no tilde) contains the rtt.rprob~ object, a UI and pattr support."
 								}
 
@@ -567,7 +566,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1523.0, 113.0, 635.0, 533.0 ],
+						"rect" : [ 100.0, 113.0, 635.0, 533.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1269,8 +1268,8 @@
 			}
 , 			{
 				"name" : "rtt.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
-				"patcherrelativepath" : "../patchers/module-components",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

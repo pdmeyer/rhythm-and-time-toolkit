@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -50,11 +50,11 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "seq.blocks.blockviewer.maxpat",
-					"numinlets" : 0,
+					"name" : "rtt.blocks.blockviewer.maxpat",
+					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 101.0, 380.0, 140.0, 12.0 ],
+					"patching_rect" : [ 97.0, 382.0, 140.0, 12.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 45.0, 140.0, 12.0 ],
 					"viewvisibility" : 1
@@ -419,7 +419,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 101.0, 394.0, 79.0, 19.0 ],
+					"patching_rect" : [ 97.0, 396.0, 79.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 143.0, 60.0 ],
 					"proportion" : 0.5
@@ -436,7 +436,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 101.0, 394.0, 79.0, 19.0 ],
+					"patching_rect" : [ 97.0, 396.0, 79.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 143.0, 43.0 ],
 					"proportion" : 0.5
@@ -453,8 +453,17 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"order" : 1,
+					"source" : [ "obj-10", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"midpoints" : [ 106.5, 372.0, 15.5, 372.0, 15.5, 208.5, 41.5, 208.5 ],
+					"order" : 0,
 					"source" : [ "obj-10", 1 ]
 				}
 

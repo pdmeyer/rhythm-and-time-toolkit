@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1536.0, 124.0, 593.0, 599.0 ],
+		"rect" : [ 100.0, 100.0, 593.0, 599.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 593.0, 573.0 ],
+						"rect" : [ 100.0, 126.0, 593.0, 573.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -641,7 +641,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1536.0, 150.0, 593.0, 573.0 ],
+						"rect" : [ 0.0, 26.0, 593.0, 573.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1264,7 +1264,7 @@
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "rtt.rlogic~ @outputmode gate"
+									"text" : "rtt.rlogic~ @output gate"
 								}
 
 							}
@@ -1715,11 +1715,11 @@
 			"obj-6::obj-3::obj-18::obj-28::obj-3" : [ "live.menu[19]", "live.menu", 0 ],
 			"obj-6::obj-3::obj-18::obj-9" : [ "live.text[16]", "live.text", 0 ],
 			"obj-6::obj-3::obj-2::obj-25" : [ "live.button[5]", "live.button", 0 ],
-			"obj-6::obj-6::obj-18::obj-2" : [ "live.button[6]", "live.button", 0 ],
-			"obj-6::obj-6::obj-18::obj-28::obj-22" : [ "live.menu[2]", "live.menu", 0 ],
-			"obj-6::obj-6::obj-18::obj-28::obj-3" : [ "live.menu[1]", "live.menu", 0 ],
-			"obj-6::obj-6::obj-18::obj-9" : [ "live.text[1]", "live.text", 0 ],
-			"obj-6::obj-6::obj-2::obj-25" : [ "live.button[14]", "live.button", 0 ],
+			"obj-6::obj-6::obj-18::obj-2" : [ "live.button[2]", "live.button", 0 ],
+			"obj-6::obj-6::obj-18::obj-28::obj-22" : [ "live.menu[1]", "live.menu", 0 ],
+			"obj-6::obj-6::obj-18::obj-28::obj-3" : [ "live.menu[32]", "live.menu", 0 ],
+			"obj-6::obj-6::obj-18::obj-9" : [ "live.text[42]", "live.text", 0 ],
+			"obj-6::obj-6::obj-2::obj-25" : [ "live.button[1]", "live.button", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -1756,23 +1756,11 @@
 				}
 ,
 				"obj-6::obj-6::obj-18::obj-2" : 				{
-					"parameter_longname" : "live.button[6]"
+					"parameter_longname" : "live.button[2]"
 				}
 ,
 				"obj-6::obj-6::obj-18::obj-28::obj-22" : 				{
-					"parameter_longname" : "live.menu[2]"
-				}
-,
-				"obj-6::obj-6::obj-18::obj-28::obj-3" : 				{
 					"parameter_longname" : "live.menu[1]"
-				}
-,
-				"obj-6::obj-6::obj-18::obj-9" : 				{
-					"parameter_longname" : "live.text[1]"
-				}
-,
-				"obj-6::obj-6::obj-2::obj-25" : 				{
-					"parameter_longname" : "live.button[14]"
 				}
 
 			}
@@ -1816,8 +1804,8 @@
 			}
 , 			{
 				"name" : "rtt.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
-				"patcherrelativepath" : "../patchers/module-components",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

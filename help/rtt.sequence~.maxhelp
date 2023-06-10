@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1570.0, 178.0, 753.0, 534.0 ],
+		"rect" : [ 100.0, 100.0, 635.0, 534.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 753.0, 508.0 ],
+						"rect" : [ 0.0, 26.0, 635.0, 508.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -155,13 +155,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-3",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 103.05440287590028, 400.0, 182.0, 35.0 ],
-									"text" : "0.53 0.67 0.72 0.63 0.48 0.36 0.35 0.59"
+									"patching_rect" : [ 103.05440287590028, 400.0, 182.0, 22.0 ],
+									"text" : "0. 0. 0. 0. 0. 0. 0. 0."
 								}
 
 							}
@@ -375,7 +374,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 753.0, 508.0 ],
+						"rect" : [ 100.0, 126.0, 635.0, 508.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -716,8 +715,8 @@
 									"id" : "obj-3",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "signal", "" ],
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 39.0, 365.0, 293.0, 22.0 ],
 									"text" : "rtt.sequence sequence-help-2",
 									"varname" : "sequence-help-2"
@@ -738,9 +737,9 @@
 									"maxclass" : "bpatcher",
 									"name" : "rtt.sequence.maxpat",
 									"numinlets" : 1,
-									"numoutlets" : 2,
+									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "signal", "" ],
+									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 39.0, 196.0, 294.0, 105.0 ],
 									"varname" : "sequence-help",
 									"viewvisibility" : 1
@@ -785,7 +784,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 430.0, 150.0, 168.0, 49.0 ],
+									"patching_rect" : [ 430.0, 150.0, 170.0, 49.0 ],
 									"restore" : [ 8.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
@@ -932,7 +931,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 753.0, 508.0 ],
+						"rect" : [ 0.0, 26.0, 635.0, 508.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -996,7 +995,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1570.0, 204.0, 753.0, 508.0 ],
+						"rect" : [ 0.0, 26.0, 635.0, 508.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1663,8 +1662,8 @@
 			}
 , 			{
 				"name" : "rtt.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
-				"patcherrelativepath" : "../patchers/module-components",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

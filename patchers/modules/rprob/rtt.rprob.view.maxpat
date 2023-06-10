@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -57,14 +57,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 87.0, 870.0, 779.0 ],
+						"rect" : [ 707.0, 259.0, 870.0, 779.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -117,7 +117,7 @@
 									"presentation_rect" : [ 0.900014460086823, 22.5, 29.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.numbox",
+											"parameter_longname" : "live.numbox[108]",
 											"parameter_mmax" : 256.0,
 											"parameter_mmin" : 1.0,
 											"parameter_shortname" : "live.numbox",
@@ -269,7 +269,7 @@
 									"presentation_rect" : [ 117.900014460086823, 46.25, 47.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "input_counter", "step_ix", "event_count", "gate" ],
+											"parameter_enum" : [ "input", "step", "eventcount", "gate" ],
 											"parameter_longname" : "live.menu[4]",
 											"parameter_mmax" : 3,
 											"parameter_shortname" : "live.menu",
@@ -328,8 +328,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 452.0, 307.999999940395355, 225.0, 22.0 ],
-									"text" : "rtt.module.remote outputmode @levels 2"
+									"patching_rect" : [ 452.0, 307.999999940395355, 195.0, 22.0 ],
+									"text" : "rtt.module.remote output @levels 2"
 								}
 
 							}
@@ -341,8 +341,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 452.0, 208.5, 226.0, 22.0 ],
-									"text" : "rtt.module.remote triggermode @levels 2"
+									"patching_rect" : [ 452.0, 208.5, 196.0, 22.0 ],
+									"text" : "rtt.module.remote trigger @levels 2"
 								}
 
 							}
@@ -525,7 +525,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button[1]",
+							"parameter_longname" : "live.button[69]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
@@ -575,7 +575,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 8.0,
 					"id" : "obj-37",
-					"items" : [ "outputmode", ",", "triggermode", ",", "length", ",", "probabilities" ],
+					"items" : [ "length", ",", "outputmode", ",", "triggermode", ",", "probabilities" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -598,7 +598,7 @@
 					"patching_rect" : [ 204.966666666666583, 150.0, 73.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 1.0, 101.0, 18.0 ],
-					"text" : "rprob-help",
+					"text" : "mhelp.rprob",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 

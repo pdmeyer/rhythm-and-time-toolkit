@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -42,7 +42,7 @@
 				"box" : 				{
 					"comment" : "reset",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -55,7 +55,7 @@
 				"box" : 				{
 					"comment" : "phasor",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -68,7 +68,7 @@
 				"box" : 				{
 					"comment" : "trigger",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -80,7 +80,7 @@
 				"box" : 				{
 					"comment" : "counter",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -92,7 +92,7 @@
 				"box" : 				{
 					"comment" : "counter",
 					"id" : "obj-45",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -130,7 +130,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 189.0, 115.0, 172.0, 96.5 ],
+					"patching_rect" : [ 189.0, 115.0, 169.0, 91.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 169.666666686534882, 90.333333313465118 ],
 					"varname" : "rtt.pprob.view",
@@ -146,7 +146,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 189.0, 46.0, 118.0, 22.0 ],
+					"patching_rect" : [ 189.0, 46.0, 169.0, 22.0 ],
 					"text" : "rtt.module.control #1"
 				}
 
@@ -160,15 +160,15 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 342.0, 73.0, 245.0, 22.0 ],
 					"priority" : 					{
-						"m::probabilities" : 1,
-						"m::length" : -1
+						"m::length" : -1,
+						"m::probabilities" : 1
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 534, 298, 1279, 875 ],
+						"client_rect" : [ 580, 87, 949, 304 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 87, 1081, 651 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage rtt.pprob-presets @savemode 0",
@@ -249,86 +249,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-6::obj-2" : [ "live.button[1]", "live.button", 0 ],
-			"obj-6::obj-28::obj-18" : [ "live.menu[17]", "live.menu", 0 ],
-			"obj-6::obj-28::obj-22" : [ "live.menu[4]", "live.menu", 0 ],
-			"obj-6::obj-28::obj-33" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-93::obj-25" : [ "live.button[8]", "live.button", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-6::obj-2" : 				{
-					"parameter_longname" : "live.button[1]"
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "rtt.module.attrchecker.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../../_module-components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rtt.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../../_module-components",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rtt.module.control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../../_module-components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rtt.module.remote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../../_module-components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rtt.module.viewcontrol.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../../_module-components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rtt.rprob.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/rprob",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rtt.rprob.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/rprob",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rtt.rprob~.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.356862745098039, 0.356862745098039, 0.356862745098039, 1.0 ],
 		"editing_bgcolor" : [ 0.356862745098039, 0.356862745098039, 0.356862745098039, 1.0 ]
 	}

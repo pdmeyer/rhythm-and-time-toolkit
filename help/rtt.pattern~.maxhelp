@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1665.0, 172.0, 620.0, 617.0 ],
+		"rect" : [ 100.0, 100.0, 620.0, 617.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -648,7 +648,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1665.0, 198.0, 620.0, 591.0 ],
+						"rect" : [ 100.0, 126.0, 620.0, 591.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1211,14 +1211,27 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
+										"visible" : 1,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-2",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 50.0, 95.0, 66.0, 22.0 ],
+													"text" : "route bang"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-4",
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 50.0, 69.0, 77.0, 22.0 ],
+													"patching_rect" : [ 50.0, 68.0, 77.0, 22.0 ],
 													"text" : "route pattern"
 												}
 
@@ -1230,7 +1243,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 34.5, 213.0, 54.0, 22.0 ],
+													"patching_rect" : [ 81.5, 238.0, 54.0, 22.0 ],
 													"text" : "steps $1"
 												}
 
@@ -1243,7 +1256,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 34.5, 243.0, 30.0, 30.0 ]
+													"patching_rect" : [ 81.5, 268.0, 30.0, 30.0 ]
 												}
 
 											}
@@ -1254,7 +1267,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 158.0, 68.0, 22.0 ],
+													"patching_rect" : [ 97.0, 183.0, 68.0, 22.0 ],
 													"text" : "set $1 0 $2"
 												}
 
@@ -1266,7 +1279,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "list" ],
-													"patching_rect" : [ 50.0, 132.0, 56.0, 22.0 ],
+													"patching_rect" : [ 97.0, 159.0, 56.0, 22.0 ],
 													"text" : "listfunnel"
 												}
 
@@ -1278,7 +1291,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 148.5, 192.0, 70.0, 22.0 ],
+													"patching_rect" : [ 195.5, 217.0, 70.0, 22.0 ],
 													"text" : "columns $1"
 												}
 
@@ -1290,7 +1303,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 148.5, 127.5, 37.0, 22.0 ],
+													"patching_rect" : [ 195.5, 152.5, 37.0, 22.0 ],
 													"text" : "zl.len"
 												}
 
@@ -1302,7 +1315,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 50.0, 100.0, 117.5, 22.0 ],
+													"patching_rect" : [ 97.0, 125.0, 117.5, 22.0 ],
 													"text" : "t l l"
 												}
 
@@ -1328,12 +1341,19 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 148.5, 243.0, 30.0, 30.0 ]
+													"patching_rect" : [ 195.5, 268.0, 30.0, 30.0 ]
 												}
 
 											}
  ],
 										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-27", 0 ],
+													"source" : [ "obj-2", 1 ]
+												}
+
+											}
+, 											{
 												"patchline" : 												{
 													"destination" : [ "obj-28", 0 ],
 													"source" : [ "obj-27", 1 ]
@@ -1400,7 +1420,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-27", 0 ],
+													"destination" : [ "obj-2", 0 ],
 													"source" : [ "obj-4", 0 ]
 												}
 
@@ -1910,8 +1930,8 @@
 			}
 , 			{
 				"name" : "rtt.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
-				"patcherrelativepath" : "../patchers/module-components",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

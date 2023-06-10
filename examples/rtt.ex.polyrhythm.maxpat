@@ -1801,13 +1801,14 @@
 			}
 , 			{
 				"box" : 				{
+					"active1" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"id" : "obj-26",
 					"maxclass" : "preset",
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 683.499995549519781, 129.5, 129.416670918464661, 57.16666116721251 ],
-					"pattrstorage" : "rtt.xtra.pattrhelper"
+					"pattrstorage" : "rtt.ex.polyrhythm"
 				}
 
 			}
@@ -1838,10 +1839,10 @@
 							}
  ],
 						"loop/subdiv" : [ "subdiv", 11.0 ],
-						"p1/events" : [ "events", 4.0 ],
-						"p1/steps" : [ "steps", 16.0 ],
-						"p2/events" : [ "events", 4.0 ],
-						"p2/steps" : [ "steps", 16.0 ],
+						"p1/events" : [ "events", 6.0 ],
+						"p1/steps" : [ "steps", 11.0 ],
+						"p2/events" : [ "events", 5.0 ],
+						"p2/steps" : [ "steps", 9.0 ],
 						"rhythmmode" : [ 0 ]
 					}
 ,
@@ -1852,6 +1853,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "rtt.ex.polyrhythm.json",
 					"id" : "obj-2666",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1866,7 +1868,7 @@
 					}
 ,
 					"text" : "pattrstorage @autorestore 1 @savemode 2 @greedy 1",
-					"varname" : "rtt.xtra.pattrhelper[1]"
+					"varname" : "rtt.ex.polyrhythm"
 				}
 
 			}
@@ -2656,6 +2658,13 @@
 , 			{
 				"name" : "rtt.euclidean~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rtt.ex.polyrhythm.json",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/pattrstorage",
+				"patcherrelativepath" : "../misc/pattrstorage",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.getpatchname.js",

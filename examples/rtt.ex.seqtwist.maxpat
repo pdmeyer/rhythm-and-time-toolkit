@@ -144,13 +144,14 @@
 			}
 , 			{
 				"box" : 				{
+					"active1" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"id" : "obj-26",
 					"maxclass" : "preset",
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 604.0, 42.0, 129.416670918464661, 57.16666116721251 ],
-					"pattrstorage" : "rtt.xtra.pattrhelper"
+					"pattrstorage" : "rtt.ex.seqtwist"
 				}
 
 			}
@@ -192,7 +193,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 541.0, 44.749995183978569, 56.0, 22.0 ],
 					"restore" : 					{
-						"bar/bpm" : [ "bpm", 150.0 ],
+						"bar/bpm" : [ "bpm", 120.0 ],
 						"envelope" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 1, 0.0, 114.361702127659569, 0.970149253731343, 0, -0.055, 1000.0, 0.0, 1, 0.0, "curve" ],
 						"gate-length" : [ 10.0 ],
 						"mc.live.gain~" : [ 0.0 ],
@@ -210,6 +211,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "rtt.ex.rtttwist.json",
 					"id" : "obj-2666",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -224,7 +226,7 @@
 					}
 ,
 					"text" : "pattrstorage @autorestore 1 @savemode 2 @greedy 1",
-					"varname" : "rtt.xtra.pattrhelper[1]"
+					"varname" : "rtt.ex.seqtwist"
 				}
 
 			}
@@ -1081,6 +1083,13 @@
 		"dependency_cache" : [ 			{
 				"name" : "rtt.clock~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rtt.ex.rtttwist.json",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/pattrstorage",
+				"patcherrelativepath" : "../misc/pattrstorage",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.getpatchname.js",

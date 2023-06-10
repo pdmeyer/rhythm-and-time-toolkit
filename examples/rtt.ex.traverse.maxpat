@@ -82,6 +82,7 @@
 			}
 , 			{
 				"box" : 				{
+					"active1" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"id" : "obj-69",
 					"maxclass" : "preset",
 					"numinlets" : 1,
@@ -117,16 +118,16 @@
 					"patching_rect" : [ 355.0, 206.391304347826093, 56.0, 22.0 ],
 					"restore" : 					{
 						"bpm" : [ "bpm", 120.0 ],
-						"ceiling" : [ "ceiling", 0.0 ],
+						"ceiling" : [ "ceiling", 16.0 ],
 						"direction" : [ "direction", "forward" ],
-						"floor" : [ "floor", 1.0 ],
+						"floor" : [ "floor", 14.0 ],
 						"fm_depth" : [ "depth", 0.96 ],
 						"fm_modratio" : [ 0.75 ],
 						"fm_t60" : [ "t60", 0.7 ],
 						"live.gain~" : [ 0.0 ],
 						"notes" : [ 67, 68, 68, 67, 66, 65, 63, 62, 61, 60, 60, 61, 62, 65, 69, 67 ],
 						"scale" : [ "hirajoshi.scl" ],
-						"steps" : [ "steps", 6.0 ]
+						"steps" : [ "steps", 4.0 ]
 					}
 ,
 					"text" : "autopattr",

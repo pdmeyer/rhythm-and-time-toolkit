@@ -63,13 +63,14 @@
 			}
 , 			{
 				"box" : 				{
+					"active1" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"id" : "obj-59",
 					"maxclass" : "preset",
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 899.333331108093262, 500.5, 129.416670918464661, 57.16666116721251 ],
-					"pattrstorage" : "rtt.xtra.pattrhelper"
+					"patching_rect" : [ 899.333331108093262, 507.5, 76.416670918464661, 50.16666116721251 ],
+					"pattrstorage" : "rtt.ex.transpose"
 				}
 
 			}
@@ -94,12 +95,13 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "rtt.ex.transpose.json",
 					"id" : "obj-2666",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 731.0, 567.083330583606312, 302.0, 22.0 ],
+					"patching_rect" : [ 736.0, 561.0, 302.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 1057, 87, 1440, 449 ],
 						"parameter_enable" : 0,
@@ -108,7 +110,7 @@
 					}
 ,
 					"text" : "pattrstorage @autorestore 1 @savemode 2 @greedy 1",
-					"varname" : "rtt.xtra.pattrhelper[1]"
+					"varname" : "rtt.ex.transpose"
 				}
 
 			}
@@ -128,7 +130,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "int", "bang" ],
-					"patching_rect" : [ 731.0, 496.5, 302.0, 65.583330583606255 ],
+					"patching_rect" : [ 731.0, 500.791665291803156, 253.0, 94.291665291803156 ],
 					"varname" : "rtt.xtra.pattrhelper",
 					"viewvisibility" : 1
 				}
@@ -951,7 +953,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2691", 1 ],
-					"midpoints" : [ 740.5, 599.083330583606312, 1051.0, 599.083330583606312, 1051.0, 485.5, 1023.5, 485.5 ],
+					"midpoints" : [ 745.5, 599.083330583606312, 1016.0, 599.083330583606312, 1016.0, 485.5, 974.5, 485.5 ],
 					"source" : [ "obj-2666", 0 ]
 				}
 
@@ -1349,6 +1351,13 @@
 , 			{
 				"name" : "rtt.counter~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rtt.ex.transpose.json",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/pattrstorage",
+				"patcherrelativepath" : "../misc/pattrstorage",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.getpatchname.js",

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 641.0, 592.0 ],
+		"rect" : [ 34.0, 87.0, 1220.0, 834.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -316,7 +316,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -344,6 +344,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-17",
@@ -351,7 +352,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 101.25, 105.982421875, 48.0, 22.0 ],
+									"patching_rect" : [ 50.0, 132.982421875, 48.0, 22.0 ],
 									"text" : "del 500"
 								}
 
@@ -513,6 +514,7 @@
 			}
 , 			{
 				"box" : 				{
+					"active1" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"id" : "obj-48",
 					"maxclass" : "preset",
 					"numinlets" : 1,
@@ -574,7 +576,7 @@
 					"patching_rect" : [ 684.75, 625.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"attack_ms" : [ "attack_ms", 1.0 ],
-						"bpm" : [ "bpm", 120.0 ],
+						"bpm" : [ "bpm", 150.0 ],
 						"mc.live.gain~" : [ -8.523622047244103 ],
 						"release_ms" : [ "release_ms", 154.0 ],
 						"steps" : [ "steps", 64.0 ],
@@ -588,6 +590,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "rtt.ex.mc.json",
 					"id" : "obj-41",
 					"linecount" : 2,
 					"maxclass" : "newobj",
@@ -2453,6 +2456,13 @@
 , 			{
 				"name" : "rtt.euclidean~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rtt.ex.mc.json",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/pattrstorage",
+				"patcherrelativepath" : "../misc/pattrstorage",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.loop~.mxo",

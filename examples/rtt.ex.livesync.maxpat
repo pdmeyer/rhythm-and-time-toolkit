@@ -302,6 +302,7 @@
 			}
 , 			{
 				"box" : 				{
+					"active1" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"id" : "obj-26",
 					"maxclass" : "preset",
 					"numinlets" : 1,
@@ -341,6 +342,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "rtt.ex.livesync.json",
 					"id" : "obj-2666",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -646,6 +648,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-2691", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2666", 0 ],
+					"source" : [ "obj-2691", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-124", 0 ],
 					"order" : 0,
 					"source" : [ "obj-40", 0 ]
@@ -799,6 +815,13 @@
 , 			{
 				"name" : "rtt.binary~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rtt.ex.livesync.json",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/pattrstorage",
+				"patcherrelativepath" : "../misc/pattrstorage",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.getpatchname.js",

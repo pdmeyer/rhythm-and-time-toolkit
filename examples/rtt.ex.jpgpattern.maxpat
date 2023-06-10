@@ -1065,13 +1065,14 @@
 			}
 , 			{
 				"box" : 				{
+					"active1" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"id" : "obj-58",
 					"maxclass" : "preset",
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 483.333331108093262, 38.416669416393745, 129.416670918464661, 57.16666116721251 ],
-					"pattrstorage" : "rtt.xtra.pattrhelper"
+					"pattrstorage" : "rtt.ex.jpgpattern"
 				}
 
 			}
@@ -1095,6 +1096,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "rtt.ex.jpgpattern.json",
 					"id" : "obj-2666",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1109,7 +1111,7 @@
 					}
 ,
 					"text" : "pattrstorage @autorestore 1 @savemode 2 @greedy 1",
-					"varname" : "rtt.xtra.pattrhelper[1]"
+					"varname" : "rtt.ex.jpgpattern"
 				}
 
 			}
@@ -2383,6 +2385,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/seq/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rtt.ex.jpgpattern.json",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/pattrstorage",
+				"patcherrelativepath" : "../misc/pattrstorage",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{

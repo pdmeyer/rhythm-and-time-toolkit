@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "seq-mc">
+	<slot number = "1">
+		<pattr name = "duration" value = "26" />
+		<pattr name = "midi-device" value = "18" />
+		<pattr name = "pattern-events" value = "2 3 4 0" />
+		<pattr name = "pattern-lengths" value = "12 10 16 12" />
+		<pattr name = "bpm" value = "120." />
+		<pattr name = "pattern-events[1]" value = "0 4 1 0" />
+		<patcher name = "n">
+			<pattr name = "notes" value = "52 62 68 65" />
+		</patcher>
+	</slot>
+	<slot number = "2">
+		<pattr name = "duration" value = "26" />
+		<pattr name = "midi-device" value = "18" />
+		<pattr name = "pattern-events" value = "2 5 0 3" />
+		<pattr name = "pattern-lengths" value = "16 12 16 9" />
+		<pattr name = "bpm" value = "120." />
+		<pattr name = "pattern-events[1]" value = "5 3 0 0" />
+		<patcher name = "n">
+			<pattr name = "notes" value = "52 60 68 66" />
+		</patcher>
+	</slot>
+	<slot number = "3">
+		<pattr name = "duration" value = "26" />
+		<pattr name = "midi-device" value = "18" />
+		<pattr name = "pattern-events" value = "2 5 0 3" />
+		<pattr name = "pattern-lengths" value = "16 12 16 9" />
+		<pattr name = "bpm" value = "120." />
+		<pattr name = "pattern-events[1]" value = "5 3 0 2" />
+		<patcher name = "n">
+			<pattr name = "notes" value = "52 60 68 66" />
+		</patcher>
+	</slot>
+	<slot number = "4">
+		<pattr name = "duration" value = "26" />
+		<pattr name = "midi-device" value = "18" />
+		<pattr name = "pattern-events" value = "2 3 1 0" />
+		<pattr name = "pattern-lengths" value = "8 10 7 12" />
+		<pattr name = "bpm" value = "120." />
+		<pattr name = "pattern-events[1]" value = "6 3 1 2" />
+		<patcher name = "n">
+			<pattr name = "notes" value = "52 60 49 66" />
+		</patcher>
+	</slot>
+</pattrstorage>
+

@@ -2066,7 +2066,7 @@
 					"patching_rect" : [ 17.5, 6.0, 66.0, 50.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.5, 6.0, 66.0, 50.0 ],
-					"text" : "seq"
+					"text" : "rtt"
 				}
 
 			}
@@ -2437,15 +2437,15 @@
 			}
 , 			{
 				"name" : "rtt.xtra.fluidslice.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/extras",
-				"patcherrelativepath" : "../../seq-dev/extras",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/extras",
+				"patcherrelativepath" : "../extras",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.xtra.patterndisplay.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/extras",
-				"patcherrelativepath" : "../../seq-dev/extras",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/extras",
+				"patcherrelativepath" : "../extras",
 				"type" : "JSON",
 				"implicit" : 1
 			}

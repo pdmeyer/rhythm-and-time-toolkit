@@ -58,7 +58,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 648.166664441426519, 319.0, 169.0, 22.0 ],
+					"patching_rect" : [ 676.166664441426519, 318.0, 169.0, 22.0 ],
 					"text" : "Pattern Trigger Modes"
 				}
 
@@ -70,7 +70,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 648.166664441426519, 371.000000000000057, 169.0, 60.0 ],
+					"patching_rect" : [ 676.166664441426519, 370.000000000000057, 169.0, 60.0 ],
 					"text" : "\"change\" : pattern advances by internally subdividing the phasor to the 1st inlet by the number of steps in the pattern"
 				}
 
@@ -82,7 +82,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 648.166664441426519, 339.500000000000114, 169.0, 33.0 ],
+					"patching_rect" : [ 676.166664441426519, 338.500000000000114, 169.0, 33.0 ],
 					"text" : "\"count\" : pattern advances on each impulse to the 2nd inlet"
 				}
 
@@ -1838,10 +1838,10 @@
 							}
  ],
 						"loop/subdiv" : [ "subdiv", 11.0 ],
-						"p1/events" : [ "events", 6.0 ],
-						"p1/steps" : [ "steps", 11.0 ],
-						"p2/events" : [ "events", 5.0 ],
-						"p2/steps" : [ "steps", 9.0 ],
+						"p1/events" : [ "events", 4.0 ],
+						"p1/steps" : [ "steps", 16.0 ],
+						"p2/events" : [ "events", 4.0 ],
+						"p2/steps" : [ "steps", 16.0 ],
 						"rhythmmode" : [ 0 ]
 					}
 ,
@@ -1852,11 +1852,6 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 					{
-						"rtt.clock::m::transportstate" : 0,
-						"clock_62713::m::transportstate" : 0
-					}
-,
 					"id" : "obj-2666",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1930,8 +1925,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 479.249995748201854, 319.0, 89.0, 22.0 ],
-					"text" : "triggermode $1"
+					"patching_rect" : [ 479.249995748201854, 319.0, 59.0, 22.0 ],
+					"text" : "trigger $1"
 				}
 
 			}
@@ -2065,7 +2060,7 @@
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "rtt.euclidean~ @countermode normalized"
+					"text" : "rtt.euclidean~ @counter norm"
 				}
 
 			}
@@ -2113,7 +2108,7 @@
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "rtt.euclidean~ @countermode normalized"
+					"text" : "rtt.euclidean~ @counter norm"
 				}
 
 			}
@@ -2219,7 +2214,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 648.166664441426519, 319.0, 169.0, 112.000000000000057 ],
+					"patching_rect" : [ 676.166664441426519, 318.0, 169.0, 112.000000000000057 ],
 					"proportion" : 0.5
 				}
 
@@ -2663,8 +2658,8 @@
 			}
 , 			{
 				"name" : "rtt.getpatchname.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
-				"patcherrelativepath" : "../javascript",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/code",
+				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

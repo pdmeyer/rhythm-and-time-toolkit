@@ -326,13 +326,13 @@
 					"numinlets" : 3,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "signal", "" ],
-					"patching_rect" : [ 633.5, 231.0, 232.0, 35.0 ],
+					"patching_rect" : [ 633.5, 231.0, 198.5, 35.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "rtt.euclidean~ @steps 16 @events 7 @triggermode count @outputmode gate"
+					"text" : "rtt.euclidean~ @steps 16 @events 7 @trigger count @output gate"
 				}
 
 			}
@@ -343,7 +343,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 6,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "" ],
-					"patching_rect" : [ 413.5, 231.0, 121.0, 22.0 ],
+					"patching_rect" : [ 423.699999999999989, 231.0, 121.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -395,13 +395,13 @@
 					"numinlets" : 3,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "signal", "" ],
-					"patching_rect" : [ 383.499999999999943, 253.5, 181.000000000000114, 35.0 ],
+					"patching_rect" : [ 383.499999999999943, 253.5, 181.000000000000171, 35.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "rtt.euclidean~ @steps 11 @events 7 @triggermode count"
+					"text" : "rtt.euclidean~ @steps 11 @events 7 @trigger count"
 				}
 
 			}
@@ -926,7 +926,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
-					"midpoints" : [ 48.0, 221.5, 423.0, 221.5 ],
+					"midpoints" : [ 48.0, 221.5, 433.199999999999989, 221.5 ],
 					"order" : 1,
 					"source" : [ "obj-4", 0 ]
 				}
@@ -935,7 +935,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-33", 1 ],
-					"midpoints" : [ 88.799999999999997, 211.5, 749.5, 211.5 ],
+					"midpoints" : [ 88.799999999999997, 211.5, 732.75, 211.5 ],
 					"source" : [ "obj-4", 2 ]
 				}
 

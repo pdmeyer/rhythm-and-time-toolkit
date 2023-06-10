@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 957.0, 699.0 ],
+						"rect" : [ 34.0, 113.0, 957.0, 699.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -93,7 +93,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 100.666666666666629, 494.5, 126.0, 47.0 ],
+									"patching_rect" : [ 90.666666666666629, 471.5, 126.0, 47.0 ],
 									"text" : "compares two patterns with boolean operators"
 								}
 
@@ -105,7 +105,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 69.0, 545.5, 169.333333333333314, 52.369565217391312 ],
+									"patching_rect" : [ 59.0, 522.5, 169.333333333333314, 52.369565217391312 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -118,7 +118,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 30.0, 509.0, 58.0, 22.0 ],
+									"patching_rect" : [ 20.0, 486.0, 58.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -135,7 +135,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 471.0, 509.0, 180.0, 33.0 ],
+									"patching_rect" : [ 461.0, 486.0, 180.0, 33.0 ],
 									"text" : "use probability to ignore some events"
 								}
 
@@ -147,7 +147,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 369.0, 356.5, 180.0, 47.0 ],
+									"patching_rect" : [ 359.0, 333.5, 180.0, 47.0 ],
 									"text" : "a signal version of the max object onebang that can be used to thin out a pattern"
 								}
 
@@ -159,7 +159,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 286.666666666666629, 316.5, 180.0, 33.0 ],
+									"patching_rect" : [ 276.666666666666629, 293.5, 180.0, 33.0 ],
 									"text" : "an event modifier that creates retriggers or ratchets"
 								}
 
@@ -171,7 +171,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 292.0, 541.815217391304373, 169.333333333333314, 52.369565217391312 ],
+									"patching_rect" : [ 282.0, 518.815217391304373, 169.333333333333314, 52.369565217391312 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -183,7 +183,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 443.0, 478.000000000000057, 80.0, 22.0 ],
+									"patching_rect" : [ 433.0, 455.000000000000057, 80.0, 22.0 ],
 									"text" : "loadmess 0.5"
 								}
 
@@ -195,7 +195,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 292.0, 423.630434782608745, 169.333333333333314, 52.369565217391312 ],
+									"patching_rect" : [ 282.0, 400.630434782608745, 169.333333333333314, 52.369565217391312 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -207,7 +207,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 30.0, 375.630434782608688, 169.333333333333314, 52.369565217391312 ],
+									"patching_rect" : [ 20.0, 352.630434782608688, 169.333333333333314, 52.369565217391312 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -219,7 +219,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 82.666666666666657, 202.630434782608688, 169.333333333333314, 52.369565217391312 ],
+									"patching_rect" : [ 72.666666666666657, 179.630434782608688, 169.333333333333314, 52.369565217391312 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -231,7 +231,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 369.0, 202.630434782608688, 169.333333333333314, 52.369565217391312 ],
+									"patching_rect" : [ 359.0, 179.630434782608688, 169.333333333333314, 52.369565217391312 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -243,7 +243,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 252.0, 148.0, 196.0, 22.0 ],
+									"patching_rect" : [ 242.0, 125.0, 196.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -260,7 +260,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 30.0, 175.0, 177.0, 22.0 ],
+									"patching_rect" : [ 20.0, 152.0, 177.0, 22.0 ],
 									"text" : "pattern 0. 0. 0. 0. 0. 0. 0. 1."
 								}
 
@@ -272,7 +272,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 30.0, 148.0, 168.0, 22.0 ],
+									"patching_rect" : [ 20.0, 125.0, 168.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -289,7 +289,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 30.0, 106.0, 63.0, 22.0 ],
+									"patching_rect" : [ 20.0, 83.0, 63.0, 22.0 ],
 									"text" : "r~ counter"
 								}
 
@@ -302,13 +302,13 @@
 									"numinlets" : 4,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 292.0, 509.0, 170.0, 22.0 ],
+									"patching_rect" : [ 282.0, 486.0, 140.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "rtt.rprob~ @triggermode count"
+									"text" : "rtt.rprob~ @trigger count"
 								}
 
 							}
@@ -320,7 +320,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 277.0, 371.0, 78.0, 22.0 ],
+									"patching_rect" : [ 267.0, 348.0, 78.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -338,7 +338,7 @@
 									"numinlets" : 6,
 									"numoutlets" : 5,
 									"outlettype" : [ "signal", "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 30.0, 324.0, 238.0, 22.0 ],
+									"patching_rect" : [ 20.0, 301.0, 238.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -358,7 +358,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 26.0, 62.0, 556.0, 35.0 ],
+									"patching_rect" : [ 16.0, 39.0, 556.0, 35.0 ],
 									"text" : "Event Modifiers are related to the Pattern objects. Event modifiers allow you to set up complex pattern interactions that result in novel but controllable rhythms.",
 									"textcolor" : [ 0.258823529411765, 0.258823529411765, 0.258823529411765, 1.0 ]
 								}
@@ -373,7 +373,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 26.0, 23.0, 255.0, 35.0 ],
+									"patching_rect" : [ 16.0, 0.0, 255.0, 35.0 ],
 									"text" : "Event Modifiers"
 								}
 
@@ -387,7 +387,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 49.333333333333314, 467.0, 150.0, 22.0 ]
+									"patching_rect" : [ 39.333333333333314, 444.0, 150.0, 22.0 ]
 								}
 
 							}
@@ -563,7 +563,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 957.0, 699.0 ],
+						"rect" : [ 0.0, 26.0, 957.0, 699.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,

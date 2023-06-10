@@ -114,7 +114,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -303,7 +303,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 81.0, 33.0, 46.0, 23.0 ],
+													"patching_rect" : [ 81.0, 51.0, 46.0, 23.0 ],
 													"text" : "history"
 												}
 
@@ -317,7 +317,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 20.0, 9.0, 189.0, 23.0 ],
+													"patching_rect" : [ 20.0, 4.0, 189.0, 23.0 ],
 													"text" : "in 1 @comment freq @default 200"
 												}
 
@@ -345,7 +345,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 130.5, 9.0, 200.0, 23.0 ],
+													"patching_rect" : [ 221.5, 4.0, 200.0, 23.0 ],
 													"text" : "param feedback 1 @min 0 @max 1"
 												}
 
@@ -632,7 +632,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 20.0, 33.0, 63.0, 23.0 ],
+													"patching_rect" : [ 20.0, 51.0, 63.0, 23.0 ],
 													"text" : "mix 0.995"
 												}
 
@@ -975,8 +975,8 @@
 										"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 									}
 ,
-									"patching_rect" : [ 176.499999999999943, 130.0, 93.0, 23.0 ],
-									"text" : "gen~ @freq 200"
+									"patching_rect" : [ 176.499999999999943, 130.0, 38.0, 23.0 ],
+									"text" : "gen~"
 								}
 
 							}
@@ -1737,7 +1737,7 @@
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "rtt.pattern~ @countermode normalized"
+					"text" : "rtt.pattern~ @counter norm"
 				}
 
 			}
@@ -2394,8 +2394,8 @@
 			}
 , 			{
 				"name" : "rtt.getpatchname.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
-				"patcherrelativepath" : "../javascript",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/code",
+				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -2434,8 +2434,8 @@
 			}
 , 			{
 				"name" : "rtt.xtra.img2pattern.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/extras",
-				"patcherrelativepath" : "../../seq-dev/extras",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/extras",
+				"patcherrelativepath" : "../extras",
 				"type" : "JSON",
 				"implicit" : 1
 			}

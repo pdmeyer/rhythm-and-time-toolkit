@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 882.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 882.0, 790.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -873,13 +873,13 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "signal", "" ],
-					"patching_rect" : [ 144.5, 363.666661739349365, 281.0, 22.0 ],
+					"patching_rect" : [ 144.5, 363.666661739349365, 283.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "rtt.pprob~ @outputmode input_counter"
+					"text" : "rtt.pprob~ @output input"
 				}
 
 			}
@@ -1185,7 +1185,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 241.333333333333314, 399.333330869674683, 438.5, 399.333330869674683 ],
+					"midpoints" : [ 242.0, 399.333330869674683, 438.5, 399.333330869674683 ],
 					"order" : 0,
 					"source" : [ "obj-129", 1 ]
 				}
@@ -1209,7 +1209,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
-					"midpoints" : [ 241.333333333333314, 403.333330869674683, 69.0, 403.333330869674683 ],
+					"midpoints" : [ 242.0, 403.333330869674683, 69.0, 403.333330869674683 ],
 					"order" : 1,
 					"source" : [ "obj-129", 1 ]
 				}
@@ -1708,8 +1708,8 @@
 			}
 , 			{
 				"name" : "rtt.getpatchname.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
-				"patcherrelativepath" : "../javascript",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/code",
+				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

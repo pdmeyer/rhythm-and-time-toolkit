@@ -1306,13 +1306,13 @@
 					"numinlets" : 6,
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "" ],
-					"patching_rect" : [ 140.333333333333343, 387.0, 286.0, 22.0 ],
+					"patching_rect" : [ 140.333333333333343, 387.0, 189.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "rtt.retrig~ @subdiv 32 @repeats 4 @rampdir down"
+					"text" : "rtt.retrig~ @subdiv 32 @repeats 4"
 				}
 
 			}

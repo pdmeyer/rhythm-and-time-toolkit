@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -56,7 +56,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 303.0, 107.0, 20.0 ],
+					"patching_rect" : [ 215.0, 303.0, 107.0, 20.0 ],
 					"text" : "scale"
 				}
 
@@ -109,7 +109,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 891.333331108093262, 483.5, 129.416670918464661, 57.16666116721251 ],
-					"pattrstorage" : "rtt.ex.transpose"
+					"pattrstorage" : "rtt.xtra.pattrhelper"
 				}
 
 			}
@@ -134,7 +134,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "rtt.ex.transpose.json",
 					"id" : "obj-2666",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -149,7 +148,7 @@
 					}
 ,
 					"text" : "pattrstorage @autorestore 1 @savemode 2 @greedy 1",
-					"varname" : "rtt.ex.transpose"
+					"varname" : "rtt.xtra.pattrhelper[1]"
 				}
 
 			}
@@ -361,9 +360,9 @@
 					"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"id" : "obj-135",
 					"maxclass" : "newobj",
-					"numinlets" : 8,
-					"numoutlets" : 4,
-					"outlettype" : [ "signal", "signal", "signal", "" ],
+					"numinlets" : 6,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "signal", "" ],
 					"patching_rect" : [ 56.0, 485.333323121070862, 264.25, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -413,13 +412,13 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 301.0, 431.0, 172.0, 22.0 ],
+					"patching_rect" : [ 326.0, 436.0, 147.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "rtt.rprob~ @outputmode gate"
+					"text" : "rtt.rprob~ @output gate"
 				}
 
 			}
@@ -498,8 +497,8 @@
 					"id" : "obj-92",
 					"maxclass" : "newobj",
 					"numinlets" : 5,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 168.0, 608.000031894973745, 91.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -530,7 +529,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 189.0, 325.0, 97.0, 20.0 ],
+					"patching_rect" : [ 215.0, 325.0, 97.0, 20.0 ],
 					"pattrmode" : 1,
 					"prefix" : "~/Documents/Max 8/Packages/seq/misc/scales/",
 					"saved_attribute_attributes" : 					{
@@ -573,9 +572,9 @@
 					"id" : "obj-56",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 189.0, 353.0, 97.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 215.0, 353.0, 97.0, 22.0 ],
 					"text" : "rtt.scala.parser"
 				}
 
@@ -617,8 +616,8 @@
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 98.0, 217.0, 78.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -650,8 +649,8 @@
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
+					"numoutlets" : 6,
+					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "" ],
 					"patching_rect" : [ 35.0, 217.0, 61.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -948,16 +947,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-135", 7 ],
-					"order" : 1,
-					"source" : [ "obj-30", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"order" : 0,
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -1010,7 +1000,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
-					"midpoints" : [ 65.5, 424.5, 310.5, 424.5 ],
+					"midpoints" : [ 61.300000000000004, 424.5, 335.5, 424.5 ],
 					"order" : 0,
 					"source" : [ "obj-4", 2 ]
 				}
@@ -1043,7 +1033,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-135", 1 ],
-					"midpoints" : [ 959.5, 473.166661560535431, 100.535714285714278, 473.166661560535431 ],
+					"midpoints" : [ 959.5, 473.166661560535431, 114.549999999999997, 473.166661560535431 ],
 					"order" : 1,
 					"source" : [ "obj-44", 0 ]
 				}
@@ -1060,7 +1050,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-57", 1 ],
-					"source" : [ "obj-56", 1 ]
+					"source" : [ "obj-56", 0 ]
 				}
 
 			}
@@ -1139,7 +1129,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-135", 3 ],
-					"midpoints" : [ 31.5, 451.166661560535431, 170.607142857142861, 451.166661560535431 ],
+					"midpoints" : [ 31.5, 451.166661560535431, 212.650000000000006, 451.166661560535431 ],
 					"order" : 0,
 					"source" : [ "obj-76", 0 ]
 				}
@@ -1226,6 +1216,30 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-156::obj-10" : 				{
+					"parameter_longname" : "live.numbox[31]"
+				}
+,
+				"obj-156::obj-14" : 				{
+					"parameter_longname" : "live.text[7]"
+				}
+,
+				"obj-156::obj-30" : 				{
+					"parameter_longname" : "live.numbox[46]"
+				}
+,
+				"obj-156::obj-31" : 				{
+					"parameter_longname" : "live.numbox[38]"
+				}
+,
+				"obj-156::obj-32" : 				{
+					"parameter_longname" : "live.numbox[37]"
+				}
+,
+				"obj-156::obj-33" : 				{
+					"parameter_longname" : "live.numbox[32]"
+				}
+,
 				"obj-1::obj-10" : 				{
 					"parameter_longname" : "live.numbox[41]"
 				}
@@ -1312,16 +1326,9 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "rtt.ex.transpose.json",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/pattrstorage",
-				"patcherrelativepath" : "../misc/pattrstorage",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "rtt.getpatchname.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
-				"patcherrelativepath" : "../javascript",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/code",
+				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

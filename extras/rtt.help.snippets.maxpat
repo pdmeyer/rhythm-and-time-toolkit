@@ -617,7 +617,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 584.666673541069031, 585.999941651234508, 297.833361148834229, 17.0 ],
+					"patching_rect" : [ 584.0, 585.0, 328.0, 16.0 ],
 					"varname" : "rtt.xtra.stepgridviewer[2]",
 					"viewvisibility" : 1
 				}
@@ -1756,7 +1756,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 583.000017642974854, 1029.999950830349917, 299.833361148834229, 19.0 ],
+					"patching_rect" : [ 583.0, 1029.0, 328.0, 16.0 ],
 					"varname" : "rtt.xtra.stepgridviewer[1]",
 					"viewvisibility" : 1
 				}
@@ -1812,7 +1812,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 603.666673541069031, 740.499911078233481, 297.833361148834229, 17.0 ],
+					"patching_rect" : [ 603.0, 740.0, 328.0, 16.0 ],
 					"varname" : "rtt.xtra.stepgridviewer",
 					"viewvisibility" : 1
 				}
@@ -4613,6 +4613,13 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "rtt.resizebpatcher.js",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "rtt.retrig~.mxo",
 				"type" : "iLaX"
 			}
@@ -4665,13 +4672,6 @@
 				"name" : "rtt.xtra.stepgridviewer.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/extras",
 				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.misc.philipmeyer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/_archive",
-				"patcherrelativepath" : "../misc/_archive",
 				"type" : "JSON",
 				"implicit" : 1
 			}

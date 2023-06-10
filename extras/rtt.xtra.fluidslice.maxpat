@@ -64,7 +64,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "seq.misc.philipmeyer.maxpat",
+					"name" : "rtt.misc.philipmeyer.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
@@ -339,7 +339,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 128.0, 514.0, 216.0, 22.0 ],
+					"patching_rect" : [ 128.0, 514.0, 222.0, 22.0 ],
 					"text" : "fluid.buf2list @source #0_slicepoints"
 				}
 
@@ -351,7 +351,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 254.5, 249.0, 139.0, 22.0 ],
+					"patching_rect" : [ 254.5, 249.0, 144.0, 22.0 ],
 					"text" : "buffer~ #0_slicepoints"
 				}
 
@@ -363,7 +363,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 30.0, 349.0, 521.0, 22.0 ],
+					"patching_rect" : [ 30.0, 349.0, 532.0, 22.0 ],
 					"text" : "fluid.bufonsetslice~ @metric 9 @threshold 0.5 @source #0_sound @indices #0_slicepoints"
 				}
 
@@ -375,7 +375,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "dictionary" ],
-					"patching_rect" : [ 30.0, 304.0, 263.0, 22.0 ],
+					"patching_rect" : [ 30.0, 304.0, 269.0, 22.0 ],
 					"text" : "fluid.concataudiofiles @destination #0_sound",
 					"varname" : "fluid.concataudiofiles"
 				}
@@ -400,7 +400,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 134.25, 249.0, 115.0, 22.0 ],
+					"patching_rect" : [ 134.25, 249.0, 121.0, 22.0 ],
 					"text" : "buffer~ #0_sound"
 				}
 
@@ -632,9 +632,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.misc.philipmeyer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/_archive",
-				"patcherrelativepath" : "../misc/_archive",
+				"name" : "rtt.misc.philipmeyer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

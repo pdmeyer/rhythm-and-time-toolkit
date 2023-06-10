@@ -120,14 +120,14 @@
 					"outlettype" : [ "signal", "signal", "signal", "list" ],
 					"patching_rect" : [ 15.0, 175.0, 102.0, 22.0 ],
 					"rnboattrcache" : 					{
-						"countsync" : 						{
-							"label" : "countsync",
+						"syncupdate" : 						{
+							"label" : "syncupdate",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"syncupdate" : 						{
-							"label" : "syncupdate",
+						"countsync" : 						{
+							"label" : "countsync",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -247,7 +247,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "seq.misc.philipmeyer.maxpat",
+					"name" : "rtt.misc.philipmeyer.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
@@ -358,6 +358,13 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "rtt.misc.philipmeyer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "rtt.xtra.divs.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../Snapshots",
@@ -369,13 +376,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/seq/extras",
 				"patcherrelativepath" : ".",
 				"type" : "RBOP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.misc.philipmeyer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/_archive",
-				"patcherrelativepath" : "../misc/_archive",
-				"type" : "JSON",
 				"implicit" : 1
 			}
  ],

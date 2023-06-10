@@ -63,6 +63,10 @@
 		"digest" : "Create ratcheted rhythms with a cascade of subdivisions."
 	}
 ,
+	"rtt.ex.jpgpattern" : 	{
+		"digest" : "Use an image file to create rhythms and play them back with rtt.pattern~."
+	}
+,
 	"rtt.xtra.fluidslice" : 	{
 		"digest" : "Generate a list of slice points for the rtt.dsp.simplesampler device used in the MC and subdiv ratchet examples. Uses the FluCoMa package."
 	}
@@ -71,7 +75,7 @@
 		"digest" : "Ingests an image and produces a pattern."
 	}
 ,
-	"rtt.xtra.linkbar" : 	{
+	"rtt.xtra.link" : 	{
 		"digest" : "Clock similar to rtt.bar~ and rtt.clock~ that stays in sync with Ableton Live using Ableton Link. Uses the link package."
 	}
 ,

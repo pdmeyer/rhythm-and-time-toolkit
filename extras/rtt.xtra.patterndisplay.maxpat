@@ -268,7 +268,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "multichannelsignal" ],
 									"patching_rect" : [ 50.0, 40.000000000000057, 30.0, 30.0 ]
 								}
 
@@ -670,7 +670,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 365.0, 622.135059345706964, 183.0, 22.0 ],
+					"patching_rect" : [ 365.0, 622.135059345706964, 190.0, 22.0 ],
 					"text" : "buffer~ #0_length @samps 16"
 				}
 
@@ -785,6 +785,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-9",
@@ -801,11 +802,11 @@
 								"box" : 								{
 									"id" : "obj-1",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 88.0, 77.0, 22.0 ],
-									"text" : "route pattern"
+									"numinlets" : 3,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 50.0, 88.0, 109.0, 22.0 ],
+									"text" : "route pattern steps"
 								}
 
 							}
@@ -1030,7 +1031,7 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
-									"source" : [ "obj-1", 1 ]
+									"source" : [ "obj-1", 2 ]
 								}
 
 							}
@@ -1135,7 +1136,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 353.0, 185.0, 192.625, 22.0 ],
+					"patching_rect" : [ 353.0, 185.0, 199.875, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1229,7 +1230,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 365.0, 590.935059000000024, 170.0, 22.0 ],
+					"patching_rect" : [ 365.0, 590.935059000000024, 176.0, 22.0 ],
 					"text" : "buffer~ #0_pos @samps 16"
 				}
 
@@ -1242,7 +1243,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 365.0, 563.935059000000024, 240.0, 22.0 ],
+					"patching_rect" : [ 365.0, 563.935059000000024, 247.0, 22.0 ],
 					"text" : "buffer~ #0_patterns2d 1 16 @samps 256"
 				}
 
@@ -1255,7 +1256,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "jit_matrix", "" ],
-					"patching_rect" : [ 201.25, 467.935059000000024, 151.0, 22.0 ],
+					"patching_rect" : [ 201.25, 467.935059000000024, 158.0, 22.0 ],
 					"text" : "jit.buffer~ #0_patterns2d "
 				}
 
@@ -1267,7 +1268,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 410.875, 324.935059000000024, 135.0, 22.0 ],
+					"patching_rect" : [ 410.875, 324.935059000000024, 142.0, 22.0 ],
 					"text" : "poke~ #0_patterns2d"
 				}
 
@@ -1280,7 +1281,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "jit_matrix", "" ],
-					"patching_rect" : [ 380.5, 467.935059000000024, 114.0, 22.0 ],
+					"patching_rect" : [ 380.5, 467.935059000000024, 121.0, 22.0 ],
 					"text" : "jit.buffer~ #0_pos "
 				}
 
@@ -1422,7 +1423,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 171.0, 324.935059000000024, 186.0, 35.0 ],
 					"text" : "mc.gen~ @t fill-pos-mtx @chans 16 @pos #0_pos ",
-					"wrapper_uniquekey" : "u959016124"
+					"wrapper_uniquekey" : "u740023484"
 				}
 
 			}
@@ -1443,7 +1444,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 526.625, 122.0, 101.0, 20.0 ],
+					"patching_rect" : [ 533.875, 122.0, 101.0, 20.0 ],
 					"text" : "\"voice\" message"
 				}
 
@@ -1753,7 +1754,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "jit_matrix", "" ],
-					"patching_rect" : [ 559.75, 467.935059000000024, 127.0, 22.0 ],
+					"patching_rect" : [ 559.75, 467.935059000000024, 134.0, 22.0 ],
 					"text" : "jit.buffer~ #0_length"
 				}
 
@@ -3035,11 +3036,11 @@
 				"box" : 				{
 					"comment" : "(mc signal) step counter",
 					"id" : "obj-146",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 51.5, 143.0, 30.0, 30.0 ]
 				}
 
@@ -3048,7 +3049,7 @@
 				"box" : 				{
 					"comment" : "pattern",
 					"id" : "obj-147",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3061,12 +3062,12 @@
 				"box" : 				{
 					"comment" : "voice number",
 					"id" : "obj-148",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 526.625, 143.0, 30.0, 30.0 ]
+					"patching_rect" : [ 533.875, 143.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -3074,7 +3075,7 @@
 				"box" : 				{
 					"comment" : "matrix",
 					"id" : "obj-149",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3104,7 +3105,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 54.5, 690.0, 60.0 ],
+					"patching_rect" : [ 15.0, 54.5, 692.0, 60.0 ],
 					"text" : "this patch visualizes up to 16 patterns from a single-channel or mc seq pattern object (e.g. rtt.euclidean~, mc.rtt.pattern~, etc).  it takes advantage of the fact that both buffers and matrices are structured like tables. matrices have rows and columns, while buffers have samples and rows. so, we can read data into buffers using objects like poke~, and then we can use jit.buffer~ to read the data as a jitter matrix!"
 				}
 
@@ -3297,7 +3298,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
-					"midpoints" : [ 536.125, 213.85000017285347, 619.75, 213.85000017285347 ],
+					"midpoints" : [ 543.375, 213.85000017285347, 619.75, 213.85000017285347 ],
 					"order" : 0,
 					"source" : [ "obj-36", 1 ]
 				}
@@ -3398,16 +3399,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "rtt.misc.philipmeyer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
-				"patcherrelativepath" : "../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

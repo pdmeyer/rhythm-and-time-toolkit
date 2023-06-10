@@ -316,7 +316,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 244.5, 430.0, 97.0, 20.0 ],
+					"patching_rect" : [ 244.5, 426.0, 97.0, 20.0 ],
 					"pattrmode" : 1,
 					"prefix" : "~/Documents/Max 8/Packages/seq/misc/scales/",
 					"saved_attribute_attributes" : 					{
@@ -361,7 +361,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 244.5, 458.0, 97.0, 22.0 ],
+					"patching_rect" : [ 244.5, 454.0, 97.0, 22.0 ],
 					"text" : "rtt.scala.parser"
 				}
 
@@ -979,7 +979,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-57", 1 ],
-					"source" : [ "obj-56", 1 ]
+					"source" : [ "obj-56", 0 ]
 				}
 
 			}
@@ -1104,8 +1104,8 @@
 			}
 , 			{
 				"name" : "rtt.getpatchname.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
-				"patcherrelativepath" : "../javascript",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/code",
+				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

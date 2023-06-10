@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 87.0, 775.0, 779.0 ],
+		"rect" : [ 59.0, 87.0, 716.0, 845.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -51,19 +51,6 @@
 					"outlettype" : [ "signal", "float" ],
 					"patching_rect" : [ 180.0, 704.0, 56.0, 22.0 ],
 					"sig" : 0.0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"id" : "obj-32",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 388.0, 667.0, 150.5, 37.0 ],
-					"text" : "borrowed from gen~.fm_bells.maxpat"
 				}
 
 			}
@@ -186,6 +173,9 @@
 					"patching_rect" : [ 366.0, 196.391304347826093, 56.0, 22.0 ],
 					"restore" : 					{
 						"bpm" : [ "bpm", 120.0 ],
+						"ceiling" : [ "ceiling", 0.0 ],
+						"direction" : [ "direction", "forward" ],
+						"floor" : [ "floor", 1.0 ],
 						"fm_depth" : [ "depth", 0.96 ],
 						"fm_modratio" : [ 0.75 ],
 						"fm_t60" : [ "t60", 0.7 ],
@@ -260,7 +250,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 201.0, 609.0, 97.0, 22.0 ],
+					"patching_rect" : [ 227.0, 608.0, 97.0, 22.0 ],
 					"text" : "rtt.scala.parser"
 				}
 
@@ -272,7 +262,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 180.0, 638.0, 66.0, 22.0 ],
+					"patching_rect" : [ 162.5, 638.0, 83.5, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1193,7 +1183,7 @@
 					}
 ,
 					"patching_rect" : [ 41.0, 672.0, 344.0, 23.0 ],
-					"text" : "gen~"
+					"text" : "gen~ @gen~.fm.bells"
 				}
 
 			}
@@ -2331,7 +2321,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 1 ],
-					"source" : [ "obj-35", 1 ]
+					"source" : [ "obj-35", 0 ]
 				}
 
 			}

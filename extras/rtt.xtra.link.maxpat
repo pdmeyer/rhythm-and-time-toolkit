@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 15.0, 52.0, 273.25, 33.0 ],
+					"text" : "connects to Ableton Link system to obtain transport information and a clock phasor"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -49,11 +61,11 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "seq.misc.philipmeyer.maxpat",
+					"name" : "rtt.misc.philipmeyer.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 47.0, 429.5, 105.0, 23.0 ],
+					"patching_rect" : [ 47.0, 464.5, 105.0, 23.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -67,7 +79,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 155.5, 90.5, 208.0, 47.0 ],
+					"patching_rect" : [ 155.5, 125.5, 208.0, 47.0 ],
 					"text" : "To use this patch, download the link package from the Package Manager",
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
@@ -81,7 +93,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 257.0, 217.5, 24.0, 24.0 ]
+					"patching_rect" : [ 257.0, 252.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -91,7 +103,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 112.0, 66.0, 80.0, 20.0 ],
+					"patching_rect" : [ 112.0, 101.0, 80.0, 20.0 ],
 					"text" : "bpm"
 				}
 
@@ -103,7 +115,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 59.5, 80.0, 33.0 ],
+					"patching_rect" : [ 15.0, 94.5, 80.0, 33.0 ],
 					"text" : "transport / messages in"
 				}
 
@@ -114,7 +126,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 47.0, 407.5, 150.0, 20.0 ],
+					"patching_rect" : [ 47.0, 442.5, 150.0, 20.0 ],
 					"text" : "phasor out"
 				}
 
@@ -157,7 +169,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 112.0, 286.5, 72.0, 22.0 ],
+					"patching_rect" : [ 112.0, 321.5, 72.0, 22.0 ],
 					"text" : "quantum $1"
 				}
 
@@ -169,7 +181,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 47.0, 286.5, 59.0, 22.0 ],
+					"patching_rect" : [ 47.0, 321.5, 59.0, 22.0 ],
 					"text" : "tempo $1"
 				}
 
@@ -181,7 +193,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 15.0, 141.5, 213.0, 22.0 ],
+					"patching_rect" : [ 15.0, 176.5, 213.0, 22.0 ],
 					"text" : "route bpm quantum"
 				}
 
@@ -194,7 +206,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 112.0, 168.5, 86.0, 35.0 ],
+					"patching_rect" : [ 112.0, 203.5, 86.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 4 ],
 						"parameter_enable" : 0,
@@ -213,7 +225,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 252.0, 343.5, 41.0, 22.0 ],
+					"patching_rect" : [ 252.0, 378.5, 41.0, 22.0 ],
 					"text" : "set $1"
 				}
 
@@ -225,7 +237,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 209.0, 343.5, 41.0, 22.0 ],
+					"patching_rect" : [ 209.0, 378.5, 41.0, 22.0 ],
 					"text" : "set $1"
 				}
 
@@ -234,11 +246,11 @@
 				"box" : 				{
 					"comment" : "bpm \"set\" message",
 					"id" : "obj-18",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 252.0, 372.5, 30.0, 30.0 ]
+					"patching_rect" : [ 252.0, 407.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -246,11 +258,11 @@
 				"box" : 				{
 					"comment" : "transport \"set\" message",
 					"id" : "obj-15",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 209.0, 372.5, 30.0, 30.0 ]
+					"patching_rect" : [ 209.0, 407.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -261,7 +273,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 47.0, 224.5, 59.0, 22.0 ],
+					"patching_rect" : [ 47.0, 259.5, 59.0, 22.0 ],
 					"restore" : [ 20.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -280,7 +292,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 47.0, 258.5, 48.0, 22.0 ],
+					"patching_rect" : [ 47.0, 293.5, 48.0, 22.0 ],
 					"text" : "change"
 				}
 
@@ -535,7 +547,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 47.0, 343.5, 89.0, 22.0 ],
+					"patching_rect" : [ 47.0, 378.5, 89.0, 22.0 ],
 					"text" : "gen~"
 				}
 
@@ -547,7 +559,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 209.0, 168.5, 71.0, 22.0 ],
+					"patching_rect" : [ 209.0, 203.5, 71.0, 22.0 ],
 					"text" : "link.session"
 				}
 
@@ -559,7 +571,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 47.0, 314.5, 74.0, 22.0 ],
+					"patching_rect" : [ 47.0, 349.5, 74.0, 22.0 ],
 					"text" : "link.phasor~"
 				}
 
@@ -568,12 +580,12 @@
 				"box" : 				{
 					"comment" : "bpm",
 					"id" : "obj-35",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 112.0, 94.5, 30.0, 30.0 ]
+					"patching_rect" : [ 112.0, 129.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -581,12 +593,12 @@
 				"box" : 				{
 					"comment" : "transport (int) / messages in",
 					"id" : "obj-36",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 94.5, 30.0, 30.0 ]
+					"patching_rect" : [ 15.0, 129.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -594,11 +606,11 @@
 				"box" : 				{
 					"comment" : "phasor",
 					"id" : "obj-38",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 47.0, 372.5, 30.0, 30.0 ]
+					"patching_rect" : [ 47.0, 407.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -676,7 +688,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 121.5, 311.0, 56.5, 311.0 ],
+					"midpoints" : [ 121.5, 346.0, 56.5, 346.0 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -706,7 +718,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 1 ],
-					"midpoints" : [ 218.5, 335.5, 126.5, 335.5 ],
+					"midpoints" : [ 218.5, 370.5, 126.5, 370.5 ],
 					"order" : 2,
 					"source" : [ "obj-4", 0 ]
 				}
@@ -715,7 +727,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 270.5, 215.0, 56.5, 215.0 ],
+					"midpoints" : [ 270.5, 250.0, 56.5, 250.0 ],
 					"source" : [ "obj-4", 1 ]
 				}
 
@@ -731,7 +743,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
-					"midpoints" : [ 56.5, 251.5, 261.5, 251.5 ],
+					"midpoints" : [ 56.5, 286.5, 261.5, 286.5 ],
 					"order" : 0,
 					"source" : [ "obj-5", 0 ]
 				}
@@ -745,24 +757,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "link.phasor~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "link.session.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.misc.philipmeyer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/_archive",
-				"patcherrelativepath" : "../misc/_archive",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

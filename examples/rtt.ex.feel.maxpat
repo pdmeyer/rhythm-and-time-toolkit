@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 882.0, 790.0 ],
+		"rect" : [ 34.0, 87.0, 864.0, 790.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -107,8 +107,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 577.166670083999634, 62.0, 100.0, 40.0 ],
-					"pattrstorage" : "rtt.xtra.pattrhelper",
+					"patching_rect" : [ 603.166670083999634, 66.0, 100.0, 40.0 ],
+					"pattrstorage" : "rtt.ex.feel",
 					"presentation" : 1,
 					"presentation_rect" : [ 104.0, 3.0, 159.0, 29.0 ]
 				}
@@ -157,12 +157,13 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "rtt.ex.feel.json",
 					"id" : "obj-2666",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 473.0, 113.000003274833716, 245.0, 22.0 ],
+					"patching_rect" : [ 474.0, 113.000003274833716, 245.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 624, 115, 1024, 615 ],
 						"parameter_enable" : 0,
@@ -171,7 +172,7 @@
 					}
 ,
 					"text" : "pattrstorage @autorestore 1 @savemode 2",
-					"varname" : "rtt.xtra.pattrhelper[1]"
+					"varname" : "rtt.ex.feel"
 				}
 
 			}
@@ -191,7 +192,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "int", "bang" ],
-					"patching_rect" : [ 471.0, 57.0, 251.0, 85.000003274833716 ],
+					"patching_rect" : [ 467.0, 58.0, 251.0, 85.000003274833716 ],
 					"varname" : "rtt.xtra.pattrhelper",
 					"viewvisibility" : 1
 				}
@@ -1352,7 +1353,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2691", 1 ],
-					"midpoints" : [ 482.5, 140.000003274833716, 711.0, 140.000003274833716, 711.0, 65.0, 712.5, 65.0 ],
+					"midpoints" : [ 483.5, 140.000003274833716, 711.0, 140.000003274833716, 711.0, 65.0, 708.5, 65.0 ],
 					"source" : [ "obj-2666", 0 ]
 				}
 
@@ -1705,6 +1706,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/seq/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rtt.ex.feel.json",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/pattrstorage",
+				"patcherrelativepath" : "../misc/pattrstorage",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{

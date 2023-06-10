@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -50,7 +50,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 10,
 					"presentation_rect" : [ 47.5, 88.0, 405.0, 141.0 ],
-					"text" : "a basic monophonic sampler voice designed primarily for drums. one buffer holds the sound file, while a second buffer holds a list of slice points used to select regions of the sound file to play back. pitch transposition is handled by playing the samples back at a different speed (no fancy timestretching!) a simple attack-release envelope works well for short, percussive sounds.\n\nto generate slice point buffers like the one shown here, check out seq.xtra.fluidslice, which uses externals from the FluidCorpusManiupulation package"
+					"text" : "a basic monophonic sampler voice designed primarily for drums. one buffer holds the sound file, while a second buffer holds a list of slice points used to select regions of the sound file to play back. pitch transposition is handled by playing the samples back at a different speed (no fancy timestretching!) a simple attack-release envelope works well for short, percussive sounds.\n\nto generate slice point buffers like the one shown here, check out rtt.xtra.fluidslice, which uses externals from the FluidCorpusManiupulation package"
 				}
 
 			}
@@ -65,7 +65,7 @@
 					"patching_rect" : [ 106.25, 29.5, 205.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 98.5, 44.0, 299.0, 28.0 ],
-					"text" : "seq.xtra.simplesampler"
+					"text" : "rtt.xtra.simplesampler"
 				}
 
 			}
@@ -81,7 +81,7 @@
 					"patching_rect" : [ 38.0, 7.5, 66.0, 50.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 32.5, 21.0, 66.0, 50.0 ],
-					"text" : "seq"
+					"text" : "rtt"
 				}
 
 			}
@@ -92,7 +92,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 313.25, 37.5, 150.0, 20.0 ],
-					"text" : "philip meyer, 2022"
+					"text" : "philip meyer, 2023"
 				}
 
 			}
@@ -396,7 +396,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -657,7 +657,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 184.0, 638.0, 120.0, 22.0 ],
-					"text" : "seq.dsp.ramp.samps"
+					"text" : "rtt.dsp.ramp.samps"
 				}
 
 			}
@@ -782,7 +782,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 38.0, 638.0, 86.0, 22.0 ],
-					"text" : "seq.dsp.env.ar"
+					"text" : "rtt.dsp.env.ar"
 				}
 
 			}
@@ -1221,7 +1221,8 @@
 				}
 
 			}
- ]
+ ],
+		"autosave" : 0
 	}
 
 }

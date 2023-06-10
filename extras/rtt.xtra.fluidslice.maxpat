@@ -40,6 +40,21 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 239.5, 9.0, 208.0, 47.0 ],
+					"text" : "To use this patch, download the FluidCorpusManipulation package from the Package Manager",
+					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -53,7 +68,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 163.0, 552.0, 105.0, 23.0 ],
+					"patching_rect" : [ 160.0, 545.0, 105.0, 23.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -65,7 +80,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 369.75, 220.0, 81.0, 22.0 ],
+					"patching_rect" : [ 366.75, 213.0, 81.0, 22.0 ],
 					"text" : "prepend write"
 				}
 
@@ -77,7 +92,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "bang" ],
-					"patching_rect" : [ 369.75, 186.0, 66.0, 22.0 ],
+					"patching_rect" : [ 366.75, 179.0, 66.0, 22.0 ],
 					"text" : "savedialog"
 				}
 
@@ -89,7 +104,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 369.75, 162.0, 54.0, 22.0 ],
+					"patching_rect" : [ 366.75, 155.0, 54.0, 22.0 ],
 					"text" : "sel bang"
 				}
 
@@ -101,7 +116,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 257.5, 220.0, 101.0, 22.0 ],
+					"patching_rect" : [ 254.5, 213.0, 101.0, 22.0 ],
 					"text" : "prepend writeraw"
 				}
 
@@ -113,7 +128,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "bang" ],
-					"patching_rect" : [ 257.5, 186.0, 66.0, 22.0 ],
+					"patching_rect" : [ 254.5, 179.0, 66.0, 22.0 ],
 					"text" : "savedialog"
 				}
 
@@ -125,7 +140,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 257.5, 162.0, 54.0, 22.0 ],
+					"patching_rect" : [ 254.5, 155.0, 54.0, 22.0 ],
 					"text" : "sel bang"
 				}
 
@@ -138,7 +153,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 145.0, 408.0, 402.0, 100.0 ],
+					"patching_rect" : [ 142.0, 401.0, 402.0, 100.0 ],
 					"text" : "folder :  reads in a folder containing audio files. the files will be concatenated in the \"sound\" buffer, then the slice points will be calculated \nfile : reads an audio file into the buffer, then calculate slice points\nwriteslicepoints : writes contents of the slice points buffer to disk as a .data file\nwritesample : writes the contents of the sound buffer to disk as a AIFF file\nthreshold : sets the onset detection threshold"
 				}
 
@@ -151,7 +166,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 145.0, 386.0, 402.0, 20.0 ],
+					"patching_rect" : [ 142.0, 379.0, 402.0, 20.0 ],
 					"text" : "Messages"
 				}
 
@@ -163,7 +178,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 137.25, 186.0, 67.0, 22.0 ],
+					"patching_rect" : [ 134.25, 179.0, 67.0, 22.0 ],
 					"text" : "opendialog"
 				}
 
@@ -175,7 +190,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 137.25, 162.0, 54.0, 22.0 ],
+					"patching_rect" : [ 134.25, 155.0, 54.0, 22.0 ],
 					"text" : "sel bang"
 				}
 
@@ -187,7 +202,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 33.0, 186.0, 90.0, 22.0 ],
+					"patching_rect" : [ 30.0, 179.0, 90.0, 22.0 ],
 					"text" : "opendialog fold"
 				}
 
@@ -199,7 +214,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 33.0, 162.0, 54.0, 22.0 ],
+					"patching_rect" : [ 30.0, 155.0, 54.0, 22.0 ],
 					"text" : "sel bang"
 				}
 
@@ -212,7 +227,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 66.5, 73.0, 402.0, 47.0 ],
+					"patching_rect" : [ 63.5, 66.0, 402.0, 47.0 ],
 					"text" : "Uses externals from the FluidCorpusManipulation Package to store audio in a buffer and store, in a second buffer a list of sample positions where onsets occur in the first buffer"
 				}
 
@@ -225,7 +240,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.0, 36.0, 156.0, 28.0 ],
+					"patching_rect" : [ 81.0, 23.0, 156.0, 28.0 ],
 					"text" : "rtt.xtra.fluidslice"
 				}
 
@@ -239,7 +254,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 33.0, 13.0, 66.0, 50.0 ],
+					"patching_rect" : [ 15.0, 0.0, 66.0, 50.0 ],
 					"text" : "rtt"
 				}
 
@@ -251,7 +266,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 322.0, 311.0, 125.0, 22.0 ],
+					"patching_rect" : [ 319.0, 304.0, 125.0, 22.0 ],
 					"text" : "routepass threshold"
 				}
 
@@ -264,7 +279,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 33.0, 556.0, 30.0, 30.0 ]
+					"patching_rect" : [ 30.0, 549.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -276,7 +291,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 131.0, 556.0, 30.0, 30.0 ]
+					"patching_rect" : [ 128.0, 549.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -289,7 +304,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 33.0, 82.0, 30.0, 30.0 ]
+					"patching_rect" : [ 30.0, 75.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -300,7 +315,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 137.25, 220.0, 95.0, 22.0 ],
+					"patching_rect" : [ 134.25, 213.0, 95.0, 22.0 ],
 					"text" : "prepend replace"
 				}
 
@@ -312,7 +327,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 33.0, 132.0, 468.0, 22.0 ],
+					"patching_rect" : [ 30.0, 125.0, 468.0, 22.0 ],
 					"text" : "route folder file writeslicepoints writesample"
 				}
 
@@ -321,10 +336,10 @@
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 131.0, 521.0, 216.0, 22.0 ],
+					"outlettype" : [ "list" ],
+					"patching_rect" : [ 128.0, 514.0, 216.0, 22.0 ],
 					"text" : "fluid.buf2list @source #0_slicepoints"
 				}
 
@@ -336,7 +351,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 257.5, 256.0, 139.0, 22.0 ],
+					"patching_rect" : [ 254.5, 249.0, 139.0, 22.0 ],
 					"text" : "buffer~ #0_slicepoints"
 				}
 
@@ -346,9 +361,9 @@
 					"id" : "obj-44",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 33.0, 356.0, 521.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 30.0, 349.0, 521.0, 22.0 ],
 					"text" : "fluid.bufonsetslice~ @metric 9 @threshold 0.5 @source #0_sound @indices #0_slicepoints"
 				}
 
@@ -359,8 +374,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 33.0, 311.0, 263.0, 22.0 ],
+					"outlettype" : [ "dictionary" ],
+					"patching_rect" : [ 30.0, 304.0, 263.0, 22.0 ],
 					"text" : "fluid.concataudiofiles @destination #0_sound",
 					"varname" : "fluid.concataudiofiles"
 				}
@@ -373,7 +388,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 33.0, 256.0, 94.0, 22.0 ],
+					"patching_rect" : [ 30.0, 249.0, 94.0, 22.0 ],
 					"text" : "fluid.audiofilesin"
 				}
 
@@ -385,7 +400,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 137.25, 256.0, 115.0, 22.0 ],
+					"patching_rect" : [ 134.25, 249.0, 115.0, 22.0 ],
 					"text" : "buffer~ #0_sound"
 				}
 
@@ -591,6 +606,32 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "fluid.audiofilesin.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/patchers",
+				"patcherrelativepath" : "../../FluidCorpusManipulation/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.buf2list.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufcompose~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufonsetslice~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.concataudiofiles.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/patchers",
+				"patcherrelativepath" : "../../FluidCorpusManipulation/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "seq.misc.philipmeyer.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/_archive",
 				"patcherrelativepath" : "../misc/_archive",

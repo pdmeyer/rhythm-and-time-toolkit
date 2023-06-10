@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -48,8 +48,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 33.0, 118.0, 167.0, 66.0 ],
-					"text" : "RNBO source patch used to build the seq.divs~ externals. double-click to open"
+					"patching_rect" : [ 15.0, 105.0, 169.0, 66.0 ],
+					"text" : "RNBO source patch used to build the rtt.divs~ external. double-click to open"
 				}
 
 			}
@@ -60,13 +60,13 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 277.0, 188.0, 60.0, 22.0 ],
+					"patching_rect" : [ 259.0, 175.0, 51.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "seq.divs~"
+					"text" : "rtt.divs~"
 				}
 
 			}
@@ -118,7 +118,7 @@
 					}
 ,
 					"outlettype" : [ "signal", "signal", "signal", "list" ],
-					"patching_rect" : [ 33.0, 188.0, 110.0, 22.0 ],
+					"patching_rect" : [ 15.0, 175.0, 102.0, 22.0 ],
 					"rnboattrcache" : 					{
 						"countsync" : 						{
 							"label" : "countsync",
@@ -134,7 +134,7 @@
 
 					}
 ,
-					"rnboversion" : "1.1.0-dev.54",
+					"rnboversion" : "1.1.1",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -163,12 +163,6 @@
 						"snapshot" : 						{
 							"__sps" : 							{
 								"p_obj-18" : 								{
-									"__sps" : 									{
-										"expand" : 										{
-
-										}
-
-									}
 
 								}
 ,
@@ -186,7 +180,7 @@
 								"value" : 1.0
 							}
 ,
-							"__presetid" : "seq.xtra.divs"
+							"__presetid" : "rtt.xtra.divs"
 						}
 ,
 						"snapshotlist" : 						{
@@ -195,20 +189,14 @@
 									"filetype" : "C74Snapshot",
 									"version" : 2,
 									"minorversion" : 0,
-									"name" : "seq.xtra.divs",
-									"origin" : "seq.xtra.divs",
+									"name" : "rtt.xtra.divs",
+									"origin" : "rtt.xtra.divs",
 									"type" : "rnbo",
 									"subtype" : "",
-									"embed" : 0,
+									"embed" : 1,
 									"snapshot" : 									{
 										"__sps" : 										{
 											"p_obj-18" : 											{
-												"__sps" : 												{
-													"expand" : 													{
-
-													}
-
-												}
 
 											}
 ,
@@ -226,15 +214,15 @@
 											"value" : 1.0
 										}
 ,
-										"__presetid" : "seq.xtra.divs"
+										"__presetid" : "rtt.xtra.divs"
 									}
 ,
 									"fileref" : 									{
-										"name" : "seq.xtra.divs",
-										"filename" : "seq.xtra.divs.maxsnap",
+										"name" : "rtt.xtra.divs",
+										"filename" : "rtt.xtra.divs.maxsnap",
 										"filepath" : "~/Documents/Max 8/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "924190e1a1331d353911a4ad4c49a4bf"
+										"snapshotfileid" : "9110318ec57aab4fbf9299f29738416e"
 									}
 
 								}
@@ -243,7 +231,7 @@
 
 					}
 ,
-					"text" : "rnbo~ seq.xtra.divs",
+					"text" : "rnbo~ rtt.xtra.divs",
 					"varname" : "rnbo~"
 				}
 
@@ -263,7 +251,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 33.0, 231.0, 105.0, 23.0 ],
+					"patching_rect" : [ 15.0, 218.0, 105.0, 23.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -276,8 +264,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 33.0, 65.0, 402.0, 47.0 ],
-					"text" : "all of the objects in seq where made with RNBO. with RNBO, you build a patch that works just like your external will, then export the patch to the external target from within the RNBO patch"
+					"patching_rect" : [ 15.0, 52.0, 402.0, 47.0 ],
+					"text" : "All of the objects in RTT where made with RNBO. \nWith RNBO, you build a patch that works just like your external will, then export the patch to the external target from within the RNBO."
 				}
 
 			}
@@ -289,7 +277,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.0, 36.0, 255.0, 28.0 ],
+					"patching_rect" : [ 81.0, 23.0, 255.0, 28.0 ],
 					"text" : "making externals with RNBO"
 				}
 
@@ -303,8 +291,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 33.0, 13.0, 66.0, 50.0 ],
-					"text" : "seq"
+					"patching_rect" : [ 15.0, 0.0, 66.0, 50.0 ],
+					"text" : "rtt"
 				}
 
 			}
@@ -317,7 +305,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 277.0, 140.0, 150.0, 22.0 ]
+					"patching_rect" : [ 259.0, 127.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -330,7 +318,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 59.0, 184.0, 290.0, 30.0 ],
+					"patching_rect" : [ 41.0, 171.0, 290.0, 30.0 ],
 					"pic" : "left-pointing-arrow.svg"
 				}
 
@@ -338,16 +326,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"order" : 1,
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"order" : 0,
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -375,28 +354,28 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.divs~.mxo",
+				"name" : "rtt.divs~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "seq.misc.philipmeyer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
-				"patcherrelativepath" : "../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.xtra.divs.maxsnap",
+				"name" : "rtt.xtra.divs.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq.xtra.divs.rnbopat",
+				"name" : "rtt.xtra.divs.rnbopat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/extras",
 				"patcherrelativepath" : ".",
 				"type" : "RBOP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "seq.misc.philipmeyer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/_archive",
+				"patcherrelativepath" : "../misc/_archive",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],

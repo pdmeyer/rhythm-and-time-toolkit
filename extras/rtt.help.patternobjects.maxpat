@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 957.0, 699.0 ],
+						"rect" : [ 0.0, 26.0, 957.0, 699.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -563,7 +563,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 957.0, 699.0 ],
+						"rect" : [ 34.0, 113.0, 957.0, 699.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -681,8 +681,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 118.5, 34.0, 230.0, 35.0 ],
-									"text" : "Pattern Objects"
+									"patching_rect" : [ 84.0, 34.0, 230.0, 35.0 ],
+									"text" : "pattern objects"
 								}
 
 							}
@@ -1418,7 +1418,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.0, 19.0, 93.0, 50.0 ],
+									"patching_rect" : [ 25.0, 19.0, 57.0, 50.0 ],
 									"text" : "rtt"
 								}
 
@@ -2550,7 +2550,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 306.5, 298.0, 50.0 ],
+									"patching_rect" : [ 240.0, 306.5, 301.0, 50.0 ],
 									"text" : "trigger determines how the object decides when to evaluate the step (and, if the step is activated, generate a trigger from the second outlet). "
 								}
 
@@ -2593,7 +2593,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 145.5, 306.0, 78.0 ],
+									"patching_rect" : [ 240.0, 145.5, 308.0, 78.0 ],
 									"text" : "counter tells the object whether to expect an indexed signal (like a stepped counter) or a normalized signal (like a phasor ramp) to its first inlet\n\nthis signal tells the object which step it's currently on"
 								}
 

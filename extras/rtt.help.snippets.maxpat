@@ -2717,7 +2717,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 16.666665434837341, 52.0, 793.0, 87.0 ],
-					"text" : "Use these snippets to speed up your patching when using rtt objects. \n\nThe snippets include a rttt object, plus UI or helper patches that are commonly used with the object. UI elements have scripting names, so you can just drop an [autopattr] in your patch for quick and easy presets using the pattr system\n\nYou can find these snippets at any time by going to this patch, or by clicking the paper clip icon in the left toobar of any Max patching window"
+					"text" : "Use these snippets to speed up your patching when using rtt objects. \n\nThe snippets include a rtt object, plus UI or helper patches that are commonly used with the object. UI elements have scripting names, so you can just drop an [autopattr] in your patch for quick and easy presets using the pattr system\n\nYou can find these snippets at any time by going to this patch, or by clicking the paper clip icon in the left toobar of any Max patching window"
 				}
 
 			}
@@ -4503,6 +4503,10 @@
 					"parameter_range" : [ 0.0, 256.0 ],
 					"parameter_shortname" : "live.numbox"
 				}
+,
+				"obj-97::obj-41" : 				{
+					"parameter_longname" : "live.text[9]"
+				}
 
 			}
 ,
@@ -4590,6 +4594,13 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "rtt.misc.philipmeyer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "rtt.notes~.mxo",
 				"type" : "iLaX"
 			}
@@ -4663,10 +4674,6 @@
 				"patcherrelativepath" : "../misc/_archive",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "seq.snap~.mxo",
-				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0

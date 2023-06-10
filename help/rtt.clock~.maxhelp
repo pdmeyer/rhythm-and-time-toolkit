@@ -1172,7 +1172,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 185.0, 152.5, 20.0, 20.0 ],
+									"patching_rect" : [ 152.0, 152.5, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "2",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -1188,8 +1188,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 49.0, 150.0, 134.0, 25.0 ],
-									"text" : "start the transport"
+									"patching_rect" : [ 49.0, 150.0, 113.0, 25.0 ],
+									"text" : "start the clock"
 								}
 
 							}

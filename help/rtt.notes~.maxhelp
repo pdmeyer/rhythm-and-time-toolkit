@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 100.0, 626.0, 534.0 ],
+		"rect" : [ 100.0, 100.0, 746.0, 743.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 626.0, 508.0 ],
+						"rect" : [ 0.0, 26.0, 746.0, 717.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -337,7 +337,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 587.0, 50.0 ],
-									"text" : "seq.notes~ is designed to be used with seq.scala to play melodies in any scale. Use seq.scala.parser to convert a scala file into the scale list used by seq.scala~ and mtof~. The second outlet of seq.scala.parser provides the message needed to set the scale length in seq.notes"
+									"text" : "seq.notes~ is designed to be used with seq.scala~ to play melodies in any scale. Use seq.scala.parser to convert a scala file into the scale list used by seq.scala~ and mtof~. The second outlet of seq.scala.parser provides the message needed to set the scale length in seq.notes"
 								}
 
 							}
@@ -636,7 +636,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 626.0, 508.0 ],
+						"rect" : [ 0.0, 26.0, 746.0, 717.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -666,6 +666,66 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-1",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 413.0, 173.599853515625, 308.0, 36.0 ],
+									"text" : "Or, use the rtt.notes and rtt.scala modules together as shown:"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"args" : [ "notes-help" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-5",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "rtt.scala.maxpat",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "signal", "signal", "signal", "" ],
+									"patching_rect" : [ 413.0, 338.0, 143.0, 78.0 ],
+									"varname" : "notes-help[1]",
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"args" : [ "notes-help" ],
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-3",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "rtt.notes.maxpat",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "signal", "" ],
+									"patching_rect" : [ 413.0, 217.0, 294.0, 105.0 ],
+									"varname" : "notes-help",
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-207",
 									"maxclass" : "newobj",
@@ -977,7 +1037,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 108.0, 203.5, 56.0, 22.0 ],
+									"patching_rect" : [ 49.500000010513304, 210.5, 56.0, 22.0 ],
 									"sig" : 0.0
 								}
 
@@ -989,7 +1049,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 6,
 									"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 22.0, 179.0, 71.5, 22.0 ],
+									"patching_rect" : [ 22.0, 173.599853515625, 71.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1076,6 +1136,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-46", 0 ],
 									"source" : [ "obj-44", 0 ]
 								}
@@ -1091,9 +1158,25 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"order" : 2,
+									"source" : [ "obj-46", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-51", 0 ],
 									"order" : 0,
 									"source" : [ "obj-46", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"midpoints" : [ 546.5, 426.0, 715.5, 426.0, 715.5, 206.5, 422.5, 206.5 ],
+									"source" : [ "obj-5", 3 ]
 								}
 
 							}
@@ -1130,7 +1213,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 126.0, 626.0, 508.0 ],
+						"rect" : [ 0.0, 26.0, 746.0, 717.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1494,7 +1577,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 430.0, 150.0, 145.0, 49.0 ],
-									"restore" : [ 12.0 ],
+									"restore" : [ 1.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1640,7 +1723,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 626.0, 508.0 ],
+						"rect" : [ 0.0, 26.0, 746.0, 717.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -1673,7 +1756,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 291.0, 206.0, 50.0, 22.0 ],
+					"patching_rect" : [ 266.0, 206.0, 50.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1704,7 +1787,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 626.0, 508.0 ],
+						"rect" : [ 100.0, 126.0, 746.0, 717.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1735,11 +1818,39 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-28",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 391.600000000000023, 378.0, 125.0, 36.0 ],
+									"presentation_linecount" : 2,
+									"text" : "sequence mapped to MIDI notes"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-27",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 429.0, 277.0, 175.0, 21.0 ],
+									"text" : "number of octaves to use"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-24",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 22.0, 453.0, 47.0, 22.0 ],
+									"patching_rect" : [ 53.600000000000001, 459.0, 47.0, 22.0 ],
 									"text" : "midiout"
 								}
 
@@ -1751,7 +1862,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 22.0, 427.0, 82.0, 22.0 ],
+									"patching_rect" : [ 53.600000000000001, 433.0, 82.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1768,7 +1879,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 107.5, 388.0, 249.0, 22.0 ],
+									"patching_rect" : [ 139.099999999999994, 385.0, 249.0, 22.0 ],
 									"text" : "37. 38. 38. 36. 35. 36. 38. 38."
 								}
 
@@ -1786,7 +1897,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 551.0, 176.5, 20.0, 20.0 ],
+									"patching_rect" : [ 582.600000000000023, 180.5, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "3",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -1806,7 +1917,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 350.5, 136.5, 20.0, 20.0 ],
+									"patching_rect" : [ 382.100000000000023, 140.5, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "2",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -1822,7 +1933,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 248.5, 134.0, 108.0, 25.0 ],
+									"patching_rect" : [ 280.100000000000023, 138.0, 108.0, 25.0 ],
 									"text" : "turn on audio"
 								}
 
@@ -1834,7 +1945,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 219.0, 130.0, 32.0, 32.0 ],
+									"patching_rect" : [ 250.600000000000023, 134.0, 32.0, 32.0 ],
 									"prototypename" : "helpfile"
 								}
 
@@ -1875,7 +1986,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "list", "", "", "" ],
-									"patching_rect" : [ 215.0, 222.0, 243.0, 20.0 ],
+									"patching_rect" : [ 246.600000000000023, 226.0, 243.0, 20.0 ],
 									"rows" : 1,
 									"selmode" : 0,
 									"vscroll" : 0
@@ -1953,8 +2064,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 434.0, 305.0, 82.0, 36.0 ],
-									"text" : "offset the range"
+									"patching_rect" : [ 429.0, 307.0, 149.0, 36.0 ],
+									"text" : "MIDI note associated with sequence value 0."
 								}
 
 							}
@@ -1966,8 +2077,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 429.0, 259.0, 101.0, 21.0 ],
-									"text" : "set the range"
+									"patching_rect" : [ 429.0, 253.0, 175.0, 21.0 ],
+									"text" : "number of notes in the scale"
 								}
 
 							}
@@ -1982,7 +2093,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 35.0, 388.0, 56.0, 22.0 ],
+									"patching_rect" : [ 66.599999999999994, 394.0, 56.0, 22.0 ],
 									"sig" : 0.0
 								}
 
@@ -2029,7 +2140,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 215.0, 172.5, 243.0, 48.0 ],
+									"patching_rect" : [ 246.600000000000023, 176.5, 243.0, 48.0 ],
 									"setminmax" : [ 0.0, 1.0 ],
 									"size" : 8
 								}
@@ -2043,7 +2154,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 22.0, 350.0, 212.0, 22.0 ],
+									"patching_rect" : [ 53.600000000000001, 346.0, 212.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -2063,7 +2174,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 460.0, 176.5, 111.0, 40.0 ],
+									"patching_rect" : [ 491.600000000000023, 180.5, 111.0, 40.0 ],
 									"text" : "draw some values (0 - 1)"
 								}
 
@@ -2081,7 +2192,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 360.0, 175.0, 20.0, 20.0 ],
+									"patching_rect" : [ 391.600000000000023, 179.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -2097,7 +2208,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 256.0, 172.5, 108.0, 25.0 ],
+									"patching_rect" : [ 287.600000000000023, 176.5, 108.0, 25.0 ],
 									"text" : "turn on audio"
 								}
 
@@ -2115,7 +2226,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 6.0, 8.0, 548.0, 104.0 ]
+									"patching_rect" : [ 6.0, 8.0, 548.0, 122.0 ]
 								}
 
 							}
@@ -2134,7 +2245,7 @@
 							}
 , 							{
 								"box" : 								{
-									"attr" : "octave",
+									"attr" : "octaves",
 									"id" : "obj-18",
 									"maxclass" : "attrui",
 									"numinlets" : 1,
@@ -2147,7 +2258,7 @@
 							}
 , 							{
 								"box" : 								{
-									"attr" : "octaverange",
+									"attr" : "basenote",
 									"id" : "obj-19",
 									"maxclass" : "attrui",
 									"numinlets" : 1,
@@ -2165,7 +2276,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 215.0, 198.0, 107.0, 22.0 ],
+									"patching_rect" : [ 246.600000000000023, 202.0, 107.0, 22.0 ],
 									"text" : "mc.list~ @chans 8"
 								}
 
@@ -2179,7 +2290,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 107.5, 427.0, 150.0, 22.0 ]
+									"patching_rect" : [ 139.099999999999994, 433.0, 150.0, 22.0 ]
 								}
 
 							}
@@ -2282,15 +2393,13 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
-									"order" : 1,
-									"source" : [ "obj-46", 0 ]
+									"source" : [ "obj-46", 1 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-51", 0 ],
-									"order" : 0,
 									"source" : [ "obj-46", 0 ]
 								}
 
@@ -2321,6 +2430,20 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-2::obj-3::obj-18::obj-14" : [ "live.numbox[35]", "live.numbox[19]", 0 ],
+			"obj-2::obj-3::obj-18::obj-2" : [ "live.button[32]", "live.button", 0 ],
+			"obj-2::obj-3::obj-18::obj-38::obj-16" : [ "live.numbox[7]", "live.numbox[19]", 0 ],
+			"obj-2::obj-3::obj-18::obj-38::obj-20" : [ "live.numbox[6]", "live.numbox[19]", 0 ],
+			"obj-2::obj-3::obj-18::obj-38::obj-22" : [ "live.numbox[32]", "live.numbox[19]", 0 ],
+			"obj-2::obj-3::obj-18::obj-38::obj-5" : [ "live.text[8]", "live.text[56]", 0 ],
+			"obj-2::obj-3::obj-18::obj-9" : [ "live.text[14]", "live.text", 0 ],
+			"obj-2::obj-3::obj-2::obj-25" : [ "live.button[31]", "live.button", 0 ],
+			"obj-2::obj-5::obj-6::obj-10" : [ "live.text[39]", "live.text[14]", 0 ],
+			"obj-2::obj-5::obj-6::obj-15" : [ "live.numbox[102]", "live.numbox[3]", 0 ],
+			"obj-2::obj-5::obj-6::obj-2" : [ "live.button[29]", "live.button", 0 ],
+			"obj-2::obj-5::obj-6::obj-25" : [ "live.numbox[101]", "live.numbox", 0 ],
+			"obj-2::obj-5::obj-6::obj-27" : [ "live.numbox[100]", "live.numbox[3]", 0 ],
+			"obj-2::obj-5::obj-93::obj-25" : [ "live.button[4]", "live.button", 0 ],
 			"obj-6::obj-1::obj-18::obj-14" : [ "live.numbox[37]", "live.numbox[19]", 0 ],
 			"obj-6::obj-1::obj-18::obj-2" : [ "live.button[15]", "live.button", 0 ],
 			"obj-6::obj-1::obj-18::obj-38::obj-16" : [ "live.numbox[34]", "live.numbox[19]", 0 ],
@@ -2347,8 +2470,24 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-2::obj-3::obj-18::obj-38::obj-16" : 				{
+					"parameter_longname" : "live.numbox[7]"
+				}
+,
+				"obj-2::obj-3::obj-18::obj-38::obj-20" : 				{
+					"parameter_longname" : "live.numbox[6]"
+				}
+,
+				"obj-2::obj-5::obj-93::obj-25" : 				{
+					"parameter_longname" : "live.button[4]"
+				}
+,
 				"obj-6::obj-1::obj-18::obj-14" : 				{
 					"parameter_longname" : "live.numbox[37]"
+				}
+,
+				"obj-6::obj-1::obj-18::obj-2" : 				{
+					"parameter_longname" : "live.button[15]"
 				}
 ,
 				"obj-6::obj-1::obj-18::obj-38::obj-16" : 				{
@@ -2363,8 +2502,16 @@
 					"parameter_longname" : "live.numbox[36]"
 				}
 ,
+				"obj-6::obj-1::obj-18::obj-38::obj-5" : 				{
+					"parameter_longname" : "live.text[17]"
+				}
+,
 				"obj-6::obj-1::obj-18::obj-9" : 				{
 					"parameter_longname" : "live.text[20]"
+				}
+,
+				"obj-6::obj-1::obj-2::obj-25" : 				{
+					"parameter_longname" : "live.button[1]"
 				}
 ,
 				"obj-6::obj-3::obj-18::obj-14" : 				{
@@ -2496,7 +2643,28 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "rtt.scala.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/scala",
+				"patcherrelativepath" : "../patchers/modules/scala",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rtt.scala.model.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/scala",
+				"patcherrelativepath" : "../patchers/modules/scala",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "rtt.scala.parser.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/scala",
+				"patcherrelativepath" : "../patchers/modules/scala",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rtt.scala.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/scala",
 				"patcherrelativepath" : "../patchers/modules/scala",
 				"type" : "JSON",

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1011.0, 696.0 ],
+		"rect" : [ 38.0, 99.0, 1011.0, 696.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1011.0, 670.0 ],
+						"rect" : [ 38.0, 125.0, 1011.0, 670.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1366,7 +1366,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 113.0, 1011.0, 670.0 ],
+						"rect" : [ 0.0, 26.0, 1011.0, 670.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1408,10 +1408,10 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 594.666660070419312, 530.282608695652243, 204.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 580, 87, 949, 304 ],
+										"client_rect" : [ 809, 112, 1355, 911 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 583, 69, 1034, 197 ]
+										"storage_rect" : [ 583, 87, 1081, 651 ]
 									}
 ,
 									"text" : "pattrstorage module-help @greedy 1",
@@ -2527,10 +2527,10 @@
 									}
 ,
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 580, 87, 949, 304 ],
+										"client_rect" : [ 809, 112, 1355, 911 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 583, 69, 1034, 197 ]
+										"storage_rect" : [ 583, 87, 1081, 651 ]
 									}
 ,
 									"text" : "pattrstorage seq.help.modules @savemode 2 @greedy 1",
@@ -3246,6 +3246,7 @@
 			"obj-1::obj-28::obj-6::obj-30" : [ "live.text[11]", "live.text", 0 ],
 			"obj-1::obj-28::obj-6::obj-34::obj-10" : [ "live.numbox[91]", "live.numbox", 0 ],
 			"obj-1::obj-28::obj-6::obj-34::obj-11" : [ "live.menu[1]", "live.menu", 0 ],
+			"obj-1::obj-28::obj-6::obj-34::obj-12" : [ "live.text[56]", "live.text[2]", 0 ],
 			"obj-1::obj-28::obj-6::obj-34::obj-14" : [ "live.numbox[93]", "live.numbox", 0 ],
 			"obj-1::obj-28::obj-6::obj-34::obj-18" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-1::obj-28::obj-6::obj-34::obj-29" : [ "live.text[10]", "live.text", 0 ],
@@ -3403,9 +3404,10 @@
 			"obj-48::obj-2::obj-6::obj-9" : [ "live.text[16]", "live.text[2]", 0 ],
 			"obj-48::obj-2::obj-93::obj-25" : [ "live.button[55]", "live.button", 0 ],
 			"obj-48::obj-3::obj-6::obj-2" : [ "live.button[10]", "live.button", 0 ],
-			"obj-48::obj-3::obj-6::obj-30" : [ "live.text[2]", "live.text", 0 ],
+			"obj-48::obj-3::obj-6::obj-30" : [ "live.text[58]", "live.text", 0 ],
 			"obj-48::obj-3::obj-6::obj-34::obj-10" : [ "live.numbox[8]", "live.numbox", 0 ],
 			"obj-48::obj-3::obj-6::obj-34::obj-11" : [ "live.menu[2]", "live.menu", 0 ],
+			"obj-48::obj-3::obj-6::obj-34::obj-12" : [ "live.text[57]", "live.text[2]", 0 ],
 			"obj-48::obj-3::obj-6::obj-34::obj-14" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"obj-48::obj-3::obj-6::obj-34::obj-18" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"obj-48::obj-3::obj-6::obj-34::obj-29" : [ "live.text[1]", "live.text", 0 ],
@@ -3711,6 +3713,10 @@
 ,
 				"obj-1::obj-28::obj-6::obj-34::obj-11" : 				{
 					"parameter_longname" : "live.menu[1]"
+				}
+,
+				"obj-1::obj-28::obj-6::obj-34::obj-12" : 				{
+					"parameter_longname" : "live.text[56]"
 				}
 ,
 				"obj-1::obj-28::obj-6::obj-34::obj-14" : 				{
@@ -4268,6 +4274,14 @@
 ,
 				"obj-48::obj-2::obj-93::obj-25" : 				{
 					"parameter_longname" : "live.button[55]"
+				}
+,
+				"obj-48::obj-3::obj-6::obj-30" : 				{
+					"parameter_longname" : "live.text[58]"
+				}
+,
+				"obj-48::obj-3::obj-6::obj-34::obj-12" : 				{
+					"parameter_longname" : "live.text[57]"
 				}
 
 			}

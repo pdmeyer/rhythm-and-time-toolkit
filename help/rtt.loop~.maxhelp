@@ -273,8 +273,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 474.0, 36.0 ],
-									"text" : "the regionstart and regionlength parameters can be used to offset and constrain the phasor's range",
-									"textcolor" : [ 0.502, 0.502, 0.502, 1.0 ]
+									"text" : "The regionstart and regionlength parameters can be used to offset and constrain the range of 4th outlet's ramp",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
@@ -731,7 +731,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 493.0, 36.0 ],
 									"text" : "The abstraction rtt.loop (no tilde) contains the rtt.loop~ object, a UI and pattr support.",
-									"textcolor" : [ 0.502, 0.502, 0.502, 1.0 ]
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
@@ -886,7 +886,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 630.0, 493.0 ],
+						"rect" : [ 100.0, 126.0, 630.0, 493.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1323,7 +1323,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 513.0, 21.0 ],
 									"text" : "The drunk2 direction lets you tune the counting using probabilities.",
-									"textcolor" : [ 0.502, 0.502, 0.502, 1.0 ]
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
@@ -1516,6 +1516,18 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-15",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 250.5, 209.099853999999993, 150.0, 47.0 ],
+									"text" : "syncupdate syncs the phase of the output and input ramps"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"activebgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 0.0 ],
 									"activelinecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"id" : "obj-10",
@@ -1556,18 +1568,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-9",
-									"maxclass" : "newobj",
-									"numinlets" : 4,
-									"numoutlets" : 2,
-									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 304.0, 297.0, 155.0, 22.0 ],
-									"text" : "stash~ @interp 1 @mode 2"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-23",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -1588,34 +1588,6 @@
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 20.0, 377.599853515625, 203.0, 19.0 ],
 									"range" : [ -0.1, 1.1 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
-									"id" : "obj-16",
-									"maxclass" : "live.scope~",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 304.0, 326.599853515625, 203.0, 83.0 ],
-									"range" : [ -0.1, 1.1 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-14",
-									"maxclass" : "multislider",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 304.0, 165.599853515625, 194.0, 90.0 ],
-									"setminmax" : [ 0.0, 1.0 ],
-									"size" : 10,
-									"slidercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ]
 								}
 
 							}
@@ -1691,8 +1663,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 474.0, 36.0 ],
-									"text" : "rtt.loop~'s 4th outlet produces a phasor~ whose length is adjusted according to the steps and subdivision attributes, similar to Max's rate~ object.",
-									"textcolor" : [ 0.502, 0.502, 0.502, 1.0 ]
+									"text" : "rtt.loop~'s 4th outlet produces a ramp whose length is adjusted according to the steps and subdivision attributes, similar to Max's rate~ object.",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
@@ -1715,6 +1687,7 @@
 , 							{
 								"box" : 								{
 									"attr" : "subdiv",
+									"displaymode" : 1,
 									"id" : "obj-1",
 									"maxclass" : "attrui",
 									"numinlets" : 1,
@@ -1728,6 +1701,7 @@
 , 							{
 								"box" : 								{
 									"attr" : "steps",
+									"displaymode" : 1,
 									"id" : "obj-6",
 									"maxclass" : "attrui",
 									"numinlets" : 1,
@@ -1740,28 +1714,28 @@
 							}
 , 							{
 								"box" : 								{
-									"hidden" : 1,
-									"id" : "obj-19",
-									"linecount" : 4,
-									"maxclass" : "message",
-									"numinlets" : 2,
+									"attr" : "direction",
+									"id" : "obj-11",
+									"maxclass" : "attrui",
+									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 304.0, 187.599853515625, 179.0, 62.0 ],
-									"text" : "0.211111 0.388889 0.566667 0.688889 0.866667 0.888889 0.666667 0.522222 0.355556 0.166667"
+									"parameter_enable" : 0,
+									"patching_rect" : [ 74.5, 174.599853515625, 174.0, 22.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"hidden" : 1,
-									"id" : "obj-20",
-									"maxclass" : "newobj",
+									"attr" : "syncupdate",
+									"displaymode" : 8,
+									"id" : "obj-12",
+									"maxclass" : "attrui",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 304.0, 163.599853515625, 58.0, 22.0 ],
-									"text" : "loadbang"
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 121.5, 221.599853999999993, 127.0, 22.0 ]
 								}
 
 							}
@@ -1775,6 +1749,20 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-22", 0 ],
 									"source" : [ "obj-13", 4 ]
 								}
@@ -1783,39 +1771,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
-									"order" : 1,
 									"source" : [ "obj-13", 3 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-9", 2 ],
-									"order" : 0,
-									"source" : [ "obj-13", 3 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-9", 0 ],
-									"source" : [ "obj-14", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-14", 0 ],
-									"hidden" : 1,
-									"source" : [ "obj-19", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-19", 0 ],
-									"hidden" : 1,
-									"source" : [ "obj-20", 0 ]
 								}
 
 							}
@@ -1846,13 +1802,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
 									"source" : [ "obj-6", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-16", 0 ],
-									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -1904,7 +1853,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 126.0, 630.0, 493.0 ],
+						"rect" : [ 0.0, 26.0, 630.0, 493.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2121,7 +2070,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 281.0, 225.0, 29.5, 22.0 ],
+									"patching_rect" : [ 344.0, 168.0, 29.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -2272,7 +2221,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 234.0, 228.0, 34.0, 22.0 ],
+									"patching_rect" : [ 421.0, 144.0, 34.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -2292,21 +2241,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 76.5, 402.0, 184.0, 68.0 ],
+									"patching_rect" : [ 181.166666666666657, 402.0, 184.0, 68.0 ],
 									"range" : [ -0.1, 1.1 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"hidden" : 1,
-									"id" : "obj-49",
-									"maxclass" : "button",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 358.0, 198.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -2317,7 +2253,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 234.0, 328.0, 55.0, 22.0 ],
+									"patching_rect" : [ 240.0, 333.0, 55.0, 22.0 ],
 									"text" : "getrow 0"
 								}
 
@@ -2332,7 +2268,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "list", "list" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 234.0, 262.0, 272.0, 61.0 ],
+									"patching_rect" : [ 240.0, 267.0, 272.0, 61.0 ],
 									"rows" : 1
 								}
 
@@ -2344,7 +2280,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 25.5, 374.0, 172.0, 22.0 ],
+									"patching_rect" : [ 25.5, 374.0, 486.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -2377,7 +2313,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 281.0, 198.0, 75.0, 22.0 ],
+									"patching_rect" : [ 344.0, 144.0, 75.0, 22.0 ],
 									"text" : "getattr steps"
 								}
 
@@ -2466,7 +2402,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 107.0, 202.0, 182.0, 22.0 ]
+									"patching_rect" : [ 100.0, 236.0, 123.0, 22.0 ],
+									"text_width" : 52.0
 								}
 
 							}
@@ -2481,7 +2418,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 513.0, 36.0 ],
 									"text" : "Use the direction attribute to get the step counter to count upward, downward, or unpredictably",
-									"textcolor" : [ 0.502, 0.502, 0.502, 1.0 ]
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
@@ -2601,16 +2538,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-42", 0 ],
-									"midpoints" : [ 243.5, 356.0, 227.5, 356.0, 227.5, 252.0, 243.5, 252.0 ],
+									"midpoints" : [ 249.5, 361.0, 233.5, 361.0, 233.5, 257.0, 249.5, 257.0 ],
 									"source" : [ "obj-47", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-24", 0 ],
-									"hidden" : 1,
-									"source" : [ "obj-49", 0 ]
 								}
 
 							}
@@ -3337,6 +3266,7 @@
 			"obj-2::obj-1::obj-6::obj-30" : [ "live.text[2]", "live.text", 0 ],
 			"obj-2::obj-1::obj-6::obj-34::obj-10" : [ "live.numbox[8]", "live.numbox", 0 ],
 			"obj-2::obj-1::obj-6::obj-34::obj-11" : [ "live.menu[2]", "live.menu", 0 ],
+			"obj-2::obj-1::obj-6::obj-34::obj-12" : [ "live.text[7]", "live.text[2]", 0 ],
 			"obj-2::obj-1::obj-6::obj-34::obj-14" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"obj-2::obj-1::obj-6::obj-34::obj-18" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"obj-2::obj-1::obj-6::obj-34::obj-29" : [ "live.text[1]", "live.text", 0 ],
@@ -3346,9 +3276,10 @@
 			"obj-2::obj-3::obj-6::obj-30" : [ "live.text[4]", "live.text", 0 ],
 			"obj-2::obj-3::obj-6::obj-34::obj-10" : [ "live.numbox[11]", "live.numbox", 0 ],
 			"obj-2::obj-3::obj-6::obj-34::obj-11" : [ "live.menu[3]", "live.menu", 0 ],
+			"obj-2::obj-3::obj-6::obj-34::obj-12" : [ "live.text[3]", "live.text[2]", 0 ],
 			"obj-2::obj-3::obj-6::obj-34::obj-14" : [ "live.numbox[9]", "live.numbox", 0 ],
 			"obj-2::obj-3::obj-6::obj-34::obj-18" : [ "live.numbox[10]", "live.numbox", 0 ],
-			"obj-2::obj-3::obj-6::obj-34::obj-29" : [ "live.text[3]", "live.text", 0 ],
+			"obj-2::obj-3::obj-6::obj-34::obj-29" : [ "live.text[8]", "live.text", 0 ],
 			"obj-2::obj-3::obj-6::obj-34::obj-8" : [ "live.numbox[12]", "live.numbox", 0 ],
 			"obj-2::obj-3::obj-93::obj-25" : [ "live.button[11]", "live.button", 0 ],
 			"parameterbanks" : 			{
@@ -3361,6 +3292,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-2::obj-1::obj-6::obj-30" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
 				"obj-2::obj-3::obj-6::obj-2" : 				{
 					"parameter_longname" : "live.button[2]"
 				}
@@ -3377,6 +3312,10 @@
 					"parameter_longname" : "live.menu[3]"
 				}
 ,
+				"obj-2::obj-3::obj-6::obj-34::obj-12" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
 				"obj-2::obj-3::obj-6::obj-34::obj-14" : 				{
 					"parameter_longname" : "live.numbox[9]"
 				}
@@ -3386,7 +3325,7 @@
 				}
 ,
 				"obj-2::obj-3::obj-6::obj-34::obj-29" : 				{
-					"parameter_longname" : "live.text[3]"
+					"parameter_longname" : "live.text[8]"
 				}
 ,
 				"obj-2::obj-3::obj-6::obj-34::obj-8" : 				{

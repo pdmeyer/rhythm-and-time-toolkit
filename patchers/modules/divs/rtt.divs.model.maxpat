@@ -39,7 +39,7 @@
 		"subpatcher_template" : "dark-bg",
 		"showontab" : 0,
 		"assistshowspatchername" : 0,
-		"globalpatchername" : "phas[1][1][2][1][1][2][1][1][1][1][1][1][1][1][3]",
+		"globalpatchername" : "phas[1][1][2][1][1][2][1][1][1][1][1][1][1][1][3][1][2]",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-8",
@@ -118,7 +118,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "phasor",
+					"comment" : "counter",
 					"id" : "obj-1",
 					"index" : 2,
 					"maxclass" : "outlet",
@@ -181,14 +181,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 108.0, 154.5, 96.0, 22.0 ],
+					"patching_rect" : [ 108.0, 128.5, 96.0, 22.0 ],
 					"text" : "getattr @listen 0"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "counter ",
+					"comment" : "phasor",
 					"id" : "obj-6",
 					"index" : 1,
 					"maxclass" : "outlet",
@@ -262,6 +262,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-20", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 2 ],
+					"source" : [ "obj-20", 2 ]
 				}
 
 			}

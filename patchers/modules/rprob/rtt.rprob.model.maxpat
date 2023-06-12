@@ -39,7 +39,7 @@
 		"subpatcher_template" : "dark-bg",
 		"showontab" : 0,
 		"assistshowspatchername" : 0,
-		"globalpatchername" : "phas[1][1][2][1][1][1][1][1][1]",
+		"globalpatchername" : "phas[1][1][2][1][1][1][1][1][1][3]",
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "",
@@ -343,6 +343,13 @@
 					"destination" : [ "obj-4", 0 ],
 					"midpoints" : [ 215.294117647058783, 257.5, 31.5, 257.5 ],
 					"source" : [ "obj-20", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 2 ],
+					"source" : [ "obj-20", 2 ]
 				}
 
 			}

@@ -39,7 +39,7 @@
 		"subpatcher_template" : "dark-bg",
 		"showontab" : 0,
 		"assistshowspatchername" : 0,
-		"globalpatchername" : "phas[1][1][2][1][1][1][1][1][1][2]",
+		"globalpatchername" : "phas[1][1][2][1][1][1][1][1][1][2][3]",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-8",
@@ -453,6 +453,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-20", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 2 ],
+					"source" : [ "obj-20", 2 ]
 				}
 
 			}

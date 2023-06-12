@@ -39,7 +39,7 @@
 		"subpatcher_template" : "dark-bg",
 		"showontab" : 0,
 		"assistshowspatchername" : 0,
-		"globalpatchername" : "phas[1][1][2][1][1][1][1][2]",
+		"globalpatchername" : "phas[1][1][2][1][1][1][1][2][2]",
 		"boxes" : [ 			{
 				"box" : 				{
 					"color" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
@@ -207,7 +207,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 62.426250000000017, 18.0, 23.999999999999993, 23.999999999999993 ]
 				}
 
@@ -302,7 +302,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 12.0, 18.0, 24.0, 24.0 ]
 				}
 
@@ -378,6 +378,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-20", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 2 ],
+					"source" : [ "obj-20", 2 ]
 				}
 
 			}

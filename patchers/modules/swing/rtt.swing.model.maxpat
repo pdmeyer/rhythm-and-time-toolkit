@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,7 +39,7 @@
 		"subpatcher_template" : "dark-bg",
 		"showontab" : 0,
 		"assistshowspatchername" : 0,
-		"globalpatchername" : "phas[1][1][2][1][1][5][1]",
+		"globalpatchername" : "phas[1][1][2][1][1][5][1][5]",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-1",
@@ -231,6 +231,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-20", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 2 ],
+					"source" : [ "obj-20", 2 ]
 				}
 
 			}

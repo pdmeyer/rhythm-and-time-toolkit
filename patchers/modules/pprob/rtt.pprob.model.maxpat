@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,7 +39,7 @@
 		"subpatcher_template" : "dark-bg",
 		"showontab" : 0,
 		"assistshowspatchername" : 0,
-		"globalpatchername" : "phas[1][1][2][1][1][1][1][1][1][1][1]",
+		"globalpatchername" : "phas[1][1][2][1][1][1][1][1][1][1][1][2]",
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "",
@@ -326,7 +326,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 275.157892787771175, 324.5, 250.0, 22.0 ],
-					"restore" : [ "steps", 8.0 ],
+					"restore" : [ "pattern", 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -510,6 +510,13 @@
 					"destination" : [ "obj-4", 0 ],
 					"midpoints" : [ 91.294117647058783, 169.5, 31.5, 169.5 ],
 					"source" : [ "obj-20", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 2 ],
+					"source" : [ "obj-20", 2 ]
 				}
 
 			}

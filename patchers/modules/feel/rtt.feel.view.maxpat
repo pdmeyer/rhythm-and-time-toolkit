@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -155,7 +155,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 182.000000476837158, 74.0, 36.0, 18.0 ],
+					"patching_rect" : [ 144.000000476837158, 74.0, 36.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -3.400000065565109, 23.5, 34.0, 18.0 ],
 					"text" : "steps",
@@ -226,7 +226,7 @@
 					"patching_rect" : [ 182.000000476837158, 74.0, 36.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 52.599999934434891, 23.5, 34.200000166893005, 18.0 ],
-					"text" : "swing",
+					"text" : "depth",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -423,7 +423,7 @@
 					"patching_rect" : [ 360.666666666666799, 123.5, 42.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 2.0, 74.0, 18.0 ],
-					"text" : "feel-help",
+					"text" : "mhelp.feel",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 

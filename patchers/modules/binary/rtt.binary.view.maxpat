@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -69,7 +69,7 @@
 					"htricolor" : [ 0.929411764705882, 0.929411764705882, 0.352941176470588, 0.0 ],
 					"id" : "obj-39",
 					"maxclass" : "number",
-					"maximum" : 2251799813685248,
+					"maximum" : 256,
 					"minimum" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -391,7 +391,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[7]",
+							"parameter_longname" : "live.text[11]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -485,7 +485,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 8.0,
 					"id" : "obj-3",
-					"items" : [ "sequence", ",", "steps", ",", "countermode", ",", "outputmode", ",", "triggermode", ",", "seed", ",", "rotate" ],
+					"items" : [ "sequence", ",", "steps", ",", "counter", ",", "output", ",", "trigger", ",", "seed", ",", "rotate" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -502,13 +502,14 @@
 				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-5",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 228.166666666666742, 105.25, 36.0, 18.0 ],
+					"patching_rect" : [ 228.166666666666742, 105.25, 36.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.400014460086823, 2.0, 136.0, 18.0 ],
-					"text" : "#1",
+					"text" : "mhelp.binary",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -549,8 +550,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -832,7 +833,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"order" : 0,
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
+					"order" : 1,
 					"source" : [ "obj-15", 0 ]
 				}
 

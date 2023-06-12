@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -134,7 +134,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 38.499999999999972, 46.0, 30.0, 30.0 ]
 				}
 
@@ -171,7 +171,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 189.0, 115.0, 294.0, 93.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 293.333333313465118, 104.99999988079071 ],
+					"presentation_rect" : [ 0.0, 0.0, 292.333333313465118, 90.99999988079071 ],
 					"varname" : "rtt.pprob.view",
 					"viewvisibility" : 1
 				}
@@ -185,7 +185,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 189.0, 46.0, 118.0, 22.0 ],
+					"patching_rect" : [ 189.0, 46.0, 171.0, 22.0 ],
 					"text" : "rtt.module.control #1"
 				}
 
@@ -208,10 +208,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1057, 45, 1440, 407 ],
+						"client_rect" : [ 809, 112, 1355, 911 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 583, 87, 1081, 651 ]
 					}
 ,
 					"text" : "pattrstorage rtt.pprob-presets @savemode 0",

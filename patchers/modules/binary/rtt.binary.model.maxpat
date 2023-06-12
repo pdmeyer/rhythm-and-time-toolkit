@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"comment" : "dumpout",
+					"id" : "obj-16",
+					"index" : 4,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 260.736839181656705, 463.023063056888532, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "newobj",
@@ -490,6 +502,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-45", 2 ],
+					"source" : [ "obj-32", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 2 ],
 					"midpoints" : [ 79.236237704686502, 368.5, 214.986237704686459, 368.5, 214.986237704686459, 300.5, 185.236237704686516, 300.5 ],
 					"source" : [ "obj-32", 0 ]
 				}
@@ -546,7 +565,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"order" : 1,
+					"source" : [ "obj-6", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
+					"order" : 0,
 					"source" : [ "obj-6", 3 ]
 				}
 

@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<!--If you edit this file, please place
+it in a safe place since future exports will overwrite this automatically generated reference
+file.-->
 <c74object name="rtt.resync~">
-<metadatalist>
-<metadata name="author">Philip Meyer</metadata>
-<metadata name="tag">sequencing</metadata>
-<metadata name="tag">timing</metadata>
-</metadatalist>
-<methodlist>
-<method name="message"><digest>message input</digest><description>message input</description></method>
-</methodlist>
-<attributelist>
-<attribute name="defaultphase" get="1" set="1" size="1" type="float64">
-<digest>defaultphase</digest>
-</attribute>
-</attributelist>
-<description>Reset the phase of a ramp signal.</description>
-<digest>Reset the phase of a ramp signal.</digest>
-</c74object>
+    <metadatalist>
+        <metadata name="author">Philip Meyer</metadata>
+        <metadata name="tag">sequencing</metadata>
+        <metadata name="tag">timing</metadata>
+    </metadatalist>
+    <methodlist>
+        <method name="signal">
+            <description>A signal to the first inlet should have a value between 0. and 1. will
+                typically be a ramp. A value between 0. and 1. to the second inlet sets the phase
+                that the output should jump to when an impulse is received at the third inlet. </description>
+        </method>
+    </methodlist>
+    <attributelist>
+        <attribute name="defaultphase" get="1" set="1" size="1" type="float64">
+            <digest>Sets the phase to use if no signal is passed into the second inlet.</digest>
+        </attribute>
+    </attributelist>
+    <misc name="Output">
+        <entry name="signal">
+            <description>
+                The phase-shifted input signal.
+            </description>
+        </entry>
+    </misc>
+    <description><o>rtt.resync~</o> can be used to cause a phasor-based clock signal to “jump” from
+        its current value to another value between 0. and 1. This capability can be used to play
+        back segments of patterns and sequences or to create custom playback directions.</description>
+    <digest>Reset the phase of a ramp signal.</digest>
+</c74object>    

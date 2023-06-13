@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 743.0, 880.0, 1016.0, 557.0 ],
+		"rect" : [ 795.0, 682.0, 854.0, 341.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,7 +39,7 @@
 		"subpatcher_template" : "dark-bg",
 		"showontab" : 0,
 		"assistshowspatchername" : 0,
-		"globalpatchername" : "phas[1][1][2][1][1][1][1][2][2][2]",
+		"globalpatchername" : "phas[1][1][2][1][1][1][1][2][2][2][2]",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-12",
@@ -80,14 +80,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 213.705000000000013, 211.0, 172.0, 22.0 ],
-					"restore" : [ -0.804878056049347, -0.609756112098694, -0.317073166370392, 0.219512194395065, 0.414634138345718, 0.463414639234543, 0.756097555160522, 1.0 ],
+					"patching_rect" : [ 213.705000000000013, 211.0, 268.0, 22.0 ],
 					"saved_object_attributes" : 					{
+						"initial" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr modulation @type float32",
+					"text" : "pattr modulation @type float32 @initial 0. 0. 0. 0.",
 					"varname" : "modulation"
 				}
 

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 536.0, 189.0, 610.0, 497.0 ],
+		"rect" : [ 1033.0, 727.0, 610.0, 497.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -746,7 +746,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 109.5, 151.5, 89.0, 37.0 ],
-									"text" : "start the sequencer"
+									"text" : "start the clock"
 								}
 
 							}
@@ -1069,7 +1069,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 536.0, 215.0, 610.0, 471.0 ],
+						"rect" : [ 1033.0, 753.0, 610.0, 471.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1366,6 +1366,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-2::obj-1::obj-93::obj-25" : 				{
+					"parameter_longname" : "live.button[1]"
+				}
+,
 				"obj-2::obj-3::obj-6::obj-10" : 				{
 					"parameter_longname" : "live.numbox[1]"
 				}

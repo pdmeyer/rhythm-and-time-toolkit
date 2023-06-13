@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 310.0, 146.0, 458.0, 565.0 ],
+		"rect" : [ 1446.0, 599.0, 458.0, 565.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -139,7 +139,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 310.0, 172.0, 458.0, 539.0 ],
+						"rect" : [ 1446.0, 625.0, 458.0, 539.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -375,7 +375,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 256.5, 393.0, 151.0, 50.0 ],
-									"text" : "syncupdate 1 defers bpm changes until the next phasor cycle"
+									"text" : "syncupdate 1 defers parameter changes until the next phasor cycle"
 								}
 
 							}

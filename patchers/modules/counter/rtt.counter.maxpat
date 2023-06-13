@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -59,14 +59,14 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 122.5, 184.0, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "phasor output",
+					"comment" : "trigger when count completes",
 					"id" : "obj-1",
 					"index" : 2,
 					"maxclass" : "outlet",
@@ -96,7 +96,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 58.0, 50.0, 118.0, 22.0 ],
+					"patching_rect" : [ 58.0, 50.0, 181.0, 22.0 ],
 					"text" : "rtt.module.control #1"
 				}
 

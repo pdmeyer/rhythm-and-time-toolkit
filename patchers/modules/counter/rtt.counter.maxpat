@@ -40,7 +40,7 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "counter input",
+					"comment" : "trigger",
 					"id" : "obj-17",
 					"index" : 2,
 					"maxclass" : "inlet",
@@ -53,13 +53,13 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "phasor input",
+					"comment" : "counter",
 					"id" : "obj-7",
 					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 122.5, 184.0, 30.0, 30.0 ]
 				}
 
@@ -79,7 +79,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "counter output",
+					"comment" : "counter",
 					"id" : "obj-2",
 					"index" : 1,
 					"maxclass" : "outlet",
@@ -111,10 +111,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 157.0, 74.0, 236.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 809, 112, 1355, 911 ],
+						"client_rect" : [ 580, 87, 949, 304 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 87, 1081, 651 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage rtt.loop.presets @savemode 0",

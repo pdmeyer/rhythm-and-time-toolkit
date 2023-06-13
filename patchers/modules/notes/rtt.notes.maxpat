@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -42,20 +42,19 @@
 				"box" : 				{
 					"comment" : "scaled sequence",
 					"id" : "obj-8",
-					"ignoreclick" : 1,
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 127.0, 266.0, 30.0, 30.0 ]
+					"patching_rect" : [ 179.0, 266.0, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "stepwise output",
+					"comment" : "MIDI note",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -93,7 +92,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 41.0, 227.5, 105.0, 22.0 ],
+					"patching_rect" : [ 41.0, 227.5, 157.0, 22.0 ],
 					"text" : "rtt.notes.model #1",
 					"varname" : "m"
 				}
@@ -101,9 +100,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "signal counter (for stepwise)",
+					"comment" : "counter",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -121,15 +120,15 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 190.631578557554235, 56.400390625, 243.0, 22.0 ],
 					"priority" : 					{
-						"m::sequence/raw" : 1,
-						"m::seq-length" : -1
+						"m::seq-length" : -1,
+						"m::sequence/raw" : 1
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 809, 112, 1355, 911 ],
+						"client_rect" : [ 580, 87, 949, 304 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 87, 1081, 651 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage rtt.notes.presets @savemode 0",
@@ -144,7 +143,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 91.631578557554221, 23.400390625, 118.0, 22.0 ],
+					"patching_rect" : [ 91.631578557554221, 23.400390625, 170.0, 22.0 ],
 					"text" : "rtt.module.control #1"
 				}
 
@@ -207,101 +206,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-18::obj-14" : [ "live.numbox[37]", "live.numbox[19]", 0 ],
-			"obj-18::obj-2" : [ "live.button[15]", "live.button", 0 ],
-			"obj-18::obj-38::obj-1" : [ "live.numbox[35]", "live.numbox[19]", 0 ],
-			"obj-18::obj-38::obj-16" : [ "live.numbox[34]", "live.numbox[19]", 0 ],
-			"obj-18::obj-38::obj-20" : [ "live.numbox[33]", "live.numbox[19]", 0 ],
-			"obj-18::obj-38::obj-22" : [ "live.numbox[36]", "live.numbox[19]", 0 ],
-			"obj-18::obj-9" : [ "live.text[20]", "live.text", 0 ],
-			"obj-2::obj-25" : [ "live.button[8]", "live.button", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "floor.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "rtt.module.attrchecker.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../../_module-components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rtt.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../../_module-components",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rtt.module.control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../../_module-components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rtt.module.remote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../../_module-components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rtt.module.viewcontrol.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/_module-components",
-				"patcherrelativepath" : "../../_module-components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rtt.notes.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/notes",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rtt.notes.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/notes",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rtt.notes~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "tri-down.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
-				"patcherrelativepath" : "../../../media/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tri-up.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
-				"patcherrelativepath" : "../../../media/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

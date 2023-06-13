@@ -40,7 +40,7 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "phasor",
+					"comment" : "phasor signal",
 					"id" : "obj-5",
 					"index" : 1,
 					"maxclass" : "outlet",
@@ -72,10 +72,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 157.0, 78.0, 233.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 534, 298, 1279, 875 ],
+						"client_rect" : [ 580, 87, 949, 304 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 87, 1081, 651 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage rtt.feel-presets @savemode 0",
@@ -85,13 +85,13 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "phasor",
+					"comment" : "phasor signal",
 					"id" : "obj-45",
 					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 11.5, 17.0, 30.0, 30.0 ]
 				}
 

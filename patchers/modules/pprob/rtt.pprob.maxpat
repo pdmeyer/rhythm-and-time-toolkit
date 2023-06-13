@@ -42,7 +42,6 @@
 				"box" : 				{
 					"comment" : "reset",
 					"id" : "obj-1",
-					"ignoreclick" : 1,
 					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -54,7 +53,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "pattern",
+					"comment" : "dumpout",
 					"id" : "obj-10",
 					"index" : 4,
 					"maxclass" : "outlet",
@@ -115,7 +114,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "phasor",
+					"comment" : "trigger",
 					"id" : "obj-7",
 					"index" : 2,
 					"maxclass" : "inlet",
@@ -134,7 +133,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 38.499999999999972, 46.0, 30.0, 30.0 ]
 				}
 
@@ -208,10 +207,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 809, 112, 1355, 911 ],
+						"client_rect" : [ 580, 87, 949, 304 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 87, 1081, 651 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage rtt.pprob-presets @savemode 0",

@@ -46,20 +46,20 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 118.0, 189.523063056888589, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "gate 2",
+					"comment" : "signal 2",
 					"id" : "obj-10",
 					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 79.5, 189.523063056888589, 30.0, 30.0 ]
 				}
 
@@ -78,13 +78,13 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "gate 1",
+					"comment" : "signal 1",
 					"id" : "obj-12",
 					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 189.523063056888589, 30.0, 30.0 ]
 				}
 
@@ -146,10 +146,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 190.631578557554235, 50.400390625, 243.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 534, 298, 1279, 875 ],
+						"client_rect" : [ 580, 87, 949, 304 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 87, 1081, 651 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage rtt.rlogic-presets @savemode 0",
@@ -164,7 +164,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 91.631578557554221, 23.400390625, 160.0, 22.0 ],
+					"patching_rect" : [ 91.631578557554221, 23.400390625, 169.0, 22.0 ],
 					"text" : "rtt.module.control #1"
 				}
 

@@ -78,8 +78,8 @@
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 41.0, 227.5, 272.157892787771118, 22.0 ],
 					"text" : "rtt.sequence.model #1",
 					"varname" : "m"
@@ -88,13 +88,13 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "signal counter (for stepwise)",
+					"comment" : "counter",
 					"id" : "obj-4",
 					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 15.400390625, 30.0, 30.0 ]
 				}
 
@@ -113,10 +113,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 809, 112, 1355, 911 ],
+						"client_rect" : [ 580, 87, 949, 304 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 87, 1081, 651 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage rtt.sequence.presets @savemode 0",
@@ -131,7 +131,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 91.631578557554221, 23.400390625, 183.0, 22.0 ],
+					"patching_rect" : [ 91.631578557554221, 23.400390625, 193.0, 22.0 ],
 					"text" : "rtt.module.control #1"
 				}
 

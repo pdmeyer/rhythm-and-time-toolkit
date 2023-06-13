@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -65,7 +65,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "trigger",
 					"id" : "obj-5",
 					"index" : 2,
 					"maxclass" : "inlet",
@@ -114,17 +114,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-16",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 34.5, 12.0, 43.0, 20.0 ],
-					"text" : "signal"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -161,7 +150,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "counter ",
 					"id" : "obj-4",
 					"index" : 1,
 					"maxclass" : "inlet",
@@ -188,10 +177,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 809, 87, 1355, 866 ],
+						"client_rect" : [ 580, 87, 949, 304 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 87, 1081, 651 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage rtt.euclidean.presets @savemode 0",
@@ -206,7 +195,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 91.631578557554221, 23.400390625, 118.0, 22.0 ],
+					"patching_rect" : [ 91.631578557554221, 23.400390625, 192.0, 22.0 ],
 					"text" : "rtt.module.control #1"
 				}
 

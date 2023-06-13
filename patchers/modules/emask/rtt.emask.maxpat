@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 98.0, 129.0, 469.0, 612.0 ],
+		"rect" : [ 414.0, 277.0, 1072.0, 862.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "reset",
+					"id" : "obj-10",
+					"index" : 3,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 374.0, 11.400390625, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -56,7 +69,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 95.631578557554221, 85.5, 265.0, 78.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 265.0, 78.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 262.0, 77.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -111,14 +124,14 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "trigger",
 					"id" : "obj-5",
 					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 374.131578557554235, 15.400390625, 30.0, 30.0 ]
+					"patching_rect" : [ 293.131578557554235, 11.400390625, 30.0, 30.0 ]
 				}
 
 			}
@@ -126,7 +139,7 @@
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "signal", "" ],
 					"patching_rect" : [ 41.0, 191.5, 352.0, 22.0 ],
@@ -137,7 +150,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "counter",
 					"id" : "obj-4",
 					"index" : 1,
 					"maxclass" : "inlet",
@@ -188,6 +201,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 2 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-2", 2 ]

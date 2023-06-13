@@ -1,39 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<!--If you edit this file, please place
+it in a safe place since future exports will overwrite this automatically generated reference
+file.-->
 <c74object name="rtt.retrig~">
-<metadatalist>
-<metadata name="author">Philip Meyer</metadata>
-<metadata name="tag">sequencing</metadata>
-</metadatalist>
-<methodlist>
-<method name="in7">
-    <digest>Interval Modulation List</digest>
-    <description>A list of floating-point numbers, typically between -1 and 1, is the function that will modulate the retrig interval determined by <at>subdiv</at>. The amount of modulation is controlled by <at>moddepth</at></description>
-</method>
-</methodlist>
-<attributelist>
-<attribute name="subdiv" get="1" set="1" size="1" type="float64">
-<digest>When <at>subdivmode</at> is ‘polymetric’, determines the length of a single step as a subdivision of the input phasor. </digest>
-</attribute>
-<attribute name="repeats" get="1" set="1" size="1" type="float64">
-<digest>Number of times the input trigger should occur.</digest>
-</attribute>
-<attribute name="auto" get="1" set="1" size="1" type="float64">
-<digest>When disabled (the default), triggers to the first inlet will be retriggered only when the value at the rightmost inlet is nonzero. When enabled all triggers to the first inlet to be retriggered, regardless of the value at the right inlet. </digest>
-</attribute>
-<attribute name="moddepth" get="1" set="1" size="1" type="float64">
-<digest>Amount that a list of floats passed into the seventh inlet modulates the subdivision interval. </digest>
-</attribute>
-</attributelist>
-<description>Create ratcheting patterns and pulses trains with <o>rtt.retrig~</o> A pulse into the first inlet triggers a repeating sequence of pulses. The pulse interval can be modulated using a list.</description>
-<digest>Trigger pulse trains with pulses</digest>
-<seealsolist>
+    <metadatalist>
+        <metadata name="author">Philip Meyer</metadata>
+        <metadata name="tag">sequencing</metadata>
+    </metadatalist>
+    <methodlist>
+        <method name="in7">
+            <digest>Interval Modulation List</digest>
+            <description>A list of floating-point numbers, typically between -1 and 1, is the
+                function that will modulate the retrig interval determined by <at>subdiv</at>. The
+                amount of modulation is controlled by <at>moddepth</at></description>
+        </method>
+    </methodlist>
+    <attributelist>
+        <attribute name="subdiv" get="1" set="1" size="1" type="float64">
+            <digest>When <at>subdivmode</at> is ‘polymetric’, determines the length of a single step
+                as a subdivision of the input phasor. </digest>
+        </attribute>
+        <attribute name="repeats" get="1" set="1" size="1" type="float64">
+            <digest>Number of times the input trigger should occur.</digest>
+        </attribute>
+        <attribute name="auto" get="1" set="1" size="1" type="float64">
+            <digest>When disabled (the default), triggers to the first inlet will be retriggered
+                only when the value at the rightmost inlet is nonzero. When enabled all triggers to
+                the first inlet to be retriggered, regardless of the value at the right inlet. </digest>
+        </attribute>
+        <attribute name="moddepth" get="1" set="1" size="1" type="float64">
+            <digest>Amount that a list of floats passed into the seventh inlet modulates the
+                subdivision interval. </digest>
+        </attribute>
+        <attribute name="bpm" get="1" set="1" size="1" type="float64">
+            <digest>Tempo in beats per minute</digest>
+        </attribute>
+    </attributelist>
+    <description>Create ratcheting patterns and pulses trains with <o>rtt.retrig~</o> A pulse into
+        the first inlet triggers a repeating sequence of pulses. The pulse interval can be modulated
+        using a list.</description>
+    <digest>Trigger pulse trains with pulses</digest>
     <seealsolist>
-        <seealso name="rtt.onepulse~" />
-        <seealso name="rtt.loop~" />
+        <seealsolist>
+            <seealso name="rtt.onepulse~" />
+            <seealso name="rtt.loop~" />
+        </seealsolist>
     </seealsolist>
-</seealsolist>
-<metadatalist>
-    <metadata name='author'>Philip Meyer</metadata>
-</metadatalist>
+    <metadatalist>
+        <metadata name='author'>Philip Meyer</metadata>
+    </metadatalist>
 </c74object>

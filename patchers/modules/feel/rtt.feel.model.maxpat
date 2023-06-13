@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 91.0, 163.0, 766.0, 348.0 ],
+		"rect" : [ 140.0, 920.0, 766.0, 348.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,8 +39,28 @@
 		"subpatcher_template" : "dark-bg",
 		"showontab" : 0,
 		"assistshowspatchername" : 0,
-		"globalpatchername" : "phas[1][1][2][1][1][5][1][4]",
+		"globalpatchername" : "phas[1][1][2][1][1][5][1][4][1]",
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 0.027450980392157, 0.250980392156863, 0.501960784313725, 1.0 ],
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 42.0, 283.5, 295.0, 22.0 ],
+					"restore" : [ 0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr feellist/adjusted @type atom @default_priority -1",
+					"varname" : "feellist/adjusted"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "newobj",
@@ -210,7 +230,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 92.715686274509835, 154.5, 125.0, 22.0 ],
 					"text" : "rtt.module.attrchecker"
 				}
@@ -249,7 +269,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 12.0, 16.0, 30.0, 30.0 ]
 				}
 
@@ -355,6 +375,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-4", 1 ]
 				}
 
 			}

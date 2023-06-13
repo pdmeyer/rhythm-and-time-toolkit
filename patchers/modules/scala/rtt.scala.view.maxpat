@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 221.0, 336.0, 515.0, 530.0 ],
+		"rect" : [ 1184.0, 595.0, 515.0, 530.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -111,7 +111,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[102]",
+							"parameter_longname" : "live.numbox[103]",
 							"parameter_shortname" : "live.numbox[3]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -163,7 +163,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 264.0, 222.5, 126.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 97.0, 21.5, 46.0, 18.0 ],
+					"presentation_rect" : [ 48.0, 21.5, 46.0, 18.0 ],
 					"text" : "ref. freq",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -179,8 +179,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 263.0, 199.5, 126.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.0, 21.5, 46.0, 18.0 ],
-					"text" : "base key",
+					"presentation_rect" : [ 93.0, 21.5, 51.0, 18.0 ],
+					"text" : "mid. note",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -196,7 +196,7 @@
 					"patching_rect" : [ 264.0, 167.5, 126.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 21.5, 46.0, 18.0 ],
-					"text" : "ref. key",
+					"text" : "ref. note",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -213,7 +213,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 16.984375, 167.5, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 49.0, 36.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 95.0, 36.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"lcdcolor" : 						{
 							"expression" : ""
@@ -273,7 +273,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 16.984375, 208.5, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 97.0, 36.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 48.0, 36.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"lcdcolor" : 						{
 							"expression" : ""
@@ -458,14 +458,13 @@
 				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-5",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 360.666666666666799, 123.5, 41.0, 29.0 ],
+					"patching_rect" : [ 360.666666666666799, 123.5, 41.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 1.0, 76.0, 18.0 ],
-					"text" : "mhelp.scala",
+					"text" : "sc",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 

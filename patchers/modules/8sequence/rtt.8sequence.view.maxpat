@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 800.0, 779.0 ],
+		"rect" : [ 1111.0, 254.0, 800.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,6 @@
 					"embed" : 1,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-4",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -59,8 +58,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -130,7 +129,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 117.483333000000016, 115.254898071289062, 214.0, 22.0 ],
+									"patching_rect" : [ 121.983333000000016, 117.254898071289062, 214.0, 22.0 ],
 									"text" : "rtt.module.remote s/1/length @levels 2"
 								}
 
@@ -143,7 +142,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 118.483333000000016, 89.254898071289062, 44.0, 15.0 ],
+									"patching_rect" : [ 122.983333000000016, 91.254898071289062, 44.0, 15.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 259.900013999999999, 2.0, 29.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
@@ -169,7 +168,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 162.816665999999998, 356.27197265625, 87.0, 22.0 ],
+									"patching_rect" : [ 158.816665999999998, 348.27197265625, 87.0, 22.0 ],
 									"text" : "prepend setlist"
 								}
 
@@ -242,8 +241,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 0,
+											"minor" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -399,8 +398,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 6,
-															"revision" : 0,
+															"minor" : 5,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -724,8 +723,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 6,
-															"revision" : 0,
+															"minor" : 5,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1155,7 +1154,7 @@
 													"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 													"border" : 0,
 													"cols" : 8,
-													"colwidth" : 257,
+													"colwidth" : 32,
 													"fontface" : 0,
 													"fontname" : "Arial",
 													"fontsize" : 10.0,
@@ -1505,7 +1504,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-14", 0 ],
-									"midpoints" : [ 126.983333000000016, 151.254898071289062, 110.983333000000016, 151.254898071289062, 110.983333000000016, 78.254898071289062, 127.983333000000016, 78.254898071289062 ],
+									"midpoints" : [ 131.483333000000016, 153.254898071289062, 115.483333000000016, 153.254898071289062, 115.483333000000016, 80.254898071289062, 132.483333000000016, 80.254898071289062 ],
 									"source" : [ "obj-7", 0 ]
 								}
 
@@ -1546,8 +1545,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1862,6 +1861,7 @@
 					"embed" : 1,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-6",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -1873,8 +1873,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2056,8 +2056,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 0,
+											"minor" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2213,8 +2213,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 6,
-															"revision" : 0,
+															"minor" : 5,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2538,8 +2538,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 6,
-															"revision" : 0,
+															"minor" : 5,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2969,7 +2969,7 @@
 													"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 													"border" : 0,
 													"cols" : 8,
-													"colwidth" : 257,
+													"colwidth" : 32,
 													"fontface" : 0,
 													"fontname" : "Arial",
 													"fontsize" : 10.0,
@@ -3370,8 +3370,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3553,8 +3553,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 0,
+											"minor" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3710,8 +3710,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 6,
-															"revision" : 0,
+															"minor" : 5,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -4035,8 +4035,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 6,
-															"revision" : 0,
+															"minor" : 5,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -4466,7 +4466,7 @@
 													"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 													"border" : 0,
 													"cols" : 8,
-													"colwidth" : 257,
+													"colwidth" : 32,
 													"fontface" : 0,
 													"fontname" : "Arial",
 													"fontsize" : 10.0,
@@ -4867,8 +4867,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5050,8 +5050,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 0,
+											"minor" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5207,8 +5207,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 6,
-															"revision" : 0,
+															"minor" : 5,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5532,8 +5532,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 6,
-															"revision" : 0,
+															"minor" : 5,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5963,7 +5963,7 @@
 													"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 													"border" : 0,
 													"cols" : 8,
-													"colwidth" : 257,
+													"colwidth" : 32,
 													"fontface" : 0,
 													"fontname" : "Arial",
 													"fontsize" : 10.0,
@@ -6364,8 +6364,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6547,8 +6547,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 0,
+											"minor" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6704,8 +6704,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 6,
-															"revision" : 0,
+															"minor" : 5,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -7029,8 +7029,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 6,
-															"revision" : 0,
+															"minor" : 5,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -7460,7 +7460,7 @@
 													"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 													"border" : 0,
 													"cols" : 8,
-													"colwidth" : 257,
+													"colwidth" : 32,
 													"fontface" : 0,
 													"fontname" : "Arial",
 													"fontsize" : 10.0,
@@ -7861,8 +7861,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8044,8 +8044,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 0,
+											"minor" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8201,8 +8201,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 6,
-															"revision" : 0,
+															"minor" : 5,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -8526,8 +8526,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 6,
-															"revision" : 0,
+															"minor" : 5,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -8957,7 +8957,7 @@
 													"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 													"border" : 0,
 													"cols" : 8,
-													"colwidth" : 257,
+													"colwidth" : 32,
 													"fontface" : 0,
 													"fontname" : "Arial",
 													"fontsize" : 10.0,
@@ -9358,8 +9358,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9541,8 +9541,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 0,
+											"minor" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9698,8 +9698,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 6,
-															"revision" : 0,
+															"minor" : 5,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -10023,8 +10023,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 6,
-															"revision" : 0,
+															"minor" : 5,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -10454,7 +10454,7 @@
 													"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 													"border" : 0,
 													"cols" : 8,
-													"colwidth" : 257,
+													"colwidth" : 32,
 													"fontface" : 0,
 													"fontname" : "Arial",
 													"fontsize" : 10.0,
@@ -10855,8 +10855,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -11038,8 +11038,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 0,
+											"minor" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -11195,8 +11195,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 6,
-															"revision" : 0,
+															"minor" : 5,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -11520,8 +11520,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 6,
-															"revision" : 0,
+															"minor" : 5,
+															"revision" : 4,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -11951,7 +11951,7 @@
 													"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 													"border" : 0,
 													"cols" : 8,
-													"colwidth" : 257,
+													"colwidth" : 32,
 													"fontface" : 0,
 													"fontname" : "Arial",
 													"fontsize" : 10.0,
@@ -12429,13 +12429,14 @@
 				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-39",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 485.0, 71.0, 36.0, 18.0 ],
+					"patching_rect" : [ 485.0, 71.0, 36.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 1.0, 202.0, 18.0 ],
-					"text" : "#1",
+					"text" : "mhelp.8sequence",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 499.0, 87.0, 710.0, 779.0 ],
+		"rect" : [ 1425.0, 417.0, 710.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -167,8 +167,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 106.278594153266852, 308.546126113777177, 125.0, 22.0 ],
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 106.278594153266852, 285.546126113777177, 125.0, 22.0 ],
 					"text" : "rtt.module.attrchecker"
 				}
 
@@ -415,14 +415,18 @@
 				"patchline" : 				{
 					"destination" : [ "obj-45", 2 ],
 					"midpoints" : [ 115.778594153266852, 365.546126113777177, 251.528594153266852, 365.546126113777177, 251.528594153266852, 303.546126113777177, 221.778594153266852, 303.546126113777177 ],
-					"source" : [ "obj-20", 0 ]
+					"source" : [ "obj-20", 0 ],
+					"watchpoint_flags" : 5,
+					"watchpoint_id" : 3
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
-					"source" : [ "obj-21", 0 ]
+					"source" : [ "obj-21", 0 ],
+					"watchpoint_flags" : 5,
+					"watchpoint_id" : 1
 				}
 
 			}
@@ -464,7 +468,9 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"source" : [ "obj-45", 0 ]
+					"source" : [ "obj-45", 0 ],
+					"watchpoint_flags" : 5,
+					"watchpoint_id" : 2
 				}
 
 			}

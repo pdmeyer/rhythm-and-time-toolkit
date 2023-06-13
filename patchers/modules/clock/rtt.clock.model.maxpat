@@ -227,9 +227,10 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 133.5, 183.5, 125.0, 22.0 ],
-					"text" : "rtt.module.attrchecker"
+					"text" : "rtt.module.attrchecker",
+					"varname" : "rtt.module.attrchecker"
 				}
 
 			}

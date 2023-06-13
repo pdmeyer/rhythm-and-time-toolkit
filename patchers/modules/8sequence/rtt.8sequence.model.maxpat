@@ -1423,7 +1423,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 497.389297076633397, 820.569189170665595, 158.0, 22.0 ],
-					"restore" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"restore" : [ 0.56, 0.73, 0.55, 0.6, 0.0, 0.0, 0.2, 0.6 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1663,7 +1663,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 6,
 					"outlettype" : [ "signal", "bang", "int", "float", "", "list" ],
-					"patching_rect" : [ 44.278594153266852, 508.0, 91.0, 22.0 ],
+					"patching_rect" : [ 44.278594153266852, 459.0, 91.0, 22.0 ],
 					"text" : "typeroute~"
 				}
 
@@ -1898,7 +1898,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 44.278594153266852, 6.523063056888589, 30.0, 30.0 ]
 				}
 

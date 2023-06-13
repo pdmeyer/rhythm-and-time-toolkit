@@ -103,7 +103,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button[39]",
+							"parameter_longname" : "live.button[43]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
@@ -272,9 +272,9 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "and", "or", "not", "xor", "left", "right" ],
+											"parameter_enum" : [ "and", "or", "not", "xor", "left", "right", "lxor", "rxor" ],
 											"parameter_longname" : "live.menu[32]",
-											"parameter_mmax" : 5,
+											"parameter_mmax" : 7,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2
 										}
@@ -377,7 +377,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "gate", "accum_event" ],
-											"parameter_longname" : "live.menu[20]",
+											"parameter_longname" : "live.menu[29]",
 											"parameter_mmax" : 1,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2

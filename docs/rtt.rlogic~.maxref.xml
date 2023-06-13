@@ -56,12 +56,22 @@
                     </enum>
                     <enum name="left">
                         <description>
-                            Triggers an event only when the signal at the first inlet is nonzero.
+                            Triggers an event when the signal at the first inlet is nonzero.
                         </description>
                     </enum>
                     <enum name="right">
                         <description>
-                            Triggers an event only when the signal at the second inlet is nonzero.
+                            Triggers an event when the signal at the second inlet is nonzero.
+                        </description>
+                    </enum>
+                    <enum name="lxor">
+                        <description>
+                            Triggers an event when the signal at the first inlet is nonzero and the signal at the second inlet is zero.
+                        </description>
+                    </enum>
+                    <enum name="rxor">
+                        <description>
+                            Triggers an event only when the signal at the first inlet is zero and the signal at the second inlet is nonzero.
                         </description>
                     </enum>
                 </enumlist>

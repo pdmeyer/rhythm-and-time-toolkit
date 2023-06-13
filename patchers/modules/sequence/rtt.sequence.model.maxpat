@@ -206,14 +206,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 348.721405846733091, 535.569189170665595, 194.0, 22.0 ],
-					"restore" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"patching_rect" : [ 348.721405846733091, 535.569189170665595, 302.0, 22.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr sequence/scaled @type atom",
+					"text" : "pattr sequence/scaled @type atom @default_priority -1",
 					"varname" : "sequence/scaled"
 				}
 
@@ -307,7 +307,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 44.278594153266852, 99.523063056888589, 30.0, 30.0 ]
 				}
 
@@ -407,6 +407,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-45", 2 ],
+					"midpoints" : [ 192.778594153266852, 366.546126113777177, 247.278594153266852, 366.546126113777177, 247.278594153266852, 274.546126113777177, 221.778594153266852, 274.546126113777177 ],
 					"source" : [ "obj-20", 2 ]
 				}
 
@@ -414,19 +415,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-45", 2 ],
-					"midpoints" : [ 115.778594153266852, 365.546126113777177, 251.528594153266852, 365.546126113777177, 251.528594153266852, 303.546126113777177, 221.778594153266852, 303.546126113777177 ],
-					"source" : [ "obj-20", 0 ],
-					"watchpoint_flags" : 5,
-					"watchpoint_id" : 3
+					"midpoints" : [ 115.778594153266852, 376.546126113777177, 259.528594153266852, 376.546126113777177, 259.528594153266852, 262.546126113777177, 221.778594153266852, 262.546126113777177 ],
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
-					"source" : [ "obj-21", 0 ],
-					"watchpoint_flags" : 5,
-					"watchpoint_id" : 1
+					"source" : [ "obj-21", 0 ]
 				}
 
 			}
@@ -468,9 +465,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"source" : [ "obj-45", 0 ],
-					"watchpoint_flags" : 5,
-					"watchpoint_id" : 2
+					"source" : [ "obj-45", 0 ]
 				}
 
 			}

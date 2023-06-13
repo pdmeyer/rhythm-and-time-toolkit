@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 481.0, 97.0, 431.0, 708.0 ],
+		"rect" : [ 1520.0, 429.0, 431.0, 708.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -64,7 +64,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 707.0, 259.0, 870.0, 779.0 ],
+						"rect" : [ 1141.0, 627.0, 870.0, 779.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -117,7 +117,7 @@
 									"presentation_rect" : [ 0.900014460086823, 22.5, 29.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.numbox[108]",
+											"parameter_longname" : "live.numbox",
 											"parameter_mmax" : 256.0,
 											"parameter_mmin" : 1.0,
 											"parameter_shortname" : "live.numbox",
@@ -525,7 +525,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button[69]",
+							"parameter_longname" : "live.button[8]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
@@ -575,7 +575,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 8.0,
 					"id" : "obj-37",
-					"items" : [ "length", ",", "outputmode", ",", "triggermode", ",", "probabilities" ],
+					"items" : [ "length", ",", "output", ",", "trigger", ",", "probabilities" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -598,7 +598,7 @@
 					"patching_rect" : [ 204.966666666666583, 150.0, 73.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 1.0, 101.0, 18.0 ],
-					"text" : "mhelp.rprob",
+					"text" : "rprob-help",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 235.0, 1062.0, 631.0 ],
+		"rect" : [ 1170.0, 560.0, 1062.0, 631.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -53,7 +53,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "phasor",
+					"comment" : "trigger",
 					"id" : "obj-7",
 					"index" : 2,
 					"maxclass" : "inlet",
@@ -96,7 +96,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 55.5, 42.0, 30.0, 30.0 ]
 				}
 

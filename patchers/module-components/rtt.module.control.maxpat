@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1816.0, 473.0, 221.0, 144.0 ],
+		"rect" : [ 1484.0, 108.0, 530.0, 745.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,31 @@
 		"assistshowspatchername" : 0,
 		"title" : "Module Control",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "bang" ],
+					"patching_rect" : [ 74.619047619047564, 402.0, 40.0, 22.0 ],
+					"text" : "t l l b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-42",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 174.571428571428442, 462.0, 62.714285714285779, 35.0 ],
+					"text" : "getattr getattrlist"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-35",
 					"maxclass" : "newobj",
@@ -407,7 +432,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button[1]",
+							"parameter_longname" : "live.button[16]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
@@ -2165,7 +2190,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 92.285714285714221, 540.0, 58.0, 20.0 ],
+					"patching_rect" : [ 79.119047619047564, 542.0, 58.0, 20.0 ],
 					"text" : "to view"
 				}
 
@@ -2256,7 +2281,7 @@
 					"patching_rect" : [ 19.285714285714221, 507.0, 42.0, 42.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 1.5, 163.21484375, 24.0 ],
-					"text" : "rttest",
+					"text" : "ddddlll",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -2366,7 +2391,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 98.285714285714221, 505.0, 30.0, 30.0 ]
+					"patching_rect" : [ 85.119047619047564, 507.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -2396,17 +2421,6 @@
 					"presentation_rect" : [ 0.0, 0.0, 221.0, 144.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-27",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 258.0, 655.0, 100.0, 22.0 ],
-					"text" : "print rttest"
 				}
 
 			}
@@ -2528,8 +2542,36 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"source" : [ "obj-27", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-90", 0 ],
+					"source" : [ "obj-27", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-60", 2 ],
 					"source" : [ "obj-29", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-3", 1 ]
 				}
 
 			}
@@ -2545,22 +2587,6 @@
 					"destination" : [ "obj-43", 0 ],
 					"midpoints" : [ 38.785714285714221, 407.0, 10.357142857142776, 407.0, 10.357142857142776, 137.0, 38.785714285714221, 137.0 ],
 					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"order" : 1,
-					"source" : [ "obj-3", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-90", 0 ],
-					"order" : 0,
-					"source" : [ "obj-3", 1 ]
 				}
 
 			}
@@ -2608,6 +2634,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-43", 4 ]
 				}
@@ -2632,13 +2665,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-60", 1 ],
 					"source" : [ "obj-43", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-27", 0 ],
-					"source" : [ "obj-45", 0 ]
 				}
 
 			}

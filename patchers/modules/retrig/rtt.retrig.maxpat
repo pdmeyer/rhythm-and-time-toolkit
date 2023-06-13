@@ -178,11 +178,11 @@
 					"name" : "rtt.retrig.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"offset" : [ 1.0, 2.0 ],
+					"offset" : [ 1.0, 1.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 230.0, 113.0, 146.0, 86.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 143.5, 94.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 143.5, 103.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -195,7 +195,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 230.0, 46.0, 159.0, 22.0 ],
+					"patching_rect" : [ 230.0, 46.0, 168.0, 22.0 ],
 					"text" : "rtt.module.control #1"
 				}
 

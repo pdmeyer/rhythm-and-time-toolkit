@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 38.0, 99.0, 1011.0, 696.0 ],
+		"rect" : [ 1417.0, 361.0, 1011.0, 696.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 38.0, 125.0, 1011.0, 670.0 ],
+						"rect" : [ 1417.0, 387.0, 1011.0, 670.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -385,7 +385,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 943.0, 561.0, 292.0, 105.0 ],
+									"patching_rect" : [ 943.499998688697815, 557.0, 292.0, 105.0 ],
 									"varname" : "mhelp.dist",
 									"viewvisibility" : 1
 								}
@@ -569,7 +569,7 @@
 									"numoutlets" : 4,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 399.0, 398.0, 293.0, 104.0 ],
+									"patching_rect" : [ 399.0, 398.0, 292.0, 90.0 ],
 									"varname" : "mhelp.pprob",
 									"viewvisibility" : 1
 								}
@@ -612,9 +612,9 @@
 									"maxclass" : "bpatcher",
 									"name" : "rtt.binary.maxpat",
 									"numinlets" : 2,
-									"numoutlets" : 3,
+									"numoutlets" : 4,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "signal", "signal", "signal" ],
+									"outlettype" : [ "signal", "signal", "signal", "" ],
 									"patching_rect" : [ 399.0, 105.0, 258.0, 61.0 ],
 									"varname" : "mhelp.binary",
 									"viewvisibility" : 1
@@ -1408,10 +1408,10 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 594.666660070419312, 530.282608695652243, 204.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 809, 112, 1355, 911 ],
+										"client_rect" : [ 1057, 45, 1440, 407 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 583, 87, 1081, 651 ]
+										"storage_rect" : [ 583, 69, 1034, 197 ]
 									}
 ,
 									"text" : "pattrstorage module-help @greedy 1",
@@ -1440,7 +1440,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 681.666660070419312, 304.565217391304486, 276.0, 22.0 ],
-									"restore" : [ 120.0 ],
+									"restore" : [ 0.001000000047497 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1616,7 +1616,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 462.666660070419312, 243.065217391304486, 140.0, 49.0 ],
-									"restore" : [ 120.0 ],
+									"restore" : [ 0.001000000047497 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -2527,10 +2527,10 @@
 									}
 ,
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 809, 112, 1355, 911 ],
+										"client_rect" : [ 1057, 45, 1440, 407 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 583, 87, 1081, 651 ]
+										"storage_rect" : [ 583, 69, 1034, 197 ]
 									}
 ,
 									"text" : "pattrstorage seq.help.modules @savemode 2 @greedy 1",
@@ -3757,6 +3757,10 @@
 ,
 				"obj-1::obj-2::obj-18::obj-14" : 				{
 					"parameter_longname" : "live.numbox[130]"
+				}
+,
+				"obj-1::obj-2::obj-18::obj-2" : 				{
+					"parameter_longname" : "live.button[15]"
 				}
 ,
 				"obj-1::obj-2::obj-18::obj-38::obj-16" : 				{

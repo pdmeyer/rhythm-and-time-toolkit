@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1564.0, 126.0, 625.0, 598.0 ],
+		"rect" : [ 1357.0, 146.0, 592.0, 598.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1564.0, 152.0, 625.0, 572.0 ],
+						"rect" : [ 0.0, 26.0, 592.0, 572.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -428,7 +428,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 22.0, 230.5, 56.0, 22.0 ],
+									"patching_rect" : [ 29.0, 239.0, 56.0, 22.0 ],
 									"sig" : 0.0
 								}
 
@@ -545,7 +545,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-51", 0 ],
 									"order" : 1,
-									"source" : [ "obj-46", 0 ]
+									"source" : [ "obj-46", 1 ]
 								}
 
 							}
@@ -553,7 +553,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-66", 0 ],
 									"order" : 0,
-									"source" : [ "obj-46", 0 ]
+									"source" : [ "obj-46", 1 ]
 								}
 
 							}
@@ -688,7 +688,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 625.0, 572.0 ],
+						"rect" : [ 0.0, 26.0, 592.0, 572.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1235,7 +1235,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 625.0, 572.0 ],
+						"rect" : [ 0.0, 26.0, 592.0, 572.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -1299,7 +1299,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 625.0, 572.0 ],
+						"rect" : [ 1357.0, 172.0, 592.0, 572.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1330,36 +1330,25 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-24",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 312.5, 286.0, 50.0, 22.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-13",
 									"linecount" : 4,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 389.5, 317.0, 175.0, 62.0 ],
-									"text" : "12 93.825 0. 197.54 0. 297.745 0. 392.94 0. 4 3 596.86 0. 698.815 0. 795.79 0. 894.995 0. 999.71 0. 1094.905 0. 2 1"
+									"patching_rect" : [ 378.5, 328.0, 132.509684264659882, 62.0 ],
+									"text" : "11 175. 0. 275. 0. 425. 0. 475. 0. 525. 0. 675. 0. 725. 0. 925. 0. 975. 0. 1100. 0. 2 1"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-12",
-									"linecount" : 5,
+									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 315.709668636322021, 415.0, 158.0, 74.0 ],
+									"patching_rect" : [ 310.009684264659882, 420.0, 201.0, 60.0 ],
 									"text" : "rtt.makenote~ handles the mapped MIDI notes automatically - digits to the right of the decimal point are sent as pitch bend"
 								}
 
@@ -1554,7 +1543,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 27.684423685073853, 475.0, 47.0, 22.0 ],
+									"patching_rect" : [ 259.0, 467.0, 47.0, 22.0 ],
 									"text" : "midiout"
 								}
 
@@ -1609,7 +1598,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 72.975268393754959, 148.5, 20.0, 20.0 ],
+									"patching_rect" : [ 77.975268393754959, 144.5, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "2",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -1624,7 +1613,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 310.009684264659882, 174.0, 163.69998437166214, 37.0 ],
+									"patching_rect" : [ 310.009684264659882, 174.0, 164.0, 37.0 ],
 									"text" : "play some notes to hear them mapped to the scale"
 								}
 
@@ -1637,7 +1626,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 220.709668636322021, 467.0, 87.0, 21.0 ],
+									"patching_rect" : [ 27.709668636322021, 467.0, 87.0, 21.0 ],
 									"text" : "About Scala",
 									"textoncolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ]
 								}
@@ -1696,7 +1685,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 144.359676450490952, 381.0, 85.0, 29.0 ],
+									"patching_rect" : [ 166.359676450490952, 381.0, 85.0, 29.0 ],
 									"text" : "frequency of mapped note"
 								}
 
@@ -1726,7 +1715,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 28.009684264659882, 381.0, 109.0, 29.0 ],
+									"patching_rect" : [ 50.219352900981903, 381.0, 83.0, 29.0 ],
 									"text" : "midi note mapped to scale"
 								}
 
@@ -1896,7 +1885,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 396.0, 148.5, 20.0, 20.0 ],
+									"patching_rect" : [ 397.0, 136.5, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -2051,7 +2040,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
-									"source" : [ "obj-5", 0 ]
+									"source" : [ "obj-5", 2 ]
 								}
 
 							}
@@ -2234,8 +2223,8 @@
 			}
 , 			{
 				"name" : "rtt.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
-				"patcherrelativepath" : "../patchers/module-components",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

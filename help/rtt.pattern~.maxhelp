@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 100.0, 620.0, 617.0 ],
+		"rect" : [ 1274.0, 87.0, 620.0, 617.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 620.0, 591.0 ],
+						"rect" : [ 1274.0, 113.0, 620.0, 591.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -216,10 +216,10 @@
 									}
 ,
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 809, 112, 1355, 911 ],
+										"client_rect" : [ 580, 87, 949, 304 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 583, 87, 1081, 651 ]
+										"storage_rect" : [ 583, 69, 1034, 197 ]
 									}
 ,
 									"text" : "pattrstorage pattern-help-storage @greedy 1",
@@ -648,7 +648,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 126.0, 620.0, 591.0 ],
+						"rect" : [ 0.0, 26.0, 620.0, 591.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -685,7 +685,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 188.0, 280.5, 223.0, 22.0 ],
-									"text" : "0. 0. 0. 0. 0. 0. 0. 0."
+									"text" : "0. 0. 1. 1. 1. 0. 0. 0."
 								}
 
 							}
@@ -699,7 +699,7 @@
 									"orientation" : 1,
 									"outlettype" : [ "multichannelsignal", "", "float", "list" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 41.0, 480.0, 121.0, 20.0 ],
+									"patching_rect" : [ 73.200000000000003, 480.0, 121.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "mc.live.gain~",
@@ -1020,7 +1020,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 41.0, 445.0, 41.0, 22.0 ],
+									"patching_rect" : [ 73.200000000000003, 445.0, 41.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -1040,7 +1040,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 171.5, 480.0, 184.0, 68.0 ]
+									"patching_rect" : [ 203.699999999999989, 480.0, 184.0, 68.0 ]
 								}
 
 							}
@@ -1050,7 +1050,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 41.0, 515.0, 45.0, 45.0 ]
+									"patching_rect" : [ 73.200000000000003, 515.0, 45.0, 45.0 ]
 								}
 
 							}
@@ -1183,7 +1183,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
+										"rect" : [ 260.0, 898.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1211,7 +1211,6 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-2",
@@ -1428,7 +1427,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 79.0, 385.0, 56.0, 22.0 ],
+									"patching_rect" : [ 111.200000000000003, 385.0, 56.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -1461,7 +1460,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 39.0, 321.5, 151.0, 22.0 ]
+									"patching_rect" : [ 71.200000000000003, 321.5, 151.0, 22.0 ]
 								}
 
 							}
@@ -1472,8 +1471,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 143.0, 385.0, 186.0, 22.0 ],
-									"text" : "pattern"
+									"patching_rect" : [ 175.199999999999989, 385.0, 186.0, 22.0 ],
+									"text" : "pattern 0. 0. 1. 1. 1. 0. 0. 0."
 								}
 
 							}
@@ -1485,7 +1484,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 89.0, 430.5, 187.0, 31.0 ],
+									"patching_rect" : [ 121.200000000000003, 430.5, 187.0, 31.0 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -1512,7 +1511,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 22.0, 357.0, 75.999999999999986, 22.0 ],
+									"patching_rect" : [ 54.200000000000003, 357.0, 75.999999999999986, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1711,16 +1710,16 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-10", 0 ],
-									"order" : 1,
-									"source" : [ "obj-13", 0 ]
+									"order" : 0,
+									"source" : [ "obj-13", 1 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-16", 0 ],
-									"order" : 0,
-									"source" : [ "obj-13", 0 ]
+									"order" : 1,
+									"source" : [ "obj-13", 1 ]
 								}
 
 							}
@@ -1735,7 +1734,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-10", 3 ],
-									"midpoints" : [ 448.5, 350.5, 88.499999999999972, 350.5 ],
+									"midpoints" : [ 448.5, 350.5, 120.699999999999974, 350.5 ],
 									"order" : 1,
 									"source" : [ "obj-18", 1 ]
 								}
@@ -1766,7 +1765,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
-									"midpoints" : [ 88.5, 424.0, 486.0, 424.0, 486.0, 170.0, 31.5, 170.0 ],
+									"midpoints" : [ 120.700000000000003, 424.0, 486.0, 424.0, 486.0, 170.0, 31.5, 170.0 ],
 									"source" : [ "obj-37", 0 ]
 								}
 
@@ -1774,7 +1773,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-18", 0 ],
-									"midpoints" : [ 125.5, 417.0, 471.5, 417.0, 471.5, 212.0, 121.5, 212.0 ],
+									"midpoints" : [ 157.699999999999989, 417.0, 471.5, 417.0, 471.5, 212.0, 121.5, 212.0 ],
 									"source" : [ "obj-37", 1 ]
 								}
 
@@ -1887,6 +1886,10 @@
 ,
 				"obj-6::obj-3::obj-2::obj-25" : 				{
 					"parameter_longname" : "live.button[2]"
+				}
+,
+				"obj-6::obj-6::obj-2::obj-25" : 				{
+					"parameter_longname" : "live.button[1]"
 				}
 
 			}

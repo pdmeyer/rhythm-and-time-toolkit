@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 412.0, 813.0, 668.0, 572.0 ],
+		"rect" : [ 1350.0, 153.0, 668.0, 572.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 412.0, 839.0, 668.0, 546.0 ],
+						"rect" : [ 0.0, 26.0, 668.0, 546.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -216,6 +216,11 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 39.0, 442.0, 228.0, 22.0 ],
+									"priority" : 									{
+										"feel-help::m::feellist/adjusted" : -1,
+										"feel-help-2::m::feellist/adjusted" : -1
+									}
+,
 									"saved_object_attributes" : 									{
 										"client_rect" : [ 580, 87, 949, 304 ],
 										"parameter_enable" : 0,
@@ -641,7 +646,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 668.0, 546.0 ],
+						"rect" : [ 1350.0, 179.0, 668.0, 546.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1282,7 +1287,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-16", 0 ],
+									"destination" : [ "obj-14", 0 ],
 									"source" : [ "obj-15", 0 ]
 								}
 
@@ -1418,6 +1423,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-2::obj-1::obj-93::obj-25" : 				{
+					"parameter_longname" : "live.button[1]"
+				}
+,
 				"obj-2::obj-3::obj-6::obj-2" : 				{
 					"parameter_longname" : "live.button[2]"
 				}
@@ -1500,8 +1509,8 @@
 			}
 , 			{
 				"name" : "rtt.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
-				"patcherrelativepath" : "../patchers/module-components",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

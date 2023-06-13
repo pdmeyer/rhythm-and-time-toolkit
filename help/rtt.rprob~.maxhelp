@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 87.0, 635.0, 559.0 ],
+		"rect" : [ 1409.0, 207.0, 635.0, 559.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 635.0, 533.0 ],
+						"rect" : [ 1409.0, 233.0, 635.0, 533.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -230,10 +230,10 @@
 									}
 ,
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 534, 298, 1279, 875 ],
+										"client_rect" : [ 1057, 45, 1440, 407 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 583, 87, 1081, 651 ]
+										"storage_rect" : [ 583, 69, 1034, 197 ]
 									}
 ,
 									"text" : "pattrstorage rprob-help-storage @greedy 1",
@@ -566,7 +566,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 113.0, 635.0, 533.0 ],
+						"rect" : [ 0.0, 26.0, 635.0, 533.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -627,7 +627,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 53.600000000000001, 392.0, 56.0, 22.0 ],
+									"patching_rect" : [ 54.600000000000001, 374.0, 56.0, 22.0 ],
 									"sig" : 0.0
 								}
 
@@ -640,7 +640,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 239.0, 209.0, 208.0, 79.0 ],
+									"patching_rect" : [ 240.0, 191.0, 208.0, 79.0 ],
 									"setminmax" : [ 0.0, 1.0 ],
 									"size" : 8,
 									"slidercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ]
@@ -660,7 +660,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 486.5, 182.0, 20.0, 20.0 ],
+									"patching_rect" : [ 487.5, 164.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "2",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -676,7 +676,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 52.5, 161.0, 91.0, 25.0 ],
+									"patching_rect" : [ 53.5, 143.0, 91.0, 25.0 ],
 									"text" : "start clock"
 								}
 
@@ -694,7 +694,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 143.0, 163.5, 20.0, 20.0 ],
+									"patching_rect" : [ 144.0, 145.5, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "3",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -712,7 +712,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 372.75, 162.0, 137.0, 40.0 ],
+									"patching_rect" : [ 373.75, 144.0, 137.0, 40.0 ],
 									"text" : "set step probabilities"
 								}
 
@@ -725,7 +725,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 239.0, 380.5, 196.0, 62.0 ],
+									"patching_rect" : [ 240.0, 362.5, 196.0, 62.0 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -738,7 +738,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 53.600000000000001, 352.0, 204.400000000000006, 22.0 ],
+									"patching_rect" : [ 54.600000000000001, 334.0, 204.400000000000006, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -759,7 +759,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 76.0, 266.0, 44.0, 22.0 ],
+									"patching_rect" : [ 77.0, 248.0, 44.0, 22.0 ],
 									"sig" : 0.0
 								}
 
@@ -771,7 +771,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 6,
 									"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 24.0, 220.0, 167.0, 22.0 ],
+									"patching_rect" : [ 25.0, 202.0, 167.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -788,7 +788,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 24.0, 190.0, 57.0, 22.0 ],
+									"patching_rect" : [ 25.0, 172.0, 57.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -812,7 +812,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 329.0, 164.5, 20.0, 20.0 ],
+									"patching_rect" : [ 330.0, 146.5, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -828,7 +828,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 221.5, 162.0, 108.0, 25.0 ],
+									"patching_rect" : [ 222.5, 144.0, 108.0, 25.0 ],
 									"text" : "turn on audio"
 								}
 
@@ -840,7 +840,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 185.0, 157.25, 34.5, 34.5 ],
+									"patching_rect" : [ 186.0, 139.25, 34.5, 34.5 ],
 									"prototypename" : "helpfile"
 								}
 
@@ -853,7 +853,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 24.0, 161.0, 24.0, 24.0 ]
+									"patching_rect" : [ 25.0, 143.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -979,7 +979,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 239.0, 219.664062000000001, 34.0, 22.0 ],
+									"patching_rect" : [ 240.0, 201.664062000000001, 34.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -1209,7 +1209,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "live.menu[4]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "input_counter", "step_ix", "event_count", "gate" ],
+					"parameter_range" : [ "input", "step", "eventcount", "gate" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}

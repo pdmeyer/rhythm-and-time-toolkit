@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1545.0, 765.0, 629.0, 554.0 ],
+		"rect" : [ 1264.0, 404.0, 629.0, 554.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 629.0, 528.0 ],
+						"rect" : [ 1264.0, 430.0, 629.0, 528.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -293,7 +293,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 39.0, 442.0, 235.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 1057, 45, 1440, 407 ],
+										"client_rect" : [ 580, 87, 949, 304 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
 										"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -699,7 +699,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1545.0, 791.0, 629.0, 528.0 ],
+						"rect" : [ 0.0, 26.0, 629.0, 528.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -786,7 +786,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 40.0, 234.0, 56.0, 22.0 ],
+									"patching_rect" : [ 59.0, 233.0, 56.0, 22.0 ],
 									"sig" : 0.0
 								}
 
@@ -822,11 +822,11 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-24",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 94.0, 295.0, 124.0, 36.0 ],
+									"patching_rect" : [ 113.0, 287.0, 71.0, 50.0 ],
 									"text" : "send an impulse to sample"
 								}
 
@@ -839,7 +839,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 68.0, 301.0, 24.0, 24.0 ]
+									"patching_rect" : [ 87.0, 300.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -850,7 +850,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 68.0, 363.5, 39.0, 22.0 ],
+									"patching_rect" : [ 87.0, 359.5, 39.0, 22.0 ],
 									"text" : "click~"
 								}
 
@@ -878,7 +878,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 23.0, 427.0, 50.0, 22.0 ]
+									"patching_rect" : [ 42.0, 426.0, 50.0, 22.0 ]
 								}
 
 							}
@@ -904,7 +904,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 23.0, 400.0, 64.0, 22.0 ],
+									"patching_rect" : [ 42.0, 399.0, 64.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1062,7 +1062,7 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
-									"midpoints" : [ 247.5, 395.75, 32.5, 395.75 ],
+									"midpoints" : [ 247.5, 395.75, 51.5, 395.75 ],
 									"source" : [ "obj-10", 0 ]
 								}
 
@@ -1070,7 +1070,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
-									"midpoints" : [ 247.5, 394.5, 32.5, 394.5 ],
+									"midpoints" : [ 247.5, 394.5, 51.5, 394.5 ],
 									"source" : [ "obj-11", 0 ]
 								}
 
@@ -1107,7 +1107,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"order" : 1,
-									"source" : [ "obj-46", 0 ]
+									"source" : [ "obj-46", 1 ]
 								}
 
 							}
@@ -1115,7 +1115,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
 									"order" : 0,
-									"source" : [ "obj-46", 0 ]
+									"source" : [ "obj-46", 1 ]
 								}
 
 							}
@@ -1129,7 +1129,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
-									"midpoints" : [ 247.5, 394.5, 32.5, 394.5 ],
+									"midpoints" : [ 247.5, 394.5, 51.5, 394.5 ],
 									"source" : [ "obj-6", 0 ]
 								}
 
@@ -1237,8 +1237,8 @@
 			}
 , 			{
 				"name" : "rtt.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
-				"patcherrelativepath" : "../patchers/module-components",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

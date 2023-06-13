@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 100.0, 736.0, 598.0 ],
+		"rect" : [ 1263.0, 211.0, 736.0, 598.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 736.0, 572.0 ],
+						"rect" : [ 1263.0, 237.0, 736.0, 572.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -115,7 +115,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 121.0, 307.0, 210.0, 22.0 ],
-									"text" : "steps 9."
+									"text" : "pattern 1. 0. 1. 0. 1. 0. 1. 1. 0."
 								}
 
 							}
@@ -165,7 +165,7 @@
 									"numoutlets" : 4,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 38.0, 195.0, 293.0, 104.0 ],
+									"patching_rect" : [ 38.0, 195.0, 292.0, 90.0 ],
 									"varname" : "pprob-help",
 									"viewvisibility" : 1
 								}
@@ -570,7 +570,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 126.0, 736.0, 572.0 ],
+						"rect" : [ 0.0, 26.0, 736.0, 572.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -607,7 +607,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 364.0, 367.0, 323.0, 22.0 ],
-									"text" : "pattern"
+									"text" : "pattern 0. 0. 0. 0. 0. 0. 0. 0."
 								}
 
 							}
@@ -1033,6 +1033,7 @@
 							}
 , 							{
 								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-22",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,
@@ -1078,7 +1079,6 @@
 , 							{
 								"box" : 								{
 									"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
-									"columns" : 2,
 									"id" : "obj-18",
 									"maxclass" : "matrixctrl",
 									"numinlets" : 1,
@@ -1260,11 +1260,11 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-1",
-													"index" : 2,
+													"index" : 1,
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 155.5, 262.0, 30.0, 30.0 ]
+													"patching_rect" : [ 42.5, 257.0, 30.0, 30.0 ]
 												}
 
 											}
@@ -1345,7 +1345,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-36",
-													"index" : 1,
+													"index" : 2,
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -1450,6 +1450,7 @@
 							}
 , 							{
 								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-38",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,

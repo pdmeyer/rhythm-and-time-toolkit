@@ -1,37 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<!--If you edit this file, please place
+it in a safe place since future exports will overwrite this automatically generated reference
+file.-->
 <c74object name="rtt.clock~">
-<metadatalist>
-<metadata name="author">Philip Meyer</metadata>
-<metadata name="tag">sequencing</metadata>
-</metadatalist>
-<methodlist>
+    <metadatalist>
+        <metadata name="author">Philip Meyer</metadata>
+        <metadata name="tag">sequencing</metadata>
+    </metadatalist>
+    <methodlist>
 </methodlist>
-<attributelist>
-<attribute name="bpm" get="1" set="1" size="1" type="float64">
-<digest>Tempo in beats per minute</digest>
-</attribute>
-<attribute name="syncupdate" get="1" set="1" size="1" type="float64">
-<digest>syncupdate</digest>
-</attribute>
-<attribute name="transportstate" get="1" set="1" size="1" type="float64">
-<digest>Turns the phasor on or off</digest>
-</attribute>
-<attribute name="barlength" get="1" set="1" size="1" type="float64">
-<digest>Number of beats per phasor ramp.</digest>
-</attribute>
-<attribute name="syncupdate" get="1" set="1" size="1" type="float64">
-<digest>When enabled, changes to parameters are deferred until the phasor wraps.</digest>
-</attribute>
-</attributelist>
-<description><o>rtt.clock~</o> is similar to the phasor~ object, but has a dedicated transport control and accepts timing values in beats per minute. Unlike <o>rtt.bar~</o>, <o>rtt.clock~</o> allows you to change the clock speed using a signal.</description>
-<digest>Generate ramp signals in beats per minute.</digest>
-<seealsolist>
+    <attributelist>
+        <attribute name="bpm" get="1" set="1" size="1" type="float64">
+            <digest>Tempo in beats per minute</digest>
+        </attribute>
+        <attribute name="syncupdate" get="1" set="1" size="1" type="float64">
+            <digest>syncupdate</digest>
+        </attribute>
+        <attribute name="transportstate" get="1" set="1" size="1" type="float64">
+            <digest>Turns the phasor on or off</digest>
+        </attribute>
+        <attribute name="barlength" get="1" set="1" size="1" type="float64">
+            <digest>Number of beats per phasor ramp.</digest>
+        </attribute>
+        <attribute name="syncupdate" get="1" set="1" size="1" type="float64">
+            <digest>When enabled, changes to parameters are deferred until the phasor wraps.</digest>
+        </attribute>
+    </attributelist>
+    <description><o>rtt.clock~</o> is similar to the phasor~ object, but has a dedicated transport
+        control and accepts timing values in beats per minute. </description>
+    <digest>Generate ramp signals in beats per minute.</digest>
     <seealsolist>
-        <seealso name="phasor~" />
+        <seealsolist>
+            <seealso name="phasor~" />
+        </seealsolist>
     </seealsolist>
-</seealsolist>
-<metadatalist>
-    <metadata name='author'>Philip Meyer</metadata>
-</metadatalist>
+    <metadatalist>
+        <metadata name='author'>Philip Meyer</metadata>
+    </metadatalist>
 </c74object>

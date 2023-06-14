@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 842.0, 649.0 ],
+						"rect" : [ 1287.0, 679.0, 842.0, 649.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -492,7 +492,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 22.0, 255.0, 184.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 411.0, 329.5, 184.0, 24.0 ],
+									"presentation_rect" : [ 613.0, 95.0, 184.0, 24.0 ],
 									"text" : "Extras"
 								}
 
@@ -517,7 +517,7 @@
 									"outlettype" : [ "", "int" ],
 									"patching_rect" : [ 22.0, 316.0, 184.0, 151.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 411.0, 390.5, 184.5, 134.0 ],
+									"presentation_rect" : [ 613.0, 156.0, 184.5, 134.0 ],
 									"varname" : "seq.launcher.tabs[1]",
 									"viewvisibility" : 1
 								}
@@ -720,7 +720,7 @@
 									"patching_rect" : [ 22.0, 281.0, 153.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 411.0, 355.5, 184.5, 33.0 ],
+									"presentation_rect" : [ 613.0, 121.0, 184.5, 33.0 ],
 									"text" : "Helpful abstractions to use alongside rtt objects"
 								}
 
@@ -910,7 +910,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1287.0, 679.0, 842.0, 649.0 ],
+						"rect" : [ 0.0, 26.0, 842.0, 649.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,

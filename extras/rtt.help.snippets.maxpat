@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 900.0, 132.0, 1514.0, 865.0 ],
+		"rect" : [ 959.0, 108.0, 1514.0, 865.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -518,7 +518,8 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 284.666665077209473, 697.499989748001099, 145.000002145767212, 22.0 ],
-					"text_width" : 80.666668772697449
+					"text_width" : 80.666668772697449,
+					"varname" : "loop/syncupdate"
 				}
 
 			}
@@ -532,7 +533,8 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 284.666665077209473, 673.499989748001099, 145.000002145767212, 22.0 ],
-					"text_width" : 80.666668772697449
+					"text_width" : 80.666668772697449,
+					"varname" : "loop/subdivmode"
 				}
 
 			}
@@ -547,7 +549,8 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 284.666665077209473, 649.499989748001099, 145.000002145767212, 22.0 ],
-					"text_width" : 80.666668772697449
+					"text_width" : 80.666668772697449,
+					"varname" : "loop/regionlength"
 				}
 
 			}
@@ -628,7 +631,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "rtt.xtra.stepgridviewer.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
@@ -648,7 +651,8 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 719.000008106231689, 840.499988079071045, 150.0, 22.0 ],
-					"text_width" : 66.333326458930969
+					"text_width" : 66.333326458930969,
+					"varname" : "pattern/output"
 				}
 
 			}
@@ -662,7 +666,8 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 719.000008106231689, 792.499988079071045, 150.0, 22.0 ],
-					"text_width" : 65.333326458930969
+					"text_width" : 65.333326458930969,
+					"varname" : "pattern/counter"
 				}
 
 			}
@@ -676,7 +681,8 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 719.000008106231689, 816.499988079071045, 150.0, 22.0 ],
-					"text_width" : 66.333326458930969
+					"text_width" : 66.333326458930969,
+					"varname" : "pattern/trigger"
 				}
 
 			}
@@ -690,7 +696,8 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 711.916688680648917, 537.166641235351562, 150.0, 22.0 ],
-					"text_width" : 66.333326458930969
+					"text_width" : 66.333326458930969,
+					"varname" : "binary/eventcount"
 				}
 
 			}
@@ -704,7 +711,8 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 711.916688680648917, 489.166641235351562, 150.0, 22.0 ],
-					"text_width" : 65.333326458930969
+					"text_width" : 65.333326458930969,
+					"varname" : "binary/counter"
 				}
 
 			}
@@ -718,7 +726,8 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 711.916688680648917, 513.166641235351562, 150.0, 22.0 ],
-					"text_width" : 66.333326458930969
+					"text_width" : 66.333326458930969,
+					"varname" : "binary/trigger"
 				}
 
 			}
@@ -732,7 +741,8 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 711.916688680648917, 690.666608993420482, 150.0, 22.0 ],
-					"text_width" : 66.333326458930969
+					"text_width" : 66.333326458930969,
+					"varname" : "euclidean/output"
 				}
 
 			}
@@ -778,7 +788,7 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 105.66666579246521, 330.999999046325684, 150.0, 22.0 ],
-					"varname" : "clock/bpm[1]"
+					"varname" : "clockin/ppqn"
 				}
 
 			}
@@ -792,7 +802,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 105.66666579246521, 354.999999046325684, 150.0, 22.0 ]
+					"patching_rect" : [ 105.66666579246521, 354.999999046325684, 150.0, 22.0 ],
+					"varname" : "clockin/syncupdate"
 				}
 
 			}
@@ -1228,11 +1239,16 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 962.250005483627319, 971.500015823322428, 56.0, 22.0 ],
 					"restore" : 					{
+						"binary/counter" : [ "counter", "index" ],
+						"binary/eventcount" : [ "output", "eventcount" ],
 						"binary/rotate" : [ "rotate", 0.0 ],
 						"binary/seed" : [ "seed", 0.0 ],
 						"binary/steps" : [ "steps", 8.0 ],
+						"binary/trigger" : [ "trigger", "change" ],
 						"clock/bpm" : [ "bpm", 120.0 ],
-						"clock/bpm[1]" : [ "ppqn", 32.0 ],
+						"clock/transportstate" : [ "transportstate", 0.0 ],
+						"clockin/ppqn" : [ "ppqn", 32.0 ],
+						"clockin/syncupdate" : [ "syncupdate", 0.0 ],
 						"counter/ceiling" : [ "ceiling", 0.0 ],
 						"counter/direction" : [ "direction", "forward" ],
 						"counter/floor" : [ "floor", 1.0 ],
@@ -1240,18 +1256,25 @@
 						"dist/offset" : [ "offset", 0.0 ],
 						"dist/probabilities" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 						"dist/size" : [ "size", 8 ],
+						"euclidean/counter" : [ "counter", "index" ],
 						"euclidean/events" : [ "events", 16.0 ],
+						"euclidean/output" : [ "output", "eventcount" ],
 						"euclidean/rotate" : [ "rotate", -255.0 ],
 						"euclidean/steps" : [ "steps", 256.0 ],
+						"euclidean/trigger" : [ "trigger", "change" ],
 						"feel/depth" : [ "depth", 0.2 ],
 						"feel/feellist" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 						"loop/direction" : [ "direction", "forward" ],
 						"loop/direction[1]" : [ "direction", "forward" ],
 						"loop/drunk2" : [ 0.100000001490116, 0.100000001490116, 0.100000001490116 ],
+						"loop/regionlength" : [ "regionlength", 1.0 ],
+						"loop/regionstart" : [ "regionstart", 0.0 ],
 						"loop/steps" : [ "steps", 16.0 ],
 						"loop/steps[1]" : [ "steps", 16.0 ],
 						"loop/subdiv" : [ "subdiv", 16.0 ],
 						"loop/subdiv[1]" : [ "subdiv", 16.0 ],
+						"loop/subdivmode" : [ "subdivmode", "polymetric" ],
+						"loop/syncupdate" : [ "syncupdate", 1.0 ],
 						"makecc/auto" : [ "auto", 0.0 ],
 						"makecc/autointerval" : [ "autointerval", 50.0 ],
 						"makecc/channel" : [ "channel", 1.0 ],
@@ -1265,9 +1288,13 @@
 						"mc.live.gain~" : [ 0.0 ],
 						"notes/sequence" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 						"notes/size" : [ "size", 8 ],
+						"pattern/counter" : [ "counter", "index" ],
+						"pattern/output" : [ "output", "eventcount" ],
 						"pattern/rotate" : [ "rotate", 0.0 ],
+						"pattern/trigger" : [ "trigger", "change" ],
 						"pprob/probabilities" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 						"pprob/size" : [ "size", 8 ],
+						"resync/phase" : [ "phase", 0.0 ],
 						"retrig/auto" : [ "auto", 0.0 ],
 						"retrig/auto[1]" : [ "auto", 0.0 ],
 						"retrig/repeats" : [ "repeats", 4.0 ],
@@ -1767,12 +1794,11 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "rtt.xtra.stepgridviewer.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 596.0, 1044.0, 328.0, 16.0 ],
-					"varname" : "rtt.xtra.stepgridviewer[1]",
 					"viewvisibility" : 1
 				}
 
@@ -1823,7 +1849,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "rtt.xtra.stepgridviewer.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
@@ -2273,7 +2299,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 118.666662812232971, 832.666716880134572, 64.0, 22.0 ],
+					"patching_rect" : [ 126.666662812232971, 832.666716880134572, 64.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2338,7 +2364,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 123.66666579246521, 227.166658401489258, 150.0, 22.0 ]
+					"patching_rect" : [ 123.66666579246521, 227.166658401489258, 150.0, 22.0 ],
+					"varname" : "clock/transportstate"
 				}
 
 			}
@@ -3417,7 +3444,8 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 711.916688680648917, 642.666608993420482, 150.0, 22.0 ],
-					"text_width" : 65.333326458930969
+					"text_width" : 65.333326458930969,
+					"varname" : "euclidean/counter"
 				}
 
 			}
@@ -3431,7 +3459,8 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 711.916688680648917, 666.666608993420482, 150.0, 22.0 ],
-					"text_width" : 66.333326458930969
+					"text_width" : 66.333326458930969,
+					"varname" : "euclidean/trigger"
 				}
 
 			}
@@ -3446,7 +3475,8 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 284.666665077209473, 623.499989748001099, 145.000002145767212, 22.0 ],
-					"text_width" : 82.666668772697449
+					"text_width" : 82.666668772697449,
+					"varname" : "loop/regionstart"
 				}
 
 			}
@@ -3490,7 +3520,8 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 159.999999225139618, 1054.333380091392428, 95.333331704139709, 22.0 ],
-					"text_width" : 59.833343386650085
+					"text_width" : 59.833343386650085,
+					"varname" : "resync/phase"
 				}
 
 			}
@@ -3923,7 +3954,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-100", 1 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-2643", 0 ]
 				}
 
@@ -3932,7 +3963,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-101", 0 ],
 					"midpoints" : [ 181.166662812232971, 827.166716880134572, 165.166662335395813, 827.166716880134572, 165.166662335395813, 742.50004918032073, 181.166662812232971, 742.50004918032073 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-2643", 0 ]
 				}
 
@@ -4679,8 +4710,8 @@
 			}
 , 			{
 				"name" : "rtt.getpatchname.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

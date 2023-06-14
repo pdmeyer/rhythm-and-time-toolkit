@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 87.0, 152.0, 842.0, 675.0 ],
+		"rect" : [ 1287.0, 653.0, 842.0, 675.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 87.0, 178.0, 842.0, 649.0 ],
+						"rect" : [ 0.0, 26.0, 842.0, 649.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -492,7 +492,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 22.0, 255.0, 184.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 30.0, 271.0, 184.0, 24.0 ],
+									"presentation_rect" : [ 411.0, 329.5, 184.0, 24.0 ],
 									"text" : "Extras"
 								}
 
@@ -517,7 +517,7 @@
 									"outlettype" : [ "", "int" ],
 									"patching_rect" : [ 22.0, 316.0, 184.0, 151.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 30.0, 332.0, 184.5, 134.0 ],
+									"presentation_rect" : [ 411.0, 390.5, 184.5, 134.0 ],
 									"varname" : "seq.launcher.tabs[1]",
 									"viewvisibility" : 1
 								}
@@ -543,7 +543,7 @@
 									"outlettype" : [ "", "int" ],
 									"patching_rect" : [ 424.0, 135.0, 183.25, 157.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 411.0, 138.0, 183.5, 162.0 ],
+									"presentation_rect" : [ 411.0, 156.0, 183.5, 162.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -591,7 +591,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 314.666666666666629, 494.0, 184.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 234.5, 339.5, 184.0, 24.0 ],
+									"presentation_rect" : [ 35.0, 338.5, 184.0, 24.0 ],
 									"text" : "Info"
 								}
 
@@ -605,7 +605,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 303.666666666666629, 521.0, 274.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 234.5, 365.5, 360.0, 20.0 ]
+									"presentation_rect" : [ 35.0, 364.5, 360.0, 20.0 ]
 								}
 
 							}
@@ -619,7 +619,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 242.75, 82.5, 184.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 225.0, 90.0, 184.0, 24.0 ],
+									"presentation_rect" : [ 225.0, 95.0, 184.0, 24.0 ],
 									"text" : "Examples"
 								}
 
@@ -634,7 +634,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 22.0, 82.5, 184.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 30.0, 90.0, 184.0, 24.0 ],
+									"presentation_rect" : [ 30.0, 95.0, 184.0, 24.0 ],
 									"text" : "Help"
 								}
 
@@ -659,7 +659,7 @@
 									"outlettype" : [ "", "int" ],
 									"patching_rect" : [ 242.75, 135.0, 183.25, 157.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 225.0, 138.0, 183.5, 162.0 ],
+									"presentation_rect" : [ 225.0, 156.0, 183.5, 162.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -684,7 +684,7 @@
 									"outlettype" : [ "", "int" ],
 									"patching_rect" : [ 22.0, 135.0, 184.0, 111.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 30.0, 138.0, 184.5, 118.0 ],
+									"presentation_rect" : [ 30.0, 156.0, 184.5, 118.0 ],
 									"varname" : "seq.launcher.tabs",
 									"viewvisibility" : 1
 								}
@@ -704,7 +704,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 295.666666666666629, 487.0, 292.0, 88.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 229.5, 330.5, 375.0, 88.0 ],
+									"presentation_rect" : [ 30.0, 329.5, 375.0, 88.0 ],
 									"proportion" : 0.5
 								}
 
@@ -720,7 +720,7 @@
 									"patching_rect" : [ 22.0, 281.0, 153.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 30.0, 297.0, 184.5, 33.0 ],
+									"presentation_rect" : [ 411.0, 355.5, 184.5, 33.0 ],
 									"text" : "Helpful abstractions to use alongside rtt objects"
 								}
 
@@ -734,7 +734,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 242.75, 111.0, 237.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 225.0, 116.0, 243.5, 20.0 ],
+									"presentation_rect" : [ 225.0, 121.0, 243.5, 20.0 ],
 									"text" : "Example patches that show RTT in use"
 								}
 
@@ -748,7 +748,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 22.0, 111.0, 150.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 30.0, 116.0, 184.5, 20.0 ],
+									"presentation_rect" : [ 30.0, 121.0, 184.5, 20.0 ],
 									"text" : "Guides and general help"
 								}
 
@@ -880,7 +880,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 81.667458432304102, 82.0, 51.0, 22.0 ],
+					"patching_rect" : [ 81.667458432304102, 82.0, 158.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -888,7 +888,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p extras",
+					"text" : "p \"help, examples, & extras\"",
 					"varname" : "modules[1]"
 				}
 
@@ -910,7 +910,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 842.0, 649.0 ],
+						"rect" : [ 1287.0, 679.0, 842.0, 649.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,

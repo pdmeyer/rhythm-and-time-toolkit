@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 106.0, 554.0, 584.0 ],
+		"rect" : [ 1380.0, 134.0, 554.0, 584.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,27 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
+					"id" : "obj-22",
+					"maxclass" : "live.scope~",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 119.0, 356.0, 36.0, 22.0 ],
+					"range" : [ -0.1, 1.1 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"active1" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"id" : "obj-26",
 					"maxclass" : "preset",
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 356.333331108093262, 360.0, 129.416670918464661, 57.16666116721251 ],
-					"pattrstorage" : "rtt.xtra.pattrhelper"
+					"patching_rect" : [ 353.333331108093262, 362.749995183978569, 80.416670918464661, 45.16666116721251 ],
+					"pattrstorage" : "rtt.ex.nestedtuplets"
 				}
 
 			}
@@ -73,12 +87,13 @@
 						"nt-bar::m::transportstate" : 0
 					}
 ,
+					"autorestore" : "rtt.ex.nestedtuplets.json",
 					"id" : "obj-2666",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 188.0, 426.583330583606255, 302.0, 22.0 ],
+					"patching_rect" : [ 196.0, 414.0, 216.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 580, 87, 949, 304 ],
 						"parameter_enable" : 0,
@@ -86,8 +101,8 @@
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
-					"text" : "pattrstorage @autorestore 1 @savemode 2 @greedy 1",
-					"varname" : "rtt.xtra.pattrhelper[1]"
+					"text" : "pattrstorage @savemode 2 @greedy 1",
+					"varname" : "rtt.ex.nestedtuplets"
 				}
 
 			}
@@ -107,7 +122,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "int", "bang" ],
-					"patching_rect" : [ 188.0, 356.0, 302.0, 65.583330583606255 ],
+					"patching_rect" : [ 188.0, 356.0, 254.750002026557922, 89.583330583606255 ],
 					"varname" : "rtt.xtra.pattrhelper",
 					"viewvisibility" : 1
 				}
@@ -565,7 +580,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2691", 1 ],
-					"midpoints" : [ 197.5, 458.583330583606312, 508.0, 458.583330583606312, 508.0, 344.999999999999943, 480.5, 344.999999999999943 ],
+					"midpoints" : [ 205.5, 457.583330583606312, 453.0, 457.583330583606312, 453.0, 344.999999999999943, 433.250002026557922, 344.999999999999943 ],
 					"source" : [ "obj-2666", 0 ]
 				}
 
@@ -627,13 +642,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"source" : [ "obj-9", 1 ]
+					"order" : 0,
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 4 ],
+					"order" : 1,
 					"source" : [ "obj-9", 2 ]
 				}
 
@@ -641,7 +658,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
+					"order" : 1,
 					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"order" : 0,
+					"source" : [ "obj-9", 2 ]
 				}
 
 			}
@@ -693,6 +719,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-15::obj-6::obj-15" : 				{
+					"parameter_longname" : "live.numbox[102]"
+				}
+,
 				"obj-15::obj-93::obj-25" : 				{
 					"parameter_longname" : "live.button[10]"
 				}
@@ -719,6 +749,18 @@
 ,
 				"obj-1::obj-93::obj-25" : 				{
 					"parameter_longname" : "live.button[14]"
+				}
+,
+				"obj-6::obj-6::obj-2" : 				{
+					"parameter_longname" : "live.button[9]"
+				}
+,
+				"obj-6::obj-6::obj-6" : 				{
+					"parameter_longname" : "live.numbox[90]"
+				}
+,
+				"obj-6::obj-6::obj-7" : 				{
+					"parameter_longname" : "live.toggle[5]"
 				}
 ,
 				"obj-6::obj-93::obj-25" : 				{
@@ -874,6 +916,13 @@
 , 			{
 				"name" : "rtt.divs~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rtt.ex.nestedtuplets.json",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/pattrstorage",
+				"patcherrelativepath" : "../misc/pattrstorage",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.getpatchname.js",

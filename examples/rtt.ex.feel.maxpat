@@ -206,7 +206,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 315.0, 559.0, 195.0, 22.0 ],
-					"text" : "8. 0. 0. 0. 0. 0. 0. 0. 0."
+					"text" : "1. 66. 65. 64. 64. 65. 66. 67. 67."
 				}
 
 			}
@@ -1209,6 +1209,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-129", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-129", 2 ]
 				}
 
 			}

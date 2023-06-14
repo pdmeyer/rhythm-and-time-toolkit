@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1517.0, 87.0, 645.0, 591.0 ],
+		"rect" : [ 1399.0, 89.0, 639.0, 591.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 645.0, 565.0 ],
+						"rect" : [ 1399.0, 115.0, 639.0, 565.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -350,8 +350,13 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
 									"patching_rect" : [ 13.0, 125.0, 145.0, 22.0 ],
-									"text" : "rtt.clock",
-									"varname" : "clock_20059"
+									"saved_object_attributes" : 									{
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0
+									}
+,
+									"text" : "rtt.clock~",
+									"varname" : "clock_12162"
 								}
 
 							}
@@ -557,7 +562,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 645.0, 565.0 ],
+						"rect" : [ 0.0, 26.0, 639.0, 565.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1538,7 +1543,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 645.0, 565.0 ],
+						"rect" : [ 0.0, 26.0, 639.0, 565.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1700,7 +1705,7 @@
 									"numoutlets" : 4,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 35.0, 197.0, 143.0, 94.0 ],
+									"patching_rect" : [ 35.0, 197.0, 144.0, 104.0 ],
 									"varname" : "retrig-help",
 									"viewvisibility" : 1
 								}
@@ -2077,7 +2082,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 645.0, 565.0 ],
+						"rect" : [ 0.0, 26.0, 639.0, 565.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2871,7 +2876,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 645.0, 565.0 ],
+						"rect" : [ 0.0, 26.0, 639.0, 565.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -2935,7 +2940,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1517.0, 113.0, 645.0, 565.0 ],
+						"rect" : [ 0.0, 26.0, 639.0, 565.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3242,19 +3247,18 @@
 		"parameters" : 		{
 			"obj-2::obj-24" : [ "vst~[1]", "vst~", 0 ],
 			"obj-2::obj-30" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-6::obj-5::obj-6::obj-10" : [ "live.numbox[89]", "live.numbox[2]", 0 ],
-			"obj-6::obj-5::obj-6::obj-12" : [ "live.text[6]", "live.text[2]", 0 ],
-			"obj-6::obj-5::obj-6::obj-2" : [ "live.button[3]", "live.button", 0 ],
-			"obj-6::obj-5::obj-6::obj-9" : [ "live.text[5]", "live.text[2]", 0 ],
-			"obj-6::obj-5::obj-93::obj-25" : [ "live.button[1]", "live.button", 0 ],
 			"obj-7::obj-19::obj-6::obj-10" : [ "live.numbox[2]", "live.numbox[2]", 0 ],
+			"obj-7::obj-19::obj-6::obj-15" : [ "live.numbox[111]", "live.numbox[2]", 0 ],
 			"obj-7::obj-19::obj-6::obj-2" : [ "live.button[6]", "live.button", 0 ],
 			"obj-7::obj-19::obj-6::obj-21" : [ "live.text[7]", "live.text", 0 ],
+			"obj-7::obj-19::obj-6::obj-6" : [ "live.numbox[80]", "live.numbox[2]", 0 ],
 			"obj-7::obj-19::obj-6::obj-7" : [ "live.numbox[1]", "live.numbox[2]", 0 ],
 			"obj-7::obj-19::obj-93::obj-25" : [ "live.button[2]", "live.button", 0 ],
 			"obj-7::obj-3::obj-6::obj-10" : [ "live.numbox[106]", "live.numbox[2]", 0 ],
+			"obj-7::obj-3::obj-6::obj-15" : [ "live.numbox[3]", "live.numbox[2]", 0 ],
 			"obj-7::obj-3::obj-6::obj-2" : [ "live.button[31]", "live.button", 0 ],
 			"obj-7::obj-3::obj-6::obj-21" : [ "live.text[40]", "live.text", 0 ],
+			"obj-7::obj-3::obj-6::obj-6" : [ "live.numbox[4]", "live.numbox[2]", 0 ],
 			"obj-7::obj-3::obj-6::obj-7" : [ "live.numbox[105]", "live.numbox[2]", 0 ],
 			"obj-7::obj-3::obj-93::obj-25" : [ "live.button[5]", "live.button", 0 ],
 			"obj-8::obj-24" : [ "vst~[2]", "vst~", 0 ],
@@ -3289,6 +3293,18 @@
 					"parameter_longname" : "live.button[2]"
 				}
 ,
+				"obj-7::obj-3::obj-6::obj-15" : 				{
+					"parameter_longname" : "live.numbox[3]"
+				}
+,
+				"obj-7::obj-3::obj-6::obj-2" : 				{
+					"parameter_longname" : "live.button[31]"
+				}
+,
+				"obj-7::obj-3::obj-6::obj-6" : 				{
+					"parameter_longname" : "live.numbox[4]"
+				}
+,
 				"obj-7::obj-3::obj-93::obj-25" : 				{
 					"parameter_longname" : "live.button[5]"
 				}
@@ -3306,19 +3322,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Pause.svg",
-				"bootpath" : "C74:/interfaces",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Play.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
-				"patcherrelativepath" : "../media/icons",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "helpdetails.js",
 				"bootpath" : "C74:/help/resources",
 				"type" : "TEXT",
@@ -3328,27 +3331,6 @@
 				"name" : "helpname.js",
 				"bootpath" : "C74:/help/resources",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rtt.clock.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/clock",
-				"patcherrelativepath" : "../patchers/modules/clock",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rtt.clock.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/clock",
-				"patcherrelativepath" : "../patchers/modules/clock",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rtt.clock.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/clock",
-				"patcherrelativepath" : "../patchers/modules/clock",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -3379,8 +3361,8 @@
 			}
 , 			{
 				"name" : "rtt.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
-				"patcherrelativepath" : "../patchers/module-components",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

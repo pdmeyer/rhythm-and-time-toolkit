@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 100.0, 746.0, 743.0 ],
+		"rect" : [ 1172.0, 98.0, 654.0, 531.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 746.0, 717.0 ],
+						"rect" : [ 0.0, 26.0, 654.0, 505.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -337,7 +337,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 69.599853515625, 587.0, 50.0 ],
-									"text" : "seq.notes~ is designed to be used with seq.scala~ to play melodies in any scale. Use seq.scala.parser to convert a scala file into the scale list used by seq.scala~ and mtof~. The second outlet of seq.scala.parser provides the message needed to set the scale length in seq.notes"
+									"text" : "rtt.notes~ is designed to be used with rtt.scala~ to play melodies in any scale. Use seq.scala.parser to convert a scala file into the scale list used by rtt.scala~ and mtof~. The second outlet of rtt.scala.parser provides the message needed to set the scale length in rtt.notes"
 								}
 
 							}
@@ -347,14 +347,14 @@
 									"filename" : "helpname.js",
 									"id" : "obj-4",
 									"ignoreclick" : 1,
-									"jsarguments" : [ "seq.notes~" ],
+									"jsarguments" : [ "rtt.notes~" ],
 									"maxclass" : "jsui",
 									"nofsaa" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 10.0, 10.0, 234.080001831054688, 57.599853515625 ]
+									"patching_rect" : [ 10.0, 10.0, 212.960006713867188, 57.599853515625 ]
 								}
 
 							}
@@ -636,7 +636,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 746.0, 717.0 ],
+						"rect" : [ 1172.0, 124.0, 654.0, 505.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -674,7 +674,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 413.0, 173.599853515625, 308.0, 36.0 ],
+									"patching_rect" : [ 271.0, 171.599853515625, 308.0, 36.0 ],
 									"text" : "Or, use the rtt.notes and rtt.scala modules together as shown:"
 								}
 
@@ -696,7 +696,7 @@
 									"numoutlets" : 4,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 413.0, 338.0, 143.0, 78.0 ],
+									"patching_rect" : [ 271.0, 336.0, 143.0, 78.0 ],
 									"varname" : "notes-help[1]",
 									"viewvisibility" : 1
 								}
@@ -719,7 +719,7 @@
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 413.0, 217.0, 294.0, 105.0 ],
+									"patching_rect" : [ 271.0, 215.0, 294.0, 105.0 ],
 									"varname" : "notes-help",
 									"viewvisibility" : 1
 								}
@@ -1175,7 +1175,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
-									"midpoints" : [ 546.5, 426.0, 715.5, 426.0, 715.5, 206.5, 422.5, 206.5 ],
+									"midpoints" : [ 404.5, 424.0, 573.5, 424.0, 573.5, 204.5, 280.5, 204.5 ],
 									"source" : [ "obj-5", 3 ]
 								}
 
@@ -1213,7 +1213,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 746.0, 717.0 ],
+						"rect" : [ 0.0, 26.0, 654.0, 505.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1305,10 +1305,10 @@
 									}
 ,
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 809, 112, 1355, 911 ],
+										"client_rect" : [ 580, 87, 949, 304 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 583, 87, 1081, 651 ]
+										"storage_rect" : [ 583, 69, 1034, 197 ]
 									}
 ,
 									"text" : "pattrstorage notes-help-storage @greedy 1",
@@ -1399,12 +1399,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-17",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 485.5, 246.5, 153.0, 47.0 ],
-									"text" : "you can also set parameters using the module's first inlet"
+									"patching_rect" : [ 485.5, 246.5, 153.0, 33.0 ],
+									"text" : "you can also set parameters with messages"
 								}
 
 							}
@@ -1499,7 +1499,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 333.0, 352.5, 218.0, 47.0 ],
-									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
+									"text" : "to use the module, create a rtt.notes patcher and give it a unique name as the first argument"
 								}
 
 							}
@@ -1558,13 +1558,13 @@
 									"filename" : "helpname.js",
 									"id" : "obj-4",
 									"ignoreclick" : 1,
-									"jsarguments" : [ "seq.notes~" ],
+									"jsarguments" : [ "rtt.notes~" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 10.0, 10.0, 234.080001831054688, 57.599853515625 ]
+									"patching_rect" : [ 10.0, 10.0, 212.960006713867188, 57.599853515625 ]
 								}
 
 							}
@@ -1723,7 +1723,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 746.0, 717.0 ],
+						"rect" : [ 0.0, 26.0, 654.0, 505.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -1787,7 +1787,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 126.0, 746.0, 717.0 ],
+						"rect" : [ 0.0, 26.0, 654.0, 505.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1826,7 +1826,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 391.600000000000023, 378.0, 125.0, 36.0 ],
-									"presentation_linecount" : 2,
 									"text" : "sequence mapped to MIDI notes"
 								}
 
@@ -2470,12 +2469,40 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-2::obj-3::obj-18::obj-14" : 				{
+					"parameter_longname" : "live.numbox[35]"
+				}
+,
+				"obj-2::obj-3::obj-18::obj-2" : 				{
+					"parameter_longname" : "live.button[32]"
+				}
+,
 				"obj-2::obj-3::obj-18::obj-38::obj-16" : 				{
 					"parameter_longname" : "live.numbox[7]"
 				}
 ,
 				"obj-2::obj-3::obj-18::obj-38::obj-20" : 				{
 					"parameter_longname" : "live.numbox[6]"
+				}
+,
+				"obj-2::obj-3::obj-18::obj-38::obj-22" : 				{
+					"parameter_longname" : "live.numbox[32]"
+				}
+,
+				"obj-2::obj-3::obj-18::obj-38::obj-5" : 				{
+					"parameter_longname" : "live.text[8]"
+				}
+,
+				"obj-2::obj-3::obj-18::obj-9" : 				{
+					"parameter_longname" : "live.text[14]"
+				}
+,
+				"obj-2::obj-3::obj-2::obj-25" : 				{
+					"parameter_longname" : "live.button[31]"
+				}
+,
+				"obj-2::obj-5::obj-6::obj-15" : 				{
+					"parameter_longname" : "live.numbox[102]"
 				}
 ,
 				"obj-2::obj-5::obj-93::obj-25" : 				{

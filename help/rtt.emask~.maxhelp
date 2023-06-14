@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 100.0, 685.0, 572.0 ],
+		"rect" : [ 1284.0, 87.0, 685.0, 572.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -168,11 +168,11 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "rtt.xtra.stepgridviewer.maxpat",
-									"numinlets" : 2,
+									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 127.0, 418.0, 328.0, 16.0 ],
+									"patching_rect" : [ 158.0, 409.5, 328.0, 16.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -508,7 +508,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 37.0, 418.5, 41.0, 22.0 ],
+									"patching_rect" : [ 37.0, 409.5, 41.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -522,12 +522,13 @@
 							}
 , 							{
 								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-55",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 160.0, 447.5, 184.0, 68.0 ]
+									"patching_rect" : [ 164.0, 447.5, 184.0, 68.0 ]
 								}
 
 							}
@@ -562,18 +563,6 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 64.5, 141.0, 108.0, 25.0 ],
 									"text" : "start the clock"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-38",
-									"maxclass" : "live.scope~",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 432.0, 418.5, 187.0, 31.0 ],
-									"range" : [ -0.1, 1.1 ]
 								}
 
 							}
@@ -783,16 +772,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-22", 1 ],
-									"source" : [ "obj-10", 2 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-38", 0 ],
-									"midpoints" : [ 167.5, 402.25, 441.5, 402.25 ],
-									"order" : 0,
+									"destination" : [ "obj-22", 0 ],
+									"order" : 1,
 									"source" : [ "obj-10", 1 ]
 								}
 
@@ -801,7 +782,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-81", 0 ],
 									"midpoints" : [ 167.5, 402.75, 46.5, 402.75 ],
-									"order" : 1,
+									"order" : 0,
 									"source" : [ "obj-10", 1 ]
 								}
 
@@ -901,7 +882,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-55", 0 ],
-									"midpoints" : [ 46.5, 443.5, 169.5, 443.5 ],
+									"midpoints" : [ 46.5, 443.5, 173.5, 443.5 ],
 									"order" : 0,
 									"source" : [ "obj-81", 0 ]
 								}
@@ -939,7 +920,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 685.0, 546.0 ],
+						"rect" : [ 1284.0, 113.0, 685.0, 546.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1011,7 +992,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 301.0, 421.0, 222.0, 64.0 ],
+									"patching_rect" : [ 288.0, 421.0, 222.0, 64.0 ],
 									"text" : "use pattrstorage with @greedy 1 to create \"cues\" that save parameters across multiple seq objects in a max patch"
 								}
 
@@ -1230,7 +1211,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 297.0, 350.5, 218.0, 51.0 ],
+									"patching_rect" : [ 305.0, 350.5, 218.0, 51.0 ],
 									"text" : "to use the module, create a seq.bar patcher and give it a unique name as the first argument"
 								}
 
@@ -1520,7 +1501,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 126.0, 685.0, 546.0 ],
+						"rect" : [ 0.0, 26.0, 685.0, 546.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1573,11 +1554,11 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "rtt.xtra.stepgridviewer.maxpat",
-									"numinlets" : 2,
+									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 262.0, 394.946969696969745, 328.0, 16.0 ],
+									"patching_rect" : [ 262.0, 394.0, 328.0, 16.0 ],
 									"viewvisibility" : 1
 								}
 

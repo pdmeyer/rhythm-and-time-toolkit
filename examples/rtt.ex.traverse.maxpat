@@ -56,7 +56,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -92,13 +92,12 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 50.0, 126.608695652173907, 48.0, 22.0 ],
-									"text" : "del 100"
+									"text" : "del 250"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"hidden" : 1,
 									"id" : "obj-12",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -111,7 +110,6 @@
 							}
 , 							{
 								"box" : 								{
-									"hidden" : 1,
 									"id" : "obj-3",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -246,13 +244,13 @@
 					"restore" : 					{
 						"bpm" : [ "bpm", 120.0 ],
 						"ceiling" : [ "ceiling", 16.0 ],
-						"direction" : [ "direction", "drunk" ],
-						"floor" : [ "floor", 4.0 ],
+						"direction" : [ "direction", "forward" ],
+						"floor" : [ "floor", 2.0 ],
 						"fm_depth" : [ "depth", 0.96 ],
 						"fm_modratio" : [ 0.75 ],
 						"fm_t60" : [ "t60", 0.7 ],
 						"live.gain~" : [ 0.0 ],
-						"notes" : [ 67, 68, 65, 65, 66, 63, 67, 69, 66, 63, 66, 64, 65, 65, 63, 67 ],
+						"notes" : [ 67, 68, 68, 67, 66, 65, 63, 62, 61, 60, 60, 61, 62, 65, 69, 67 ],
 						"scale" : [ "hirajoshi.scl" ],
 						"steps" : [ "steps", 4.0 ]
 					}

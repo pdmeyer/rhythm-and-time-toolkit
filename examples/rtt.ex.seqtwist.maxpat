@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1312.0, 116.0, 438.0, 605.0 ],
+		"rect" : [ 1312.0, 116.0, 436.0, 576.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -359,7 +359,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 104.916668891906738, 344.625722543352595, 41.0, 22.0 ],
+					"patching_rect" : [ 104.916668891906738, 309.625722543352595, 41.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -386,7 +386,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 200.916668891906738, 419.333335399627686, 105.0, 23.0 ],
+					"patching_rect" : [ 200.916668891906738, 384.333335399627686, 105.0, 23.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -399,7 +399,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 218.5, 472.333335399627686, 129.416670918464661, 57.16666116721251 ],
+					"patching_rect" : [ 218.5, 437.333335399627686, 129.416670918464661, 57.16666116721251 ],
 					"pattrstorage" : "rtt.ex.seqtwist"
 				}
 
@@ -414,7 +414,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 104.916668891906738, 388.333335399627686, 121.0, 26.0 ],
+					"patching_rect" : [ 104.916668891906738, 353.333335399627686, 121.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "mc.live.gain~",
@@ -440,7 +440,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 155.5, 475.083330583606255, 56.0, 22.0 ],
+					"patching_rect" : [ 155.5, 440.083330583606255, 56.0, 22.0 ],
 					"restore" : 					{
 						"bar/bpm" : [ "bpm", 120.0 ],
 						"mc.live.gain~" : [ 0.0 ],
@@ -460,7 +460,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.166668891906738, 538.916665983233997, 302.0, 22.0 ],
+					"patching_rect" : [ 50.166668891906738, 503.916665983233997, 302.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 580, 87, 949, 304 ],
 						"parameter_enable" : 0,
@@ -489,7 +489,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "int", "bang" ],
-					"patching_rect" : [ 50.166668891906738, 468.333335399627686, 302.0, 65.583330583606255 ],
+					"patching_rect" : [ 50.166668891906738, 433.333335399627686, 302.0, 65.583330583606255 ],
 					"varname" : "rtt.xtra.pattrhelper",
 					"viewvisibility" : 1
 				}
@@ -501,7 +501,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 104.916668891906738, 419.333335399627686, 74.0, 22.0 ],
+					"patching_rect" : [ 104.916668891906738, 384.333335399627686, 74.0, 22.0 ],
 					"text" : "mc.dac~ 1 2"
 				}
 
@@ -733,7 +733,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2691", 1 ],
-					"midpoints" : [ 59.666668891906738, 570.916665983233997, 370.166668891906738, 570.916665983233997, 370.166668891906738, 457.333335399627686, 342.666668891906738, 457.333335399627686 ],
+					"midpoints" : [ 59.666668891906738, 535.916665983233997, 370.166668891906738, 535.916665983233997, 370.166668891906738, 422.333335399627686, 342.666668891906738, 422.333335399627686 ],
 					"source" : [ "obj-2666", 0 ]
 				}
 

@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 1385.0, 698.0, 894.0, 602.0 ],
-		"bglocked" : 1,
+		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -263,7 +263,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 215.833333333333371, 363.0, 80.0, 20.0 ],
+					"patching_rect" : [ 221.5, 367.0, 80.0, 20.0 ],
 					"text" : "triggers"
 				}
 
@@ -817,7 +817,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 96.0, 38.0, 165.0, 28.0 ],
-					"text" : "subdiv ratchet"
+					"text" : "Subdiv Ratchet"
 				}
 
 			}

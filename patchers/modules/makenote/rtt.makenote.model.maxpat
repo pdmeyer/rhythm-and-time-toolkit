@@ -217,7 +217,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 36.0, 298.0, 125.0, 22.0 ],
 					"text" : "rtt.module.attrchecker"
 				}
@@ -258,7 +258,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 433.0, 298.0, 158.0, 22.0 ],
-					"restore" : [ "from Max 2" ],
+					"restore" : [ "from Max 1" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -357,7 +357,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 344.761589403973517, 315.0, 30.0, 30.0 ]
 				}
 
@@ -370,7 +370,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 278.5, 315.0, 30.0, 30.0 ]
 				}
 
@@ -383,7 +383,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 245.25, 315.0, 30.0, 30.0 ]
 				}
 
@@ -394,7 +394,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 212.0, 408.0, 47.0, 22.0 ],
+					"patching_rect" : [ 344.761589403973517, 404.0, 47.0, 22.0 ],
 					"text" : "midiout"
 				}
 
@@ -424,7 +424,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 212.0, 5.0, 30.0, 30.0 ]
 				}
 
@@ -595,7 +595,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"source" : [ "obj-4", 0 ]
+					"source" : [ "obj-4", 2 ]
 				}
 
 			}

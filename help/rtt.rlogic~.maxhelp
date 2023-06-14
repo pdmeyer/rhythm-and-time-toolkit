@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 100.0, 593.0, 599.0 ],
+		"rect" : [ 1381.0, 100.0, 593.0, 599.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 126.0, 593.0, 573.0 ],
+						"rect" : [ 0.0, 26.0, 593.0, 573.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -641,7 +641,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 593.0, 573.0 ],
+						"rect" : [ 1381.0, 126.0, 593.0, 573.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -753,22 +753,6 @@
 							}
 , 							{
 								"box" : 								{
-									"fontface" : 0,
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-12",
-									"maxclass" : "number~",
-									"mode" : 2,
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 20.833333333333329, 524.0, 56.0, 22.0 ],
-									"sig" : 0.0
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-76",
@@ -783,6 +767,7 @@
 							}
 , 							{
 								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-74",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,
@@ -1191,6 +1176,7 @@
 							}
 , 							{
 								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-31",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,
@@ -1203,6 +1189,7 @@
 							}
 , 							{
 								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-19",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,
@@ -1215,6 +1202,7 @@
 							}
 , 							{
 								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-4",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,
@@ -1359,18 +1347,6 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 49.333333333333329, 126.0, 87.999999999999986, 25.0 ],
 									"text" : "start clock"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-38",
-									"maxclass" : "live.scope~",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 20.833333333333329, 489.0, 160.0, 30.0 ],
-									"range" : [ -0.1, 1.1 ]
 								}
 
 							}
@@ -1550,26 +1526,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
-									"order" : 0,
-									"source" : [ "obj-25", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-31", 0 ],
-									"hidden" : 1,
 									"source" : [ "obj-25", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-38", 0 ],
-									"hidden" : 1,
-									"order" : 1,
-									"source" : [ "obj-25", 0 ]
 								}
 
 							}
@@ -1742,7 +1700,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "live.menu[19]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "and", "or", "not", "xor", "left", "right" ],
+					"parameter_range" : [ "and", "or", "not", "xor", "left", "right", "xlor", "rxor" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -1761,6 +1719,18 @@
 ,
 				"obj-6::obj-6::obj-18::obj-28::obj-22" : 				{
 					"parameter_longname" : "live.menu[1]"
+				}
+,
+				"obj-6::obj-6::obj-18::obj-28::obj-3" : 				{
+					"parameter_longname" : "live.menu[32]"
+				}
+,
+				"obj-6::obj-6::obj-18::obj-9" : 				{
+					"parameter_longname" : "live.text[42]"
+				}
+,
+				"obj-6::obj-6::obj-2::obj-25" : 				{
+					"parameter_longname" : "live.button[1]"
 				}
 
 			}

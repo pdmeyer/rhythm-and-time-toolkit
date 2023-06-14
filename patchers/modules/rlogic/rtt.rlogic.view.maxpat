@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 464.0, 87.0, 553.0, 689.0 ],
+		"rect" : [ 1594.0, 325.0, 553.0, 689.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -59,7 +59,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[42]",
+							"parameter_longname" : "live.text[16]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -103,7 +103,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button[43]",
+							"parameter_longname" : "live.button[39]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
@@ -151,7 +151,7 @@
 					"patching_rect" : [ 165.0, 108.75, 70.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.400014460086823, 2.0, 69.5, 18.0 ],
-					"text" : "mhelp.rlogic",
+					"text" : "rlogic-help",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -199,7 +199,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 87.0, 969.0, 779.0 ],
+						"rect" : [ 1503.0, 591.0, 537.0, 296.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -272,8 +272,8 @@
 										}
 ,
 										"valueof" : 										{
-											"parameter_enum" : [ "and", "or", "not", "xor", "left", "right", "lxor", "rxor" ],
-											"parameter_longname" : "live.menu[32]",
+											"parameter_enum" : [ "and", "or", "not", "xor", "left", "right", "xlor", "rxor" ],
+											"parameter_longname" : "live.menu[19]",
 											"parameter_mmax" : 7,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2
@@ -377,7 +377,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "gate", "accum_event" ],
-											"parameter_longname" : "live.menu[29]",
+											"parameter_longname" : "live.menu[20]",
 											"parameter_mmax" : 1,
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2

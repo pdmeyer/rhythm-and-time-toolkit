@@ -1,1 +1,0 @@
-max objectfile mc.seq.dist~ mc.wrapper~ seq.dist~;

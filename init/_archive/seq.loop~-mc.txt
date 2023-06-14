@@ -1,1 +1,0 @@
-max objectfile mc.seq.loop~ mc.wrapper~ seq.loop~;

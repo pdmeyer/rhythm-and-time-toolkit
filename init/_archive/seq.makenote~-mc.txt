@@ -1,1 +1,0 @@
-max objectfile mc.seq.makenote~ mc.wrapper~ seq.makenote~;

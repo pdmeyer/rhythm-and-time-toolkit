@@ -1,1 +1,0 @@
-max objectfile mc.seq.retrig~ mc.wrapper~ seq.retrig~;

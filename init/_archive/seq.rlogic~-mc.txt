@@ -1,1 +1,0 @@
-max objectfile mc.seq.rlogic~ mc.wrapper~ seq.rlogic~;

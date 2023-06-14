@@ -1,1 +1,0 @@
-max objectfile mc.seq.euclidean~ mc.wrapper~ seq.euclidean~;

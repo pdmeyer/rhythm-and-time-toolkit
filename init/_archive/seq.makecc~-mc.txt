@@ -1,1 +1,0 @@
-max objectfile mc.seq.makecc~ mc.wrapper~ seq.makecc~;

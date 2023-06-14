@@ -1,1 +1,0 @@
-max objectfile mc.seq.notes~ mc.wrapper~ seq.notes~;

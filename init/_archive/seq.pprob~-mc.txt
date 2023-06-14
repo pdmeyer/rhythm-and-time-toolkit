@@ -1,1 +1,0 @@
-max objectfile mc.seq.pprob~ mc.wrapper~ seq.pprob~;

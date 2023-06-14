@@ -1,1 +1,0 @@
-max objectfile mc.seq.divs~ mc.wrapper~ seq.divs~;

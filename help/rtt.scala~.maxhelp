@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1357.0, 146.0, 592.0, 598.0 ],
+		"rect" : [ 1449.0, 787.0, 592.0, 598.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1299,7 +1299,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1357.0, 172.0, 592.0, 572.0 ],
+						"rect" : [ 1449.0, 813.0, 592.0, 572.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1330,6 +1330,35 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 119.009684264659882, 467.0, 144.0, 22.0 ],
+									"text" : "Make Your Own Scales",
+									"textoncolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"hidden" : 1,
+									"id" : "obj-19",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 351.009684264659882, 522.0, 298.0, 35.0 ],
+									"presentation_linecount" : 2,
+									"text" : ";\rmax launchbrowser https://sevish.com/scaleworkshop/"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-13",
 									"linecount" : 4,
 									"maxclass" : "message",
@@ -1337,7 +1366,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 378.5, 328.0, 132.509684264659882, 62.0 ],
-									"text" : "11 175. 0. 275. 0. 425. 0. 475. 0. 525. 0. 675. 0. 725. 0. 925. 0. 975. 0. 1100. 0. 2 1"
+									"text" : "7 128.298 0. 276.357 0. 545.806 0. 669.366 0. 784.692 0. 967.096 0. 2 1"
 								}
 
 							}
@@ -1348,7 +1377,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 310.009684264659882, 420.0, 201.0, 60.0 ],
+									"patching_rect" : [ 344.254842132329941, 428.0, 201.0, 60.0 ],
 									"text" : "rtt.makenote~ handles the mapped MIDI notes automatically - digits to the right of the decimal point are sent as pitch bend"
 								}
 
@@ -1543,7 +1572,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 259.0, 467.0, 47.0, 22.0 ],
+									"patching_rect" : [ 289.009684264659882, 467.0, 47.0, 22.0 ],
 									"text" : "midiout"
 								}
 
@@ -1641,7 +1670,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 27.709668636322021, 501.0, 317.0, 35.0 ],
+									"patching_rect" : [ 27.709668636322021, 522.0, 317.0, 35.0 ],
 									"text" : ";\rmax launchbrowser https://www.huygens-fokker.org/scala/"
 								}
 
@@ -2087,6 +2116,14 @@
 									"destination" : [ "obj-21", 0 ],
 									"hidden" : 1,
 									"source" : [ "obj-69", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"hidden" : 1,
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}

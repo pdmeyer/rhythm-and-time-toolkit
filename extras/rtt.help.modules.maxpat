@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1417.0, 361.0, 1011.0, 696.0 ],
+		"rect" : [ 1263.0, 87.0, 1008.0, 695.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1011.0, 670.0 ],
+						"rect" : [ 0.0, 26.0, 1008.0, 669.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -615,7 +615,7 @@
 									"numoutlets" : 4,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 399.0, 105.0, 258.0, 61.0 ],
+									"patching_rect" : [ 399.0, 105.0, 257.0, 57.774514198303223 ],
 									"varname" : "mhelp.binary",
 									"viewvisibility" : 1
 								}
@@ -1366,7 +1366,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1417.0, 387.0, 1011.0, 670.0 ],
+						"rect" : [ 1263.0, 113.0, 1008.0, 669.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1408,10 +1408,10 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 594.666660070419312, 530.282608695652243, 204.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 580, 87, 949, 304 ],
+										"client_rect" : [ 534, 298, 1279, 875 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 583, 69, 1034, 197 ]
+										"storage_rect" : [ 583, 87, 1081, 651 ]
 									}
 ,
 									"text" : "pattrstorage module-help @greedy 1",
@@ -2059,7 +2059,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1011.0, 670.0 ],
+						"rect" : [ 0.0, 26.0, 1008.0, 669.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2095,7 +2095,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 174.0, 523.0, 97.0, 22.0 ],
+									"patching_rect" : [ 215.333333333333343, 521.0, 97.0, 22.0 ],
 									"text" : "routepass length"
 								}
 
@@ -2263,7 +2263,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 74.0, 523.0, 56.0, 22.0 ],
+									"patching_rect" : [ 115.333333333333343, 521.0, 56.0, 22.0 ],
 									"sig" : 0.0
 								}
 
@@ -2309,7 +2309,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 416.666666666666686, 551.0, 81.0, 29.934782608695656 ],
+									"patching_rect" : [ 458.0, 549.0, 81.0, 29.934782608695656 ],
 									"range" : [ -10.0, 137.0 ]
 								}
 
@@ -2330,7 +2330,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 50.0, 565.0, 111.0, 78.0 ],
+									"patching_rect" : [ 91.333333333333343, 563.0, 111.0, 78.0 ],
 									"varname" : "mex.makenote",
 									"viewvisibility" : 1
 								}
@@ -2366,7 +2366,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 365.0, 314.0, 294.0, 105.0 ],
+									"patching_rect" : [ 406.333333333333371, 312.0, 294.0, 105.0 ],
 									"varname" : "mex.rt-speed",
 									"viewvisibility" : 1
 								}
@@ -2389,7 +2389,7 @@
 									"numoutlets" : 4,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 334.0, 442.0, 144.0, 104.0 ],
+									"patching_rect" : [ 375.333333333333371, 440.0, 144.0, 104.0 ],
 									"varname" : "retrig",
 									"viewvisibility" : 1
 								}
@@ -2412,7 +2412,7 @@
 									"numoutlets" : 4,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 50.0, 436.0, 143.0, 78.0 ],
+									"patching_rect" : [ 91.333333333333343, 434.0, 143.0, 78.0 ],
 									"varname" : "mex.scale",
 									"viewvisibility" : 1
 								}
@@ -2429,7 +2429,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 195.0, 427.0, 56.0, 22.0 ],
+									"patching_rect" : [ 236.333333333333343, 425.0, 56.0, 22.0 ],
 									"sig" : 0.0
 								}
 
@@ -2451,7 +2451,7 @@
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 50.0, 314.0, 294.0, 105.0 ],
+									"patching_rect" : [ 91.333333333333343, 312.0, 294.0, 105.0 ],
 									"varname" : "mex.notes",
 									"viewvisibility" : 1
 								}
@@ -2512,7 +2512,6 @@
 										"mex.clock::m::transportstate" : 0
 									}
 ,
-									"autorestore" : "seq.help.modules.json",
 									"id" : "obj-6",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -2528,10 +2527,10 @@
 									}
 ,
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 580, 87, 949, 304 ],
+										"client_rect" : [ 534, 298, 1279, 875 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 583, 69, 1034, 197 ]
+										"storage_rect" : [ 583, 87, 1081, 651 ]
 									}
 ,
 									"text" : "pattrstorage seq.help.modules @savemode 2 @greedy 1",
@@ -3074,7 +3073,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-47", 0 ],
-									"midpoints" : [ 183.5, 555.0, 37.5, 555.0, 37.5, 303.0, 59.5, 303.0 ],
+									"midpoints" : [ 224.833333333333343, 553.0, 78.833333333333343, 553.0, 78.833333333333343, 301.0, 100.833333333333343, 301.0 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -3506,6 +3505,18 @@
 ,
 				"obj-1::obj-118::obj-2::obj-25" : 				{
 					"parameter_longname" : "live.button[80]"
+				}
+,
+				"obj-1::obj-118::obj-7::obj-1::obj-3::obj-16" : 				{
+					"parameter_longname" : "live.menu[13]"
+				}
+,
+				"obj-1::obj-118::obj-7::obj-1::obj-3::obj-18" : 				{
+					"parameter_longname" : "live.menu[15]"
+				}
+,
+				"obj-1::obj-118::obj-7::obj-1::obj-3::obj-22" : 				{
+					"parameter_longname" : "live.menu[14]"
 				}
 ,
 				"obj-1::obj-118::obj-7::obj-2" : 				{
@@ -4059,6 +4070,14 @@
 ,
 				"obj-1::obj-89::obj-6::obj-2" : 				{
 					"parameter_longname" : "live.button[69]"
+				}
+,
+				"obj-1::obj-89::obj-6::obj-28::obj-18" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_range" : [ "both", "counter", "trigger" ],
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
 				}
 ,
 				"obj-1::obj-89::obj-6::obj-28::obj-22" : 				{
@@ -5024,13 +5043,6 @@
 , 			{
 				"name" : "rtt.swing~.mxo",
 				"type" : "iLaX"
-			}
-, 			{
-				"name" : "seq.help.modules.json",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/pattrstorage/_archive",
-				"patcherrelativepath" : "../misc/pattrstorage/_archive",
-				"type" : "JSON",
-				"implicit" : 1
 			}
 , 			{
 				"name" : "tri-down.svg",

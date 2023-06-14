@@ -109,7 +109,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "none", "input", "step", "event", "eventcount", "gate" ],
-							"parameter_longname" : "live.menu[14]",
+							"parameter_longname" : "live.menu[11]",
 							"parameter_mmax" : 5,
 							"parameter_shortname" : "live.menu",
 							"parameter_type" : 2
@@ -146,8 +146,8 @@
 					"presentation_rect" : [ 97.400014460086823, 3.25, 51.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "trigger", "change", "count" ],
-							"parameter_longname" : "live.menu[15]",
+							"parameter_enum" : [ "both", "counter", "trigger" ],
+							"parameter_longname" : "live.menu[10]",
 							"parameter_mmax" : 2,
 							"parameter_shortname" : "live.menu",
 							"parameter_type" : 2
@@ -185,7 +185,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "index", "norm" ],
-							"parameter_longname" : "live.menu[13]",
+							"parameter_longname" : "live.menu[12]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.menu",
 							"parameter_type" : 2

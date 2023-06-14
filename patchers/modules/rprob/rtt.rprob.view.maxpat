@@ -117,7 +117,7 @@
 									"presentation_rect" : [ 0.900014460086823, 22.5, 29.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.numbox",
+											"parameter_longname" : "live.numbox[108]",
 											"parameter_mmax" : 256.0,
 											"parameter_mmin" : 1.0,
 											"parameter_shortname" : "live.numbox",
@@ -307,7 +307,7 @@
 									"presentation_rect" : [ 37.700023829936981, 46.25, 47.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "trigger", "change", "count" ],
+											"parameter_enum" : [ "both", "counter", "trigger" ],
 											"parameter_longname" : "live.menu[17]",
 											"parameter_mmax" : 2,
 											"parameter_shortname" : "live.menu",
@@ -525,7 +525,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button[8]",
+							"parameter_longname" : "live.button[69]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
@@ -598,7 +598,7 @@
 					"patching_rect" : [ 204.966666666666583, 150.0, 73.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 1.0, 101.0, 18.0 ],
-					"text" : "rprob-help",
+					"text" : "mhelp.rprob",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 

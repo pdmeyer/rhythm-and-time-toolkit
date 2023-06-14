@@ -212,13 +212,13 @@
 					"numinlets" : 3,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "signal", "" ],
-					"patching_rect" : [ 442.100000000000023, 324.0, 278.0, 22.0 ],
+					"patching_rect" : [ 442.100000000000023, 324.0, 283.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "rtt.euclidean~ @steps 8 @events 5 @trigger count"
+					"text" : "rtt.euclidean~ @steps 8 @events 5 @trigger trigger"
 				}
 
 			}
@@ -893,7 +893,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 1 ],
-					"midpoints" : [ 185.199999999999989, 272.110822200775146, 581.100000000000023, 272.110822200775146 ],
+					"midpoints" : [ 185.199999999999989, 272.110822200775146, 583.600000000000023, 272.110822200775146 ],
 					"order" : 0,
 					"source" : [ "obj-5", 2 ]
 				}

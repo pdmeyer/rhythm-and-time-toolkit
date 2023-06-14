@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1324.0, 87.0, 709.0, 725.0 ],
+		"rect" : [ 1324.0, 87.0, 888.0, 725.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 709.0, 699.0 ],
+						"rect" : [ 0.0, 26.0, 888.0, 699.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -137,7 +137,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 483.833333333333314, 470.000000000000057, 80.0, 22.0 ],
+									"patching_rect" : [ 487.833333333333314, 470.000000000000057, 80.0, 22.0 ],
 									"text" : "loadmess 0.5"
 								}
 
@@ -243,13 +243,13 @@
 									"numinlets" : 4,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 362.833333333333314, 501.0, 140.0, 22.0 ],
+									"patching_rect" : [ 362.833333333333314, 501.0, 144.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "rtt.rprob~ @trigger count"
+									"text" : "rtt.rprob~ @trigger trigger"
 								}
 
 							}
@@ -598,7 +598,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1324.0, 113.0, 709.0, 699.0 ],
+						"rect" : [ 0.0, 26.0, 888.0, 699.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1675,8 +1675,8 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 709.0, 699.0 ],
-						"bglocked" : 1,
+						"rect" : [ 1324.0, 113.0, 888.0, 699.0 ],
+						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
@@ -1803,7 +1803,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 488.600000000000023, 261.271739130434753, 150.0, 20.0 ],
+									"patching_rect" : [ 488.600000000000023, 261.271739130434753, 123.0, 20.0 ],
 									"text" : "trigger to reset count"
 								}
 
@@ -1985,7 +1985,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 57.600000000000009, 476.0, 110.0, 18.0 ],
+									"patching_rect" : [ 493.600000000000023, 641.0, 110.0, 18.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1999,8 +1999,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 620.0, 340.771739130434753, 268.0, 150.0 ],
-									"text" : "1st outlet - \"Counter\"-style signal that depends on outputmode (see Modes tab). Deactivated steps are always 0\n\n2nd outlet - Trigger for activated steps\n\n3rd outlet - Current step being evaluated (0-origin). Useful mainly for visualizers\n\n4th outlet - The pattern as a list of 0s and 1s."
+									"patching_rect" : [ 333.0, 437.0, 268.0, 150.0 ],
+									"text" : "1st outlet - \"Counter\"-style signal that depends on output mode (see Modes tab). Deactivated steps are always 0\n\n2nd outlet - Trigger for activated steps\n\n3rd outlet - Current step being evaluated (0-origin). Useful mainly for visualizers\n\n4th outlet - The pattern as a list of 0s and 1s."
 								}
 
 							}
@@ -2013,7 +2013,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 620.0, 317.271739130434753, 216.0, 28.0 ],
+									"patching_rect" : [ 333.0, 413.5, 216.0, 28.0 ],
 									"text" : "Outlets"
 								}
 
@@ -2023,12 +2023,12 @@
 									"background" : 1,
 									"fontname" : "Lato",
 									"id" : "obj-33",
-									"linecount" : 14,
+									"linecount" : 15,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 620.0, 73.0, 265.0, 208.0 ],
-									"text" : "The behavior of each inlet depends on the countermode, triggermode, and outputmode parameters (see \"Modes\" tab of this patch.\n\nMost of the time, the default modes work great. \n\n1st inlet - for advancing the pattern to the next step (depends on countermode and triggermode)\n\n2nd inlet - for prompting a step to be evaluated (depends on triggermode)\n\n3rd inlet - for resetting an event count (depends on outputmode)"
+									"patching_rect" : [ 57.600000000000009, 437.0, 265.0, 222.0 ],
+									"text" : "The behavior of each inlet depends on the counter, trigger, and output parameters (see \"Modes\" tab of this patch.\n\nMost of the time, the default modes work great. \n\n1st inlet - for advancing the pattern to the next step (depends on counter mode and trigger mode)\n\n2nd inlet - for prompting a step to be evaluated (depends on trigger mode)\n\n3rd inlet - for resetting an event count (depends on output mode)"
 								}
 
 							}
@@ -2041,7 +2041,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 620.0, 50.5, 208.0, 28.0 ],
+									"patching_rect" : [ 57.600000000000009, 413.5, 208.0, 28.0 ],
 									"text" : "Inlets"
 								}
 
@@ -2226,8 +2226,8 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 709.0, 699.0 ],
-						"bglocked" : 1,
+						"rect" : [ 0.0, 26.0, 888.0, 699.0 ],
+						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
@@ -2422,7 +2422,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 64.0, 343.0, 175.0, 21.0 ],
-									"text" : "default: change"
+									"text" : "default: counter"
 								}
 
 							}
@@ -2593,7 +2593,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 548.0, 259.5, 383.0, 150.0 ],
-									"text" : "trigger = evaluate the step whenever a trigger is received at the second inlet, using the value at the first inlet as the step index. useful with random counters that might repeat the same step twice\n\nchange = evaluate the step whenever the step value (first inlet) changes. useful with simple rising or falling counters.\n\ncount = ignore the first inlet. evaulate the step upon a trigger at the second inlet and derive the current step value by second-inlet counting triggers"
+									"text" : "both = evaluate the step whenever a trigger is received at the second inlet, using the value at the first inlet as the step index. useful with random counters that might repeat the same step twice\n\ncounter = evaluate the step whenever the step value (first inlet) changes. useful with simple rising or falling counters.\n\ntrigger = ignore the first inlet. evaulate the step upon a trigger at the second inlet and derive the current step value by second-inlet counting triggers"
 								}
 
 							}

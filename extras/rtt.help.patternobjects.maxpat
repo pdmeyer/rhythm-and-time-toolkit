@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1324.0, 87.0, 957.0, 725.0 ],
+		"rect" : [ 1324.0, 87.0, 709.0, 725.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1324.0, 113.0, 957.0, 699.0 ],
+						"rect" : [ 0.0, 26.0, 709.0, 699.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -381,7 +381,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 173.666666666666657, 494.5, 166.0, 33.0 ],
+									"patching_rect" : [ 173.666666666666657, 494.5, 169.0, 33.0 ],
 									"text" : "rlogic: compares two patterns with boolean operators"
 								}
 
@@ -420,7 +420,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 323.666666666666629, 271.5, 119.0, 47.0 ],
+									"patching_rect" : [ 323.666666666666629, 271.5, 121.0, 47.0 ],
 									"text" : "retrig: an event modifier that creates retriggers or ratchets"
 								}
 
@@ -598,7 +598,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 957.0, 699.0 ],
+						"rect" : [ 1324.0, 113.0, 709.0, 699.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1675,7 +1675,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 957.0, 699.0 ],
+						"rect" : [ 0.0, 26.0, 709.0, 699.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1746,20 +1746,6 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 59.600000000000001, 352.271739130434753, 150.0, 20.0 ],
 									"text" : "counter"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Lato",
-									"hidden" : 1,
-									"id" : "obj-30",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 208.0, 146.0, 163.0, 23.0 ],
-									"text" : "loadmess triggermode trigger"
 								}
 
 							}
@@ -1973,13 +1959,13 @@
 									"numinlets" : 3,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 57.600000000000001, 283.271739130434753, 518.0, 22.0 ],
+									"patching_rect" : [ 57.600000000000001, 283.271739130434753, 518.000000000000114, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "rtt.binary~ @seed 858"
+									"text" : "rtt.binary~ @seed 858 @trigger trigger"
 								}
 
 							}
@@ -2208,14 +2194,6 @@
 								}
 
 							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-14", 0 ],
-									"hidden" : 1,
-									"source" : [ "obj-30", 0 ]
-								}
-
-							}
  ]
 					}
 ,
@@ -2248,7 +2226,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 957.0, 699.0 ],
+						"rect" : [ 0.0, 26.0, 709.0, 699.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,

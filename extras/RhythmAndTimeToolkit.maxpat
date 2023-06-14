@@ -510,7 +510,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "rtt.launcher.tabs.maxpat",
+									"name" : "rtt.misc.tabs.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
@@ -536,7 +536,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "rtt.launcher.tabs.maxpat",
+									"name" : "rtt.misc.tabs.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
@@ -652,7 +652,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "rtt.launcher.tabs.maxpat",
+									"name" : "rtt.misc.tabs.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
@@ -677,7 +677,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "rtt.launcher.tabs.maxpat",
+									"name" : "rtt.misc.tabs.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
@@ -2153,7 +2153,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "rtt.launcher.tabs.maxpat",
+									"name" : "rtt.misc.tabs.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
@@ -2176,7 +2176,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "rtt.launcher.tabs.maxpat",
+									"name" : "rtt.misc.tabs.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
@@ -2364,7 +2364,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "rtt.launcher.tabs.maxpat",
+									"name" : "rtt.misc.tabs.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
@@ -2387,7 +2387,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "rtt.launcher.tabs.maxpat",
+									"name" : "rtt.misc.tabs.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
@@ -2410,7 +2410,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "rtt.launcher.tabs.maxpat",
+									"name" : "rtt.misc.tabs.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
@@ -2433,7 +2433,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "rtt.launcher.tabs.maxpat",
+									"name" : "rtt.misc.tabs.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
@@ -2456,7 +2456,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 1,
 									"maxclass" : "bpatcher",
-									"name" : "rtt.launcher.tabs.maxpat",
+									"name" : "rtt.misc.tabs.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
@@ -3499,19 +3499,19 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "rtt.launcher.tabs.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
-				"patcherrelativepath" : "../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "rtt.loop~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "rtt.makenote~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rtt.misc.tabs.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.rprob~.mxo",

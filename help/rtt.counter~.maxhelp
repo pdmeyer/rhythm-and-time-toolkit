@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 100.0, 652.0, 612.0 ],
+		"rect" : [ 1550.0, 87.0, 652.0, 612.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -286,7 +286,6 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "",
@@ -920,7 +919,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 126.0, 652.0, 586.0 ],
+						"rect" : [ 0.0, 26.0, 652.0, 586.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2141,7 +2140,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 10.0, 69.599853515625, 587.0, 50.0 ],
+									"patching_rect" : [ 10.0, 69.599853515625, 590.0, 50.0 ],
 									"text" : "The \"infinite\" attribute ignores the floor, ceiling, and direction attributes and just counts upward until a pulse is received at the second inlet. Here's we're using this capability to loop around a pattern of arbitrary length.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -2592,10 +2591,10 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 40.0, 437.0, 249.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 809, 112, 1355, 911 ],
+										"client_rect" : [ 580, 87, 949, 304 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 583, 87, 1081, 651 ]
+										"storage_rect" : [ 583, 69, 1034, 197 ]
 									}
 ,
 									"text" : "pattrstorage counter-help-storage @greedy 1",
@@ -3055,7 +3054,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 652.0, 586.0 ],
+						"rect" : [ 1550.0, 113.0, 652.0, 586.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,

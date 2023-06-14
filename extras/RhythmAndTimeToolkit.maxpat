@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1431.0, 676.0, 842.0, 675.0 ],
+		"rect" : [ 1329.0, 718.0, 842.0, 675.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -910,7 +910,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1431.0, 702.0, 842.0, 649.0 ],
+						"rect" : [ 1329.0, 744.0, 842.0, 649.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2392,7 +2392,7 @@
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "", "int" ],
-									"patching_rect" : [ 405.0, 160.5, 122.0, 114.0 ],
+									"patching_rect" : [ 405.989270000000033, 160.5, 122.0, 114.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2859,8 +2859,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 123.0, 304.0, 22.0 ],
-													"text" : "output input, trigger change, message probabilities 0.75"
+													"patching_rect" : [ 50.0, 88.0, 221.0, 22.0 ],
+													"text" : "output input, message probabilities 0.75"
 												}
 
 											}
@@ -2871,7 +2871,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 184.0, 147.0, 88.0, 22.0 ],
+													"patching_rect" : [ 184.0, 168.0, 88.0, 22.0 ],
 													"text" : "rtt.scala.parser"
 												}
 

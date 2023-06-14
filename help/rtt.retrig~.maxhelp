@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1399.0, 89.0, 639.0, 591.0 ],
+		"rect" : [ 1580.0, 88.0, 639.0, 591.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1399.0, 115.0, 639.0, 565.0 ],
+						"rect" : [ 0.0, 26.0, 639.0, 565.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1580,7 +1580,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 43.5, 292.314837336576375, 126.0, 23.185162663423625 ],
+									"patching_rect" : [ 43.5, 303.0, 126.0, 23.185162663423625 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -1683,7 +1683,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 43.5, 317.5, 126.0, 23.185162663423569 ],
+									"patching_rect" : [ 43.5, 329.5, 126.0, 23.185162663423569 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -1718,7 +1718,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 39.0, 373.0, 146.0, 22.0 ],
+									"patching_rect" : [ 39.0, 378.0, 146.0, 22.0 ],
 									"text" : "rtt.retrig retrig-help-2",
 									"varname" : "retrig-help-2"
 								}
@@ -1889,7 +1889,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 192.5, 360.5, 218.0, 47.0 ],
+									"patching_rect" : [ 192.5, 365.5, 218.0, 47.0 ],
 									"text" : "to use the module, create a rtt.retrig patcher and give it a unique name as the first argument"
 								}
 
@@ -1960,7 +1960,7 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
-									"midpoints" : [ 326.5, 356.0, 26.5, 356.0, 26.5, 188.0, 44.5, 188.0 ],
+									"midpoints" : [ 326.5, 358.0, 26.5, 358.0, 26.5, 188.0, 44.5, 188.0 ],
 									"source" : [ "obj-10", 0 ]
 								}
 
@@ -2940,7 +2940,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 639.0, 565.0 ],
+						"rect" : [ 1580.0, 114.0, 639.0, 565.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,

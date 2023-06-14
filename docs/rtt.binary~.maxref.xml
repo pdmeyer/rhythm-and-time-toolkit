@@ -35,41 +35,41 @@
 	</attributelist>
 </attribute>
 <attribute name="trigger" get="1" set="1" size="1" type="float64">
-	<digest>Determines how the object responds to signals to the first and second inlets.</digest>
-	<attributelist>
-	    <attribute name="default" get="1" set="1" type="int" size="1" value="1" />
-	    <attribute name="enumvals" get="1" set="1" type="atom" size="3">
-	        <enumlist>
-	            <enum name="trigger">
-	                <digest>
-	                    Counter and trigger
-	                </digest>
-	                <description>
-	                    A trigger is required at the second inlet to evaluate a new step in the pattern. The value at the first inlet is used to select the step to be evaulated.
-	                </description>
-	            </enum>
-	            <enum name="change">
-	                <digest>
-	                    Counter only
-	                </digest>
-	                <description>
-	                    A new step in the pattern is evaluated any time the signal value at the first inlet changes.
-	                </description>
-	            </enum>
-	            <enum name="count">
-	                <digest>
-	                    Trigger only
-	                </digest>
-	                <description>
-	                    The first inlet is ignored. A trigger at the second inlet causes a step to be evaluated, and the step is chosen by keeping a running count of triggers received at the second inlet.
-	                </description>
-	            </enum>
-	        </enumlist>
-	    </attribute>
-	    <attribute name="label" get="1" set="1" type="symbol" size="1" value="Trigger Mode" />
-	    <attribute name="style" get="1" set="1" type="symbol" size="1" value="enumindex" />
-	</attributelist>
-	</attribute>
+<digest>Determines how the object responds to signals to the first and second inlets.</digest>
+<attributelist>
+    <attribute name="default" get="1" set="1" type="int" size="1" value="1" />
+    <attribute name="enumvals" get="1" set="1" type="atom" size="3">
+        <enumlist>
+            <enum name="both">
+                <digest>
+                    Counter and trigger
+                </digest>
+                <description>
+                    A trigger is required at the second inlet to evaluate a new step in the pattern. The value at the first inlet is used to select the step to be evaulated.
+                </description>
+            </enum>
+            <enum name="counter">
+                <digest>
+                    Counter only
+                </digest>
+                <description>
+                    A new step in the pattern is evaluated any time the signal value at the first inlet changes.
+                </description>
+            </enum>
+            <enum name="trigger">
+                <digest>
+                    Trigger only
+                </digest>
+                <description>
+                    The first inlet is ignored. A trigger at the second inlet causes a step to be evaluated, and the step is chosen by keeping a running count of triggers received at the second inlet.
+                </description>
+            </enum>
+        </enumlist>
+    </attribute>
+    <attribute name="label" get="1" set="1" type="symbol" size="1" value="Trigger Mode" />
+    <attribute name="style" get="1" set="1" type="symbol" size="1" value="enumindex" />
+</attributelist>
+</attribute>
 <attribute name="output" get="1" set="1" size="1" type="float64">
 	<digest>Determines how the output of the first outlet represents the pattern’s position. For non-activated steps, the output is always 0.</digest>
 	<attributelist>
@@ -150,4 +150,7 @@
         <seealso name="rtt.pprob~" />
     </seealsolist>
 </seealsolist>
+<metadatalist>
+    <metadata name='author'>Philip Meyer</metadata>
+</metadatalist>
 </c74object>

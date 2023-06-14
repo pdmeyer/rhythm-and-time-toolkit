@@ -74,7 +74,7 @@
     <attribute name="default" get="1" set="1" type="int" size="1" value="1" />
     <attribute name="enumvals" get="1" set="1" type="atom" size="3">
         <enumlist>
-            <enum name="trigger">
+            <enum name="both">
                 <digest>
                     Counter and trigger
                 </digest>
@@ -82,7 +82,7 @@
                     A trigger is required at the second inlet to evaluate a new step in the pattern. The value at the first inlet is used to select the step to be evaulated.
                 </description>
             </enum>
-            <enum name="change">
+            <enum name="counter">
                 <digest>
                     Counter only
                 </digest>
@@ -90,7 +90,7 @@
                     A new step in the pattern is evaluated any time the signal value at the first inlet changes.
                 </description>
             </enum>
-            <enum name="count">
+            <enum name="trigger">
                 <digest>
                     Trigger only
                 </digest>

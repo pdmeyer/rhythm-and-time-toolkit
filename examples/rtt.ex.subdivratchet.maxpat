@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 1385.0, 698.0, 894.0, 602.0 ],
-		"bglocked" : 0,
+		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -354,13 +354,13 @@
 					"numinlets" : 3,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "signal", "" ],
-					"patching_rect" : [ 625.0, 235.0, 198.5, 35.0 ],
+					"patching_rect" : [ 625.0, 235.0, 217.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "rtt.euclidean~ @steps 16 @events 7 @trigger count @output gate"
+					"text" : "rtt.euclidean~ @steps 16 @events 7 @trigger trigger @output gate"
 				}
 
 			}
@@ -424,13 +424,13 @@
 					"numinlets" : 3,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "signal", "" ],
-					"patching_rect" : [ 374.999999999999943, 257.5, 181.000000000000171, 35.0 ],
+					"patching_rect" : [ 374.999999999999943, 257.5, 181.000000000000057, 35.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "rtt.euclidean~ @steps 11 @events 7 @trigger count"
+					"text" : "rtt.euclidean~ @steps 11 @events 7 @trigger trigger"
 				}
 
 			}
@@ -978,7 +978,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-33", 1 ],
-					"midpoints" : [ 80.299999999999997, 215.5, 724.25, 215.5 ],
+					"midpoints" : [ 80.299999999999997, 215.5, 733.5, 215.5 ],
 					"source" : [ "obj-4", 2 ]
 				}
 

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1329.0, 718.0, 842.0, 675.0 ],
+		"rect" : [ 368.0, 60.0, 842.0, 675.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -910,7 +910,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1329.0, 744.0, 842.0, 649.0 ],
+						"rect" : [ 368.0, 86.0, 842.0, 649.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1508,7 +1508,7 @@
 													"bgfillcolor_proportion" : 0.5,
 													"bgfillcolor_type" : "color",
 													"id" : "obj-42",
-													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
+													"items" : [ "AU DLS Synth 1", ",", "Network Session 1", ",", "Scarlett 18i20 USB", ",", "from Max 1", ",", "from Max 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -1569,6 +1569,7 @@
 							}
 , 							{
 								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-91",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,
@@ -1694,6 +1695,7 @@
 							}
 , 							{
 								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-53",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,
@@ -1786,6 +1788,7 @@
 							}
 , 							{
 								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 									"id" : "obj-21",
 									"maxclass" : "live.scope~",
 									"numinlets" : 2,

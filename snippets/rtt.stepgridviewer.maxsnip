@@ -1,0 +1,46 @@
+{
+	"patcher" : 	{
+		"boxes" : [ 			{
+				"box" : 				{
+					"maxclass" : "bpatcher",
+					"viewvisibility" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"lockeddragscroll" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"lockedsize" : 0,
+					"bgmode" : 0,
+					"border" : 0,
+					"patching_rect" : [ 10.0, 10.0, 329.0, 17.333333373069763 ],
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"name" : "rtt.xtra.stepgridviewer.maxpat",
+					"id" : "obj-2624",
+					"outlettype" : [ "" ]
+				}
+
+			}
+ ],
+		"appversion" : 		{
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 0,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "box",
+		"description" : "329 x 17, containing 1 object",
+		"tags" : "",
+		"snippetinfo" : 		{
+			"name" : "rtt.stepgridviewer",
+			"objects" : "jpatcher",
+			"tags" : "",
+			"description" : "329 x 17, containing 1 object",
+			"image" : "iVBORw0KGgoAAAANSUhEUgAAAUkAAAARCAYAAABQIF6GAAAABHNCSVQICAgIfAhkiAAAAsFJREFUeJzt27FLMmEAx/Hf6RNipQ4aOBzERYtDf0Kja4NTCjWc4HJjS/9BSw4FjQ4O2VD0R+TgKjU4RIikFOhtJzYozzu8nLxyWSj3nLz1+0wlh99A+HXRPVqv15P4QqvVQqfTwfb2NjKZzFeXEhH9ONp3I0lE9JsJ9wvLslb5cyzs6upq5vt+v49KpYLX11elXU3ToOs6isUitra22Gab7QDarn6/j2q1ina7raRrGAaOj49nutM7ScuycHJy4ntYhXK57BnJs7MzhEIhpNNpaJqmrC2lxPv7O6SUOD09ZZtttgNou87Pz7G7u4tUKoXxeOxrNxwOw7ZtvLy8zGxhyNfKCnW7XeUfHvD3t006nUa322WbbbYDarva7fZSA+k4Di4vL9FoNOZeM5lMkEwmPXepykby/v4eh4eHKJVKeHp6UpWZofrD+7cjpfS8xjbbbKtru5YZyJubG5imCdu28fj4OPfayWTi6SoZycFggEqlgnK5jGw26/nTmIgoCO5A5vN5aJqGt7c37OzsLPQe4vtLFheLxRCJRNBsNvH8/IxkMqkiQ0Q0lzuQhUIBAFCr1ZDP57G5ubnQ+yi5k3QcB0IIXF9fo16vY319XUWGiOhTfg0koGgk7+7usLe3h1qthtvbWzw8PCh/bICICPB3IAFFIxmJROA4DsbjMYbDIYQQSCQSKlJERFOj0cjXgQQUjWQul8PHxwcODg5gWRZM00Q8HleRIiKaarVa2N/fB+DPQAKK/nETj8dxcXGB4XCIaDSKUCiYxzGllIE8ovBZh2222Vbbdgkh5j4GZNs2ms0m1tbWlhrIcDjs6Spdr42NjcAGUtf16VP6KrmnAXRdZ5tttgNquwzDwGAwgBCf399ls1mYpomjo6OlBtK2bRiGMfP6zLHE/wnPbrPN9u9pu1Z6dpuIiLx+zNltIiIV/gAmgbTcq0z4twAAAABJRU5ErkJggg=="
+		}
+
+	}
+
+}

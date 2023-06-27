@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 959.0, 108.0, 1514.0, 865.0 ],
+		"rect" : [ 372.0, 108.0, 1514.0, 865.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -80,8 +80,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -225,8 +225,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1244,7 +1244,7 @@
 						"binary/rotate" : [ "rotate", 0.0 ],
 						"binary/seed" : [ "seed", 0.0 ],
 						"binary/steps" : [ "steps", 8.0 ],
-						"binary/trigger" : [ "trigger", "change" ],
+						"binary/trigger" : [ "trigger", "counter" ],
 						"clock/bpm" : [ "bpm", 120.0 ],
 						"clock/transportstate" : [ "transportstate", 0.0 ],
 						"clockin/ppqn" : [ "ppqn", 32.0 ],
@@ -1261,7 +1261,7 @@
 						"euclidean/output" : [ "output", "eventcount" ],
 						"euclidean/rotate" : [ "rotate", -255.0 ],
 						"euclidean/steps" : [ "steps", 256.0 ],
-						"euclidean/trigger" : [ "trigger", "change" ],
+						"euclidean/trigger" : [ "trigger", "counter" ],
 						"feel/depth" : [ "depth", 0.2 ],
 						"feel/feellist" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 						"loop/direction" : [ "direction", "forward" ],
@@ -1291,7 +1291,7 @@
 						"pattern/counter" : [ "counter", "index" ],
 						"pattern/output" : [ "output", "eventcount" ],
 						"pattern/rotate" : [ "rotate", 0.0 ],
-						"pattern/trigger" : [ "trigger", "change" ],
+						"pattern/trigger" : [ "trigger", "counter" ],
 						"pprob/probabilities" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 						"pprob/size" : [ "size", 8 ],
 						"resync/phase" : [ "phase", 0.0 ],
@@ -1798,7 +1798,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 596.0, 1044.0, 328.0, 16.0 ],
+					"patching_rect" : [ 596.0, 1044.0, 329.0, 17.333333373069763 ],
 					"viewvisibility" : 1
 				}
 
@@ -2544,8 +2544,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4649,15 +4649,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "edit.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
-				"patcherrelativepath" : "../media/icons",
+				"bootpath" : "~/Documents/Max 8/Packages/rtt-dev/media/icons",
+				"patcherrelativepath" : "../../rtt-dev/media/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.8sequence.ui.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/8sequence",
-				"patcherrelativepath" : "../patchers/modules/8sequence",
+				"bootpath" : "~/Documents/Max 8/Packages/rtt-dev/patchers/modules/8sequence",
+				"patcherrelativepath" : "../../rtt-dev/patchers/modules/8sequence",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4671,8 +4671,8 @@
 			}
 , 			{
 				"name" : "rtt.blocks.blockviewer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
-				"patcherrelativepath" : "../patchers/modules/blocks",
+				"bootpath" : "~/Documents/Max 8/Packages/rtt-dev/patchers/modules/blocks",
+				"patcherrelativepath" : "../../rtt-dev/patchers/modules/blocks",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4710,8 +4710,8 @@
 			}
 , 			{
 				"name" : "rtt.getpatchname.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
-				"patcherrelativepath" : "../javascript",
+				"bootpath" : "~/Documents/Max 8/Packages/rtt-dev/javascript",
+				"patcherrelativepath" : "../../rtt-dev/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -4729,8 +4729,8 @@
 			}
 , 			{
 				"name" : "rtt.misc.philipmeyer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
-				"patcherrelativepath" : "../misc",
+				"bootpath" : "~/Documents/Max 8/Packages/rtt-dev/misc",
+				"patcherrelativepath" : "../../rtt-dev/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4748,8 +4748,8 @@
 			}
 , 			{
 				"name" : "rtt.resizebpatcher.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
-				"patcherrelativepath" : "../javascript",
+				"bootpath" : "~/Documents/Max 8/Packages/rtt-dev/javascript",
+				"patcherrelativepath" : "../../rtt-dev/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -4771,8 +4771,8 @@
 			}
 , 			{
 				"name" : "rtt.scala.parser.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/scala",
-				"patcherrelativepath" : "../patchers/modules/scala",
+				"bootpath" : "~/Documents/Max 8/Packages/rtt-dev/patchers/modules/scala",
+				"patcherrelativepath" : "../../rtt-dev/patchers/modules/scala",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4782,8 +4782,8 @@
 			}
 , 			{
 				"name" : "rtt.sequence.ui.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/sequence",
-				"patcherrelativepath" : "../patchers/modules/sequence",
+				"bootpath" : "~/Documents/Max 8/Packages/rtt-dev/patchers/modules/sequence",
+				"patcherrelativepath" : "../../rtt-dev/patchers/modules/sequence",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4801,14 +4801,14 @@
 			}
 , 			{
 				"name" : "rtt.xtra.pattrhelper.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras",
+				"bootpath" : "~/Documents/Max 8/Packages/rhythm-and-time-toolkit/extras",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.xtra.stepgridviewer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras",
+				"bootpath" : "~/Documents/Max 8/Packages/rhythm-and-time-toolkit/extras",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

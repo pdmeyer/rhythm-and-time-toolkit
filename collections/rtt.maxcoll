@@ -31,7 +31,7 @@
     "rtt.patternviewer.maxsnip",
     "rtt.swing~.maxsnip",
     "rtt.notes~.maxsnip",
-    "rtt.stepgridviewer",
-    "rtt.pattrhelper"
+    "rtt.stepgridviewer.maxsnip",
+    "rtt.pattrhelper.maxsnip"
     ]
 }

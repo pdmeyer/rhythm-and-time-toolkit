@@ -9,7 +9,7 @@
 <methodlist>
 	<method name="signal">
 		<digest>message input</digest>
-		<description>A signal that will be transformed into a clock signal. The incoming signal is first distintgrated by taking the delta. The delta is then made positive, then accumulated wrapping around 0. and 1. The result is that any signal at "LFO rate" can be used as a clock.</description>
+		<description>A signal that will be transformed into a clock signal. The incoming signal is first distintegrated by taking the delta. The delta is then made positive, then accumulated wrapping around 0. and 1. The result is that any signal at "LFO rate" can be used as a clock.</description>
 	</method>
 </methodlist>
 <attributelist></attributelist>

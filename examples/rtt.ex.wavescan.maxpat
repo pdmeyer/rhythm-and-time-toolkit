@@ -3,15 +3,15 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1460.0, 111.0, 440.0, 544.0 ],
-		"bglocked" : 0,
+		"openrect" : [ 50.0, 70.0, 450.0, 550.0 ],
+		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -340,7 +340,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 96.0, 38.0, 191.0, 28.0 ],
-					"text" : "Wave~ Scan"
+					"text" : "wave~ Scan"
 				}
 
 			}

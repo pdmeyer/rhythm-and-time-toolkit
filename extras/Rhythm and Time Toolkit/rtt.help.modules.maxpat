@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 158.0, 87.0, 1008.0, 695.0 ],
+		"openrect" : [ 50.0, 70.0, 1000.0, 700.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1008.0, 669.0 ],
+						"openrect" : [ 50.0, 70.0, 900.0, 700.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1366,7 +1366,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 158.0, 113.0, 1008.0, 669.0 ],
+						"rect" : [ 50.0, 113.0, 999.0, 700.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2059,7 +2059,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1008.0, 669.0 ],
+						"rect" : [ 0.0, 26.0, 999.0, 700.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2095,7 +2095,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 215.333333333333343, 521.0, 97.0, 22.0 ],
+									"patching_rect" : [ 215.666666666666686, 506.0, 97.0, 22.0 ],
 									"text" : "routepass length"
 								}
 
@@ -2263,7 +2263,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 115.333333333333343, 521.0, 56.0, 22.0 ],
+									"patching_rect" : [ 115.666666666666686, 506.0, 56.0, 22.0 ],
 									"sig" : 0.0
 								}
 
@@ -2279,7 +2279,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 427.0, 277.032608695652186, 56.0, 22.0 ],
+									"patching_rect" : [ 468.333333333333371, 260.032608695652186, 56.0, 22.0 ],
 									"sig" : 0.0
 								}
 
@@ -2291,7 +2291,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 365.0, 277.032608695652186, 48.0, 22.0 ],
+									"patching_rect" : [ 406.333333333333371, 260.032608695652186, 48.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -2309,7 +2309,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 458.0, 549.0, 81.0, 29.934782608695656 ],
+									"patching_rect" : [ 458.333333333333371, 534.0, 81.0, 29.934782608695656 ],
 									"range" : [ -10.0, 137.0 ]
 								}
 
@@ -2330,7 +2330,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 91.0, 563.0, 111.0, 78.0 ],
+									"patching_rect" : [ 91.0, 548.0, 111.0, 78.0 ],
 									"varname" : "mex.makenote",
 									"viewvisibility" : 1
 								}
@@ -2366,7 +2366,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 406.0, 312.0, 294.0, 105.0 ],
+									"patching_rect" : [ 406.0, 297.0, 294.0, 105.0 ],
 									"varname" : "mex.rt-speed",
 									"viewvisibility" : 1
 								}
@@ -2389,7 +2389,7 @@
 									"numoutlets" : 4,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 375.0, 440.0, 144.0, 104.0 ],
+									"patching_rect" : [ 375.0, 425.0, 144.0, 104.0 ],
 									"varname" : "retrig",
 									"viewvisibility" : 1
 								}
@@ -2412,7 +2412,7 @@
 									"numoutlets" : 4,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 91.0, 434.0, 143.0, 78.0 ],
+									"patching_rect" : [ 91.0, 419.0, 143.0, 78.0 ],
 									"varname" : "mex.scale",
 									"viewvisibility" : 1
 								}
@@ -2429,7 +2429,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 236.333333333333343, 425.0, 56.0, 22.0 ],
+									"patching_rect" : [ 236.666666666666686, 410.0, 56.0, 22.0 ],
 									"sig" : 0.0
 								}
 
@@ -2451,7 +2451,7 @@
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 91.0, 312.0, 294.0, 105.0 ],
+									"patching_rect" : [ 91.0, 297.0, 294.0, 105.0 ],
 									"varname" : "mex.notes",
 									"viewvisibility" : 1
 								}
@@ -2591,7 +2591,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 394.0, 229.0, 302.0, 22.0 ],
+									"patching_rect" : [ 435.333333333333371, 212.0, 302.0, 22.0 ],
 									"restore" : [ 8.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
@@ -2781,7 +2781,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 394.0, 253.032608695652186, 35.0, 22.0 ],
+									"patching_rect" : [ 435.333333333333371, 236.032608695652186, 35.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -2809,7 +2809,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 343.0, 613.0, 110.0, 18.0 ],
+									"patching_rect" : [ 343.333333333333371, 598.0, 110.0, 18.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2866,7 +2866,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 698.0, 225.0, 138.0, 40.0 ],
+									"patching_rect" : [ 599.333333333333485, 236.032608695652186, 138.0, 40.0 ],
 									"text" : "an 'invisible' pattr can be used to get/set module parameters remotely"
 								}
 
@@ -2906,7 +2906,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 308.5, 612.0, 20.0, 20.0 ],
+									"patching_rect" : [ 308.833333333333371, 597.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -2922,7 +2922,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 204.0, 595.0, 116.0, 37.0 ],
+									"patching_rect" : [ 204.333333333333343, 580.0, 116.0, 37.0 ],
 									"text" : "expand to select midi destination"
 								}
 
@@ -3073,7 +3073,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-47", 0 ],
-									"midpoints" : [ 224.833333333333343, 553.0, 78.833333333333343, 553.0, 78.833333333333343, 301.0, 100.5, 301.0 ],
+									"midpoints" : [ 225.166666666666686, 538.0, 79.166666666666714, 538.0, 79.166666666666714, 286.0, 100.5, 286.0 ],
 									"source" : [ "obj-5", 0 ]
 								}
 

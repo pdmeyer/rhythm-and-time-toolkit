@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 291.0, 1346.0, 575.0 ],
+		"openrect" : [ 50.0, 70.0, 600.0, 600.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -66,7 +66,7 @@
 				"box" : 				{
 					"comment" : "bang when preset is recalled",
 					"id" : "obj-11",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -217,7 +217,7 @@
 				"box" : 				{
 					"comment" : "connect to preset",
 					"id" : "obj-9",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -361,11 +361,11 @@
 				"box" : 				{
 					"comment" : "bang to reset ",
 					"id" : "obj-2687",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 48.0, 125.000011420654346, 30.0, 30.0 ]
 				}
 
@@ -374,7 +374,7 @@
 				"box" : 				{
 					"comment" : "connect to pattstorage 1st outlet",
 					"id" : "obj-2688",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -387,7 +387,7 @@
 				"box" : 				{
 					"comment" : "connect to pattrstorage",
 					"id" : "obj-2690",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -597,7 +597,37 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-12::obj-10" : [ "pastebang", "pastebang", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "rtt.getpatchname.js",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"patcherrelativepath" : "../../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rtt.misc.philipmeyer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"patcherrelativepath" : "../../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

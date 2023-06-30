@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1380.0, 134.0, 554.0, 584.0 ],
+		"openrect" : [ 50.0, 70.0, 550.0, 700.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -357,7 +357,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 398.0, 31.963855421686745, 101.0, 34.07228915662651 ],
+					"patching_rect" : [ 343.041666567325592, 31.963855421686745, 101.0, 34.07228915662651 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -387,8 +387,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -460,7 +460,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 425.0, 38.0, 32.0, 22.0 ],
+					"patching_rect" : [ 394.0, 38.0, 32.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -719,8 +719,24 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-15::obj-6::obj-10" : 				{
+					"parameter_longname" : "live.text[39]"
+				}
+,
 				"obj-15::obj-6::obj-15" : 				{
 					"parameter_longname" : "live.numbox[102]"
+				}
+,
+				"obj-15::obj-6::obj-2" : 				{
+					"parameter_longname" : "live.button[29]"
+				}
+,
+				"obj-15::obj-6::obj-25" : 				{
+					"parameter_longname" : "live.numbox[101]"
+				}
+,
+				"obj-15::obj-6::obj-27" : 				{
+					"parameter_longname" : "live.numbox[100]"
 				}
 ,
 				"obj-15::obj-93::obj-25" : 				{
@@ -926,8 +942,8 @@
 			}
 , 			{
 				"name" : "rtt.getpatchname.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -1032,8 +1048,8 @@
 			}
 , 			{
 				"name" : "rtt.xtra.pattrhelper.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras",
-				"patcherrelativepath" : "../extras",
+				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/extras",
+				"patcherrelativepath" : "../../seq-dev/extras",
 				"type" : "JSON",
 				"implicit" : 1
 			}

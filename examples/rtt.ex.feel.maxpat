@@ -3,15 +3,15 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1273.0, 123.0, 864.0, 790.0 ],
-		"bglocked" : 1,
+		"openrect" : [ 50.0, 70.0, 900.0, 760.0 ],
+		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -53,7 +53,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 69.5, 734.0, 105.0, 23.0 ],
+					"patching_rect" : [ 69.5, 690.0, 105.0, 23.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -80,7 +80,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 17.5, 692.0, 121.0, 20.0 ],
+					"patching_rect" : [ 17.5, 648.0, 121.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "mc.live.gain~",
@@ -107,7 +107,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 603.166670083999634, 66.0, 100.0, 40.0 ],
+					"patching_rect" : [ 607.166670083999634, 37.0, 100.0, 40.0 ],
 					"pattrstorage" : "rtt.ex.feel",
 					"presentation" : 1,
 					"presentation_rect" : [ 104.0, 3.0, 159.0, 29.0 ]
@@ -125,7 +125,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 40.0, 603.0, 56.0, 22.0 ],
+					"patching_rect" : [ 40.0, 559.0, 56.0, 22.0 ],
 					"sig" : 0.0
 				}
 
@@ -137,7 +137,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 662.0, 151.0, 56.0, 22.0 ],
+					"patching_rect" : [ 666.0, 122.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"bar/bpm" : [ "bpm", 120.0 ],
 						"feel/depth" : [ "depth", 0.39 ],
@@ -163,7 +163,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 474.0, 113.000003274833716, 245.0, 22.0 ],
+					"patching_rect" : [ 478.0, 84.000003274833716, 245.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 624, 115, 1024, 615 ],
 						"parameter_enable" : 0,
@@ -192,7 +192,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "int", "bang" ],
-					"patching_rect" : [ 467.0, 58.0, 251.0, 85.000003274833716 ],
+					"patching_rect" : [ 471.0, 29.0, 251.0, 85.000003274833716 ],
 					"varname" : "rtt.xtra.pattrhelper",
 					"viewvisibility" : 1
 				}
@@ -206,7 +206,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 315.0, 559.0, 195.0, 22.0 ],
-					"text" : "1. 66. 65. 64. 64. 65. 66. 67. 67."
+					"text" : "6. 0. 0. 0. 0. 0. 0. 0. 0."
 				}
 
 			}
@@ -305,7 +305,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 40.0, 576.0, 56.0, 22.0 ],
+					"patching_rect" : [ 40.0, 520.877192722393147, 56.0, 22.0 ],
 					"sig" : 0.0
 				}
 
@@ -316,7 +316,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.5, 723.0, 45.0, 45.0 ]
+					"patching_rect" : [ 17.5, 679.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -333,8 +333,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -744,7 +744,7 @@
 						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 17.5, 660.0, 274.000000000000057, 23.0 ],
+					"patching_rect" : [ 17.5, 616.0, 274.000000000000057, 23.0 ],
 					"text" : "gen~ @t pulsar"
 				}
 
@@ -756,7 +756,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 102.5, 603.0, 39.0, 22.0 ],
+					"patching_rect" : [ 102.5, 559.0, 39.0, 22.0 ],
 					"text" : "mtof~"
 				}
 
@@ -774,10 +774,10 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "rtt.xtra.stepgridviewer.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 387.0, 365.0, 328.0, 16.0 ],
 					"viewvisibility" : 1
 				}
@@ -1064,7 +1064,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 149.679832637310028, 603.0, 150.0, 22.0 ]
+					"patching_rect" : [ 301.0, 616.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -1075,7 +1075,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 171.754402875900269, 638.0, 73.0, 20.0 ],
+					"patching_rect" : [ 171.754402875900269, 592.0, 73.0, 20.0 ],
 					"text" : "period (ms)"
 				}
 
@@ -1087,7 +1087,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 258.5, 638.0, 66.0, 20.0 ],
+					"patching_rect" : [ 258.5, 592.0, 66.0, 20.0 ],
 					"text" : "formant"
 				}
 
@@ -1360,7 +1360,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2691", 1 ],
-					"midpoints" : [ 483.5, 140.000003274833716, 711.0, 140.000003274833716, 711.0, 65.0, 708.5, 65.0 ],
+					"midpoints" : [ 487.5, 111.000003274833716, 715.0, 111.000003274833716, 715.0, 36.0, 712.5, 36.0 ],
 					"source" : [ "obj-2666", 0 ]
 				}
 
@@ -1728,8 +1728,8 @@
 			}
 , 			{
 				"name" : "rtt.getpatchname.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -1768,15 +1768,15 @@
 			}
 , 			{
 				"name" : "rtt.xtra.pattrhelper.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras",
-				"patcherrelativepath" : "../extras",
+				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/extras",
+				"patcherrelativepath" : "../../seq-dev/extras",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.xtra.stepgridviewer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras",
-				"patcherrelativepath" : "../extras",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/Rhythm and Time Toolkit",
+				"patcherrelativepath" : "../extras/Rhythm and Time Toolkit",
 				"type" : "JSON",
 				"implicit" : 1
 			}

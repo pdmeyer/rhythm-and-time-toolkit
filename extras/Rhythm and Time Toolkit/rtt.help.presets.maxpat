@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 106.0, 860.0, 509.0 ],
+		"openrect" : [ 50.0, 70.0, 850.0, 550.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -166,7 +166,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 381.5, 309.942176826272032, 93.416670918464661, 40.499977173727984 ],
-					"pattrstorage" : "rtt.help.pattr"
+					"pattrstorage" : "rtt.help.presets"
 				}
 
 			}
@@ -204,7 +204,7 @@
 					}
 ,
 					"text" : "pattrstorage @autorestore 1 @savemode 2 @greedy 1",
-					"varname" : "rtt.help.pattr"
+					"varname" : "rtt.help.presets"
 				}
 
 			}

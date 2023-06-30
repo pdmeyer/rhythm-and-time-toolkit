@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 100.0, 706.0, 597.0 ],
+		"openrect" : [ 50.0, 70.0, 650.0, 600.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -50,14 +50,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 706.0, 571.0 ],
+						"rect" : [ 0.0, 26.0, 650.0, 599.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -545,7 +545,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 10.0, 290.071990966796875, 57.599853515625 ]
+					"patching_rect" : [ 10.0, 10.0, 268.9520263671875, 57.599853515625 ]
 				}
 
 			}
@@ -561,14 +561,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 706.0, 571.0 ],
+						"rect" : [ 0.0, 26.0, 650.0, 599.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -625,14 +625,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 126.0, 706.0, 571.0 ],
+						"rect" : [ 100.0, 126.0, 650.0, 599.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -701,8 +701,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1166,8 +1166,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1790,6 +1790,18 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-6::obj-1::obj-18::obj-28::obj-3::obj-16" : 				{
+					"parameter_longname" : "live.menu[13]"
+				}
+,
+				"obj-6::obj-1::obj-18::obj-28::obj-3::obj-18" : 				{
+					"parameter_longname" : "live.menu[15]"
+				}
+,
+				"obj-6::obj-1::obj-18::obj-28::obj-3::obj-22" : 				{
+					"parameter_longname" : "live.menu[14]"
+				}
+,
 				"obj-6::obj-1::obj-2::obj-25" : 				{
 					"parameter_longname" : "live.button[1]"
 				}

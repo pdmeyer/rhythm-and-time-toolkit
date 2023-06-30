@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1291.0, 87.0, 716.0, 845.0 ],
+		"openrect" : [ 50.0, 70.0, 750.0, 900.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -49,8 +49,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -245,7 +245,7 @@
 						"bpm" : [ "bpm", 120.0 ],
 						"ceiling" : [ "ceiling", 16.0 ],
 						"direction" : [ "direction", "forward" ],
-						"floor" : [ "floor", 2.0 ],
+						"floor" : [ "floor", 14.0 ],
 						"fm_depth" : [ "depth", 0.96 ],
 						"fm_modratio" : [ 0.75 ],
 						"fm_t60" : [ "t60", 0.7 ],
@@ -416,8 +416,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1265,8 +1265,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}

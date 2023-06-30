@@ -10,7 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 36.0, 87.0, 1372.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+		"openrect" : [ 0.0, 0.0, 1920.0, 1080.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -813,9 +814,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "rtt.xtra.stepgridviewer.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 1,
+					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 597.0, 600.0, 328.0, 16.0 ],
 					"varname" : "rtt.xtra.stepgridviewer[2]",
 					"viewvisibility" : 1
@@ -1834,9 +1835,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "rtt.xtra.stepgridviewer.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 1,
+					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 596.0, 1044.0, 328.0, 16.0 ],
 					"viewvisibility" : 1
 				}
@@ -1889,9 +1890,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "rtt.xtra.stepgridviewer.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 1,
+					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 616.0, 755.0, 328.0, 16.0 ],
 					"varname" : "rtt.xtra.stepgridviewer",
 					"viewvisibility" : 1

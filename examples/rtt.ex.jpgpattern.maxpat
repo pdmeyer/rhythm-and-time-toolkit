@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1387.0, 667.0, 732.0, 684.0 ],
+		"openrect" : [ 50.0, 70.0, 750.0, 700.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -87,8 +87,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -183,8 +183,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1071,8 +1071,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 483.333331108093262, 38.416669416393745, 129.416670918464661, 57.16666116721251 ],
-					"pattrstorage" : "rtt.ex.jpgpattern"
+					"patching_rect" : [ 483.333331108093262, 38.416669416393745, 129.416670918464661, 57.16666116721251 ]
 				}
 
 			}
@@ -1102,7 +1101,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 315.0, 105.0, 302.0, 22.0 ],
+					"patching_rect" : [ 315.0, 106.0, 302.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 751, 87, 1134, 449 ],
 						"parameter_enable" : 0,
@@ -1111,7 +1110,7 @@
 					}
 ,
 					"text" : "pattrstorage @autorestore 1 @savemode 2 @greedy 1",
-					"varname" : "rtt.ex.jpgpattern"
+					"varname" : "u928012425"
 				}
 
 			}
@@ -1148,8 +1147,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1509,10 +1508,10 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "rtt.xtra.stepgridviewer.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 233.0, 377.0, 328.0, 16.0 ],
 					"viewvisibility" : 1
 				}
@@ -1768,8 +1767,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2395,8 +2394,8 @@
 			}
 , 			{
 				"name" : "rtt.getpatchname.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -2435,22 +2434,22 @@
 			}
 , 			{
 				"name" : "rtt.xtra.img2pattern.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras",
-				"patcherrelativepath" : "../extras",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/Rhythm and Time Toolkit",
+				"patcherrelativepath" : "../extras/Rhythm and Time Toolkit",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.xtra.pattrhelper.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras",
-				"patcherrelativepath" : "../extras",
+				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/extras",
+				"patcherrelativepath" : "../../seq-dev/extras",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.xtra.stepgridviewer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras",
-				"patcherrelativepath" : "../extras",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/Rhythm and Time Toolkit",
+				"patcherrelativepath" : "../extras/Rhythm and Time Toolkit",
 				"type" : "JSON",
 				"implicit" : 1
 			}

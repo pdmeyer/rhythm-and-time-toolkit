@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1462.0, 208.0, 504.0, 283.0 ],
+		"openrect" : [ 50.0, 70.0, 500.0, 300.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -120,21 +120,21 @@
 					"outlettype" : [ "signal", "signal", "signal", "list" ],
 					"patching_rect" : [ 30.0, 190.0, 102.0, 22.0 ],
 					"rnboattrcache" : 					{
-						"syncupdate" : 						{
-							"label" : "syncupdate",
+						"countsync" : 						{
+							"label" : "countsync",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"countsync" : 						{
-							"label" : "countsync",
+						"syncupdate" : 						{
+							"label" : "syncupdate",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 
 					}
 ,
-					"rnboversion" : "1.1.1",
+					"rnboversion" : "1.2.0-dev.42",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -163,6 +163,12 @@
 						"snapshot" : 						{
 							"__sps" : 							{
 								"p_obj-18" : 								{
+									"__sps" : 									{
+										"expand" : 										{
+
+										}
+
+									}
 
 								}
 ,
@@ -197,6 +203,12 @@
 									"snapshot" : 									{
 										"__sps" : 										{
 											"p_obj-18" : 											{
+												"__sps" : 												{
+													"expand" : 													{
+
+													}
+
+												}
 
 											}
 ,
@@ -354,7 +366,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "left-pointing-arrow.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
-				"patcherrelativepath" : "../media/icons",
+				"patcherrelativepath" : "../../media/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -365,20 +377,20 @@
 , 			{
 				"name" : "rtt.misc.philipmeyer.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
-				"patcherrelativepath" : "../misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.xtra.divs.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Snapshots",
+				"patcherrelativepath" : "../../../../Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.xtra.divs.rnbopat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/Rhythm and Time Toolkit",
 				"patcherrelativepath" : ".",
 				"type" : "RBOP",
 				"implicit" : 1

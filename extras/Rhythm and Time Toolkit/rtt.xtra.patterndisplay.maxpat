@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 609.0, 87.0, 797.0, 713.0 ],
+		"openrect" : [ 50.0, 70.0, 860.0, 720.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -73,8 +73,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -275,8 +275,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -568,8 +568,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1073,8 +1073,8 @@
 							"fileversion" : 1,
 							"appversion" : 							{
 								"major" : 8,
-								"minor" : 5,
-								"revision" : 4,
+								"minor" : 6,
+								"revision" : 0,
 								"architecture" : "x64",
 								"modernui" : 1
 							}
@@ -1112,11 +1112,11 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "buffer pos",
-										"patching_rect" : [ 191.0, 151.0, 62.0, 22.0 ],
-										"numinlets" : 0,
-										"numoutlets" : 2,
+										"outlettype" : [ "", "" ],
 										"id" : "obj-2",
-										"outlettype" : [ "", "" ]
+										"numinlets" : 0,
+										"patching_rect" : [ 191.0, 151.0, 62.0, 22.0 ],
+										"numoutlets" : 2
 									}
 
 								}
@@ -1124,11 +1124,11 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "- 1",
-										"patching_rect" : [ 88.0, 68.0, 23.0, 22.0 ],
-										"numinlets" : 1,
-										"numoutlets" : 1,
+										"outlettype" : [ "" ],
 										"id" : "obj-16",
-										"outlettype" : [ "" ]
+										"numinlets" : 1,
+										"patching_rect" : [ 88.0, 68.0, 23.0, 22.0 ],
+										"numoutlets" : 1
 									}
 
 								}
@@ -1136,11 +1136,11 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "mc_channel",
-										"patching_rect" : [ 88.0, 40.0, 73.0, 22.0 ],
-										"numinlets" : 0,
-										"numoutlets" : 1,
+										"outlettype" : [ "" ],
 										"id" : "obj-14",
-										"outlettype" : [ "" ]
+										"numinlets" : 0,
+										"patching_rect" : [ 88.0, 40.0, 73.0, 22.0 ],
+										"numoutlets" : 1
 									}
 
 								}
@@ -1148,10 +1148,10 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "poke pos",
-										"patching_rect" : [ 50.0, 151.0, 133.0, 22.0 ],
+										"id" : "obj-13",
 										"numinlets" : 4,
-										"numoutlets" : 0,
-										"id" : "obj-13"
+										"patching_rect" : [ 50.0, 151.0, 133.0, 22.0 ],
+										"numoutlets" : 0
 									}
 
 								}
@@ -1159,11 +1159,11 @@
 									"box" : 									{
 										"maxclass" : "newobj",
 										"text" : "in 1",
-										"patching_rect" : [ 50.0, 40.0, 28.0, 22.0 ],
-										"numinlets" : 0,
-										"numoutlets" : 1,
+										"outlettype" : [ "" ],
 										"id" : "obj-1",
-										"outlettype" : [ "" ]
+										"numinlets" : 0,
+										"patching_rect" : [ 50.0, 40.0, 28.0, 22.0 ],
+										"numoutlets" : 1
 									}
 
 								}
@@ -1202,7 +1202,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 186.0, 339.935059000000024, 186.0, 35.0 ],
 					"text" : "mc.gen~ @t fill-pos-mtx @chans 16 @pos #0_pos ",
-					"wrapper_uniquekey" : "u181016254"
+					"wrapper_uniquekey" : "u275016619"
 				}
 
 			}
@@ -1217,8 +1217,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1528,8 +1528,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1646,8 +1646,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2852,7 +2852,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 69.5, 726.75, 69.0 ],
+					"patching_rect" : [ 30.0, 69.5, 732.0, 69.0 ],
 					"text" : "This patch visualizes up to 16 patterns from a single-channel or mc seq pattern object (e.g. rtt.euclidean~, mc.rtt.pattern~, etc).  It takes advantage of the fact that both buffers and matrices are structured like tables. Matrices have rows and columns, while buffers have samples and rows. so, we can write data into buffers using objects like poke~, and then we can use jit.buffer~ to read the data as a jitter matrix!"
 				}
 
@@ -3423,7 +3423,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "rtt.misc.philipmeyer.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
-				"patcherrelativepath" : "../misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

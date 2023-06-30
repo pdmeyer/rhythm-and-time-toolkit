@@ -145,7 +145,7 @@
 	</attributelist>
 </attribute>
 </attributelist>
-<description><o>rtt.pprob</o> accepts a list of floating point numbers, each of which it interprets as the likelihood of a step occurring. </description>
+<description><o>rtt.pprob</o> accepts a list of floating point numbers that generate a gate pattern using probability. The pattern can be read back with a counter, phasor, or string of impulses.</description>
 <digest>Generate gate patterns using probability</digest>
 <seealsolist>
     <seealsolist>

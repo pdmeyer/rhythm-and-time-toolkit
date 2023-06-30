@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 671.0, 600.0 ],
+						"rect" : [ 50.0, 113.0, 670.0, 574.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -363,7 +363,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 69.599853515625, 575.0, 65.0 ],
+									"patching_rect" : [ 6.0, 69.599853515625, 583.0, 65.0 ],
 									"text" : "rtt.scala~ works like mtof~, but produces more than just a frequency. In addition, it generates an adjusted MIDI note that allows the object to be used to convert any monophonic MIDI instrument to play in any scale. It also produces a transposition ratio that can be used with sample-based instruments or Max objects (i.e. groove~) that use playback speed to change the pitch."
 								}
 
@@ -686,7 +686,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 671.0, 600.0 ],
+						"rect" : [ 0.0, 26.0, 670.0, 574.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1045,12 +1045,12 @@
 , 							{
 								"box" : 								{
 									"fontname" : "Arial",
-									"fontsize" : 12.0,
+									"fontsize" : 13.0,
 									"id" : "obj-2",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 10.0, 69.599853515625, 507.0, 20.0 ],
+									"patching_rect" : [ 10.0, 69.599853515625, 548.0, 21.0 ],
 									"text" : "The abstraction rtt.rlogic (no tilde) contains the rtt.rlogic~ object, a UI and pattr support."
 								}
 
@@ -1230,7 +1230,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 671.0, 600.0 ],
+						"rect" : [ 0.0, 26.0, 670.0, 574.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -1294,7 +1294,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 81.0, 113.0, 671.0, 600.0 ],
+						"rect" : [ 0.0, 26.0, 670.0, 574.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,

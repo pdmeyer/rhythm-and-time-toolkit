@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 610.0, 471.0 ],
+						"rect" : [ 0.0, 26.0, 650.0, 474.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -519,7 +519,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 610.0, 471.0 ],
+						"rect" : [ 0.0, 26.0, 650.0, 474.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1005,7 +1005,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 610.0, 471.0 ],
+						"rect" : [ 0.0, 26.0, 650.0, 474.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -1127,7 +1127,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 25.0, 150.0, 24.0, 24.0 ]
+									"patching_rect" : [ 76.0, 150.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -1140,7 +1140,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 342.0, 222.0, 151.0, 50.0 ],
+									"patching_rect" : [ 393.0, 222.0, 151.0, 50.0 ],
 									"text" : "syncupdate 1 defers bpm changes until the next phasor cycle"
 								}
 
@@ -1155,7 +1155,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 185.0, 238.0, 150.0, 22.0 ]
+									"patching_rect" : [ 236.0, 238.0, 150.0, 22.0 ]
 								}
 
 							}
@@ -1172,7 +1172,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 152.0, 152.5, 20.0, 20.0 ],
+									"patching_rect" : [ 203.0, 152.5, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "2",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -1188,7 +1188,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 49.0, 150.0, 113.0, 25.0 ],
+									"patching_rect" : [ 100.0, 150.0, 113.0, 25.0 ],
 									"text" : "start the clock"
 								}
 
@@ -1201,7 +1201,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 25.0, 330.0, 184.0, 68.0 ],
+									"patching_rect" : [ 76.0, 330.0, 184.0, 68.0 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -1214,7 +1214,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 25.0, 286.0, 57.0, 22.0 ],
+									"patching_rect" : [ 76.0, 286.0, 57.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1237,7 +1237,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 360.0, 164.5, 20.0, 20.0 ],
+									"patching_rect" : [ 411.0, 164.5, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -1253,7 +1253,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 264.0, 150.0, 108.0, 25.0 ],
+									"patching_rect" : [ 315.0, 150.0, 108.0, 25.0 ],
 									"text" : "turn on audio"
 								}
 
@@ -1265,7 +1265,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 237.0, 150.0, 25.0, 25.0 ],
+									"patching_rect" : [ 288.0, 150.0, 25.0, 25.0 ],
 									"prototypename" : "helpfile"
 								}
 
@@ -1295,7 +1295,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 185.0, 193.0, 150.0, 22.0 ]
+									"patching_rect" : [ 236.0, 193.0, 150.0, 22.0 ]
 								}
 
 							}

@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"openrect" : [ 50.0, 70.0, 620.0, 470.0 ],
+		"openrect" : [ 50.0, 70.0, 600.0, 550.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 621.0, 470.0 ],
+						"rect" : [ 0.0, 26.0, 620.0, 544.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -536,7 +536,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 190.0, 213.0, 58.0, 22.0 ],
+					"patching_rect" : [ 88.0, 92.0, 58.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -566,7 +566,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 73.0, 148.0, 621.0, 470.0 ],
+						"rect" : [ 50.0, 113.0, 620.0, 544.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -627,7 +627,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 54.600000000000001, 374.0, 56.0, 22.0 ],
+									"patching_rect" : [ 54.600000000000001, 365.0, 56.0, 22.0 ],
 									"sig" : 0.0
 								}
 
@@ -725,7 +725,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 240.0, 362.5, 196.0, 62.0 ],
+									"patching_rect" : [ 240.0, 353.5, 196.0, 62.0 ],
 									"range" : [ -0.1, 1.1 ]
 								}
 
@@ -738,7 +738,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 54.600000000000001, 334.0, 204.400000000000006, 22.0 ],
+									"patching_rect" : [ 54.600000000000001, 325.0, 204.400000000000006, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1054,7 +1054,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 117.0, 205.0, 47.0, 22.0 ],
+					"patching_rect" : [ 27.0, 92.0, 47.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1102,7 +1102,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 621.0, 470.0 ],
+						"rect" : [ 0.0, 26.0, 620.0, 544.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -1135,7 +1135,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 375.0, 213.0, 50.0, 22.0 ],
+					"patching_rect" : [ 159.0, 92.0, 50.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",

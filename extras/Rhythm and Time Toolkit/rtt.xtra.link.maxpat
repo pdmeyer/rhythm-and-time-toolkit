@@ -505,12 +505,13 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
+					"fontsize" : 13.0,
 					"id" : "obj-6",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 67.0, 273.25, 33.0 ],
+					"patching_rect" : [ 30.0, 67.0, 295.0, 36.0 ],
 					"text" : "connects to Ableton Link system to obtain transport information and a clock phasor"
 				}
 

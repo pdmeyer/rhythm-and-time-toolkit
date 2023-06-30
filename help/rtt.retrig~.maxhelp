@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"openrect" : [ 50.0, 70.0, 570.0, 500.0 ],
+		"openrect" : [ 50.0, 70.0, 650.0, 600.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 972.0, 618.0 ],
+						"rect" : [ 0.0, 26.0, 823.0, 474.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -562,7 +562,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 972.0, 618.0 ],
+						"rect" : [ 0.0, 26.0, 823.0, 474.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1543,7 +1543,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 972.0, 618.0 ],
+						"rect" : [ 0.0, 26.0, 823.0, 474.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2082,7 +2082,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 972.0, 618.0 ],
+						"rect" : [ 0.0, 26.0, 823.0, 474.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2876,7 +2876,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 972.0, 618.0 ],
+						"rect" : [ 0.0, 26.0, 823.0, 474.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -2940,7 +2940,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 65.0, 116.0, 972.0, 618.0 ],
+						"rect" : [ 50.0, 113.0, 823.0, 474.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,

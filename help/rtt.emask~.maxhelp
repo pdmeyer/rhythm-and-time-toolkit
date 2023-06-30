@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 719.0, 525.0 ],
+						"rect" : [ 0.0, 26.0, 720.0, 524.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -93,7 +93,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 398.0, 263.0, 104.0, 22.0 ],
+									"patching_rect" : [ 398.0, 250.0, 104.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -110,7 +110,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 3,
 									"outlettype" : [ "signal", "signal", "" ],
-									"patching_rect" : [ 398.0, 233.0, 221.0, 22.0 ],
+									"patching_rect" : [ 398.0, 220.0, 221.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -127,7 +127,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 263.0, 305.5, 182.0, 47.0 ],
+									"patching_rect" : [ 263.0, 292.5, 182.0, 47.0 ],
 									"text" : "different seed values create different patterns with the same amount of variation"
 								}
 
@@ -139,7 +139,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 263.0, 257.0, 107.0, 33.0 ],
+									"patching_rect" : [ 263.0, 244.0, 107.0, 33.0 ],
 									"text" : "amout of variation to apply. "
 								}
 
@@ -150,7 +150,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 37.0, 478.0, 74.0, 22.0 ],
+									"patching_rect" : [ 37.0, 465.0, 74.0, 22.0 ],
 									"text" : "mc.dac~ 1 2"
 								}
 
@@ -172,7 +172,7 @@
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 158.0, 409.0, 328.0, 16.0 ],
+									"patching_rect" : [ 158.0, 396.0, 328.0, 16.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -187,7 +187,7 @@
 									"orientation" : 1,
 									"outlettype" : [ "multichannelsignal", "", "float", "list" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 37.0, 447.5, 121.0, 20.0 ],
+									"patching_rect" : [ 37.0, 434.5, 121.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "mc.live.gain~[1]",
@@ -508,7 +508,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 37.0, 409.5, 41.0, 22.0 ],
+									"patching_rect" : [ 37.0, 396.5, 41.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -528,7 +528,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 164.0, 447.5, 184.0, 68.0 ]
+									"patching_rect" : [ 164.0, 434.5, 184.0, 68.0 ]
 								}
 
 							}
@@ -545,7 +545,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 174.5, 143.5, 20.0, 20.0 ],
+									"patching_rect" : [ 174.5, 130.5, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "2",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -561,7 +561,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 64.5, 141.0, 108.0, 25.0 ],
+									"patching_rect" : [ 64.5, 128.0, 108.0, 25.0 ],
 									"text" : "start the clock"
 								}
 
@@ -574,7 +574,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 37.0, 372.0, 382.0, 22.0 ],
+									"patching_rect" : [ 37.0, 359.0, 382.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -595,7 +595,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 42.0, 233.0, 56.0, 22.0 ],
+									"patching_rect" : [ 42.0, 220.0, 56.0, 22.0 ],
 									"sig" : 0.0
 								}
 
@@ -607,7 +607,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 6,
 									"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 37.0, 201.0, 180.0, 22.0 ],
+									"patching_rect" : [ 37.0, 188.0, 180.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -630,7 +630,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 377.5, 151.0, 20.0, 20.0 ],
+									"patching_rect" : [ 377.5, 138.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -644,7 +644,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 37.0, 170.0, 57.0, 22.0 ],
+									"patching_rect" : [ 37.0, 157.0, 57.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -663,7 +663,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 267.5, 148.5, 108.0, 25.0 ],
+									"patching_rect" : [ 267.5, 135.5, 108.0, 25.0 ],
 									"text" : "turn on audio"
 								}
 
@@ -675,7 +675,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 221.0, 139.0, 44.0, 44.0 ],
+									"patching_rect" : [ 221.0, 126.0, 44.0, 44.0 ],
 									"prototypename" : "helpfile"
 								}
 
@@ -688,7 +688,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 37.0, 141.0, 24.0, 24.0 ]
+									"patching_rect" : [ 37.0, 128.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -701,7 +701,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 109.5, 233.0, 150.0, 22.0 ]
+									"patching_rect" : [ 109.5, 220.0, 150.0, 22.0 ]
 								}
 
 							}
@@ -714,7 +714,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 109.5, 263.0, 150.0, 22.0 ]
+									"patching_rect" : [ 109.5, 250.0, 150.0, 22.0 ]
 								}
 
 							}
@@ -727,7 +727,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 109.5, 318.0, 150.0, 22.0 ]
+									"patching_rect" : [ 109.5, 305.0, 150.0, 22.0 ]
 								}
 
 							}
@@ -736,11 +736,11 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-2",
-									"linecount" : 4,
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 10.0, 69.599853515625, 582.0, 65.0 ],
+									"patching_rect" : [ 10.0, 69.599853515625, 655.0, 50.0 ],
 									"text" : "The variation attribute transforms the underlying pattern using controlled randomness. Lower variation values will be only slightly different from the euclidean pattern created by the steps and density parameters. Higher values will keep the same overall event density, but distribute those events in a random fashion.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -781,7 +781,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-81", 0 ],
-									"midpoints" : [ 167.5, 402.75, 46.5, 402.75 ],
+									"midpoints" : [ 167.5, 389.75, 46.5, 389.75 ],
 									"order" : 0,
 									"source" : [ "obj-10", 1 ]
 								}
@@ -813,7 +813,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-19", 0 ],
-									"midpoints" : [ 175.300000000000011, 227.5, 407.5, 227.5 ],
+									"midpoints" : [ 175.300000000000011, 214.5, 407.5, 214.5 ],
 									"source" : [ "obj-13", 4 ]
 								}
 
@@ -828,7 +828,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-36", 0 ],
-									"midpoints" : [ 407.5, 299.0, 119.0, 299.0 ],
+									"midpoints" : [ 407.5, 286.0, 119.0, 286.0 ],
 									"source" : [ "obj-29", 0 ]
 								}
 
@@ -843,7 +843,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-10", 0 ],
-									"midpoints" : [ 119.0, 294.5, 46.5, 294.5 ],
+									"midpoints" : [ 119.0, 281.5, 46.5, 281.5 ],
 									"source" : [ "obj-34", 0 ]
 								}
 
@@ -851,7 +851,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-10", 0 ],
-									"midpoints" : [ 119.0, 293.5, 46.5, 293.5 ],
+									"midpoints" : [ 119.0, 280.5, 46.5, 280.5 ],
 									"source" : [ "obj-35", 0 ]
 								}
 
@@ -859,7 +859,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-10", 0 ],
-									"midpoints" : [ 119.0, 350.5, 46.5, 350.5 ],
+									"midpoints" : [ 119.0, 337.5, 46.5, 337.5 ],
 									"source" : [ "obj-36", 0 ]
 								}
 
@@ -882,7 +882,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-55", 0 ],
-									"midpoints" : [ 46.5, 443.5, 173.5, 443.5 ],
+									"midpoints" : [ 46.5, 430.5, 173.5, 430.5 ],
 									"order" : 0,
 									"source" : [ "obj-81", 0 ]
 								}
@@ -920,7 +920,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 719.0, 525.0 ],
+						"rect" : [ 0.0, 26.0, 720.0, 524.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1437,7 +1437,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 719.0, 525.0 ],
+						"rect" : [ 0.0, 26.0, 720.0, 524.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -1501,7 +1501,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 113.0, 719.0, 525.0 ],
+						"rect" : [ 50.0, 113.0, 720.0, 524.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,

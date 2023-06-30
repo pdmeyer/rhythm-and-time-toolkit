@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "rnbo",
-		"rect" : [ 1766.0, 367.0, 517.0, 441.0 ],
+		"rect" : [ 178.0, 343.0, 517.0, 441.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -202,8 +202,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -545,11 +545,11 @@
 					"rnbo_classname" : "p",
 					"rnbo_extra_attributes" : 					{
 						"receivemode" : "local",
-						"args" : [  ],
 						"polyphony" : -1.0,
-						"exposevoiceparams" : 0,
+						"args" : [  ],
 						"notecontroller" : 0,
-						"voicecontrol" : "simple"
+						"voicecontrol" : "simple",
+						"exposevoiceparams" : 0
 					}
 ,
 					"rnbo_serial" : 1,
@@ -807,20 +807,20 @@
 					"patching_rect" : [ 11.0, 158.0, 159.0, 23.0 ],
 					"rnbo_classname" : "param",
 					"rnbo_extra_attributes" : 					{
-						"sendinit" : 1,
-						"displayname" : "",
-						"maximum" : 1.0,
+						"tonormalized" : "",
 						"preset" : 1,
+						"enum" : "",
 						"unit" : "",
+						"maximum" : 1.0,
 						"minimum" : 0.0,
 						"ctlin" : 0.0,
 						"order" : "0",
 						"displayorder" : "-",
-						"enum" : "",
-						"tonormalized" : "",
-						"exponent" : 1.0,
+						"meta" : "",
 						"fromnormalized" : "",
-						"meta" : ""
+						"sendinit" : 1,
+						"exponent" : 1.0,
+						"displayname" : ""
 					}
 ,
 					"rnbo_serial" : 1,
@@ -1000,26 +1000,23 @@
 								"displayorder" : 8
 							}
 ,
+							"displayName" : 							{
+								"attrOrProp" : 2,
+								"digest" : "DEPRECATED: Use the lower case 'displayname' instead",
+								"isalias" : 0,
+								"aliases" : [  ],
+								"settable" : 1,
+								"attachable" : 0,
+								"isparam" : 0,
+								"deprecated" : 1,
+								"type" : "symbol",
+								"label" : "Display Name"
+							}
+,
 							"displayname" : 							{
 								"attrOrProp" : 2,
 								"digest" : "A more readable name for the parameter in an external RNBO target",
 								"isalias" : 0,
-								"aliases" : [ "displayName" ],
-								"settable" : 1,
-								"attachable" : 0,
-								"isparam" : 0,
-								"deprecated" : 0,
-								"type" : "symbol",
-								"defaultValue" : "",
-								"label" : "Display Name",
-								"displayorder" : 14
-							}
-,
-							"displayName" : 							{
-								"attrOrProp" : 2,
-								"digest" : "A more readable name for the parameter in an external RNBO target",
-								"isalias" : 1,
-								"aliasOf" : "displayname",
 								"aliases" : [  ],
 								"settable" : 1,
 								"attachable" : 0,
@@ -1210,7 +1207,7 @@
 						"aliasOf" : "param",
 						"classname" : "param",
 						"operator" : 0,
-						"versionId" : -1445040964,
+						"versionId" : -1696900560,
 						"changesPatcherIO" : 0
 					}
 ,
@@ -1534,8 +1531,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1581,8 +1578,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2184,6 +2181,10 @@
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 106.5, 142.0, 159.0, 23.0 ],
 													"rnbo_classname" : "t",
+													"rnbo_extra_attributes" : 													{
+														"triggers" : ""
+													}
+,
 													"rnbo_serial" : 1,
 													"rnbo_uniqueid" : "t_obj-14",
 													"rnboinfo" : 													{
@@ -2464,11 +2465,11 @@
 									"rnbo_classname" : "p",
 									"rnbo_extra_attributes" : 									{
 										"receivemode" : "local",
-										"args" : [  ],
 										"polyphony" : -1.0,
-										"exposevoiceparams" : 0,
+										"args" : [  ],
 										"notecontroller" : 0,
-										"voicecontrol" : "simple"
+										"voicecontrol" : "simple",
+										"exposevoiceparams" : 0
 									}
 ,
 									"rnbo_serial" : 1,
@@ -2498,17 +2499,6 @@
 												"isparam" : 0,
 												"deprecated" : 0,
 												"type" : "number"
-											}
-,
-											"__probingout1" : 											{
-												"attrOrProp" : 1,
-												"digest" : "__probingout1",
-												"isalias" : 0,
-												"aliases" : [  ],
-												"attachable" : 0,
-												"isparam" : 0,
-												"deprecated" : 0,
-												"type" : "signal"
 											}
 ,
 											"voicestatus" : 											{
@@ -3346,6 +3336,10 @@
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 88.0, 143.0, 188.75, 23.0 ],
 									"rnbo_classname" : "t",
+									"rnbo_extra_attributes" : 									{
+										"triggers" : ""
+									}
+,
 									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "t_obj-2",
 									"rnboinfo" : 									{
@@ -3922,14 +3916,14 @@
 					"rnbo_classname" : "p",
 					"rnbo_extra_attributes" : 					{
 						"receivemode" : "local",
-						"args" : [  ],
 						"polyphony" : -1.0,
-						"exposevoiceparams" : 0,
+						"args" : [  ],
 						"notecontroller" : 0,
-						"voicecontrol" : "simple"
+						"voicecontrol" : "simple",
+						"exposevoiceparams" : 0
 					}
 ,
-					"rnbo_serial" : 3,
+					"rnbo_serial" : 2,
 					"rnbo_uniqueid" : "p_obj-18",
 					"rnboinfo" : 					{
 						"needsInstanceInfo" : 1,
@@ -4204,6 +4198,10 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 177.5, 102.0, 67.0, 23.0 ],
 					"rnbo_classname" : "t",
+					"rnbo_extra_attributes" : 					{
+						"triggers" : ""
+					}
+,
 					"rnbo_serial" : 1,
 					"rnbo_uniqueid" : "t_obj-16",
 					"rnboinfo" : 					{
@@ -4295,9 +4293,9 @@
 					"rnbo_classname" : "poke",
 					"rnbo_extra_attributes" : 					{
 						"overdubmode" : "mix",
+						"boundmode" : "ignore",
 						"indexmode" : "samples",
-						"channelmode" : "ignore",
-						"boundmode" : "ignore"
+						"channelmode" : "ignore"
 					}
 ,
 					"rnbo_serial" : 1,
@@ -4316,9 +4314,9 @@
 					"patching_rect" : [ 301.75, 132.0, 99.0, 23.0 ],
 					"rnbo_classname" : "buffer",
 					"rnbo_extra_attributes" : 					{
-						"samplerate" : 0.0,
 						"file" : "",
 						"fill" : "",
+						"samplerate" : 0.0,
 						"type" : ""
 					}
 ,
@@ -4618,20 +4616,20 @@
 					"patching_rect" : [ 11.0, 102.0, 166.0, 23.0 ],
 					"rnbo_classname" : "param",
 					"rnbo_extra_attributes" : 					{
-						"sendinit" : 1,
-						"displayname" : "",
-						"maximum" : 1.0,
+						"tonormalized" : "",
 						"preset" : 1,
+						"enum" : "",
 						"unit" : "",
+						"maximum" : 1.0,
 						"minimum" : 0.0,
 						"ctlin" : 0.0,
 						"order" : "0",
 						"displayorder" : "-",
-						"enum" : "",
-						"tonormalized" : "",
-						"exponent" : 1.0,
+						"meta" : "",
 						"fromnormalized" : "",
-						"meta" : ""
+						"sendinit" : 1,
+						"exponent" : 1.0,
+						"displayname" : ""
 					}
 ,
 					"rnbo_serial" : 2,
@@ -4811,26 +4809,23 @@
 								"displayorder" : 8
 							}
 ,
+							"displayName" : 							{
+								"attrOrProp" : 2,
+								"digest" : "DEPRECATED: Use the lower case 'displayname' instead",
+								"isalias" : 0,
+								"aliases" : [  ],
+								"settable" : 1,
+								"attachable" : 0,
+								"isparam" : 0,
+								"deprecated" : 1,
+								"type" : "symbol",
+								"label" : "Display Name"
+							}
+,
 							"displayname" : 							{
 								"attrOrProp" : 2,
 								"digest" : "A more readable name for the parameter in an external RNBO target",
 								"isalias" : 0,
-								"aliases" : [ "displayName" ],
-								"settable" : 1,
-								"attachable" : 0,
-								"isparam" : 0,
-								"deprecated" : 0,
-								"type" : "symbol",
-								"defaultValue" : "",
-								"label" : "Display Name",
-								"displayorder" : 14
-							}
-,
-							"displayName" : 							{
-								"attrOrProp" : 2,
-								"digest" : "A more readable name for the parameter in an external RNBO target",
-								"isalias" : 1,
-								"aliasOf" : "displayname",
 								"aliases" : [  ],
 								"settable" : 1,
 								"attachable" : 0,
@@ -5021,7 +5016,7 @@
 						"aliasOf" : "param",
 						"classname" : "param",
 						"operator" : 0,
-						"versionId" : -1445040964,
+						"versionId" : -1696900560,
 						"changesPatcherIO" : 0
 					}
 ,
@@ -5216,8 +5211,8 @@
 							"fileversion" : 1,
 							"appversion" : 							{
 								"major" : 8,
-								"minor" : 5,
-								"revision" : 4,
+								"minor" : 6,
+								"revision" : 0,
 								"architecture" : "x64",
 								"modernui" : 1
 							}
@@ -5288,8 +5283,8 @@
 											"fileversion" : 1,
 											"appversion" : 											{
 												"major" : 8,
-												"minor" : 5,
-												"revision" : 4,
+												"minor" : 6,
+												"revision" : 0,
 												"architecture" : "x64",
 												"modernui" : 1
 											}
@@ -5653,8 +5648,8 @@
 											"fileversion" : 1,
 											"appversion" : 											{
 												"major" : 8,
-												"minor" : 5,
-												"revision" : 4,
+												"minor" : 6,
+												"revision" : 0,
 												"architecture" : "x64",
 												"modernui" : 1
 											}
@@ -5795,8 +5790,8 @@
 											"fileversion" : 1,
 											"appversion" : 											{
 												"major" : 8,
-												"minor" : 5,
-												"revision" : 4,
+												"minor" : 6,
+												"revision" : 0,
 												"architecture" : "x64",
 												"modernui" : 1
 											}
@@ -6574,8 +6569,7 @@
 									}
 
 								}
- ],
-							"autosave" : 0
+ ]
 						}
 
 					}
@@ -6589,7 +6583,7 @@
 					"rnbo_classname" : "gen~",
 					"rnbo_extra_attributes" : 					{
 						"exposeparams" : 0,
-						"gencode" : "Buffer divs(\"divs\");\nParam syncupdate(1);\nParam countsync(1);\nHistory history_1(0);\nHistory su(0);\nHistory history_2(0);\nHistory history_3(0);\nHistory history_4(0);\ndivs_dim_5 = dim(divs);\ndivs_chans_6 = channels(divs);\nbool_7 = bool(syncupdate);\nrsub_8 = 1 - bool_7;\ndelta_9 = delta(in1);\nabs_10 = abs(delta_9);\ngt_11 = abs_10 > 0.5;\ngen_12 = gt_11;\nadd_13 = gen_12 + history_2;\nadd_14 = gen_12 + su;\nlatch_15 = latch(in2, add_14);\nwrap_16 = wrap(add_13, latch_15, 0);\nchange_17 = change(wrap_16);\nlt_18 = change_17 < 0;\nmul_19 = lt_18 * countsync;\nlatch_20 = latch(in3, add_14);\nbool_21 = bool(in3);\nchange_22 = change(bool_21);\ngt_23 = change_22 > 0;\nmul_24 = gt_23 * su;\nbool_25 = bool(gen_12 + mul_24);\nchange_26 = change(bool_25);\ngt_27 = change_26 > 0;\nbool_28 = bool(gt_23);\nchange_29 = change(bool_28);\ngt_30 = change_29 > 0;\nlatch_31 = latch(gt_30, gt_30 + history_1);\nmul_32 = gt_27 * latch_31;\ngen_33 = mul_32;\nhistory_1_next_34 = fixdenorm(mul_32);\nmod_35 = ((gen_33 + history_3)) % 2;\nout4 = mod_35;\nsample_divs_36, index_divs_37 = peek(divs, wrap_16, mod_35 + latch_20, channels=1);\nmul_38 = in1 * sample_divs_36;\nmod_39 = mul_38 % 1;\nout2 = mod_39;\ndelta_40 = delta(mod_39);\nabs_41 = abs(delta_40);\ngt_42 = abs_41 > 0.5;\ngen_43 = gt_42;\nout3 = gen_43;\nadd_44 = gen_43 + history_4;\nswitch_45 = mul_19 ? 0 : add_44;\nout1 = switch_45;\nsu_next_46 = fixdenorm(rsub_8);\nhistory_2_next_47 = fixdenorm(wrap_16);\nhistory_3_next_48 = fixdenorm(mod_35);\nhistory_4_next_49 = fixdenorm(switch_45);\nhistory_1 = history_1_next_34;\nhistory_4 = history_4_next_49;\nhistory_3 = history_3_next_48;\nhistory_2 = history_2_next_47;\nsu = su_next_46;",
+						"gencode" : "Buffer divs(\"divs\");\nParam countsync(1);\nParam syncupdate(1);\nHistory history_1(0);\nHistory su(0);\nHistory history_2(0);\nHistory history_3(0);\nHistory history_4(0);\ndivs_dim_5 = dim(divs);\ndivs_chans_6 = channels(divs);\nbool_7 = bool(syncupdate);\nrsub_8 = 1 - bool_7;\ndelta_9 = delta(in1);\nabs_10 = abs(delta_9);\ngt_11 = abs_10 > 0.5;\ngen_12 = gt_11;\nadd_13 = gen_12 + history_2;\nadd_14 = gen_12 + su;\nlatch_15 = latch(in2, add_14);\nwrap_16 = wrap(add_13, latch_15, 0);\nchange_17 = change(wrap_16);\nlt_18 = change_17 < 0;\nmul_19 = lt_18 * countsync;\nlatch_20 = latch(in3, add_14);\nbool_21 = bool(in3);\nchange_22 = change(bool_21);\ngt_23 = change_22 > 0;\nmul_24 = gt_23 * su;\nbool_25 = bool(gen_12 + mul_24);\nchange_26 = change(bool_25);\ngt_27 = change_26 > 0;\nbool_28 = bool(gt_23);\nchange_29 = change(bool_28);\ngt_30 = change_29 > 0;\nlatch_31 = latch(gt_30, gt_30 + history_1);\nmul_32 = gt_27 * latch_31;\ngen_33 = mul_32;\nhistory_1_next_34 = fixdenorm(mul_32);\nmod_35 = ((gen_33 + history_3)) % 2;\nout4 = mod_35;\nsample_divs_36, index_divs_37 = peek(divs, wrap_16, mod_35 + latch_20, channels=1);\nmul_38 = in1 * sample_divs_36;\nmod_39 = mul_38 % 1;\nout2 = mod_39;\ndelta_40 = delta(mod_39);\nabs_41 = abs(delta_40);\ngt_42 = abs_41 > 0.5;\ngen_43 = gt_42;\nout3 = gen_43;\nadd_44 = gen_43 + history_4;\nswitch_45 = mul_19 ? 0 : add_44;\nout1 = switch_45;\nsu_next_46 = fixdenorm(rsub_8);\nhistory_2_next_47 = fixdenorm(wrap_16);\nhistory_3_next_48 = fixdenorm(mod_35);\nhistory_4_next_49 = fixdenorm(switch_45);\nhistory_1 = history_1_next_34;\nhistory_4 = history_4_next_49;\nhistory_3 = history_3_next_48;\nhistory_2 = history_2_next_47;\nsu = su_next_46;",
 						"geninlets" : 3,
 						"genoutlets" : 4
 					}

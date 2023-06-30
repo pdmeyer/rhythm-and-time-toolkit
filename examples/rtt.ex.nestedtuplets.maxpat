@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"openrect" : [ 50.0, 70.0, 550.0, 700.0 ],
+		"openrect" : [ 50.0, 70.0, 550.0, 600.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -60,7 +60,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 353.333331108093262, 362.749995183978569, 80.416670918464661, 45.16666116721251 ],
-					"pattrstorage" : "rtt.ex.nestedtuplets"
+					"pattrstorage" : "rtt_ex_nestedtuplets"
 				}
 
 			}
@@ -102,7 +102,7 @@
 					}
 ,
 					"text" : "pattrstorage @savemode 2 @greedy 1",
-					"varname" : "rtt.ex.nestedtuplets"
+					"varname" : "rtt_ex_nestedtuplets"
 				}
 
 			}
@@ -1048,8 +1048,8 @@
 			}
 , 			{
 				"name" : "rtt.xtra.pattrhelper.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/extras",
-				"patcherrelativepath" : "../../seq-dev/extras",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/Rhythm and Time Toolkit",
+				"patcherrelativepath" : "../extras/Rhythm and Time Toolkit",
 				"type" : "JSON",
 				"implicit" : 1
 			}

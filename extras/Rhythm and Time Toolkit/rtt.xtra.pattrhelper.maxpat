@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 69.0, 455.333335876464844, 54.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -66,7 +78,7 @@
 				"box" : 				{
 					"comment" : "bang when preset is recalled",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -217,7 +229,7 @@
 				"box" : 				{
 					"comment" : "connect to preset",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -236,7 +248,7 @@
 					"patching_rect" : [ 365.0, 444.333335876464844, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 36.0, 246.0, 20.0 ],
-					"text" : "pattrstorage name: Untitled3"
+					"text" : "storage name: rtt_ex_jpgpattern"
 				}
 
 			}
@@ -361,7 +373,7 @@
 				"box" : 				{
 					"comment" : "bang to reset ",
 					"id" : "obj-2687",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -374,7 +386,7 @@
 				"box" : 				{
 					"comment" : "connect to pattstorage 1st outlet",
 					"id" : "obj-2688",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -387,7 +399,7 @@
 				"box" : 				{
 					"comment" : "connect to pattrstorage",
 					"id" : "obj-2690",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -476,7 +488,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2690", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"midpoints" : [ 342.49999239404292, 449.33333832025528, 78.5, 449.33333832025528 ],
 					"source" : [ "obj-15", 0 ]
 				}
@@ -515,7 +527,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2690", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-2673", 0 ]
 				}
 
@@ -585,6 +597,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2690", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2676", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
@@ -597,37 +616,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-12::obj-10" : [ "pastebang", "pastebang", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "rtt.getpatchname.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
-				"patcherrelativepath" : "../../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rtt.misc.philipmeyer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
-				"patcherrelativepath" : "../../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

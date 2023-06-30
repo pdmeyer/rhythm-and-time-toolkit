@@ -10,10 +10,10 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
-		"openrect" : [ 0.0, 0.0, 1920.0, 1080.0 ],
+		"rect" : [ 34.0, 87.0, 1005.0, 779.0 ],
+		"openrect" : [ 0.0, 0.0, 1920.0, 1300.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -71,7 +71,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 1068.750008225440979, 1006.916716366873743, 93.416670918464661, 40.499977173727984 ],
-					"pattrstorage" : "rtt.help.snippets"
+					"pattrstorage" : "rtt_help_snippets"
 				}
 
 			}
@@ -179,7 +179,7 @@
 					}
 ,
 					"text" : "pattrstorage @autorestore 1 @savemode 2 @greedy 1",
-					"varname" : "rtt.help.snippets"
+					"varname" : "rtt_help_snippets"
 				}
 
 			}
@@ -672,7 +672,7 @@
 
 					}
 ,
-					"text" : "0",
+					"text" : "3 4 5",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -1408,7 +1408,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 338.666659593582153, 801.166716880134572, 91.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 3, 4, 5 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1427,7 +1427,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 171.666662812232971, 801.166716880134572, 116.0, 22.0 ],
-					"restore" : [ "text", 1, 4, 5 ],
+					"restore" : [ 1, 2, 3 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2326,7 +2326,7 @@
 
 					}
 ,
-					"text" : "1 4 5",
+					"text" : "1 2 3",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 

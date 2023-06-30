@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"openrect" : [ 50.0, 70.0, 850.0, 670.0 ],
+		"openrect" : [ 50.0, 70.0, 900.0, 700.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1808,7 +1808,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 683.499995549519781, 129.5, 129.416670918464661, 57.16666116721251 ],
-					"pattrstorage" : "rtt.ex.polyrhythm"
+					"pattrstorage" : "rtt_ex_polyrhythm"
 				}
 
 			}
@@ -1868,7 +1868,7 @@
 					}
 ,
 					"text" : "pattrstorage @autorestore 1 @savemode 2 @greedy 1",
-					"varname" : "rtt.ex.polyrhythm"
+					"varname" : "rtt_ex_polyrhythm"
 				}
 
 			}
@@ -2697,8 +2697,8 @@
 			}
 , 			{
 				"name" : "rtt.xtra.pattrhelper.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/extras",
-				"patcherrelativepath" : "../../seq-dev/extras",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/Rhythm and Time Toolkit",
+				"patcherrelativepath" : "../extras/Rhythm and Time Toolkit",
 				"type" : "JSON",
 				"implicit" : 1
 			}

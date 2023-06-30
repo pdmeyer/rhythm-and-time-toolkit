@@ -1071,7 +1071,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 483.333331108093262, 38.416669416393745, 129.416670918464661, 57.16666116721251 ]
+					"patching_rect" : [ 515.333331108093262, 41.166664600372314, 129.416670918464661, 57.16666116721251 ]
 				}
 
 			}
@@ -1095,22 +1095,21 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "rtt.ex.jpgpattern.json",
 					"id" : "obj-2666",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 315.0, 106.0, 302.0, 22.0 ],
+					"patching_rect" : [ 315.0, 107.0, 302.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 751, 87, 1134, 449 ],
+						"client_rect" : [ 580, 87, 1280, 529 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 87, 1173, 348 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage @autorestore 1 @savemode 2 @greedy 1",
-					"varname" : "u928012425"
+					"varname" : "u954000489"
 				}
 
 			}
@@ -1646,7 +1645,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 431.0, 171.916669416393745, 224.0, 22.0 ],
-					"restore" : [ 0.346735864877701 ],
+					"restore" : [ 0.899519383907318 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2386,13 +2385,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "rtt.ex.jpgpattern.json",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/pattrstorage",
-				"patcherrelativepath" : "../misc/pattrstorage",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "rtt.getpatchname.js",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
 				"patcherrelativepath" : "../javascript",
@@ -2441,8 +2433,8 @@
 			}
 , 			{
 				"name" : "rtt.xtra.pattrhelper.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/extras",
-				"patcherrelativepath" : "../../seq-dev/extras",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/Rhythm and Time Toolkit",
+				"patcherrelativepath" : "../extras/Rhythm and Time Toolkit",
 				"type" : "JSON",
 				"implicit" : 1
 			}

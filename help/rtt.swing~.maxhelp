@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"openrect" : [ 50.0, 70.0, 650.0, 600.0 ],
+		"openrect" : [ 50.0, 70.0, 650.0, 550.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 651.0, 600.0 ],
+						"rect" : [ 0.0, 26.0, 650.0, 549.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -553,7 +553,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 651.0, 600.0 ],
+						"rect" : [ 0.0, 26.0, 650.0, 549.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1019,13 +1019,13 @@
 					"filename" : "helpname.js",
 					"id" : "obj-5",
 					"ignoreclick" : 1,
-					"jsarguments" : [ "seq.swing~" ],
+					"jsarguments" : [ "rtt.swing~" ],
 					"maxclass" : "jsui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 10.0, 238.927993774414062, 57.599853515625 ]
+					"patching_rect" : [ 10.0, 10.0, 217.807998657226562, 57.599853515625 ]
 				}
 
 			}
@@ -1048,7 +1048,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 651.0, 600.0 ],
+						"rect" : [ 0.0, 26.0, 650.0, 549.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -1112,7 +1112,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 97.0, 159.0, 651.0, 600.0 ],
+						"rect" : [ 50.0, 113.0, 650.0, 549.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,

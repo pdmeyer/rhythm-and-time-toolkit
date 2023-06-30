@@ -344,8 +344,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 498.333331108093262, 362.208334708196844, 79.666668891906738, 45.291665291803128 ],
-					"pattrstorage" : "rtt.ex.livesync"
+					"patching_rect" : [ 349.0, 420.5, 201.0, 19.291665291803156 ],
+					"pattrstorage" : "rtt_ex_livesync"
 				}
 
 			}
@@ -380,7 +380,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 339.0, 413.5, 216.0, 22.0 ],
+					"patching_rect" : [ 331.0, 446.5, 216.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 580, 87, 949, 304 ],
 						"parameter_enable" : 0,
@@ -389,7 +389,7 @@
 					}
 ,
 					"text" : "pattrstorage @savemode 2 @greedy 1",
-					"varname" : "rtt.ex.livesync"
+					"varname" : "rtt_ex_livesync"
 				}
 
 			}
@@ -409,7 +409,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "int", "bang" ],
-					"patching_rect" : [ 331.0, 355.0, 253.0, 88.5 ],
+					"patching_rect" : [ 331.0, 355.0, 253.0, 60.5 ],
 					"varname" : "rtt.xtra.pattrhelper",
 					"viewvisibility" : 1
 				}
@@ -974,8 +974,8 @@
 			}
 , 			{
 				"name" : "rtt.xtra.pattrhelper.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/extras",
-				"patcherrelativepath" : "../../seq-dev/extras",
+				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/Rhythm and Time Toolkit",
+				"patcherrelativepath" : "../extras/Rhythm and Time Toolkit",
 				"type" : "JSON",
 				"implicit" : 1
 			}

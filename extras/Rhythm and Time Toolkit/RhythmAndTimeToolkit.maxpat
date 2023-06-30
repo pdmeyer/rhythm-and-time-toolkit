@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 368.0, 60.0, 842.0, 675.0 ],
+		"rect" : [ 358.0, 105.0, 842.0, 675.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -665,7 +665,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "rtt.help.signalflow", "rtt.help.patternobjects", "rtt.help.snippets", "rtt.help.modules", "rtt.help.rnboexternal", "@displayname", 1, "@names", "Signal Flow", "Pattern Objects", "Snippets", "Modules", "RNBO-built Exernal" ],
+									"args" : [ "rtt.help.signalflow", "rtt.help.patternobjects", "rtt.help.snippets", "rtt.help.modules", "rtt.help.presets", "rtt.help.rnboexternal", "@displayname", 1, "@names", "Signal Flow", "Pattern Objects", "Snippets", "Modules", "Presets with Pattr", "RNBO-built Exernal" ],
 									"background" : 1,
 									"bgmode" : 0,
 									"border" : 0,
@@ -683,7 +683,7 @@
 									"outlettype" : [ "", "int" ],
 									"patching_rect" : [ 22.0, 135.0, 184.0, 111.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 30.0, 156.0, 184.5, 118.0 ],
+									"presentation_rect" : [ 30.0, 156.0, 184.5, 162.0 ],
 									"varname" : "seq.launcher.tabs",
 									"viewvisibility" : 1
 								}
@@ -792,7 +792,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-41", 0 ],
-									"order" : 2,
+									"order" : 0,
 									"source" : [ "obj-40", 0 ]
 								}
 
@@ -800,7 +800,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-42", 0 ],
-									"order" : 1,
+									"order" : 2,
 									"source" : [ "obj-40", 0 ]
 								}
 
@@ -808,7 +808,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
-									"order" : 0,
+									"order" : 1,
 									"source" : [ "obj-40", 0 ]
 								}
 
@@ -909,7 +909,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 368.0, 86.0, 842.0, 649.0 ],
+						"rect" : [ 358.0, 131.0, 842.0, 649.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -939,18 +939,6 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-36",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 326.0, 302.0, 47.0, 22.0 ],
-									"text" : "steps 9"
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"hidden" : 1,
 									"id" : "obj-65",
@@ -3500,7 +3488,7 @@
 , 			{
 				"name" : "rtt.misc.tabs.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
-				"patcherrelativepath" : "../misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3511,7 +3499,7 @@
 , 			{
 				"name" : "rtt.scala.parser.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/scala",
-				"patcherrelativepath" : "../patchers/modules/scala",
+				"patcherrelativepath" : "../../patchers/modules/scala",
 				"type" : "JSON",
 				"implicit" : 1
 			}

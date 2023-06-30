@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1263.0, 87.0, 1008.0, 695.0 ],
+		"rect" : [ 158.0, 87.0, 1008.0, 695.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -50,8 +50,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -98,8 +98,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -615,7 +615,7 @@
 									"numoutlets" : 4,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 399.0, 105.0, 257.0, 57.774514198303223 ],
+									"patching_rect" : [ 399.0, 105.0, 258.0, 61.0 ],
 									"varname" : "mhelp.binary",
 									"viewvisibility" : 1
 								}
@@ -1359,14 +1359,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1263.0, 113.0, 1008.0, 669.0 ],
+						"rect" : [ 158.0, 113.0, 1008.0, 669.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1408,10 +1408,10 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 594.666660070419312, 530.282608695652243, 204.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 534, 298, 1279, 875 ],
+										"client_rect" : [ 580, 87, 949, 304 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 583, 87, 1081, 651 ]
+										"storage_rect" : [ 583, 69, 1034, 197 ]
 									}
 ,
 									"text" : "pattrstorage module-help @greedy 1",
@@ -2052,15 +2052,15 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 0.0, 26.0, 1008.0, 669.0 ],
-						"bglocked" : 1,
+						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
@@ -2112,8 +2112,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2240,7 +2240,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 365.0, 102.532608695652186, 56.0, 22.0 ],
+									"patching_rect" : [ 416.5, 40.0, 56.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -2330,7 +2330,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 91.333333333333343, 563.0, 111.0, 78.0 ],
+									"patching_rect" : [ 91.0, 563.0, 111.0, 78.0 ],
 									"varname" : "mex.makenote",
 									"viewvisibility" : 1
 								}
@@ -2366,7 +2366,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 406.333333333333371, 312.0, 294.0, 105.0 ],
+									"patching_rect" : [ 406.0, 312.0, 294.0, 105.0 ],
 									"varname" : "mex.rt-speed",
 									"viewvisibility" : 1
 								}
@@ -2389,7 +2389,7 @@
 									"numoutlets" : 4,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 375.333333333333371, 440.0, 144.0, 104.0 ],
+									"patching_rect" : [ 375.0, 440.0, 144.0, 104.0 ],
 									"varname" : "retrig",
 									"viewvisibility" : 1
 								}
@@ -2412,7 +2412,7 @@
 									"numoutlets" : 4,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "signal", "" ],
-									"patching_rect" : [ 91.333333333333343, 434.0, 143.0, 78.0 ],
+									"patching_rect" : [ 91.0, 434.0, 143.0, 78.0 ],
 									"varname" : "mex.scale",
 									"viewvisibility" : 1
 								}
@@ -2451,7 +2451,7 @@
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 91.333333333333343, 312.0, 294.0, 105.0 ],
+									"patching_rect" : [ 91.0, 312.0, 294.0, 105.0 ],
 									"varname" : "mex.notes",
 									"viewvisibility" : 1
 								}
@@ -2477,7 +2477,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "preset", "int", "preset", "int", "" ],
-									"patching_rect" : [ 365.0, 126.532608695652186, 100.0, 40.0 ],
+									"patching_rect" : [ 416.5, 64.0, 100.0, 40.0 ],
 									"pattrstorage" : "seq.help.modules"
 								}
 
@@ -2489,7 +2489,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 446.0, 167.532608695652186, 89.0, 22.0 ],
+									"patching_rect" : [ 497.5, 105.0, 89.0, 22.0 ],
 									"text" : "storagewindow"
 								}
 
@@ -2501,7 +2501,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 365.0, 167.532608695652186, 77.0, 22.0 ],
+									"patching_rect" : [ 416.5, 105.0, 77.0, 22.0 ],
 									"text" : "clientwindow"
 								}
 
@@ -2517,7 +2517,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 365.0, 198.532608695652186, 313.0, 22.0 ],
+									"patching_rect" : [ 416.5, 136.0, 313.0, 22.0 ],
 									"priority" : 									{
 										"mex.notes::m::sequence/raw" : 1,
 										"mex.notes::m::seq-length" : -1,
@@ -2527,10 +2527,10 @@
 									}
 ,
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 534, 298, 1279, 875 ],
+										"client_rect" : [ 580, 87, 949, 304 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
-										"storage_rect" : [ 583, 87, 1081, 651 ]
+										"storage_rect" : [ 583, 69, 1034, 197 ]
 									}
 ,
 									"text" : "pattrstorage seq.help.modules @savemode 2 @greedy 1",
@@ -2627,8 +2627,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2809,7 +2809,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 303.0, 616.0, 110.0, 18.0 ],
+									"patching_rect" : [ 343.0, 613.0, 110.0, 18.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2823,7 +2823,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 67.0, 523.0, 22.0 ],
+									"patching_rect" : [ 30.0, 67.0, 359.0, 22.0 ],
 									"text" : "Patching modules together lets you build a sequencer quickly."
 								}
 
@@ -2906,7 +2906,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 268.5, 615.0, 20.0, 20.0 ],
+									"patching_rect" : [ 308.5, 612.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -2922,7 +2922,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 164.0, 598.0, 116.0, 37.0 ],
+									"patching_rect" : [ 204.0, 595.0, 116.0, 37.0 ],
 									"text" : "expand to select midi destination"
 								}
 
@@ -2952,7 +2952,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 542.0, 148.5, 210.0, 47.0 ],
+									"patching_rect" : [ 416.5, 154.967391304347814, 210.0, 47.0 ],
 									"text" : "use pattrstorage with @greedy 1 to create presets that work across multiple modules in your patch"
 								}
 
@@ -3073,7 +3073,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-47", 0 ],
-									"midpoints" : [ 224.833333333333343, 553.0, 78.833333333333343, 553.0, 78.833333333333343, 301.0, 100.833333333333343, 301.0 ],
+									"midpoints" : [ 224.833333333333343, 553.0, 78.833333333333343, 553.0, 78.833333333333343, 301.0, 100.5, 301.0 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -3098,7 +3098,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-35", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 374.5, 230.532608695652186, 349.5, 230.532608695652186, 349.5, 99.967391304347871, 374.5, 99.967391304347871 ],
+									"midpoints" : [ 426.0, 168.0, 401.0, 168.0, 401.0, 37.434782608695684, 426.0, 37.434782608695684 ],
 									"source" : [ "obj-6", 0 ]
 								}
 
@@ -4346,42 +4346,42 @@
 , 			{
 				"name" : "Play.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
-				"patcherrelativepath" : "../media/icons",
+				"patcherrelativepath" : "../../media/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "burst.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
-				"patcherrelativepath" : "../media/icons",
+				"patcherrelativepath" : "../../media/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "infinity.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
-				"patcherrelativepath" : "../media/icons",
+				"patcherrelativepath" : "../../media/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.8sequence.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/8sequence",
-				"patcherrelativepath" : "../patchers/modules/8sequence",
+				"patcherrelativepath" : "../../patchers/modules/8sequence",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.8sequence.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/8sequence",
-				"patcherrelativepath" : "../patchers/modules/8sequence",
+				"patcherrelativepath" : "../../patchers/modules/8sequence",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.8sequence.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/8sequence",
-				"patcherrelativepath" : "../patchers/modules/8sequence",
+				"patcherrelativepath" : "../../patchers/modules/8sequence",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4392,28 +4392,28 @@
 , 			{
 				"name" : "rtt.binary.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/binary",
-				"patcherrelativepath" : "../patchers/modules/binary",
+				"patcherrelativepath" : "../../patchers/modules/binary",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.binary.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/binary",
-				"patcherrelativepath" : "../patchers/modules/binary",
+				"patcherrelativepath" : "../../patchers/modules/binary",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.binary.presets.xml",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/binary",
-				"patcherrelativepath" : "../patchers/modules/binary",
+				"patcherrelativepath" : "../../patchers/modules/binary",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.binary.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/binary",
-				"patcherrelativepath" : "../patchers/modules/binary",
+				"patcherrelativepath" : "../../patchers/modules/binary",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4424,35 +4424,35 @@
 , 			{
 				"name" : "rtt.blocks.blockviewer.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
-				"patcherrelativepath" : "../patchers/modules/blocks",
+				"patcherrelativepath" : "../../patchers/modules/blocks",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.blocks.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
-				"patcherrelativepath" : "../patchers/modules/blocks",
+				"patcherrelativepath" : "../../patchers/modules/blocks",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.blocks.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
-				"patcherrelativepath" : "../patchers/modules/blocks",
+				"patcherrelativepath" : "../../patchers/modules/blocks",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.blocks.presets.xml",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
-				"patcherrelativepath" : "../patchers/modules/blocks",
+				"patcherrelativepath" : "../../patchers/modules/blocks",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.blocks.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
-				"patcherrelativepath" : "../patchers/modules/blocks",
+				"patcherrelativepath" : "../../patchers/modules/blocks",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4463,21 +4463,21 @@
 , 			{
 				"name" : "rtt.clock.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/clock",
-				"patcherrelativepath" : "../patchers/modules/clock",
+				"patcherrelativepath" : "../../patchers/modules/clock",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.clock.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/clock",
-				"patcherrelativepath" : "../patchers/modules/clock",
+				"patcherrelativepath" : "../../patchers/modules/clock",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.clock.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/clock",
-				"patcherrelativepath" : "../patchers/modules/clock",
+				"patcherrelativepath" : "../../patchers/modules/clock",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4488,21 +4488,21 @@
 , 			{
 				"name" : "rtt.counter.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/counter",
-				"patcherrelativepath" : "../patchers/modules/counter",
+				"patcherrelativepath" : "../../patchers/modules/counter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.counter.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/counter",
-				"patcherrelativepath" : "../patchers/modules/counter",
+				"patcherrelativepath" : "../../patchers/modules/counter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.counter.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/counter",
-				"patcherrelativepath" : "../patchers/modules/counter",
+				"patcherrelativepath" : "../../patchers/modules/counter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4513,28 +4513,28 @@
 , 			{
 				"name" : "rtt.dist.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/dist",
-				"patcherrelativepath" : "../patchers/modules/dist",
+				"patcherrelativepath" : "../../patchers/modules/dist",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.dist.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/dist",
-				"patcherrelativepath" : "../patchers/modules/dist",
+				"patcherrelativepath" : "../../patchers/modules/dist",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.dist.presets.xml",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/dist",
-				"patcherrelativepath" : "../patchers/modules/dist",
+				"patcherrelativepath" : "../../patchers/modules/dist",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.dist.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/dist",
-				"patcherrelativepath" : "../patchers/modules/dist",
+				"patcherrelativepath" : "../../patchers/modules/dist",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4545,21 +4545,21 @@
 , 			{
 				"name" : "rtt.divs.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/divs",
-				"patcherrelativepath" : "../patchers/modules/divs",
+				"patcherrelativepath" : "../../patchers/modules/divs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.divs.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/divs",
-				"patcherrelativepath" : "../patchers/modules/divs",
+				"patcherrelativepath" : "../../patchers/modules/divs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.divs.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/divs",
-				"patcherrelativepath" : "../patchers/modules/divs",
+				"patcherrelativepath" : "../../patchers/modules/divs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4570,21 +4570,21 @@
 , 			{
 				"name" : "rtt.emask.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/emask",
-				"patcherrelativepath" : "../patchers/modules/emask",
+				"patcherrelativepath" : "../../patchers/modules/emask",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.emask.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/emask",
-				"patcherrelativepath" : "../patchers/modules/emask",
+				"patcherrelativepath" : "../../patchers/modules/emask",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.emask.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/emask",
-				"patcherrelativepath" : "../patchers/modules/emask",
+				"patcherrelativepath" : "../../patchers/modules/emask",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4595,28 +4595,28 @@
 , 			{
 				"name" : "rtt.euclidean.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/euclidean",
-				"patcherrelativepath" : "../patchers/modules/euclidean",
+				"patcherrelativepath" : "../../patchers/modules/euclidean",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.euclidean.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/euclidean",
-				"patcherrelativepath" : "../patchers/modules/euclidean",
+				"patcherrelativepath" : "../../patchers/modules/euclidean",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.euclidean.presets.xml",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/euclidean",
-				"patcherrelativepath" : "../patchers/modules/euclidean",
+				"patcherrelativepath" : "../../patchers/modules/euclidean",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.euclidean.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/euclidean",
-				"patcherrelativepath" : "../patchers/modules/euclidean",
+				"patcherrelativepath" : "../../patchers/modules/euclidean",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4627,21 +4627,21 @@
 , 			{
 				"name" : "rtt.feel.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/feel",
-				"patcherrelativepath" : "../patchers/modules/feel",
+				"patcherrelativepath" : "../../patchers/modules/feel",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.feel.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/feel",
-				"patcherrelativepath" : "../patchers/modules/feel",
+				"patcherrelativepath" : "../../patchers/modules/feel",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.feel.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/feel",
-				"patcherrelativepath" : "../patchers/modules/feel",
+				"patcherrelativepath" : "../../patchers/modules/feel",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4652,28 +4652,28 @@
 , 			{
 				"name" : "rtt.loop.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/loop",
-				"patcherrelativepath" : "../patchers/modules/loop",
+				"patcherrelativepath" : "../../patchers/modules/loop",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.loop.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/loop",
-				"patcherrelativepath" : "../patchers/modules/loop",
+				"patcherrelativepath" : "../../patchers/modules/loop",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.loop.presets.xml",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/loop",
-				"patcherrelativepath" : "../patchers/modules/loop",
+				"patcherrelativepath" : "../../patchers/modules/loop",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.loop.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/loop",
-				"patcherrelativepath" : "../patchers/modules/loop",
+				"patcherrelativepath" : "../../patchers/modules/loop",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4684,21 +4684,21 @@
 , 			{
 				"name" : "rtt.makecc.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/makecc",
-				"patcherrelativepath" : "../patchers/modules/makecc",
+				"patcherrelativepath" : "../../patchers/modules/makecc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.makecc.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/makecc",
-				"patcherrelativepath" : "../patchers/modules/makecc",
+				"patcherrelativepath" : "../../patchers/modules/makecc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.makecc.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/makecc",
-				"patcherrelativepath" : "../patchers/modules/makecc",
+				"patcherrelativepath" : "../../patchers/modules/makecc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4709,21 +4709,21 @@
 , 			{
 				"name" : "rtt.makenote.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/makenote",
-				"patcherrelativepath" : "../patchers/modules/makenote",
+				"patcherrelativepath" : "../../patchers/modules/makenote",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.makenote.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/makenote",
-				"patcherrelativepath" : "../patchers/modules/makenote",
+				"patcherrelativepath" : "../../patchers/modules/makenote",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.makenote.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/makenote",
-				"patcherrelativepath" : "../patchers/modules/makenote",
+				"patcherrelativepath" : "../../patchers/modules/makenote",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4734,77 +4734,77 @@
 , 			{
 				"name" : "rtt.misc.philipmeyer.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
-				"patcherrelativepath" : "../misc",
+				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.module.attrchecker.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
-				"patcherrelativepath" : "../patchers/module-components",
+				"patcherrelativepath" : "../../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.module.control.js",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
-				"patcherrelativepath" : "../javascript",
+				"patcherrelativepath" : "../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.module.control.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
-				"patcherrelativepath" : "../patchers/module-components",
+				"patcherrelativepath" : "../../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.module.patternmodeview.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
-				"patcherrelativepath" : "../patchers/module-components",
+				"patcherrelativepath" : "../../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.module.patternview.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
-				"patcherrelativepath" : "../patchers/module-components",
+				"patcherrelativepath" : "../../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.module.remote.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
-				"patcherrelativepath" : "../patchers/module-components",
+				"patcherrelativepath" : "../../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.module.viewcontrol.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
-				"patcherrelativepath" : "../patchers/module-components",
+				"patcherrelativepath" : "../../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.notes.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/notes",
-				"patcherrelativepath" : "../patchers/modules/notes",
+				"patcherrelativepath" : "../../patchers/modules/notes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.notes.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/notes",
-				"patcherrelativepath" : "../patchers/modules/notes",
+				"patcherrelativepath" : "../../patchers/modules/notes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.notes.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/notes",
-				"patcherrelativepath" : "../patchers/modules/notes",
+				"patcherrelativepath" : "../../patchers/modules/notes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4815,21 +4815,21 @@
 , 			{
 				"name" : "rtt.pattern.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/pattern",
-				"patcherrelativepath" : "../patchers/modules/pattern",
+				"patcherrelativepath" : "../../patchers/modules/pattern",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.pattern.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/pattern",
-				"patcherrelativepath" : "../patchers/modules/pattern",
+				"patcherrelativepath" : "../../patchers/modules/pattern",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.pattern.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/pattern",
-				"patcherrelativepath" : "../patchers/modules/pattern",
+				"patcherrelativepath" : "../../patchers/modules/pattern",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4840,21 +4840,21 @@
 , 			{
 				"name" : "rtt.pprob.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/pprob",
-				"patcherrelativepath" : "../patchers/modules/pprob",
+				"patcherrelativepath" : "../../patchers/modules/pprob",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.pprob.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/pprob",
-				"patcherrelativepath" : "../patchers/modules/pprob",
+				"patcherrelativepath" : "../../patchers/modules/pprob",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.pprob.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/pprob",
-				"patcherrelativepath" : "../patchers/modules/pprob",
+				"patcherrelativepath" : "../../patchers/modules/pprob",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4865,21 +4865,21 @@
 , 			{
 				"name" : "rtt.retrig.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/retrig",
-				"patcherrelativepath" : "../patchers/modules/retrig",
+				"patcherrelativepath" : "../../patchers/modules/retrig",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.retrig.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/retrig",
-				"patcherrelativepath" : "../patchers/modules/retrig",
+				"patcherrelativepath" : "../../patchers/modules/retrig",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.retrig.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/retrig",
-				"patcherrelativepath" : "../patchers/modules/retrig",
+				"patcherrelativepath" : "../../patchers/modules/retrig",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4890,21 +4890,21 @@
 , 			{
 				"name" : "rtt.rlogic.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/rlogic",
-				"patcherrelativepath" : "../patchers/modules/rlogic",
+				"patcherrelativepath" : "../../patchers/modules/rlogic",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.rlogic.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/rlogic",
-				"patcherrelativepath" : "../patchers/modules/rlogic",
+				"patcherrelativepath" : "../../patchers/modules/rlogic",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.rlogic.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/rlogic",
-				"patcherrelativepath" : "../patchers/modules/rlogic",
+				"patcherrelativepath" : "../../patchers/modules/rlogic",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4915,21 +4915,21 @@
 , 			{
 				"name" : "rtt.rprob.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/rprob",
-				"patcherrelativepath" : "../patchers/modules/rprob",
+				"patcherrelativepath" : "../../patchers/modules/rprob",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.rprob.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/rprob",
-				"patcherrelativepath" : "../patchers/modules/rprob",
+				"patcherrelativepath" : "../../patchers/modules/rprob",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.rprob.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/rprob",
-				"patcherrelativepath" : "../patchers/modules/rprob",
+				"patcherrelativepath" : "../../patchers/modules/rprob",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4940,28 +4940,28 @@
 , 			{
 				"name" : "rtt.scala.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/scala",
-				"patcherrelativepath" : "../patchers/modules/scala",
+				"patcherrelativepath" : "../../patchers/modules/scala",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.scala.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/scala",
-				"patcherrelativepath" : "../patchers/modules/scala",
+				"patcherrelativepath" : "../../patchers/modules/scala",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.scala.parser.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/scala",
-				"patcherrelativepath" : "../patchers/modules/scala",
+				"patcherrelativepath" : "../../patchers/modules/scala",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.scala.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/scala",
-				"patcherrelativepath" : "../patchers/modules/scala",
+				"patcherrelativepath" : "../../patchers/modules/scala",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4972,21 +4972,21 @@
 , 			{
 				"name" : "rtt.sequence.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/sequence",
-				"patcherrelativepath" : "../patchers/modules/sequence",
+				"patcherrelativepath" : "../../patchers/modules/sequence",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.sequence.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/sequence",
-				"patcherrelativepath" : "../patchers/modules/sequence",
+				"patcherrelativepath" : "../../patchers/modules/sequence",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.sequence.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/sequence",
-				"patcherrelativepath" : "../patchers/modules/sequence",
+				"patcherrelativepath" : "../../patchers/modules/sequence",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4997,21 +4997,21 @@
 , 			{
 				"name" : "rtt.snap.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/snap",
-				"patcherrelativepath" : "../patchers/modules/snap",
+				"patcherrelativepath" : "../../patchers/modules/snap",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.snap.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/snap",
-				"patcherrelativepath" : "../patchers/modules/snap",
+				"patcherrelativepath" : "../../patchers/modules/snap",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.snap.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/snap",
-				"patcherrelativepath" : "../patchers/modules/snap",
+				"patcherrelativepath" : "../../patchers/modules/snap",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -5022,21 +5022,21 @@
 , 			{
 				"name" : "rtt.swing.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/swing",
-				"patcherrelativepath" : "../patchers/modules/swing",
+				"patcherrelativepath" : "../../patchers/modules/swing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.swing.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/swing",
-				"patcherrelativepath" : "../patchers/modules/swing",
+				"patcherrelativepath" : "../../patchers/modules/swing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.swing.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/swing",
-				"patcherrelativepath" : "../patchers/modules/swing",
+				"patcherrelativepath" : "../../patchers/modules/swing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -5047,14 +5047,14 @@
 , 			{
 				"name" : "tri-down.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
-				"patcherrelativepath" : "../media/icons",
+				"patcherrelativepath" : "../../media/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tri-up.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
-				"patcherrelativepath" : "../media/icons",
+				"patcherrelativepath" : "../../media/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}

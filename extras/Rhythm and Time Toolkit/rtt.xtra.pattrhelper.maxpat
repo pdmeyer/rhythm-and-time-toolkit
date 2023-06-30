@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 780.0, 381.0, 600.0, 575.0 ],
+		"rect" : [ 34.0, 291.0, 1346.0, 575.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -66,7 +66,7 @@
 				"box" : 				{
 					"comment" : "bang when preset is recalled",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -85,8 +85,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -217,7 +217,7 @@
 				"box" : 				{
 					"comment" : "connect to preset",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -229,13 +229,14 @@
 				"box" : 				{
 					"fontface" : 1,
 					"id" : "obj-5",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 365.0, 444.333335876464844, 150.0, 20.0 ],
+					"patching_rect" : [ 365.0, 444.333335876464844, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 36.0, 246.0, 20.0 ],
-					"text" : "rtt.xtra.pattrhelper"
+					"text" : "pattrstorage name: Untitled3"
 				}
 
 			}
@@ -246,8 +247,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 365.0, 415.333340406417847, 72.0, 22.0 ],
-					"text" : "prepend set"
+					"patching_rect" : [ 365.0, 415.333340406417847, 152.0, 22.0 ],
+					"text" : "prepend set storage name:"
 				}
 
 			}
@@ -360,11 +361,11 @@
 				"box" : 				{
 					"comment" : "bang to reset ",
 					"id" : "obj-2687",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 48.0, 125.000011420654346, 30.0, 30.0 ]
 				}
 
@@ -373,7 +374,7 @@
 				"box" : 				{
 					"comment" : "connect to pattstorage 1st outlet",
 					"id" : "obj-2688",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -386,29 +387,11 @@
 				"box" : 				{
 					"comment" : "connect to pattrstorage",
 					"id" : "obj-2690",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 69.0, 488.333340406417847, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.937254901960784, 0.937254901960784, 0.729411764705882, 0.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-6",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 380.0, 222.333334445953369, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 248.0, 84.0 ],
-					"proportion" : 0.5
 				}
 
 			}
@@ -614,37 +597,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-12::obj-10" : [ "pastebang", "pastebang", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "rtt.getpatchname.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/code",
-				"patcherrelativepath" : "../code",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rtt.misc.philipmeyer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
-				"patcherrelativepath" : "../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

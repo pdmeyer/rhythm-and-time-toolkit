@@ -4,7 +4,7 @@
 	"version" : "0.1.0",
 	"author" : "Philip Meyer",
 	"authors" : [  ],
-	"description" : "Objects for modular signal-based sequencing in Max MSP. Made with RNBO",
+	"description" : "Rhythm and Time Toolkit is a collection of objects and patches for modular sequencing with signals. Quickly and easily build a sequencing network that can trigger Max, MIDI, or CV instruments. Made with RNBO",
 	"tags" : [ "sequencing" ],
 	"website" : "https://github.com/pdmeyer/rhythm-and-time-toolkit",
 	"extends" : "",

@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -70,7 +70,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 435.736237704686516, 233.523063056888589, 90.0, 22.0 ],
+					"patching_rect" : [ 435.736237704686516, 237.523063056888589, 90.0, 22.0 ],
 					"text" : "prepend trigger"
 				}
 
@@ -107,14 +107,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 435.736237704686516, 209.523063056888589, 235.0, 22.0 ],
+					"patching_rect" : [ 435.736237704686516, 209.523063056888589, 236.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ "change" ],
+						"initial" : [ "counter" ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr trigger @type symbol @initial change",
+					"text" : "pattr trigger @type symbol @initial counter",
 					"varname" : "trigger"
 				}
 
@@ -127,14 +127,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 435.736237704686516, 156.523063056888589, 260.0, 22.0 ],
+					"patching_rect" : [ 435.736237704686516, 156.523063056888589, 254.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ "event_count" ],
+						"initial" : [ "eventcount" ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr output @type symbol @initial event_count",
+					"text" : "pattr output @type symbol @initial eventcount",
 					"varname" : "output"
 				}
 
@@ -191,7 +191,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 69.910172710821072, 271.5, 125.0, 22.0 ],
 					"text" : "rtt.module.attrchecker"
 				}
@@ -219,7 +219,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 318.436486941038027, 406.023063056888532, 250.0, 22.0 ],
-					"restore" : [ "pattern", 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0 ],
+					"restore" : [ "pattern", 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -355,7 +355,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 19.278594153266852, 21.523063056888589, 30.0, 30.0 ]
 				}
 

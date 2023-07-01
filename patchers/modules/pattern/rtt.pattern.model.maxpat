@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -107,14 +107,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 227.436486941038027, 137.523063056888589, 235.0, 22.0 ],
+					"patching_rect" : [ 227.436486941038027, 137.523063056888589, 236.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ "change" ],
+						"initial" : [ "counter" ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr trigger @type symbol @initial change",
+					"text" : "pattr trigger @type symbol @initial counter",
 					"varname" : "trigger"
 				}
 
@@ -127,14 +127,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 227.436486941038027, 84.523063056888589, 260.0, 22.0 ],
+					"patching_rect" : [ 227.436486941038027, 84.523063056888589, 254.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ "event_count" ],
+						"initial" : [ "eventcount" ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr output @type symbol @initial event_count",
+					"text" : "pattr output @type symbol @initial eventcount",
 					"varname" : "output"
 				}
 
@@ -222,7 +222,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 227.436486941038027, 190.023063056888475, 125.0, 22.0 ],
 					"text" : "rtt.module.attrchecker"
 				}

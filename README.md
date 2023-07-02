@@ -25,4 +25,4 @@ Once you've installed the package, open RhythmAndTimeToolkit.maxpat for an overv
 Philip Meyer is in Los Angeles, CA. Philip is a [Max Certified Trainer](https://cycling74.com/certified-trainers). He creates video tutorials on sequencing in Max for his [YouTube channel](https://www.youtube.com/@p__meyer). You can find his website [here](https://philip-meyer.com/). He is [@p__meyer](https://www.instagram.com/p__meyer/) on Instagram and ntrm#3099 on Discord. 
 
 ## Donate
-If you're enjoying seq and would like to donate, you can do so [here](https://www.paypal.com/donate/?business=HUYP4B2BRJ5MJ&no_recurring=0&currency_code=USD). All donations (including small ones) are appreciated!
+Donations help to keep this project going. If would like to donate, you can do so [here](https://www.paypal.com/donate/?business=HUYP4B2BRJ5MJ&no_recurring=0&currency_code=USD). 

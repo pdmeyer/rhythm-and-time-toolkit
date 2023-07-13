@@ -2688,7 +2688,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 30.0, 67.0, 498.0, 22.0 ],
-									"text" : "Building blocks for modular signal-based sequencing systems. Made with RNBO."
+									"text" : "Building blocks for modular signal-based sequencing. Made with RNBO."
 								}
 
 							}
@@ -3506,7 +3506,7 @@
 									"color" : [ 0.701961, 0.701961, 0.701961, 0.0 ],
 									"destination" : [ "obj-81", 0 ],
 									"hidden" : 1,
-									"order" : 0,
+									"order" : 4,
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -3516,7 +3516,7 @@
 									"color" : [ 0.701961, 0.701961, 0.701961, 0.0 ],
 									"destination" : [ "obj-82", 0 ],
 									"hidden" : 1,
-									"order" : 4,
+									"order" : 3,
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -3526,7 +3526,7 @@
 									"color" : [ 0.701961, 0.701961, 0.701961, 0.0 ],
 									"destination" : [ "obj-83", 0 ],
 									"hidden" : 1,
-									"order" : 3,
+									"order" : 2,
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -3536,7 +3536,7 @@
 									"color" : [ 0.701961, 0.701961, 0.701961, 0.0 ],
 									"destination" : [ "obj-85", 0 ],
 									"hidden" : 1,
-									"order" : 2,
+									"order" : 1,
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -3546,7 +3546,7 @@
 									"color" : [ 0.701961, 0.701961, 0.701961, 0.0 ],
 									"destination" : [ "obj-87", 0 ],
 									"hidden" : 1,
-									"order" : 1,
+									"order" : 0,
 									"source" : [ "obj-28", 0 ]
 								}
 

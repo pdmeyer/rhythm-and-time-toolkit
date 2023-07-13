@@ -1,0 +1,23 @@
+{
+	"pattrstorage" : 	{
+		"name" : "rtt_ex_jpgpattern",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"bar/bpm" : [ "bpm", 120.0 ],
+					"mc.live.gain~" : [ 0.0 ],
+					"notes/sequence" : [ 0.633333333333333, 0.75, 0.6, 0.383333333333333, 0.566666666666667, 0.666666666666667, 0.45, 0.583333333333333 ],
+					"i2p::steps" : [ 8 ],
+					"i2p::row" : [ 0.659536302089691 ],
+					"i2p::threshold" : [ 0.5 ],
+					"i2p::filename" : [ "fernie.jpg" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -49,15 +49,15 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 625.0, 474.0 ],
+						"rect" : [ 50.0, 126.0, 625.0, 474.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -87,6 +87,19 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
+									"id" : "obj-10",
+									"maxclass" : "live.scope~",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 416.75, 278.0, 117.0, 48.152173913043498 ],
+									"range" : [ -0.1, 1.1 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 									"fontname" : "Arial Bold",
@@ -186,8 +199,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 6,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -314,7 +327,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 289.75, 278.0, 74.0, 22.0 ],
+									"patching_rect" : [ 289.75, 278.0, 122.0, 22.0 ],
 									"text" : "slide~ 5 100"
 								}
 
@@ -360,8 +373,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 6,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -842,7 +855,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 155.0, 130.5, 199.0, 58.0 ],
+									"patching_rect" : [ 155.0, 139.0, 199.0, 58.0 ],
 									"setminmax" : [ 1.0, 20.0 ],
 									"settype" : 0,
 									"size" : 3,
@@ -1029,7 +1042,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"order" : 0,
+									"source" : [ "obj-13", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-63", 0 ],
+									"order" : 1,
 									"source" : [ "obj-13", 1 ]
 								}
 
@@ -1132,15 +1154,15 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 50.0, 113.0, 625.0, 474.0 ],
+						"rect" : [ 0.0, 26.0, 625.0, 474.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1597,8 +1619,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -1635,6 +1657,19 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"activelinecolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
+									"id" : "obj-19",
+									"maxclass" : "live.scope~",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 207.0, 382.695652173913004, 133.0, 49.152173913043498 ],
+									"range" : [ -0.1, 1.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bubble" : 1,
 									"fontname" : "Arial",
@@ -1771,7 +1806,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 61.666666666666657, 352.847826086956502, 133.0, 49.152173913043498 ],
+									"patching_rect" : [ 15.0, 352.847826086956502, 133.0, 49.152173913043498 ],
 									"range" : [ -0.1, 1.0 ]
 								}
 
@@ -1944,8 +1979,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 6,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -2184,7 +2219,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
-									"source" : [ "obj-10", 2 ]
+									"order" : 1,
+									"source" : [ "obj-10", 0 ]
 								}
 
 							}
@@ -2192,6 +2228,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
 									"midpoints" : [ 24.5, 342.923913043478251, 309.5, 342.923913043478251 ],
+									"order" : 0,
 									"source" : [ "obj-10", 0 ]
 								}
 
@@ -2200,6 +2237,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-18", 0 ],
 									"source" : [ "obj-13", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"source" : [ "obj-13", 0 ]
 								}
 
 							}
@@ -2336,8 +2380,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -2400,8 +2444,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -2719,7 +2763,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 330.0, 148.0, 22.0, 20.0 ],
+									"patching_rect" : [ 332.0, 153.0, 22.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -2735,7 +2779,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 220.0, 145.5, 110.0, 25.0 ],
+									"patching_rect" : [ 222.0, 150.5, 110.0, 25.0 ],
 									"text" : "turn on audio"
 								}
 
@@ -2747,7 +2791,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 193.0, 144.5, 27.0, 27.0 ],
+									"patching_rect" : [ 195.0, 149.5, 27.0, 27.0 ],
 									"prototypename" : "helpfile"
 								}
 
@@ -2779,8 +2823,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 6,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -3087,7 +3131,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "burst.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/media/icons",
 				"patcherrelativepath" : "../media/icons",
 				"type" : "svg",
 				"implicit" : 1
@@ -3106,35 +3150,35 @@
 			}
 , 			{
 				"name" : "rtt.blocks.blockviewer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/modules/blocks",
 				"patcherrelativepath" : "../patchers/modules/blocks",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.blocks.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/modules/blocks",
 				"patcherrelativepath" : "../patchers/modules/blocks",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.blocks.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/modules/blocks",
 				"patcherrelativepath" : "../patchers/modules/blocks",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.blocks.presets.xml",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/modules/blocks",
 				"patcherrelativepath" : "../patchers/modules/blocks",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.blocks.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/modules/blocks",
 				"patcherrelativepath" : "../patchers/modules/blocks",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3157,42 +3201,42 @@
 			}
 , 			{
 				"name" : "rtt.misc.aboutbutton.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/misc",
 				"patcherrelativepath" : "../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.module.attrchecker.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/module-components",
 				"patcherrelativepath" : "../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.module.control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/module-components",
 				"patcherrelativepath" : "../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.module.remote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/module-components",
 				"patcherrelativepath" : "../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.module.viewcontrol.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/module-components",
 				"patcherrelativepath" : "../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1

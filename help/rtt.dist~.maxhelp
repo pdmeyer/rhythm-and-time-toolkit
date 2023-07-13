@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -49,15 +49,15 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 50.0, 113.0, 650.0, 474.0 ],
+						"rect" : [ 0.0, 26.0, 650.0, 474.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -553,8 +553,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -617,15 +617,15 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 650.0, 474.0 ],
+						"rect" : [ 50.0, 126.0, 650.0, 474.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -762,7 +762,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 418.733333333333348, 400.0, 82.0, 36.0 ],
+									"patching_rect" : [ 395.833333333333371, 358.5, 82.0, 36.0 ],
 									"text" : "value selected"
 								}
 
@@ -789,8 +789,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 6,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -1147,7 +1147,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 357.733333333333348, 413.0, 56.0, 22.0 ],
+									"patching_rect" : [ 335.0, 365.5, 56.0, 22.0 ],
 									"sig" : 0.0
 								}
 
@@ -1579,28 +1579,28 @@
 			}
 , 			{
 				"name" : "rtt.dist.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/dist",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/modules/dist",
 				"patcherrelativepath" : "../patchers/modules/dist",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.dist.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/dist",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/modules/dist",
 				"patcherrelativepath" : "../patchers/modules/dist",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.dist.presets.xml",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/dist",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/modules/dist",
 				"patcherrelativepath" : "../patchers/modules/dist",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.dist.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/dist",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/modules/dist",
 				"patcherrelativepath" : "../patchers/modules/dist",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1623,42 +1623,42 @@
 			}
 , 			{
 				"name" : "rtt.misc.aboutbutton.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/misc",
 				"patcherrelativepath" : "../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.module.attrchecker.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/module-components",
 				"patcherrelativepath" : "../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.module.control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/module-components",
 				"patcherrelativepath" : "../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.module.remote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/module-components",
 				"patcherrelativepath" : "../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.module.viewcontrol.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/module-components",
 				"patcherrelativepath" : "../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1

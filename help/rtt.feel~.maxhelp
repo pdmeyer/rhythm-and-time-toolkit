@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -49,8 +49,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -574,8 +574,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -638,15 +638,15 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 50.0, 113.0, 650.0, 524.0 ],
+						"rect" : [ 50.0, 126.0, 650.0, 524.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -676,6 +676,40 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+									"fontname" : "Arial Bold",
+									"hint" : "",
+									"id" : "obj-24",
+									"ignoreclick" : 1,
+									"legacytextcolor" : 1,
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 558.0, 253.0, 20.0, 20.0 ],
+									"rounded" : 60.0,
+									"text" : "4",
+									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"id" : "obj-20",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 452.0, 244.5, 119.0, 37.0 ],
+									"presentation_linecount" : 2,
+									"text" : "in/decrease the amount"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"args" : [ "rtt" ],
 									"bgmode" : 0,
@@ -732,8 +766,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 6,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -970,7 +1004,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 241.0, 283.0, 181.0, 33.0 ],
+									"patching_rect" : [ 111.0, 283.0, 181.0, 33.0 ],
 									"text" : "right outlet outputs the centered + scaled modulation list"
 								}
 
@@ -988,7 +1022,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 558.0, 205.5, 20.0, 20.0 ],
+									"patching_rect" : [ 558.0, 197.5, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "2",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -1021,24 +1055,13 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-29",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 59.0, 230.0, 144.5, 20.0 ],
-									"text" : "amount of modulation"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"bubble" : 1,
 									"id" : "obj-28",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 452.0, 190.0, 119.0, 51.0 ],
+									"patching_rect" : [ 452.0, 182.0, 119.0, 51.0 ],
 									"text" : "draw a function to modulate the phasor"
 								}
 
@@ -1064,7 +1087,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 219.0, 160.0, 87.0, 22.0 ],
+									"patching_rect" : [ 219.0, 164.0, 87.0, 22.0 ],
 									"text" : "prepend setlist"
 								}
 
@@ -1078,7 +1101,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 219.0, 185.0, 231.0, 61.0 ],
+									"patching_rect" : [ 219.0, 189.0, 231.0, 61.0 ],
 									"size" : 128,
 									"slidercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ]
 								}
@@ -1193,7 +1216,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 375.5, 135.0, 20.0, 20.0 ],
+									"patching_rect" : [ 356.5, 127.5, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -1209,7 +1232,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 277.5, 132.5, 108.0, 25.0 ],
+									"patching_rect" : [ 256.5, 125.0, 108.0, 25.0 ],
 									"text" : "turn on audio"
 								}
 
@@ -1221,7 +1244,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 250.5, 132.5, 24.0, 24.0 ],
+									"patching_rect" : [ 229.5, 125.0, 24.0, 24.0 ],
 									"prototypename" : "helpfile"
 								}
 
@@ -1251,7 +1274,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 59.0, 252.0, 150.0, 22.0 ]
+									"patching_rect" : [ 219.0, 252.0, 231.0, 22.0 ]
 								}
 
 							}
@@ -1264,7 +1287,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 219.0, 185.0, 231.0, 61.0 ],
+									"patching_rect" : [ 219.0, 189.0, 231.0, 61.0 ],
 									"size" : 128,
 									"slidercolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 0.5 ]
 								}
@@ -1366,7 +1389,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-15", 0 ],
-									"midpoints" : [ 93.5, 315.0, 213.5, 315.0, 213.5, 149.0, 228.5, 149.0 ],
+									"midpoints" : [ 93.5, 315.0, 108.5, 315.0, 108.5, 158.0, 228.5, 158.0 ],
 									"source" : [ "obj-5", 1 ]
 								}
 
@@ -1470,21 +1493,21 @@
 			}
 , 			{
 				"name" : "rtt.feel.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/feel",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/modules/feel",
 				"patcherrelativepath" : "../patchers/modules/feel",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.feel.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/feel",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/modules/feel",
 				"patcherrelativepath" : "../patchers/modules/feel",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.feel.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/feel",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/modules/feel",
 				"patcherrelativepath" : "../patchers/modules/feel",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1495,42 +1518,42 @@
 			}
 , 			{
 				"name" : "rtt.misc.aboutbutton.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/misc",
 				"patcherrelativepath" : "../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.module.attrchecker.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/module-components",
 				"patcherrelativepath" : "../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.module.control.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.module.control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/module-components",
 				"patcherrelativepath" : "../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.module.remote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/module-components",
 				"patcherrelativepath" : "../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.module.viewcontrol.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/module-components",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/module-components",
 				"patcherrelativepath" : "../patchers/module-components",
 				"type" : "JSON",
 				"implicit" : 1

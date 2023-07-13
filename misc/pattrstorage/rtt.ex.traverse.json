@@ -1,6 +1,6 @@
 {
 	"pattrstorage" : 	{
-		"name" : "seq.ex.traverse",
+		"name" : "rtt.ex.traverse",
 		"slots" : 		{
 			"1" : 			{
 				"id" : 1,
@@ -13,9 +13,9 @@
 					"fm_modratio" : [ 0.75 ],
 					"fm_t60" : [ "t60", 0.7 ],
 					"live.gain~" : [  ],
-					"notes" : [ 67, 68, 68, 67, 66, 65, 63, 62, 61, 60, 60, 61, 62, 65, 69, 67 ],
 					"scale" : [ "hirajoshi.scl" ],
-					"steps" : [ "steps", 4.0 ]
+					"steps" : [ "steps", 4.0 ],
+					"bp::notes" : [ 67, 68, 68, 67, 66, 65, 63, 62, 61, 60, 60, 61, 62, 65, 69, 67 ]
 				}
 
 			}
@@ -31,9 +31,9 @@
 					"fm_modratio" : [ 1.67 ],
 					"fm_t60" : [ "t60", 0.3 ],
 					"live.gain~" : [  ],
-					"notes" : [ 67, 65, 68, 64, 66, 65, 66, 67, 62, 66, 64, 63, 65, 67, 69, 67 ],
 					"scale" : [ "hirajoshi.scl" ],
-					"steps" : [ "steps", 4.0 ]
+					"steps" : [ "steps", 4.0 ],
+					"bp::notes" : [ 67, 65, 68, 64, 66, 65, 66, 67, 62, 66, 64, 63, 65, 67, 69, 67 ]
 				}
 
 			}
@@ -49,9 +49,9 @@
 					"fm_modratio" : [ 0.75 ],
 					"fm_t60" : [ "t60", 0.7 ],
 					"live.gain~" : [ 0.0 ],
-					"notes" : [ 67, 68, 68, 67, 66, 65, 63, 62, 61, 60, 60, 61, 62, 65, 69, 67 ],
 					"scale" : [ "hirajoshi.scl" ],
-					"steps" : [ "steps", 4.0 ]
+					"steps" : [ "steps", 4.0 ],
+					"bp::notes" : [ 67, 68, 68, 67, 66, 65, 63, 62, 61, 60, 60, 61, 62, 65, 69, 67 ]
 				}
 
 			}
@@ -67,9 +67,27 @@
 					"fm_modratio" : [ 0.75 ],
 					"fm_t60" : [ "t60", 0.7 ],
 					"live.gain~" : [ 0.0 ],
-					"notes" : [ 67, 68, 65, 65, 66, 63, 67, 69, 66, 63, 66, 64, 65, 65, 63, 67 ],
 					"scale" : [ "hirajoshi.scl" ],
-					"steps" : [ "steps", 4.0 ]
+					"steps" : [ "steps", 4.0 ],
+					"bp::notes" : [ 67, 68, 65, 65, 66, 63, 67, 69, 66, 63, 66, 64, 65, 65, 63, 67 ]
+				}
+
+			}
+,
+			"14" : 			{
+				"id" : 14,
+				"data" : 				{
+					"bpm" : [ "bpm", 120.0 ],
+					"ceiling" : [ "ceiling", 16.0 ],
+					"direction" : [ "direction", "random" ],
+					"floor" : [ "floor", 12.0 ],
+					"fm_depth" : [ "depth", 0.96 ],
+					"fm_modratio" : [ 0.75 ],
+					"fm_t60" : [ "t60", 0.7 ],
+					"live.gain~" : [ 0.0 ],
+					"scale" : [ "hirajoshi.scl" ],
+					"steps" : [ "steps", 4.0 ],
+					"bp::notes" : [ 67, 68, 68, 67, 66, 65, 63, 62, 61, 60, 60, 61, 62, 65, 69, 67 ]
 				}
 
 			}

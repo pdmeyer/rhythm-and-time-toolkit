@@ -25,7 +25,7 @@
 <digest>When enabled, value changes to the first inlet can be sampled and output automatically. </digest>
 </attribute>
 </attributelist>
-<description><o>rtt.makenote</o> accepts signals representing a note trigger, note value, velocity, pitch bend and duration and outputs  MIDI note messages. The object can be configured to sample automatically when the note value changes, or sampling can be triggered with an impulse to the second inlet.</description>
+<description><o>rtt.makenote~</o> accepts signals representing a note trigger, note value, velocity, pitch bend and duration and outputs  MIDI note messages. The object can be configured to sample automatically when the note value changes, or sampling can be triggered with an impulse to the second inlet.</description>
 <digest>Convert signals to MIDI notes</digest>
 <seealsolist>
     <seealsolist>

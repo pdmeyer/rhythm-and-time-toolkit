@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 471.0, 160.0, 34.0, 22.0 ],
+					"text" : "sel 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
@@ -107,8 +120,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 607.166670083999634, 37.0, 100.0, 40.0 ],
-					"pattrstorage" : "rtt.ex.feel",
+					"patching_rect" : [ 478.0, 122.0, 174.833329916000366, 22.0 ],
+					"pattrstorage" : "rtt_ex_feel",
 					"presentation" : 1,
 					"presentation_rect" : [ 104.0, 3.0, 159.0, 29.0 ]
 				}
@@ -146,7 +159,7 @@
 						"loop/steps" : [ "steps", 16.0 ],
 						"loop/subdiv" : [ "subdiv", 16.0 ],
 						"mc.live.gain~" : [ -6.314440647749201 ],
-						"pprob/probabilities" : [ 0.566666666666667, 0.7, 0.7, 0.7, 0.75, 0.75, 0.716666666666667, 0.383333333333333 ],
+						"pprob/probabilities" : [ 0.566666666666667, 0.408333333333333, 0.7, 0.7, 0.75, 0.75, 0.716666666666667, 0.383333333333333 ],
 						"pprob/size" : [ "size", 8 ]
 					}
 ,
@@ -172,7 +185,7 @@
 					}
 ,
 					"text" : "pattrstorage @autorestore 1 @savemode 2",
-					"varname" : "rtt.ex.feel"
+					"varname" : "rtt_ex_feel"
 				}
 
 			}
@@ -206,7 +219,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 315.0, 559.0, 195.0, 22.0 ],
-					"text" : "6. 0. 0. 0. 0. 0. 0. 0. 0."
+					"text" : "1. 6. 5. 4. 4. 5. 6. 7. 7."
 				}
 
 			}
@@ -332,8 +345,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -1327,6 +1340,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2622", 0 ],
+					"order" : 1,
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"hidden" : 1,
+					"order" : 0,
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -1413,6 +1436,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2622", 0 ],
 					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-128", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
@@ -1688,14 +1719,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "edit.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/media/icons",
 				"patcherrelativepath" : "../media/icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.8sequence.ui.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/8sequence",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/modules/8sequence",
 				"patcherrelativepath" : "../patchers/modules/8sequence",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1710,14 +1741,14 @@
 			}
 , 			{
 				"name" : "rtt.dsp.env.ar.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/code",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.ex.feel.json",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/pattrstorage",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/misc/pattrstorage",
 				"patcherrelativepath" : "../misc/pattrstorage",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1728,7 +1759,7 @@
 			}
 , 			{
 				"name" : "rtt.getpatchname.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -1739,7 +1770,7 @@
 			}
 , 			{
 				"name" : "rtt.misc.philipmeyer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/misc",
 				"patcherrelativepath" : "../misc",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1750,14 +1781,14 @@
 			}
 , 			{
 				"name" : "rtt.resizebpatcher.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.sequence.ui.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/sequence",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/modules/sequence",
 				"patcherrelativepath" : "../patchers/modules/sequence",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1768,14 +1799,14 @@
 			}
 , 			{
 				"name" : "rtt.xtra.pattrhelper.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq-dev/extras",
-				"patcherrelativepath" : "../../seq-dev/extras",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/extras/Rhythm and Time Toolkit",
+				"patcherrelativepath" : "../extras/Rhythm and Time Toolkit",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.xtra.stepgridviewer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/Rhythm and Time Toolkit",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/extras/Rhythm and Time Toolkit",
 				"patcherrelativepath" : "../extras/Rhythm and Time Toolkit",
 				"type" : "JSON",
 				"implicit" : 1

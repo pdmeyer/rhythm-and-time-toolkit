@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -39,6 +39,22 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-195",
+					"maxclass" : "multislider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 264.499999999999943, 443.0, 132.0, 60.0 ],
+					"setminmax" : [ 0.0, 1.0 ],
+					"size" : 8,
+					"slidercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
+					"varname" : "notes/sequence"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-76",
 					"maxclass" : "button",
@@ -86,8 +102,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -182,8 +198,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 6,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -1071,7 +1087,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 515.333331108093262, 41.166664600372314, 129.416670918464661, 57.16666116721251 ]
+					"patching_rect" : [ 515.333331108093262, 41.166664600372314, 129.416670918464661, 57.16666116721251 ],
+					"pattrstorage" : "rtt_ex_jpgpattern"
 				}
 
 			}
@@ -1085,7 +1102,8 @@
 					"patching_rect" : [ 420.333331108093262, 41.166664600372314, 56.0, 22.0 ],
 					"restore" : 					{
 						"bar/bpm" : [ "bpm", 120.0 ],
-						"mc.live.gain~" : [ 0.0 ]
+						"mc.live.gain~" : [ 0.0 ],
+						"notes/sequence" : [ 0.633333333333333, 0.75, 0.6, 0.383333333333333, 0.566666666666667, 0.666666666666667, 0.45, 0.583333333333333 ]
 					}
 ,
 					"text" : "autopattr",
@@ -1095,6 +1113,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "rtt_ex_jpgpattern.json",
 					"id" : "obj-2666",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1102,14 +1121,14 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 315.0, 107.0, 302.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 580, 87, 1280, 529 ],
+						"client_rect" : [ 580, 87, 949, 304 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 583, 87, 1034, 215 ]
 					}
 ,
 					"text" : "pattrstorage @autorestore 1 @savemode 2 @greedy 1",
-					"varname" : "u954000489"
+					"varname" : "rtt_ex_jpgpattern"
 				}
 
 			}
@@ -1145,8 +1164,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -1404,41 +1423,19 @@
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-156",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "rtt.sequence.ui.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 243.499999999999943, 410.083334135975349, 227.0, 94.0 ],
-					"varname" : "sequence",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"id" : "obj-66",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 224.499999999999943, 516.916663854954322, 246.0, 22.0 ],
+					"patching_rect" : [ 224.499999999999943, 516.916663854954322, 59.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "rtt.sequence~"
+					"text" : "rtt.notes~"
 				}
 
 			}
@@ -1645,7 +1642,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 431.0, 171.916669416393745, 224.0, 22.0 ],
-					"restore" : [ 0.899519383907318 ],
+					"restore" : [ 0.583540916442871 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1765,8 +1762,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -2087,20 +2084,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-66", 1 ],
-					"source" : [ "obj-156", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-66", 0 ],
-					"source" : [ "obj-156", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-17", 0 ]
@@ -2112,6 +2095,13 @@
 					"destination" : [ "obj-17", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-66", 1 ],
+					"source" : [ "obj-195", 0 ]
 				}
 
 			}
@@ -2313,12 +2303,6 @@
  ],
 		"parameters" : 		{
 			"obj-109" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
-			"obj-156::obj-10" : [ "live.numbox[31]", "live.numbox", 0 ],
-			"obj-156::obj-14" : [ "live.text[7]", "live.text", 0 ],
-			"obj-156::obj-30" : [ "live.numbox[46]", "live.numbox", 0 ],
-			"obj-156::obj-31" : [ "live.numbox[38]", "live.numbox", 0 ],
-			"obj-156::obj-32" : [ "live.numbox[37]", "live.numbox", 0 ],
-			"obj-156::obj-33" : [ "live.numbox[32]", "live.numbox", 0 ],
 			"obj-2691::obj-12::obj-10" : [ "pastebang", "pastebang", 0 ],
 			"obj-30::obj-2" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-30::obj-31" : [ "live.grid", "live.grid", 0 ],
@@ -2333,30 +2317,6 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-156::obj-10" : 				{
-					"parameter_longname" : "live.numbox[31]"
-				}
-,
-				"obj-156::obj-14" : 				{
-					"parameter_longname" : "live.text[7]"
-				}
-,
-				"obj-156::obj-30" : 				{
-					"parameter_longname" : "live.numbox[46]"
-				}
-,
-				"obj-156::obj-31" : 				{
-					"parameter_longname" : "live.numbox[38]"
-				}
-,
-				"obj-156::obj-32" : 				{
-					"parameter_longname" : "live.numbox[37]"
-				}
-,
-				"obj-156::obj-33" : 				{
-					"parameter_longname" : "live.numbox[32]"
-				}
-,
 				"obj-30::obj-2" : 				{
 					"parameter_longname" : "live.numbox"
 				}
@@ -2368,7 +2328,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "edit.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/media/icons",
 				"patcherrelativepath" : "../media/icons",
 				"type" : "svg",
 				"implicit" : 1
@@ -2379,24 +2339,28 @@
 			}
 , 			{
 				"name" : "rtt.dsp.env.ar.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/code",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.getpatchname.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.misc.philipmeyer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/misc",
 				"patcherrelativepath" : "../misc",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "rtt.notes~.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "rtt.pattern~.mxo",
@@ -2404,21 +2368,10 @@
 			}
 , 			{
 				"name" : "rtt.resizebpatcher.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "rtt.sequence.ui.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/sequence",
-				"patcherrelativepath" : "../patchers/modules/sequence",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rtt.sequence~.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "rtt.snap~.mxo",
@@ -2426,22 +2379,29 @@
 			}
 , 			{
 				"name" : "rtt.xtra.img2pattern.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/Rhythm and Time Toolkit",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/extras/Rhythm and Time Toolkit",
 				"patcherrelativepath" : "../extras/Rhythm and Time Toolkit",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.xtra.pattrhelper.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/Rhythm and Time Toolkit",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/extras/Rhythm and Time Toolkit",
 				"patcherrelativepath" : "../extras/Rhythm and Time Toolkit",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.xtra.stepgridviewer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/Rhythm and Time Toolkit",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/extras/Rhythm and Time Toolkit",
 				"patcherrelativepath" : "../extras/Rhythm and Time Toolkit",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rtt_ex_jpgpattern.json",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/misc/pattrstorage",
+				"patcherrelativepath" : "../misc/pattrstorage",
 				"type" : "JSON",
 				"implicit" : 1
 			}

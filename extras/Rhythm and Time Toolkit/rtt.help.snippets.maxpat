@@ -2,18 +2,18 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1005.0, 779.0 ],
+		"rect" : [ 34.0, 100.0, 1444.0, 848.0 ],
 		"openrect" : [ 0.0, 0.0, 1920.0, 1300.0 ],
-		"bglocked" : 0,
-		"openinpresentation" : 1,
+		"bglocked" : 1,
+		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -261,8 +261,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -406,8 +406,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -2583,8 +2583,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -4732,7 +4732,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "edit.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/media/icons",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/media/icons",
 				"patcherrelativepath" : "../../media/icons",
 				"type" : "svg",
 				"implicit" : 1
@@ -4745,7 +4745,7 @@
 			}
 , 			{
 				"name" : "rtt.8sequence.ui.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/8sequence",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/modules/8sequence",
 				"patcherrelativepath" : "../../patchers/modules/8sequence",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4760,7 +4760,7 @@
 			}
 , 			{
 				"name" : "rtt.blocks.blockviewer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/blocks",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/modules/blocks",
 				"patcherrelativepath" : "../../patchers/modules/blocks",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4799,7 +4799,7 @@
 			}
 , 			{
 				"name" : "rtt.getpatchname.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/javascript",
 				"patcherrelativepath" : "../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -4818,7 +4818,7 @@
 			}
 , 			{
 				"name" : "rtt.misc.philipmeyer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4837,7 +4837,7 @@
 			}
 , 			{
 				"name" : "rtt.resizebpatcher.js",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/javascript",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/javascript",
 				"patcherrelativepath" : "../../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -4860,7 +4860,7 @@
 			}
 , 			{
 				"name" : "rtt.scala.parser.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/scala",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/modules/scala",
 				"patcherrelativepath" : "../../patchers/modules/scala",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4871,7 +4871,7 @@
 			}
 , 			{
 				"name" : "rtt.sequence.ui.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/sequence",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/modules/sequence",
 				"patcherrelativepath" : "../../patchers/modules/sequence",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4890,14 +4890,14 @@
 			}
 , 			{
 				"name" : "rtt.xtra.pattrhelper.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/Rhythm and Time Toolkit",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/extras/Rhythm and Time Toolkit",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.xtra.stepgridviewer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/extras/Rhythm and Time Toolkit",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/extras/Rhythm and Time Toolkit",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -68,8 +68,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -106,6 +106,23 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 340.0, 285.0, 56.0, 22.0 ],
+									"restore" : 									{
+										"notes" : [ 67, 68, 68, 67, 66, 65, 63, 62, 61, 60, 60, 61, 62, 65, 69, 67 ]
+									}
+,
+									"text" : "autopattr",
+									"varname" : "u402005621"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-51",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
@@ -114,8 +131,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 6,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -173,8 +190,8 @@
 													"patcher" : 													{
 														"fileversion" : 1,
 														"appversion" : 														{
-															"major" : 8,
-															"minor" : 6,
+															"major" : 9,
+															"minor" : 0,
 															"revision" : 0,
 															"architecture" : "x64",
 															"modernui" : 1
@@ -978,7 +995,8 @@
  ]
 					}
 ,
-					"patching_rect" : [ 287.2571278452873, 278.530125585857377, 295.61906909942627, 107.803204330142989 ],
+					"patching_rect" : [ 287.2571278452873, 271.530125585857377, 295.61906909942627, 107.803204330142989 ],
+					"varname" : "bp",
 					"viewvisibility" : 1
 				}
 
@@ -991,7 +1009,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 425.780941152572609, 394.619051158428192, 75.0, 22.0 ],
+					"patching_rect" : [ 425.566662395000435, 388.333329916000366, 75.0, 22.0 ],
 					"text" : "getattr steps"
 				}
 
@@ -1006,8 +1024,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -1186,8 +1204,8 @@
 					"restore" : 					{
 						"bpm" : [ "bpm", 120.0 ],
 						"ceiling" : [ "ceiling", 16.0 ],
-						"direction" : [ "direction", "forward" ],
-						"floor" : [ "floor", 14.0 ],
+						"direction" : [ "direction", "random" ],
+						"floor" : [ "floor", 2.0 ],
 						"fm_depth" : [ "depth", 0.96 ],
 						"fm_modratio" : [ 0.75 ],
 						"fm_t60" : [ "t60", 0.7 ],
@@ -1215,7 +1233,7 @@
 						"client_rect" : [ 772, 116, 1155, 478 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 583, 100, 1108, 560 ]
 					}
 ,
 					"text" : "pattrstorage rtt.ex.traverse @savemode 2",
@@ -1357,8 +1375,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -2765,7 +2783,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-82", 1 ],
 					"hidden" : 1,
-					"midpoints" : [ 435.280941152572609, 425.666670083999634, 599.007163086533524, 425.666670083999634, 599.007163086533524, 267.530125585857377, 435.066662395000435, 267.530125585857377 ],
+					"midpoints" : [ 435.066662395000435, 425.666670083999634, 599.007163086533524, 425.666670083999634, 599.007163086533524, 267.530125585857377, 435.066662395000435, 267.530125585857377 ],
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -2918,7 +2936,7 @@
 			}
 , 			{
 				"name" : "rtt.ex.traverse.json",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc/pattrstorage",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/misc/pattrstorage",
 				"patcherrelativepath" : "../misc/pattrstorage",
 				"type" : "JSON",
 				"implicit" : 1
@@ -2929,7 +2947,7 @@
 			}
 , 			{
 				"name" : "rtt.scala.parser.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/patchers/modules/scala",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/patchers/modules/scala",
 				"patcherrelativepath" : "../patchers/modules/scala",
 				"type" : "JSON",
 				"implicit" : 1

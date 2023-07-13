@@ -2900,7 +2900,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "rtt.swing~", "rtt.feel~", "rtt.loop~", "rtt.blocks~", "rtt.divs~", "rtt.resync~" ],
+									"args" : [ "rtt.loop~", "rtt.swing~", "rtt.feel~", "rtt.blocks~", "rtt.divs~", "rtt.resync~" ],
 									"background" : 1,
 									"bgmode" : 0,
 									"border" : 0,
@@ -3506,7 +3506,7 @@
 									"color" : [ 0.701961, 0.701961, 0.701961, 0.0 ],
 									"destination" : [ "obj-81", 0 ],
 									"hidden" : 1,
-									"order" : 4,
+									"order" : 0,
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -3516,7 +3516,7 @@
 									"color" : [ 0.701961, 0.701961, 0.701961, 0.0 ],
 									"destination" : [ "obj-82", 0 ],
 									"hidden" : 1,
-									"order" : 3,
+									"order" : 4,
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -3526,7 +3526,7 @@
 									"color" : [ 0.701961, 0.701961, 0.701961, 0.0 ],
 									"destination" : [ "obj-83", 0 ],
 									"hidden" : 1,
-									"order" : 2,
+									"order" : 3,
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -3536,7 +3536,7 @@
 									"color" : [ 0.701961, 0.701961, 0.701961, 0.0 ],
 									"destination" : [ "obj-85", 0 ],
 									"hidden" : 1,
-									"order" : 1,
+									"order" : 2,
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -3546,7 +3546,7 @@
 									"color" : [ 0.701961, 0.701961, 0.701961, 0.0 ],
 									"destination" : [ "obj-87", 0 ],
 									"hidden" : 1,
-									"order" : 0,
+									"order" : 1,
 									"source" : [ "obj-28", 0 ]
 								}
 

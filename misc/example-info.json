@@ -15,6 +15,10 @@
 		"digest" : "An intro to how signals work in rtt."
 	}
 ,
+	"rtt.help.presets" : 	{
+		"digest" : "How to use Max's pattr system to create presets for your RTT patches."
+	}
+,
 	"rtt.ex.feel" : 	{
 		"digest" : "An example that uses rtt.feel~ to create a loose groove."
 	}

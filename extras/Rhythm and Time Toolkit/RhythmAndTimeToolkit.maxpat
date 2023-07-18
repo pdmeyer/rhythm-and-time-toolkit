@@ -1364,7 +1364,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 285.0, 213.0, 820.0, 674.0 ],
+						"rect" : [ 150.0, 96.0, 820.0, 674.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2005,7 +2005,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 649.0, 509.5, 65.0, 22.0 ],
+									"patching_rect" : [ 691.0, 478.5, 65.0, 22.0 ],
 									"text" : "r midi-dest"
 								}
 
@@ -2041,7 +2041,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 600.0, 540.5, 47.0, 22.0 ],
+									"patching_rect" : [ 663.0, 534.5, 47.0, 22.0 ],
 									"text" : "midiout"
 								}
 
@@ -3773,7 +3773,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-76", 0 ],
-									"source" : [ "obj-75", 0 ]
+									"source" : [ "obj-75", 2 ]
 								}
 
 							}

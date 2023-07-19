@@ -760,6 +760,52 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-6",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 636.75, 269.0, 63.0, 33.0 ],
+									"text" : "scale name"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 516.75, 269.0, 96.0, 33.0 ],
+									"text" : "preferarchive attr"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 205.583333333333343, 269.0, 150.0, 20.0 ],
+									"text" : "bang/dump"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 50.0, 269.0, 150.0, 20.0 ],
+									"text" : "view"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-201",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
@@ -790,7 +836,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 40.000000429687503, 30.0, 30.0 ]
 								}
 
@@ -981,8 +1027,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 138.75, 11.5, 59.25, 33.0 ],
-									"presentation_linecount" : 2,
+									"patching_rect" : [ 138.75, 11.5, 61.0, 33.0 ],
 									"text" : "in search path?"
 								}
 
@@ -995,7 +1040,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 88.0, 11.5, 59.25, 33.0 ],
-									"presentation_linecount" : 3,
 									"text" : "in archive?"
 								}
 
@@ -1148,7 +1192,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 40.0, 450.0, 107.25, 35.0 ],
+									"patching_rect" : [ 40.0, 450.0, 111.0, 35.0 ],
 									"text" : "combine scales:: s @triggers 1"
 								}
 
@@ -3251,7 +3295,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 163.999999570312497, 30.0, 30.0 ],
 					"varname" : "u184003860"
 				}
@@ -3267,7 +3311,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 76.0, 737.0, 79.0 ],
-					"presentation_linecount" : 12,
 					"text" : "Parses Scala (.scl) files and produces useful information for rtt.scala~, rtt.notes~ and mtof~. When given the name of a Scala file, it looks for the file in both the Max Scala Archive and in the Max search path. If it finds the file in either location, it reads it and outputs a scale list from the first outlet that can be used with rtt.scala~ and mtof~. It also outputs the scale name and length from the second outlet. If the file exists in both the search path and the Max Scala Archive, it uses the @preferarchive attribute (default = 1) to decide which version to use."
 				}
 

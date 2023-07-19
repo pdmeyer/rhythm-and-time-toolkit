@@ -1,5 +1,7 @@
 
 # Rhythm and Time Toolkit (rtt)
+<img width="250" alt="icon_500x203" src="https://github.com/pdmeyer/rhythm-and-time-toolkit/assets/44841504/1bb11649-91e4-4aac-8661-9d9b723b9442">
+
 Rhythm and Time Toolkit (RTT) is a package of [Max](https://cycling74.com/products/max) objects and patches for working with time, rhythm, and melody. RTT makes it easy to build a powerful, playable sequencers for instruments inside or outside of Max. It incorporates ideas from modular synthesis, drum machines, and computer music into an flexible set of tools for composition, beat making, and live performance. RTT’s objects were made with RNBO, and the package includes tons of help files, abstractions, extras, and examples that make it easy to get up and running quickly.
 
 ## Prerequisites

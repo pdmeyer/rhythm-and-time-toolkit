@@ -22,7 +22,7 @@ Once you've installed the package, click the Launch Button inside the package ma
 * Extras and Helpers: (/extras and /patchers/helpers)  Additional useful abstractions for using and learning about RTT
 
 ## About the Author
-Philip Meyer is in Los Angeles, CA. Philip is a [Max Certified Trainer](https://cycling74.com/certified-trainers). He creates video tutorials on sequencing in Max for his [YouTube channel](https://www.youtube.com/@p__meyer). You can find his website [here](https://philip-meyer.com/). He is [@p__meyer](https://www.instagram.com/p__meyer/) on Instagram and ntrm#3099 on Discord. 
+[Philip Meyer](https://philip-meyer.com/) is in Los Angeles, CA. Philip is a [Max Certified Trainer](https://cycling74.com/certified-trainers). He creates video tutorials on sequencing in Max for his [YouTube channel](https://www.youtube.com/@p__meyer). You can find his website [here](https://philip-meyer.com/). He is [@p__meyer](https://www.instagram.com/p__meyer/) on Instagram and ntrm#3099 on Discord. 
 
 ## Support
 Find video tutorials on RTT on [YouTube](https://www.youtube.com/playlist?list=PLyrJzbPfiEyDpgAKSHvtkVbw_VPBLCoQr).

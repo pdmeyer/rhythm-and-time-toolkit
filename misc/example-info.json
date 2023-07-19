@@ -102,5 +102,9 @@
 	"rtt.ex.transpose" : 	{
 		"digest" : "Create evolving melodies by transposing one sequence with another."
 	}
+,
+	"rtt.scala.parser" : 	{
+		"digest" : "Interpret Scala files for use with rtt.scala~, rtt.notes~ and mtof~."
+	}
 
 }

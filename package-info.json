@@ -1,7 +1,7 @@
 {
 	"name" : "Rhythm and Time Toolkit",
 	"displayname" : "",
-	"version" : "0.1.0",
+	"version" : "1.0.0",
 	"author" : "Philip Meyer",
 	"authors" : [  ],
 	"description" : "Rhythm and Time Toolkit is a collection of objects and patches for modular sequencing with signals. Quickly and easily build a sequencing network that can trigger Max, MIDI, or CV instruments. Made with RNBO",

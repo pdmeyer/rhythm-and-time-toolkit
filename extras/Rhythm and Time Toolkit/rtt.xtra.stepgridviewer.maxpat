@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 233.5, 520.0, 29.5, 22.0 ],
+					"patching_rect" : [ 233.5, 506.0, 29.5, 22.0 ],
 					"text" : "0 0"
 				}
 
@@ -56,9 +56,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 233.5, 491.0, 52.0, 22.0 ],
-					"text" : "sel 0"
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 233.5, 472.0, 52.5, 22.0 ],
+					"text" : "route 0"
 				}
 
 			}
@@ -141,8 +141,8 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.952941176470588, 0.580392156862745, 0.125490196078431, 1.0 ],
-					"activebgoncolor" : [ 0.235294117647059, 0.235294117647059, 0.235294117647059, 1.0 ],
+					"activebgcolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ],
+					"activebgoncolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
 					"id" : "obj-41",
 					"maxclass" : "live.text",
 					"numinlets" : 1,

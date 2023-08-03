@@ -2,15 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1302.0, 826.0, 834.0, 568.0 ],
+		"rect" : [ 879.0, 1180.0, 834.0, 568.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -302,12 +302,12 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 320.389297076633397, 134.930810829334291, 195.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 5 ],
+						"initial" : [ 1 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr octaves @type char @initial 5",
+					"text" : "pattr octaves @type char @initial 1",
 					"varname" : "octaves"
 				}
 

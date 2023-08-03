@@ -2,9 +2,9 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -64,7 +64,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "attribute",
 					"id" : "obj-9",
 					"index" : 3,
 					"maxclass" : "outlet",
@@ -132,9 +132,9 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -380,9 +380,9 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -681,7 +681,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 24.75, 225.0, 239.0, 35.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 8.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -730,7 +730,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "attribute value",
 					"id" : "obj-3",
 					"index" : 2,
 					"maxclass" : "outlet",
@@ -742,7 +742,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "\"set\" message",
 					"id" : "obj-2",
 					"index" : 1,
 					"maxclass" : "outlet",

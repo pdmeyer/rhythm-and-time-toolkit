@@ -2,9 +2,9 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -1423,7 +1423,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 497.389297076633397, 820.569189170665595, 158.0, 22.0 ],
-					"restore" : [ 0.56, 0.73, 0.55, 0.6, 0.0, 0.0, 0.2, 0.6 ],
+					"restore" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1767,7 +1767,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 63.278594153266852, 535.569189170665595, 125.0, 22.0 ],
 					"text" : "rtt.module.attrchecker"
 				}
@@ -1898,7 +1898,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 44.278594153266852, 6.523063056888589, 30.0, 30.0 ]
 				}
 

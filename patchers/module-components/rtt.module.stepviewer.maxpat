@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -225,8 +225,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 50.0, 256.557379722595215, 142.557374000549316, 22.0 ],
-					"text" : "gen~ seq.countviewer"
+					"patching_rect" : [ 50.0, 256.557379722595215, 117.0, 22.0 ],
+					"text" : "gen~ rtt.countviewer"
 				}
 
 			}
@@ -238,7 +238,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 49.999992276855465, 40.0, 30.0, 30.0 ]
 				}
 
@@ -301,20 +301,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-156", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-155", 0 ],
-					"source" : [ "obj-159", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-157", 1 ],
-					"source" : [ "obj-159", 1 ]
 				}
 
 			}

@@ -2,15 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 150.0, 160.0, 775.0, 472.0 ],
+		"rect" : [ 434.0, 169.0, 775.0, 472.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,25 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 0.631372549019608, 0.27843137254902, 0.180392156862745, 1.0 ],
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 272.278594153266852, 282.0, 246.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr pattern @type atom @default_priority 1",
+					"varname" : "pattern"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "trigger input",
 					"id" : "obj-3",
@@ -256,33 +275,13 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
-					"id" : "obj-26",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 272.278594153266852, 290.252572178840637, 250.0, 22.0 ],
-					"restore" : [ 0, 1, 0, 1, 0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr pattern @type atom @default_priority -1",
-					"varname" : "pattern"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "current step",
 					"id" : "obj-9",
 					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 188.050522678447606, 353.0, 30.0, 30.0 ]
+					"patching_rect" : [ 187.945260819933509, 353.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -323,7 +322,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 19.278594153266852, 30.523063056888589, 30.0, 30.0 ]
 				}
 
@@ -415,7 +414,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 3 ],
-					"source" : [ "obj-26", 0 ]
+					"source" : [ "obj-23", 0 ]
 				}
 
 			}

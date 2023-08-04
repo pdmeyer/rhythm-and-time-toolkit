@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 486.0, 165.0, 920.0, 618.0 ],
+		"rect" : [ 486.0, 165.0, 535.0, 618.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -64,11 +64,9 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "none",
-					"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 0.0 ],
-					"contdata" : 1,
-					"ghostbar" : 10,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-9",
+					"ignoreclick" : 1,
 					"maxclass" : "multislider",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -76,11 +74,12 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 391.5, 382.77197265625, 177.0, 69.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 21.0, 256.0, 63.0 ],
+					"presentation_rect" : [ 1.0, 41.0, 256.0, 58.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
+					"setstyle" : 1,
+					"settype" : 0,
 					"size" : 8,
-					"slidercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 0.0 ],
-					"thickness" : 1
+					"slidercolor" : [ 1.0, 1.0, 1.0, 0.35 ]
 				}
 
 			}
@@ -1032,7 +1031,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "none",
-					"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
+					"bgcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
 					"ghostbar" : 10,
 					"id" : "obj-4",
 					"maxclass" : "multislider",

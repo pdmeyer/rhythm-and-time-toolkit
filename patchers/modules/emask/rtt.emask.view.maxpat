@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 689.0, 87.0, 1036.0, 481.0 ],
+		"rect" : [ 134.0, 172.0, 1036.0, 481.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -59,7 +59,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 188.400014460086823, 16.75, 48.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 199.157826960086823, 21.0, 34.5, 18.0 ],
+					"presentation_rect" : [ 198.157826960086823, 21.0, 34.5, 18.0 ],
 					"text" : "seed",
 					"textjustification" : 2
 				}
@@ -149,7 +149,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 637.5, 297.75, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 170.780017042160011, 22.5, 32.719982957839989, 15.0 ],
+					"presentation_rect" : [ 169.780017042160011, 22.5, 32.719982957839989, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"lcdcolor" : 						{
 							"expression" : ""
@@ -321,11 +321,12 @@
 					"maxclass" : "bpatcher",
 					"name" : "rtt.module.patternui.maxpat",
 					"numinlets" : 3,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, -18.0 ],
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 42.0, 233.0, 238.5, 46.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 57.25, 226.780017042160011, 15.0 ],
+					"presentation_rect" : [ 0.0, 56.25, 226.780017042160011, 16.5 ],
 					"viewvisibility" : 1
 				}
 
@@ -384,7 +385,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 122.0, 301.25, 48.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 128.400014460086823, 21.0, 46.5, 18.0 ],
+					"presentation_rect" : [ 127.400014460086823, 21.0, 46.5, 18.0 ],
 					"text" : "variation",
 					"textjustification" : 2
 				}
@@ -560,7 +561,7 @@
 ,
 						"valueof" : 						{
 							"parameter_initial" : [ 8 ],
-							"parameter_longname" : "sequence length[1]",
+							"parameter_longname" : "sequence length[3]",
 							"parameter_mmax" : 255.0,
 							"parameter_mmin" : 1.0,
 							"parameter_order" : 2,
@@ -648,7 +649,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[1]",
+							"parameter_longname" : "live.text[20]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -692,7 +693,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button[1]",
+							"parameter_longname" : "live.button[6]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
@@ -765,7 +766,7 @@
 					"patching_rect" : [ 156.333333333333343, 136.25, 99.333333333333258, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.400014460086823, 1.5, 134.0, 18.0 ],
-					"text" : "asdf",
+					"text" : "mhelp.emask",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 

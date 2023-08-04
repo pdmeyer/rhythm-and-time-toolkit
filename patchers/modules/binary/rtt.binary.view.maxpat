@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 271.0, 241.0, 568.0, 779.0 ],
+		"rect" : [ 271.0, 169.0, 568.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -292,11 +292,11 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_longname" : "seed",
-							"parameter_mmax" : 4294967296.0,
+							"parameter_mmax" : 100.0,
 							"parameter_order" : 1,
 							"parameter_shortname" : "trigs",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 5
 						}
 
 					}
@@ -403,7 +403,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[11]",
+							"parameter_longname" : "live.text[35]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -497,7 +497,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 8.0,
 					"id" : "obj-3",
-					"items" : [ "sequence", ",", "steps", ",", "counter", ",", "output", ",", "trigger", ",", "seed", ",", "rotate" ],
+					"items" : [ "pattern", ",", "steps", ",", "counter", ",", "output", ",", "trigger", ",", "seed", ",", "rotate" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -514,13 +514,14 @@
 				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-5",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 228.166666666666742, 105.25, 36.0, 18.0 ],
+					"patching_rect" : [ 228.166666666666742, 105.25, 36.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.400014460086823, 2.0, 136.0, 18.0 ],
-					"text" : "bin",
+					"text" : "mhelp.binary",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -561,7 +562,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 138.666666666666742, 154.0, 231.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 41.0, 231.0, 18.0 ],
+					"presentation_rect" : [ 0.0, 41.0, 231.0, 18.135176891717947 ],
 					"viewvisibility" : 1
 				}
 

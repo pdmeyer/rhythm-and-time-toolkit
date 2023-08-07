@@ -64,9 +64,10 @@
 					"maxclass" : "bpatcher",
 					"name" : "rtt.module.patternui.maxpat",
 					"numinlets" : 3,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 32.0, 296.0, 257.0, 46.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 22.0, 310.0, 257.0, 46.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 39.635176891717947, 228.384389460086823, 19.0 ],
 					"viewvisibility" : 1
@@ -445,7 +446,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 22.0, 8.0, 30.0, 30.0 ]
+					"patching_rect" : [ 18.75, 21.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -484,7 +485,7 @@
 					"patching_rect" : [ 56.166666666666742, 181.0, 82.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.400014460086823, 0.5, 134.0, 18.0 ],
-					"text" : "euc",
+					"text" : "AAA",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 

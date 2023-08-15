@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 45.0, 326.0, 22.0, 22.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-38",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -57,8 +69,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "bang" ],
-					"patching_rect" : [ 381.75, 194.0, 66.0, 22.0 ],
-					"text" : "savedialog"
+					"patching_rect" : [ 381.75, 194.0, 103.0, 22.0 ],
+					"text" : "savedialog WAVE"
 				}
 
 			}
@@ -117,8 +129,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 149.25, 194.0, 67.0, 22.0 ],
-					"text" : "opendialog"
+					"patching_rect" : [ 149.25, 194.0, 101.0, 22.0 ],
+					"text" : "opendialog DATA"
 				}
 
 			}
@@ -274,7 +286,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "dictionary" ],
-					"patching_rect" : [ 45.0, 319.0, 269.0, 22.0 ],
+					"patching_rect" : [ 45.0, 296.0, 269.0, 22.0 ],
 					"text" : "fluid.concataudiofiles @destination #0_sound",
 					"varname" : "fluid.concataudiofiles"
 				}
@@ -429,6 +441,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-2", 0 ]
 				}
@@ -534,7 +553,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
+					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-34", 1 ]
 				}
 
@@ -606,7 +625,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
+					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -614,7 +633,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "fluid.audiofilesin.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/FluidCorpusManipulation/patchers",
 				"patcherrelativepath" : "../../../FluidCorpusManipulation/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -633,14 +652,14 @@
 			}
 , 			{
 				"name" : "fluid.concataudiofiles.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/FluidCorpusManipulation/patchers",
 				"patcherrelativepath" : "../../../FluidCorpusManipulation/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rtt.misc.philipmeyer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/seq/misc",
+				"bootpath" : "~/Documents/Max 9/Packages/rhythm-and-time-toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 486.0, 165.0, 535.0, 618.0 ],
+		"rect" : [ 486.0, 165.0, 957.0, 754.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -72,7 +72,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 391.5, 382.77197265625, 177.0, 69.0 ],
+					"patching_rect" : [ 362.5, 384.77197265625, 177.0, 69.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 41.0, 256.0, 58.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
@@ -102,7 +102,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 441.5, 310.588233000000002, 175.0, 22.0 ],
+					"patching_rect" : [ 421.5, 310.588233000000002, 175.0, 22.0 ],
 					"text" : "rtt.module.sequencestepviewer"
 				}
 
@@ -528,14 +528,13 @@
 				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-39",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 498.0, 110.0, 35.0, 29.0 ],
+					"patching_rect" : [ 498.0, 110.0, 35.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 0.0, 210.0, 18.0 ],
-					"text" : "dist_63198",
+					"text" : "dst",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -1031,7 +1030,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "none",
-					"bgcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
+					"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"ghostbar" : 10,
 					"id" : "obj-4",
 					"maxclass" : "multislider",
@@ -1050,7 +1049,7 @@
 					}
 ,
 					"setminmax" : [ 0.0, 1.0 ],
-					"size" : 8,
+					"size" : 7,
 					"slidercolor" : [ 0.792156862745098, 0.792156862745098, 0.031372549019608, 1.0 ],
 					"thickness" : 1
 				}
@@ -1085,8 +1084,8 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"border" : 0,
-					"cols" : 8,
-					"colwidth" : 31,
+					"cols" : 7,
+					"colwidth" : 36,
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -1290,6 +1289,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
+					"order" : 0,
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"order" : 1,
 					"source" : [ "obj-43", 0 ]
 				}
 

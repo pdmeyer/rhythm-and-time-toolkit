@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 327.0, 93.0, 722.0, 564.0 ],
+		"rect" : [ 327.0, 100.0, 722.0, 564.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 264.5, 111.0, 82.0, 22.0 ],
+					"text" : "route midiport"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-36",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 338.571192052980109, 261.0, 79.0, 22.0 ],
+					"patching_rect" : [ 431.571192052980109, 271.0, 79.0, 22.0 ],
 					"text" : "prepend auto"
 				}
 
@@ -69,7 +81,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 338.571192052980109, 128.0, 105.0, 22.0 ],
+					"patching_rect" : [ 431.571192052980109, 138.0, 105.0, 22.0 ],
 					"text" : "prepend controller"
 				}
 
@@ -82,7 +94,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 338.571192052980109, 100.0, 203.0, 22.0 ],
+					"patching_rect" : [ 431.571192052980109, 110.0, 203.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 1 ],
 						"parameter_enable" : 0,
@@ -101,7 +113,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 338.571192052980109, 201.0, 118.0, 22.0 ],
+					"patching_rect" : [ 431.571192052980109, 211.0, 118.0, 22.0 ],
 					"text" : "prepend autointerval"
 				}
 
@@ -114,7 +126,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 338.571192052980109, 173.0, 238.0, 22.0 ],
+					"patching_rect" : [ 431.571192052980109, 183.0, 238.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 50.0 ],
 						"parameter_enable" : 0,
@@ -134,7 +146,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 338.571192052980109, 232.0, 177.0, 22.0 ],
+					"patching_rect" : [ 431.571192052980109, 242.0, 177.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 0 ],
 						"parameter_enable" : 0,
@@ -153,7 +165,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 338.571192052980109, 63.0, 98.0, 22.0 ],
+					"patching_rect" : [ 431.571192052980109, 73.0, 98.0, 22.0 ],
 					"text" : "prepend channel"
 				}
 
@@ -177,7 +189,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 36.0, 296.0, 125.0, 22.0 ],
 					"text" : "rtt.module.attrchecker"
 				}
@@ -204,7 +216,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 303.571192052980109, 367.0, 158.0, 22.0 ],
+					"patching_rect" : [ 264.5, 331.0, 158.0, 22.0 ],
 					"restore" : [ "" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -224,7 +236,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 338.571192052980109, 35.0, 196.0, 22.0 ],
+					"patching_rect" : [ 431.571192052980109, 45.0, 196.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 1 ],
 						"parameter_enable" : 0,
@@ -265,7 +277,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 273.0, 31.0, 30.0, 30.0 ]
+					"patching_rect" : [ 350.0, 31.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -287,7 +299,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 212.0, 367.0, 71.0, 22.0 ],
+					"patching_rect" : [ 212.0, 367.0, 156.5, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -447,8 +459,22 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-45", 1 ],
+					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-6", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 1 ],
+					"source" : [ "obj-7", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}

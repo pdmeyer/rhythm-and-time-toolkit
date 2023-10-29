@@ -36,7 +36,7 @@ file.-->
             <digest>Tempo in beats per minute</digest>
         </attribute>
     </attributelist>
-    <description>Create ratcheting patterns and pulses trains with <o>rtt.retrig~</o> A pulse into
+    <description>Create ratcheting patterns and pulse trains with <o>rtt.retrig~</o> A pulse into
         the first inlet triggers a repeating sequence of pulses. The pulse interval can be modulated
         using a list.</description>
     <digest>Trigger pulse trains with pulses</digest>

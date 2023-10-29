@@ -20,8 +20,11 @@ file.-->
                 changes to parameters will be deferred until the input ramp wraps.</digest>
         </attribute>
         <attribute name="subdivmode" get="1" set="1" size="1" type="float64">
-            <digest>Determines whether <at>steps</at> or <at>subdiv</at> determines the pattern
-                length. </digest>
+            <digest> 
+            Determines whether steps or subdiv determines the phasor division. 
+            In polymetric mode, the phasor division is governed by subdiv, and the pattern length is set by the number of steps. 
+            In polyrhythm mode, the subdiv parameter is ignored, and steps sets both the phasor division and the number of counter steps.
+            </digest>
         </attribute>
         <attribute name="drunk2plus" get="1" set="1" size="1" type="float64">
             <digest>When <at>direction</at> is drunk2, this determines the probability that the
